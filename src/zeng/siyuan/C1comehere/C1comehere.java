@@ -139,7 +139,7 @@ public class C1comehere implements Serializable {
         OutputStream output_solr = null;
         try {
 
-            output = new FileOutputStream("/Users/vn0xrjh/daniel/14_GUIcopymacosx/c1comehere/src/zeng/siyuan/C1comehere/l.properties");
+            output = new FileOutputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\zeng\\siyuan\\C1comehere\\l.properties");
             // set the properties value
             jk.setProperty(c1, c1Path);
 
