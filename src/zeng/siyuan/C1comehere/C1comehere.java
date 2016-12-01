@@ -2,6 +2,7 @@ package zeng.siyuan.C1comehere;
 
 import loli.datepicker.DatePicker;
 import main.java.es.uvigo.esei.dojos.swing.todo.core.TodoApp;
+import voicelauncher.VoiceLauncher;
 import zeng.siyuan.autocomplete.JTextAreaExample;
 import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.findthebestexample;
 import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.findtheshortcut;
@@ -50,6 +51,23 @@ public class C1comehere implements Serializable {
     public static void main(String[] args) throws Exception {
         try
         {
+            Thread one=new Thread(){
+                public void run() {
+
+                    try{
+                        try {
+                            VoiceLauncher.a();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        System.out.println("Does it work?");
+                        Thread.sleep(1000);
+                        System.out.println("Nope, it doesnt...again.");
+                    } catch(InterruptedException v){System.out.println(v);}
+                }
+            };
+            one.start();
+
             Process p=Runtime.getRuntime().exec("\"cmd /c C:\\\\solr-6.2.0\\\\bin\\\\solr start\"");
             p.waitFor();
             BufferedReader reader=new BufferedReader(

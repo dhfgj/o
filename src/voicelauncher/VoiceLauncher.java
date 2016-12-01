@@ -20,7 +20,7 @@ import java.io.IOException;
  * @author ex094
  */
 public class VoiceLauncher {
-    public static void main(String[] args) throws IOException {
+    public static void a() throws IOException {
         //Configuration Object
         Configuration configuration = new Configuration();
 
