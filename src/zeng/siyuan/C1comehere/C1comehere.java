@@ -51,23 +51,6 @@ public class C1comehere implements Serializable {
     public static void main(String[] args) throws Exception {
         try
         {
-            Thread one=new Thread(){
-                public void run() {
-
-                    try{
-                        try {
-                            f.a();
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        }
-                        System.out.println("Does it work?");
-                        Thread.sleep(1000);
-                        System.out.println("Nope, it doesnt...again.");
-                    } catch(InterruptedException v){System.out.println(v);}
-                }
-            };
-            one.start();
-
             Process p=Runtime.getRuntime().exec("\"cmd /c C:\\\\solr-6.2.0\\\\bin\\\\solr start\"");
             p.waitFor();
             BufferedReader reader=new BufferedReader(
@@ -476,7 +459,21 @@ public class C1comehere implements Serializable {
             }
 
             public void keyPressed(KeyEvent e) {
-//                if (e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyChar() == KeyEvent.VK_ENTER) {
+                System.out.println(e.getKeyChar());
+                System.out.println(e.getKeyChar() == KeyEvent.VK_0);
+                System.out.println(e.getModifiers() == KeyEvent.CTRL_MASK);
+                if (e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyChar() == KeyEvent.VK_0) {
+                    System.out.println("voice commander");
+                    e.consume();
+                    Beep.sound(2000, 150);
+                    try {
+                        f.a();
+                    } catch (IOException e1) {
+                        e1.printStackTrace();
+                    }
+                }
+
+                //                if (e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyChar() == KeyEvent.VK_ENTER) {
                 //change maxc os mattping to ctrl and enter button
                 if (e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyChar() == KeyEvent.VK_ENTER) {
                     e.consume();
