@@ -2,7 +2,7 @@ package zeng.siyuan.C1comehere;
 
 import loli.datepicker.DatePicker;
 import main.java.es.uvigo.esei.dojos.swing.todo.core.TodoApp;
-import voicelauncher.VoiceLauncher;
+import voicelauncher.f;
 import zeng.siyuan.autocomplete.JTextAreaExample;
 import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.findthebestexample;
 import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.findtheshortcut;
@@ -56,7 +56,7 @@ public class C1comehere implements Serializable {
 
                     try{
                         try {
-                            VoiceLauncher.a();
+                            f.a();
                         } catch (IOException e) {
                             e.printStackTrace();
                         }
