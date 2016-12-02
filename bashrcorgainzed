@@ -17,9 +17,8 @@ alias mci='mvn clean install'
 
 
 
-alias c1='cd /Users/vn0xrjh/daniel/14_GUIcopymacosx/c1comehere'
+alias c1='cd C:/Development_Base/maxcox/maxcox-master'
 
-alias gesc='cd /Users/vn0xrjh/projects/gesc-services'
 
 
 

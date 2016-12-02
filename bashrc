@@ -30,7 +30,6 @@ alias ma='git checkout master'
 
 
 # git commiti and push to daneiel
-alias cpu='git commit -m "$1" && git push daniel'
 
 
 
@@ -54,7 +53,6 @@ alias gc="git checkout $1"
 alias gb="git branch"
 alias pull="git pull upstream master"
 
-alias m="git fetch daniel && git merge daniel/master"
 
 
 alias gs="git status"
@@ -90,8 +88,6 @@ blurfl
 alias a='git add $1'
 alias b="sublime ~/.bashrc"
 alias c='mvn clean'
-alias d='open /Users/vn0xrjh/Downloads'
-
 
 function g() {
 
@@ -111,7 +107,6 @@ function l() {
 
 
 
-alias m="git fetch daniel && git merge daniel/master"
 
 
 
@@ -122,9 +117,6 @@ alias s="source ~/.bashrc"
 
 
 alias o='open .'
-alias p='cd /Users/vn0xrjh/Projects  && ls && pwd'
-
-
 
 
 
@@ -172,11 +164,6 @@ alias ci='mvn clean install'
 
 
 
-alias c1='cd /Users/vn0xrjh/daniel/14_GUIcopymacosx/c1comehere && ls &&  pwd'
-
-alias gesc='cd /Users/vn0xrjh/projects/gesc-services && ls &&  pwd'
-
-
 
 
 # ..............................................................................................Directory......................................................................................
@@ -184,26 +171,9 @@ alias gesc='cd /Users/vn0xrjh/projects/gesc-services && ls &&  pwd'
 
 # alias cd='cd $1 && ls &&  pwd'
 
-alias mc='cd /Users/vn0xrjh/projects/merchant_center && ls &&  pwd'
-alias ru='cd /Users/vn0xrjh/projects/gesc-rules && ls &&  pwd'
-
-
-alias ca="cd /Users/vn0xrjh/app/utils/dsc-cassandra-3.0.8/bin && ls &&  pwd"
-alias cs='sudo /Users/vn0xrjh/app/utils/dsc-cassandra-2.1.14/bin/cassandra && ls &&  pwd'
-
-alias sc='cd /Users/vn0xrjh/projects/sc_automation && ls && pwd'
-
-alias au='cd /Users/vn0xrjh/projects1/sc_automation && ls &&  pwd'
-alias so='cd /Users/vn0xrjh/app/utils/solr-6.2.1/bin && ls &&  pwd'
-
 
 alias cdp="cd ~/projects/gesc-services && ls && pwd"
 
-alias d='open /Users/vn0xrjh/Downloads'
-
-alias doc='open /Users/vn0xrjh/Documents'
-alias de='open /Users/vn0xrjh/Desktop'
-alias p='cd /Users/vn0xrjh/projects  && ls && pwd'
 
 # ..............................................................................................File......................................................................................
 
@@ -214,12 +184,6 @@ alias b="sublime ~/.bashrc"
 # ..............................................................................................Backup......................................................................................
 
 # copy adn fuplica thte bashrc file to my c1comehere project
-
-cp ~/.bashrc /Users/vn0xrjh/daniel/14_GUIcopymacosx/c1comehere/bashrc
-cp -r  /Users/vn0xrjh/app/utils/dsc-cassandra-2.1.14/data/data /Users/vn0xrjh/daniel/14_GUIcopymacosx/c1comehere/backupcanssandra/data
-cp -r /Users/vn0xrjh/app/utils/solr-6.2.1/server/solr /Users/vn0xrjh/daniel/14_GUIcopymacosx/c1comehere/solrbkpbackup
-
-
 
 
 
@@ -248,8 +212,6 @@ alias suexplore='sudo open .'
 
 #self explanatory
 alias ...='cd ../../ && ls &&  pwd'
-
-alias ....=='cd /Users/vn0xrjh && ls &&  pwd'
 
 #earch subcategories
 alias f='sudo find . -print | grep -i $1'
@@ -409,14 +371,10 @@ alias via='gksudo gedit ~/.bash_aliases &'
 
 # ..............................................................................................C1 setup......................................................................................
 
-alias solrstart='sudo /Users/vn0xrjh/app/utils/solr-6.2.1/bin/solr start'
-
 
 # ..............................................................................................Automatic run......................................................................................
 
 export PATH="~/dse/bin:$PATH"
-export PATH="/Users/vn0xrjh/app/utils/dse/bin/cqlsh:$PATH"
-
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
 
 

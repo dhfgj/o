@@ -94,7 +94,7 @@ public class SolrDataDAO extends SolrBaseDAO {
 	public void addData(int id, String name, String path) throws Exception {
 		logger.info("Add to solr: ID = " + id + " name = " + name);
 
-//		server = getSolrConnectionfore();
+		server = getSolrConnectionfore();
 		// Populate solr document
 		SolrInputDocument doc = new SolrInputDocument();
 		doc.addField("id", id);
