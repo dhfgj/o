@@ -1,15 +1,16 @@
 package zeng.siyuan.C1comehere;
 
+import fg.f;
 import loli.datepicker.DatePicker;
 import main.java.es.uvigo.esei.dojos.swing.todo.core.TodoApp;
-import fg.f;
-import zeng.siyuan.k.JTextAreaExample;
 import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.findthebestexample;
 import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.findtheshortcut;
 import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.findtutroial.findtheshortcutyoutututouiral;
 import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.gooogle;
 import zeng.siyuan.button.untoggle;
 import zeng.siyuan.howt2forgert.How2Forgert;
+import zeng.siyuan.k.JTextAreaExample;
+import zeng.siyuan.reuseutil.r;
 import zeng.siyuan.solr.test.param.dao.SolrDataDAO;
 import zeng.siyuan.youknowwhat.YouKnowWhat;
 
@@ -578,7 +579,7 @@ public class C1comehere implements Serializable {
 
 
                         String searchTrs = "";
-                        if (searchEngines.containsKey(buttonSelected)) {
+                        if (searchEngines.containsKey(textArea.getText().substring(0, 3))) {
                             String text = textArea.getText().trim();
 
                             if (!text.isEmpty()) {
@@ -587,7 +588,10 @@ public class C1comehere implements Serializable {
                                     String line = in.nextLine();
                                     if (line.length() > 4) {
                                         search = searchEngines.get(line.substring(0, 3));
-                                        searchTrs = line.substring(4);
+                                        searchTrs = line.substring(3);
+                                        search.setURI(searchTrs);
+
+                                        r.o(search.getURIString());
                                     } else {
                                     }
                                 }
@@ -635,7 +639,7 @@ public class C1comehere implements Serializable {
                          */
 
 
-                        if (textArea.getText().equalsIgnoreCase("TodoApp")) {
+                        else if (textArea.getText().equalsIgnoreCase("TodoApp")) {
                             try {
                                 TodoApp.todo();
                             } catch (ClassNotFoundException e1) {
@@ -1045,7 +1049,7 @@ public class C1comehere implements Serializable {
 
 
     static {
-        searchEngines.put("sg ", new Search("Google", "sg ", "http://www.google.com/search?q=%s", "+"));
+        searchEngines.put("bi ", new Search("Bing", "bi ", "http://www.bing.com/search?q=%s", "+"));
         searchEngines.put("sd ", new Search("Dictionary", "sd ", "http://www.dictionary.com/browse/%s?s=t", "%20"));
         searchEngines.put("su ", new Search("UrbanDictionary", "su ", "http://www.urbandictionary.com/define.php?term=%s", "%20"));
         searchEngines.put("st ", new Search("Treasure", "st ", "http://www.thesaurus.com/browse/%s?s=t", "%20"));
