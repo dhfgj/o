@@ -1,4 +1,4 @@
-package zeng.siyuan.autohotkey;
+package d;
 // All depends can be found here: http://apps.aboutscript.com/jhk/JHK.zip
 // Video: http://youtu.be/EX0iT0NTTjw
 

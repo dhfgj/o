@@ -1,4 +1,4 @@
-package zeng.siyuan.autocomplete;
+package zeng.siyuan.k;
 
 import zeng.siyuan.solr.solr;
 

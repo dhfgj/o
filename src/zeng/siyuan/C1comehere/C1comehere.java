@@ -2,8 +2,8 @@ package zeng.siyuan.C1comehere;
 
 import loli.datepicker.DatePicker;
 import main.java.es.uvigo.esei.dojos.swing.todo.core.TodoApp;
-import voicelauncher.f;
-import zeng.siyuan.autocomplete.JTextAreaExample;
+import fg.f;
+import zeng.siyuan.k.JTextAreaExample;
 import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.findthebestexample;
 import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.findtheshortcut;
 import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.findtutroial.findtheshortcutyoutututouiral;
@@ -51,22 +51,12 @@ public class C1comehere implements Serializable {
     public static void main(String[] args) throws Exception {
         try
         {
-            Process p=Runtime.getRuntime().exec("\"cmd /c C:\\\\solr-6.2.0\\\\bin\\\\solr start\"");
+            Process p=Runtime.getRuntime().exec("cmd /c C:\\solr-6.2.0\\bin\\solr start");
             p.waitFor();
             BufferedReader reader=new BufferedReader(
                     new InputStreamReader(p.getInputStream())
             );
             String line;
-            while((line = reader.readLine()) != null)
-            {
-                System.out.println(line);
-            }
-            p=Runtime.getRuntime().exec("\"cmd /c C:/Program Files/DataStax Community/apache-cassandra/bin/cassandra start");
-            p.waitFor();
-            reader=new BufferedReader(
-                    new InputStreamReader(p.getInputStream())
-            );
-
             while((line = reader.readLine()) != null)
             {
                 System.out.println(line);
@@ -77,6 +67,9 @@ public class C1comehere implements Serializable {
         catch(InterruptedException e2) {}
 
         System.out.println("Done");
+
+
+
 
 
 
@@ -457,7 +450,7 @@ public class C1comehere implements Serializable {
             public void keyTyped(KeyEvent e) {
 
             }
-
+// nobody know swhat he is doing
             public void keyPressed(KeyEvent e) {
                 System.out.println(e.getKeyChar());
                 System.out.println(e.getKeyChar() == KeyEvent.VK_0);
