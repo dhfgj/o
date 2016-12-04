@@ -1,14 +1,12 @@
 package main.core;
 
+import org.apache.commons.io.FilenameUtils;
 import zeng.siyuan.reuseutil.r;
 
 import javax.swing.*;
 import javax.swing.UIManager.LookAndFeelInfo;
 import java.io.*;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class TodoApp {
 	public static transient Properties prop;
@@ -21,23 +19,42 @@ public class TodoApp {
 		try {
 			output = new FileOutputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\main\\resources\\c1s.properties");
 
-				File directory = new File("C:\\Users\\SiyuanZeng's\\Videos\\Movie\\Xu Wei");
+//				File directory = new File("C:\\Users\\SiyuanZeng's\\Videos\\Movie\\Xu Wei");
 				//get all the files from a directory
 //				File[] fList = directory.listFiles();
-			List s  = Files.walk(Paths.get("C:\\Users\\SiyuanZeng's\\Music\\Music"))
-					.filter(Files::isRegularFile)
-					.collect(Collectors.toList());
+
+			String[] extensions = new String[] {
+					"3G2",
+					"3GP",
+					"ASF",
+					"AVI",
+					"FLV",
+					"M4V",
+					"MOV",
+					"MP4",
+					"MPG",
+					"RM",
+					"SRT",
+					"SWF",
+					"VOB",
+					"WMV",
+					"AIF",
+					"IFF",
+					"M3U",
+					"M4A",
+					"MID",
+					"MP3",
+					"MPA",
+					"VOB",
+					"WAV",
+					"WMA"
+
+			};
+//			File dir = new File();
+
+			listAllFiles("C:\\Users\\SiyuanZeng's\\Music\\Canon");
 
 
-			for (Object f : s){
-				File file = (File) f;
-					if (file.isFile()){
-						c1 = file.getName().replace(" ", "%20");
-						System.out.println("c1come2melater();");
-						// set the properties value
-						prop.setProperty(c1, file.getAbsolutePath());
-					}
-				}
 
 
 			// save properties to project root folder
@@ -77,6 +94,33 @@ public class TodoApp {
 			}
 		}
 	}
+
+
+	public static void listAllFiles(String path) {
+		File root = new File(path);
+		File[] list = root.listFiles();
+		if (list != null) {  // In case of access error, list is null
+			for (File file : list) {
+				if (file.isDirectory()) {
+					listAllFiles(file.getAbsolutePath());
+				} else {
+					String ext1 = FilenameUtils.getExtension(file.getAbsolutePath());
+					boolean f = !ext1.equalsIgnoreCase("jpg") &&
+					!ext1.equalsIgnoreCase("txt") &&
+					!ext1.equalsIgnoreCase("ini") &&
+					!ext1.equalsIgnoreCase("lrc");
+							if (file.isFile() && f) {
+							String c1 = file.getName().replace(" ", "%20");
+							// set the properties value
+							prop.setProperty(c1, file.getAbsolutePath());
+					System.out.println(file.getAbsoluteFile());
+						}
+					}
+
+				}
+			}
+	}
+
 
 
 
@@ -140,8 +184,8 @@ public class TodoApp {
 	}
 
 	public static void main(String[] args) throws ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException {
-//		TodoApp.todo();
-		c1come2melater(null, null);
+		TodoApp.todo();
+//		c1come2melater(null, null);
 	}
 
 	public static void todo() throws ClassNotFoundException, InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException {

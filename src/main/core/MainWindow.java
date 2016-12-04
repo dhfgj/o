@@ -123,7 +123,7 @@ public class MainWindow extends JFrame{
 							// Double-click detected
 							System.out.println(list.getSelectedValue());
 						System.out.println((String)prop.get(list.getSelectedValue()));
-							r.o((String)prop.get(list.getSelectedValue()));
+							r.open((String)prop.get(list.getSelectedValue()));
 					}
 				}
 			});
