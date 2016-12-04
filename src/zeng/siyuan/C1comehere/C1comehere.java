@@ -460,12 +460,18 @@ public class C1comehere implements Serializable {
                     System.out.println("voice commander");
                     e.consume();
                     Beep.sound(2000, 150);
-                    try {
-                        f.a();
-                    } catch (IOException e1) {
-                        e1.printStackTrace();
+                    Thread a = new Thread(() -> {
+                        try {
+                            f.a();
+                        } catch (IOException e1) {
+                            e1.printStackTrace();
+                        }
                     }
+                    );
+                    a.start();
+
                 }
+
 
                 //                if (e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyChar() == KeyEvent.VK_ENTER) {
                 //change maxc os mattping to ctrl and enter button

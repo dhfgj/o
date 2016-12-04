@@ -105,8 +105,4 @@ public class ListFilesUtil {
         listFilesUtil.listFilesf(directoryWindows);
     }
 
-
-
-
-
 }

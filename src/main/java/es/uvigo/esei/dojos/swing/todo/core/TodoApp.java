@@ -1,5 +1,7 @@
 package main.java.es.uvigo.esei.dojos.swing.todo.core;
 
+import zeng.siyuan.reuseutil.r;
+
 import javax.swing.*;
 import javax.swing.UIManager.LookAndFeelInfo;
 import java.io.FileInputStream;
@@ -9,6 +11,9 @@ import java.util.*;
 
 public class TodoApp {
 	public static transient Properties prop;
+
+
+
 
 
 	public static void c1s() {
@@ -87,6 +92,20 @@ public class TodoApp {
 		MainWindow window = new MainWindow(t, prop);
 		window.setLocationRelativeTo( null );
 		window.setVisible(true);
+	}
+
+	public static void dkk() throws ClassNotFoundException, InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException {
+		c1s();
+
+		Iterator itr = prop.keySet().iterator();
+		List<String> lists = new ArrayList<String>();
+		while(itr.hasNext()) {
+			lists.add((String) itr.next());
+		}
+
+		Random random = new Random();
+		String s = lists.get(r.randInt(0,lists.size()-1));
+		r.open((String) prop.get(s));
 	}
 
 	private static void configureLookAndFeel() {

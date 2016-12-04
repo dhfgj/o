@@ -10,8 +10,10 @@ package fg;
 import edu.cmu.sphinx.api.Configuration;
 import edu.cmu.sphinx.api.LiveSpeechRecognizer;
 import edu.cmu.sphinx.api.SpeechResult;
+import main.java.es.uvigo.esei.dojos.swing.todo.core.TodoApp;
 import zeng.siyuan.reuseutil.r;
 
+import javax.swing.*;
 import java.io.IOException;
 
 
@@ -136,6 +138,63 @@ public class f {
 
             else if (command.equalsIgnoreCase("hey computer browser")) {
                 r.o("http://www.yahoo.com");
+            }
+
+            else if (command.equalsIgnoreCase("hey computer music")) {
+                try {
+                    TodoApp.dkk();
+                } catch (ClassNotFoundException e) {
+                    e.printStackTrace();
+                } catch (InstantiationException e) {
+                    e.printStackTrace();
+                } catch (IllegalAccessException e) {
+                    e.printStackTrace();
+                } catch (UnsupportedLookAndFeelException e) {
+                    e.printStackTrace();
+                }
+            }
+
+            else if (command.equalsIgnoreCase("hey computer play music")) {
+                try {
+                    TodoApp.dkk();
+                } catch (ClassNotFoundException e) {
+                    e.printStackTrace();
+                } catch (InstantiationException e) {
+                    e.printStackTrace();
+                } catch (IllegalAccessException e) {
+                    e.printStackTrace();
+                } catch (UnsupportedLookAndFeelException e) {
+                    e.printStackTrace();
+                }
+            }
+
+
+            else if (command.equalsIgnoreCase("music")) {
+                try {
+                    TodoApp.dkk();
+                } catch (ClassNotFoundException e) {
+                    e.printStackTrace();
+                } catch (InstantiationException e) {
+                    e.printStackTrace();
+                } catch (IllegalAccessException e) {
+                    e.printStackTrace();
+                } catch (UnsupportedLookAndFeelException e) {
+                    e.printStackTrace();
+                }
+            }
+
+            else if (command.equalsIgnoreCase("play music")) {
+                try {
+                    TodoApp.dkk();
+                } catch (ClassNotFoundException e) {
+                    e.printStackTrace();
+                } catch (InstantiationException e) {
+                    e.printStackTrace();
+                } catch (IllegalAccessException e) {
+                    e.printStackTrace();
+                } catch (UnsupportedLookAndFeelException e) {
+                    e.printStackTrace();
+                }
             }
 
             else if (command.equalsIgnoreCase("terminal")) {
