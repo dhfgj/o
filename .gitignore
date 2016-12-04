@@ -1,17 +1,3 @@
 *.class
-.idea/inspectionProfiles/
-#Would skip repository sphinx4/
-target/
-target/*
-target/classes/com/
-target/classes/d/
-target/classes/fg/
-target/classes/main/core/
-target/classes/zeng/siyuan/k/
-target/classes/zeng/siyuan/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/l.properties
-target/generated-sources/
-workspace.xml
-target/classes/
-target/classes/c1s.properties
-target/classes/main/resources/*
-target/classes/main/resources/c1s.properties
+**/target/
+**/workspace.xml
