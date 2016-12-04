@@ -57,93 +57,97 @@ public class f {
             //Some Extra Commands from my Corpus File
             if(command.equalsIgnoreCase("open search")) {
                 work = "google-chrome http://www.google.com";
+                break;
             } else if (command.equalsIgnoreCase("new tab")) {
                 work = "google-chrome \\c";
-            }
+            break;}
 
             else if (command.equalsIgnoreCase("mail")) {
                 r.o("https://outlook.live.com/owa/");
-            }
+                break;}
             else if (command.equalsIgnoreCase("open mail")) {
                 r.o("https://outlook.live.com/owa/");
-            }
+                break;}
             else if (command.equalsIgnoreCase("hey computer mail")) {
                 r.o("https://outlook.live.com/owa/");
-            }
+                break;}
 
             else if (command.equalsIgnoreCase("hey computer hang out")) {
                 r.o("https://hangouts.google.com/");
-            }
+                break;}
             else if (command.equalsIgnoreCase("hey computer let's work")) {
                 r.o("https://hangouts.google.com/");
                 r.o("https://onedrive.live.com/edit.aspx?cid=6a74652c5386c5a5&page=view&resid=6A74652C5386C5A5!9569&parId=6A74652C5386C5A5!114&app=Word");
 
 
-            }
+                break;}
             else if (command.equalsIgnoreCase("work")) {
                 r.o("https://hangouts.google.com/");
                 r.o("https://onedrive.live.com/edit.aspx?cid=6a74652c5386c5a5&page=view&resid=6A74652C5386C5A5!9569&parId=6A74652C5386C5A5!114&app=Word");
 
 
-            }
+                break;}
             else if (command.equalsIgnoreCase("hang out")) {
                 r.o("https://hangouts.google.com/");
-            }
+                break;}
 
 
             else if (command.equalsIgnoreCase("hey open mail")) {
                 r.o("https://outlook.live.com/owa/");
-            }
+                break;}
 
             else if (command.equalsIgnoreCase("open linked in")) {
                 work = "google-chrome linkedin.com";
-            } else if (command.equalsIgnoreCase("open blog")) {
+                break;}
+
+            else if (command.equalsIgnoreCase("open blog")) {
                 work = "google-chrome procurity.wordpress.com";
 
 
 
-            } else if (command.equalsIgnoreCase("open git hub")) {
+                break;}
+                else if (command.equalsIgnoreCase("open git hub")) {
                 r.o("https://github.com/SiyuanZeng");
-            }
+                break;}
 
             else if (command.equalsIgnoreCase("hey git hub")) {
                 r.o("https://github.com/SiyuanZeng");
-            }
+                break;}
 
             else if (command.equalsIgnoreCase("open computer git hub")) {
                 r.o("https://github.com/SiyuanZeng");
-            }
+                break;}
             else if (command.equalsIgnoreCase("open computer one drive")) {
                 r.o("https://onedrive.live.com/?id=root&cid=6A74652C5386C5A5");
-            }
+                break;}
             else if (command.equalsIgnoreCase("open computer data model")) {
                 r.o("http://www.speech.cs.cmu.edu/tools/lmtool-new.html");
-            }
+                break;}
 
 
             else if (command.equalsIgnoreCase("browser")) {
                 r.o("http://www.yahoo.com");
-            }
+                break;}
 
             else if (command.equalsIgnoreCase("hey computer bing")) {
                 r.o("http://www.bing.com");
-            }
+                break;}
 
             else if (command.equalsIgnoreCase("hey bing")) {
                 r.o("http://www.bing.com");
-            }
+                break;}
 
             else if (command.equalsIgnoreCase("bing")) {
                 r.o("http://www.bing.com");
-            }
+                break;}
 
             else if (command.equalsIgnoreCase("hey computer browser")) {
                 r.o("http://www.yahoo.com");
-            }
+                break;}
 
             else if (command.equalsIgnoreCase("hey computer open browser")) {
                 r.o("http://www.yahoo.com");
-            }
+                break;}
 
             else if (command.equalsIgnoreCase("hey computer music")) {
                 try {
@@ -157,7 +161,7 @@ public class f {
                 } catch (UnsupportedLookAndFeelException e) {
                     e.printStackTrace();
                 }
-            }
+                break;}
 
             else if (command.equalsIgnoreCase("hey computer play music")) {
                 try {
@@ -171,19 +175,19 @@ public class f {
                 } catch (UnsupportedLookAndFeelException e) {
                     e.printStackTrace();
                 }
-            }
+                break;}
 
             else if (command.equalsIgnoreCase("hey computer play movie")) {
                     ListFilesUtil.pss("C:\\Users\\SiyuanZeng's\\Videos\\Movie");
-            }
+                break;}
 
             else if (command.equalsIgnoreCase("hey computer movie")) {
                     ListFilesUtil.pss("C:\\Users\\SiyuanZeng's\\Videos\\Movie");
-            }
+                break;}
 
             else if (command.equalsIgnoreCase("movie")) {
                     ListFilesUtil.pss("C:\\Users\\SiyuanZeng's\\Videos\\Movie");
-            }
+                break;}
 
 
             else if (command.equalsIgnoreCase("music")) {
@@ -198,8 +202,7 @@ public class f {
                 } catch (UnsupportedLookAndFeelException e) {
                     e.printStackTrace();
                 }
-            }
-
+                break;}
             else if (command.equalsIgnoreCase("play music")) {
                 try {
                     TodoApp.dkk();
@@ -211,14 +214,13 @@ public class f {
                     e.printStackTrace();
                 } catch (UnsupportedLookAndFeelException e) {
                     e.printStackTrace();
-                }
-            }
-
+                }break;}
             else if (command.equalsIgnoreCase("terminal")) {
                 work = "gnome-terminal";
-            } else if (command.equalsIgnoreCase("file manager")) {
+                break;}
+            else if (command.equalsIgnoreCase("file manager")) {
                 work = "nautilus";
-            }
+                break;}
 
             if(work != null) {
                 p = Runtime.getRuntime().exec(work);
