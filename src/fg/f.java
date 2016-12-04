@@ -11,6 +11,7 @@ import edu.cmu.sphinx.api.Configuration;
 import edu.cmu.sphinx.api.LiveSpeechRecognizer;
 import edu.cmu.sphinx.api.SpeechResult;
 import main.core.TodoApp;
+import zeng.siyuan.C1comehere.ListFilesUtil;
 import zeng.siyuan.reuseutil.r;
 
 import javax.swing.*;
@@ -140,6 +141,10 @@ public class f {
                 r.o("http://www.yahoo.com");
             }
 
+            else if (command.equalsIgnoreCase("hey computer open browser")) {
+                r.o("http://www.yahoo.com");
+            }
+
             else if (command.equalsIgnoreCase("hey computer music")) {
                 try {
                     TodoApp.dkk();
@@ -166,6 +171,18 @@ public class f {
                 } catch (UnsupportedLookAndFeelException e) {
                     e.printStackTrace();
                 }
+            }
+
+            else if (command.equalsIgnoreCase("hey computer play movie")) {
+                    ListFilesUtil.pss("C:\\Users\\SiyuanZeng's\\Videos\\Movie");
+            }
+
+            else if (command.equalsIgnoreCase("hey computer movie")) {
+                    ListFilesUtil.pss("C:\\Users\\SiyuanZeng's\\Videos\\Movie");
+            }
+
+            else if (command.equalsIgnoreCase("movie")) {
+                    ListFilesUtil.pss("C:\\Users\\SiyuanZeng's\\Videos\\Movie");
             }
 
 

@@ -1,12 +1,14 @@
-package com.loiane.util;
+package zeng.siyuan.C1comehere;
 
+import org.apache.commons.io.FileUtils;
 import zeng.siyuan.reuseutil.r;
 
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
+import java.util.Map;
+import java.util.Properties;
 import java.util.Random;
 import java.util.stream.Collectors;
 
@@ -139,6 +141,161 @@ public class ListFilesUtil {
 
         return null;
     }
+
+    public static List pss(String k) {
+        try {
+
+
+            File dir = new File(k);
+
+            String[] extensions = new String[] {
+                    "3G2",
+                    "3GP",
+                    "ASF",
+                    "AVI",
+                    "FLV",
+                    "M4V",
+                    "MOV",
+                    "MP4",
+                    "MPG",
+                    "RM",
+                    "SRT",
+                    "SWF",
+                    "VOB",
+                    "WMV"
+
+            };
+
+            System.out.println("Getting all .txt and .jsp files in " + dir.getCanonicalPath() + " including those in subdirectories");
+            List<File> files = (List<File>) FileUtils.listFiles(dir, extensions, true);
+
+
+            int a = Integer.parseInt(c1s());
+            a++;
+            File d = files.get(a);
+            r.o(d.getAbsolutePath());
+            c1come2melater("1", String.valueOf(a));
+
+            //            for (File file : files) {
+//                System.out.println("file: " + file.getAbsolutePath());
+//            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return null;
+    }
+
+
+    public static void c1come2melater(String c1, String c1Path) {
+
+        OutputStream output = null;
+        OutputStream output_solr = null;
+        try {
+
+            output = new FileOutputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\zeng\\siyuan\\C1comehere\\s.properties");
+            c1 = c1.replace(" ", "%20");
+            System.out.println("c1come2melater();");
+            // set the properties value
+            prop.setProperty(c1, c1Path);
+
+            // save properties to project root folder
+            prop.store(output, null);
+
+
+//			output_solr = new FileOutputStream("/Users/vn0xrjh/daniel/14_GUIcopymacosx/c1comehere/c1s.properties.solr");
+
+//			int count = 0;
+//			for (Map.Entry<Object, Object> e : prop.entrySet()) {
+//				String key = ((String) e.getKey()).replace("%20", " ");
+//				String v = (String) e.getValue();
+//				output_solr.write(String.valueOf(count).getBytes());
+//				output_solr.write(',');
+//				output_solr.write(key.getBytes());
+//				output_solr.write(',');
+//				output_solr.write(v.getBytes());
+//				output_solr.write(System.getProperty("line.separator").getBytes());
+//				count++;
+//			}
+//
+            c1s();
+        } catch (IOException io) {
+            io.printStackTrace();
+        } finally {
+            if (output != null) {
+                try {
+                    output.close();
+                    output_solr.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+
+
+    public static String c1s() {
+        prop = new Properties();
+        Properties temprop = new Properties();
+        InputStream input = null;
+
+        try {
+            input = new FileInputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\zeng\\siyuan\\C1comehere\\s.properties");
+            // fjlasdjfl a properties file
+            temprop.load(input);
+
+
+            for (Map.Entry<Object, Object> e : temprop.entrySet()) {
+                String key = ((String) e.getKey()).replace("%20", " ");
+                String v = (String) e.getValue();
+                prop.put(key, v);
+            }
+            System.out.println("Done Propertiesy loading");
+
+            return (String) prop.get("1");
+/*
+            SolrDataDAO solrBaseDAO = null;
+            try {
+                solrBaseDAO = new SolrDataDAO();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+            int count =1;
+            for (Map.Entry<Object, Object> e : prop.entrySet()) {
+                System.out.println(count);
+                String key = ((String) e.getKey()).replace("%20", " ");
+                String v = (String) e.getValue();
+                try {
+                    solrBaseDAO.addData(count, key,v);
+                } catch (Exception e1) {
+                    e1.printStackTrace();
+                }
+                count++;
+            }
+            System.out.println("stop");
+
+*/
+
+
+
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        } finally {
+            if (input != null) {
+                try {
+                    input.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        return null;
+
+    }
+    public static transient Properties prop;
 
 
 }
