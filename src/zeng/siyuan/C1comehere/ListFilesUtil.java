@@ -1,8 +1,14 @@
 package com.loiane.util;
+
 import zeng.siyuan.reuseutil.r;
 
 import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.List;
 import java.util.Random;
+import java.util.stream.Collectors;
 
 /**
  * Contains some methods to list files and folders from a directory
@@ -104,5 +110,35 @@ public class ListFilesUtil {
         listFilesUtil.listFiles(directoryWindows);
         listFilesUtil.listFilesf(directoryWindows);
     }
+
+
+
+    public static void p(String k) {
+        try {
+            Files.walk(Paths.get(k))
+                    .filter(Files::isRegularFile)
+                    .forEach(System.out::println)
+            ;
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    public static List ps(String k) {
+        try {
+            List s  = Files.walk(Paths.get(k))
+                    .filter(Files::isRegularFile)
+                    .collect(Collectors.toList());
+
+    return s;
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return null;
+    }
+
 
 }
