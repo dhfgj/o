@@ -177,6 +177,48 @@ public class f {
                 }
                 break;}
 
+            else if (command.equalsIgnoreCase("hey lap top play music")) {
+                try {
+                    TodoApp.dkk();
+                } catch (ClassNotFoundException e) {
+                    e.printStackTrace();
+                } catch (InstantiationException e) {
+                    e.printStackTrace();
+                } catch (IllegalAccessException e) {
+                    e.printStackTrace();
+                } catch (UnsupportedLookAndFeelException e) {
+                    e.printStackTrace();
+                }
+                break;}
+
+            else if (command.equalsIgnoreCase("hey lap top music")) {
+                try {
+                    TodoApp.dkk();
+                } catch (ClassNotFoundException e) {
+                    e.printStackTrace();
+                } catch (InstantiationException e) {
+                    e.printStackTrace();
+                } catch (IllegalAccessException e) {
+                    e.printStackTrace();
+                } catch (UnsupportedLookAndFeelException e) {
+                    e.printStackTrace();
+                }
+                break;}
+
+            else if (command.equalsIgnoreCase("lap top music")) {
+                try {
+                    TodoApp.dkk();
+                } catch (ClassNotFoundException e) {
+                    e.printStackTrace();
+                } catch (InstantiationException e) {
+                    e.printStackTrace();
+                } catch (IllegalAccessException e) {
+                    e.printStackTrace();
+                } catch (UnsupportedLookAndFeelException e) {
+                    e.printStackTrace();
+                }
+                break;}
+
             else if (command.equalsIgnoreCase("hey computer play movie")) {
                     ListFilesUtil.pss("C:\\Users\\SiyuanZeng's\\Videos\\Movie");
                 break;}

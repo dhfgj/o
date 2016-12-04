@@ -11,13 +11,13 @@
   <component name="ChangeListManager">
     <list default="true" id="5a421b49-605d-4e6f-8d52-2915556c64cd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/zeng/siyuan/C1comehere/C1comehere$1.class" afterPath="$PROJECT_DIR$/target/classes/zeng/siyuan/C1comehere/C1comehere$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/zeng/siyuan/C1comehere/C1comehere$2.class" afterPath="$PROJECT_DIR$/target/classes/zeng/siyuan/C1comehere/C1comehere$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/zeng/siyuan/C1comehere/C1comehere.class" afterPath="$PROJECT_DIR$/target/classes/zeng/siyuan/C1comehere/C1comehere.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/core/MainWindowTable.java" afterPath="$PROJECT_DIR$/src/main/core/MainWindowTable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/j/hj/d.java" afterPath="$PROJECT_DIR$/src/main/j/hj/d.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java" afterPath="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/d.properties" afterPath="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/d.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zeng/siyuan/betteresearchennebetterthangoogleandfindweehtehrething/findessentioal/findthebestexample.java" afterPath="$PROJECT_DIR$/src/zeng/siyuan/betteresearchennebetterthangoogleandfindweehtehrething/findessentioal/findthebestexample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/zeng/siyuan/cassandra.cql" afterPath="$PROJECT_DIR$/target/classes/zeng/siyuan/cassandra.cql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fg/7707.dic" afterPath="$PROJECT_DIR$/src/fg/7707.dic" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fg/7707.lm" afterPath="$PROJECT_DIR$/src/fg/7707.lm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fg/f.java" afterPath="$PROJECT_DIR$/src/fg/f.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fg/v" afterPath="$PROJECT_DIR$/src/fg/v" />
     </list>
     <ignored path="c1comehere.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,84 +78,84 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vg.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/j/hj/vg.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="n.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/j/hj/n.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="h.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/j/hj/h.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="264" column="0" lean-forward="false" selection-start-line="264" selection-start-column="0" selection-end-line="264" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="f.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fg/f.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="687">
-              <caret line="228" column="8" lean-forward="true" selection-start-line="228" selection-start-column="8" selection-end-line="228" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="C1comehere.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="821" column="25" lean-forward="true" selection-start-line="821" selection-start-column="25" selection-end-line="821" selection-end-column="25" />
+            <state relative-caret-position="149">
+              <caret line="584" column="0" lean-forward="false" selection-start-line="584" selection-start-column="0" selection-end-line="584" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stopwords_fr.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solrbkpbackup/solr/configsets/sample_techproducts_configs/conf/lang/stopwords_fr.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stopwords_fr.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solrbkpbackup/solr/configsets/data_driven_schema_configs/conf/lang/stopwords_fr.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="peoplequesiton.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="peoplequesiton.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/peoplequesiton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="60" column="154" lean-forward="false" selection-start-line="60" selection-start-column="154" selection-end-line="60" selection-end-column="154" />
+            <state relative-caret-position="177">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <marker date="1480838367206" expanded="false" signature="1156:1173" ph="&lt;~&gt;" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="c1s.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/j/resources/c1s.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="f.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/fg/f.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="206" column="0" lean-forward="true" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="d" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fg/d">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="50" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="v" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fg/v">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="7707.dic" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fg/7707.dic">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="7707.lm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fg/7707.lm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="118" column="19" lean-forward="true" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -243,8 +243,6 @@
         <option value="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/SwingShortcutDemo.java" />
         <option value="$PROJECT_DIR$/src/zeng/siyuan/reuseutil/r.java" />
         <option value="$PROJECT_DIR$/src/main/java/es/uvigo/esei/dojos/swing/todo/core/TodoApp.java" />
-        <option value="$PROJECT_DIR$/src/fg/7707.dic" />
-        <option value="$PROJECT_DIR$/src/fg/7707.lm" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/zeng/siyuan/iamhere/what/dk.java" />
         <option value="$PROJECT_DIR$/src/main/core/MainWindowTable.java" />
@@ -253,7 +251,6 @@
         <option value="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/t.java" />
         <option value="$PROJECT_DIR$/.git/info/exclude" />
         <option value="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/ListFilesUtil.java" />
-        <option value="$PROJECT_DIR$/src/fg/v" />
         <option value="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/s.properties" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/d.properties" />
@@ -261,8 +258,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/c1s.properties" />
         <option value="$PROJECT_DIR$/src/main/core/MainWindow.java" />
         <option value="$PROJECT_DIR$/src/main/core/TodoApp.java" />
-        <option value="$PROJECT_DIR$/src/fg/d" />
-        <option value="$PROJECT_DIR$/src/fg/f.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/j/core/TodoApp.java" />
         <option value="$PROJECT_DIR$/src/main/j/core/TodoApp.java" />
@@ -275,6 +270,11 @@
         <option value="$PROJECT_DIR$/src/zeng/siyuan/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/peoplequesiton.java" />
         <option value="$PROJECT_DIR$/src/main/j/hj/d.java" />
         <option value="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java" />
+        <option value="$PROJECT_DIR$/src/fg/d" />
+        <option value="$PROJECT_DIR$/src/fg/v" />
+        <option value="$PROJECT_DIR$/src/fg/7707.dic" />
+        <option value="$PROJECT_DIR$/src/fg/7707.lm" />
+        <option value="$PROJECT_DIR$/src/fg/f.java" />
       </list>
     </option>
   </component>
@@ -676,76 +676,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="C1comehere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="c1comehere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maxcox-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="c1comehere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maxcox-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="c1comehere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maxcox-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="j" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hj" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2250,7 +2180,7 @@
       <workItem from="1480705400892" duration="11579000" />
       <workItem from="1480796757913" duration="333000" />
       <workItem from="1480797174386" duration="13661000" />
-      <workItem from="1480816380394" duration="18779000" />
+      <workItem from="1480816380394" duration="20105000" />
     </task>
     <task id="LOCAL-00001" summary="refactor search engine">
       <created>1472094513325</created>
@@ -2560,11 +2490,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480837028253</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="1">
+      <created>1480838624620</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1480838624620</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1090310000" />
+    <option name="totallyTimeSpent" value="1091636000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -3131,20 +3068,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/related jar/solr-solrj-4.2.0.jar!/org/apache/solr/client/solrj/request/RequestWriter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/d/AutoHotkeyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/k/automcomeplte.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -3333,22 +3256,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fg/v">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fg/d">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="50" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/c1s.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -3458,22 +3365,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/j/resources/c1s.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fg/f.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
-          <caret line="228" column="8" lean-forward="true" selection-start-line="228" selection-start-column="8" selection-end-line="228" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solrbkpbackup/solr/configsets/sample_techproducts_configs/conf/lang/stopwords_fr.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -3530,21 +3421,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java">
+    <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/peoplequesiton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="821" column="25" lean-forward="true" selection-start-line="821" selection-start-column="25" selection-end-line="821" selection-end-column="25" />
+        <state relative-caret-position="177">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <marker date="1480838367206" expanded="false" signature="1156:1173" ph="&lt;~&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/j/resources/c1s.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/peoplequesiton.java">
+    <entry file="file://$PROJECT_DIR$/src/fg/d">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="60" column="154" lean-forward="false" selection-start-line="60" selection-start-column="154" selection-end-line="60" selection-end-column="154" />
-          <folding>
-            <marker date="1480838367206" expanded="false" signature="1156:1173" ph="&lt;~&gt;" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="50" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fg/v">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fg/7707.dic">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fg/7707.lm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="118" column="19" lean-forward="true" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="584" column="0" lean-forward="false" selection-start-line="584" selection-start-column="0" selection-end-line="584" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fg/f.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="206" column="0" lean-forward="true" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
