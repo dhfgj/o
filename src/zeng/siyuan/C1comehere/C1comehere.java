@@ -858,7 +858,7 @@ public class C1comehere implements Serializable {
                          */
 
 
-                        else if (textArea.getText().equalsIgnoreCase("TodoApp")) {
+                        else if (textArea.getText().equalsIgnoreCase("d")) {
                             try {
                                 main.core.TodoApp.todo();
                             } catch (ClassNotFoundException e1) {
