@@ -1,4 +1,4 @@
-package main.java.es.uvigo.esei.dojos.swing.todo.core;
+package main.core;
 
 import javax.swing.*;
 

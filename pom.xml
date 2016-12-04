@@ -50,6 +50,12 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
             <version>2.5</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.unix4j</groupId>
+            <artifactId>unix4j-command</artifactId>
+            <version>0.3</version>
+        </dependency>
+
     </dependencies>
 </project>
 

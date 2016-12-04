@@ -1,4 +1,4 @@
-package main.java.es.uvigo.esei.dojos.swing.todo.core;
+package main.core;
 
 import zeng.siyuan.reuseutil.r;
 
@@ -19,7 +19,7 @@ import static java.lang.Math.max;
 import static java.lang.Math.min;
 import static javax.swing.BorderFactory.createEmptyBorder;
 import static javax.swing.Box.createVerticalStrut;
-import static main.java.es.uvigo.esei.dojos.swing.todo.core.TodoApp.c1s;
+import static main.core.TodoApp.c1s;
 
 public class MainWindow extends JFrame{
 	private static final long serialVersionUID = 1L;
@@ -41,9 +41,9 @@ public class MainWindow extends JFrame{
 	public static transient Properties prop;
 
 
-	public MainWindow(TodoList t, Properties prop){
+	public MainWindow(main.core.TodoList t, Properties prop){
 		this.prop = prop;
-		this.todoListModel = new TodoListModel(t);
+		this.todoListModel = new main.core.TodoListModel(t);
 		
 		this.setContentPane( this.getMainContentPane() );
 		
@@ -346,7 +346,7 @@ public class MainWindow extends JFrame{
 				}
 				
 				private void updateLabel(ListDataEvent e) {
-					getStatusBar().setText("Number of tasks: "+((TodoListModel)e.getSource()).getSize());
+					getStatusBar().setText("Number of tasks: "+((main.core.TodoListModel)e.getSource()).getSize());
 				}
 				
 				@Override

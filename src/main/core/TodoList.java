@@ -1,4 +1,4 @@
-package main.java.es.uvigo.esei.dojos.swing.todo.core;
+package main.core;
 
 import java.util.Iterator;
 import java.util.LinkedList;

@@ -2,13 +2,13 @@ package zeng.siyuan.C1comehere;
 
 import fg.f;
 import loli.datepicker.DatePicker;
-import main.java.es.uvigo.esei.dojos.swing.todo.core.TodoApp;
 import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.findthebestexample;
 import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.findtheshortcut;
 import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.findtutroial.findtheshortcutyoutututouiral;
 import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.gooogle;
 import zeng.siyuan.button.untoggle;
 import zeng.siyuan.howt2forgert.How2Forgert;
+import zeng.siyuan.iamhere.what.dk;
 import zeng.siyuan.k.JTextAreaExample;
 import zeng.siyuan.reuseutil.r;
 import zeng.siyuan.solr.test.param.dao.SolrDataDAO;
@@ -585,7 +585,20 @@ public class C1comehere implements Serializable {
 
 
                         String searchTrs = "";
-                        if (searchEngines.containsKey(textArea.getText().substring(0, 3))) {
+
+                        System.out.println(textArea.getText());
+                        if (textArea.getText().startsWith("find ") || textArea.getText().split(" ").length==3) {
+                            Thread a = new Thread(() -> {
+                                //find *Friends* C:/Users/SiyuanZeng's/Videos/Friends
+                                    System.out.println(textArea.getText());
+                                    dk.mains(textArea.getText().split(" ")[1], textArea.getText().split(" ")[2]);
+
+                            }
+                            );
+                            a.start();
+                        }
+
+                        else if (searchEngines.containsKey(textArea.getText().substring(0, 3))) {
                             String text = textArea.getText().trim();
 
                             if (!text.isEmpty()) {
@@ -647,7 +660,7 @@ public class C1comehere implements Serializable {
 
                         else if (textArea.getText().equalsIgnoreCase("TodoApp")) {
                             try {
-                                TodoApp.todo();
+                                main.core.TodoApp.todo();
                             } catch (ClassNotFoundException e1) {
                                 e1.printStackTrace();
                             } catch (InstantiationException e1) {

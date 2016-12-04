@@ -10,7 +10,7 @@ package fg;
 import edu.cmu.sphinx.api.Configuration;
 import edu.cmu.sphinx.api.LiveSpeechRecognizer;
 import edu.cmu.sphinx.api.SpeechResult;
-import main.java.es.uvigo.esei.dojos.swing.todo.core.TodoApp;
+import main.core.TodoApp;
 import zeng.siyuan.reuseutil.r;
 
 import javax.swing.*;

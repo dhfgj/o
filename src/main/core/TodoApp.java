@@ -1,5 +1,6 @@
-package main.java.es.uvigo.esei.dojos.swing.todo.core;
+package main.core;
 
+import main.core.MainWindow;
 import zeng.siyuan.reuseutil.r;
 
 import javax.swing.*;
@@ -88,7 +89,7 @@ public class TodoApp {
 		while(itr.hasNext()) {
 			lists.add((String) itr.next());
 		}
-		TodoList t = new TodoList(lists);
+		main.core.TodoList t = new main.core.TodoList(lists);
 		MainWindow window = new MainWindow(t, prop);
 		window.setLocationRelativeTo( null );
 		window.setVisible(true);
