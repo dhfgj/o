@@ -23,11 +23,49 @@ public class t {
         HttpPost post = new HttpPost("http://textbelt.com/text");
         try
         {
+
+
             List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(1);
             nameValuePairs.add(new BasicNameValuePair("number", "3522136176"));
             nameValuePairs.add(new BasicNameValuePair("message", "I lve you"));
             post.setEntity(new UrlEncodedFormEntity(nameValuePairs));
             
+
+
+            HttpResponse response = client.execute(post);
+            BufferedReader rd = new BufferedReader(new InputStreamReader(response.getEntity().getContent()));
+            String line = "";
+            while ((line = rd.readLine()) != null)
+            {
+                System.out.println(line);
+            }
+
+        }
+        catch (IOException e)
+        {
+            e.printStackTrace();
+        }
+
+    }
+
+    public static void mains(String k, String args) throws IOException {
+        HttpClient client = new DefaultHttpClient();
+        HttpPost post = new HttpPost("http://textbelt.com/text");
+        try
+        {
+            String m = "3522136176";
+            if (k.equalsIgnoreCase("@baby")) {
+                m= "3522786256";
+            }
+
+            List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(1);
+
+
+
+            nameValuePairs.add(new BasicNameValuePair("number", m));
+            nameValuePairs.add(new BasicNameValuePair("message", args));
+            post.setEntity(new UrlEncodedFormEntity(nameValuePairs));
+
 
 
             HttpResponse response = client.execute(post);

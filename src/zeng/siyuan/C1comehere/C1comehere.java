@@ -587,7 +587,22 @@ public class C1comehere implements Serializable {
                         String searchTrs = "";
 
                         System.out.println(textArea.getText());
-                        if (textArea.getText().startsWith("find ") || textArea.getText().split(" ").length==3) {
+                        if (textArea.getText().startsWith("@baby") || textArea.getText().split(" ").length==2) {
+                            Thread a = new Thread(() -> {
+                                //find *Friends* C:/Users/SiyuanZeng's/Videos/Friends
+                                    System.out.println(textArea.getText());
+                                try {
+                                    t.mains(textArea.getText().split(" ")[0], textArea.getText().split(" ")[1]);
+                                } catch (IOException e1) {
+                                    e1.printStackTrace();
+                                }
+
+                            }
+                            );
+                            a.start();
+                        }
+
+                        else if (textArea.getText().startsWith("find ") || textArea.getText().split(" ").length==3) {
                             Thread a = new Thread(() -> {
                                 //find *Friends* C:/Users/SiyuanZeng's/Videos/Friends
                                     System.out.println(textArea.getText());
