@@ -46,6 +46,7 @@ public class C1comehere implements Serializable {
     public static Font font = new Font("Serif", Font.PLAIN, c.SIZE);
     public static untoggle untoggle;
     public static transient Properties prop;
+    public static transient Properties pdrop;
     public static transient Properties jk;
     public transient static Map<String, Search> searchEngines = new HashMap<String, Search>();
 
@@ -173,6 +174,52 @@ public class C1comehere implements Serializable {
         }
     }
 
+
+    public void dd(String c1, String c1Path) {
+
+        OutputStream output = null;
+        OutputStream output_solr = null;
+        try {
+
+            output = new FileOutputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\zeng\\siyuan\\C1comehere\\d.properties");
+            // set the properties value
+            pdrop.setProperty(c1, c1Path);
+
+            // save properties to project root folder
+            pdrop.store(output, null);
+
+
+/*
+            output_solr = new FileOutputStream("/Users/vn0xrjh/daniel/14_GUIcopymacosx/c1comehere/c1s.properties.solr");
+
+            int count = 0;
+            for (Map.Entry<Object, Object> e : prop.entrySet()) {
+                String key = ((String) e.getKey()).replace("%20", " ");
+                String v = (String) e.getValue();
+                output_solr.write(String.valueOf(count).getBytes());
+                output_solr.write(',');
+                output_solr.write(key.getBytes());
+                output_solr.write(',');
+                output_solr.write(v.getBytes());
+                output_solr.write(System.getProperty("line.separator").getBytes());
+                count++;
+            }
+*/
+
+            k();
+        } catch (IOException io) {
+            io.printStackTrace();
+        } finally {
+            if (output != null) {
+                try {
+                    output.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+
     public void c1s() {
         prop = new Properties();
         Properties temprop = new Properties();
@@ -231,6 +278,69 @@ public class C1comehere implements Serializable {
         }
 
     }
+
+
+    public void k() {
+        pdrop = new Properties();
+        Properties temprop = new Properties();
+        InputStream input = null;
+
+        try {
+            input = new FileInputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\zeng\\siyuan\\C1comehere\\d.properties");
+            // fjlasdjfl a properties file
+            temprop.load(input);
+
+
+            for (Map.Entry<Object, Object> e : temprop.entrySet()) {
+                String key = ((String) e.getKey()).replace("%20", " ");
+                String v = (String) e.getValue();
+                pdrop.put(key, v);
+            }
+            System.out.println("Done Propertiesy loading");
+
+/*
+            SolrDataDAO solrBaseDAO = null;
+            try {
+                solrBaseDAO = new SolrDataDAO();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+            int count =1;
+            for (Map.Entry<Object, Object> e : prop.entrySet()) {
+                System.out.println(count);
+                String key = ((String) e.getKey()).replace("%20", " ");
+                String v = (String) e.getValue();
+                try {
+                    solrBaseDAO.addData(count, key,v);
+                } catch (Exception e1) {
+                    e1.printStackTrace();
+                }
+                count++;
+            }
+            System.out.println("stop");
+
+*/
+
+
+
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        } finally {
+            if (input != null) {
+                try {
+                    input.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+
+    }
+
+
+    public static int k=0;
 
     public void c1ds() {
         jk = new Properties();
@@ -445,6 +555,8 @@ public class C1comehere implements Serializable {
         j.frame = frame;
         j.init();
 
+        k();
+
 
         textArea.addKeyListener(new KeyListener() {
             @Override
@@ -455,6 +567,13 @@ public class C1comehere implements Serializable {
             public void keyPressed(KeyEvent e) {
                 System.out.println(e.getKeyChar());
                 System.out.println(e.getKeyChar() == KeyEvent.VK_0);
+                System.out.println("up");
+                System.out.println(e.getKeyChar() == KeyEvent.VK_LEFT);
+                System.out.println(e.getKeyChar());
+                System.out.println("DOWN");
+                System.out.println(e.getKeyChar() == KeyEvent.VK_RIGHT);
+                System.out.println(e.getKeyChar());
+                System.out.println("contrl");
                 System.out.println(e.getModifiers() == KeyEvent.CTRL_MASK);
                 if (e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyChar() == KeyEvent.VK_0) {
                     System.out.println("voice commander");
@@ -472,12 +591,45 @@ public class C1comehere implements Serializable {
 
                 }
 
+                if (e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyCode()==38) {
+                    System.out.println("voice commander");
+                    k = k-1;
+                    if (k>=0) {
+                        textArea.setText((String) pdrop.get(String.valueOf(k)));
+                    } else {
+                        k=0;
+                        textArea.setText("");
+
+                    }
+                }
+
+                if (e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyCode()==40) {
+                    System.out.println("voice commander");
+                    k = k+1;
+                    if (k<pdrop.size()){
+                        textArea.setText((String) pdrop.get(String.valueOf(k)));
+                    }else {
+                        k=pdrop.size()-1;
+                        textArea.setText("");
+                    }
+                }
+
 
                 //                if (e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyChar() == KeyEvent.VK_ENTER) {
                 //change maxc os mattping to ctrl and enter button
                 if (e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyChar() == KeyEvent.VK_ENTER) {
                     e.consume();
                     Beep.sound(2000, 150);
+
+                    k();
+                    int i = pdrop.size();
+
+                    dd(String.valueOf(i), textArea.getText());
+                    k = pdrop.size();
+
+
+
+
                     try {
                         String buttonSelected = "";
                         for (Enumeration<AbstractButton> buttons = untoggle.bg.getElements(); buttons.hasMoreElements(); ) {
@@ -587,7 +739,7 @@ public class C1comehere implements Serializable {
                         String searchTrs = "";
 
                         System.out.println(textArea.getText());
-                        if (textArea.getText().startsWith("@baby") || textArea.getText().split(" ").length==2) {
+                        if (textArea.getText().indexOf("baby")==1 && textArea.getText().split(" ").length==2) {
                             Thread a = new Thread(() -> {
                                 //find *Friends* C:/Users/SiyuanZeng's/Videos/Friends
                                     System.out.println(textArea.getText());
@@ -602,7 +754,7 @@ public class C1comehere implements Serializable {
                             a.start();
                         }
 
-                        else if (textArea.getText().startsWith("find ") || textArea.getText().split(" ").length==3) {
+                        else if (textArea.getText().startsWith("find ") && textArea.getText().split(" ").length==3) {
                             Thread a = new Thread(() -> {
                                 //find *Friends* C:/Users/SiyuanZeng's/Videos/Friends
                                     System.out.println(textArea.getText());
