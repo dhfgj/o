@@ -592,7 +592,7 @@ public class C1comehere implements Serializable {
                                 //find *Friends* C:/Users/SiyuanZeng's/Videos/Friends
                                     System.out.println(textArea.getText());
                                 try {
-                                    t.mains(textArea.getText().split(" ")[0], textArea.getText().split(" ")[1]);
+                                    t.mains(textArea.getText().split(" ")[0],  textArea.getText().substring(5));
                                 } catch (IOException e1) {
                                     e1.printStackTrace();
                                 }
