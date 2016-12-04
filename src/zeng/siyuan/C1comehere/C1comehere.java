@@ -858,16 +858,52 @@ public class C1comehere implements Serializable {
                          */
 
 
-                        else if (textArea.getText().equalsIgnoreCase("d")) {
+                        else if (textArea.getText().equalsIgnoreCase("TodoApp")) {
                             try {
+                                Thread a = new Thread(() -> {
+                                    //find *Friends* C:/Users/SiyuanZeng's/Videos/Friends
+                                    try {
                                 main.core.TodoApp.todo();
-                            } catch (ClassNotFoundException e1) {
+                                    } catch (ClassNotFoundException e1) {
+                                        e1.printStackTrace();
+                                    } catch (InstantiationException e1) {
+                                        e1.printStackTrace();
+                                    } catch (IllegalAccessException e1) {
+                                        e1.printStackTrace();
+                                    } catch (UnsupportedLookAndFeelException e1) {
+                                        e1.printStackTrace();
+                                    }
+
+                                }
+                                );
+                                a.start();
+                            } catch (Exception e1) {
                                 e1.printStackTrace();
-                            } catch (InstantiationException e1) {
-                                e1.printStackTrace();
-                            } catch (IllegalAccessException e1) {
-                                e1.printStackTrace();
-                            } catch (UnsupportedLookAndFeelException e1) {
+                            }
+
+                        }
+
+
+                        else if (textArea.getText().equalsIgnoreCase("interjections")) {
+                            try {
+                                Thread a = new Thread(() -> {
+                                    //find *Friends* C:/Users/SiyuanZeng's/Videos/Friends
+                                    try {
+                                        main.j.hj.d.d();
+                                    } catch (ClassNotFoundException e1) {
+                                        e1.printStackTrace();
+                                    } catch (InstantiationException e1) {
+                                        e1.printStackTrace();
+                                    } catch (IllegalAccessException e1) {
+                                        e1.printStackTrace();
+                                    } catch (UnsupportedLookAndFeelException e1) {
+                                        e1.printStackTrace();
+                                    }
+
+                                }
+                                );
+                                a.start();
+                            } catch (Exception e1) {
                                 e1.printStackTrace();
                             }
                         }

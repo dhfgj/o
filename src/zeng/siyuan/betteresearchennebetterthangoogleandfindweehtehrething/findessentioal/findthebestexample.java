@@ -17,7 +17,7 @@ public class findthebestexample {
     waht is the toipci
 
 
-    what are you trying todo?
+    what are you trying d?
 
 
     What is the scenairo?
@@ -222,7 +222,7 @@ documentation,
         what kind of doucmentations am i looking for
         waht do i want to do:
         pattern names:
-        String wahtdodesdanienlwantodo = textStr[1].replace("what does daniel want todo^", "");
+        String wahtdodesdanienlwantodo = textStr[1].replace("what does daniel want d^", "");
 
 
  */

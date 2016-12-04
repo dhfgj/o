@@ -185,11 +185,11 @@ public class d {
 	}
 
 	public static void main(String[] args) throws ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException {
-		d.todo();
+		d.d();
 //		c1come2melater(null, null);
 	}
 
-	public static void todo() throws ClassNotFoundException, InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException {
+	public static void d() throws ClassNotFoundException, InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException {
 		c1s();
 
 		configureLookAndFeel();
