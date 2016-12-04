@@ -5,7 +5,10 @@ import zeng.siyuan.reuseutil.r;
 import javax.swing.*;
 import javax.swing.UIManager.LookAndFeelInfo;
 import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class TodoApp {
 	public static transient Properties prop;
@@ -20,8 +23,14 @@ public class TodoApp {
 
 				File directory = new File("C:\\Users\\SiyuanZeng's\\Videos\\Movie\\Xu Wei");
 				//get all the files from a directory
-				File[] fList = directory.listFiles();
-				for (File file : fList){
+//				File[] fList = directory.listFiles();
+			List s  = Files.walk(Paths.get("C:\\Users\\SiyuanZeng's\\Music\\Music"))
+					.filter(Files::isRegularFile)
+					.collect(Collectors.toList());
+
+
+			for (Object f : s){
+				File file = (File) f;
 					if (file.isFile()){
 						c1 = file.getName().replace(" ", "%20");
 						System.out.println("c1come2melater();");
