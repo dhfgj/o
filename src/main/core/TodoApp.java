@@ -1,19 +1,73 @@
 package main.core;
 
-import main.core.MainWindow;
 import zeng.siyuan.reuseutil.r;
 
 import javax.swing.*;
 import javax.swing.UIManager.LookAndFeelInfo;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.util.*;
 
 public class TodoApp {
 	public static transient Properties prop;
 
 
+	public static void c1come2melater(String c1, String c1Path) {
+		c1s();
+		OutputStream output = null;
+		OutputStream output_solr = null;
+		try {
+			output = new FileOutputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\main\\resources\\c1s.properties");
+
+				File directory = new File("C:\\Users\\SiyuanZeng's\\Videos\\Movie\\Xu Wei");
+				//get all the files from a directory
+				File[] fList = directory.listFiles();
+				for (File file : fList){
+					if (file.isFile()){
+						c1 = file.getName().replace(" ", "%20");
+						System.out.println("c1come2melater();");
+						// set the properties value
+						prop.setProperty(c1, file.getAbsolutePath());
+					}
+				}
+
+
+			// save properties to project root folder
+			prop.store(output, null);
+
+
+
+
+
+
+//			output_solr = new FileOutputStream("/Users/vn0xrjh/daniel/14_GUIcopymacosx/c1comehere/c1s.properties.solr");
+
+//			int count = 0;
+//			for (Map.Entry<Object, Object> e : prop.entrySet()) {
+//				String key = ((String) e.getKey()).replace("%20", " ");
+//				String v = (String) e.getValue();
+//				output_solr.write(String.valueOf(count).getBytes());
+//				output_solr.write(',');
+//				output_solr.write(key.getBytes());
+//				output_solr.write(',');
+//				output_solr.write(v.getBytes());
+//				output_solr.write(System.getProperty("line.separator").getBytes());
+//				count++;
+//			}
+//
+			c1s();
+		} catch (IOException io) {
+			io.printStackTrace();
+		} finally {
+			if (output != null) {
+				try {
+					output.close();
+					output_solr.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+	}
 
 
 
@@ -77,7 +131,8 @@ public class TodoApp {
 	}
 
 	public static void main(String[] args) throws ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException {
-		TodoApp.todo();
+//		TodoApp.todo();
+		c1come2melater(null, null);
 	}
 
 	public static void todo() throws ClassNotFoundException, InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException {
