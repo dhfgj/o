@@ -556,6 +556,7 @@ public class C1comehere implements Serializable {
         j.init();
 
         k();
+        k=pdrop.size();
 
 
         textArea.addKeyListener(new KeyListener() {
@@ -752,6 +753,38 @@ public class C1comehere implements Serializable {
                             }
                             );
                             a.start();
+                        }
+
+                        else if (textArea.getText().equalsIgnoreCase("history")) {
+                                String s = "";
+
+                            Set<Object> objects = pdrop.keySet();
+                            ArrayList<Object> keys = new ArrayList<Object>(objects);
+                            for(int p=0; p<=keys.size()-1;p++){
+                                s+=(String)(pdrop.get(String.valueOf(p))) + "\n";
+                            }
+
+                                textArea.setText(s);
+                                textArea.moveCaretPosition(s.length()-1);
+
+                        }
+
+                        else if (textArea.getText().startsWith("history") && textArea.getText().split(" ").length==2) {
+                                String s = "";
+
+
+                            Set<Object> objects = pdrop.keySet();
+                            ArrayList<Object> keys = new ArrayList<Object>(objects);
+
+                            int i1 = Integer.parseInt(textArea.getText().split(" ")[1]);
+                            int c = keys.size()- i1;
+                            for(int p = c; p<=pdrop.size()-1; p++){
+                                s+=(String)(pdrop.get(String.valueOf(p))) + "\n";
+                            }
+
+                                textArea.setText(s);
+                                textArea.moveCaretPosition(s.length()-1);
+
                         }
 
                         else if (textArea.getText().startsWith("find ") && textArea.getText().split(" ").length==3) {
