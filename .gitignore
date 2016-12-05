@@ -1,5 +1,6 @@
 *.class
 **/target/
 **/workspace.xml
-C:\email\src\test\java\com\epam\preprod\firefox\TestGmail.java
+C:/email/src/test/java/com/epam/preprod/firefox/TestGmail.java
+TestGmail.java
 **/TestGamil.java
