@@ -1,6 +1,7 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -10,7 +11,29 @@ public class d {
     static Wait<WebDriver> wait;
 
     public static void main(String[] args) {
-        driver = new FirefoxDriver();
+        System.setProperty("webdriver.gecko.driver", "C:\\email\\src\\test\\resources\\geckodriver.exe");
+        System.setProperty("webdriver.firefox.bin", "C:/Mozilla Firefox/firefox.exe");
+//        ProfilesIni prof = new ProfilesIni();
+//        FirefoxProfile ffProfile= prof.getProfile ("admin1");
+//        ffProfile.setAcceptUntrustedCertificates(true);
+//        ffProfile.setAssumeUntrustedCertificateIssuer(true);
+//      firefoxDriver = new FirefoxDriver(ffProfile);
+//        DesiredCapabilities capabilities = new DesiredCapabilities();
+//        capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
+//        WebDriver driver = new FirefoxDriver(capabilities);
+
+        FirefoxProfile firefoxProfile = null;
+        // Extension is as a xpi file
+//        File extensionFile = new File(seleniumProperties.getExtensionFirefox());
+        firefoxProfile = new FirefoxProfile();
+//        firefoxProfile.addExtension(extensionFile);
+        // path to gecko driver
+//        String webDriverFirefox = seleniumProperties.getWebDriverFireFox();
+//        System.setProperty("webdriver.gecko.driver", webDriverFirefox);
+
+        System.setProperty("webdriver.firefox.marionette", "true");
+        driver= new FirefoxDriver(firefoxProfile);
+
         wait = new WebDriverWait(driver, 30);
         driver.get("http://www.google.com/");
 
