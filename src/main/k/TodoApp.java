@@ -1,10 +1,13 @@
-package main.core;
+package main.k;
 
 import org.apache.commons.io.FilenameUtils;
 import zeng.siyuan.reuseutil.r;
+import zeng.siyuan.solr.test.param.dao.SolrDataDAO;
 
 import javax.swing.*;
 import javax.swing.UIManager.LookAndFeelInfo;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.io.*;
 import java.util.*;
 
@@ -142,7 +145,12 @@ public class TodoApp {
 			}
 			System.out.println("Done Propertiesy loading");
 
-/*
+///*
+
+
+			Thread a = new Thread(() -> {
+				try {
+
             SolrDataDAO solrBaseDAO = null;
             try {
                 solrBaseDAO = new SolrDataDAO();
@@ -157,15 +165,21 @@ public class TodoApp {
                 String key = ((String) e.getKey()).replace("%20", " ");
                 String v = (String) e.getValue();
                 try {
-                    solrBaseDAO.addData(count, key,v);
+                    solrBaseDAO.k(count, key,v);
                 } catch (Exception e1) {
-                    e1.printStackTrace();
+					System.out.print("nb");
                 }
                 count++;
             }
             System.out.println("stop");
+				} catch (Exception e1) {
+					e1.printStackTrace();
+				}
+			}
+			);
+			a.start();
 
-*/
+//*/
 
 
 
@@ -184,6 +198,27 @@ public class TodoApp {
 	}
 
 	public static void main(String[] args) throws ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException {
+		try
+		{
+			Process p=Runtime.getRuntime().exec("cmd /c C:\\solr-6.2.0\\bin\\solr start");
+			p.waitFor();
+			BufferedReader reader=new BufferedReader(
+					new InputStreamReader(p.getInputStream())
+			);
+			String line;
+			while((line = reader.readLine()) != null)
+			{
+				System.out.println(line);
+			}
+
+		}
+		catch(IOException e1) {}
+		catch(InterruptedException e2) {}
+		finally {
+
+		}
+
+
 		TodoApp.todo();
 //		c1come2melater(null, null);
 	}
@@ -197,8 +232,33 @@ public class TodoApp {
 		while(itr.hasNext()) {
 			lists.add((String) itr.next());
 		}
-		main.core.TodoList t = new main.core.TodoList(lists);
+		main.k.TodoList t = new main.k.TodoList(lists);
 		MainWindow window = new MainWindow(t, prop);
+		window.addWindowListener(new WindowAdapter(){
+			public void windowClosing(WindowEvent e){
+				try {
+					Process p = Runtime.getRuntime().exec("cmd /c C:\\solr-6.2.0\\bin\\solr stop -all");
+					p.waitFor();
+					BufferedReader reader = new BufferedReader(
+							new InputStreamReader(p.getInputStream())
+					);
+					String line;
+					while ((line = reader.readLine()) != null) {
+						System.out.println(line);
+					}
+				} catch (InterruptedException e1) {
+					e1.printStackTrace();
+				} catch (IOException e1) {
+					e1.printStackTrace();
+				} finally {
+
+				}
+
+			}
+		});
+
+
+
 		window.setLocationRelativeTo( null );
 		window.setVisible(true);
 	}

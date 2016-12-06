@@ -10,7 +10,7 @@ package fg;
 import edu.cmu.sphinx.api.Configuration;
 import edu.cmu.sphinx.api.LiveSpeechRecognizer;
 import edu.cmu.sphinx.api.SpeechResult;
-import main.core.TodoApp;
+import main.k.TodoApp;
 import zeng.siyuan.C1comehere.ListFilesUtil;
 import zeng.siyuan.reuseutil.r;
 

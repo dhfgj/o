@@ -1,6 +1,6 @@
 package main.j.hj;
 
-import main.core.MainWindow;
+import main.k.MainWindow;
 import org.apache.commons.io.FilenameUtils;
 import zeng.siyuan.reuseutil.r;
 
@@ -198,7 +198,7 @@ public class d {
 		while(itr.hasNext()) {
 			lists.add((String) itr.next());
 		}
-		main.core.TodoList t = new main.core.TodoList(lists);
+		main.k.TodoList t = new main.k.TodoList(lists);
 		MainWindow window = new MainWindow(t, prop);
 		window.setLocationRelativeTo( null );
 		window.setVisible(true);

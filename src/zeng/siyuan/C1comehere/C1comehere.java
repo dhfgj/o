@@ -893,7 +893,7 @@ public class C1comehere implements Serializable {
                                 Thread a = new Thread(() -> {
                                     //find *Friends* C:/Users/SiyuanZeng's/Videos/Friends
                                     try {
-                                main.core.TodoApp.todo();
+                                main.k.TodoApp.todo();
                                     } catch (ClassNotFoundException e1) {
                                         e1.printStackTrace();
                                     } catch (InstantiationException e1) {

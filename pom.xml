@@ -13,14 +13,14 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <src.dir>src/main/java</src.dir>
+        <src.dir>src</src.dir>
     </properties>
 
 
-    <sourceDirectory>${src.dir}</sourceDirectory>
-
 
     <build>
+
+    <sourceDirectory>${src.dir}</sourceDirectory>
         <plugins>
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
@@ -60,12 +60,33 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
             <artifactId>unix4j-command</artifactId>
             <version>0.3</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+<!--
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>20.0</version>
+        </dependency>
+-->
 
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>3.8.1</version>
             <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.solr/solr-core -->
+        <dependency>
+            <groupId>org.apache.solr</groupId>
+            <artifactId>solr-core</artifactId>
+            <version>3.6.1</version>
+        </dependency>
+
+        <dependency>
+            <artifactId>solr-solrj</artifactId>
+            <groupId>org.apache.solr</groupId>
+            <version>3.6.1</version>
         </dependency>
 
 

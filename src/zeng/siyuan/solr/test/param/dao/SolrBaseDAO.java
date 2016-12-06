@@ -95,6 +95,37 @@ public class SolrBaseDAO {
 		return solrServer;
 	}
 
+	public HttpSolrServer d() throws Exception {
+		HttpSolrServer solrServer = null;
+		try {
+			// configure a server object with actual solr values.
+			if (solrServer == null) {
+
+				solrServer = new HttpSolrServer("http://localhost:8983/solr/abc");
+				solrServer.setParser(new XMLResponseParser());
+				solrServer.setSoTimeout(5000);
+				solrServer.setConnectionTimeout(5000);
+
+				// Other commonly used properties
+				// solrServer.setDefaultMaxConnectionsPerHost(100);
+				// solrServer.setMaxTotalConnections(100);
+				// solrServer.setFollowRedirects(false); // defaults to false
+				// // allowCompression defaults to false.
+				// // Server side must support gzip or deflate for this to have
+				// any effect.
+				// solrServer.setAllowCompression(true);
+				// solrServer.setMaxRetries(1); // defaults to 0. > 1 not
+				// recommended.
+			}
+
+		} catch (Exception exc) {
+			logger.error(" Exception in getting Solr Connection: "
+					+ exc.getMessage());
+			exc.printStackTrace();
+		}
+		return solrServer;
+	}
+
 
 
 	public HttpSolrServer getSolrConnections() throws Exception {

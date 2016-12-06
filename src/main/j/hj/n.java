@@ -1,6 +1,6 @@
 package main.j.hj;
 
-import main.core.TodoListModel;
+import main.k.TodoListModel;
 import zeng.siyuan.reuseutil.r;
 
 import javax.swing.*;
@@ -20,7 +20,7 @@ import static java.lang.Math.max;
 import static java.lang.Math.min;
 import static javax.swing.BorderFactory.createEmptyBorder;
 import static javax.swing.Box.createVerticalStrut;
-import static main.core.TodoApp.c1s;
+import static main.k.TodoApp.c1s;
 
 public class n extends JFrame{
 	private static final long serialVersionUID = 1L;
@@ -37,12 +37,12 @@ public class n extends JFrame{
 	private JList<String> taskList;
 	private JLabel statusBar;
 		
-	private main.core.TodoList todoList;
+	private main.k.TodoList todoList;
 	private TodoListModel todoListModel;
 	public static transient Properties prop;
 
 
-	public n(main.core.TodoList t, Properties prop){
+	public n(main.k.TodoList t, Properties prop){
 		this.prop = prop;
 		this.todoListModel = new TodoListModel(t);
 		

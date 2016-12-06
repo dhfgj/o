@@ -21,15 +21,15 @@ public class h extends JFrame{
 	private JButton downButton;
 	private JTable tasksTable;
 	
-	private main.core.TodoList todoList;
+	private main.k.TodoList todoList;
 	private TodoTableModel todoTableModel;
 	
 	private class TodoTableModel extends AbstractTableModel{
 		private static final long serialVersionUID = 1L;
 		
-		private main.core.TodoList list;
+		private main.k.TodoList list;
 		
-		public TodoTableModel(main.core.TodoList list) {
+		public TodoTableModel(main.k.TodoList list) {
 			this.list = list;
 		}
 		public void moveUp(int i){
@@ -87,7 +87,7 @@ public class h extends JFrame{
 	}
 	public h(){
 		
-		this.todoList = new main.core.TodoList();
+		this.todoList = new main.k.TodoList();
 		this.todoTableModel = new TodoTableModel(this.todoList);
 		
 		this.setContentPane( this.getMainContentPane() );

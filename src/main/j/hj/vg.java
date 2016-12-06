@@ -5,9 +5,9 @@ import javax.swing.*;
 public class vg extends AbstractListModel<String> {
 	private static final long serialVersionUID = 1L;
 	
-	private main.core.TodoList list;
+	private main.k.TodoList list;
 	
-	public vg(main.core.TodoList list) {
+	public vg(main.k.TodoList list) {
 		this.list = list;
 	}
 	

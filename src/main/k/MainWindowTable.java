@@ -1,4 +1,4 @@
-package main.core;
+package main.k;
 
 import javax.swing.*;
 import javax.swing.table.AbstractTableModel;
