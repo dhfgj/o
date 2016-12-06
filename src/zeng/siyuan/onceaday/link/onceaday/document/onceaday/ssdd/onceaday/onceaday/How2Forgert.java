@@ -93,9 +93,6 @@ public class How2Forgert implements Serializable {
                         long diff = calendar.getTimeInMillis() - Calendar.getInstance().getTimeInMillis();
                         if (diff > 0) {
                             Thread.sleep(diff);
-                            while (!textArea.getText().trim().isEmpty()) {
-                                Thread.sleep(10000);
-                            }
                             frame.repaint();
                             frame.toFront();
                             currentTask = t;
@@ -106,16 +103,14 @@ public class How2Forgert implements Serializable {
                                             m.deleteTask(e.getJavauid());
                                             e = new person_question(e.getText(),"ssdd", null);
                                             m.store(e);
-                                Desktop.getDesktop().open(new File(e.getText()));
-                                    r.openUrlInBrowser(e.getText());
-                                    textArea.setText(inntuitive);
+//                                Desktop.getDesktop().open(new File(e.getText()));
+                                    r.open(e.getText());
+
+//                                    textArea.setText(inntuitive);
                                             break;
                                 }
                             }
                         } else {
-                            while (!textArea.getText().trim().isEmpty()) {
-                                Thread.sleep(10000);
-                            }
                             frame.repaint();
                             frame.toFront();
                             currentTask = t;
@@ -127,22 +122,20 @@ public class How2Forgert implements Serializable {
                                             e = new person_question(e.getText(),"ssdd", null);
                                             m.store(e);
 
-                                    if(r.isUrl(e.getText())){
-                                        r.openUrlInBrowser(e.getText());
-                                    } else {
-
-                                        Desktop.getDesktop().open(new File(e.getText()));
-                                    }
-                            textArea.setText(inntuitive);
+                                    r.open(e.getText());
+//                                            if(r.isUrl(e.getText())){
+//                                        r.openUrlInBrowser(e.getText());
+//                                    } else {
+//
+//                                        Desktop.getDesktop().open(new File(e.getText()));
+//                                    }
+//                            textArea.setText(inntuitive);
                                             break;
                                 }
                             }
                             Thread.sleep(10000);
                         }
                     } else if (t.getDate().before(new Date())) {
-                        while (!textArea.getText().trim().isEmpty() ) {
-                            Thread.sleep(10000);
-                        }
                         frame.repaint();
                         frame.toFront();
                         currentTask = t;
@@ -154,12 +147,13 @@ public class How2Forgert implements Serializable {
                                         e = new person_question(e.getText(),"ssdd", null);
                                         m.store(e);
 
-                                if(r.isUrl(e.getText())){
-                                    r.openUrlInBrowser(e.getText());
-                                } else {
-
-                                    Desktop.getDesktop().open(new File(e.getText()));
-                                }
+//                                if(r.isUrl(e.getText())){
+//                                    r.openUrlInBrowser(e.getText());
+//                                } else {
+//
+//                                    Desktop.getDesktop().open(new File(e.getText()));
+//                                }
+                                r.open(e.getText());
                                         break;
                             }
                         }

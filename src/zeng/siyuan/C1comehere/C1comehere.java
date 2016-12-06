@@ -50,7 +50,7 @@ public class C1comehere implements Serializable {
     public static transient Properties jk;
     public transient static Map<String, Search> searchEngines = new HashMap<String, Search>();
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String ar[]) throws Exception {
         try
         {
             Process p=Runtime.getRuntime().exec("cmd /c C:\\solr-6.2.0\\bin\\solr start");
