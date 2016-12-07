@@ -2,6 +2,7 @@ package zeng.siyuan.C1comehere;
 
 import fg.f;
 import loli.datepicker.DatePicker;
+import main.k.TodoApp;
 import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.findthebestexample;
 import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.findtheshortcut;
 import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.findtutroial.findtheshortcutyoutututouiral;
@@ -887,7 +888,26 @@ public class C1comehere implements Serializable {
 
                          */
 
+                        else if (textArea.getText().equalsIgnoreCase("music")) {
 
+                            try {
+                                TodoApp.dkk();
+                            } catch (ClassNotFoundException e1) {
+                                e1.printStackTrace();
+                            } catch (InstantiationException e1) {
+                                e1.printStackTrace();
+                            } catch (IllegalAccessException e1) {
+                                e1.printStackTrace();
+                            } catch (UnsupportedLookAndFeelException e1) {
+                                e1.printStackTrace();
+                            }
+
+                        }
+                        else if (textArea.getText().equalsIgnoreCase("movie")) {
+
+                                ListFilesUtil.pss("C:\\Users\\SiyuanZeng's\\Videos\\Movie");
+
+                        }
                         else if (textArea.getText().equalsIgnoreCase("TodoApp")) {
                             try {
                                 Thread a = new Thread(() -> {
