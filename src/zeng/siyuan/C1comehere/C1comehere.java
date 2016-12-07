@@ -1230,7 +1230,11 @@ public class C1comehere implements Serializable {
 
 
                         else {
-                            insert();
+                            try {
+                                insert();
+                            } catch (AWTException e1) {
+                                e1.printStackTrace();
+                            }
                             textArea.setText("");
                         }
                     } catch (IOException e1) {
@@ -1382,7 +1386,7 @@ public class C1comehere implements Serializable {
         System.out.println("Done");
     }
 
-    public void insert() throws IOException, ParseException {
+    public void insert() throws IOException, ParseException, AWTException {
 
         String textUpcase = new StringBuilder(textArea.getText()).toString();
         String text = textArea.getText();
@@ -1544,6 +1548,31 @@ public class C1comehere implements Serializable {
                         Desktop.getDesktop().open(new File(text.trim()));
                     } else {
                         Desktop.getDesktop().open(new File(path));
+
+                        if (path.contains("Snagit")) {
+                            try {
+                                Thread.sleep(Long.parseLong("10000"));
+                            } catch (InterruptedException e) {
+                                e.printStackTrace();
+                            }
+                            Robot r = new Robot();
+                            int D = KeyEvent.VK_CONTROL;
+                            int Da = KeyEvent.VK_SHIFT;
+                            int Dc = KeyEvent.VK_F11;
+                            r.keyPress(D);
+                            r.keyPress(Da);
+                            r.keyPress(Dc);
+
+                            r.keyRelease(D);
+                            r.keyRelease(Da);
+                            r.keyRelease(Dc);
+
+
+
+
+
+                        }
+
                     }
                 }
             }
