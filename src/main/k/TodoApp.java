@@ -1,11 +1,13 @@
 package main.k;
 
 import org.apache.commons.io.FilenameUtils;
+import zeng.siyuan.C1comehere.Beep;
 import zeng.siyuan.reuseutil.r;
-import zeng.siyuan.solr.test.param.dao.SolrDataDAO;
 
 import javax.swing.*;
 import javax.swing.UIManager.LookAndFeelInfo;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.io.*;
@@ -145,7 +147,7 @@ public class TodoApp {
 			}
 			System.out.println("Done Propertiesy loading");
 
-///*
+/*
 
 
 			Thread a = new Thread(() -> {
@@ -179,7 +181,7 @@ public class TodoApp {
 			);
 			a.start();
 
-//*/
+*/
 
 
 
@@ -229,13 +231,13 @@ public class TodoApp {
 		configureLookAndFeel();
 		Iterator itr = prop.keySet().iterator();
 		List<String> lists = new ArrayList<String>();
-		while(itr.hasNext()) {
+		while (itr.hasNext()) {
 			lists.add((String) itr.next());
 		}
 		main.k.TodoList t = new main.k.TodoList(lists);
 		MainWindow window = new MainWindow(t, prop);
-		window.addWindowListener(new WindowAdapter(){
-			public void windowClosing(WindowEvent e){
+		window.addWindowListener(new WindowAdapter() {
+			public void windowClosing(WindowEvent e) {
 				try {
 					Process p = Runtime.getRuntime().exec("cmd /c C:\\solr-6.2.0\\bin\\solr stop -all");
 					p.waitFor();
@@ -258,10 +260,44 @@ public class TodoApp {
 		});
 
 
+		SwingUtilities.invokeLater(new Runnable() {
+			@Override
+			public void run() {
+				new JTextAreaExample(window, window.getNewTaskField(), null);
+			}
+		});
+
+		window.getNewTaskField().addKeyListener(new KeyListener() {
+			@Override
+			public void keyTyped(KeyEvent e) {
+
+			}
+
+			// nobody know swhat he is doing
+			public void keyPressed(KeyEvent e) {
+
+				//                if (e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyChar() == KeyEvent.VK_ENTER) {
+				//change maxc os mattping to ctrl and enter button
+				if (e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyChar() == KeyEvent.VK_ENTER) {
+					e.consume();
+					Beep.sound(2000, 150);
+					r.open(((String) (prop.get(window.getNewTaskField().getText().trim()))));
+				}
+			}
+
+			@Override
+			public void keyReleased(KeyEvent e) {
+
+			}
+
+		});
+
 
 		window.setLocationRelativeTo( null );
 		window.setVisible(true);
+
 	}
+
 
 	public static void dkk() throws ClassNotFoundException, InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException {
 		c1s();

@@ -27,7 +27,7 @@ public class MainWindow extends JFrame{
 	private JPanel mainContentPane;
 	private JPanel newTaskControls;
 	private JButton addTaskButton;
-	private JTextField newTaskField;
+	private JTextArea newTaskField;
 	private JScrollPane taskListScrollPane;
 	private JPanel taskListControls;
 	private JButton upButton;
@@ -35,23 +35,106 @@ public class MainWindow extends JFrame{
 	private JButton downButton;
 	private JList<String> taskList;
 	private JLabel statusBar;
-		
+
 	private TodoList todoList;
 	private TodoListModel todoListModel;
 	public static transient Properties prop;
 
 
+	public static long getSerialVersionUID() {
+		return serialVersionUID;
+	}
+
+	public void setMainContentPane(JPanel mainContentPane) {
+		this.mainContentPane = mainContentPane;
+	}
+
+	public void setNewTaskControls(JPanel newTaskControls) {
+		this.newTaskControls = newTaskControls;
+	}
+
+	public void setAddTaskButton(JButton addTaskButton) {
+		this.addTaskButton = addTaskButton;
+	}
+
+	public void setNewTaskField(JTextArea newTaskField) {
+		this.newTaskField = newTaskField;
+	}
+
+	public JScrollPane getTaskListScrollPane() {
+		return taskListScrollPane;
+	}
+
+	public void setTaskListScrollPane(JScrollPane taskListScrollPane) {
+		this.taskListScrollPane = taskListScrollPane;
+	}
+
+	public JPanel getTaskListControls() {
+		return taskListControls;
+	}
+
+	public void setTaskListControls(JPanel taskListControls) {
+		this.taskListControls = taskListControls;
+	}
+
+	public void setUpButton(JButton upButton) {
+		this.upButton = upButton;
+	}
+
+
+	public void setDeleteButton(JButton deleteButton) {
+		this.deleteButton = deleteButton;
+	}
+
+	public void setDownButton(JButton downButton) {
+		this.downButton = downButton;
+	}
+
+	public void setTaskList(JList<String> taskList) {
+		this.taskList = taskList;
+	}
+
+	public void setStatusBar(JLabel statusBar) {
+		this.statusBar = statusBar;
+	}
+
+	public TodoList getTodoList() {
+		return todoList;
+	}
+
+	public void setTodoList(TodoList todoList) {
+		this.todoList = todoList;
+	}
+
+	public TodoListModel getTodoListModel() {
+		return todoListModel;
+	}
+
+	public void setTodoListModel(TodoListModel todoListModel) {
+		this.todoListModel = todoListModel;
+	}
+
+	public static Properties getProp() {
+		return prop;
+	}
+
+	public static void setProp(Properties prop) {
+		MainWindow.prop = prop;
+	}
+
 	public MainWindow(main.k.TodoList t, Properties prop){
+
+
 		this.prop = prop;
 		this.todoListModel = new main.k.TodoListModel(t);
-		
+
 		this.setContentPane( this.getMainContentPane() );
-		
+
 		this.setTitle("Todo list");
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
+
 		this.setMinimumSize(new Dimension(250, 250));
-		
+
 		this.pack();
 	}
 
@@ -59,12 +142,12 @@ public class MainWindow extends JFrame{
 		if (mainContentPane == null) {
 			this.mainContentPane = new JPanel();
 			this.mainContentPane.setLayout(new BorderLayout());
-			
+
 			this.mainContentPane.add(getNewTaskControls(), BorderLayout.NORTH);
 			this.mainContentPane.add(getTasksListScrollPane(), BorderLayout.CENTER);
 			this.mainContentPane.add(getTasksListControls(), BorderLayout.EAST);
 			this.mainContentPane.add(getStatusBar(), BorderLayout.SOUTH);
-			
+
 		}
 		return this.mainContentPane;
 	}
@@ -72,22 +155,22 @@ public class MainWindow extends JFrame{
 	private Component getNewTaskControls() {
 		if (this.newTaskControls == null) {
 			this.newTaskControls = new JPanel();
-			
+
 			BorderLayout layout = new BorderLayout();
 			this.newTaskControls.setLayout(layout);
 			layout.setHgap(5);
 			this.newTaskControls.setBorder(createEmptyBorder(10,0,10,10));
-			
+
 			this.newTaskControls.add(getNewTaskField(), BorderLayout.CENTER);
 			this.newTaskControls.add(getAddTaskButton(), BorderLayout.EAST);
 		}
-		
+
 		return this.newTaskControls;
 	}
 
-	private JTextField getNewTaskField() {
+	public JTextArea getNewTaskField() {
 		if (this.newTaskField == null) {
-			this.newTaskField = new JTextField();
+			this.newTaskField = new JTextArea();
 		}
 		return this.newTaskField;
 	}

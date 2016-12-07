@@ -116,6 +116,46 @@ public class solr {
         return null;
     }
 
+    public List<String> d(String types, JTextArea textArea) throws Exception {
+        String url1 = "http://localhost:8983/solr/abc/select?q=name:a&wt=json";
+        String url22 = "http://localhost:8983/solr/abc/select?q=name:%22"+types+"%22OR%20name_ngram:%22"+types+"%22&wt=json";
+
+            try {
+                DefaultHttpClient httpClient = new DefaultHttpClient();
+                HttpGet getRequest = new HttpGet(
+                        url22);
+                getRequest.addHeader("accept", "application/json");
+
+                HttpResponse response = httpClient.execute(getRequest);
+
+                BufferedReader br = new BufferedReader(
+                        new InputStreamReader((response.getEntity().getContent())));
+
+                String output;
+                String str = "";
+                while ((output = br.readLine()) != null) {
+                    str += output;
+                }
+
+                List<String> list = new ArrayList<String>();
+
+                JSONObject json = new JSONObject(str);
+                JSONArray jsonArray = json.getJSONObject("response").getJSONArray("docs");
+                for (int i = 0, size = jsonArray.length(); i < size; i++) {
+                    JSONObject objectInArray = jsonArray.getJSONObject(i);
+                    list.add(((JSONArray)objectInArray.get("name")).get(0).toString());
+                }
+                System.out.println(list);
+                httpClient.getConnectionManager().shutdown();
+                return list;
+            } catch (ClientProtocolException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        return null;
+    }
+
 /// the import thing is what do i hawant
 // i don't want to see you so what ever you try is subelow emm emememe
     public List<String> sendGet_comec(String types, JTextArea textArea) throws Exception {
