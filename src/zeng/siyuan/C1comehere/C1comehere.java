@@ -43,6 +43,7 @@ public class C1comehere implements Serializable {
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.How2Forgert dhow2ForgDertl;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.How2Forgert dhow2ForgDertls;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.How2Forgert dhow2ForgDertlsf;
+    public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.onceaday.How2Forgert dhow2ForgDertlssf;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.How2Forgert a;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.How2Forgert j;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.asdf.How2Forgert jd;
@@ -567,6 +568,24 @@ public class C1comehere implements Serializable {
         dhow2ForgDertlsf.textArea = textArea;
         dhow2ForgDertlsf.frame = frame;
         dhow2ForgDertlsf.init();
+//https://www.bing.com/images/search?q=levels+of+knowledge&view=detailv2&id=92D057B6436E27DE427C557F2B3F0BC1FCF08076&selectedindex=40&ccid=2J%2FyDP%2BF&simid=608035630844741033&thid=OIP.Md89ff20cff85e64027ed1a4619ad5222o0&mode=overlay&first=1
+//https://www.bing.com/images/search?q=levels+of+knowledge&view=detailv2&id=544326E38B5C8BACF33671825C9F6FBEA2F3B261&selectedindex=37&ccid=0vSFX7zN&simid=608036378175213314&thid=OIP.Md2f4855fbccdc0a74b55d600bf40d3ebo0&mode=overlay&first=1
+        //https://www.bing.com/images/search?q=levels+of+knowledge&view=detailv2&id=AF69ED717CA25DF8D3A5A95F77A26B307F26F0A4&selectedindex=31&ccid=h3fxwKOo&simid=608002873133501346&thid=OIP.M8777f1c0a3a8408fa242f5a3f8628531o0&mode=overlay&first=1
+        //https://www.bing.com/images/search?q=levels+of+knowledge&view=detailv2&id=875D31716186C2DA9E044102B2AA99933875D54B&selectedindex=29&ccid=Kux%2FNLke&simid=608035424692078905&thid=OIP.M2aec7f34b91ef5b8a6ba0a7ee814f286H0&mode=overlay&first=1
+        //https://www.bing.com/images/search?q=levels+of+knowledge&view=detailv2&id=21685358F3EE1CE0D89090BE430EDB3FF9A3C323&selectedindex=28&ccid=BgO3zjKQ&simid=608010728633666851&thid=OIP.M0603b7ce3290a8801b1d1a701f00afdbH0&mode=overlay&first=1
+        //https://www.bing.com/images/search?q=levels+of+knowledge&view=detailv2&id=9EBC6A24B6C3E66B092D48FC3579F7D11757EFF2&selectedindex=24&ccid=yPQgbyLu&simid=608052626034133689&thid=OIP.Mc8f4206f22eea87101458bff63783d7bo0&mode=overlay&first=1
+        //https://www.bing.com/images/search?q=levels+of+knowledge&view=detailv2&id=B8227DBC3DC6E59C84DED97DC91B4268CDAA768A&selectedindex=21&ccid=Q1pzT4hW&simid=608018635667671210&thid=OIP.M435a734f88565425ece85040b216ef0eo0&mode=overlay&first=1
+        //https://www.bing.com/images/search?q=levels+of+knowledge&view=detailv2&id=B32E8FA36D743299954480DDA2213EB11F8FAD62&selectedindex=16&ccid=JvLmHwSU&simid=608050792082900271&thid=OIP.M26f2e61f0494c4335a95ccbd84da27b9o0&mode=overlay&first=1
+        //https://www.bing.com/images/search?q=levels+of+knowledge&view=detailv2&id=6703242720FAE0C35546BEB15F360DC41FD0876E&selectedindex=1&ccid=YV6m5ns3&simid=608025112469309866&thid=OIP.M615ea6e67b37c55f9dd18753ecf14b9do0&mode=overlay&first=1
+        //https://www.bing.com/images/search?q=levels+of+knowledge&view=detailv2&id=02A8AFA12A29E5CAB29173A89ABA85B53E3729E9&ccid=T8pnDMfT&simid=608033028096852866&thid=OIP.M4fca670cc7d332e9bd9db19a38860defH0&mode=overlay&first=1
+
+        if (null == dhow2ForgDertlssf) {
+            dhow2ForgDertlssf= new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.onceaday.How2Forgert(c1comehere, textArea, frame);
+        }
+        dhow2ForgDertlssf.c1comehere = c1comehere;
+        dhow2ForgDertlssf.textArea = textArea;
+        dhow2ForgDertlssf.frame = frame;
+        dhow2ForgDertlssf.init();
 
 
 
@@ -1220,10 +1239,17 @@ public class C1comehere implements Serializable {
                             System.out.println("Dsaerchdliary");
                             dhow2ForgDertlsf.searchehabins(textArea.getText().trim());
                         }
+
                            else if (SDislDoaldf ) {
                             System.out.println("Disloadl");
                             dhow2ForgDertlsf.fjlasdjfl();
-                        } else if (SDdleleteCoDmmand2f ) {
+                        }
+                           else if (SDldeleteCommandd_X ) {
+                            System.out.println("Disloadl");
+                            dhow2ForgDertlssf.fjlasdjfl();
+                        }
+
+                        else if (SDdleleteCoDmmand2f ) {
                             System.out.println("DdeletleCommand2");
                             dhow2ForgDertlsf.deltask();
                             textArea.setText("");
@@ -1382,7 +1408,7 @@ public class C1comehere implements Serializable {
 
 
     static {
-        searchEngines.put("bi ", new Search("Bing", "bi ", "http://www.bing.com/search?q=%s", "+"));
+        searchEngines.put("sg ", new Search("Bing", "sg ", "http://www.bing.com/search?q=%s", "+"));
         searchEngines.put("sd ", new Search("Dictionary", "sd ", "http://www.dictionary.com/browse/%s?s=t", "%20"));
         searchEngines.put("su ", new Search("UrbanDictionary", "su ", "http://www.urbandictionary.com/define.php?term=%s", "%20"));
         searchEngines.put("st ", new Search("Treasure", "st ", "http://www.thesaurus.com/browse/%s?s=t", "%20"));
