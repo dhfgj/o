@@ -16,24 +16,6 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/related jar/selenium-java-2.0b1.jar/selenium-java-2.0b1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/related jar/gson-2.7.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
           <root url="jar://$MODULE_DIR$/related jar/nativecall-0.4.1.jar!/" />
         </CLASSES>
         <JAVADOC />
@@ -107,15 +89,6 @@
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/related jar/cassandra-driver-mapping-2.1.5.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/related jar/httpclient-4.2 (1).jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -256,6 +229,38 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module" module-name="gmail" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-server:3.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-java:3.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-chrome-driver:3.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-edge-driver:3.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-ie-driver:3.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-opera-driver:3.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-safari-driver:3.0.1" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty:3.5.7.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-support:3.0.1" level="project" />
+    <orderEntry type="library" name="Maven: net.sourceforge.htmlunit:htmlunit:2.23" level="project" />
+    <orderEntry type="library" name="Maven: xalan:xalan:2.7.2" level="project" />
+    <orderEntry type="library" name="Maven: xalan:serializer:2.7.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpmime:4.5.2" level="project" />
+    <orderEntry type="library" name="Maven: net.sourceforge.htmlunit:htmlunit-core-js:2.23" level="project" />
+    <orderEntry type="library" name="Maven: net.sourceforge.htmlunit:neko-htmlunit:2.23" level="project" />
+    <orderEntry type="library" name="Maven: xerces:xercesImpl:2.11.0" level="project" />
+    <orderEntry type="library" name="Maven: xml-apis:xml-apis:1.4.01" level="project" />
+    <orderEntry type="library" name="Maven: net.sourceforge.cssparser:cssparser:0.9.20" level="project" />
+    <orderEntry type="library" name="Maven: org.w3c.css:sac:1.3" level="project" />
+    <orderEntry type="library" name="Maven: com.codeborne:phantomjsdriver:1.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty.websocket:websocket-client:9.2.15.v20160210" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-util:9.2.15.v20160210" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-io:9.2.15.v20160210" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty.websocket:websocket-common:9.2.15.v20160210" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty.websocket:websocket-api:9.2.15.v20160210" level="project" />
+    <orderEntry type="library" name="Maven: net.jcip:jcip-annotations:1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:jetty-repacked:9.2.13.v20160825" level="project" />
+    <orderEntry type="library" name="Maven: javax.servlet:javax.servlet-api:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:htmlunit-driver:2.23" level="project" />
+    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.15" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.5" level="project" />
     <orderEntry type="library" name="Maven: org.unix4j:unix4j-command:0.3" level="project" />
     <orderEntry type="library" name="Maven: org.unix4j:unix4j-base:0.3" level="project" />
@@ -297,5 +302,14 @@
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.0.1" level="project" />
     <orderEntry type="library" name="Maven: javax.mail:mail:1.4" level="project" />
     <orderEntry type="library" name="Maven: javax.activation:activation:1.1" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/related jar/gson-2.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

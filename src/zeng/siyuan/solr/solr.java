@@ -45,6 +45,8 @@ import java.util.List;
 public class solr {
     // lazy thing si easy to do
     // i love to be lazy, it is love there if i can be lazy if wreally love to do it it feel so smar t and lovelyli love to be lazy that is just so awesome it is just a kiss away it is jasut lsetter arway
+//http://localhost:8983/solr/collection1/select?collection=collection1,collection2&q=*:*
+
 
     private final String USER_AGENT = "Mozilla/5.0";
 
@@ -106,6 +108,7 @@ public class solr {
                 }
                 System.out.println(list);
                 httpClient.getConnectionManager().shutdown();
+                sendGet(types, list);
                 return list;
             } catch (ClientProtocolException e) {
                 e.printStackTrace();
@@ -114,6 +117,60 @@ public class solr {
             }
         }
         return null;
+    }
+
+    public void sendGet(String types, List<String> list) throws Exception {
+        String url1 = "http://localhost:8983/solr/abc/select?q=name:a&wt=json";
+        String url22 = "http://localhost:8983/solr/abc/select?q=name:%22"+types+"%22OR%20name_ngram:%22"+types+"%22&wt=json";
+
+        String buttonSelected ="";
+        for (Enumeration<AbstractButton> buttons = untoggle.bg.getElements(); buttons.hasMoreElements();) {
+            AbstractButton button = buttons.nextElement();
+
+            if (button.isSelected()) {
+                buttonSelected=button.getText();
+            }
+        }
+
+        boolean deleteCommand = buttonSelected.contains("delete");
+        boolean isShowCommand = buttonSelected.equalsIgnoreCase("sho");// shw
+        boolean add = buttonSelected.equalsIgnoreCase("add");// shw
+
+//include is better than exclude because i don't need it i only care about what i need
+        if (deleteCommand || add || isShowCommand) {
+
+            try {
+                DefaultHttpClient httpClient = new DefaultHttpClient();
+                HttpGet getRequest = new HttpGet(
+                        url22);
+                getRequest.addHeader("accept", "application/json");
+
+                HttpResponse response = httpClient.execute(getRequest);
+
+                BufferedReader br = new BufferedReader(
+                        new InputStreamReader((response.getEntity().getContent())));
+
+                String output;
+                String str = "";
+                while ((output = br.readLine()) != null) {
+                    str += output;
+                }
+
+
+                JSONObject json = new JSONObject(str);
+                JSONArray jsonArray = json.getJSONObject("response").getJSONArray("docs");
+                for (int i = 0, size = jsonArray.length(); i < size; i++) {
+                    JSONObject objectInArray = jsonArray.getJSONObject(i);
+                    list.add(((JSONArray)objectInArray.get("name")).get(0).toString());
+                }
+                System.out.println(list);
+                httpClient.getConnectionManager().shutdown();
+            } catch (ClientProtocolException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
     }
 
     public List<String> d(String types, JTextArea textArea) throws Exception {

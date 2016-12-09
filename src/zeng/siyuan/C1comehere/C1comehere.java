@@ -1,5 +1,6 @@
 package zeng.siyuan.C1comehere;
 
+import com.epam.preprod.firefox.model.TestGmail;
 import fg.f;
 import loli.datepicker.DatePicker;
 import main.k.TodoApp;
@@ -797,6 +798,29 @@ public class C1comehere implements Serializable {
 
                                 textArea.setText(s);
                                 textArea.moveCaretPosition(s.length()-1);
+
+                        }
+
+
+                        else if (textArea.getText().equalsIgnoreCase("siyuanzeng@hotmail")) {
+                            TestGmail testGmail = new TestGmail();
+                            try {
+                                testGmail.testOpenLogin3();
+                            } catch (InterruptedException e1) {
+                                e1.printStackTrace();
+                            }
+
+                        }
+
+                        else if (textArea.getText().equalsIgnoreCase("abuizeng")) {
+                            TestGmail testGmail = new TestGmail();
+                                testGmail.testOpenLogin2();
+
+                        }
+
+                        else if (textArea.getText().equalsIgnoreCase("zengb45")) {
+                            TestGmail testGmail = new TestGmail();
+                                testGmail.testOpenLogin();
 
                         }
 
