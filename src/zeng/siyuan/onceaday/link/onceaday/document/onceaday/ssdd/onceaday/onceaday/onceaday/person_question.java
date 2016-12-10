@@ -14,7 +14,7 @@ import java.util.UUID;
  */
 
 
-@Table(keyspace = "keyspace1", name = "n",
+@Table(keyspace = "keyspace1", name = "h",
         readConsistency = "QUORUM",
         writeConsistency = "QUORUM",
         caseSensitiveKeyspace = false,

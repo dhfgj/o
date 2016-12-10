@@ -81,7 +81,7 @@ public class How2Forgert implements Serializable {
                 displaysearchtasks();
             } else {
                 for (Task t : tasks) {
-                    if (t.getDate().after(new Date())) {
+                    if (t.getDate().after(new Date()) && !t.getIsDone()) {
                         Calendar calendar = Calendar.getInstance();
                         calendar.setTime(t.getDate());//1474356339826
                         long diff = calendar.getTimeInMillis() - Calendar.getInstance().getTimeInMillis();
@@ -96,8 +96,8 @@ public class How2Forgert implements Serializable {
                             for (person_question e : ebbinghauses) {
                                 if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                                     inntuitive+=e.getQuestion();
+                                    currentTask.setIsDone(true);
                                             m.deleteTask(e.getJavauid());
-                                            e = new person_question(e.getQuestion(),"ssdd");
                                             m.store(e);
 //                                Desktop.getDesktop().open(new File(e.getQuestion()));
                                     textArea.setText(inntuitive);
@@ -107,33 +107,35 @@ public class How2Forgert implements Serializable {
                                 }
                             }
                         } else {
-                            frame.repaint();
-                            frame.toFront();
-                            Beep.sound(2000, 150);
+                            if (!t.getIsDone()) {
+                                frame.repaint();
+                                frame.toFront();
+                                Beep.sound(2000, 150);
 
-                            currentTask = t;
-                            String inntuitive = "";
-                            for (person_question e : ebbinghauses) {
-                                if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
-                                    inntuitive+=e.getQuestion();
-                                    m.deleteTask(e.getJavauid());
-                                            e = new person_question(e.getQuestion(),"ssdd");
-                                            m.store(e);
+                                currentTask = t;
+                                String inntuitive = "";
+                                for (person_question e : ebbinghauses) {
+                                    if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
+                                        inntuitive += e.getQuestion();
+                                        currentTask.setIsDone(true);
+                                        m.deleteTask(e.getJavauid());
+                                        m.store(e);
 
-                            textArea.setText(inntuitive);
-                                    r.open(e.getQuestion());
+                                        textArea.setText(inntuitive);
+                                        r.open(e.getQuestion());
 //                                            if(r.isUrl(e.getQuestion())){
 //                                        r.openUrlInBrowser(e.getQuestion());
 //                                    } else {
 //
 //                                        Desktop.getDesktop().open(new File(e.getQuestion()));
 //                                    }
-                                            break;
+                                        break;
+                                    }
                                 }
+                                Thread.sleep(10000);
                             }
-                            Thread.sleep(10000);
                         }
-                    } else if (t.getDate().before(new Date())) {
+                    } else if (t.getDate().before(new Date())&&!t.getIsDone()) {
                         frame.repaint();
                         frame.toFront();
                         currentTask = t;
@@ -143,8 +145,8 @@ public class How2Forgert implements Serializable {
                         for (person_question e : ebbinghauses) {
                             if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                                         inntuitive+=e.getQuestion();
+                                        currentTask.setIsDone(true);
                                         m.deleteTask(e.getJavauid());
-                                        e = new person_question(e.getQuestion(),"ssdd");
                                         m.store(e);
 
 //                                if(r.isUrl(e.getQuestion())){

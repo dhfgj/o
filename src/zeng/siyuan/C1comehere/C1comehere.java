@@ -246,6 +246,19 @@ public class C1comehere implements Serializable {
             }
             System.out.println("Done Propertiesy loading");
 
+            input = new FileInputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\main\\resources\\c1s.properties");
+            // fjlasdjfl a properties file
+            temprop = new Properties();
+            temprop.load(input);
+
+
+            for (Map.Entry<Object, Object> e : temprop.entrySet()) {
+                String key = ((String) e.getKey()).replace("%20", " ");
+                String v = (String) e.getValue();
+                prop.put(key, v);
+            }
+            System.out.println("Done Propertiesy loading");
+
 /*
             SolrDataDAO solrBaseDAO = null;
             try {
@@ -1414,7 +1427,7 @@ public class C1comehere implements Serializable {
         searchEngines.put("st ", new Search("Treasure", "st ", "http://www.thesaurus.com/browse/%s?s=t", "%20"));
         searchEngines.put("sy ", new Search("Youtube", "sy ", "https://www.youtube.com/results?search_query=%s", "+"));
         searchEngines.put("sm ", new Search("Gmail", "sm ", "https://mail.google.com/mail/u/0/#search/%s", "+"));
-        searchEngines.put("si ", new Search("Image", "si ", "https://www.google.com/search?site=&tbm=isch&source=hp&biw=1920&bih=965&q=%s", "+"));
+        searchEngines.put("si ", new Search("Image", "si ", "http://www.bing.com/images/search?q=%s", "+"));
         searchEngines.put("sl ", new Search("I'm Feeling Lucky", "sl ", "http://www.google.com/search?btnI=I%27m+Feeling+Lucky&ie=UTF-8&oe=UTF-8&q=", "+"));
         searchEngines.put("mv ", new Search("I'm Feeling Lucky", "mv ", "http://www.google.com/search?btnI=I%27m+Feeling+Lucky&ie=UTF-8&oe=UTF-8&q=maven+repository+", "+"));
         searchEngines.put("sb ", new Search("Baidu", "sb ", "https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=0&rsv_idx=1&tn=baidu&wd=%s", "%20"));
