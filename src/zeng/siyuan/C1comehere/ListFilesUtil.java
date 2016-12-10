@@ -2,6 +2,7 @@ package zeng.siyuan.C1comehere;
 
 import org.apache.commons.io.FileUtils;
 import zeng.siyuan.reuseutil.r;
+import zeng.siyuan.solr.test.param.dao.SolrDataDAO;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -20,6 +21,7 @@ import java.util.stream.Collectors;
  * http://loianegroner.com (English)
  */
 public class ListFilesUtil {
+    public static int count =1;
     /**
      * List all the files and folders from a directory
      * @param directoryName to be listed
@@ -78,13 +80,14 @@ public class ListFilesUtil {
      * List all the folder under a directory
      * @param directoryName to be listed
      */
-    public void listFolders(String directoryName){
+    public void listFolders(String directoryName, Properties prop){
         File directory = new File(directoryName);
         //get all the files from a directory
         File[] fList = directory.listFiles();
         for (File file : fList){
             if (file.isDirectory()){
                 System.out.println(file.getName());
+                prop.put(file.getName(), file.getAbsolutePath());
             }
         }
     }
@@ -104,13 +107,247 @@ public class ListFilesUtil {
             }
         }
     }
+
+    /**
+     * List all files from a directory and its subdirectories
+     * @param directoryName to be listed
+     */
+    public static void listFilesAndFilesSubDirectories(String directoryName, Properties prop){
+
+        File directory = new File(directoryName);
+        //get all the files from a directory
+        File[] fList = directory.listFiles();
+        for (File file : fList){
+            if (file.isFile()){
+//                System.out.println(file.getAbsolutePath());
+            } else if (file.isDirectory()){
+                listFilesAndFilesSubDirectories(file.getAbsolutePath(), null);
+                p.setProperty(file.getName()+" fld", file.getAbsolutePath());
+            }
+        }
+
+
+///*
+
+//*/
+
+
+
+    }
+
+
+
+    public static void c(String c1, String c1Path) {
+
+        OutputStream output = null;
+        OutputStream output_solr = null;
+        try {
+
+            output = new FileOutputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\zeng\\siyuan\\C1comehere\\p.properties");
+//            c1 = c1.replace(" ", "%20");
+//             set the properties value
+//            p.setProperty(c1, c1Path);
+
+            // save properties to project root folder
+            p.store(output, null);
+
+
+            output_solr = new FileOutputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\zeng\\siyuan\\C1comehere\\psolr.properties");
+            p.store(output_solr, null);
+//            int count = 0;
+//            for (Map.Entry<Object, Object> e : p.entrySet()) {
+//                String key = ((String) e.getKey()).replace("%20", " ");
+//                String v = (String) e.getValue();
+//                output_solr.write(String.valueOf(count).getBytes());
+//                output_solr.write(',');
+//                output_solr.write(key.getBytes());
+//                output_solr.write(',');
+//                output_solr.write(v.getBytes());
+//                output_solr.write(System.getProperty("line.separator").getBytes());
+//                count++;
+//            }
+
+        } catch (IOException io) {
+            io.printStackTrace();
+        } finally {
+            if (output != null) {
+                try {
+                    output.close();
+                    output_solr.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+
+    public static Properties p= new Properties();
+
+    public static void c1() {
+        Properties temprop = new Properties();
+        InputStream input = null;
+
+        try {
+            input = new FileInputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\zeng\\siyuan\\C1comehere\\p.properties");
+            // fjlasdjfl a properties file
+            temprop.load(input);
+
+
+            for (Map.Entry<Object, Object> e : temprop.entrySet()) {
+                String key = ((String) e.getKey()).replace("%20", " ");
+                String v = (String) e.getValue();
+                p.put(key, v);
+            }
+            System.out.println("Done Propertiesy loading");
+
+//            input = new FileInputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\main\\resources\\c1s.properties");
+            // fjlasdjfl a properties file
+//            temprop = new Properties();
+//            temprop.load(input);
+//
+//
+//            for (Map.Entry<Object, Object> e : temprop.entrySet()) {
+//                String key = ((String) e.getKey()).replace("%20", " ");
+//                String v = (String) e.getValue();
+//                p.put(key, v);
+//            }
+//            System.out.println("Done Propertiesy loading");
+
+/*
+            SolrDataDAO solrBaseDAO = null;
+            try {
+                solrBaseDAO = new SolrDataDAO();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+            int count =1;
+            for (Map.Entry<Object, Object> e : prop.entrySet()) {
+                System.out.println(count);
+                String key = ((String) e.getKey()).replace("%20", " ");
+                String v = (String) e.getValue();
+                try {
+                    solrBaseDAO.addData(count, key,v);
+                } catch (Exception e1) {
+                    e1.printStackTrace();
+                }
+                count++;
+            }
+            System.out.println("stop");
+
+*/
+
+
+
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        } finally {
+            if (input != null) {
+                try {
+                    input.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+
+    }
+
+
+
     public static void main (String[] args){
+
+
+
+        String fol[] = new String[]{
+                "C:/Users/SiyuanZeng's/Documents/OneNote Notebooks",
+                "C:/Users/SiyuanZeng's/Documents/OneNote 笔记本",
+                "C:/Users/SiyuanZeng's/Videos",
+                "C:/SoftwareInstallation",
+                "C:/Development_Base"
+        };
+
+
+        try
+        {
+            Process p=Runtime.getRuntime().exec("cmd /c C:\\solr-6.2.0\\bin\\solr start");
+            p.waitFor();
+            BufferedReader reader=new BufferedReader(
+                    new InputStreamReader(p.getInputStream())
+            );
+            String line;
+            while((line = reader.readLine()) != null)
+            {
+                System.out.println(line);
+            }
+
+        }
+        catch(IOException e1) {}
+        catch(InterruptedException e2) {}
+//        finally {
+//
+//        }
+
+
+//c1ss(p);
+
+        for(String l: fol) {
+            listFilesAndFilesSubDirectories(l, null);
+
+        }
+
+
+//        for (Map.Entry<Object, Object> e : p.entrySet()) {
+//            String key = ((String) e.getKey()).replace("%20", " ");
+//            String v = (String) e.getValue();
+            c(null, null);
+//        }
+
+
+
+
+        SolrDataDAO solrBaseDAO = null;
+        try {
+            solrBaseDAO = new SolrDataDAO();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+
+//            int count =1;
+        for (Map.Entry<Object, Object> e : p.entrySet()) {
+            System.out.println(count);
+            String key = ((String) e.getKey()).replace("%20", " ");
+            String v = (String) e.getValue();
+            try {
+                solrBaseDAO.l(count, key,v);
+            } catch (Exception e1) {
+                e1.printStackTrace();
+            }
+            count++;
+        }
+        System.out.println("stop");
+
+
+        System.exit(-1);
+
+
+
+
+/*
+
+
+
+
         ListFilesUtil listFilesUtil = new ListFilesUtil();
 //        final String directoryLinuxMac ="/Users/loiane/test";
         //Windows directory example
         final String directoryWindows ="C:\\Users\\SiyuanZeng's\\Videos\\Friends\\Best Clips";
         listFilesUtil.listFiles(directoryWindows);
         listFilesUtil.listFilesf(directoryWindows);
+*/
+
     }
 
 

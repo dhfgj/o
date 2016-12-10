@@ -25,7 +25,7 @@ public class SolrDataDAO extends SolrBaseDAO {
 	private static Logger logger = LoggerFactory.getLogger(SolrBaseDAO.class);
 
 	public SolrDataDAO() throws Exception {
-		server = getSolrConnection();
+//		server = getSolrConnection();
 	}
 
 	/**
@@ -95,6 +95,25 @@ public class SolrDataDAO extends SolrBaseDAO {
 		logger.info("Add to solr: ID = " + id + " name = " + name);
 
 		server = getSolrConnectionfore();
+		// Populate solr document
+		SolrInputDocument doc = new SolrInputDocument();
+		doc.addField("id", id);
+		doc.addField("name", name);
+		doc.addField("path", path);
+		server.add(doc);
+		server.commit();
+		logger.info("Data committed Successfully!");
+		// If required from code call solr commit here.
+		// Good idea is to batch you commits, otherwise it may slow down query
+		// performance while commits are happening
+		// I usually do it via Solr Auto Commit parameter in solrconfig.xml,
+		// which gives option for Max number of documents or max time lapse.
+		// Which ever happens first.
+	}
+	public void l(int id, String name, String path) throws Exception {
+		logger.info("Add to solr: ID = " + id + " name = " + name);
+
+		server = k();
 		// Populate solr document
 		SolrInputDocument doc = new SolrInputDocument();
 		doc.addField("id", id);
