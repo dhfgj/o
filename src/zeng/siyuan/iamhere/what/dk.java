@@ -148,6 +148,9 @@ public class dk{
 //        final File f = ff.find();
 //        final long end = System.currentTimeMillis();
 //        System.out.println(f + " " + (end - ini) + " ms");
+
+
+
         Unix4jCommandBuilder unix4j = Unix4j.builder();
         List<String> testClasses = unix4j.find("C:/Users/SiyuanZeng's/Videos/Friends", "*Friends*").toStringList();
         for(String path: testClasses){

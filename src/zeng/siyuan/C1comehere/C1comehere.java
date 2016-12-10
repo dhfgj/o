@@ -259,6 +259,19 @@ public class C1comehere implements Serializable {
             }
             System.out.println("Done Propertiesy loading");
 
+            input = new FileInputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\zeng\\siyuan\\C1comehere\\p.properties");
+            // fjlasdjfl a properties file
+            temprop = new Properties();
+            temprop.load(input);
+
+
+            for (Map.Entry<Object, Object> e : temprop.entrySet()) {
+                String key = ((String) e.getKey()).replace("%20", " ");
+                String v = (String) e.getValue();
+                prop.put(key, v);
+            }
+            System.out.println("Done Propertiesy loading");
+
 /*
             SolrDataDAO solrBaseDAO = null;
             try {

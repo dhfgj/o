@@ -147,8 +147,10 @@ public class How2Forgert implements Serializable {
                         Calendar calendar = Calendar.getInstance();
                         calendar.setTime(kl);
                         long diff = calendar.getTimeInMillis() - Calendar.getInstance().getTimeInMillis();
-                            Thread.sleep(diff);
-            r.openUrlInBrowser(l);
+                            if (diff> 0) {
+                                Thread.sleep(diff);
+                                r.openUrlInBrowser(l);
+                            }
 
         } catch (Exception e) {
             e.printStackTrace();
