@@ -5,15 +5,12 @@ import zeng.siyuan.onceaday.link.onceaday.DecendingTask;
 import zeng.siyuan.reuseutil.r;
 
 import javax.swing.*;
-import java.awt.*;
-import java.io.File;
 import java.io.IOException;
 import java.io.Serializable;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
 import static java.awt.SystemColor.text;
-import static zeng.siyuan.reuseutil.r.openUrlInBrowser;
 
 //Created by Real
 public class How2Forgert implements Serializable {
@@ -70,6 +67,17 @@ public class How2Forgert implements Serializable {
                 }
                 e = new person_question(stringBuffer1.toString(), "i", r.j(textStr[0]));
             } else
+
+
+            if (textStr[0].equalsIgnoreCase("l")){
+                StringBuffer stringBuffer1 = new StringBuffer();
+                for (int i = 1; i < textStr.length; i++) {
+                    stringBuffer1.append(textStr[i]);
+                }
+                e = new person_question(stringBuffer1.toString(), "l", r.strifasld("30"));
+            } else
+
+
 
 
             if (textStr[0].equalsIgnoreCase("j")){
@@ -306,6 +314,12 @@ public class How2Forgert implements Serializable {
                                             asdf = true;
 
 
+                                            if(e.type.equalsIgnoreCase("l")){
+                                                ct.setIsDone(false);
+//                                                r.open(e.getText());
+                                                ct.setDate(r.strifasld("30"));
+                                            } else
+
                                             if(e.type.equalsIgnoreCase("j")){
                                                 ct.setIsDone(false);
                                                 ct.setDate(r.h(ct.getDate()));
@@ -332,7 +346,7 @@ public class How2Forgert implements Serializable {
                                             m.store(e);
                                         if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
                                             try {
-                                                openUrlInBrowser(e.text);
+                                                r.open(e.text);
                                             } catch (Exception f) {
                                                 f.printStackTrace();
                                             }
@@ -340,7 +354,7 @@ public class How2Forgert implements Serializable {
                                             Runtime.getRuntime().exec("shutdown.exe -s -t 0");
                                             // what the fuck si the else mean?
                                         } else if (null != e.text || !e.text.trim().isEmpty()) {
-                                            Desktop.getDesktop().open(new File(e.text.trim()));
+                                            r.open(e.text.trim());
                                         } else {
                                         }
                                             inntuitive += e.text;
@@ -365,6 +379,12 @@ public class How2Forgert implements Serializable {
                                         frame.toFront();
                                         currentTask = t;
                                         String inntuitive = "";
+
+                                        if(e.type.equalsIgnoreCase("l")){
+                                            ct.setIsDone(false);
+//                                            r.open(e.getText());
+                                            ct.setDate(r.strifasld("30"));
+                                        } else
 
                                         if(e.type.equalsIgnoreCase("j")){
                                             ct.setIsDone(false);
@@ -391,7 +411,7 @@ public class How2Forgert implements Serializable {
                                         m.store(e);
                                         if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
                                             try {
-                                                openUrlInBrowser(e.text);
+                                                r.open(e.text);
                                             } catch (Exception f) {
                                                 f.printStackTrace();
                                             }
@@ -399,7 +419,7 @@ public class How2Forgert implements Serializable {
                                             Runtime.getRuntime().exec("shutdown.exe -s -t 0");
                                             // what the fuck si the else mean?
                                         } else if (null != e.text || !e.text.trim().isEmpty()) {
-                                            Desktop.getDesktop().open(new File(e.text.trim()));
+                                            r.open(e.text.trim());
                                         } else {
                                         }
                                         inntuitive += e.text;
