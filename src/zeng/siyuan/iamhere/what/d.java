@@ -1,5 +1,6 @@
 package zeng.siyuan.iamhere.what;
 
+import org.apache.solr.common.SolrInputDocument;
 import org.unix4j.Unix4j;
 import org.unix4j.builder.Unix4jCommandBuilder;
 import zeng.siyuan.solr.test.param.dao.SolrDataDAO;
@@ -27,12 +28,13 @@ public class d {
         private final int num;
         private static Properties p;
 
-        public RunnableDirSearch(final BlockingQueue<File> dirQueue, final BlockingQueue<File> fileQueue, final AtomicLong count, final int num, Properties p) {
+        public RunnableDirSearch(BlockingQueue<File> dirQueue, BlockingQueue<File> fileQueue, AtomicLong count, int concurrency, Properties p, List<SolrInputDocument> a) {
             this.dirQueue = dirQueue;
             this.fileQueue = fileQueue;
             this.count = count;
-            this.num = num;
+            this.num = concurrency;
             this.p = p;
+            this.a = a;
         }
 
         private String[] i = new String[]{".git", "objects", "src", ".dea", ".idea",
@@ -46,6 +48,9 @@ public class d {
                 "nonsenseworkds",
 
         };
+        public static List<SolrInputDocument> a;
+
+
         @Override
         public void run() {
             try {
@@ -67,8 +72,14 @@ public class d {
 //                                    }
 //                                }
                                 if (!matches) {
-                                    System.out.println(fileQueue.size() + " " + element.getAbsolutePath());
-                                    fileQueue.put(element);
+
+                                    SolrInputDocument doc = new SolrInputDocument();
+                                    doc.addField("id", p.size());
+                                    doc.addField("name", element.getName() + " fld");
+                                    doc.addField("path", element.getAbsolutePath());
+                                    a.add(doc);
+                                    System.out.println(p.size() + " " + element.getAbsolutePath());
+//                                    fileQueue.put(element);
                                     p.put(element.getName() + " fld", element.getAbsolutePath());
                                 }
                                 }
@@ -107,12 +118,13 @@ public class d {
         private final String name;
         private final int num;
         private static int count = 0;
-
-        public CallableFileSearch(final BlockingQueue<File> dirQueue, final BlockingQueue<File> fileQueue, final String name, final int num) {
+        List<SolrInputDocument> a;
+        public CallableFileSearch(final BlockingQueue<File> dirQueue, final BlockingQueue<File> fileQueue, final String name, final int num, List<SolrInputDocument> a) {
             this.dirQueue = dirQueue;
             this.fileQueue = fileQueue;
             this.name = name;
             this.num = num;
+            this.a=a;
         }
 
         @Override
@@ -150,9 +162,10 @@ public class d {
 //            int try3times = 3;
 //                Boolean fIA=true;
 //            while (try3times > 0 && fIA)
+                System.out.println("solr commit");
 
                 try {
-                    solrBaseDAO.l(count, filename + " fld", file.getAbsolutePath());
+                    solrBaseDAO.g(count, filename + " fld", file.getAbsolutePath(), a);
 //                    fIA=false;
                 } catch (Exception e1) {
 //                fIA=true;
@@ -209,8 +222,11 @@ public class d {
         final ExecutorService ex = Executors.newFixedThreadPool(concurrency + 1);
         final BlockingQueue<File> dirQueue = new LinkedBlockingQueue<File>();
         final BlockingQueue<File> fileQueue = new LinkedBlockingQueue<File>(1000000);
+        List<SolrInputDocument> a = new CopyOnWriteArrayList<>();
+
+        Properties p = new Properties();
         for (int i = 0; i < concurrency; i++) {
-            ex.submit(new RunnableDirSearch(dirQueue, fileQueue, count, concurrency, p));
+            ex.submit(new RunnableDirSearch(dirQueue, fileQueue, count, concurrency, p, a));
         }
 
         // file --> properties --> solr
@@ -218,46 +234,46 @@ public class d {
 
         count.incrementAndGet();
         dirQueue.add(baseDir);
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
-
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+//        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency));
+        ex.submit(new CallableFileSearch(dirQueue, fileQueue, filename, concurrency, a));
+//
         try {
             try {
                 ex.awaitTermination(Long.MAX_VALUE, TimeUnit.DAYS);
