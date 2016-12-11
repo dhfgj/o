@@ -8,7 +8,17 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class Test {
-
+    // it makes sense i will remember and i can find it later like a file name
+    //it is all about me the good will that is me, i bought this coffee machine for you and you don't even appreciate it .
+    //god give me everything and become everything and who give you that and take
+    //who are you
+// good will
+//there is love there
+    // it is lla bout me
+    //
+    // I am will
+    // What jdid you find in the you nam e, you name come up everywehre
+    private String[] i = new String[]{".git", "objects", "src", ".dea", ".idea", ".", "nonsenseworkds", "meanlesssworld"};
     private static final int THREAD_COUNT = 120;
     private static int taskDoneCount=0;
     private static int count=0;

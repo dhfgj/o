@@ -9,7 +9,9 @@ import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicLong;
 
 public class dk{
-
+// yes i am big and bad and everything ahnd that it is all
+    // everything is giveing you something, somethign give you nightmare and somethign give you sepepelkd like excueetieroservivewe
+    // i have eto compe up somethiing that will kil somebosyd
     private static final File   POISONPILL  = new File("");
 
     private static class RunnableDirSearch implements Runnable {
@@ -141,13 +143,13 @@ public class dk{
     }
 
     public static void main(final String[] args) {
-//        final String filename = "friends";
-//        final File baseDir = new File("C:\\Users\\SiyuanZeng's\\Videos\\Friends\\Best Clips");
-//        final dk ff = new dk(filename, baseDir, 6);
-//        final long ini = System.currentTimeMillis();
-//        final File f = ff.find();
-//        final long end = System.currentTimeMillis();
-//        System.out.println(f + " " + (end - ini) + " ms");
+        final String filename = "friends";
+        final File baseDir = new File("C:\\Users\\SiyuanZeng's\\Videos");
+        final dk ff = new dk(filename, baseDir, 6);
+        final long ini = System.currentTimeMillis();
+        final File f = ff.find();
+        final long end = System.currentTimeMillis();
+        System.out.println(f + " " + (end - ini) + " ms");
 
 
 
