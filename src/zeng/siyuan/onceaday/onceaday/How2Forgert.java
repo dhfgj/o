@@ -314,6 +314,8 @@ logDictionary(
             e.printStackTrace();
         }
     }
+// it is hard to trigger the function and test it whether it works or not in terms of my assupmertion
+
 
     public static void logDictionary(String search, String word, String uri) throws IOException, ParseException {
 

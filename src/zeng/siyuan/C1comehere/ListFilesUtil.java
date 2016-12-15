@@ -3,6 +3,7 @@ package zeng.siyuan.C1comehere;
 import org.apache.commons.io.FileUtils;
 import zeng.siyuan.Test;
 import zeng.siyuan.reuseutil.r;
+import zeng.siyuan.solr.test.param.dao.SolrDataDAO;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -261,11 +262,12 @@ public class ListFilesUtil {
 
 
         String fol[] = new String[]{
-                "C:/Users/SiyuanZeng's/Documents/OneNote Notebooks",
-                "C:/Users/SiyuanZeng's/Documents/OneNote 笔记本",
-                "C:/Users/SiyuanZeng's/Videos",
-                "C:/SoftwareInstallation",
-                "C:/Development_Base"
+//                "C:/Users/SiyuanZeng's/Documents/OneNote Notebooks",
+//                "C:/Users/SiyuanZeng's/Documents/OneNote 笔记本",
+//                "C:/Users/SiyuanZeng's/Videos",
+//                "C:/SoftwareInstallation",
+//                "C:/Development_Base"
+                "C:/"
         };
 
 
@@ -291,11 +293,15 @@ public class ListFilesUtil {
 
 
 //c1ss(p);
+        c1s();
+        int count =p.size();
 
+        p = new Properties();
         for(String l: fol) {
 //            listFilesAndFilesSubDirectories(l, null);
             try {
-                Test.maind(l, p);
+//                Test.maind(l, p);
+                Test.l(l, p);
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -310,34 +316,35 @@ public class ListFilesUtil {
 
 
 
-//
-//        SolrDataDAO solrBaseDAO = null;
-//        try {
-//            solrBaseDAO = new SolrDataDAO();
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//
-//
-////            int count =1;
-//        for (Map.Entry<Object, Object> e : p.entrySet()) {
-//            System.out.println(count);
-//            String key = ((String) e.getKey()).replace("%20", " ");
-//            String v = (String) e.getValue();
-//            try {
-//                solrBaseDAO.l(count, key,v);
-//            } catch (Exception e1) {
-//                e1.printStackTrace();
-//            }
-//            count++;
-//        }
-//        System.out.println("stop");
-//
-//
-//        System.exit(-1);
-//
-//
-//
+
+        SolrDataDAO solrBaseDAO = null;
+        try {
+            solrBaseDAO = new SolrDataDAO();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+
+//            int count =1;
+        for (Map.Entry<Object, Object> e : p.entrySet()) {
+            System.out.println(count);
+            String key = ((String) e.getKey()).replace("%20", " ");
+            String v = (String) e.getValue();
+            try {
+                solrBaseDAO.l(count, key,v);
+            } catch (Exception e1) {
+                e1.printStackTrace();
+            }
+            System.out.println(count);
+            count++;
+        }
+        System.out.println("stop");
+
+
+        System.exit(-1);
+
+
+
 
 /*
 
