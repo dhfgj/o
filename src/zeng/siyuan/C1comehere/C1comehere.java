@@ -43,6 +43,7 @@ public class C1comehere implements Serializable {
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.How2Forgert dhow2ForgDertl;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.How2Forgert dhow2ForgDertls;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.How2Forgert dhow2ForgDertlsf;
+    public zeng.siyuan.onceaday.onceaday.How2Forgert dhow2ForgDertlssfs;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.onceaday.How2Forgert dhow2ForgDertlssf;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.How2Forgert a;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.How2Forgert j;
@@ -614,6 +615,14 @@ public class C1comehere implements Serializable {
         dhow2ForgDertlssf.textArea = textArea;
         dhow2ForgDertlssf.frame = frame;
         dhow2ForgDertlssf.init();
+
+        if (null == dhow2ForgDertlssfs) {
+            dhow2ForgDertlssfs= new zeng.siyuan.onceaday.onceaday.How2Forgert(c1comehere, textArea, frame);
+        }
+        dhow2ForgDertlssfs.c1comehere = c1comehere;
+        dhow2ForgDertlssfs.textArea = textArea;
+        dhow2ForgDertlssfs.frame = frame;
+        dhow2ForgDertlssfs.init();
 
 
 
@@ -1272,9 +1281,15 @@ public class C1comehere implements Serializable {
                             System.out.println("Disloadl");
                             dhow2ForgDertlsf.fjlasdjfl();
                         }
+
                            else if (SDldeleteCommandd_X ) {
                             System.out.println("Disloadl");
                             dhow2ForgDertlssf.fjlasdjfl();
+                        }
+
+                           else if (SDcodjDa_lx) {
+                            System.out.println("Disloadl");
+                            dhow2ForgDertlssfs.load();
                         }
 
                         else if (SDdleleteCoDmmand2f ) {

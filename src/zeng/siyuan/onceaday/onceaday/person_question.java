@@ -6,7 +6,6 @@ import com.datastax.driver.mapping.annotations.Table;
 import com.datastax.driver.mapping.annotations.Transient;
 
 import java.io.Serializable;
-import java.text.SimpleDateFormat;
 import java.util.*;
 
 
@@ -89,55 +88,57 @@ public class person_question implements Serializable{
 
         StringBuilder stringBuilder = new StringBuilder();
 
-        Calendar c = Calendar.getInstance();
+//        Calendar c = Calendar.getInstance();
 
-        SimpleDateFormat format = new SimpleDateFormat("EEE, MMM d, yyyy 'at' hh:mm");
+//        SimpleDateFormat format = new SimpleDateFormat("EEE, MMM d, yyyy 'at' hh:mm");
+//
+//        System.out.println(format.format(c.getTime()));
+//
+//        c.add(Calendar.HOUR_OF_DAY, 1);
+//
+//        Calendar d = Calendar.getInstance();
+//        d.setTime(date1);
+//        d.add(Calendar.DATE, 1);
+//        date= new Date(d.getTimeInMillis());
+//
+//        System.out.println(format.format(c.getTime()));
+//
+//
+//        int timeOfDay = c.get(Calendar.HOUR_OF_DAY);
+//
+//        if (timeOfDay >= 0 && timeOfDay < 12) {
+//            stringBuilder.append(System.getProperty("line.separator"));
+//            stringBuilder.append("Good Morning C1 world, ");
+//        } else if (timeOfDay >= 12 && timeOfDay < 16) {
+//            stringBuilder.append(System.getProperty("line.separator"));
+//            stringBuilder.append("Good Afternoon C1 world, ");
+//        } else if (timeOfDay >= 16 && timeOfDay < 21) {
+//            stringBuilder.append(System.getProperty("line.separator"));
+//            stringBuilder.append("Good Evening C1 world, ");
+//        } else if (timeOfDay >= 21 && timeOfDay < 24) {
+//            stringBuilder.append(System.getProperty("line.separator"));
+//            stringBuilder.append("Good Night C1 world, ");
+//        }
+//
+//        stringBuilder.append(format.format(c.getTime()));
+//
+//        if (timeOfDay >= 0 && timeOfDay < 12) {
+//            stringBuilder.append(" am");
+//            stringBuilder.append(System.getProperty("line.separator"));
+//            stringBuilder.append(text);
+//            stringBuilder.append(System.getProperty("line.separator"));
+//        } else if (timeOfDay >= 12 && timeOfDay < 24) {
+//            stringBuilder.append(" pm");
+//            stringBuilder.append(System.getProperty("line.separator"));
+//            stringBuilder.append(text);
+//            stringBuilder.append(System.getProperty("line.separator"));
+//        }
 
-        System.out.println(format.format(c.getTime()));
 
-        c.add(Calendar.HOUR_OF_DAY, 1);
+        this.type = TYPE;
+        this.text = text;
 
-        Calendar d = Calendar.getInstance();
-        d.setTime(date1);
-        d.add(Calendar.DATE, 1);
-        date= new Date(d.getTimeInMillis());
-
-        System.out.println(format.format(c.getTime()));
-
-
-        int timeOfDay = c.get(Calendar.HOUR_OF_DAY);
-
-        if (timeOfDay >= 0 && timeOfDay < 12) {
-            stringBuilder.append(System.getProperty("line.separator"));
-            stringBuilder.append("Good Morning C1 world, ");
-        } else if (timeOfDay >= 12 && timeOfDay < 16) {
-            stringBuilder.append(System.getProperty("line.separator"));
-            stringBuilder.append("Good Afternoon C1 world, ");
-        } else if (timeOfDay >= 16 && timeOfDay < 21) {
-            stringBuilder.append(System.getProperty("line.separator"));
-            stringBuilder.append("Good Evening C1 world, ");
-        } else if (timeOfDay >= 21 && timeOfDay < 24) {
-            stringBuilder.append(System.getProperty("line.separator"));
-            stringBuilder.append("Good Night C1 world, ");
-        }
-
-        stringBuilder.append(format.format(c.getTime()));
-
-        if (timeOfDay >= 0 && timeOfDay < 12) {
-            stringBuilder.append(" am");
-            stringBuilder.append(System.getProperty("line.separator"));
-            stringBuilder.append(text);
-            stringBuilder.append(System.getProperty("line.separator"));
-        } else if (timeOfDay >= 12 && timeOfDay < 24) {
-            stringBuilder.append(" pm");
-            stringBuilder.append(System.getProperty("line.separator"));
-            stringBuilder.append(text);
-            stringBuilder.append(System.getProperty("line.separator"));
-        }
-
-        this.text = stringBuilder.toString();
-
-        first = new Task(date, javauid);
+        first = new Task(date1, javauid);
         tasks.add(first);
 
     }

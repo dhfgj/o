@@ -1,9 +1,11 @@
 package zeng.siyuan.onceaday.onceaday;
 
+import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.core.JsonGenerationException;
-import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.introspect.VisibilityChecker;
 import com.mongodb.DBObject;
 import com.mongodb.util.JSON;
 import zeng.siyuan.C1comehere.C1comehere;
@@ -14,7 +16,6 @@ import javax.swing.*;
 import java.io.IOException;
 import java.io.Serializable;
 import java.net.UnknownHostException;
-import java.text.SimpleDateFormat;
 import java.util.*;
 
 //import static zeng.siyuan.onceaday.onceaday.peoplequesiton.mapper;
@@ -69,7 +70,7 @@ public class How2Forgert implements Serializable {
 
 
                     MongoDbHelper k = MongoDbHelper.getInstance();
-                    k.insertDocument("d", p);
+                    k.insertDocument("asfhkjashfkjashfl", p);
 
 
                 } catch (JsonGenerationException p) {
@@ -93,80 +94,81 @@ public class How2Forgert implements Serializable {
         this.frame = frame;
     }
 
-    public void updatetask() throws UnknownHostException {
-        StringBuilder stringBuilder = new StringBuilder();
-        Date date = new Date();
+//    public void updatetask() throws UnknownHostException {
+//        StringBuilder stringBuilder = new StringBuilder();
+//        Date date = new Date();
+//
+//        Calendar c = Calendar.getInstance();
+//
+//        SimpleDateFormat format = new SimpleDateFormat("EEE, MMM d, yyyy 'at' hh:mm");
+//
+//        System.out.println(format.format(c.getTime()));
+//
+//        c.add(Calendar.HOUR_OF_DAY, 1);
+//
+//        System.out.println(format.format(c.getTime()));
+//
+//         found!
+//        String textinput = textArea.getText().replace(" Dufgt ", "");
+//        Scanner in = null;
+//
+//        if (!textinput.isEmpty()) {
+//            StringBuilder stringBuilder1 = new StringBuilder();
+//            in = new Scanner(textinput);
+//            while (in.hasNext()) {
+//                String line = in.nextLine();
+//                if (line.contains(" found!")) {
+//                } else {
+//                    stringBuilder.append(line);
+//                }
+//            }
+//            textinput=stringBuilder.toString();
+//        }
+//
+//
+//        int timeOfDay = c.get(Calendar.HOUR_OF_DAY);
+//
+//        if (timeOfDay >= 0 && timeOfDay < 12) {
+//            stringBuilder.append(System.getProperty("line.separator"));
+//            stringBuilder.append("Good Morning C1 world, ");
+//        } else if (timeOfDay >= 12 && timeOfDay < 16) {
+//            stringBuilder.append(System.getProperty("line.separator"));
+//            stringBuilder.append("Good Afternoon C1 world, ");
+//        } else if (timeOfDay >= 16 && timeOfDay < 21) {
+//            stringBuilder.append(System.getProperty("line.separator"));
+//            stringBuilder.append("Good Evening C1 world, ");
+//        } else if (timeOfDay >= 21 && timeOfDay < 24) {
+//            stringBuilder.append(System.getProperty("line.separator"));
+//            stringBuilder.append("Good Night C1 world, ");
+//        }
 
-        Calendar c = Calendar.getInstance();
-
-        SimpleDateFormat format = new SimpleDateFormat("EEE, MMM d, yyyy 'at' hh:mm");
-
-        System.out.println(format.format(c.getTime()));
-
-        c.add(Calendar.HOUR_OF_DAY, 1);
-
-        System.out.println(format.format(c.getTime()));
-
-        // found!
-        String textinput = textArea.getText().replace(" Dufgt ", "");
-        Scanner in = null;
-
-        if (!textinput.isEmpty()) {
-            StringBuilder stringBuilder1 = new StringBuilder();
-            in = new Scanner(textinput);
-            while (in.hasNext()) {
-                String line = in.nextLine();
-                if (line.contains(" found!")) {
-                } else {
-                    stringBuilder.append(line);
-                }
-            }
-            textinput=stringBuilder.toString();
-        }
-
-
-        int timeOfDay = c.get(Calendar.HOUR_OF_DAY);
-
-        if (timeOfDay >= 0 && timeOfDay < 12) {
-            stringBuilder.append(System.getProperty("line.separator"));
-            stringBuilder.append("Good Morning C1 world, ");
-        } else if (timeOfDay >= 12 && timeOfDay < 16) {
-            stringBuilder.append(System.getProperty("line.separator"));
-            stringBuilder.append("Good Afternoon C1 world, ");
-        } else if (timeOfDay >= 16 && timeOfDay < 21) {
-            stringBuilder.append(System.getProperty("line.separator"));
-            stringBuilder.append("Good Evening C1 world, ");
-        } else if (timeOfDay >= 21 && timeOfDay < 24) {
-            stringBuilder.append(System.getProperty("line.separator"));
-            stringBuilder.append("Good Night C1 world, ");
-        }
-
-        stringBuilder.append(format.format(c.getTime()));
-
-        for (person_question e : ebbinghauses) {
-            if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
-                if (timeOfDay >= 0 && timeOfDay < 12) {
-                    stringBuilder.append(" am");
-                } else if (timeOfDay >= 12 && timeOfDay < 24) {
-                    stringBuilder.append(" pm");
-                }
-                stringBuilder.append(System.getProperty("line.separator"));
-                stringBuilder.append(textinput);
-                stringBuilder.append(System.getProperty("line.separator"));
-
-                e.text = stringBuilder.toString();
-
+//        stringBuilder.append(format.format(c.getTime()));
+//
+//        for (person_question e : ebbinghauses) {
+//            if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
+//                if (timeOfDay >= 0 && timeOfDay < 12) {
+//                    stringBuilder.append(" am");
+//                } else if (timeOfDay >= 12 && timeOfDay < 24) {
+//                    stringBuilder.append(" pm");
+//                }
+//                stringBuilder.append(System.getProperty("line.separator"));
+//                stringBuilder.append(textinput);
+//                stringBuilder.append(System.getProperty("line.separator"));
+//
+//                e.text = stringBuilder.toString();
+//
 //                m.store(e);
-
-                String j = null;
-                try {
-                    j = mapper.writeValueAsString(e);
-                } catch (JsonProcessingException e1) {
-                    e1.printStackTrace();
-                }
-                System.out.println(j);
-
+//
+//                String j = null;
+//                try {
+//                    j = mapper.writeValueAsString(e);
+//                } catch (JsonProcessingException e1) {
+//                    e1.printStackTrace();
+//                }
+//                System.out.println(j);
+//
                 // Convert object to JSON string and pretty print
+/*
                 try {
                     j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
                 } catch (JsonProcessingException e1) {
@@ -178,7 +180,7 @@ public class How2Forgert implements Serializable {
 
 
                 MongoDbHelper k= MongoDbHelper.getInstance();
-                k.insertDocument("d", p);
+                k.insertDocument("asfhkjashfkjashfl", p);
 
 
 
@@ -188,6 +190,7 @@ public class How2Forgert implements Serializable {
             }
         }
     }
+*/
 
     public void displayTask() {
         try {
@@ -231,7 +234,7 @@ public class How2Forgert implements Serializable {
 
 
                                             MongoDbHelper k= MongoDbHelper.getInstance();
-                                            k.insertDocument("d", p);
+                                            k.insertDocument("asfhkjashfkjashfl", p);
 
 
 
@@ -275,7 +278,7 @@ public class How2Forgert implements Serializable {
 
 
                                         MongoDbHelper k= MongoDbHelper.getInstance();
-                                        k.insertDocument("d", p);
+                                        k.insertDocument("asfhkjashfkjashfl", p);
 
 
                                         textArea.setText(inntuitive);
@@ -358,7 +361,7 @@ public class How2Forgert implements Serializable {
     public void loadTask() {
         List<DBObject> k = null ;
         try {
-            k = MongoDbHelper.getInstance().findAll("d").toArray();
+            k = MongoDbHelper.getInstance().findAll("asfhkjashfkjashfl").toArray();
         } catch (UnknownHostException e) {
             e.printStackTrace();
         }
@@ -370,18 +373,23 @@ public class How2Forgert implements Serializable {
             String jsonInString = k.get(0).toString();
             person_question stasdfhalksfdjlkasdjflkaff1 = null;
             try {
+                mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
+                mapper.setVisibilityChecker(VisibilityChecker.Std.defaultInstance().withFieldVisibility(JsonAutoDetect.Visibility.ANY));
+
                 stasdfhalksfdjlkasdjflkaff1 = mapper.readValue(e.toString(), person_question.class);
             } catch (IOException e1) {
                 e1.printStackTrace();
             }
 
 //        }
-            if (stasdfhalksfdjlkasdjflkaff1.text.replace("Dufgt", "").trim().isEmpty()){
+            if (null != stasdfhalksfdjlkasdjflkaff1) {
+                if (stasdfhalksfdjlkasdjflkaff1.text.replace("Dufgt", "").trim().isEmpty()) {
 //                m.deleteTask(e.getJavauid());
-            } else {
-                Set<Task> t = stasdfhalksfdjlkasdjflkaff1.tasks;
-                for (Task task : t) {
-                    tasks.add(task);
+                } else {
+                    Set<Task> t = stasdfhalksfdjlkasdjflkaff1.tasks;
+                    for (Task task : t) {
+                        tasks.add(task);
+                    }
                 }
             }
         }
@@ -393,10 +401,23 @@ public class How2Forgert implements Serializable {
 //        ArrayList<person_question> ebbinghauses2 = (ArrayList<person_question>) m.getlatest();
         ArrayList<DecendingTask> taskstemp = new ArrayList<DecendingTask>();
 
-        List<DBObject> k = MongoDbHelper.getInstance().findAll("d").toArray();
-//        List<DBObject> k = MongoDbHelper.getInstance().findAll("d").sort(new BasicDBObject("date",1)).limit(1).toArray();
+        taskstemp = new ArrayList<DecendingTask>();
+        List<DBObject> k = MongoDbHelper.getInstance().findAll("asfhkjashfkjashfl").toArray();
+//        List<DBObject> k = MongoDbHelper.getInstance().findAll("asfhkjashfkjashfl").sort(new BasicDBObject("date",1)).limit(1).toArray();
 
 
+///nothing means everything it is just symbole and tell you where it is and find it where is there it is just symbole and the name are the variable and buET THE others are just struxtuer
+        // like juava the varaible are just the connector and connect you to areally something ther rest are just to represent the connection
+        // the connection doesn every matter it just teall you go to the first aone then then go to the second one
+        // it is the procesess that matter
+        // the process
+        // the input and the poutput
+        // the rest doesn't even matter
+        // what you said and whhow peole process it and process it and outlawe you
+        // that matter s
+        // what you said matters
+        // people will judge you and make you are thing
+        // you talk and you gleave and lgo
 
 
         for (DBObject e : k) {
@@ -404,24 +425,36 @@ public class How2Forgert implements Serializable {
             String jsonInString = k.get(0).toString();
             person_question stasdfhalksfdjlkasdjflkaff1 = null;
             try {
+                mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
+                mapper.setVisibilityChecker(VisibilityChecker.Std.defaultInstance().withFieldVisibility(JsonAutoDetect.Visibility.ANY));
                 stasdfhalksfdjlkasdjflkaff1 = mapper.readValue(e.toString(), person_question.class);
             } catch (IOException e1) {
                 e1.printStackTrace();
             }
 
-            System.out.println(stasdfhalksfdjlkasdjflkaff1 );
-            if (stasdfhalksfdjlkasdjflkaff1.text.replace("Dufgt", "").trim().isEmpty()){
+            System.out.println(stasdfhalksfdjlkasdjflkaff1);
+            if (null != stasdfhalksfdjlkasdjflkaff1){
+                if (stasdfhalksfdjlkasdjflkaff1.text.replace("Dufgt", "").trim().isEmpty()) {
 
 //                m.deleteTask(e.getJavauid());
 
 
-            } else {
-                DecendingTask d = new DecendingTask(stasdfhalksfdjlkasdjflkaff1.getDate());
-                taskstemp.add(d);
+                } else {
+                    Date D= null;
+                    if (null ==stasdfhalksfdjlkasdjflkaff1.getDate()){
+                        D = new Date();
+                    } else {
+                        D=stasdfhalksfdjlkasdjflkaff1.getDate();
+                    }
+                    DecendingTask d = new DecendingTask(D);
+                    taskstemp.add(d);
+                }
             }
         }
-        Collections.sort(taskstemp, new DecendingTask());
-        if(null != taskstemp && taskstemp.size()>0) {
+
+
+        if(null != taskstemp && taskstemp.size()>1) {
+            Collections.sort(taskstemp, new DecendingTask());
             return taskstemp.get(0).getDate();
         }
         return new Date();
