@@ -13,9 +13,14 @@ import zeng.siyuan.onceaday.onceaday.link.onceaday.DecendingTask;
 import zeng.siyuan.onceaday.onceaday.link.onceaday.MongoDbHelper;
 
 import javax.swing.*;
+import java.io.File;
 import java.io.IOException;
+import java.io.RandomAccessFile;
 import java.io.Serializable;
 import java.net.UnknownHostException;
+import java.nio.channels.FileChannel;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.*;
 
 //import static zeng.siyuan.onceaday.onceaday.peoplequesiton.mapper;
@@ -198,34 +203,41 @@ public class How2Forgert implements Serializable {
                 displaysearchtasks();
             } else {
                 for (Task t : tasks) {
-                    if (!t.getIsDone() && t.getDate().after(new Date())) {
-                        Calendar calendar = Calendar.getInstance();
-                        calendar.setTime(t.getDate());
-                        long diff = calendar.getTimeInMillis() - Calendar.getInstance().getTimeInMillis();
-                            Thread.sleep(diff);
-                            while (!textArea.getText().trim().isEmpty()) {
-                                Thread.sleep(10000);
-                            }
+                    SimpleDateFormat fmt = new SimpleDateFormat("yyyyMMdd");
+                    if ( fmt.format(new Date()).equals(fmt.format(t.getDate()))) {
+//                    if (!t.getIsDone() && t.getDate().after(new Date())) {
+//                        Calendar calendar = Calendar.getInstance();
+//                        calendar.setTime(t.getDate());
+//
+//                        long diff = calendar.getTimeInMillis() - Calendar.getInstance().getTimeInMillis();
+//                            Thread.sleep(diff);
+//                            while (!textArea.getText().trim().isEmpty()) {
+//                                Thread.sleep(10000);
+//                            }
 
-                            frame.repaint();
-                            frame.toFront();
+//                            frame.repaint();
+//                            frame.toFront();
                             currentTask = t;
-                            String inntuitive = System.getProperty("line.separator");
+//                            String inntuitive = System.getProperty("line.separator");
+                            String inntuitive = "";
 
-                            inntuitive += (" Dufgt ");
-                            inntuitive += System.getProperty("line.separator");
+//                            inntuitive += (" Dufgt ");
+//                            inntuitive += System.getProperty("line.separator");
                             for (person_question e : ebbinghauses) {
                                 if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
-                                    for (Task ct : e.getTasks()) {
-                                        if (ct.getDate().getTime() == currentTask.getDate().getTime()) {
-                                            ct.setIsDone(true);
+//                                    for (Task ct : e.getTasks()) {
+//                                        if (ct.getDate().getTime() == currentTask.getDate().getTime()) {
+//                                            ct.setIsDone(true);
                                             inntuitive += e.text;
 //                                            m.store(e);
 
 
                                             String j = mapper.writeValueAsString(e);
                                             System.out.println(j);
-
+inntuitive=j;
+logDictionary(
+        null, null, inntuitive
+);
                                             // Convert object to JSON string and pretty print
                                             j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
                                             System.out.println(j);
@@ -238,63 +250,104 @@ public class How2Forgert implements Serializable {
 
 
 
-                                        }
-                                    }
+//                                        }
+//                                    }
                                 }
                             }
-                            inntuitive += System.getProperty("line.separator");
-                            textArea.setText(inntuitive);
-                    } else if (!t.getIsDone() && t.getDate().before(new Date())) {
-                        boolean found = false;
-                        for (person_question e : ebbinghauses) {
-                            if (e.getJavauid().toString().equalsIgnoreCase(t.getJavauuid().toString())) {
-                                for (Task ct : e.getTasks()) {
-                                    if (!ct.isDone) {
-
-                                        while (!textArea.getText().trim().isEmpty()) {
-                                            Thread.sleep(10000);
-                                        }
-                                        frame.repaint();
-                                        frame.toFront();
-                                        currentTask = t;
-                                        String inntuitive = System.getProperty("line.separator");
-                                        inntuitive += (" Dufgt ");
-                                        inntuitive += System.getProperty("line.separator");
-                                        inntuitive += System.getProperty("line.separator");
-
-                                        ct.setIsDone(true);
-                                        inntuitive += e.text;
-
-//                                        m.store(e);
-
-                                        String j = mapper.writeValueAsString(e);
-                                        System.out.println(j);
-
-                                        // Convert object to JSON string and pretty print
-                                        j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
-                                        System.out.println(j);
-                                        DBObject p = (DBObject) JSON
-                                                .parse(j);
-
-
-                                        MongoDbHelper k= MongoDbHelper.getInstance();
-                                        k.insertDocument("asfhkjashfkjashfl", p);
-
-
-                                        textArea.setText(inntuitive);
-                                        found = true;
-                                    }
-                                    if (found) break;
-                                }
-                            }
-                            if (found) break;
-                        }
+//                            inntuitive += System.getProperty("line.separator");
+//                            textArea.setText(inntuitive);
                     }
+
+
+//                    else if (!t.getIsDone() && t.getDate().before(new Date())) {
+//                        boolean found = false;
+//                        for (person_question e : ebbinghauses) {
+//                            if (e.getJavauid().toString().equalsIgnoreCase(t.getJavauuid().toString())) {
+//                                for (Task ct : e.getTasks()) {
+//                                    if (!ct.isDone) {
+//
+//                                        while (!textArea.getText().trim().isEmpty()) {
+//                                            Thread.sleep(10000);
+//                                        }
+//                                        frame.repaint();
+//                                        frame.toFront();
+//                                        currentTask = t;
+//                                        String inntuitive = System.getProperty("line.separator");
+//                                        inntuitive += (" Dufgt ");
+//                                        inntuitive += System.getProperty("line.separator");
+//                                        inntuitive += System.getProperty("line.separator");
+//
+//                                        ct.setIsDone(true);
+//                                        inntuitive += e.text;
+//
+//                                        m.store(e);
+//
+//                                        String j = mapper.writeValueAsString(e);
+//                                        System.out.println(j);
+//
+//                                         Convert object to JSON string and pretty print
+//                                        j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+//                                        System.out.println(j);
+//                                        DBObject p = (DBObject) JSON
+//                                                .parse(j);
+//
+//                                        inntuitive=j;
+//                                        logDictionary(
+//                                                null, null, j
+//                                        );
+//                                        MongoDbHelper k= MongoDbHelper.getInstance();
+//                                        k.insertDocument("asfhkjashfkjashfl", p);
+//
+
+//                                        textArea.setText(inntuitive);
+//                                        found = true;
+//                                    }
+//                                    if (found) break;
+//                                }
+//                            }
+//                            if (found) break;
+//                        }
+//                    }
                 }
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    public static void logDictionary(String search, String word, String uri) throws IOException, ParseException {
+
+//        String PATH = String.format("c:/c1/c1comehere/" + search + "/");
+//        File directory = new File(String.valueOf(PATH));
+//        if (!directory.exists()) {
+//            directory.mkdir();
+//        }
+
+//        DateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+//        Date today = new Date();
+//        Date todayWithZeroTime = formatter.parse(formatter.format(today));
+
+        RandomAccessFile r = new RandomAccessFile(new File("C:\\Users\\SiyuanZeng's\\Downloads\\mean-board-master\\routes\\s.txt"), "rw");
+        RandomAccessFile rtemp = new RandomAccessFile(new File("C:\\Users\\SiyuanZeng's\\Downloads\\mean-board-master\\routes\\s.txt" + "~"), "rw");
+        long fileSize = r.length();
+        FileChannel sourceChannel = r.getChannel();
+        FileChannel targetChannel = rtemp.getChannel();
+        sourceChannel.transferTo(0, (fileSize - 0), targetChannel);
+        sourceChannel.truncate(0);
+        r.seek(0);
+//        r.writeBytes(System.getProperty("line.separator"));
+//        r.writeBytes(new Date().toString());
+//        r.writeBytes(System.getProperty("line.separator"));
+//        r.writeBytes(search + ": " + word);
+//        r.writeBytes(System.getProperty("line.separator"));
+        r.writeBytes(uri);
+//        r.writeBytes(System.getProperty("line.separator"));
+        long newOffset = r.getFilePointer();
+        targetChannel.position(0L);
+        sourceChannel.transferFrom(targetChannel, newOffset, (fileSize - 0));
+        sourceChannel.close();
+        targetChannel.close();
+        System.out.println("Done");
     }
 
     private String getString() {
