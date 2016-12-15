@@ -11,7 +11,14 @@ public class d {
         System.out.println(string);
         return string;
     }
-
+// there is a name and it teells you that hey i am here
+    // with out a name i have go thorugh everything to gest that i want
+    // i have to use hard copy so that i won't lose my information
+    // i should use a callendear o that eveyrthing is in order
+    // i ahve to use talskdfjl; so that ...
+    // comething gime me something
+    // something tell me something
+    //
     private static String getString(Object o) throws IllegalAccessException {
         if(null == o) return "";
         StringBuilder result = new StringBuilder();
