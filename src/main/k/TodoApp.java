@@ -3,6 +3,7 @@ package main.k;
 import org.apache.commons.io.FilenameUtils;
 import zeng.siyuan.C1comehere.Beep;
 import zeng.siyuan.reuseutil.r;
+import zeng.siyuan.solr.test.param.dao.SolrDataDAO;
 
 import javax.swing.*;
 import javax.swing.UIManager.LookAndFeelInfo;
@@ -148,7 +149,6 @@ public class TodoApp {
 			}
 			System.out.println("Done Propertiesy loading");
 
-/*
 
 
 			Thread a = new Thread(() -> {
@@ -168,7 +168,7 @@ public class TodoApp {
                 String key = ((String) e.getKey()).replace("%20", " ");
                 String v = (String) e.getValue();
                 try {
-                    solrBaseDAO.k(count, key,v);
+                    solrBaseDAO.p(count, key,v);
                 } catch (Exception e1) {
 					System.out.print("nb");
                 }
@@ -182,7 +182,6 @@ public class TodoApp {
 			);
 			a.start();
 
-*/
 
 
 
