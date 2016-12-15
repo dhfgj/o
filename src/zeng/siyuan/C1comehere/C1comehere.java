@@ -272,6 +272,7 @@ public class C1comehere implements Serializable {
             }
             System.out.println("Done Propertiesy loading");
 
+/*
 
             SolrDataDAO solrBaseDAO = null;
             try {
@@ -297,6 +298,7 @@ public class C1comehere implements Serializable {
 
 
 
+*/
 
 
         } catch (IOException ex) {
