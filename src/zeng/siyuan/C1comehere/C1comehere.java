@@ -1,6 +1,6 @@
 package zeng.siyuan.C1comehere;
 
-import com.epam.preprod.firefox.model.TestGmail;
+import com.epam.preprod.firefox.model.KFHASDF;
 import fg.f;
 import loli.datepicker.DatePicker;
 import main.k.TodoApp;
@@ -874,9 +874,9 @@ public class C1comehere implements Serializable {
 
 
                         else if (textArea.getText().equalsIgnoreCase("siyuanzeng@hotmail")) {
-                            TestGmail testGmail = new TestGmail();
+                            KFHASDF KFHASDF = new KFHASDF();
                             try {
-                                testGmail.testOpenLogin3();
+                                KFHASDF.testOpenLogin3();
                             } catch (InterruptedException e1) {
                                 e1.printStackTrace();
                             }
@@ -884,14 +884,14 @@ public class C1comehere implements Serializable {
                         }
 
                         else if (textArea.getText().equalsIgnoreCase("abuizeng")) {
-                            TestGmail testGmail = new TestGmail();
-                                testGmail.testOpenLogin2();
+                            KFHASDF KFHASDF = new KFHASDF();
+                                KFHASDF.testOpenLogin2();
 
                         }
 
                         else if (textArea.getText().equalsIgnoreCase("zengb45")) {
-                            TestGmail testGmail = new TestGmail();
-                                testGmail.testOpenLogin();
+                            KFHASDF KFHASDF = new KFHASDF();
+                                KFHASDF.testOpenLogin();
 
                         }
 
