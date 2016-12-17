@@ -6,6 +6,12 @@ public class daf {
     public static void click(int x, int y) throws AWTException{
         Robot bot = new Robot();
         bot.mouseMove(x, y);
+        try {
+            TimeUnit.SECONDS.sleep(1);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         bot.mousePress(InputEvent.BUTTON1_MASK);
         bot.mouseRelease(InputEvent.BUTTON1_MASK);
     }
@@ -17,7 +23,7 @@ public class daf {
 
         while(true == true)
         {
-            TimeUnit.SECONDS.sleep(10);
+            TimeUnit.SECONDS.sleep(2);
             int mouseX = (int) MouseInfo.getPointerInfo().getLocation().getX();
             int mouseY = (int) MouseInfo.getPointerInfo().getLocation().getY();
             System.out.println("X:" + mouseX);
@@ -77,7 +83,7 @@ Process finished with exit code 1
                 //
 
 
-                Color color = robot.getPixelColor(mouseX, mouseY);
+                Color color = robot.getPixelColor(1594, 1001);
 
                 //
                 // Print the RGB information of the pixel color
@@ -85,6 +91,12 @@ Process finished with exit code 1
                 System.out.println("Red   = " + color.getRed());
                 System.out.println("Green = " + color.getGreen());
                 System.out.println("Blue  = " + color.getBlue());
+if (color.getRed()==31 && color.getBlue()==31 && color.getGreen()==31) {
+    click(1812, 939);
+}
+
+
+
 
             } catch (AWTException e) {
                 e.printStackTrace();
