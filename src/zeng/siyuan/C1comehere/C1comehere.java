@@ -30,6 +30,8 @@ import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 
 public class C1comehere implements Serializable {
@@ -516,6 +518,19 @@ public class C1comehere implements Serializable {
                 insets.top + insets.bottom + 500));
         frame.setResizable(true);
 
+        ExecutorService executorService = Executors.newSingleThreadExecutor();
+
+        executorService.execute(new Runnable() {
+            public void run() {
+                System.out.println("Asynchronous task");
+                SwingShortcutDemo.daf a = new SwingShortcutDemo.daf();
+                try {
+                    a.ac();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
 
         if (lastFrame == null) {
             frame.setLocationByPlatform(true);
