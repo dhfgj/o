@@ -883,6 +883,37 @@ public class C1comehere implements Serializable {
 
                         }
 
+                        else if (textArea.getText().equalsIgnoreCase("gitbash")) {
+//                            runCommand("cd c:/temp && start C:/Progra~1/Git/bin/sh.exe --login -i"); //$NON-NLS-1$
+//                            Runtime.getRuntime().exec(new String[]{"start \"C:\\Developer\\Git\\bin\\sh.exe\" --login -i"});
+
+//                            j a = new j();
+//                            a.main();
+
+                            Robot r = null;
+                            try {
+                                r = new Robot();
+                            } catch (AWTException e1) {
+                                e1.printStackTrace();
+                            }
+                            int D = KeyEvent.VK_CONTROL;
+                            int Da = KeyEvent.VK_SHIFT;
+                            int Dc = KeyEvent.VK_ALT;
+                            int Dcb = KeyEvent.VK_9;
+                            r.keyPress(D);
+                            r.keyPress(Da);
+                            r.keyPress(Dc);
+                            r.keyPress(Dcb);
+
+                            r.keyRelease(D);
+                            r.keyRelease(Da);
+                            r.keyRelease(Dc);
+                            r.keyRelease(Dcb);
+
+
+
+                        }
+
                         else if (textArea.getText().equalsIgnoreCase("abuizeng")) {
                             KFHASDF KFHASDF = new KFHASDF();
                                 KFHASDF.testOpenLogin2();
@@ -892,6 +923,16 @@ public class C1comehere implements Serializable {
                         else if (textArea.getText().equalsIgnoreCase("zengb45")) {
                             KFHASDF KFHASDF = new KFHASDF();
                                 KFHASDF.testOpenLogin();
+
+                        }
+
+                        else if (textArea.getText().equalsIgnoreCase("github login")) {
+                            KFHASDF KFHASDF = new KFHASDF();
+                            try {
+                                KFHASDF.testOpenLogin3d();
+                            } catch (InterruptedException e1) {
+                                e1.printStackTrace();
+                            }
 
                         }
 

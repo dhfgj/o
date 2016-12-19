@@ -45,9 +45,9 @@ alias cdp="cd ~/projects/gesc-services"
 
 # copy adn fuplica thte bashrc file to my c1comehere project
 
-cp ~/.bashrc /Users/vn0xrjh/daniel/14_GUIcopymacosx/c1comehere/bashrc
-cp -r  /Users/vn0xrjh/app/utils/dsc-cassandra-2.1.14/data/data /Users/vn0xrjh/daniel/14_GUIcopymacosx/c1comehere/backupcanssandra/data
-cp -r /Users/vn0xrjh/app/utils/solr-6.2.1/server/solr /Users/vn0xrjh/daniel/14_GUIcopymacosx/c1comehere/solrbkpbackup
+cp ~/.bashrc C:/Development_Base/maxcox/maxcox-master/bashrcorgainzeds
+#cp -r  /Users/vn0xrjh/app/utils/dsc-cassandra-2.1.14/data/data /Users/vn0xrjh/daniel/14_GUIcopymacosx/c1comehere/backupcanssandra/data
+#cp -r /Users/vn0xrjh/app/utils/solr-6.2.1/server/solr /Users/vn0xrjh/daniel/14_GUIcopymacosx/c1comehere/solrbkpbackup
 
 
 
@@ -78,12 +78,14 @@ alias c='git checkout $1'
 # git branch and check out
 alias new='git branch $1'
 
-function l() {
-    git add .
-    git commit -a -m "1"
-    git push d
-}
+#function l() {
+ #   git add .
+#  3
+ # git commit -a -m "1"
+  #  git push d
+#}
 
+alias l='git acp "l"'
 
 alias ck="git checkout $1"
 alias gitb="git branch"
@@ -181,7 +183,7 @@ export -f fm
 
    function gg() {
 
-/usr/bin/open -a "/Applications/Google Chrome.app" "https://gecgithub01.walmart.com/search?q=${*}&type=Code&utf8=✓"
+/usr/bin/open -a "/Applications/Google Chrome.app" "https://gecgithub01.walmart.com/search?q=${*}&type=Code&utf8=?"
 
 }
 
