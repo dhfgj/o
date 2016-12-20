@@ -77,6 +77,14 @@ public class How2Forgert implements Serializable {
                 e = new person_question(stringBuffer1.toString(), "l", r.strifasld("30"));
             } else
 
+            if (textStr[0].equalsIgnoreCase("ll")){
+                StringBuffer stringBuffer1 = new StringBuffer();
+                for (int i = 1; i < textStr.length; i++) {
+                    stringBuffer1.append(textStr[i]);
+                }
+                e = new person_question(stringBuffer1.toString(), "ll", r.strifasld("60"));
+            } else
+
 
 
 
@@ -318,6 +326,12 @@ public class How2Forgert implements Serializable {
                                                 ct.setIsDone(false);
 //                                                r.open(e.getText());
                                                 ct.setDate(r.strifasld("30"));
+                                            } else
+
+                                            if(e.type.equalsIgnoreCase("ll")){
+                                                ct.setIsDone(false);
+//                                                r.open(e.getText());
+                                                ct.setDate(r.strifasld("60"));
                                             } else
 
                                             if(e.type.equalsIgnoreCase("j")){

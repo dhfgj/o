@@ -86,6 +86,7 @@ public class How2Forgert implements Serializable {
             if (isSearch) {
                 displaysearchtasks();
             } else {
+                            int count = 10;
                 for (Task t : tasks) {
                     if (t.getDate().after(new Date())) {
                         Calendar calendar = Calendar.getInstance();
@@ -97,7 +98,6 @@ public class How2Forgert implements Serializable {
                             frame.toFront();
                             currentTask = t;
                             String inntuitive = "";
-                            int count = 10;
                             for (person_question e : ebbinghauses) {
                                 if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                                     inntuitive+=e.getText();
@@ -122,7 +122,6 @@ count --;
                             frame.toFront();
                             currentTask = t;
                             String inntuitive = "";
-int count =10;
                             for (person_question e : ebbinghauses) {
                                 if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                                     inntuitive+=e.getText();
@@ -153,7 +152,6 @@ int count =10;
                         frame.toFront();
                         currentTask = t;
                         String inntuitive = "";
-                        int count =10;
                         for (person_question e : ebbinghauses) {
                             if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                                         inntuitive+=e.getText();
