@@ -97,6 +97,7 @@ public class How2Forgert implements Serializable {
                             frame.toFront();
                             currentTask = t;
                             String inntuitive = "";
+                            int count = 10;
                             for (person_question e : ebbinghauses) {
                                 if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                                     inntuitive+=e.getText();
@@ -104,6 +105,12 @@ public class How2Forgert implements Serializable {
                                             e = new person_question(e.getText(),"ssdd", null);
                                             m.store(e);
 //                                Desktop.getDesktop().open(new File(e.getText()));
+
+                                    if (count == 0 ) {
+                                        Thread.sleep(10 * 60000);
+                                        count = 10;
+                                    }
+count --;
                                     r.open(e.getText());
 
 //                                    textArea.setText(inntuitive);
@@ -115,12 +122,18 @@ public class How2Forgert implements Serializable {
                             frame.toFront();
                             currentTask = t;
                             String inntuitive = "";
+int count =10;
                             for (person_question e : ebbinghauses) {
                                 if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                                     inntuitive+=e.getText();
                                     m.deleteTask(e.getJavauid());
                                             e = new person_question(e.getText(),"ssdd", null);
                                             m.store(e);
+                                    if (count == 0 ) {
+                                        Thread.sleep(10 * 60000);
+                                        count = 10;
+                                    }
+                                    count --;
 
                                     r.open(e.getText());
 //                                            if(r.isUrl(e.getText())){
@@ -140,6 +153,7 @@ public class How2Forgert implements Serializable {
                         frame.toFront();
                         currentTask = t;
                         String inntuitive = "";
+                        int count =10;
                         for (person_question e : ebbinghauses) {
                             if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                                         inntuitive+=e.getText();
@@ -153,6 +167,12 @@ public class How2Forgert implements Serializable {
 //
 //                                    Desktop.getDesktop().open(new File(e.getText()));
 //                                }
+                                if (count == 0 ) {
+                                    Thread.sleep(10 * 60000);
+                                    count = 10;
+                                }
+                                count --;
+
                                 r.open(e.getText());
                                         break;
                             }

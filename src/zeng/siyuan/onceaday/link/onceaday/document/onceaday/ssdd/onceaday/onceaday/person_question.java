@@ -16,7 +16,7 @@ import java.util.UUID;
  * Created by SiyuanZeng's on 8/8/2016.
  */
 
-
+// find the core functionality that make the differentece between diferent flow and that will make the difference ti sjust all take times to fix it and that is it
 @Table(keyspace = "keyspace1", name = "plany",
         readConsistency = "QUORUM",
         writeConsistency = "QUORUM",

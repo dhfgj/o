@@ -873,7 +873,7 @@ public class C1comehere implements Serializable {
                         }
 
 
-                        else if (textArea.getText().equalsIgnoreCase("siyuanzeng@hotmail")) {
+                        else if (textArea.getText().equalsIgnoreCase("hotmail")) {
                             KFHASDF KFHASDF = new KFHASDF();
                             try {
                                 KFHASDF.testOpenLogin3();
@@ -926,7 +926,7 @@ public class C1comehere implements Serializable {
 
                         }
 
-                        else if (textArea.getText().equalsIgnoreCase("github login")) {
+                        else if (textArea.getText().equalsIgnoreCase("github")) {
                             KFHASDF KFHASDF = new KFHASDF();
                             try {
                                 KFHASDF.testOpenLogin3d();

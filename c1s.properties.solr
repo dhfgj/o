@@ -12,7 +12,7 @@
 9,itune,c:/program files/itunes/itunes.exe
 10,video,c:/program files (x86)/techsmith/camtasia studio 8/camtasiastudio.exe
 11,what ever , https://www.blogger.com/blogger.g?blogID=5889245863220470098&pli=1#editor/target=post;postID=222006497760476885;onPublishedMenu=editor;onClosedMenu=editor;postNum=0;src=postname
-12,outlook,c:/program files (x86)/microsoft office/root/office16/outlook.exe
+12,outlook,C:/Program Files (x86)/Microsoft Office/root/Office16/OUTLOOK.EXE
 13,solr youtube,https://www.youtube.com/playlist?list=PLJbE6j2EG1pZ7YfU05bCqdv5bDkKo75nQ
 14,Best love quote,C:\Users\SiyuanZeng's\Videos\Movie\Best Love Quote.kpl
 15,yikes,http://www.bing.com/videos/search?q=yikes&&view=detail&mid=95B1CAB7DE4D9EADE72895B1CAB7DE4D9EADE728&FORM=VRDGAR
@@ -531,17 +531,18 @@ C:\Developer\solr-6.2.0\example\exampledocs
 454,许巍 - 我的秋天.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\许巍 - 我的秋天.mp4
 455,deadpool,http://www.ismdy.com/zaixianbofang/850/0-1.html
 456,Xu Wei - Home (许巍-故乡)_2.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\Xu Wei - Home (许巍-故乡)_2.mp4
-457,sc1 jira  bug,https://jira.walmart.com/browse/CDSCENT-2081
-458,rest advanced,https://www.youtube.com/playlist?list=PLqq-6Pq4lTTY40IcG584ynNqibMc1heIa
-459,mongodb tutorial,http://www.hongkiat.com/blog/webdev-with-mongodb-part1/
-460,許巍-2012 全新歌曲《此時此刻》.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\許巍-2012 全新歌曲《此時此刻》.mp4
-461,multitabs,c:/developer/conemu/conemu64.exe
-462,sc2 val Co Internal ,https://confluence.walmart.com/display/~vn0xrjh/Copy+of+Internal+Spec+LIMO
-463,iq_threading,c:/users/siyuanzeng's/desktop/application/job hunting/interview/interviewquestions/threading.docx
-464,Scala,C:/Users/SiyuanZeng's/Downloads/ZBox/a - Copy.html
-465,许巍 我思念的城市.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\许巍 我思念的城市.mp4
-466,sc1 bug3     CDSCENT-2098
+457,ZBox,C:\Users\SiyuanZeng's\Downloads\ZBox
+458,sc1 jira  bug,https://jira.walmart.com/browse/CDSCENT-2081
+459,rest advanced,https://www.youtube.com/playlist?list=PLqq-6Pq4lTTY40IcG584ynNqibMc1heIa
+460,mongodb tutorial,http://www.hongkiat.com/blog/webdev-with-mongodb-part1/
+461,許巍-2012 全新歌曲《此時此刻》.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\許巍-2012 全新歌曲《此時此刻》.mp4
+462,multitabs,c:/developer/conemu/conemu64.exe
+463,sc2 val Co Internal ,https://confluence.walmart.com/display/~vn0xrjh/Copy+of+Internal+Spec+LIMO
+464,iq_threading,c:/users/siyuanzeng's/desktop/application/job hunting/interview/interviewquestions/threading.docx
+465,Scala,C:/Users/SiyuanZeng's/Downloads/ZBox/a - Copy.html
+466,许巍 我思念的城市.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\许巍 我思念的城市.mp4
+467,sc1 bug3     CDSCENT-2098
 
 [Bug] Input disappearing,https://jira.walmart.com/browse/CDSCENT-2098
-467,quora,https://www.quora.com/What-exactly-is-Apache-Spark-and-how-does-it-work
-468,ppt,c:/program files (x86)/microsoft office/root/office16/powerpnt.exe
+468,quora,https://www.quora.com/What-exactly-is-Apache-Spark-and-how-does-it-work
+469,ppt,c:/program files (x86)/microsoft office/root/office16/powerpnt.exe
