@@ -350,17 +350,21 @@ public class How2Forgert implements Serializable {
 //                                                r.open(e.getText());
                                                 ct.setDate(r.strifasld("60"));
                                                 textArea.setText(e.getText());
+                                                frame.repaint();
+                                                frame.toFront();
+
                                                 Robot r = new Robot();
                                                 int D = KeyEvent.VK_CONTROL;
-                                                int Da = KeyEvent.VK_SHIFT;
-                                                int Dc = KeyEvent.VK_F11;
+                                                int Da = KeyEvent.VK_ENTER;
+//                                                int Da = KeyEvent.VK_SHIFT;
+//                                                int Dc = KeyEvent.VK_F11;
                                                 r.keyPress(D);
                                                 r.keyPress(Da);
-                                                r.keyPress(Dc);
+//                                                r.keyPress(Dc);
 
                                                 r.keyRelease(D);
                                                 r.keyRelease(Da);
-                                                r.keyRelease(Dc);
+//                                                r.keyRelease(Dc);
 
 
 
