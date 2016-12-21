@@ -5,6 +5,8 @@ import zeng.siyuan.onceaday.link.onceaday.DecendingTask;
 import zeng.siyuan.reuseutil.r;
 
 import javax.swing.*;
+import java.awt.*;
+import java.awt.event.KeyEvent;
 import java.io.IOException;
 import java.io.Serializable;
 import java.text.SimpleDateFormat;
@@ -77,12 +79,21 @@ public class How2Forgert implements Serializable {
                 e = new person_question(stringBuffer1.toString(), "l", r.strifasld("30"));
             } else
 
+
             if (textStr[0].equalsIgnoreCase("ll")){
                 StringBuffer stringBuffer1 = new StringBuffer();
                 for (int i = 1; i < textStr.length; i++) {
                     stringBuffer1.append(textStr[i]);
                 }
                 e = new person_question(stringBuffer1.toString(), "ll", r.strifasld("60"));
+            } else
+
+            if (textStr[0].equalsIgnoreCase("c")){
+                StringBuffer stringBuffer1 = new StringBuffer();
+                for (int i = 1; i < textStr.length; i++) {
+                    stringBuffer1.append(textStr[i]);
+                }
+                e = new person_question(stringBuffer1.toString(), "c", r.strifasld("60"));
             } else
 
 
@@ -332,6 +343,27 @@ public class How2Forgert implements Serializable {
                                                 ct.setIsDone(false);
 //                                                r.open(e.getText());
                                                 ct.setDate(r.strifasld("60"));
+                                            } else
+
+                                            if(e.type.equalsIgnoreCase("c")){
+                                                ct.setIsDone(false);
+//                                                r.open(e.getText());
+                                                ct.setDate(r.strifasld("60"));
+                                                textArea.setText(e.getText());
+                                                Robot r = new Robot();
+                                                int D = KeyEvent.VK_CONTROL;
+                                                int Da = KeyEvent.VK_SHIFT;
+                                                int Dc = KeyEvent.VK_F11;
+                                                r.keyPress(D);
+                                                r.keyPress(Da);
+                                                r.keyPress(Dc);
+
+                                                r.keyRelease(D);
+                                                r.keyRelease(Da);
+                                                r.keyRelease(Dc);
+
+
+
                                             } else
 
                                             if(e.type.equalsIgnoreCase("j")){
