@@ -97,7 +97,7 @@ public class SolrDataDAO extends SolrBaseDAO {
 	public void addData(int id, String name, String path) throws Exception {
 		logger.info("Add to solr: ID = " + id + " name = " + name);
 
-		server = getSolrConnectionfore();
+		server = d();
 		// Populate solr document
 		SolrInputDocument doc = new SolrInputDocument();
 		doc.addField("id", id);
@@ -200,7 +200,7 @@ public class SolrDataDAO extends SolrBaseDAO {
 	public int kpp(int id, String name, String path) throws Exception {
 		logger.info("Add to solr: ID = " + id + " name = " + name);
 
-		server = l();
+		server = d();
 		SolrQuery query = new SolrQuery();
 		query.setQuery( "*:*" );
 //		query.addSortField( "price", SolrQuery.ORDER.asc );
@@ -223,7 +223,7 @@ public class SolrDataDAO extends SolrBaseDAO {
 	public void p(int id, String name, String path) throws Exception {
 		logger.info("Add to solr: ID = " + id + " name = " + name);
 
-		server = l();
+		server = d();
 		// Populate solr document
 		SolrInputDocument doc = new SolrInputDocument();
 		doc.addField("id", id);
