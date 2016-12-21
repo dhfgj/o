@@ -231,7 +231,7 @@ public class solr {
 
     public void m(String types, List<String> list) throws Exception {
         String url1 = "http://localhost:8983/solr/jc/select?q=type:a&wt=json";
-        String url22 = "http://localhost:8983/solr/jc/select?q=type:%22"+types+"%22OR%20type_ngram:%22"+types+"%22&wt=json";
+        String url22 = "http://localhost:8983/solr/jc/select?q=type:%22"+types + "%22&wt=json";
 
         String buttonSelected ="";
         for (Enumeration<AbstractButton> buttons = untoggle.bg.getElements(); buttons.hasMoreElements();) {

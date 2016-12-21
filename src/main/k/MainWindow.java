@@ -363,7 +363,7 @@ public class MainWindow extends JFrame{
 //                String key = ((String) e.getKey()).replace("%20", " ");
 //                String v = (String) e.getValue();
 							try {
-								solrBaseDAO.addData(count, getNewTaskField().getText().trim().split("=")[0], getNewTaskField().getText().trim().substring(getNewTaskField().getText().trim().indexOf("=") + 1));
+								solrBaseDAO.p(count, getNewTaskField().getText().trim().split("=")[0], getNewTaskField().getText().trim().substring(getNewTaskField().getText().trim().indexOf("=") + 1));
 							} catch (Exception e1) {
 								e1.printStackTrace();
 							}

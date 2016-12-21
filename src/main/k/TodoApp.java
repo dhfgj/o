@@ -72,7 +72,7 @@ public class TodoApp {
 //                String key = ((String) e.getKey()).replace("%20", " ");
 //                String v = (String) e.getValue();
 			try {
-				solrBaseDAO.addData(count, c1,c1Path);
+				solrBaseDAO.p(count, c1,c1Path);
 			} catch (Exception e1) {
 				e1.printStackTrace();
 			}
