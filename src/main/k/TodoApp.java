@@ -3,6 +3,7 @@ package main.k;
 import org.apache.commons.io.FilenameUtils;
 import zeng.siyuan.C1comehere.Beep;
 import zeng.siyuan.reuseutil.r;
+import zeng.siyuan.solr.test.param.dao.SolrDataDAO;
 
 import javax.swing.*;
 import javax.swing.UIManager.LookAndFeelInfo;
@@ -25,7 +26,7 @@ public class TodoApp {
 			output = new FileOutputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\main\\resources\\c1s.properties");
 
 //				File directory = new File("C:\\Users\\SiyuanZeng's\\Videos\\Movie\\Xu Wei");
-				//get all the files from a directory
+			//get all the files from a directory
 //				File[] fList = directory.listFiles();
 
 			String[] extensions = new String[] {
@@ -55,6 +56,30 @@ public class TodoApp {
 					"WMA"
 
 			};
+
+
+			SolrDataDAO solrBaseDAO = null;
+			try {
+				solrBaseDAO = new SolrDataDAO();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+
+
+			int count =1 + solrBaseDAO.kpp(1, null, null);
+//            for (Map.Entry<Object, Object> e : prop.entrySet()) {
+//                System.out.println(count);
+//                String key = ((String) e.getKey()).replace("%20", " ");
+//                String v = (String) e.getValue();
+			try {
+				solrBaseDAO.addData(count, c1,c1Path);
+			} catch (Exception e1) {
+				e1.printStackTrace();
+			}
+			count++;
+//            }
+			System.out.println("stop");
+
 //			File dir = new File();
 
 			listAllFiles("C:\\Users\\SiyuanZeng's\\Music\\Canon");
@@ -88,6 +113,8 @@ public class TodoApp {
 			c1s();
 		} catch (IOException io) {
 			io.printStackTrace();
+		} catch (Exception e) {
+			e.printStackTrace();
 		} finally {
 			if (output != null) {
 				try {
@@ -148,46 +175,44 @@ public class TodoApp {
 			}
 			System.out.println("Done Propertiesy loading");
 
-/*
+///*
+			SolrDataDAO solrBaseDAO = null;
+			try {
+				solrBaseDAO = new SolrDataDAO();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
 
 
-			Thread a = new Thread(() -> {
+			int count =1;
+			count =1 + solrBaseDAO.kpp(1, null, null);
+			for (Map.Entry<Object, Object> e : prop.entrySet()) {
+
+//            for (Map.Entry<Object, Object> e : prop.entrySet()) {
+				System.out.println(count);
+				String key = ((String) e.getKey()).replace("%20", " ");
+				String v = (String) e.getValue();
 				try {
-
-            SolrDataDAO solrBaseDAO = null;
-            try {
-                solrBaseDAO = new SolrDataDAO();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-
-
-            int count =1;
-            for (Map.Entry<Object, Object> e : prop.entrySet()) {
-                System.out.println(count);
-                String key = ((String) e.getKey()).replace("%20", " ");
-                String v = (String) e.getValue();
-                try {
-                    solrBaseDAO.p(count, key,v);
-                } catch (Exception e1) {
-					System.out.print("nb");
-                }
-                count++;
-            }
-            System.out.println("stop");
+					solrBaseDAO.p(count, key,v);
 				} catch (Exception e1) {
 					e1.printStackTrace();
 				}
-			}
-			);
-			a.start();
-*/
+				count++;
+				System.out.println(count);
+//  }
+				System.out.println("stop");
 
+			}
+			System.out.println("stop");
+
+//*/
 
 
 
 		} catch (IOException ex) {
 			ex.printStackTrace();
+		} catch (Exception e) {
+			e.printStackTrace();
 		} finally {
 			if (input != null) {
 				try {
@@ -218,12 +243,12 @@ public class TodoApp {
 		catch(IOException e1) {}
 		catch(InterruptedException e2) {}
 		finally {
+			TodoApp.todo();
+			c1come2melater(null, null);
 
 		}
 
 
-		TodoApp.todo();
-//		c1come2melater(null, null);
 	}
 
 	public static void todo() throws ClassNotFoundException, InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException {

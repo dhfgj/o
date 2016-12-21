@@ -1,6 +1,7 @@
 package main.k;
 
 import zeng.siyuan.reuseutil.r;
+import zeng.siyuan.solr.test.param.dao.SolrDataDAO;
 
 import javax.swing.*;
 import javax.swing.event.ListDataEvent;
@@ -340,6 +341,36 @@ public class MainWindow extends JFrame{
 						if (getNewTaskField().getText().trim().contains("=")&& getNewTaskField().getText().trim().indexOf("http") > getNewTaskField().getText().trim().indexOf("=")) {
 							c1come2melater(getNewTaskField().getText().trim().split("=")[0], getNewTaskField().getText().trim().substring(getNewTaskField().getText().trim().indexOf("=") + 1));
 							getNewTaskField().setText("");
+
+
+
+							SolrDataDAO solrBaseDAO = null;
+							try {
+								solrBaseDAO = new SolrDataDAO();
+							} catch (Exception e1) {
+								e1.printStackTrace();
+							}
+
+
+							int count = 0;
+							try {
+								count = 1 + solrBaseDAO.kpp(1, null, null);
+							} catch (Exception e1) {
+								e1.printStackTrace();
+							}
+//            for (Map.Entry<Object, Object> e : prop.entrySet()) {
+//                System.out.println(count);
+//                String key = ((String) e.getKey()).replace("%20", " ");
+//                String v = (String) e.getValue();
+							try {
+								solrBaseDAO.addData(count, getNewTaskField().getText().trim().split("=")[0], getNewTaskField().getText().trim().substring(getNewTaskField().getText().trim().indexOf("=") + 1));
+							} catch (Exception e1) {
+								e1.printStackTrace();
+							}
+							count++;
+//            }
+							System.out.println("stop");
+
 
 
 //							SolrDataDAO solrBaseDAO = null;
