@@ -994,7 +994,7 @@ public class C1comehere implements Serializable {
                             a.start();
                         }
 
-                        else if (searchEngines.containsKey(textArea.getText().substring(0, 3))) {
+                        else if (textArea.getText().length()>3 && searchEngines.containsKey(textArea.getText().substring(0, 3))) {
                             String text = textArea.getText().trim();
 
                             if (!text.isEmpty()) {
@@ -1364,7 +1364,12 @@ public class C1comehere implements Serializable {
 
                            else if (SDislDoaldf ) {
                             System.out.println("Disloadl");
-                            dhow2ForgDertlsf.fjlasdjfl();
+
+                            if (textArea.getText().equalsIgnoreCase("a")){
+                                dhow2ForgDertlsf.d();
+                            } else {
+                                dhow2ForgDertlsf.fjlasdjfl();
+                            }
                         }
 
                            else if (SDldeleteCommandd_X ) {

@@ -81,6 +81,38 @@ public class How2Forgert implements Serializable {
         }
     }
 
+static int ou= 1;
+    public void d () {
+//        loadTask();
+
+        for (person_question e : ebbinghauses) {
+                ou ++;
+
+                if (ou % 10 == 0 && ou<ebbinghauses.size()) {
+                    break;
+
+                }
+// the messy will always stand out and make it work likek charm
+                if (ou % 10 != 0 && ou<ebbinghauses.size()) {
+                    r.open(ebbinghauses.get(ou).getText());
+                }
+                if (ou>=ebbinghauses.size()) {
+                ou=0;
+                }
+
+//                                    textArea.setText(inntuitive);
+
+// keep some mess thso that i can remember the mess i remember the mees that happen inthe application
+        }
+    }
+
+
+
+
+
+//}
+
+
     public void displayTask() {
         try {
             if (isSearch) {
