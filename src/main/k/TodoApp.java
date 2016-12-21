@@ -195,7 +195,8 @@ public class TodoApp {
 				try {
 					solrBaseDAO.p(count, key,v);
 				} catch (Exception e1) {
-					e1.printStackTrace();
+//					e1.printStackTrace();
+					System.out.println(e1.getMessage());
 				}
 				count++;
 				System.out.println(count);
