@@ -200,7 +200,7 @@ public class SolrDataDAO extends SolrBaseDAO {
 	public int kpp(int id, String name, String path) throws Exception {
 		logger.info("Add to solr: ID = " + id + " name = " + name);
 
-		server = d();
+		server = getSolrConnection();
 		SolrQuery query = new SolrQuery();
 		query.setQuery( "*:*" );
 //		query.addSortField( "price", SolrQuery.ORDER.asc );

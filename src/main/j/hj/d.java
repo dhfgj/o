@@ -170,7 +170,7 @@ public class d {
 			}
 			System.out.println("Done Propertiesy loading");
 
-/*
+///*
             SolrDataDAO solrBaseDAO = null;
             try {
                 solrBaseDAO = new SolrDataDAO();
@@ -180,7 +180,10 @@ public class d {
 
 
             int count =1;
+                count =1 + solrBaseDAO.kpp(1, null, null);
             for (Map.Entry<Object, Object> e : prop.entrySet()) {
+
+//            for (Map.Entry<Object, Object> e : prop.entrySet()) {
                 System.out.println(count);
                 String key = ((String) e.getKey()).replace("%20", " ");
                 String v = (String) e.getValue();
@@ -190,16 +193,22 @@ public class d {
                     e1.printStackTrace();
                 }
                 count++;
+                System.out.println(count);
+//  }
+                System.out.println("stop");
+
             }
             System.out.println("stop");
 
-*/
+//*/
 
 
 
 		} catch (IOException ex) {
 			ex.printStackTrace();
-		} finally {
+		} catch (Exception e) {
+            e.printStackTrace();
+        } finally {
 			if (input != null) {
 				try {
 					input.close();
@@ -213,7 +222,7 @@ public class d {
 
 	public static void main(String[] args) throws ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException {
 		d.d();
-//		c1come2melater(null, null);
+		c1come2melater(null, null);
 	}
 
 	public static void d() throws ClassNotFoundException, InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException {
