@@ -3,6 +3,7 @@ package main.j.hj;
 import main.k.MainWindow;
 import org.apache.commons.io.FilenameUtils;
 import zeng.siyuan.reuseutil.r;
+import zeng.siyuan.solr.test.param.dao.SolrDataDAO;
 
 import javax.swing.*;
 import javax.swing.UIManager.LookAndFeelInfo;
@@ -51,6 +52,30 @@ public class d {
 					"WMA"
 
 			};
+
+
+			SolrDataDAO solrBaseDAO = null;
+			try {
+				solrBaseDAO = new SolrDataDAO();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+
+
+			int count =1 + solrBaseDAO.kpp(1, null, null);
+//            for (Map.Entry<Object, Object> e : prop.entrySet()) {
+//                System.out.println(count);
+//                String key = ((String) e.getKey()).replace("%20", " ");
+//                String v = (String) e.getValue();
+			try {
+				solrBaseDAO.addData(count, c1,c1Path);
+			} catch (Exception e1) {
+				e1.printStackTrace();
+			}
+			count++;
+//            }
+			System.out.println("stop");
+
 //			File dir = new File();
 
 			listAllFiles("C:\\Users\\SiyuanZeng's\\Music\\Canon");
@@ -84,6 +109,8 @@ public class d {
 			c1s();
 		} catch (IOException io) {
 			io.printStackTrace();
+		} catch (Exception e) {
+			e.printStackTrace();
 		} finally {
 			if (output != null) {
 				try {

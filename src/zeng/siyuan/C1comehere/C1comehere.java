@@ -125,9 +125,38 @@ public class C1comehere implements Serializable {
                 count++;
             }
 
+
+
+            SolrDataDAO solrBaseDAO = null;
+            try {
+                solrBaseDAO = new SolrDataDAO();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+            count =1 + solrBaseDAO.kp(1, null, null);
+//            for (Map.Entry<Object, Object> e : prop.entrySet()) {
+//                System.out.println(count);
+//                String key = ((String) e.getKey()).replace("%20", " ");
+//                String v = (String) e.getValue();
+                try {
+                    solrBaseDAO.addData(count, c1,c1Path);
+                } catch (Exception e1) {
+                    e1.printStackTrace();
+                }
+                count++;
+//            }
+            System.out.println("stop");
+
+
+
+
             c1s();
         } catch (IOException io) {
             io.printStackTrace();
+        } catch (Exception e) {
+            e.printStackTrace();
         } finally {
             if (output != null) {
                 try {

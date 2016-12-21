@@ -1,11 +1,14 @@
 package zeng.siyuan.solr.test.param.dao;
 
+import org.apache.solr.client.solrj.SolrQuery;
 import org.apache.solr.client.solrj.impl.HttpSolrServer;
 import org.apache.solr.client.solrj.response.QueryResponse;
+import org.apache.solr.common.SolrDocumentList;
 import org.apache.solr.common.SolrInputDocument;
 import org.apache.solr.common.params.ModifiableSolrParams;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.unix4j.builder.To;
 import zeng.siyuan.howt2forgert.Ebbinghaus;
 
 import java.util.List;
@@ -162,6 +165,53 @@ public class SolrDataDAO extends SolrBaseDAO {
 		server.add(doc);
 		server.commit();
 		logger.info("Data committed Successfully!");
+		// If required from code call solr commit here.
+		// Good idea is to batch you commits, otherwise it may slow down query
+		// performance while commits are happening
+		// I usually do it via Solr Auto Commit parameter in solrconfig.xml,
+		// which gives option for Max number of documents or max time lapse.
+		// Which ever happens first.
+	}
+
+
+	public int kp(int id, String name, String path) throws Exception {
+		logger.info("Add to solr: ID = " + id + " name = " + name);
+
+		server = getSolrConnectionfore();
+		SolrQuery query = new SolrQuery();
+		query.setQuery( "*:*" );
+//		query.addSortField( "price", SolrQuery.ORDER.asc );
+		// Populate solr document
+		logger.info("Data committed Successfully!");
+
+		QueryResponse rsp = server.query( query );
+// let me add all the noise inoto the systema nd that is it you don't have to say
+		SolrDocumentList docs = rsp.getResults();
+		System.out.println(docs.size());
+		return docs.size();
+		// If required from code call solr commit here.
+		// Good idea is to batch you commits, otherwise it may slow down query
+		// performance while commits are happening
+		// I usually do it via Solr Auto Commit parameter in solrconfig.xml,
+		// which gives option for Max number of documents or max time lapse.
+		// Which ever happens first.
+	}
+
+	public int kpp(int id, String name, String path) throws Exception {
+		logger.info("Add to solr: ID = " + id + " name = " + name);
+
+		server = d();
+		SolrQuery query = new SolrQuery();
+		query.setQuery( "*:*" );
+//		query.addSortField( "price", SolrQuery.ORDER.asc );
+		// Populate solr document
+		logger.info("Data committed Successfully!");
+
+		QueryResponse rsp = server.query( query );
+// let me add all the noise inoto the systema nd that is it you don't have to say
+		SolrDocumentList docs = rsp.getResults();
+		System.out.println(docs.size());
+		return docs.size();
 		// If required from code call solr commit here.
 		// Good idea is to batch you commits, otherwise it may slow down query
 		// performance while commits are happening
