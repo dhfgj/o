@@ -219,6 +219,29 @@ public class SolrDataDAO extends SolrBaseDAO {
 		// which gives option for Max number of documents or max time lapse.
 		// Which ever happens first.
 	}
+	public int kpsfasdf(int id, String name, String path) throws Exception {
+		logger.info("Add to solr: ID = " + id + " name = " + name);
+
+		server = d();
+		SolrQuery query = new SolrQuery();
+		query.setQuery( "*:*" );
+		query.setRows( 100000 );
+//		query.addSortField( "price", SolrQuery.ORDER.asc );
+		// Populate solr document
+		logger.info("Data committed Successfully!");
+
+		QueryResponse rsp = server.query( query );
+// let me add all the noise inoto the systema nd that is it you don't have to say
+		SolrDocumentList docs = rsp.getResults();
+		System.out.println(docs.size());
+		return docs.size();
+		// If required from code call solr commit here.
+		// Good idea is to batch you commits, otherwise it may slow down query
+		// performance while commits are happening
+		// I usually do it via Solr Auto Commit parameter in solrconfig.xml,
+		// which gives option for Max number of documents or max time lapse.
+		// Which ever happens first.
+	}
 
 	public int kpp(int id, String name, String path) throws Exception {
 		logger.info("Add to solr: ID = " + id + " name = " + name);
@@ -252,6 +275,27 @@ public class SolrDataDAO extends SolrBaseDAO {
 		doc.addField("id", id);
 		doc.addField("name", name);
 		doc.addField("type", "music");
+		doc.addField("path", path);
+		server.add(doc);
+		server.commit();
+		logger.info("Data committed Successfully!");
+		// If required from code call solr commit here.
+		// Good idea is to batch you commits, otherwise it may slow down query
+		// performance while commits are happening
+		// I usually do it via Solr Auto Commit parameter in solrconfig.xml,
+		// which gives option for Max number of documents or max time lapse.
+		// Which ever happens first.
+	}
+
+	public void pdsafadsfa(int id, String name, String path, String p) throws Exception {
+		logger.info("Add to solr: ID = " + id + " name = " + name);
+
+		server = d();
+		// Populate solr document
+		SolrInputDocument doc = new SolrInputDocument();
+		doc.addField("id", id);
+		doc.addField("name", name);
+		doc.addField("type", p);
 		doc.addField("path", path);
 		server.add(doc);
 		server.commit();

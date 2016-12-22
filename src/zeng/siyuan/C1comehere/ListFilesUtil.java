@@ -162,26 +162,48 @@ public class ListFilesUtil {
     }
 
 
-    public static void asdfhfkjasdhkjfahdsfjlkasjflkajf(String directoryName, Properties prop, String askljf){
+    public static void asdfhfkjasdhkjfahdsfjlkasjflkajf(String directoryName, Properties prop, String askljf) {
 
         File directory = new File(directoryName);
         //get all the files from a directory
         File[] fList = directory.listFiles();
-        for (File file : fList){
-            if (file.isFile()){
+        for (File file : fList) {
+            if (file.isFile()) {
                 // th eproblem aof static or out of scope is that it is hard to prefict ehrwer the hell is it instantiate
                 // to instantietre static it must be a variable share by all the instandce that i stwh only case we need ti thes  static
                 // or we should channel the flow and make it flow there is flow there
 //                System.out.println(file.getAbsolutePath());
-                p.setProperty(file.getName()+"", file.getAbsolutePath());
-                c1come2melater(file.getName()+"", file.getAbsolutePath());
-            } else if (file.isDirectory()){
+                p.setProperty(file.getName() + "", file.getAbsolutePath());
+                c1come2melater(file.getName() + "", file.getAbsolutePath());
+            } else if (file.isDirectory()) {
                 asdfhfkjasdhkjfahdsfjlkasjflkajf(file.getAbsolutePath(), null, askljf);
-                p.setProperty(file.getName()+" "+askljf, file.getAbsolutePath());
-                c1come2melater(file.getName()+" "+askljf, file.getAbsolutePath());
+                p.setProperty(file.getName() + " " + askljf, file.getAbsolutePath());
+                c1come2melater(file.getName() + " " + askljf, file.getAbsolutePath());
             }
         }
+    }
 
+
+    public static void asdfhfkjasdhkjfahdsfjlkasasfjkashflkasjdjflkajf(String directoryName, Properties prop, String askljf) {
+
+        File directory = new File(directoryName);
+        //get all the files from a directory
+        File[] fList = directory.listFiles();
+        for (File file : fList) {
+            if (file.isFile()) {
+                // th eproblem aof static or out of scope is that it is hard to prefict ehrwer the hell is it instantiate
+                // to instantietre static it must be a variable share by all the instandce that i stwh only case we need ti thes  static
+                // or we should channel the flow and make it flow there is flow there
+//                System.out.println(file.getAbsolutePath());
+                p.setProperty(file.getName() + "", file.getAbsolutePath());
+                c1come2melaterasfhakjhfkjashfl(file.getName() + "", file.getAbsolutePath(), askljf);
+            } else if (file.isDirectory()) {
+                asdfhfkjasdhkjfahdsfjlkasasfjkashflkasjdjflkajf(file.getAbsolutePath(), null, askljf);
+                p.setProperty(file.getName() + " " + askljf, file.getAbsolutePath());
+                c1come2melaterasfhakjhfkjashfl(file.getName() + " " + askljf, file.getAbsolutePath(), askljf);
+            }
+        }
+    }
 
 ///*
 
@@ -189,7 +211,7 @@ public class ListFilesUtil {
 
 
 
-    }
+//    }
 
 
 
@@ -392,9 +414,10 @@ public class ListFilesUtil {
             e.printStackTrace();
         }
 
-
+// neviaget backa nd forwth to the things
+        // call hirachky
         try {
-            countasdfasfasdf= 1 + solrBaseDAO.kp(1, null, null);
+            JDKSFHKJASDGFJHGKLDFJALISDJF = 1 + solrBaseDAO.kp(1, null, null);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -405,8 +428,8 @@ public class ListFilesUtil {
 //        it its the thin to handle complexity
         // what is it good pfor put some goodiness into ti aso that iet cause be good and complete immediately
 
-//        countasdfasfasdf=520;
-        asdfhfkjasdhkjfahdsfjlkasjflkajf("C:\\Users\\SiyuanZeng's\\Documents\\OneNote 笔记本", p, "1NB");
+//        JDKSFHKJASDGFJHGKLDFJALISDJF=520;
+        asdfhfkjasdhkjfahdsfjlkasasfjkashflkasjdjflkajf("C:\\Users\\SiyuanZeng's\\Documents\\OneNote 笔记本", p, "1NB");
 //        p = new Properties();
 //        for(String l: fol) {
 //            listFilesAndFilesSubDirectories(l, null);
@@ -545,7 +568,7 @@ public class ListFilesUtil {
 
         return null;
     }
-    public static int countasdfasfasdf = 1;
+    public static int JDKSFHKJASDGFJHGKLDFJALISDJF = 1;
 
     public static void c1come2melater(String c1, String c1Path) {
 
@@ -588,15 +611,85 @@ public class ListFilesUtil {
 
 
 
-//            countasdfasfasdf= 1 + solrBaseDAO.kp(1, null, null);
+//            JDKSFHKJASDGFJHGKLDFJALISDJF= 1 + solrBaseDAO.kp(1, null, null);
 
             try {
-                solrBaseDAO.asdfkldf(countasdfasfasdf, c1, c1Path);
+                solrBaseDAO.asdfkldf(JDKSFHKJASDGFJHGKLDFJALISDJF, c1, c1Path);
             } catch (Exception e1) {
                 e1.printStackTrace();
             }
-            countasdfasfasdf++;
-            System.out.println(countasdfasfasdf);
+            JDKSFHKJASDGFJHGKLDFJALISDJF++;
+            System.out.println(JDKSFHKJASDGFJHGKLDFJALISDJF);
+//
+//            c1s();
+        } catch (IOException io) {
+            io.printStackTrace();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            if (output != null) {
+//                try {
+//                    output.close();
+//                    output_solr.close();
+//                } catch (IOException e) {
+//                    e.printStackTrace();
+//                }
+//            }
+            }
+        }
+    }
+
+
+    public static void c1come2melaterasfhakjhfkjashfl(String c1, String c1Path, String asdjflkajdflajsdlf) {
+
+        OutputStream output = null;
+        OutputStream output_solr = null;
+        try {
+
+            output = new FileOutputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\zeng\\siyuan\\C1comehere\\s.properties");
+            c1 = c1.replace(" ", "%20");
+            System.out.println("c1come2melater();");
+            // set the properties value
+            prop.setProperty(c1, c1Path);
+
+            // save properties to project root folder
+            prop.store(output, null);
+
+
+//			output_solr = new FileOutputStream("/Users/vn0xrjh/daniel/14_GUIcopymacosx/c1comehere/c1s.properties.solr");
+
+//			int count = 0;
+//			for (Map.Entry<Object, Object> e : prop.entrySet()) {
+//				String key = ((String) e.getKey()).replace("%20", " ");
+//				String v = (String) e.getValue();
+//				output_solr.write(String.valueOf(count).getBytes());
+//				output_solr.write(',');
+//				output_solr.write(key.getBytes());
+//				output_solr.write(',');
+//				output_solr.write(v.getBytes());
+//				output_solr.write(System.getProperty("line.separator").getBytes());
+//				count++;
+//			}
+
+
+            SolrDataDAO solrBaseDAO = null;
+            try {
+                solrBaseDAO = new SolrDataDAO();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+
+//            JDKSFHKJASDGFJHGKLDFJALISDJF= 1 + solrBaseDAO.kp(1, null, null);
+
+            try {
+                solrBaseDAO.pdsafadsfa(JDKSFHKJASDGFJHGKLDFJALISDJF, c1, c1Path, asdjflkajdflajsdlf);
+            } catch (Exception e1) {
+                e1.printStackTrace();
+            }
+            JDKSFHKJASDGFJHGKLDFJALISDJF++;
+            System.out.println(JDKSFHKJASDGFJHGKLDFJALISDJF);
 //
 //            c1s();
         } catch (IOException io) {
