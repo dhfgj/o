@@ -348,7 +348,7 @@ class AutoSuggestor {
         dictionary.clear();
         if (words == null) {
             if(0<asdfafasfasdfkjasdlfjasldkjfalsjhgkjlxczcvkjlkadjflkasjfljaldkfjalkdjfl){
-                asdfafasfasdfkjasdlfjasldkjfalsjhgkjlxczcvkjlkadjflkasjfljaldkfjalkdjfl=0;
+                asdfafasfasdfkjasdlfjasldkjfalsjhgkjlxczcvkjlkadjflkasjfljaldkfjalkdjfl=0;// multiple useages are utitlieies and abstract tot he top level
             }
             return;//so we can call constructor with null value for dictionary without exception thrown
         }

@@ -180,6 +180,7 @@ public class SolrDataDAO extends SolrBaseDAO {
 		server = getSolrConnectionfore();
 		SolrQuery query = new SolrQuery();
 		query.setQuery( "*:*" );
+		query.setRows( 100000 );
 //		query.addSortField( "price", SolrQuery.ORDER.asc );
 		// Populate solr document
 		logger.info("Data committed Successfully!");
