@@ -50,7 +50,7 @@ class AutoSuggestor {
     private JWindow autoSuggestionPopUpWindow;
     private String typedWord;
     private final ArrayList<String> dictionary = new ArrayList<>();
-    private int currentIndexOfSpace, tW, tH;
+    public static int currentIndexOfSpace, tW, tH;
     private DocumentListener documentListener = new DocumentListener() {
         @Override
         public void insertUpdate(DocumentEvent de) {
@@ -132,7 +132,8 @@ class AutoSuggestor {
                                 sl.setFocused(false);
                                 autoSuggestionPopUpWindow.setVisible(false);
                                 setFocusToTextField();
-                                checkForAndShowSuggestions();//fire method as if document listener change occured and fired it
+            AutoSuggestor.tH=0;
+                                checkForAndShowSuggestions(++asdfafasfasdfkjasdlfjasldkjfalsjhgkjlxczcvkjlkadjflkasjfljaldkfjalkdjfl);//fire method as if document listener change occured and fired it
 
                             } else {
                                 sl.setFocused(false);
@@ -158,6 +159,8 @@ class AutoSuggestor {
             }
         });
     }
+
+    public int asdfafasfasdfkjasdlfjasldkjfalsjhgkjlxczcvkjlkadjflkasjfljaldkfjalkdjfl=1;
 
     private void setFocusToTextField() {
         container.toFront();
@@ -225,6 +228,47 @@ class AutoSuggestor {
         }
     }
 
+    private void checkForAndShowSuggestions(int currentIndexOfSpace) {
+        String text1 = textArea.getText();
+        if (text1.length() >= 3 && text1.split(" ").length < 5) {
+            String text = text1;
+            boolean deleteCommand = text.contains("delete") && text.contains("=");
+            String key = text.substring(0, 3);
+            boolean isThoughtRecorderCommand = key.equalsIgnoreCase("rec");
+            boolean isHow2ForegertCommand = key.equalsIgnoreCase("fgt");
+            boolean isHow2ForegertCommand_u = text1.contains(" ufgt ");
+            boolean isShowCommand = key.equalsIgnoreCase("sho");// shw
+            if (deleteCommand || isThoughtRecorderCommand || isHow2ForegertCommand || isHow2ForegertCommand_u || isShowCommand) {
+                // exclude these scenaarios
+            } else {
+                typedWord = getCurrentlyTypedWord();
+
+                ArrayList<String> words = new ArrayList<>();
+                solr s = new solr();
+                try {
+                    words = (ArrayList<String>) s.sendGet(currentIndexOfSpace, typedWord, textArea);
+                    setDictionary(words);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
+                suggestionsPanel.removeAll();//remove previos words/jlabels that were added
+
+                //used to calcualte size of JWindow as new Jlabels are added
+                boolean added = wordTyped(typedWord);
+
+                if (!added) {
+                    if (autoSuggestionPopUpWindow.isVisible()) {
+                        autoSuggestionPopUpWindow.setVisible(false);
+                    }
+                } else {
+                    showPopUpWindow();
+                    setFocusToTextField();
+                }
+            }
+        }
+    }
+
     protected void addWordToSuggestions(String word) {
         SuggestionLabel suggestionLabel = new SuggestionLabel(word, suggestionFocusedColor, suggestionsTextColor, this);
 
@@ -255,13 +299,13 @@ class AutoSuggestor {
         if (tW < label.getPreferredSize().width) {
             tW = label.getPreferredSize().width;
         }
-        tH += label.getPreferredSize().height;
+        tH += 5*2;
     }
 
     private void showPopUpWindow() {
         autoSuggestionPopUpWindow.getContentPane().add(suggestionsPanel);
-        autoSuggestionPopUpWindow.setMinimumSize(new Dimension(150,200));
-        autoSuggestionPopUpWindow.setSize(300,200);
+        autoSuggestionPopUpWindow.setMinimumSize(new Dimension(150,10));
+        autoSuggestionPopUpWindow.setSize(300,tH);
         autoSuggestionPopUpWindow.setVisible(true);
 
         int windowX = 0;
@@ -283,12 +327,12 @@ class AutoSuggestor {
             }
 
             windowX = (int) (rect.getX() + 750);
-            windowY = (int) (rect.getY() + (rect.getHeight() * 3) + 10);
+            windowY = (int) (1);
         }
 
         //show the pop up
         autoSuggestionPopUpWindow.setLocation(windowX, windowY);
-        autoSuggestionPopUpWindow.setMinimumSize(new Dimension(10,20));
+//        autoSuggestionPopUpWindow.setMinimumSize(new Dimension(10,20));
         autoSuggestionPopUpWindow.revalidate();
         autoSuggestionPopUpWindow.repaint();
 //        try {
@@ -303,6 +347,9 @@ class AutoSuggestor {
     public void setDictionary(ArrayList<String> words) {
         dictionary.clear();
         if (words == null) {
+            if(0<asdfafasfasdfkjasdlfjasldkjfalsjhgkjlxczcvkjlkadjflkasjfljaldkfjalkdjfl){
+                asdfafasfasdfkjasdlfjasldkjfalsjhgkjlxczcvkjlkadjflkasjfljaldkfjalkdjfl=0;
+            }
             return;//so we can call constructor with null value for dictionary without exception thrown
         }
         for (String word : words) {
