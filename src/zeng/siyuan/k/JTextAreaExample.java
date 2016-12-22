@@ -54,18 +54,21 @@ class AutoSuggestor {
     private DocumentListener documentListener = new DocumentListener() {
         @Override
         public void insertUpdate(DocumentEvent de) {
+            AutoSuggestor.tH=0;
             checkForAndShowSuggestions();
             setFocusToTextField();
         }
 
         @Override
         public void removeUpdate(DocumentEvent de) {
+            AutoSuggestor.tH=0;
             checkForAndShowSuggestions();
             setFocusToTextField();
         }
 
         @Override
         public void changedUpdate(DocumentEvent de) {
+            AutoSuggestor.tH=0;
             checkForAndShowSuggestions();
         }
     };
@@ -154,6 +157,7 @@ class AutoSuggestor {
                 } else {//only a single suggestion was given
                     autoSuggestionPopUpWindow.setVisible(false);
                     setFocusToTextField();
+                    AutoSuggestor.tH=0;
                     checkForAndShowSuggestions();//fire method as if document listener change occured and fired it
                 }
             }
@@ -186,6 +190,7 @@ class AutoSuggestor {
         }
         return sls;
     }
+    // atest is good in the long run because you don't know wha tis broken down if there are domse thingchanges in the jungle
 
     private void checkForAndShowSuggestions() {
         String text1 = textArea.getText();

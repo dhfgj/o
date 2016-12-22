@@ -427,7 +427,9 @@ public class ListFilesUtil {
 //multiple thread
 //        it its the thin to handle complexity
         // what is it good pfor put some goodiness into ti aso that iet cause be good and complete immediately
-
+// search by type and index all the fieles and that is all
+        // search by files and do all the saerch in java and make it work
+        // use the time ot read the code and it is actually the same to use it to wriet eht code
 //        JDKSFHKJASDGFJHGKLDFJALISDJF=520;
         asdfhfkjasdhkjfahdsfjlkasasfjkashflkasjdjflkajf("C:\\Users\\SiyuanZeng's\\Documents\\OneNote 笔记本", p, "1NB");
 //        p = new Properties();
