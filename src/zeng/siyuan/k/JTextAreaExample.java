@@ -14,6 +14,7 @@ import java.awt.event.KeyEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.ArrayList;
+import java.util.concurrent.*;
 
 /**
  * @author David
@@ -206,32 +207,57 @@ class AutoSuggestor {
                 // exclude these scenaarios
             } else {
                 typedWord = getCurrentlyTypedWord();
-
-                ArrayList<String> words = new ArrayList<>();
-                solr s = new solr();
-                try {
-                    words = (ArrayList<String>) s.sendGet(typedWord, textArea);
-                    setDictionary(words);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-
-                suggestionsPanel.removeAll();//remove previos words/jlabels that were added
-
-                //used to calcualte size of JWindow as new Jlabels are added
-                boolean added = wordTyped(typedWord);
-
-                if (!added) {
-                    if (autoSuggestionPopUpWindow.isVisible()) {
-                        autoSuggestionPopUpWindow.setVisible(false);
+                Callable<ArrayList<String>> task;
+                task = () -> {
+                    ArrayList<String> words = new ArrayList<>();
+                    solr s = new solr();
+                    try {
+                        words = (ArrayList<String>) s.sendGet(typedWord, textArea);
+                        setDictionary(words);
+                    } catch (Exception e) {
+                        e.printStackTrace();
                     }
-                } else {
-                    showPopUpWindow();
-                    setFocusToTextField();
-                }
+                    return words;
+                };
+
+                ExecutorService executor = Executors.newFixedThreadPool(2);
+                Future<ArrayList<String>> future = executor.submit(task);
+
+                Runnable asdfasfasdfaDSFAASDF;
+                asdfasfasdfaDSFAASDF = () -> {
+                    ArrayList<String> words = null;
+//                    if (future.isDone()) {
+
+                        try {
+                            words = future.get();
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        } catch (ExecutionException e) {
+                            e.printStackTrace();
+                        }
+
+
+                        suggestionsPanel.removeAll();//remove previos words/jlabels that were added
+
+                        //used to calcualte size of JWindow as new Jlabels are added
+                        boolean added = wordTyped(typedWord);
+
+                        if (!added) {
+                            if (autoSuggestionPopUpWindow.isVisible()) {
+                                autoSuggestionPopUpWindow.setVisible(false);
+                            }
+                        } else {
+                            showPopUpWindow();
+                            setFocusToTextField();
+                        }
+//                    }
+                };
+
+                executor.submit(asdfasfasdfaDSFAASDF);
             }
         }
-    }
+
+        }
 
     private void checkForAndShowSuggestions(int currentIndexOfSpace) {
         String text1 = textArea.getText();
