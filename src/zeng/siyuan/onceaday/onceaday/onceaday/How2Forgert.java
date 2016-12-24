@@ -39,7 +39,7 @@ public class How2Forgert implements Serializable {
     public static transient JTextArea textArea;
     public transient static ArrayList<zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question> ebbinghauses;
     public transient ArrayList<zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task> tasks = new ArrayList<zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task>();
-    public transient zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task currentTask = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task();
+    public transient zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task AJKDSLJFLKJQWOIRULJDFLKJL = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task();
     public transient Display d;
     public transient Thread reloadandDisplayThread;
     public transient JFrame frame;
@@ -296,7 +296,7 @@ public class How2Forgert implements Serializable {
         stringBuilder.append(format.format(c.getTime()));
 
         for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question e : ebbinghauses) {
-            if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
+            if (e.getJavauid().toString().equalsIgnoreCase(AJKDSLJFLKJQWOIRULJDFLKJL.getJavauuid().toString())) {
                 if (timeOfDay >= 0 && timeOfDay < 12) {
                     stringBuilder.append(" am");
                 } else if (timeOfDay >= 12 && timeOfDay < 24) {
@@ -341,14 +341,14 @@ public class How2Forgert implements Serializable {
 
                         frame.repaint();
                         frame.toFront();
-                        currentTask = t;
+                        AJKDSLJFLKJQWOIRULJDFLKJL = t;
                         String inntuitive ="";
 
                         for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question e : ebbinghauses) {
                             boolean asdf= false;
-                            if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
+                            if (e.getJavauid().toString().equalsIgnoreCase(AJKDSLJFLKJQWOIRULJDFLKJL.getJavauuid().toString())) {
                                 for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task ct : e.getTasks()) {
-                                    if (ct.getDate().getTime() == currentTask.getDate().getTime()) {
+                                    if (ct.getDate().getTime() == AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime()) {
                                         asdf = true;
 
 
@@ -462,7 +462,7 @@ public class How2Forgert implements Serializable {
                                         }
                                         frame.repaint();
                                         frame.toFront();
-                                        currentTask = t;
+                                        AJKDSLJFLKJQWOIRULJDFLKJL = t;
                                         String inntuitive = "";
 
                                         if(e.type.equalsIgnoreCase("l")){
@@ -689,7 +689,7 @@ public class How2Forgert implements Serializable {
 //        stringBuilder.append(format.format(c.getTime()));
 //
 //        for (person_question e : ebbinghauses) {
-//            if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
+//            if (e.getJavauid().toString().equalsIgnoreCase(AJKDSLJFLKJQWOIRULJDFLKJL.getJavauuid().toString())) {
 //                if (timeOfDay >= 0 && timeOfDay < 12) {
 //                    stringBuilder.append(" am");
 //                } else if (timeOfDay >= 12 && timeOfDay < 24) {
@@ -756,19 +756,83 @@ public class How2Forgert implements Serializable {
 
 //                            frame.repaint();
 //                            frame.toFront();
-                            currentTask = t;
+                            AJKDSLJFLKJQWOIRULJDFLKJL = t;
 //                            String inntuitive = System.getProperty("line.separator");
                             String inntuitive = "";
 
+                        boolean asdf=false;
 //                            inntuitive += (" Dufgt ");
 //                            inntuitive += System.getProperty("line.separator");
                             for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question e : ebbinghauses) {
-                                if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
+                                if (e.getJavauid().toString().equalsIgnoreCase(AJKDSLJFLKJQWOIRULJDFLKJL.getJavauuid().toString())) {
 //                                    for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task ct : e.getTasks()) {
-//                                        if (ct.getDate().getTime() == currentTask.getDate().getTime()) {
+//                                        if (ct.getDate().getTime() == AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime()) {
 //                                            ct.setIsDone(true);
                                             inntuitive += e.text;
 //                                            m.store(e);
+                                    if (AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime() == AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime()) {
+                                        asdf = true;
+
+/*
+                                        if(e.type.equalsIgnoreCase("l")){
+                                            AJKDSLJFLKJQWOIRULJDFLKJL.setIsDone(false);
+//                                                r.open(e.getText());
+                                            AJKDSLJFLKJQWOIRULJDFLKJL.setDate(r.strifasld("30"));
+                                        } else
+
+                                        if(e.type.equalsIgnoreCase("ll")){
+                                            AJKDSLJFLKJQWOIRULJDFLKJL.setIsDone(false);
+//                                                r.open(e.getText());
+                                            AJKDSLJFLKJQWOIRULJDFLKJL.setDate(r.strifasld("60"));
+                                        } else
+
+                                        if(e.type.equalsIgnoreCase("c")){
+                                            AJKDSLJFLKJQWOIRULJDFLKJL.setIsDone(false);
+//                                                r.open(e.getText());
+                                            AJKDSLJFLKJQWOIRULJDFLKJL.setDate(r.strifasld("60"));
+                                            textArea.setText(e.getText());
+                                            frame.repaint();
+                                            frame.toFront();
+
+                                            Robot r = new Robot();
+                                            int D = KeyEvent.VK_CONTROL;
+                                            int Da = KeyEvent.VK_ENTER;
+//                                                int Da = KeyEvent.VK_SHIFT;
+//                                                int Dc = KeyEvent.VK_F11;
+                                            r.keyPress(D);
+                                            r.keyPress(Da);
+//                                                r.keyPress(Dc);
+
+                                            r.keyRelease(D);
+                                            r.keyRelease(Da);
+//                                                r.keyRelease(Dc);
+
+
+
+                                        } else
+
+                                        if(e.type.equalsIgnoreCase("j")){
+                                            AJKDSLJFLKJQWOIRULJDFLKJL.setIsDone(false);
+                                            AJKDSLJFLKJQWOIRULJDFLKJL.setDate(r.h(AJKDSLJFLKJQWOIRULJDFLKJL.getDate()));
+                                        } else
+
+
+                                        if(e.type.equalsIgnoreCase("dd")){
+                                            AJKDSLJFLKJQWOIRULJDFLKJL.setIsDone(false);
+                                            AJKDSLJFLKJQWOIRULJDFLKJL.setDate(r.k(AJKDSLJFLKJQWOIRULJDFLKJL.getDate()));
+                                        } else
+
+
+                                        if(e.type.equalsIgnoreCase("d")) {
+                                            AJKDSLJFLKJQWOIRULJDFLKJL.setIsDone(false);
+                                            AJKDSLJFLKJQWOIRULJDFLKJL.setDate(r.l(AJKDSLJFLKJQWOIRULJDFLKJL.getDate()));
+                                        }
+
+
+                                        else {*/
+                                            AJKDSLJFLKJQWOIRULJDFLKJL.setIsDone(true);
+//                                        }
+                                    }
 
 
                                             String j = mapper.writeValueAsString(e);
@@ -832,7 +896,7 @@ logDictionary(
 //                                        }
 //                                        frame.repaint();
 //                                        frame.toFront();
-//                                        currentTask = t;
+//                                        AJKDSLJFLKJQWOIRULJDFLKJL = t;
 //                                        String inntuitive = System.getProperty("line.separator");
 //                                        inntuitive += (" Dufgt ");
 //                                        inntuitive += System.getProperty("line.separator");
@@ -957,7 +1021,7 @@ logDictionary(
 
 //    public void deltask() {
 //        for (person_question e : ebbinghauses) {
-//            if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
+//            if (e.getJavauid().toString().equalsIgnoreCase(AJKDSLJFLKJQWOIRULJDFLKJL.getJavauuid().toString())) {
 //                m.deleteTask(e.getJavauid());
 //                System.out.println("delet the " + e.text);
 //                if(isSearch==false)reloadTAskandrestartPopThread();

@@ -272,7 +272,7 @@ public class How2Forgert implements Serializable {
         stringBuilder.append(format.format(c.getTime()));
 
         for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question e : ebbinghauses) {
-            if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
+            if (e.getJavauid().toString().equalsIgnoreCase(AJKDSLJFLKJQWOIRULJDFLKJL.getJavauuid().toString())) {
                 if (timeOfDay >= 0 && timeOfDay < 12) {
                     stringBuilder.append(" am");
                 } else if (timeOfDay >= 12 && timeOfDay < 24) {
@@ -312,14 +312,14 @@ public class How2Forgert implements Serializable {
 
                         frame.repaint();
                         frame.toFront();
-                        currentTask = t;
+                        AJKDSLJFLKJQWOIRULJDFLKJL = t;
                         String inntuitive ="";
 
                         for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question e : ebbinghauses) {
                             boolean asdf= false;
-                            if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
+                            if (e.getJavauid().toString().equalsIgnoreCase(AJKDSLJFLKJQWOIRULJDFLKJL.getJavauuid().toString())) {
                                 for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task ct : e.getTasks()) {
-                                    if (ct.getDate().getTime() == currentTask.getDate().getTime()) {
+                                    if (ct.getDate().getTime() == AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime()) {
                                         asdf = true;
 
 
@@ -417,7 +417,7 @@ public class How2Forgert implements Serializable {
                                         }
                                         frame.repaint();
                                         frame.toFront();
-                                        currentTask = t;
+                                        AJKDSLJFLKJQWOIRULJDFLKJL = t;
                                         String inntuitive = "";
 
                                         if(e.type.equalsIgnoreCase("l")){

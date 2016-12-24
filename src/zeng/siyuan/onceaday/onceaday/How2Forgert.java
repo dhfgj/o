@@ -340,7 +340,7 @@ public class How2Forgert implements Serializable {
 //        stringBuilder.append(format.format(c.getTime()));
 //
 //        for (person_question e : ebbinghauses) {
-//            if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
+//            if (e.getJavauid().toString().equalsIgnoreCase(AJKDSLJFLKJQWOIRULJDFLKJL.getJavauuid().toString())) {
 //                if (timeOfDay >= 0 && timeOfDay < 12) {
 //                    stringBuilder.append(" am");
 //                } else if (timeOfDay >= 12 && timeOfDay < 24) {
@@ -416,7 +416,7 @@ public class How2Forgert implements Serializable {
                             for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question e : ebbinghauses) {
                                 if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
 //                                    for (Task ct : e.getTasks()) {
-//                                        if (ct.getDate().getTime() == currentTask.getDate().getTime()) {
+//                                        if (ct.getDate().getTime() == AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime()) {
 //                                            ct.setIsDone(true);
                                             inntuitive += e.text;
 //                                            m.store(e);
@@ -489,7 +489,7 @@ logDictionary(
 //                                        }
 //                                        frame.repaint();
 //                                        frame.toFront();
-//                                        currentTask = t;
+//                                        AJKDSLJFLKJQWOIRULJDFLKJL = t;
 //                                        String inntuitive = System.getProperty("line.separator");
 //                                        inntuitive += (" Dufgt ");
 //                                        inntuitive += System.getProperty("line.separator");
@@ -614,7 +614,7 @@ logDictionary(
 
 //    public void deltask() {
 //        for (person_question e : ebbinghauses) {
-//            if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
+//            if (e.getJavauid().toString().equalsIgnoreCase(AJKDSLJFLKJQWOIRULJDFLKJL.getJavauuid().toString())) {
 //                m.deleteTask(e.getJavauid());
 //                System.out.println("delet the " + e.text);
 //                if(isSearch==false)reloadTAskandrestartPopThread();
