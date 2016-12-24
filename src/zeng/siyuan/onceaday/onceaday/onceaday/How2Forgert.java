@@ -232,7 +232,7 @@ public class How2Forgert implements Serializable {
                 for (int i = 1; i < textStr.length; i++) {
                     stringBuffer1.append(textStr[i]);
                 }
-                e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "p", r.strifasld(textStr[0]));
+                e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "p", r.strifasld(new String (String.valueOf(6*60))));
             }
 
 
