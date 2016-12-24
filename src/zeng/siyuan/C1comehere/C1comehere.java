@@ -47,6 +47,8 @@ public class C1comehere implements Serializable {
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.How2Forgert dhow2ForgDertlsf;
     public zeng.siyuan.onceaday.onceaday.How2Forgert dhow2ForgDertlssfs;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.onceaday.How2Forgert dhow2ForgDertlssf;
+    public zeng.siyuan.onceaday.onceaday.onceaday.How2Forgert dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG;
+//    public C:\Development_Base\maxcox\maxcox-master\src\zeng\siyuan\onceaday\onceaday\onceaday\How2Forgert dhow2ForgDertlssf;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.How2Forgert a;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.How2Forgert j;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.asdf.How2Forgert jd;
@@ -659,6 +661,15 @@ public class C1comehere implements Serializable {
         dhow2ForgDertlssf.textArea = textArea;
         dhow2ForgDertlssf.frame = frame;
         dhow2ForgDertlssf.init();
+
+
+        if (null == dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG) {
+            dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG= new zeng.siyuan.onceaday.onceaday.onceaday.How2Forgert(c1comehere, textArea, frame);
+        }
+        dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.c1comehere = c1comehere;
+        dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.textArea = textArea;
+        dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.frame = frame;
+        dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.init();
 
         if (null == dhow2ForgDertlssfs) {
             dhow2ForgDertlssfs= new zeng.siyuan.onceaday.onceaday.How2Forgert(c1comehere, textArea, frame);
@@ -1375,9 +1386,8 @@ public class C1comehere implements Serializable {
                            else if (SDldeleteCommandd_X ) {
                             System.out.println("Disloadl");
                             dhow2ForgDertlssf.fjlasdjfl();
-                        }
-
-                           else if (SDcodjDa_lx) {
+                        } else if (SDldeleteCommandd_X ) { System.out.println("Disloadl"); dhow2ForgDertlssf.fjlasdjfl();
+                        } else if (SDcodjDa_lx) {
                             System.out.println("Disloadl");
                             dhow2ForgDertlssfs.load();
                         }
