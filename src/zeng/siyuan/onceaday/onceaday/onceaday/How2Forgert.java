@@ -36,7 +36,7 @@ import static java.awt.SystemColor.text;
 //Created by Real
 public class How2Forgert implements Serializable {
     public transient C1comehere c1comehere;
-    public transient JTextArea textArea;
+    public static transient JTextArea textArea;
     public transient static ArrayList<zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question> ebbinghauses;
     public transient ArrayList<zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task> tasks = new ArrayList<zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task>();
     public transient zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task currentTask = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task();
@@ -50,10 +50,10 @@ public class How2Forgert implements Serializable {
     private ArrayList<zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task> searchtasks;
     private zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task currentTaskSearch;
     private String keywords;
-    ObjectMapper mapper = new ObjectMapper();
+    static ObjectMapper mapper = new ObjectMapper();
 
 
-    public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question d() {
+    public static zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question d() {
         Scanner in = null;
         if (null != textArea && !("".equalsIgnoreCase(textArea.getText()))) {
 
@@ -248,7 +248,7 @@ public class How2Forgert implements Serializable {
 //        this.frame = frame;
 //    }
 
-    /*
+//    /*
     public void updatetask() {
         StringBuilder stringBuilder = new StringBuilder();
         Date date = new Date();
@@ -308,14 +308,14 @@ public class How2Forgert implements Serializable {
 
                 e.text = stringBuilder.toString();
 
-                m.store(e);
+//                m.store(e);
                 System.out.println("updates");
                 isSearch=false;
                 break;
             }
         }
     }
-*/
+//*/
 
 
 
@@ -546,7 +546,7 @@ public class How2Forgert implements Serializable {
 
 
 
-    public void load() throws UnknownHostException {
+    public static void load() throws UnknownHostException {
         Scanner in = null;
 
 //        if (null != textArea && !("".equalsIgnoreCase(textArea.getText()))) {

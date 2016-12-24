@@ -9,7 +9,6 @@ import com.fasterxml.jackson.databind.introspect.VisibilityChecker;
 import com.mongodb.DBObject;
 import com.mongodb.util.JSON;
 import zeng.siyuan.C1comehere.C1comehere;
-import zeng.siyuan.C1comehere.Search;
 import zeng.siyuan.onceaday.onceaday.link.onceaday.DecendingTask;
 import zeng.siyuan.onceaday.onceaday.link.onceaday.MongoDbHelper;
 import zeng.siyuan.reuseutil.r;
@@ -31,7 +30,7 @@ import java.util.*;
 public class How2Forgert implements Serializable {
     public transient C1comehere c1comehere;
     public transient JTextArea textArea;
-    public transient static ArrayList<person_question> ebbinghauses;
+    public transient static ArrayList<zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question> ebbinghauses;
     public transient ArrayList<Task> tasks = new ArrayList<Task>();
     public transient Task currentTask = new Task();
     public transient Display d;
@@ -414,7 +413,7 @@ public class How2Forgert implements Serializable {
 
 //                            inntuitive += (" Dufgt ");
 //                            inntuitive += System.getProperty("line.separator");
-                            for (person_question e : ebbinghauses) {
+                            for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question e : ebbinghauses) {
                                 if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
 //                                    for (Task ct : e.getTasks()) {
 //                                        if (ct.getDate().getTime() == currentTask.getDate().getTime()) {
@@ -439,6 +438,7 @@ logDictionary(
                                             MongoDbHelper k= MongoDbHelper.getInstance();
                                             k.insertDocument("asfhkjashfkjashfl", p);
 
+/*
 
                                     if (inntuitive.length()>3 && c1comehere.searchEngines.containsKey(inntuitive.substring(0, 3))) {
                                         String text = inntuitive.trim();
@@ -459,7 +459,14 @@ logDictionary(
                                         }
                                     }
 
+*/
 
+
+// of ource it is .......
+                                    // of course, i get heartbest and it geels good
+                                    // it is all bout bull shitting and
+
+                                    // it is all about ufo , it is all about java 8 , it isa all about that , whtat is ahwat you want and it is all abotu you love
 
 //                                        }
 //                                    }
