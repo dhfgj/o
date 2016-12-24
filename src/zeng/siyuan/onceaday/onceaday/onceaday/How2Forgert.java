@@ -743,7 +743,7 @@ public class How2Forgert implements Serializable {
             } else {
                 for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task t : tasks) {
                     SimpleDateFormat fmt = new SimpleDateFormat("yyyyMMdd");
-                    if ( fmt.format(new Date()).equals(fmt.format(t.getDate()))) {
+                    if ( !t.getIsDone() && fmt.format(new Date()).equals(fmt.format(t.getDate()))) {
 //                    if (!t.getIsDone() && t.getDate().after(new Date())) {
 //                        Calendar calendar = Calendar.getInstance();
 //                        calendar.setTime(t.getDate());
@@ -1051,12 +1051,13 @@ logDictionary(
         for (DBObject e : k) {
 
             String jsonInString = k.get(0).toString();
-            person_question stasdfhalksfdjlkasdjflkaff1 = null;
+            zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question stasdfhalksfdjlkasdjflkaff1 = null;
             try {
                 mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
                 mapper.setVisibilityChecker(VisibilityChecker.Std.defaultInstance().withFieldVisibility(JsonAutoDetect.Visibility.ANY));
 
-                stasdfhalksfdjlkasdjflkaff1 = mapper.readValue(e.toString(), person_question.class);
+                stasdfhalksfdjlkasdjflkaff1 = mapper.readValue(e.toString(), zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question.class);
+            ebbinghauses.add(stasdfhalksfdjlkasdjflkaff1);
             } catch (IOException e1) {
                 e1.printStackTrace();
             }
@@ -1066,7 +1067,7 @@ logDictionary(
                 if (stasdfhalksfdjlkasdjflkaff1.text.replace("Dufgt", "").trim().isEmpty()) {
 //                m.deleteTask(e.getJavauid());
                 } else {
-                    Set<zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task> t = stasdfhalksfdjlkasdjflkaff1.tasks;
+                    Set<zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task> t = stasdfhalksfdjlkasdjflkaff1.getTasks();
                     for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task task : t) {
                         tasks.add(task);
                     }

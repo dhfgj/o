@@ -30,7 +30,7 @@ import java.util.*;
 public class How2Forgert implements Serializable {
     public transient C1comehere c1comehere;
     public transient JTextArea textArea;
-    public transient static ArrayList<zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question> ebbinghauses;
+    public transient static ArrayList<person_question> ebbinghauses;
     public transient ArrayList<Task> tasks = new ArrayList<Task>();
     public transient Task currentTask = new Task();
     public transient Display d;
@@ -44,7 +44,7 @@ public class How2Forgert implements Serializable {
     private Task currentTaskSearch;
     private String keywords;
     ObjectMapper mapper = new ObjectMapper();
-    public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question d() {
+    public person_question d() {
         Scanner in = null;
         if (null != textArea && !("".equalsIgnoreCase(textArea.getText()))) {
 
@@ -63,7 +63,7 @@ public class How2Forgert implements Serializable {
             String textStr[] = textArea.getText().split("\\r\\n|\\n|\\r");
 
 
-            zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question e=null;
+            person_question e=null;
 
 
             if (textStr[0].length()==5){
@@ -71,7 +71,7 @@ public class How2Forgert implements Serializable {
                 for (int i = 1; i < textStr.length; i++) {
                     stringBuffer1.append(textStr[i]);
                 }
-                e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "i", r.j(textStr[0]));
+                e = new person_question(stringBuffer1.toString(), "i", r.j(textStr[0]));
             } else
 
 
@@ -80,7 +80,7 @@ public class How2Forgert implements Serializable {
                 for (int i = 1; i < textStr.length; i++) {
                     stringBuffer1.append(textStr[i]);
                 }
-                e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "l", r.strifasld("30"));
+                e = new person_question(stringBuffer1.toString(), "l", r.strifasld("30"));
             } else
 
 
@@ -89,7 +89,7 @@ public class How2Forgert implements Serializable {
                 for (int i = 1; i < textStr.length; i++) {
                     stringBuffer1.append(textStr[i]);
                 }
-                e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "ll", r.strifasld("60"));
+                e = new person_question(stringBuffer1.toString(), "ll", r.strifasld("60"));
             } else
 
             if (textStr[0].equalsIgnoreCase("c")){
@@ -97,7 +97,7 @@ public class How2Forgert implements Serializable {
                 for (int i = 1; i < textStr.length; i++) {
                     stringBuffer1.append(textStr[i]);
                 }
-                e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "c", r.strifasld("60"));
+                e = new person_question(stringBuffer1.toString(), "c", r.strifasld("60"));
             } else
 
 
@@ -108,7 +108,7 @@ public class How2Forgert implements Serializable {
                 for (int i = 1; i < textStr.length; i++) {
                     stringBuffer1.append(textStr[i]);
                 }
-                e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "j", new Date());
+                e = new person_question(stringBuffer1.toString(), "j", new Date());
             } else
 
 
@@ -117,7 +117,7 @@ public class How2Forgert implements Serializable {
                 for (int i = 2; i < textStr.length; i++) {
                     stringBuffer1.append(textStr[i]);
                 }
-                e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "j", r.d(textStr[0]));
+                e = new person_question(stringBuffer1.toString(), "j", r.d(textStr[0]));
             } else
 
 
@@ -127,7 +127,7 @@ public class How2Forgert implements Serializable {
                 for (int i = 1; i < textStr.length; i++) {
                     stringBuffer1.append(textStr[i]);
                 }
-                e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "dd", new Date());
+                e = new person_question(stringBuffer1.toString(), "dd", new Date());
             } else
 
 
@@ -137,7 +137,7 @@ public class How2Forgert implements Serializable {
                 for (int i = 1; i < textStr.length; i++) {
                     stringBuffer1.append(textStr[i]);
                 }
-                e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "d", new Date());
+                e = new person_question(stringBuffer1.toString(), "d", new Date());
             } else
 
 
@@ -148,7 +148,7 @@ public class How2Forgert implements Serializable {
                 for (int i = 2; i < textStr.length; i++) {
                     stringBuffer1.append(textStr[i]);
                 }
-                e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "dd", r.d(textStr[0]));
+                e = new person_question(stringBuffer1.toString(), "dd", r.d(textStr[0]));
             } else
 
 
@@ -158,13 +158,13 @@ public class How2Forgert implements Serializable {
                 for (int i = 2; i < textStr.length; i++) {
                     stringBuffer1.append(textStr[i]);
                 }
-                e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "d", r.d(textStr[0]));
+                e = new person_question(stringBuffer1.toString(), "d", r.d(textStr[0]));
             } else
 
 
 
             if (textStr[0].equalsIgnoreCase("gh")){
-                for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question n : ebbinghauses) {
+                for (person_question n : ebbinghauses) {
                     if ((n.getType().equalsIgnoreCase("gh"))){
                         e=n;
                     }
@@ -174,7 +174,7 @@ public class How2Forgert implements Serializable {
                     e.setDate(r.m(new Date()));
                     e.setText("asdfljl");
                 } else {
-                    e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question("asdfkj", "gh", r.m(new Date()));
+                    e = new person_question("asdfkj", "gh", r.m(new Date()));
 
                 }
             } else
@@ -189,7 +189,7 @@ public class How2Forgert implements Serializable {
                     for (int i = 2; i < textStr.length; i++) {
                         stringBuffer1.append(textStr[i]);
                     }
-                    e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "j", r.d(textStr[0]));
+                    e = new person_question(stringBuffer1.toString(), "j", r.d(textStr[0]));
                 }
 
                 if (textStr[1].equalsIgnoreCase("dd")){
@@ -197,7 +197,7 @@ public class How2Forgert implements Serializable {
                     for (int i = 2; i < textStr.length; i++) {
                         stringBuffer1.append(textStr[i]);
                     }
-                    e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "dd", new Date());
+                    e = new person_question(stringBuffer1.toString(), "dd", new Date());
                 }
 
                 if (textStr[1].equalsIgnoreCase("d")){
@@ -205,7 +205,7 @@ public class How2Forgert implements Serializable {
                     for (int i = 2; i < textStr.length; i++) {
                         stringBuffer1.append(textStr[i]);
                     }
-                    e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "d", new Date());
+                    e = new person_question(stringBuffer1.toString(), "d", new Date());
                 }
 
                 else {
@@ -214,7 +214,7 @@ public class How2Forgert implements Serializable {
                         stringBuffer1.append(textStr[i]);
                     }
 
-                    e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "p", r.d(textStr[0]));
+                    e = new person_question(stringBuffer1.toString(), "p", r.d(textStr[0]));
                 }
 
 
@@ -223,7 +223,7 @@ public class How2Forgert implements Serializable {
                 for (int i = 1; i < textStr.length; i++) {
                     stringBuffer1.append(textStr[i]);
                 }
-                e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "p", r.strifasld(textStr[0]));
+                e = new person_question(stringBuffer1.toString(), "p", r.strifasld(textStr[0]));
             }
 
 
@@ -413,7 +413,7 @@ public class How2Forgert implements Serializable {
 
 //                            inntuitive += (" Dufgt ");
 //                            inntuitive += System.getProperty("line.separator");
-                            for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question e : ebbinghauses) {
+                            for (person_question e : ebbinghauses) {
                                 if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
 //                                    for (Task ct : e.getTasks()) {
 //                                        if (ct.getDate().getTime() == AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime()) {
@@ -650,6 +650,7 @@ logDictionary(
                 mapper.setVisibilityChecker(VisibilityChecker.Std.defaultInstance().withFieldVisibility(JsonAutoDetect.Visibility.ANY));
 
                 stasdfhalksfdjlkasdjflkaff1 = mapper.readValue(e.toString(), person_question.class);
+                ebbinghauses.add(stasdfhalksfdjlkasdjflkaff1);
             } catch (IOException e1) {
                 e1.printStackTrace();
             }

@@ -1386,7 +1386,7 @@ public class C1comehere implements Serializable {
                            else if (SDldeleteCommandd_X ) {
                             System.out.println("Disloadl");
                             dhow2ForgDertlssf.fjlasdjfl();
-                        } else if (SDldeleteCommandd_X ) { System.out.println("Disloadl"); dhow2ForgDertlssf.fjlasdjfl();
+                        } else if (DisHlow2ForeDgertCommand) { System.out.println("Disloadl"); dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.load();
                         } else if (SDcodjDa_lx) {
                             System.out.println("Disloadl");
                             dhow2ForgDertlssfs.load();
