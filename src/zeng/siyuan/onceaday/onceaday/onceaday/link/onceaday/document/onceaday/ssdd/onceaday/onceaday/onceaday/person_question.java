@@ -1,9 +1,6 @@
-package zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf;
+package zeng.siyuan.onceaday.onceaday.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.onceaday;
 
-import com.datastax.driver.mapping.annotations.Column;
-import com.datastax.driver.mapping.annotations.FrozenValue;
-import com.datastax.driver.mapping.annotations.Table;
-import com.datastax.driver.mapping.annotations.Transient;
+import com.datastax.driver.mapping.annotations.*;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -17,27 +14,27 @@ import java.util.UUID;
  */
 
 
-@Table(keyspace = "keyspace1", name = "k",
+@Table(keyspace = "keyspace1", name = "h",
         readConsistency = "QUORUM",
         writeConsistency = "QUORUM",
         caseSensitiveKeyspace = false,
         caseSensitiveTable = false)
+
 public class person_question implements Serializable{
     // column name does not match field name
-//    @Column(name = "text")
+//    @Column(name = "question")
 
+    //    @Field
+    @org.apache.solr.client.solrj.beans.Field
+    @PartitionKey
     @Column(name = "id")
     public UUID javauid;
-
+    //    @Field
+    @org.apache.solr.client.solrj.beans.Field
     @Column(name = "txt")
-    public String text;
-
-    @Column(name = "type")
-    public String type;
-
-    @Column(name="target_date")
-    Date date;
-
+    String question;
+    //    @Field
+    @org.apache.solr.client.solrj.beans.Field
     @FrozenValue
     @Column(name = "tasks")
     Set<Task> tasks;
@@ -66,6 +63,7 @@ public class person_question implements Serializable{
 
 
     public person_question() {
+
     }
 
     public void setUUID() {
@@ -81,26 +79,39 @@ public class person_question implements Serializable{
         }
     }
 
-    public person_question(String text, String TYPE, Date date1) {
-        this.type=TYPE;
-
+    public person_question(String question, String answer) {
         this.javauid = UUID.randomUUID();
-        this.text = text;
-
 
         tasks = new HashSet<Task>();
 
-        first = new Task(date1, javauid);
+        this.question = question;
+
+        final long ONE_MINUTE_IN_MILLIS = 60000;//millisecs
+
+        long curTimeInMs = new Date().getTime();
+        first = new Task(new Date(curTimeInMs + (20 * ONE_MINUTE_IN_MILLIS)), javauid);
+        second = new Task(new Date(curTimeInMs + (60 * ONE_MINUTE_IN_MILLIS)), javauid);
+        third = new Task(new Date(curTimeInMs + (540 * ONE_MINUTE_IN_MILLIS)), javauid);
+        fourth = new Task(new Date(curTimeInMs + (24 * 60 * ONE_MINUTE_IN_MILLIS)), javauid);
+        fifth = new Task(new Date(curTimeInMs + (2 * 24 * 60 * ONE_MINUTE_IN_MILLIS)), javauid);
+        sixth = new Task(new Date(curTimeInMs + (6 * 24 * 60 * ONE_MINUTE_IN_MILLIS)), javauid);
+        seventh = new Task(new Date(curTimeInMs + (31 * 24 * 60 * ONE_MINUTE_IN_MILLIS)), javauid);
 
 
         tasks.add(first);
+        tasks.add(second);
+        tasks.add(third);
+        tasks.add(fourth);
+        tasks.add(fifth);
+        tasks.add(sixth);
+        tasks.add(seventh);
 
 
     }
 
 
-    public person_question(String text, HashSet<Task> tasks, Task first, Task second, Task third, Task fourth, Task fifth, Task sixth, Task seventh, UUID javauid) {
-        this.text = text;
+    public person_question(String question, HashSet<Task> tasks, Task first, Task second, Task third, Task fourth, Task fifth, Task sixth, Task seventh, UUID javauid) {
+        this.question = question;
         this.tasks = tasks;
         this.first = first;
         this.second = second;
@@ -113,8 +124,8 @@ public class person_question implements Serializable{
     }
 
 
-    public person_question(String text, UUID javauid, HashSet<Task> tasks, Task first, Task second, Task third, Task fourth, Task fifth, Task sixth, Task seventh) {
-        this.text = text;
+    public person_question(String question, UUID javauid, HashSet<Task> tasks, Task first, Task second, Task third, Task fourth, Task fifth, Task sixth, Task seventh) {
+        this.question = question;
         this.javauid = javauid;
         this.tasks = tasks;
         this.first = first;
@@ -126,12 +137,12 @@ public class person_question implements Serializable{
         this.seventh = seventh;
     }
 
-    public String getText() {
-        return text;
+    public String getQuestion() {
+        return question;
     }
 
-    public void setText(String text) {
-        this.text = text;
+    public void setQuestion(String question) {
+        this.question = question;
     }
 
     public UUID getJavauid() {
@@ -204,45 +215,5 @@ public class person_question implements Serializable{
 
     public void setSeventh(Task seventh) {
         this.seventh = seventh;
-    }
-
-    public Date getDate() {
-        return date;
-    }
-
-    public void setDate(Date date) {
-        this.date = date;
-    }
-
-    public void setUUID(UUID uuid) {
-        this.javauid=uuid;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
-    }
-
-
-
-
-    @Override
-    public String toString() {
-        return "person_question{" +
-                "javauid=" + javauid +
-                ", text='" + text + '\'' +
-                ", date=" + date +
-                ", tasks=" + tasks +
-                ", first=" + first +
-                ", second=" + second +
-                ", third=" + third +
-                ", fourth=" + fourth +
-                ", fifth=" + fifth +
-                ", sixth=" + sixth +
-                ", seventh=" + seventh +
-                '}';
     }
 }

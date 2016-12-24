@@ -1,4 +1,4 @@
-package zeng.siyuan.onceaday.onceaday;
+package zeng.siyuan.onceaday.onceaday.onceaday;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.core.JsonGenerationException;
@@ -8,13 +8,16 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.introspect.VisibilityChecker;
 import com.mongodb.DBObject;
 import com.mongodb.util.JSON;
+import org.testng.annotations.Test;
 import zeng.siyuan.C1comehere.C1comehere;
 import zeng.siyuan.C1comehere.Search;
-import zeng.siyuan.onceaday.onceaday.link.onceaday.DecendingTask;
-import zeng.siyuan.onceaday.onceaday.link.onceaday.MongoDbHelper;
+import zeng.siyuan.onceaday.onceaday.onceaday.link.onceaday.DecendingTask;
+import zeng.siyuan.onceaday.onceaday.onceaday.link.onceaday.MongoDbHelper;
 import zeng.siyuan.reuseutil.r;
 
 import javax.swing.*;
+import java.awt.*;
+import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.IOException;
 import java.io.RandomAccessFile;
@@ -24,6 +27,9 @@ import java.nio.channels.FileChannel;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.List;
+
+import static java.awt.SystemColor.text;
 
 //import static zeng.siyuan.onceaday.onceaday.peoplequesiton.mapper;
 
@@ -31,9 +37,9 @@ import java.util.*;
 public class How2Forgert implements Serializable {
     public transient C1comehere c1comehere;
     public transient JTextArea textArea;
-    public transient static ArrayList<person_question> ebbinghauses;
-    public transient ArrayList<Task> tasks = new ArrayList<Task>();
-    public transient Task currentTask = new Task();
+    public transient static ArrayList<zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question> ebbinghauses;
+    public transient ArrayList<zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task> tasks = new ArrayList<zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task>();
+    public transient zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task currentTask = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task();
     public transient Display d;
     public transient Thread reloadandDisplayThread;
     public transient JFrame frame;
@@ -41,10 +47,12 @@ public class How2Forgert implements Serializable {
     public boolean isSearch;
     public int count=1;
     private ArrayList<person_question> searchebbinghauses;
-    private ArrayList<Task> searchtasks;
-    private Task currentTaskSearch;
+    private ArrayList<zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task> searchtasks;
+    private zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task currentTaskSearch;
     private String keywords;
     ObjectMapper mapper = new ObjectMapper();
+
+
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question d() {
         Scanner in = null;
         if (null != textArea && !("".equalsIgnoreCase(textArea.getText()))) {
@@ -234,25 +242,330 @@ public class How2Forgert implements Serializable {
         return null;
     }
 
+//    public How2Forgert(C1comehere c1comehere, JTextArea textArea, JFrame frame) {
+//        this.c1comehere = c1comehere;
+//        this.textArea = textArea;
+//        this.frame = frame;
+//    }
+
+    /*
+    public void updatetask() {
+        StringBuilder stringBuilder = new StringBuilder();
+        Date date = new Date();
+
+        Calendar c = Calendar.getInstance();
+
+        SimpleDateFormat format = new SimpleDateFormat("EEE, MMM d, yyyy 'at' hh:mm");
+
+        System.out.println(format.format(c.getTime()));
+
+        c.add(Calendar.HOUR_OF_DAY, 1);
+
+        System.out.println(format.format(c.getTime()));
+
+        // found!
+        String textinput = textArea.getText().replace(" Dufgt ", "");
+        Scanner in = null;
+
+        if (!textinput.isEmpty()) {
+            StringBuilder stringBuilder1 = new StringBuilder();
+            in = new Scanner(textinput);
+            while (in.hasNext()) {
+                String line = in.nextLine();
+                if (line.contains(" found!")) {
+                } else {
+                    stringBuilder.append(line);
+                }
+            }
+            textinput=stringBuilder.toString();
+        }
+
+
+        int timeOfDay = c.get(Calendar.HOUR_OF_DAY);
+
+        if (timeOfDay >= 0 && timeOfDay < 12) {
+            stringBuilder.append("Good Morning C1 world, ");
+        } else if (timeOfDay >= 12 && timeOfDay < 16) {
+            stringBuilder.append("Good Afternoon C1 world, ");
+        } else if (timeOfDay >= 16 && timeOfDay < 21) {
+            stringBuilder.append("Good Evening C1 world, ");
+        } else if (timeOfDay >= 21 && timeOfDay < 24) {
+            stringBuilder.append("Good Night C1 world, ");
+        }
+
+        stringBuilder.append(format.format(c.getTime()));
+
+        for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question e : ebbinghauses) {
+            if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
+                if (timeOfDay >= 0 && timeOfDay < 12) {
+                    stringBuilder.append(" am");
+                } else if (timeOfDay >= 12 && timeOfDay < 24) {
+                    stringBuilder.append(" pm");
+                }
+                stringBuilder.append(System.getProperty("line.separator"));
+                stringBuilder.append(textinput);
+                stringBuilder.append(System.getProperty("line.separator"));
+
+                e.text = stringBuilder.toString();
+
+                m.store(e);
+                System.out.println("updates");
+                isSearch=false;
+                break;
+            }
+        }
+    }
+*/
+
+
+
+
+
+    public void displayTaskFGADSHFJKASHFDKJLKJLKJ() {
+        try {
+            if(isSearch){
+//                displaysearchtasks();
+            } else {
+                for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task t : tasks) {
+
+
+
+                    if (!t.getIsDone() && t.getDate().after(new Date())) {
+                        Calendar calendar = Calendar.getInstance();
+                        calendar.setTime(t.getDate());
+                        long diff = calendar.getTimeInMillis() - Calendar.getInstance().getTimeInMillis();
+                        Thread.sleep(diff);
+                        while (!textArea.getText().trim().isEmpty()) {
+                            Thread.sleep(10000);
+                        }
+
+                        frame.repaint();
+                        frame.toFront();
+                        currentTask = t;
+                        String inntuitive ="";
+
+                        for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question e : ebbinghauses) {
+                            boolean asdf= false;
+                            if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
+                                for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task ct : e.getTasks()) {
+                                    if (ct.getDate().getTime() == currentTask.getDate().getTime()) {
+                                        asdf = true;
+
+
+                                        if(e.type.equalsIgnoreCase("l")){
+                                            ct.setIsDone(false);
+//                                                r.open(e.getText());
+                                            ct.setDate(r.strifasld("30"));
+                                        } else
+
+                                        if(e.type.equalsIgnoreCase("ll")){
+                                            ct.setIsDone(false);
+//                                                r.open(e.getText());
+                                            ct.setDate(r.strifasld("60"));
+                                        } else
+
+                                        if(e.type.equalsIgnoreCase("c")){
+                                            ct.setIsDone(false);
+//                                                r.open(e.getText());
+                                            ct.setDate(r.strifasld("60"));
+                                            textArea.setText(e.getText());
+                                            frame.repaint();
+                                            frame.toFront();
+
+                                            Robot r = new Robot();
+                                            int D = KeyEvent.VK_CONTROL;
+                                            int Da = KeyEvent.VK_ENTER;
+//                                                int Da = KeyEvent.VK_SHIFT;
+//                                                int Dc = KeyEvent.VK_F11;
+                                            r.keyPress(D);
+                                            r.keyPress(Da);
+//                                                r.keyPress(Dc);
+
+                                            r.keyRelease(D);
+                                            r.keyRelease(Da);
+//                                                r.keyRelease(Dc);
+
+
+
+                                        } else
+
+                                        if(e.type.equalsIgnoreCase("j")){
+                                            ct.setIsDone(false);
+                                            ct.setDate(r.h(ct.getDate()));
+                                        } else
+
+
+                                        if(e.type.equalsIgnoreCase("dd")){
+                                            ct.setIsDone(false);
+                                            ct.setDate(r.k(ct.getDate()));
+                                        } else
+
+
+                                        if(e.type.equalsIgnoreCase("d")) {
+                                            ct.setIsDone(false);
+                                            ct.setDate(r.l(ct.getDate()));
+                                        }
+
+
+                                        else {
+                                            ct.setIsDone(true);
+                                        }
+                                    }
+
+                                    String j = mapper.writeValueAsString(e);
+                                    System.out.println(j);
+                                    inntuitive=j;
+                                    logDictionary(
+                                            null, null, inntuitive
+                                    );
+                                    // Convert object to JSON string and pretty print
+                                    j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+                                    System.out.println(j);
+                                    DBObject p = (DBObject) JSON
+                                            .parse(j);
+
+
+                                    MongoDbHelper k= MongoDbHelper.getInstance();
+                                    k.insertDocument("asfhkjashfkjashflAHSDLKJFALKDSJF", p);
+
+
+                                    if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
+                                        try {
+                                            r.open(e.text);
+                                        } catch (Exception f) {
+                                            f.printStackTrace();
+                                        }
+                                    } else if ((e.text.contains("sd") && text.equals("sd")) || (e.text.contains("shutdown") && e.text.equals("shutdown"))) {
+                                        Runtime.getRuntime().exec("shutdown.exe -s -t 0");
+                                        // what the fuck si the else mean?
+                                    } else if (null != e.text || !e.text.trim().isEmpty()) {
+                                        r.open(e.text.trim());
+                                    } else {
+                                    }
+                                    inntuitive += e.text;
+                                }
+                                if(asdf)break;
+                            }
+                            if(asdf)break;
+                        }
+                        inntuitive += System.getProperty("line.separator");
+                        textArea.setText(inntuitive);
+                    } else if (!t.getIsDone() && t.getDate().before(new Date())) {
+                        boolean found = false;
+                        for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question e : ebbinghauses) {
+                            if (e.getJavauid().toString().equalsIgnoreCase(t.getJavauuid().toString())) {
+                                for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task ct : e.getTasks()) {
+                                    if (!ct.isDone) {
+
+                                        while (!textArea.getText().trim().isEmpty()) {
+                                            Thread.sleep(10000);
+                                        }
+                                        frame.repaint();
+                                        frame.toFront();
+                                        currentTask = t;
+                                        String inntuitive = "";
+
+                                        if(e.type.equalsIgnoreCase("l")){
+                                            ct.setIsDone(false);
+//                                            r.open(e.getText());
+                                            ct.setDate(r.strifasld("30"));
+                                        } else
+
+                                        if(e.type.equalsIgnoreCase("j")){
+                                            ct.setIsDone(false);
+                                            ct.setDate(r.h(ct.getDate()));
+                                        } else
+
+
+                                        if(e.type.equalsIgnoreCase("dd")){
+                                            ct.setIsDone(false);
+                                            ct.setDate(r.k(ct.getDate()));
+                                        } else
+
+
+                                        if(e.type.equalsIgnoreCase("d")) {
+                                            ct.setIsDone(false);
+                                            ct.setDate(r.l(ct.getDate()));
+                                        }
+
+
+                                        else {
+                                            ct.setIsDone(true);
+                                        }
+
+                                        String j = mapper.writeValueAsString(e);
+                                        System.out.println(j);
+                                        inntuitive=j;
+                                        logDictionary(
+                                                null, null, inntuitive
+                                        );
+                                        // Convert object to JSON string and pretty print
+                                        j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+                                        System.out.println(j);
+                                        DBObject p = (DBObject) JSON
+                                                .parse(j);
+
+
+                                        MongoDbHelper k= MongoDbHelper.getInstance();
+                                        k.insertDocument("asfhkjashfkjashflAHSDLKJFALKDSJF", p);
+// asscemble things together at somet point of time and do the dediting work there tat would be better.
+
+                                        if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
+                                            try {
+                                                r.open(e.text);
+                                            } catch (Exception f) {
+                                                f.printStackTrace();
+                                            }
+                                        } else if ((e.text.contains("sd") && text.equals("sd")) || (e.text.contains("shutdown") && e.text.equals("shutdown"))) {
+                                            Runtime.getRuntime().exec("shutdown.exe -s -t 0");
+                                            // what the fuck si the else mean?
+                                        } else if (null != e.text || !e.text.trim().isEmpty()) {
+                                            r.open(e.text.trim());
+                                        } else {
+                                        }
+                                        inntuitive += e.text;
+
+                                        textArea.setText(inntuitive);
+                                        found = true;
+                                    }
+                                    if (found) break;
+                                }
+                            }
+                            if (found) break;
+                        }
+                    }
+
+
+
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+
+
     public void load() throws UnknownHostException {
         Scanner in = null;
 
-        if (null != textArea && !("".equalsIgnoreCase(textArea.getText()))) {
-
-            in = new Scanner(textArea.getText());
-            while (in.hasNext()) {
-                String line = in.nextLine();
+//        if (null != textArea && !("".equalsIgnoreCase(textArea.getText()))) {
+//
+//            in = new Scanner(textArea.getText());
+//            while (in.hasNext()) {
+//                String line = in.nextLine();
 //                    if (line.contains("?") && line.endsWith("?")) {
-                person_question e = new person_question(line, "p", getdatelastday());
+//                person_question e = new person_question(line, "p", getdatelastday());
 //                        m.store(e);
-                // it is mind blowing and so much bad and thabad
-                ObjectMapper mapper = new ObjectMapper();
+//                ObjectMapper mapper = new ObjectMapper();
 
 //                            person_question staff = person_question();
 
                 try {
                     // Convert object to JSON string and save into a file directly
 //                                mapper.writeValue(new File("D:\\staff.json"), staff);
+
+                    zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question e = d();
 
                     // Convert object to JSON string
                     String j = mapper.writeValueAsString(e);
@@ -266,7 +579,7 @@ public class How2Forgert implements Serializable {
 
 
                     MongoDbHelper k = MongoDbHelper.getInstance();
-                    k.insertDocument("asfhkjashfkjashfl", p);
+                    k.insertDocument("asfhkjashfkjashflAHSDLKJFALKDSJF", p);
 
 
                 } catch (JsonGenerationException p) {
@@ -280,8 +593,43 @@ public class How2Forgert implements Serializable {
 //                    } else {
 //                    }
             }
+
+// how to handle a lot of event s and all those shiets
+
+
+
+            @Test
+            public void HSLAKJFLKSJF ( ){
+                How2Forgert AJLKSDJFALSJFALSDJFLASDJF = new How2Forgert();
+// wehre is no knowledge there is only lies
+// people lie to gett everything and that is all things are requireda nd htat is all
+                // there is not knowledge and facts and no helpful
+                // it is all fuckting lies excetpt hat hose that are useful
+                // useuless information are not interesting
+                // that is whay i don't know aht to do
+                // knowledge is the only facts and that is the reliable
+
+                AJLKSDJFALSJFALSDJFLASDJF.textArea = new JTextArea();
+                AJLKSDJFALSJFALSDJFLASDJF.textArea.setText("l"
+                        + System.getProperty("line.separator")
+                        + "adfkjlasdjfJLKAJSDLF;KJASDLKFHLAKSJFDL");
+                try {
+                    AJLKSDJFALSJFALSDJFLASDJF.load();
+                } catch (UnknownHostException e) {
+                    e.printStackTrace();
+                }
+
+            }
+
+
 //            }
-        }
+//        }
+//    }
+
+
+    public How2Forgert() {
+
+
     }
 
     public How2Forgert(C1comehere c1comehere, JTextArea textArea, JFrame frame) {
@@ -376,7 +724,7 @@ public class How2Forgert implements Serializable {
 
 
                 MongoDbHelper k= MongoDbHelper.getInstance();
-                k.insertDocument("asfhkjashfkjashfl", p);
+                k.insertDocument("asfhkjashfkjashflAHSDLKJFALKDSJF", p);
 
 
 
@@ -393,7 +741,7 @@ public class How2Forgert implements Serializable {
             if(isSearch){
                 displaysearchtasks();
             } else {
-                for (Task t : tasks) {
+                for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task t : tasks) {
                     SimpleDateFormat fmt = new SimpleDateFormat("yyyyMMdd");
                     if ( fmt.format(new Date()).equals(fmt.format(t.getDate()))) {
 //                    if (!t.getIsDone() && t.getDate().after(new Date())) {
@@ -414,9 +762,9 @@ public class How2Forgert implements Serializable {
 
 //                            inntuitive += (" Dufgt ");
 //                            inntuitive += System.getProperty("line.separator");
-                            for (person_question e : ebbinghauses) {
+                            for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question e : ebbinghauses) {
                                 if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
-//                                    for (Task ct : e.getTasks()) {
+//                                    for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task ct : e.getTasks()) {
 //                                        if (ct.getDate().getTime() == currentTask.getDate().getTime()) {
 //                                            ct.setIsDone(true);
                                             inntuitive += e.text;
@@ -434,13 +782,14 @@ logDictionary(
                                             System.out.println(j);
                                             DBObject p = (DBObject) JSON
                                                     .parse(j);
-// the shit is everywehre and everywhere
+
 
                                             MongoDbHelper k= MongoDbHelper.getInstance();
-                                            k.insertDocument("asfhkjashfkjashfl", p);
+                                            k.insertDocument("asfhkjashfkjashflAHSDLKJFALKDSJF", p);
+///*
 
 
-                                    if (inntuitive.length()>3 && c1comehere.searchEngines.containsKey(inntuitive.substring(0, 3))) {
+                        if (inntuitive.length()>3 && c1comehere.searchEngines.containsKey(inntuitive.substring(0, 3))) {
                                         String text = inntuitive.trim();
 
                                         if (!text.isEmpty()) {
@@ -449,7 +798,7 @@ logDictionary(
                                                 String line = in.nextLine();
                                                 if (line.length() > 4) {
                                                     Search search = c1comehere.searchEngines.get(line.substring(0, 3));
-                                                    String searchTrs = inntuitive.substring(3);
+                                                    String searchTrs = line.substring(3);
                                                     search.setURI(searchTrs);
 
                                                     r.o(search.getURIString());
@@ -459,6 +808,7 @@ logDictionary(
                                         }
                                     }
 
+//*/
 
 
 //                                        }
@@ -474,7 +824,7 @@ logDictionary(
 //                        boolean found = false;
 //                        for (person_question e : ebbinghauses) {
 //                            if (e.getJavauid().toString().equalsIgnoreCase(t.getJavauuid().toString())) {
-//                                for (Task ct : e.getTasks()) {
+//                                for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task ct : e.getTasks()) {
 //                                    if (!ct.isDone) {
 //
 //                                        while (!textArea.getText().trim().isEmpty()) {
@@ -507,7 +857,7 @@ logDictionary(
 //                                                null, null, j
 //                                        );
 //                                        MongoDbHelper k= MongoDbHelper.getInstance();
-//                                        k.insertDocument("asfhkjashfkjashfl", p);
+//                                        k.insertDocument("asfhkjashfkjashflAHSDLKJFALKDSJF", p);
 //
 
 //                                        textArea.setText(inntuitive);
@@ -577,7 +927,7 @@ logDictionary(
 
     private void displaysearchtasks() {
 
-        for (Task t : searchtasks) {
+        for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task t : searchtasks) {
             currentTaskSearch=t;
 
             for (person_question e : searchebbinghauses) {
@@ -627,13 +977,13 @@ logDictionary(
     public void loadTask() {
         List<DBObject> k = null ;
         try {
-            k = MongoDbHelper.getInstance().findAll("asfhkjashfkjashfl").toArray();
+            k = MongoDbHelper.getInstance().findAll("asfhkjashfkjashflAHSDLKJFALKDSJF").toArray();
         } catch (UnknownHostException e) {
             e.printStackTrace();
         }
 
 //        ebbinghauses = (ArrayList<person_question>) m.getlatest();
-        tasks = new ArrayList<Task>();
+        tasks = new ArrayList<zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task>();
         for (DBObject e : k) {
 
             String jsonInString = k.get(0).toString();
@@ -652,14 +1002,14 @@ logDictionary(
                 if (stasdfhalksfdjlkasdjflkaff1.text.replace("Dufgt", "").trim().isEmpty()) {
 //                m.deleteTask(e.getJavauid());
                 } else {
-                    Set<Task> t = stasdfhalksfdjlkasdjflkaff1.tasks;
-                    for (Task task : t) {
+                    Set<zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task> t = stasdfhalksfdjlkasdjflkaff1.tasks;
+                    for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task task : t) {
                         tasks.add(task);
                     }
                 }
             }
         }
-        Collections.sort(tasks, new Task());
+        Collections.sort(tasks, new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task());
     }
 
 
@@ -668,8 +1018,8 @@ logDictionary(
         ArrayList<DecendingTask> taskstemp = new ArrayList<DecendingTask>();
 
         taskstemp = new ArrayList<DecendingTask>();
-        List<DBObject> k = MongoDbHelper.getInstance().findAll("asfhkjashfkjashfl").toArray();
-//        List<DBObject> k = MongoDbHelper.getInstance().findAll("asfhkjashfkjashfl").sort(new BasicDBObject("date",1)).limit(1).toArray();
+        List<DBObject> k = MongoDbHelper.getInstance().findAll("asfhkjashfkjashflAHSDLKJFALKDSJF").toArray();
+//        List<DBObject> k = MongoDbHelper.getInstance().findAll("asfhkjashfkjashflAHSDLKJFALKDSJF").sort(new BasicDBObject("date",1)).limit(1).toArray();
 
 
 ///nothing means everything it is just symbole and tell you where it is and find it where is there it is just symbole and the name are the variable and buET THE others are just struxtuer
@@ -729,7 +1079,7 @@ logDictionary(
 //    public void searchehabins(String a) {
 //        textArea.setText("");
 //        ebbinghauses = (ArrayList<person_question>) m.getlatest();
-//        searchtasks = new ArrayList<Task>();
+//        searchtasks = new ArrayList<zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task>();
 //        searchebbinghauses=new ArrayList<person_question>();
 //
 //        keywords=a.trim();
@@ -744,7 +1094,7 @@ logDictionary(
 //                }
 //            }
 //            if(flag2) {
-//                for (Task ct : e.getTasks()) {
+//                for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task ct : e.getTasks()) {
 //                    searchtasks.add(ct);
 //                    searchebbinghauses.add(e);
 //                    break;
@@ -755,7 +1105,7 @@ logDictionary(
 //        isSearch = true;
 //        if (null != searchtasks ) {
 //            textArea.setText("");
-//            Collections.sort(searchtasks, new Task());
+//            Collections.sort(searchtasks, new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task());
 //            reloadandDiskplaypopup(isSearch);
 //        }
 //    }
@@ -768,7 +1118,8 @@ logDictionary(
         if(!isSearch){
             loadTask();
         }
-        displayTask();
+//        displayTask();
+        displayTaskFGADSHFJKASHFDKJLKJLKJ();
     }
 
     public void inster(String word, String answer) throws IOException {

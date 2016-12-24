@@ -1,4 +1,4 @@
-package zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf;
+package zeng.siyuan.onceaday.onceaday.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.asdf;
 
 import com.datastax.driver.mapping.annotations.Column;
 import com.datastax.driver.mapping.annotations.FrozenValue;
@@ -30,10 +30,10 @@ public class person_question implements Serializable{
     public UUID javauid;
 
     @Column(name = "txt")
-    public String text;
+    String text;
 
     @Column(name = "type")
-    public String type;
+    String type;
 
     @Column(name="target_date")
     Date date;

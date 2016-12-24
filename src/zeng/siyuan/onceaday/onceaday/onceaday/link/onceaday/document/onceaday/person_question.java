@@ -1,4 +1,4 @@
-package zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf;
+package zeng.siyuan.onceaday.onceaday.onceaday.link.onceaday.document.onceaday;
 
 import com.datastax.driver.mapping.annotations.Column;
 import com.datastax.driver.mapping.annotations.FrozenValue;
@@ -17,7 +17,7 @@ import java.util.UUID;
  */
 
 
-@Table(keyspace = "keyspace1", name = "k",
+@Table(keyspace = "keyspace1", name = "doc",
         readConsistency = "QUORUM",
         writeConsistency = "QUORUM",
         caseSensitiveKeyspace = false,
@@ -30,10 +30,10 @@ public class person_question implements Serializable{
     public UUID javauid;
 
     @Column(name = "txt")
-    public String text;
+    String text;
 
     @Column(name = "type")
-    public String type;
+    String type;
 
     @Column(name="target_date")
     Date date;
@@ -85,15 +85,29 @@ public class person_question implements Serializable{
         this.type=TYPE;
 
         this.javauid = UUID.randomUUID();
-        this.text = text;
-
-
         tasks = new HashSet<Task>();
 
-        first = new Task(date1, javauid);
+        this.text = text;
+
+        final long ONE_MINUTE_IN_MILLIS = 60000;//millisecs
+
+        long curTimeInMs = new Date().getTime();
+        first = new Task(new Date(curTimeInMs + (20 * ONE_MINUTE_IN_MILLIS)), javauid);
+        second = new Task(new Date(curTimeInMs + (60 * ONE_MINUTE_IN_MILLIS)), javauid);
+        third = new Task(new Date(curTimeInMs + (540 * ONE_MINUTE_IN_MILLIS)), javauid);
+        fourth = new Task(new Date(curTimeInMs + (24 * 60 * ONE_MINUTE_IN_MILLIS)), javauid);
+        fifth = new Task(new Date(curTimeInMs + (2 * 24 * 60 * ONE_MINUTE_IN_MILLIS)), javauid);
+        sixth = new Task(new Date(curTimeInMs + (6 * 24 * 60 * ONE_MINUTE_IN_MILLIS)), javauid);
+        seventh = new Task(new Date(curTimeInMs + (31 * 24 * 60 * ONE_MINUTE_IN_MILLIS)), javauid);
 
 
         tasks.add(first);
+        tasks.add(second);
+        tasks.add(third);
+        tasks.add(fourth);
+        tasks.add(fifth);
+        tasks.add(sixth);
+        tasks.add(seventh);
 
 
     }
