@@ -30,7 +30,7 @@ import java.util.*;
 public class How2Forgert implements Serializable {
     public transient C1comehere c1comehere;
     public transient JTextArea textArea;
-    public transient static ArrayList<person_question> ebbinghauses;
+    public transient static ArrayList<person_question> ebbinghauses = new ArrayList<person_question>();
     public transient ArrayList<Task> tasks = new ArrayList<Task>();
     public transient Task currentTask = new Task();
     public transient Display d;

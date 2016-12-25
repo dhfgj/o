@@ -37,7 +37,7 @@ import static java.awt.SystemColor.text;
 public class How2Forgert implements Serializable {
     public transient C1comehere c1comehere;
     public static transient JTextArea textArea;
-    public transient static ArrayList<zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question> ebbinghauses;
+    public transient static ArrayList<zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question> ebbinghauses = new ArrayList<zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question> ();
     public transient ArrayList<zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task> tasks = new ArrayList<zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task>();
     public transient zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task AJKDSLJFLKJQWOIRULJDFLKJL = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task();
     public transient Display d;
@@ -738,12 +738,12 @@ public class How2Forgert implements Serializable {
 
     public void displayTask() {
         try {
-            if(isSearch){
+            if (isSearch) {
                 displaysearchtasks();
             } else {
                 for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task t : tasks) {
                     SimpleDateFormat fmt = new SimpleDateFormat("yyyyMMdd");
-                    if ( !t.getIsDone() && fmt.format(new Date()).equals(fmt.format(t.getDate()))) {
+                    if (!t.getIsDone() && fmt.format(new Date()).equals(fmt.format(t.getDate()))) {
 //                    if (!t.getIsDone() && t.getDate().after(new Date())) {
 //                        Calendar calendar = Calendar.getInstance();
 //                        calendar.setTime(t.getDate());
@@ -756,22 +756,22 @@ public class How2Forgert implements Serializable {
 
 //                            frame.repaint();
 //                            frame.toFront();
-                            AJKDSLJFLKJQWOIRULJDFLKJL = t;
+                        AJKDSLJFLKJQWOIRULJDFLKJL = t;
 //                            String inntuitive = System.getProperty("line.separator");
-                            String inntuitive = "";
+                        String inntuitive = "";
 
-                        boolean asdf=false;
+                        boolean asdf = false;
 //                            inntuitive += (" Dufgt ");
 //                            inntuitive += System.getProperty("line.separator");
-                            for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question e : ebbinghauses) {
-                                if (e.getJavauid().toString().equalsIgnoreCase(AJKDSLJFLKJQWOIRULJDFLKJL.getJavauuid().toString())) {
+                        for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question e : ebbinghauses) {
+                            if (e.getJavauid().toString().equalsIgnoreCase(AJKDSLJFLKJQWOIRULJDFLKJL.getJavauuid().toString())) {
 //                                    for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task ct : e.getTasks()) {
 //                                        if (ct.getDate().getTime() == AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime()) {
 //                                            ct.setIsDone(true);
-                                            inntuitive += e.text;
+                                inntuitive += e.text;
 //                                            m.store(e);
-                                    if (AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime() == AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime()) {
-                                        asdf = true;
+                                if (AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime() == AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime()) {
+                                    asdf = true;
 
 /*
                                         if(e.type.equalsIgnoreCase("l")){
@@ -830,30 +830,40 @@ public class How2Forgert implements Serializable {
 
 
                                         else {*/
-                                            AJKDSLJFLKJQWOIRULJDFLKJL.setIsDone(true);
+                                    AJKDSLJFLKJQWOIRULJDFLKJL.setIsDone(true);
 //                                        }
-                                    }
+//                                    }
 
 
-                                            String j = mapper.writeValueAsString(e);
-                                            System.out.println(j);
-inntuitive=j;
-logDictionary(
-        null, null, inntuitive
-);
-                                            // Convert object to JSON string and pretty print
-                                            j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
-                                            System.out.println(j);
-                                            DBObject p = (DBObject) JSON
-                                                    .parse(j);
+                                    String j = mapper.writeValueAsString(e);
+                                    System.out.println(j);
+                                    inntuitive = j;
+                                    logDictionary(
+                                            null, null, inntuitive
+                                    );
+                                    // Convert object to JSON string and pretty print
+                                    j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+                                    System.out.println(j);
+                                    DBObject p = (DBObject) JSON
+                                            .parse(j);
 
 
-                                            MongoDbHelper k= MongoDbHelper.getInstance();
-                                            k.insertDocument("asfhkjashfkjashflAHSDLKJFALKDSJF", p);
+                                    MongoDbHelper k = MongoDbHelper.getInstance();
+                                    k.insertDocument("asfhkjashfkjashflAHSDLKJFALKDSJF", p);
 ///*
+// the bad thigs it hat you have to verfidy feveyrthing
+                                    // you can't not count on the knowlwdage of existing code that is the woresdt case
 
+                                    // you can count on me
+                                    // you can count on my knowledge and don't waorry about ti
+                                    // hwere is the knowlweeg
+                                    // the knowlwedge is that you knowe le ther eproblem
+                                    // the problem i shte love
+                                    // the problem is the love
+                                    // no problem
+                                    // no love
 
-                        if (inntuitive.length()>3 && c1comehere.searchEngines.containsKey(inntuitive.substring(0, 3))) {
+                                    if (inntuitive.length() > 3 && c1comehere.searchEngines.containsKey(inntuitive.substring(0, 3))) {
                                         String text = inntuitive.trim();
 
                                         if (!text.isEmpty()) {
@@ -881,7 +891,7 @@ logDictionary(
                             }
 //                            inntuitive += System.getProperty("line.separator");
 //                            textArea.setText(inntuitive);
-                    }
+                        }
 
 
 //                    else if (!t.getIsDone() && t.getDate().before(new Date())) {
@@ -933,12 +943,14 @@ logDictionary(
 //                            if (found) break;
 //                        }
 //                    }
+                    }
                 }
             }
-        } catch (Exception e) {
-            e.printStackTrace();
+        }catch(Exception e){
+                e.printStackTrace();
+            }
         }
-    }
+
 // it is hard to trigger the function and test it whether it works or not in terms of my assupmertion
 
 
@@ -1183,8 +1195,8 @@ logDictionary(
         if(!isSearch){
             loadTask();
         }
-//        displayTask();
-        displayTaskFGADSHFJKASHFDKJLKJLKJ();
+        displayTask();
+//        displayTaskFGADSHFJKASHFDKJLKJLKJ();
     }
 
     public void inster(String word, String answer) throws IOException {
