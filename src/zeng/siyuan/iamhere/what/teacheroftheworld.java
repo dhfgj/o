@@ -19,4 +19,7 @@ public class teacheroftheworld {
 //i wan to conquere thise thigns
 
 // everything is chaning and the constanct dfefines you
+// when you don't get anything what do you wan tto do
+// there is no lessions and everybdoy has it si own path to go
+// hte more i have the less i have the better
 //

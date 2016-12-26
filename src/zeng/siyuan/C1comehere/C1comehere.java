@@ -1023,6 +1023,21 @@ public class C1comehere implements Serializable {
                                         search.setURI(searchTrs);
 
                                         r.o(search.getURIString());
+
+                                        if (search.searchName.equalsIgnoreCase("Dictionary")) {
+                                            String normalized = searchTrs.replace(" ", "%20");
+                                            String normalizedaADFHJKALHK = searchTrs.replace(" ", "+");
+//            this.keywords = normalized;
+
+                                            dhow2ForgDertlssf.fjlasdjfl("http://www.thesaurus.com/browse/" + normalized +"?s=t");
+                                            dhow2ForgDertlssf.fjlasdjfl("http://www.urbandictionary.com/define.php?term=" +normalized);
+                                            dhow2ForgDertlssf.fjlasdjfl("http://www.bing.com/images/search?q=" +normalizedaADFHJKALHK );
+                                            dhow2ForgDertlssf.fjlasdjfl("http://www.dictionary.com/browse/" +normalizedaADFHJKALHK +"?s=t");
+                                        }
+
+//                                        dhow2ForgDertlssf.fjlasdjfl(search.getURIString());
+
+
                                     } else {
                                     }
                                 }

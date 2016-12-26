@@ -19,7 +19,7 @@ public class How2Forgert implements Serializable {
     public transient Display d;
     public transient Thread reloadandDisplayThread;
     public transient JFrame frame;
-    public peoplequesiton m = new peoplequesiton();
+    public static peoplequesiton m = new peoplequesiton();
     ;
     public boolean isSearch;
     public int count = 1;
@@ -52,6 +52,19 @@ public class How2Forgert implements Serializable {
                     person_question e = new person_question(textArea.getText(), "Link");
                     m.store(e);
                     textArea.setText("");
+        }
+        reloadTAskandrestartPopThread();
+    }
+
+    public void fjlasdjfl(String KLAJDLFJASDFLJ) {
+        Scanner in = null;
+
+        String str = KLAJDLFJASDFLJ;
+        if (null != KLAJDLFJASDFLJ && !("".equalsIgnoreCase(KLAJDLFJASDFLJ))) {
+
+                    person_question e = new person_question(KLAJDLFJASDFLJ, "Link");
+                    m.store(e);
+//                    textArea.setText("");
         }
         reloadTAskandrestartPopThread();
     }
