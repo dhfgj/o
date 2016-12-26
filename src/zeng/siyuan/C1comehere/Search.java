@@ -1,6 +1,7 @@
 package zeng.siyuan.C1comehere;
 
 import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.findthebestexample;
+import zeng.siyuan.reuseutil.r;
 
 import javax.swing.*;
 import java.net.URI;
@@ -48,8 +49,19 @@ public class Search {
     public URI getURI() {
         return URI;
     }
-
+// THIS OCDE SEHRE IS SO CLEAN AND EASY TO UNDERSTAND THAT IS JUST SO WAWESOEM
     public String getURIString() {
+        if (searchName.equalsIgnoreCase("Dictionary")) {
+            String normalized = keywords.replace(" ", spaceHolder);
+            String normalizedaADFHJKALHK = keywords.replace(" ", "+");
+//            this.keywords = normalized;
+
+            r.o("http://www.thesaurus.com/browse/" + normalized +"?s=t");
+            r.o("http://www.urbandictionary.com/define.php?term=" +normalized);
+            r.o("http://www.bing.com/images/search?q=" +normalizedaADFHJKALHK );
+        }
+
+
         return URI.toString();
     }
 
