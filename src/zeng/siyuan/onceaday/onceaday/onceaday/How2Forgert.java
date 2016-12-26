@@ -18,13 +18,9 @@ import zeng.siyuan.reuseutil.r;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
-import java.io.File;
 import java.io.IOException;
-import java.io.RandomAccessFile;
 import java.io.Serializable;
 import java.net.UnknownHostException;
-import java.nio.channels.FileChannel;
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.List;
@@ -70,7 +66,9 @@ public class How2Forgert implements Serializable {
             // this one can be use the existing display task
 
             String textStr[] = textArea.getText().split("\\r\\n|\\n|\\r");
-
+// i remember thsi because i copies and put it here and dstore it here
+            // there may be other constant and like database connection
+            // the input and out reput are so didfernt
 
             zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question e=null;
 
@@ -121,7 +119,7 @@ public class How2Forgert implements Serializable {
             } else
 
 
-            if (textStr[1].equalsIgnoreCase("j")){
+            if (textStr.length>1&&textStr[1].equalsIgnoreCase("j")){
                 StringBuffer stringBuffer1 = new StringBuffer();
                 for (int i = 2; i < textStr.length; i++) {
                     stringBuffer1.append(textStr[i]);
@@ -152,7 +150,7 @@ public class How2Forgert implements Serializable {
 
 
 
-            if (textStr[1].equalsIgnoreCase("dd")){
+            if (textStr.length>1&&textStr[1].equalsIgnoreCase("dd")){
                 StringBuffer stringBuffer1 = new StringBuffer();
                 for (int i = 2; i < textStr.length; i++) {
                     stringBuffer1.append(textStr[i]);
@@ -162,7 +160,7 @@ public class How2Forgert implements Serializable {
 
 
 
-            if (textStr[1].equalsIgnoreCase("d")){
+            if (textStr.length>1&&textStr[1].equalsIgnoreCase("d")){
                 StringBuffer stringBuffer1 = new StringBuffer();
                 for (int i = 2; i < textStr.length; i++) {
                     stringBuffer1.append(textStr[i]);
@@ -201,7 +199,7 @@ public class How2Forgert implements Serializable {
                     e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "j", r.d(textStr[0]));
                 }
 
-                if (textStr[1].equalsIgnoreCase("dd")){
+                if (textStr.length>1&&textStr[1].equalsIgnoreCase("dd")){
                     StringBuffer stringBuffer1 = new StringBuffer();
                     for (int i = 2; i < textStr.length; i++) {
                         stringBuffer1.append(textStr[i]);
@@ -209,7 +207,7 @@ public class How2Forgert implements Serializable {
                     e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "dd", new Date());
                 }
 
-                if (textStr[1].equalsIgnoreCase("d")){
+                if (textStr.length>1&&textStr[1].equalsIgnoreCase("d")){
                     StringBuffer stringBuffer1 = new StringBuffer();
                     for (int i = 2; i < textStr.length; i++) {
                         stringBuffer1.append(textStr[i]);
@@ -228,11 +226,31 @@ public class How2Forgert implements Serializable {
 
 
             } else {
+                Integer ij=null;
+                try {
+                    ij = Integer.parseInt(textStr[0]);
+                } catch (Exception e12 ){
+                    e12.getMessage();
+                    ij=null;
+                }
+                if (null == ij) {
+
                 StringBuffer stringBuffer1 = new StringBuffer();
                 for (int i = 1; i < textStr.length; i++) {
                     stringBuffer1.append(textStr[i]);
                 }
                 e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "p", r.strifasld(new String (String.valueOf(6*60))));
+                }
+
+                else {
+
+                    StringBuffer stringBuffer1 = new StringBuffer();
+                    for (int i = 1; i < textStr.length; i++) {
+                        stringBuffer1.append(textStr[i]);
+                    }
+                    e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "p", r.strifasld(new String (String.valueOf(ij.toString()))));
+
+                }
             }
 
 
@@ -324,6 +342,7 @@ public class How2Forgert implements Serializable {
     public void displayTaskFGADSHFJKASHFDKJLKJLKJ() {
         try {
             if(isSearch){
+                System.out.println("SJDFLKAJS;LDFJALS;KJFLASKJFDLASDJF;LJALSDJFLASJFLASDJFLKJHKJGFJHAGSDHJFQWOIREYIWEHRKJSDBFK");
 //                displaysearchtasks();
             } else {
                 for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task t : tasks) {
@@ -415,9 +434,9 @@ public class How2Forgert implements Serializable {
                                     String j = mapper.writeValueAsString(e);
                                     System.out.println(j);
                                     inntuitive=j;
-                                    logDictionary(
-                                            null, null, inntuitive
-                                    );
+//                                    logDictionary(
+//                                            null, null, inntuitive
+//                                    );
                                     // Convert object to JSON string and pretty print
                                     j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
                                     System.out.println(j);
@@ -426,7 +445,7 @@ public class How2Forgert implements Serializable {
 
 
                                     MongoDbHelper k= MongoDbHelper.getInstance();
-                                    k.insertDocument("asfhkjashfkjashflAHSDLKJFALKDSJF", p);
+                                    k.insertDocument("asfhkjashfkjashflAHSDLKJFALKDSJFQWERTYUIOPASDFGHJK", p);
 
 
                                     if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
@@ -496,9 +515,9 @@ public class How2Forgert implements Serializable {
                                         String j = mapper.writeValueAsString(e);
                                         System.out.println(j);
                                         inntuitive=j;
-                                        logDictionary(
-                                                null, null, inntuitive
-                                        );
+//                                        logDictionary(
+//                                                null, null, inntuitive
+//                                        );
                                         // Convert object to JSON string and pretty print
                                         j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
                                         System.out.println(j);
@@ -507,7 +526,7 @@ public class How2Forgert implements Serializable {
 
 
                                         MongoDbHelper k= MongoDbHelper.getInstance();
-                                        k.insertDocument("asfhkjashfkjashflAHSDLKJFALKDSJF", p);
+                                        k.insertDocument("asfhkjashfkjashflAHSDLKJFALKDSJFQWERTYUIOPASDFGHJK", p);
 // asscemble things together at somet point of time and do the dediting work there tat would be better.
 
                                         if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
@@ -546,7 +565,7 @@ public class How2Forgert implements Serializable {
 
 
 
-    public static void load() throws UnknownHostException {
+    public void load() throws UnknownHostException {
         Scanner in = null;
 
 //        if (null != textArea && !("".equalsIgnoreCase(textArea.getText()))) {
@@ -579,8 +598,8 @@ public class How2Forgert implements Serializable {
 
 
                     MongoDbHelper k = MongoDbHelper.getInstance();
-                    k.insertDocument("asfhkjashfkjashflAHSDLKJFALKDSJF", p);
-
+                    k.insertDocument("asfhkjashfkjashflAHSDLKJFALKDSJFQWERTYUIOPASDFGHJK", p);
+                    reloadTAskandrestartPopThread();
 
                 } catch (JsonGenerationException p) {
                     p.printStackTrace();
@@ -724,7 +743,7 @@ public class How2Forgert implements Serializable {
 
 
                 MongoDbHelper k= MongoDbHelper.getInstance();
-                k.insertDocument("asfhkjashfkjashflAHSDLKJFALKDSJF", p);
+                k.insertDocument("asfhkjashfkjashflAHSDLKJFALKDSJFQWERTYUIOPASDFGHJK", p);
 
 
 
@@ -743,11 +762,11 @@ public class How2Forgert implements Serializable {
             } else {
                 for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task t : tasks) {
                     SimpleDateFormat fmt = new SimpleDateFormat("yyyyMMdd");
-                    if (!t.getIsDone() && fmt.format(new Date()).equals(fmt.format(t.getDate()))) {
-//                    if (!t.getIsDone() && t.getDate().after(new Date())) {
+//                    if (!t.getIsDone() && (new Date()).compareTo(t.getDate()) > 0) {
+                    if (!t.getIsDone() && t.getDate().after(new Date())) {
 //                        Calendar calendar = Calendar.getInstance();
 //                        calendar.setTime(t.getDate());
-//
+
 //                        long diff = calendar.getTimeInMillis() - Calendar.getInstance().getTimeInMillis();
 //                            Thread.sleep(diff);
 //                            while (!textArea.getText().trim().isEmpty()) {
@@ -768,9 +787,21 @@ public class How2Forgert implements Serializable {
 //                                    for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task ct : e.getTasks()) {
 //                                        if (ct.getDate().getTime() == AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime()) {
 //                                            ct.setIsDone(true);
+
+                                Calendar calendar = Calendar.getInstance();
+                                calendar.setTime(t.getDate());
+
+                                long diff = calendar.getTimeInMillis() - Calendar.getInstance().getTimeInMillis();
+                                Thread.sleep(diff);
+//                            while (!textArea.getText().trim().isEmpty()) {
+//                                Thread.sleep(10000);
+//                            }
+
+
                                 inntuitive += e.text;
 //                                            m.store(e);
-                                if (AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime() == AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime()) {
+                                Date asdadfKJAHSLKFHASKJDHFKL= new Date();
+                                if (asdadfKJAHSLKFHASKJDHFKL.getTime() == AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime()) {
                                     asdf = true;
 
 /*
@@ -837,10 +868,10 @@ public class How2Forgert implements Serializable {
 
                                     String j = mapper.writeValueAsString(e);
                                     System.out.println(j);
-                                    inntuitive = j;
-                                    logDictionary(
-                                            null, null, inntuitive
-                                    );
+//                                    inntuitive = j;
+//                                    logDictionary(
+//                                            null, null, inntuitive
+//                                    );
                                     // Convert object to JSON string and pretty print
                                     j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
                                     System.out.println(j);
@@ -849,7 +880,7 @@ public class How2Forgert implements Serializable {
 
 
                                     MongoDbHelper k = MongoDbHelper.getInstance();
-                                    k.insertDocument("asfhkjashfkjashflAHSDLKJFALKDSJF", p);
+                                    k.insertDocument("asfhkjashfkjashflAHSDLKJFALKDSJFQWERTYUIOPASDFGHJK", p);
 ///*
 // the bad thigs it hat you have to verfidy feveyrthing
                                     // you can't not count on the knowlwdage of existing code that is the woresdt case
@@ -931,7 +962,7 @@ public class How2Forgert implements Serializable {
 //                                                null, null, j
 //                                        );
 //                                        MongoDbHelper k= MongoDbHelper.getInstance();
-//                                        k.insertDocument("asfhkjashfkjashflAHSDLKJFALKDSJF", p);
+//                                        k.insertDocument("asfhkjashfkjashflAHSDLKJFALKDSJFQWERTYUIOPASDFGHJK", p);
 //
 
 //                                        textArea.setText(inntuitive);
@@ -953,7 +984,7 @@ public class How2Forgert implements Serializable {
 
 // it is hard to trigger the function and test it whether it works or not in terms of my assupmertion
 
-
+/*
     public static void logDictionary(String search, String word, String uri) throws IOException, ParseException {
 
 //        String PATH = String.format("c:/c1/c1comehere/" + search + "/");
@@ -972,7 +1003,7 @@ public class How2Forgert implements Serializable {
         FileChannel sourceChannel = r.getChannel();
         FileChannel targetChannel = rtemp.getChannel();
         sourceChannel.transferTo(0, (fileSize - 0), targetChannel);
-        sourceChannel.truncate(0);
+//        sourceChannel.truncate(0);
         r.seek(0);
 //        r.writeBytes(System.getProperty("line.separator"));
 //        r.writeBytes(new Date().toString());
@@ -988,7 +1019,7 @@ public class How2Forgert implements Serializable {
         targetChannel.close();
         System.out.println("Done");
     }
-
+*/
     private String getString() {
         String buttonSelected = "";
         for (Enumeration<AbstractButton> buttons = c1comehere.untoggle.bg.getElements(); buttons.hasMoreElements(); ) {
@@ -1053,7 +1084,7 @@ public class How2Forgert implements Serializable {
     public void loadTask() {
         List<DBObject> k = null ;
         try {
-            k = MongoDbHelper.getInstance().findAll("asfhkjashfkjashflAHSDLKJFALKDSJF").toArray();
+            k = MongoDbHelper.getInstance().findAll("asfhkjashfkjashflAHSDLKJFALKDSJFQWERTYUIOPASDFGHJK").toArray();
         } catch (UnknownHostException e) {
             e.printStackTrace();
         }
@@ -1095,8 +1126,8 @@ public class How2Forgert implements Serializable {
         ArrayList<DecendingTask> taskstemp = new ArrayList<DecendingTask>();
 
         taskstemp = new ArrayList<DecendingTask>();
-        List<DBObject> k = MongoDbHelper.getInstance().findAll("asfhkjashfkjashflAHSDLKJFALKDSJF").toArray();
-//        List<DBObject> k = MongoDbHelper.getInstance().findAll("asfhkjashfkjashflAHSDLKJFALKDSJF").sort(new BasicDBObject("date",1)).limit(1).toArray();
+        List<DBObject> k = MongoDbHelper.getInstance().findAll("asfhkjashfkjashflAHSDLKJFALKDSJFQWERTYUIOPASDFGHJK").toArray();
+//        List<DBObject> k = MongoDbHelper.getInstance().findAll("asfhkjashfkjashflAHSDLKJFALKDSJFQWERTYUIOPASDFGHJK").sort(new BasicDBObject("date",1)).limit(1).toArray();
 
 
 ///nothing means everything it is just symbole and tell you where it is and find it where is there it is just symbole and the name are the variable and buET THE others are just struxtuer
@@ -1192,9 +1223,9 @@ public class How2Forgert implements Serializable {
     }
 
     public void reloadandDiskplaypopup() {
-        if(!isSearch){
+//        if(!isSearch){
             loadTask();
-        }
+//        }
         displayTask();
 //        displayTaskFGADSHFJKASHFDKJLKJLKJ();
     }

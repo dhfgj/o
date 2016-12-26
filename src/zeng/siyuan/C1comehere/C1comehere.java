@@ -1305,12 +1305,16 @@ public class C1comehere implements Serializable {
                             dhow2ForgDertl.updatetask();
                             textArea.setText("");
                             How2Forgert.serialize();
-                        } else if (DisHlow2ForeDgertCommand ) {
-                            System.out.println("DisHlow2ForegertCommand");
-                            dhow2ForgDertl.inster(textArea.getText(), "");
-                            textArea.setText("");
-                            How2Forgert.serialize();
-                        } else if (DisShowDColmmand) {
+                        }
+
+//                        else if (DisHlow2ForeDgertCommand ) {
+//                            System.out.println("DisHlow2ForegertCommand");
+//                            dhow2ForgDertl.inster(textArea.getText(), "");
+//                            textArea.setText("");
+//                            How2Forgert.serialize();
+//                        }
+
+                        else if (DisShowDColmmand) {
                             System.out.println("DislShowCommand");
                             textArea.setText(takeC1toMe(textArea.getText()));
                             frame.repaint();
@@ -1344,12 +1348,14 @@ public class C1comehere implements Serializable {
                             dhow2ForgDertls.updatetask();
                             textArea.setText("");
                             How2Forgert.serialize();
-                        } else if (SDisHlow2ForeDgertCommand ) {
-                            System.out.println("DisHlow2ForegertCommand");
-                            dhow2ForgDertls.inster(textArea.getText(), "");
-                            textArea.setText("");
-                            How2Forgert.serialize();
-                        } else if (SDisShowDColmmand) {
+                        }
+//                        else if (SDisHlow2ForeDgertCommand ) {
+//                            System.out.println("DisHlow2ForegertCommand");
+//                            dhow2ForgDertls.inster(textArea.getText(), "");
+//                            textArea.setText("");
+//                            How2Forgert.serialize();
+//                        }
+                        else if (SDisShowDColmmand) {
                             System.out.println("DislShowCommand");
                             textArea.setText(takeC1toMe(textArea.getText()));
                             frame.repaint();
