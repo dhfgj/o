@@ -89,7 +89,8 @@ public class How2Forgert implements Serializable {
                 }
                 e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "l", r.strifasld("30"));
             } else
-
+// actions and actions action after action to pipe to the diesire destination
+            // piple line to the end
 
             if (textStr[0].equalsIgnoreCase("ll")){
                 StringBuffer stringBuffer1 = new StringBuffer();
@@ -911,6 +912,18 @@ public class How2Forgert implements Serializable {
                                                 }
                                             }
                                         }
+                                    }
+
+
+                                    else if (r.isUrl(inntuitive) || inntuitive.contains("c:/")){
+                                        r.open(inntuitive);
+                                    }
+
+                                    else {
+                                        textArea.setText(e.getText());
+                                        frame.repaint();
+                                        frame.toFront();
+
                                     }
 
 //*/

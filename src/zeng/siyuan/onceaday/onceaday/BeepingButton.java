@@ -1,5 +1,13 @@
 package zeng.siyuan.onceaday.onceaday;
 
+// i know the pathern and how i construct
+// i know something and that is heklping me ki know that i copies it
+// i know thwat
+// what do i know?
+
+// what do i know ?
+// what is in my mind?
+
 import javax.swing.*;
 import java.awt.*;
 
