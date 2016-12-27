@@ -144,7 +144,7 @@ static int ou= 1;
                                     }
 count --;
                                     r.open(e.getText());
-
+// something you have to remove i t ebeuse ti ti use lessa nd anoying the only thing ti woaserofapousedr oid t can forwk it is to wanopy you  and make things complex and instead of intuitively and directly and voivously
 //                                    textArea.setText(inntuitive);
                                             break;
                                 }

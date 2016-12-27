@@ -52,7 +52,7 @@ public class d {
             System.exit(1);
         }
     }
-
+//
     private static boolean firstPageContainsQAANet() {
         //type search query
         driver.findElement(By.name("q")).sendKeys("qa automation\n");

@@ -147,8 +147,8 @@ public class SwingShortcutDemo extends JFrame {
                 TimeUnit.SECONDS.sleep(2);
                 int mouseX = (int) MouseInfo.getPointerInfo().getLocation().getX();
                 int mouseY = (int) MouseInfo.getPointerInfo().getLocation().getY();
-                System.out.println("X:" + mouseX);
-                System.out.println("Y:" + mouseY);
+//                System.out.println("X:" + mouseX);
+//                System.out.println("Y:" + mouseY);
                 //make sure to import
 
                 try {
@@ -209,9 +209,9 @@ public class SwingShortcutDemo extends JFrame {
                     //
                     // Print the RGB information of the pixel color
                     //
-                    System.out.println("Red   = " + color.getRed());
-                    System.out.println("Green = " + color.getGreen());
-                    System.out.println("Blue  = " + color.getBlue());
+//                    System.out.println("Red   = " + color.getRed());
+//                    System.out.println("Green = " + color.getGreen());
+//                    System.out.println("Blue  = " + color.getBlue());
     if (color.getRed()==31 && color.getBlue()==31 && color.getGreen()==31) {
         click(1812, 939);
     }
@@ -238,8 +238,8 @@ public class SwingShortcutDemo extends JFrame {
                 TimeUnit.SECONDS.sleep(2);
                 int mouseX = (int) MouseInfo.getPointerInfo().getLocation().getX();
                 int mouseY = (int) MouseInfo.getPointerInfo().getLocation().getY();
-                System.out.println("X:" + mouseX);
-                System.out.println("Y:" + mouseY);
+//                System.out.println("X:" + mouseX);
+//                System.out.println("Y:" + mouseY);
                 //make sure to import
 
                 try {
@@ -300,9 +300,52 @@ public class SwingShortcutDemo extends JFrame {
                     //
                     // Print the RGB information of the pixel color
                     //
-                    System.out.println("Red   = " + color.getRed());
-                    System.out.println("Green = " + color.getGreen());
-                    System.out.println("Blue  = " + color.getBlue());
+//                    System.out.println("Red   = " + color.getRed());
+//                    System.out.println("Green = " + color.getGreen());
+//                    System.out.println("Blue  = " + color.getBlue());
+
+// performance is an issue and all the peroplablem is all of sunden not here any more before it is ajust running like crazy now it i smissing i kind of misisng ht it
+                    // all the world is stop and missing and gone the problem is gona
+                    // the all sthe anoying stuff is gonae it jst ogone
+                    // it stop right here
+                    // it stoped
+                    // ther ei snothing else
+                    // you know that it is like
+
+//                    befoer it is just ruunign and the the whole dorld si sgetting th attention
+                    // it is just like the the holiday high road high way
+                    // you know wha tit i slike
+                    // it is stoped
+                    // it soped
+                    // it stoped
+                    // it stoped
+                    // when you expected tio go faster and it stoped
+                    // when it stoped
+                    // it stoped
+                    // it stoped
+                    // the oprblem is gone
+                    // it is gone
+                    // it is gone
+                    // it is clean
+                    // it is not meessing and noise
+                    // it is gone
+                    // taher ei sno useless thing over there
+                    // it is such as lcean and foxues and simple world
+                    // it is so simple thwen there are not noise any more
+
+                    /// it si simple
+                    // it is nothign there
+                    // everything and nothing
+                    // nothing is peace and love and make you heart feeel the differetnce
+                    // tihe differethence is love
+                    // idifferentce is love
+                    // expectation and realitiy is lov e
+                    // it sis love that cmcampass wehrtheing
+                    // love emcamposee wehtehithing
+// junit test is sis must or i will borken somethin gon the way sand i don't eveavn knwo that htel hell i have madkse changehiges
+                    // / it is just like tha tthenw  i do something careless and spoilied changes and i don't know what ti s actually goining on
+                    // to toknwo the prlblem .. and that it is ais ti that all matters
+
     if (color.getRed()==31 && color.getBlue()==31 && color.getGreen()==31) {
         d(1812, 939);
     }

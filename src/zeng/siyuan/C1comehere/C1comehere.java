@@ -964,6 +964,20 @@ public class C1comehere implements Serializable {
                                 KFHASDF.testOpenLogin2();
 
                         }
+                        else if (textArea.getText().equalsIgnoreCase("linda")) {
+                            KFHASDF KFHASDF = new KFHASDF();
+                                KFHASDF.testOpenLogin2JLAKSDJFLASDJFLKJM();
+
+                        }
+                        else if (textArea.getText().equalsIgnoreCase("siyuanzeng")) {
+                            KFHASDF KFHASDF = new KFHASDF();
+//                            try {
+                                KFHASDF.d();
+//                            } catch (InterruptedException e1) {
+//                                e1.printStackTrace();
+//                            }
+
+                        }
 
                         else if (textArea.getText().equalsIgnoreCase("zengb45")) {
                             KFHASDF KFHASDF = new KFHASDF();
