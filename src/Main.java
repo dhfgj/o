@@ -9,27 +9,27 @@ import java.net.UnknownHostException;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("======= Hello MongoDB ========");
+//        System.out.println("======= Hello MongoDB ========");
 
         try {
 
-            System.out.println("======= Hello MongoDB : FIND ALL ========");
+//            System.out.println("======= Hello MongoDB : FIND ALL ========");
             DBCursor employees = MongoDbHelper.getInstance().findAll("employees");
             try {
                 while (employees.hasNext()) {
                     DBObject employee = employees.next();
-                    System.out.println(employee);
+//                    System.out.println(employee);
                 }
             } finally {
                 employees.close();
             }
 
 
-            System.out.println("======= Hello MongoDB : DROP ========");
+//            System.out.println("======= Hello MongoDB : DROP ========");
             MongoDbHelper.getInstance().dropCollection("employees");
 
             // Add documents
-            System.out.println("======= Hello MongoDB : ADD ========");
+//            System.out.println("======= Hello MongoDB : ADD ========");
             DBObject employee1 = new BasicDBObject().append("firstname", "Akalanka").append("lastname", "Senevirathne");
             MongoDbHelper.getInstance().insertDocument("employees", employee1);
 
@@ -43,25 +43,25 @@ public class Main {
             MongoDbHelper.getInstance().insertDocument("employees", employee4);
 
             // Find documents
-            System.out.println("======= Hello MongoDB : FIND ONE ========");
+//            System.out.println("======= Hello MongoDB : FIND ONE ========");
             DBObject document = MongoDbHelper.getInstance().findOne("employees");
-            System.out.println(document);
+//            System.out.println(document);
 
-            System.out.println("======= Hello MongoDB : FIND ALL ========");
+//            System.out.println("======= Hello MongoDB : FIND ALL ========");
             employees = MongoDbHelper.getInstance().findAll("employees");
             try {
                 while (employees.hasNext()) {
                     DBObject employee = employees.next();
-                    System.out.println(employee);
+//                    System.out.println(employee);
                 }
             } finally {
                 employees.close();
             }
-            System.out.println("======= Hello MongoDB : COUNT ========");
+//            System.out.println("======= Hello MongoDB : COUNT ========");
             long employeeCount = MongoDbHelper.getInstance().count("employees");
-            System.out.println("Employee count : " + employeeCount);
+//            System.out.println("Employee count : " + employeeCount);
 
-            System.out.println("======= Hello MongoDB : FIND BY CRITERIA ========");
+//            System.out.println("======= Hello MongoDB : FIND BY CRITERIA ========");
 //            DBObject query = new BasicDBObject("firstname", "Anushka");
             // another way to create query using QueryBuilder
             QueryBuilder query = QueryBuilder.start("firstname").is("Anushka");
@@ -70,18 +70,18 @@ public class Main {
             try {
                 while (employeesByCriteria.hasNext()) {
                     DBObject employee = employeesByCriteria.next();
-                    System.out.println(employee);
+//                    System.out.println(employee);
                 }
             } finally {
                 employeesByCriteria.close();
             }
 
             // Update documents
-            System.out.println("Ruwan before update : " + MongoDbHelper.getInstance().findOne("employees",
+//            System.out.println("Ruwan before update : " + MongoDbHelper.getInstance().findOne("employees",
                     new BasicDBObject("firstname", "Ruwan")));
             MongoDbHelper.getInstance().updateDocument("employees", new BasicDBObject("firstname", "Ruwan"),
                     new BasicDBObject("age", 51));
-            System.out.println("Ruwan after update : " + MongoDbHelper.getInstance().findOne("employees",
+//            System.out.println("Ruwan after update : " + MongoDbHelper.getInstance().findOne("employees",
                     new BasicDBObject("firstname", "Ruwan")));
 
             // Remove documents

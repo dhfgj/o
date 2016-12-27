@@ -153,7 +153,7 @@ public class MainWindowTable extends JFrame{
 				public void mouseClicked(MouseEvent me) {
 					if (me.getClickCount() == 1 && !me.isConsumed()) {
 						me.consume();
-						System.out.println("hello");
+//						System.out.println("hello");
 					JTable table =(JTable) me.getSource();
 					Point p = me.getPoint();
 					int row = table.rowAtPoint(p);

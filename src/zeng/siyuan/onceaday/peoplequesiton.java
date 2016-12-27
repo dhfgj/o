@@ -44,12 +44,12 @@ public class peoplequesiton {
     }
 
     public static void deleteTask(UUID s) {
-        System.out.println("delete task: " + s.toString());
+//        System.out.println("delete task: " + s.toString());
         session.execute(String.format("delete from keyspace1." + PERSON_QUESTION1 + " WHERE id=%s", s));
     }
 
     public static void store(person_question s) {
-        System.out.println("add p: " + s.getJavauid().toString()+" : " + s.getText());
+//        System.out.println("add p: " + s.getJavauid().toString()+" : " + s.getText());
         mapper.save(s);
     }
 

@@ -47,7 +47,7 @@ public class d {
             driver.close();
         }
 
-        System.out.println("Test " + (result? "passed." : "failed."));
+//        System.out.println("Test " + (result? "passed." : "failed."));
         if (!result) {
             System.exit(1);
         }

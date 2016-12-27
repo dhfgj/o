@@ -74,7 +74,7 @@ public class d {
 			}
 			count++;
 //            }
-			System.out.println("stop");
+//			System.out.println("stop");
 
 //			File dir = new File();
 
@@ -141,7 +141,7 @@ public class d {
 							String c1 = file.getName().replace(" ", "%20");
 							// set the properties value
 							prop.setProperty(c1, file.getAbsolutePath());
-					System.out.println(file.getAbsoluteFile());
+//					System.out.println(file.getAbsoluteFile());
 						}
 					}
 
@@ -168,7 +168,7 @@ public class d {
 				String v = (String) e.getValue();
 				prop.put(key, v);
 			}
-			System.out.println("Done Propertiesy loading");
+//			System.out.println("Done Propertiesy loading");
 
 ///*
             SolrDataDAO solrBaseDAO = null;
@@ -184,7 +184,7 @@ public class d {
             for (Map.Entry<Object, Object> e : prop.entrySet()) {
 
 //            for (Map.Entry<Object, Object> e : prop.entrySet()) {
-                System.out.println(count);
+//                System.out.println(count);
                 String key = ((String) e.getKey()).replace("%20", " ");
                 String v = (String) e.getValue();
                 try {
@@ -193,12 +193,12 @@ public class d {
                     e1.printStackTrace();
                 }
                 count++;
-                System.out.println(count);
+//                System.out.println(count);
 //  }
-                System.out.println("stop");
+//                System.out.println("stop");
 
             }
-            System.out.println("stop");
+//            System.out.println("stop");
 
 //*/
 

@@ -8,21 +8,21 @@ public class AutoHotkeyTest {
     private static IntCall exec;
 
     public static void main(String[] args) {
-        System.out.println("Hello World");
+//        System.out.println("Hello World");
 
 
         try {
             NativeCall.init();
             init();
         } catch (Throwable t) {
-            System.out.println("\n" + "Something went wrong...");
-            System.out.println(t);
+//            System.out.println("\n" + "Something went wrong...");
+//            System.out.println(t);
         }
 
         ahk("Run Calc");
-        System.out.println("This is the good part!");
+//        System.out.println("This is the good part!");
         ahk("\n Sleep 1000\n SendInput 1{+}1{Enter}");
-        System.out.println("Woo!");
+//        System.out.println("Woo!");
         ahk("Sleep 3000\n WinClose Calc");
     }
 

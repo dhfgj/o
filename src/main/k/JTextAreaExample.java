@@ -34,7 +34,7 @@ public class JTextAreaExample {
         AutoSuggestor autoSuggestor = new AutoSuggestor(textArea, frame, null, Color.WHITE.brighter(), Color.BLUE, Color.RED, 0.75f) {
             @Override
             boolean wordTyped(String typedWord) {
-                System.out.println(typedWord);
+//                System.out.println(typedWord);
                 return super.wordTyped(typedWord);//checks for a match in dictionary and returns true or false if found or not
             }
         };

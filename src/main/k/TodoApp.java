@@ -78,7 +78,7 @@ public class TodoApp {
 			}
 			count++;
 //            }
-			System.out.println("stop");
+//			System.out.println("stop");
 
 //			File dir = new File();
 
@@ -145,7 +145,7 @@ public class TodoApp {
 							String c1 = file.getName().replace(" ", "%20");
 							// set the properties value
 							prop.setProperty(c1, file.getAbsolutePath());
-					System.out.println(file.getAbsoluteFile());
+//					System.out.println(file.getAbsoluteFile());
 						}
 					}
 
@@ -173,7 +173,7 @@ public class TodoApp {
 				String v = (String) e.getValue();
 				prop.put(key, v);
 			}
-			System.out.println("Done Propertiesy loading");
+//			System.out.println("Done Propertiesy loading");
 
 ///*
 			SolrDataDAO solrBaseDAO = null;
@@ -189,22 +189,22 @@ public class TodoApp {
 			for (Map.Entry<Object, Object> e : prop.entrySet()) {
 
 //            for (Map.Entry<Object, Object> e : prop.entrySet()) {
-				System.out.println(count);
+//				System.out.println(count);
 				String key = ((String) e.getKey()).replace("%20", " ");
 				String v = (String) e.getValue();
 				try {
 					solrBaseDAO.p(count, key,v);
 				} catch (Exception e1) {
 //					e1.printStackTrace();
-					System.out.println(e1.getMessage());
+//					System.out.println(e1.getMessage());
 				}
 				count++;
-				System.out.println(count);
+//				System.out.println(count);
 //  }
-				System.out.println("stop");
+//				System.out.println("stop");
 
 			}
-			System.out.println("stop");
+//			System.out.println("stop");
 
 //*/
 
@@ -237,7 +237,7 @@ public class TodoApp {
 			String line;
 			while((line = reader.readLine()) != null)
 			{
-				System.out.println(line);
+//				System.out.println(line);
 			}
 
 		}
@@ -273,7 +273,7 @@ public class TodoApp {
 					);
 					String line;
 					while ((line = reader.readLine()) != null) {
-						System.out.println(line);
+//						System.out.println(line);
 					}
 				} catch (InterruptedException e1) {
 					e1.printStackTrace();

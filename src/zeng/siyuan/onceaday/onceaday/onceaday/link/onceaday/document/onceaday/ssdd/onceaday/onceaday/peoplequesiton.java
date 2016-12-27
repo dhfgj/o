@@ -46,7 +46,7 @@ public class peoplequesiton {
     }
 
     public static void deleteTask(UUID s) {
-        System.out.println("delete task: " + s.toString());
+//        System.out.println("delete task: " + s.toString());
         session.execute(String.format("delete from keyspace1." + PERSON_QUESTION1 + " WHERE id=%s", s));
     }
 

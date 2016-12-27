@@ -709,18 +709,18 @@ public class C1comehere implements Serializable {
             }
 // nobody know swhat he is doing
             public void keyPressed(KeyEvent e) {
-                System.out.println(e.getKeyChar());
-                System.out.println(e.getKeyChar() == KeyEvent.VK_0);
-                System.out.println("up");
-                System.out.println(e.getKeyChar() == KeyEvent.VK_LEFT);
-                System.out.println(e.getKeyChar());
-                System.out.println("DOWN");
-                System.out.println(e.getKeyChar() == KeyEvent.VK_RIGHT);
-                System.out.println(e.getKeyChar());
-                System.out.println("contrl");
-                System.out.println(e.getModifiers() == KeyEvent.CTRL_MASK);
+//                System.out.println(e.getKeyChar());
+//                System.out.println(e.getKeyChar() == KeyEvent.VK_0);
+//                System.out.println("up");
+//                System.out.println(e.getKeyChar() == KeyEvent.VK_LEFT);
+//                System.out.println(e.getKeyChar());
+//                System.out.println("DOWN");
+//                System.out.println(e.getKeyChar() == KeyEvent.VK_RIGHT);
+//                System.out.println(e.getKeyChar());
+//                System.out.println("contrl");
+//                System.out.println(e.getModifiers() == KeyEvent.CTRL_MASK);
                 if (e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyChar() == KeyEvent.VK_0) {
-                    System.out.println("voice commander");
+//                    System.out.println("voice commander");
                     e.consume();
                     Beep.sound(2000, 150);
                     Thread a = new Thread(() -> {
@@ -736,7 +736,7 @@ public class C1comehere implements Serializable {
                 }
 
                 if (e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyCode()==38) {
-                    System.out.println("voice commander");
+//                    System.out.println("voice commander");
                     k = k-1;
                     if (k>=0) {
                         textArea.setText((String) pdrop.get(String.valueOf(k)));
@@ -748,7 +748,7 @@ public class C1comehere implements Serializable {
                 }
 
                 if (e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyCode()==40) {
-                    System.out.println("voice commander");
+//                    System.out.println("voice commander");
                     k = k+1;
                     if (k<pdrop.size()){
                         textArea.setText((String) pdrop.get(String.valueOf(k)));

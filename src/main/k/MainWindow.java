@@ -205,8 +205,8 @@ public class MainWindow extends JFrame{
 						JList list = (JList)e.getSource();
 
 							// Double-click detected
-							System.out.println(list.getSelectedValue());
-						System.out.println((String)prop.get(list.getSelectedValue()));
+//							System.out.println(list.getSelectedValue());
+//						System.out.println((String)prop.get(list.getSelectedValue()));
 							r.open((String)prop.get(list.getSelectedValue()));
 					}
 				}
@@ -222,8 +222,8 @@ public class MainWindow extends JFrame{
 						// Double-click detected
 						int index = list.locationToIndex(evt.getPoint());
 
-						System.out.println("hello" + index);
-						System.out.println(list.getSelectedValue());
+//						System.out.println("hello" + index);
+//						System.out.println(list.getSelectedValue());
 						r.o((String) prop.get(list.getSelectedValue()));
 					}
 
@@ -330,7 +330,7 @@ public class MainWindow extends JFrame{
 			this.addTaskButton.addMouseListener(new MouseAdapter(){
 				@Override
 				public void mouseClicked(MouseEvent e) {
-					System.out.println(getNewTaskField().getText());
+//					System.out.println(getNewTaskField().getText());
 					if (getNewTaskField().getText().length() > 0) {
 
 						todoListModel.add(getNewTaskField().getText().trim().split("=")[0]);
@@ -369,7 +369,7 @@ public class MainWindow extends JFrame{
 							}
 							count++;
 //            }
-							System.out.println("stop");
+//							System.out.println("stop");
 
 
 
@@ -412,7 +412,7 @@ public class MainWindow extends JFrame{
 
 			output = new FileOutputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\main\\resources\\c1s.properties");
 			c1 = c1.replace(" ", "%20");
-			System.out.println("c1come2melater();");
+//			System.out.println("c1come2melater();");
 			// set the properties value
 			prop.setProperty(c1, c1Path);
 

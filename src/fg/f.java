@@ -52,7 +52,7 @@ public class f {
             Process p;
 
 
-            System.out.println("djlfkadsjf   " +command);
+//            System.out.println("djlfkadsjf   " +command);
 
             //Some Extra Commands from my Corpus File
             if(command.equalsIgnoreCase("open search")) {
