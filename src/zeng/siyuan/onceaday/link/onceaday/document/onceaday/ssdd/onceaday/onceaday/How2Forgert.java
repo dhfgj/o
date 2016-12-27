@@ -118,7 +118,7 @@ static int ou= 1;
             if (isSearch) {
                 displaysearchtasks();
             } else {
-                            int count = 10;
+                            int count = 5;
                 for (Task t : tasks) {
                     if (t.getDate().after(new Date())) {
                         Calendar calendar = Calendar.getInstance();
@@ -139,8 +139,8 @@ static int ou= 1;
 //                                Desktop.getDesktop().open(new File(e.getText()));
 
                                     if (count == 0 ) {
-                                        Thread.sleep(10 * 60000);
-                                        count = 10;
+                                        Thread.sleep(7 * 60000);
+                                        count = 5;
                                     }
 count --;
                                     r.open(e.getText());
@@ -161,8 +161,8 @@ count --;
                                             e = new person_question(e.getText(),"ssdd", null);
                                             m.store(e);
                                     if (count == 0 ) {
-                                        Thread.sleep(10 * 60000);
-                                        count = 10;
+                                        Thread.sleep(7 * 60000);
+                                        count = 5;
                                     }
                                     count --;
 
@@ -177,7 +177,7 @@ count --;
                                             break;
                                 }
                             }
-                            Thread.sleep(10000);
+//                            Thread.sleep(10000);
                         }
                     } else if (t.getDate().before(new Date())) {
                         frame.repaint();
@@ -198,8 +198,8 @@ count --;
 //                                    Desktop.getDesktop().open(new File(e.getText()));
 //                                }
                                 if (count == 0 ) {
-                                    Thread.sleep(10 * 60000);
-                                    count = 10;
+                                    Thread.sleep(7 * 60000);
+                                    count = 5;
                                 }
                                 count --;
 

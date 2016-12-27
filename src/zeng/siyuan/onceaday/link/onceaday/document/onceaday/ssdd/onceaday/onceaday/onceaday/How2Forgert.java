@@ -87,6 +87,12 @@ public class How2Forgert implements Serializable {
             }
         }
     }
+// i don't have to remregber all the command but when i need i ti will go ahead and find it and put it all teogehter
+    // lie ther ebuttons i don't even remember what hte heloo it is
+    // everything time i will go sehad and find ait on my ow n
+    // ther eis inot souch thing all instanct nooldle
+    // it i snot healdy and you wil die of nonnutrituionts
+    // that i sthe it
 
     public void displayTask() {
         try {
@@ -115,8 +121,10 @@ public class How2Forgert implements Serializable {
 //                                Desktop.getDesktop().open(new File(e.getQuestion()));
                                     textArea.setText(inntuitive);
                                     r.open(e.getQuestion());
+                                    reloadTAskandrestartPopThread();
 
                                             break;
+
                                 }
                             }
                         } else {
@@ -142,10 +150,12 @@ public class How2Forgert implements Serializable {
 //
 //                                        Desktop.getDesktop().open(new File(e.getQuestion()));
 //                                    }
+                                        reloadTAskandrestartPopThread();
+
                                         break;
                                     }
                                 }
-                                Thread.sleep(10000);
+//                                Thread.sleep(10000);
                             }
                         }
                     } else if (t.getDate().before(new Date())&&!t.getIsDone()) {
@@ -171,6 +181,8 @@ public class How2Forgert implements Serializable {
                                 textArea.setText(inntuitive);
 
                                 r.open(e.getQuestion());
+                                reloadTAskandrestartPopThread();
+
                                         break;
                             }
                         }
@@ -437,6 +449,8 @@ public class How2Forgert implements Serializable {
     }
 
     private void reloadTAskandrestartPopThread() {
+        loadTask();
+
         textArea.setText("");
         if (null != reloadandDisplayThread || reloadandDisplayThread.isAlive()) {
             reloadandDisplayThread.interrupt();
