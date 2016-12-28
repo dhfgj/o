@@ -512,23 +512,23 @@ public class C1comehere implements Serializable {
 
         frame.addWindowListener(new WindowAdapter(){
             public void windowClosing(WindowEvent e){
-        try {
-            Process p = Runtime.getRuntime().exec("cmd /c C:\\solr-6.2.0\\bin\\solr stop -all");
-            p.waitFor();
-            BufferedReader reader = new BufferedReader(
-                    new InputStreamReader(p.getInputStream())
-            );
-            String line;
-            while ((line = reader.readLine()) != null) {
-                System.out.println(line);
-            }
-        } catch (InterruptedException e1) {
-            e1.printStackTrace();
-        } catch (IOException e1) {
-            e1.printStackTrace();
-        } finally {
-
-        }
+//        try {
+//            Process p = Runtime.getRuntime().exec("cmd /c C:\\solr-6.2.0\\bin\\solr stop -all");
+//            p.waitFor();
+//            BufferedReader reader = new BufferedReader(
+//                    new InputStreamReader(p.getInputStream())
+//            );
+//            String line;
+//            while ((line = reader.readLine()) != null) {
+//                System.out.println(line);
+//            }
+//        } catch (InterruptedException e1) {
+//            e1.printStackTrace();
+//        } catch (IOException e1) {
+//            e1.printStackTrace();
+//        } finally {
+//
+//        }
 
             }
         });

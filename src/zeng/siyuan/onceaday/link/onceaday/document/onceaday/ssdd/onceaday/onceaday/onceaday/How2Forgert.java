@@ -254,7 +254,8 @@ public class How2Forgert implements Serializable {
     }
 
 
-
+// version contrl and tag and comment massage bauese i will mess up something and want to go back to back in time
+    // somethinge are athere because it is preventeive and no nessaecry functional
     public void c1ds() {
         jk = new Properties();
         Properties temprop = new Properties();
@@ -281,7 +282,7 @@ public class How2Forgert implements Serializable {
                 e.printStackTrace();
             }
 
-
+// a lot of noise to process and visual junk
             int count =1;
             for (Map.Entry<Object, Object> e : prop.entrySet()) {
                 System.out.println(count);

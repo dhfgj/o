@@ -58,7 +58,14 @@ public class How2Forgert implements Serializable {
 
             String textStr[] = textArea.getText().split("\\r\\n|\\n|\\r");
 
-
+// code the function carelessly and then i will spend the about same abmoutn of time to debugging the code and that i sthe problem
+            //i don't know twheth ethe pflow works as properly and whether it does work or not or it just deisappeart tand i never get what i get
+            // i have to understand the results of the thing sna never come back again and that it hs the thoing
+            // whey did i get mad, i can just let it go and identify it and let it go i don't have to huminilate others and make them come back to me
+            // unless i want to die sna i wnat the love again do i want to the love
+            // doi i give away love do i have to get the love again
+            // ido i wan tto give love
+            // do i wan tot give away love? this is the question when i try to do domething or chose to iagnoere the things
             person_question e=null;
 
 
@@ -108,7 +115,7 @@ public class How2Forgert implements Serializable {
             } else
 
 
-            if (textStr[1].equalsIgnoreCase("j")){
+            if (null != textStr[1] && textStr[1].equalsIgnoreCase("j")){
                 StringBuffer stringBuffer1 = new StringBuffer();
                 for (int i = 2; i < textStr.length; i++) {
                     stringBuffer1.append(textStr[i]);
@@ -139,7 +146,7 @@ public class How2Forgert implements Serializable {
 
 
 
-            if (textStr[1].equalsIgnoreCase("dd")){
+            if (null != textStr[1] && textStr[1].equalsIgnoreCase("dd")){
                 StringBuffer stringBuffer1 = new StringBuffer();
                 for (int i = 2; i < textStr.length; i++) {
                     stringBuffer1.append(textStr[i]);
@@ -149,7 +156,7 @@ public class How2Forgert implements Serializable {
 
 
 
-            if (textStr[1].equalsIgnoreCase("d")){
+            if (null != textStr[1] && textStr[1].equalsIgnoreCase("d")){
                 StringBuffer stringBuffer1 = new StringBuffer();
                 for (int i = 2; i < textStr.length; i++) {
                     stringBuffer1.append(textStr[i]);
@@ -180,7 +187,7 @@ public class How2Forgert implements Serializable {
 
             if (null != r.d(textStr[0])){
 
-                if (textStr[1].equalsIgnoreCase("j")){
+                if (null != textStr[1] && textStr[1].equalsIgnoreCase("j")){
                     StringBuffer stringBuffer1 = new StringBuffer();
                     for (int i = 2; i < textStr.length; i++) {
                         stringBuffer1.append(textStr[i]);
@@ -188,7 +195,8 @@ public class How2Forgert implements Serializable {
                     e = new person_question(stringBuffer1.toString(), "j", r.d(textStr[0]));
                 }
 
-                if (textStr[1].equalsIgnoreCase("dd")){
+
+                else if (null != textStr[1] && textStr[1].equalsIgnoreCase("dd")){
                     StringBuffer stringBuffer1 = new StringBuffer();
                     for (int i = 2; i < textStr.length; i++) {
                         stringBuffer1.append(textStr[i]);
@@ -196,7 +204,16 @@ public class How2Forgert implements Serializable {
                     e = new person_question(stringBuffer1.toString(), "dd", new Date());
                 }
 
-                if (textStr[1].equalsIgnoreCase("d")){
+                else if (null != textStr[1] && textStr[1].equalsIgnoreCase("d")){
+                    StringBuffer stringBuffer1 = new StringBuffer();
+                    for (int i = 2; i < textStr.length; i++) {
+                        stringBuffer1.append(textStr[i]);
+                    }
+                    e = new person_question(stringBuffer1.toString(), "d", new Date());
+                }
+
+
+                else if (null != textStr[1] && textStr[1].equalsIgnoreCase("d")){
                     StringBuffer stringBuffer1 = new StringBuffer();
                     for (int i = 2; i < textStr.length; i++) {
                         stringBuffer1.append(textStr[i]);

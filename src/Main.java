@@ -78,11 +78,11 @@ public class Main {
 
             // Update documents
 //            System.out.println("Ruwan before update : " + MongoDbHelper.getInstance().findOne("employees",
-                    new BasicDBObject("firstname", "Ruwan")));
+//                    new BasicDBObject("firstname", "Ruwan")));
             MongoDbHelper.getInstance().updateDocument("employees", new BasicDBObject("firstname", "Ruwan"),
                     new BasicDBObject("age", 51));
 //            System.out.println("Ruwan after update : " + MongoDbHelper.getInstance().findOne("employees",
-                    new BasicDBObject("firstname", "Ruwan")));
+//                    new BasicDBObject("firstname", "Ruwan")));
 
             // Remove documents
 //            employeeCount = MongoDbHelper.getInstance().count("employees");
