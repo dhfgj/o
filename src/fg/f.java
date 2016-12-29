@@ -157,7 +157,7 @@ public class f {
                 } catch (InstantiationException e) {
                     e.printStackTrace();
                 } catch (IllegalAccessException e) {
-                    e.printStackTrace();
+                    e.printStackTrace();// everything has bad sequence and that i s horrible
                 } catch (UnsupportedLookAndFeelException e) {
                     e.printStackTrace();
                 }

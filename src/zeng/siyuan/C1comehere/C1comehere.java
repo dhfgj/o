@@ -25,6 +25,7 @@ import java.awt.event.WindowEvent;
 import java.io.*;
 import java.net.URISyntaxException;
 import java.net.URL;
+import java.net.UnknownHostException;
 import java.nio.channels.FileChannel;
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -504,6 +505,8 @@ public class C1comehere implements Serializable {
     }
 
 
+    public ExecutorService executor = Executors.newFixedThreadPool(10);
+
     private void showFrame() throws Exception {
 
         frame = new JFrame();
@@ -549,9 +552,9 @@ public class C1comehere implements Serializable {
                 insets.top + insets.bottom + 500));
         frame.setResizable(true);
 
-        ExecutorService executorService = Executors.newSingleThreadExecutor();
+        ExecutorService p = Executors.newSingleThreadExecutor();
 
-        executorService.execute(new Runnable() {
+        p.execute(new Runnable() {
             public void run() {
                 System.out.println("Asynchronous task");
                 SwingShortcutDemo.daf a = new SwingShortcutDemo.daf();
@@ -566,9 +569,9 @@ public class C1comehere implements Serializable {
         if (lastFrame == null) {
             frame.setLocationByPlatform(true);
         } else {
-            Point p = lastFrame.getLocation();
-            p.translate(50, 50);
-            frame.setLocation(p);
+            Point a = lastFrame.getLocation();
+            a.translate(50, 50);
+            frame.setLocation(a);
         }
         lastFrame = frame;
 
@@ -707,7 +710,9 @@ public class C1comehere implements Serializable {
             public void keyTyped(KeyEvent e) {
 
             }
-// nobody know swhat he is doing
+
+
+            // nobody know swhat he is doing
             public void keyPressed(KeyEvent e) {
 //                System.out.println(e.getKeyChar());
 //                System.out.println(e.getKeyChar() == KeyEvent.VK_0);
@@ -899,32 +904,41 @@ public class C1comehere implements Serializable {
                         }
 
                         else if (DisHlow2ForeDgertCommand) {
-                            System.out.println("Disloadl");
-                            dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.load();
+                         Runnable q =() -> {
+                             System.out.println("Disloadl");
+                             try {
+                                 dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.load();
+                             } catch (UnknownHostException e1) {
+                                 e1.printStackTrace();
+                             }
+                         };
+                         p.submit(q);
                         }
 
                         else if (textArea.getText().equalsIgnoreCase("history")) {
+                            Runnable q =() -> {
                                 String s = "";
 
-                            Set<Object> objects = pdrop.keySet();
-                            ArrayList<Object> keys = new ArrayList<Object>(objects);
-                            for(int p=0; p<=keys.size()-1;p++){
-                                s+=(String)(pdrop.get(String.valueOf(p))) + "\n";
-                            }
+                                Set<Object> objects = pdrop.keySet();
+                                ArrayList<Object> keys = new ArrayList<Object>(objects);
+                                for (int p = 0; p <= keys.size() - 1; p++) {
+                                    s += (String) (pdrop.get(String.valueOf(p))) + "\n";
+                                }
 
                                 textArea.setText(s);
-                                textArea.moveCaretPosition(s.length()-1);
-
+                                textArea.moveCaretPosition(s.length() - 1);
+                            }; p.submit(q);
                         }
 
 
                         else if (textArea.getText().equalsIgnoreCase("hotmail")) {
+                            Runnable q =() -> {
                             KFHASDF KFHASDF = new KFHASDF();
                             try {
                                 KFHASDF.testOpenLogin3();
                             } catch (InterruptedException e1) {
                                 e1.printStackTrace();
-                            }
+                            }}; p.submit(q);
 
                         }
 
@@ -934,83 +948,89 @@ public class C1comehere implements Serializable {
 
 //                            j a = new j();
 //                            a.main();
+                            Runnable q =() -> {
+                                Robot r = null;
+                                try {
+                                    r = new Robot();
+                                } catch (AWTException e1) {
+                                    e1.printStackTrace();
+                                }
+                                int D = KeyEvent.VK_CONTROL;
+                                int Da = KeyEvent.VK_SHIFT;
+                                int Dc = KeyEvent.VK_ALT;
+                                int Dcb = KeyEvent.VK_9;
+                                r.keyPress(D);
+                                r.keyPress(Da);
+                                r.keyPress(Dc);
+                                r.keyPress(Dcb);
 
-                            Robot r = null;
-                            try {
-                                r = new Robot();
-                            } catch (AWTException e1) {
-                                e1.printStackTrace();
-                            }
-                            int D = KeyEvent.VK_CONTROL;
-                            int Da = KeyEvent.VK_SHIFT;
-                            int Dc = KeyEvent.VK_ALT;
-                            int Dcb = KeyEvent.VK_9;
-                            r.keyPress(D);
-                            r.keyPress(Da);
-                            r.keyPress(Dc);
-                            r.keyPress(Dcb);
-
-                            r.keyRelease(D);
-                            r.keyRelease(Da);
-                            r.keyRelease(Dc);
-                            r.keyRelease(Dcb);
-
+                                r.keyRelease(D);
+                                r.keyRelease(Da);
+                                r.keyRelease(Dc);
+                                r.keyRelease(Dcb);
+                            };p.submit(q);
 
 
                         }
 
                         else if (textArea.getText().equalsIgnoreCase("abuizeng")) {
-                            KFHASDF KFHASDF = new KFHASDF();
+                            Runnable q =() -> {
+                                KFHASDF KFHASDF = new KFHASDF();
                                 KFHASDF.testOpenLogin2();
-
+                            }; p.submit(q);
                         }
                         else if (textArea.getText().equalsIgnoreCase("linda")) {
-                            KFHASDF KFHASDF = new KFHASDF();
+                            Runnable q =() -> {
+                                KFHASDF KFHASDF = new KFHASDF();
                                 KFHASDF.testOpenLogin2JLAKSDJFLASDJFLKJM();
-
+                            };p.submit(q);
                         }
                         else if (textArea.getText().equalsIgnoreCase("siyuanzeng")) {
-                            KFHASDF KFHASDF = new KFHASDF();
+                            Runnable q =() -> {
+                                KFHASDF KFHASDF = new KFHASDF();
 //                            try {
                                 KFHASDF.d();
 //                            } catch (InterruptedException e1) {
 //                                e1.printStackTrace();
 //                            }
-
+                            };p.submit(q);
                         }
 
                         else if (textArea.getText().equalsIgnoreCase("zengb45")) {
-                            KFHASDF KFHASDF = new KFHASDF();
+                            Runnable q =() -> {
+                                KFHASDF KFHASDF = new KFHASDF();
                                 KFHASDF.testOpenLogin();
-
+                            };p.submit(q);
                         }
 
                         else if (textArea.getText().equalsIgnoreCase("github")) {
-                            KFHASDF KFHASDF = new KFHASDF();
-                            try {
-                                KFHASDF.testOpenLogin3d();
-                            } catch (InterruptedException e1) {
-                                e1.printStackTrace();
-                            }
-
+                            Runnable q =() -> {
+                                KFHASDF KFHASDF = new KFHASDF();
+                                try {
+                                    KFHASDF.testOpenLogin3d();
+                                } catch (InterruptedException e1) {
+                                    e1.printStackTrace();
+                                }
+                            };p.submit(q);
                         }
 
                         else if (textArea.getText().startsWith("history") && textArea.getText().split(" ").length==2) {
+                            Runnable q =() -> {
                                 String s = "";
 
 
-                            Set<Object> objects = pdrop.keySet();
-                            ArrayList<Object> keys = new ArrayList<Object>(objects);
+                                Set<Object> objects = pdrop.keySet();
+                                ArrayList<Object> keys = new ArrayList<Object>(objects);
 
-                            int i1 = Integer.parseInt(textArea.getText().split(" ")[1]);
-                            int c = keys.size()- i1;
-                            for(int p = c; p<=pdrop.size()-1; p++){
-                                s+=(String)(pdrop.get(String.valueOf(p))) + "\n";
-                            }
+                                int i1 = Integer.parseInt(textArea.getText().split(" ")[1]);
+                                int c = keys.size() - i1;
+                                for (int p = c; p <= pdrop.size() - 1; p++) {
+                                    s += (String) (pdrop.get(String.valueOf(p))) + "\n";
+                                }
 
                                 textArea.setText(s);
-                                textArea.moveCaretPosition(s.length()-1);
-
+                                textArea.moveCaretPosition(s.length() - 1);
+                            };p.submit(q);
                         }
 
                         else if (textArea.getText().startsWith("find ") && textArea.getText().split(" ").length==3) {
@@ -1025,7 +1045,8 @@ public class C1comehere implements Serializable {
                         }
 
                         else if (textArea.getText().length()>3 && searchEngines.containsKey(textArea.getText().substring(0, 3))) {
-                            String text = textArea.getText().trim();
+//                            Runnable q =() -> {
+                                String text = textArea.getText().trim();
 
                             if (!text.isEmpty()) {
                                 Scanner in = new Scanner(text);
@@ -1100,8 +1121,10 @@ public class C1comehere implements Serializable {
                                     } else {
                                     }
                                 }
-                            }
-                        }
+                            }}
+//                            ;
+//                        p.submit(q);
+//                        }
 
 
 
@@ -1144,7 +1167,7 @@ public class C1comehere implements Serializable {
                          */
 
                         else if (textArea.getText().equalsIgnoreCase("music")) {
-
+                            Runnable q =() -> {
                             try {
                                 TodoApp.dkk();
                             } catch (ClassNotFoundException e1) {
@@ -1155,16 +1178,16 @@ public class C1comehere implements Serializable {
                                 e1.printStackTrace();
                             } catch (UnsupportedLookAndFeelException e1) {
                                 e1.printStackTrace();
-                            }
+                            }};p.submit(q);
 
                         }
                         else if (textArea.getText().equalsIgnoreCase("movie")) {
-
+                            Runnable q =() -> {
                                 ListFilesUtil.pss("C:\\Users\\SiyuanZeng's\\Videos\\Movie");
-
+                            };p.submit(q);
                         }
                         else if (textArea.getText().equalsIgnoreCase("TodoApp")) {
-                            try {
+                            Runnable q =() -> {try {
                                 Thread a = new Thread(() -> {
                                     //find *Friends* C:/Users/SiyuanZeng's/Videos/Friends
                                     try {
@@ -1184,13 +1207,13 @@ public class C1comehere implements Serializable {
                                 a.start();
                             } catch (Exception e1) {
                                 e1.printStackTrace();
-                            }
+                            }};p.submit(q);
 
                         }
 
 
                         else if (textArea.getText().equalsIgnoreCase("interjections")) {
-                            try {
+                            Runnable q =() -> {try {
                                 Thread a = new Thread(() -> {
                                     //find *Friends* C:/Users/SiyuanZeng's/Videos/Friends
                                     try {
@@ -1210,121 +1233,159 @@ public class C1comehere implements Serializable {
                                 a.start();
                             } catch (Exception e1) {
                                 e1.printStackTrace();
-                            }
+                            }};p.submit(q);
                         }
 
-                        else if (deleteCommand) {
+                        else if (deleteCommand) {Runnable q =() -> {
                             System.out.println("delete command");
                             prop.remove(textArea.getText());
-                            textArea.setText("");
+                            textArea.setText("");};p.submit(q);
                         } else if (codja && textArea.getText().trim().isEmpty()) {
-                            System.out.println("codja");
+                            Runnable q =() -> {System.out.println("codja");
                             findthebestexample f = new findthebestexample(textArea);
-                            f.returnshowsearchquetsry();
+                            f.returnshowsearchquetsry();};p.submit(q);
                         } else if (codja && !textArea.getText().trim().isEmpty()) {
-                            System.out.println("codja");
+                            Runnable q =() -> {System.out.println("codja");
                             findthebestexample f = new findthebestexample(textArea);
-                            f.gogolesearchgsearch();
+                            f.gogolesearchgsearch();};p.submit(q);
                         } else if (googleo && textArea.getText().trim().isEmpty()) {
-                            System.out.println("codja");
+                            Runnable q =() -> {System.out.println("codja");
                             gooogle f = new gooogle (textArea);
-                            f.returnshowsearchquetsry();
+                            f.returnshowsearchquetsry();};p.submit(q);
                         } else if (googleo && !textArea.getText().trim().isEmpty()) {
-                            System.out.println("codja");
+                            Runnable q =() -> {System.out.println("codja");
                             gooogle f = new gooogle(textArea);
-                            f.gogolesearchgsearch();
+                            f.gogolesearchgsearch();};p.submit(q);
                         }  else if (findtheshotcut && textArea.getText().trim().isEmpty()) {
-                            System.out.println("codja");
+                            Runnable q =() -> {System.out.println("codja");
                             findtheshortcut f = new findtheshortcut (textArea);
-                            f.returnshowsearchquetsry();
+                            f.returnshowsearchquetsry();};p.submit(q);
                         } else if (findtheshotcut && !textArea.getText().trim().isEmpty()) {
-                            System.out.println("codja");
+                            Runnable q =() -> {System.out.println("codja");
                             findtheshortcut f = new findtheshortcut(textArea);
-                            f.gogolesearchgsearch();
+                            f.gogolesearchgsearch();};p.submit(q);
                         } else if (findtheshotcutviode && textArea.getText().trim().isEmpty()) {
-                            System.out.println("codja");
+                            Runnable q =() -> {System.out.println("codja");
                             findtheshortcutyoutututouiral f = new findtheshortcutyoutututouiral(textArea);
-                            f.returnshowsearchquetsry();
+                            f.returnshowsearchquetsry();};p.submit(q);
                         } else if (findtheshotcutviode&& !textArea.getText().trim().isEmpty()) {
-                            System.out.println("codja");
+                            Runnable q =() -> {System.out.println("codja");
                             findtheshortcutyoutututouiral f = new findtheshortcutyoutututouiral(textArea);
-                            f.gogolesearchgsearch();
+                            f.gogolesearchgsearch();};p.submit(q);
                         } else if (saerchdiary && !textArea.getText().trim().isEmpty()) {
+                            Runnable q =() -> {System.out.println("saerchdiary ");
+                            how2Forgert.searchehabins(textArea.getText().trim());};p.submit(q);
+                        }  else if (saerchdiaryall && !textArea.getText().trim().isEmpty()) {Runnable q =() -> {
                             System.out.println("saerchdiary ");
-                            how2Forgert.searchehabins(textArea.getText().trim());
-                        }  else if (saerchdiaryall && !textArea.getText().trim().isEmpty()) {
-                            System.out.println("saerchdiary ");
-                            how2Forgert.searchehabinsCombined(textArea.getText().trim());
-                        } else if (isThoughtRecorderCommand) {
+                            how2Forgert.searchehabinsCombined(textArea.getText().trim());};p.submit(q);
+                        } else if (isThoughtRecorderCommand) {Runnable q =() -> {
                             System.out.println("isThoughtRecorderCommand");
-                            YouKnowWhat.insert(textArea.getText());
-                            textArea.setText("");
-                        } else if (isload) {
+                            try {
+                                YouKnowWhat.insert(textArea.getText());
+                            } catch (IOException e1) {
+                                e1.printStackTrace();
+                            } catch (ParseException e1) {
+                                e1.printStackTrace();
+                            }
+                            textArea.setText("");};p.submit(q);
+                        } else if (isload) {Runnable q =() -> {
                             System.out.println("isload");
                             how2Forgert.load();
-                            textArea.setText("");
-                        } else if (deleteCommand2) {
+                            textArea.setText("");};p.submit(q);
+                        } else if (deleteCommand2) {Runnable q =() -> {
                             System.out.println("deleteCommand2");
                             how2Forgert.deltask();
-                            textArea.setText("");
-                        } else if (isHow2ForegertCommand_u) {
+                            textArea.setText("");};p.submit(q);
+                        } else if (isHow2ForegertCommand_u) {Runnable q =() -> {
                             System.out.println("isHow2ForegertCommand_u");
                             //init
                             how2Forgert.updatetask();
                             textArea.setText("");
-                            How2Forgert.serialize();
-                        } else if (isHow2ForegertCommand) {
+                            How2Forgert.serialize();};p.submit(q);
+                        } else if (isHow2ForegertCommand) {Runnable q =() -> {
                             System.out.println("isHow2ForegertCommand");
                             //init
-                            how2Forgert.inster(textArea.getText(), "");
+                            try {
+                                how2Forgert.inster(textArea.getText(), "");
+                            } catch (IOException e1) {
+                                e1.printStackTrace();
+                            }
                             textArea.setText("");
-                            How2Forgert.serialize();
-                        } else if (isShowCommand) {
+                            How2Forgert.serialize();};p.submit(q);
+                        } else if (isShowCommand) {Runnable q =() -> {
                             System.out.println("isShowCommand");
                             textArea.setText(takeC1toMe(textArea.getText()));
                             frame.repaint();
-                            frame.toFront();
+                            frame.toFront();};p.submit(q);
                         } else if (null != search) {
+//                            Runnable q =() -> {
                             System.out.println("search");
                             search.setURI(searchTrs);
-                            Desktop.getDesktop().browse(search.getURI());
-                            logDictionary(search.searchName, search.keywords, search.getURIString());
+                            try {
+                                Desktop.getDesktop().browse(search.getURI());
+                            } catch (IOException e1) {
+                                e1.printStackTrace();
+                            }
+                            try {
+                                logDictionary(search.searchName, search.keywords, search.getURIString());
+                            } catch (IOException e1) {
+                                e1.printStackTrace();
+                            } catch (ParseException e1) {
+                                e1.printStackTrace();
+                            }
+//                        };
+//                        p.submit(q);
                         }
 
 
 
-                        else if (Dsaerchdiary && !textArea.getText().trim().isEmpty()) {
+                        else if (Dsaerchdiary && !textArea.getText().trim().isEmpty()) {Runnable q =() -> {
                             System.out.println("Dsaerchdiary");
-                            dhow2Forgert.searchehabins(textArea.getText().trim());
-                        } else if (Disload) {
+                            dhow2Forgert.searchehabins(textArea.getText().trim());};p.submit(q);
+                        } else if (Disload) {Runnable q =() -> {
                             System.out.println("Disload");
                             dhow2Forgert.load();
-                            textArea.setText("");
-                        } else if (DdeleteCommand2) {
+                            textArea.setText("");};p.submit(q);
+                        } else if (DdeleteCommand2) {Runnable q =() -> {
                             System.out.println("DdeleteCommand2");
                             dhow2Forgert.deltask();
-                            textArea.setText("");
-                        } else if (DisHow2ForegertCommand_u) {
+                            textArea.setText("");};p.submit(q);
+                        } else if (DisHow2ForegertCommand_u) {Runnable q =() -> {
                             System.out.println("DisHow2ForegertCommand_u");
                             dhow2Forgert.updatetask();
                             textArea.setText("");
-                            How2Forgert.serialize();
-                        } else if (DisHow2ForegertCommand) {
-                            System.out.println("DisHow2ForegertCommand");
-                            dhow2Forgert.inster(textArea.getText(), "");
-                            textArea.setText("");
-                            How2Forgert.serialize();
-                        } else if (DisShowCommand) {
+                            How2Forgert.serialize();};p.submit(q);
+                        } else if (DisHow2ForegertCommand) {Runnable q =() -> {
+                            try {
+                                System.out.println("DisHow2ForegertCommand");
+                                dhow2Forgert.inster(textArea.getText(), "");
+                                textArea.setText("");
+                                How2Forgert.serialize();
+                            } catch (Exception a) {
+                                a.getMessage();
+                            }
+                            };p.submit(q);
+                        } else if (DisShowCommand) {Runnable q =() -> {
                             System.out.println("DisShowCommand");
                             textArea.setText(takeC1toMe(textArea.getText()));
                             frame.repaint();
-                            frame.toFront();
+                            frame.toFront();};p.submit(q);
                         } else if (null != Dsearch) {
+//                            Runnable q =() -> {
                             System.out.println("Dsearch");
                             search.setURI(searchTrs);
-                            Desktop.getDesktop().browse(search.getURI());
-                            logDictionary(search.searchName, search.keywords, search.getURIString());
+
+                            try {
+                                Desktop.getDesktop().browse(search.getURI());
+                                logDictionary(search.searchName, search.keywords, search.getURIString());
+                            } catch (IOException e1) {
+                                e1.printStackTrace();
+                            } catch (ParseException e1) {
+                                e1.printStackTrace();
+                            }
                             textArea.setText("");
+//                        };
+//                        p.submit(q);
                         }
 
 
@@ -1332,25 +1393,29 @@ public class C1comehere implements Serializable {
 
 
                         else if (Dsaerchdliary && !textArea.getText().trim().isEmpty()) {
-                            System.out.println("Dsaerchdliary");
-                            dhow2Forgertl.searchehabins(textArea.getText().trim());
-                        } else if (Disloald ) {
+                            Runnable q =() -> {System.out.println("Dsaerchdliary");
+                            dhow2Forgertl.searchehabins(textArea.getText().trim());};p.submit(q);
+                        } else if (Disloald ) {Runnable q =() -> {
                             System.out.println("Disloadl");
-                            dhow2Forgertl.load();
-                        } else if (DdleleteCommand2 ) {
+                            dhow2Forgertl.load();};p.submit(q);
+                        } else if (DdleleteCommand2 ) {Runnable q =() -> {
                             System.out.println("DdeletleCommand2");
                             dhow2Forgertl.deltask();
-                            textArea.setText("");
-                        } else if (DisHolw2ForegertCommand_u) {
+                            textArea.setText("");};p.submit(q);
+                        } else if (DisHolw2ForegertCommand_u) {Runnable q =() -> {
                             System.out.println("DisHolw2ForegertCommand_u");
                             dhow2Forgertl.updatetask();
                             textArea.setText("");
-                            How2Forgert.serialize();
-                        } else if (DisHlow2ForegertCommand ) {
+                            How2Forgert.serialize();};p.submit(q);
+                        } else if (DisHlow2ForegertCommand ) {Runnable q =() -> {
                             System.out.println("DisHlow2ForegertCommand");
-                            dhow2Forgertl.inster(textArea.getText(), "");
+                            try {
+                                dhow2Forgertl.inster(textArea.getText(), "");
+                            } catch (IOException e1) {
+                                e1.printStackTrace();
+                            }
                             textArea.setText("");
-                            How2Forgert.serialize();
+                            How2Forgert.serialize();};p.submit(q);
                         } else if (DisShowColmmand) {
                             System.out.println("DislShowCommand");
                             textArea.setText(takeC1toMe(textArea.getText()));
@@ -1359,8 +1424,14 @@ public class C1comehere implements Serializable {
                         } else if (null != Dsearclh) {
                             System.out.println("Dsearlch");
                             search.setURI(searchTrs);
-                            Desktop.getDesktop().browse(search.getURI());
-                            logDictionary(search.searchName, search.keywords, search.getURIString());
+                            try {
+                                Desktop.getDesktop().browse(search.getURI());
+                                logDictionary(search.searchName, search.keywords, search.getURIString());
+                            } catch (IOException e1) {
+                                e1.printStackTrace();
+                            } catch (ParseException e1) {
+                                e1.printStackTrace();
+                            }
                             textArea.setText("");
                         }
 
@@ -1369,21 +1440,21 @@ public class C1comehere implements Serializable {
 
 
 
-                        else if (DsaercDhdliary && !textArea.getText().trim().isEmpty()) {
+                        else if (DsaercDhdliary && !textArea.getText().trim().isEmpty()) {Runnable q =() -> {
                             System.out.println("Dsaerchdliary");
-                            dhow2ForgDertl.searchehabins(textArea.getText().trim());
-                        } else if (DislDoald ) {
+                            dhow2ForgDertl.searchehabins(textArea.getText().trim());};p.submit(q);
+                        } else if (DislDoald ) {Runnable q =() -> {
                             System.out.println("Disloadl");
-                            dhow2ForgDertl.load();
-                        } else if (DdleleteCoDmmand2 ) {
+                            dhow2ForgDertl.load();};p.submit(q);
+                        } else if (DdleleteCoDmmand2 ) {Runnable q =() -> {
                             System.out.println("DdeletleCommand2");
                             dhow2ForgDertl.deltask();
-                            textArea.setText("");
-                        } else if (DisHolw2ForegDertCommand_u ) {
+                            textArea.setText("");};p.submit(q);
+                        } else if (DisHolw2ForegDertCommand_u ) {Runnable q =() -> {
                             System.out.println("DisHolw2ForegertCommand_u");
                             dhow2ForgDertl.updatetask();
                             textArea.setText("");
-                            How2Forgert.serialize();
+                            How2Forgert.serialize();};p.submit(q);
                         }
 
 //                        else if (DisHlow2ForeDgertCommand ) {
@@ -1393,40 +1464,49 @@ public class C1comehere implements Serializable {
 //                            How2Forgert.serialize();
 //                        }
 
-                        else if (DisShowDColmmand) {
+                        else if (DisShowDColmmand) {Runnable q =() -> {
                             System.out.println("DislShowCommand");
                             textArea.setText(takeC1toMe(textArea.getText()));
                             frame.repaint();
-                            frame.toFront();
+                            frame.toFront();};p.submit(q);
                         } else if (null != DsearclhD ) {
-                            System.out.println("Dsearlch");
-                            search.setURI(searchTrs);
-                            Desktop.getDesktop().browse(search.getURI());
-                            logDictionary(search.searchName, search.keywords, search.getURIString());
-                            textArea.setText("");
+//                            Runnable q =() -> {
+                                    System.out.println("Dsearlch");
+                                    search.setURI(searchTrs);
+                                try {
+                                    Desktop.getDesktop().browse(search.getURI());
+                                    logDictionary(search.searchName, search.keywords, search.getURIString());
+                                } catch (IOException e1) {
+                                    e1.printStackTrace();
+                                } catch (ParseException e1) {
+                                    e1.printStackTrace();
+                                }
+                                textArea.setText("");
+//                        };
+//                        p.submit(q);
                         }
 
 
 
 
 
-                        else if (SDsaercDhdliary && !textArea.getText().trim().isEmpty()) {
+                        else if (SDsaercDhdliary && !textArea.getText().trim().isEmpty()) {Runnable q =() -> {
                             System.out.println("Dsaerchdliary");
-                            dhow2ForgDertls.searchehabins(textArea.getText().trim());
-                        } else if (DsLSDg) {
+                            dhow2ForgDertls.searchehabins(textArea.getText().trim());};p.submit(q);
+                        } else if (DsLSDg) {Runnable q =() -> {
+                            System.out.println("Disloadl");};p.submit(q);
+                        } else if (SDislDoald ) {Runnable q =() -> {
                             System.out.println("Disloadl");
-                        } else if (SDislDoald ) {
-                            System.out.println("Disloadl");
-                            dhow2ForgDertls.load();
-                        } else if (SDdleleteCoDmmand2 ) {
+                            dhow2ForgDertls.load();};p.submit(q);
+                        } else if (SDdleleteCoDmmand2 ) {Runnable q =() -> {
                             System.out.println("DdeletleCommand2");
                             dhow2ForgDertls.deltask();
-                            textArea.setText("");
-                        } else if (SDisHolw2ForegDertCommand_u ) {
+                            textArea.setText("");};p.submit(q);
+                        } else if (SDisHolw2ForegDertCommand_u ) {Runnable q =() -> {
                             System.out.println("DisHolw2ForegertCommand_u");
                             dhow2ForgDertls.updatetask();
                             textArea.setText("");
-                            How2Forgert.serialize();
+                            How2Forgert.serialize();};p.submit(q);
                         }
 //                        else if (SDisHlow2ForeDgertCommand ) {
 //                            System.out.println("DisHlow2ForegertCommand");
@@ -1434,17 +1514,29 @@ public class C1comehere implements Serializable {
 //                            textArea.setText("");
 //                            How2Forgert.serialize();
 //                        }
-                        else if (SDisShowDColmmand) {
+                        else if (SDisShowDColmmand) {Runnable q =() -> {
                             System.out.println("DislShowCommand");
                             textArea.setText(takeC1toMe(textArea.getText()));
                             frame.repaint();
-                            frame.toFront();
+                            frame.toFront();};p.submit(q);
                         } else if (null != DSsearclhD ) {
+//                            Runnable q =() -> {
                             System.out.println("Dsearlch");
                             search.setURI(searchTrs);
-                            Desktop.getDesktop().browse(search.getURI());
-                            logDictionary(search.searchName, search.keywords, search.getURIString());
+                            try {
+                                Desktop.getDesktop().browse(search.getURI());
+                            } catch (IOException e1) {
+                                e1.printStackTrace();
+                            }
+                            try {
+                                logDictionary(search.searchName, search.keywords, search.getURIString());
+                            } catch (IOException e1) {
+                                e1.printStackTrace();
+                            } catch (ParseException e1) {
+                                e1.printStackTrace();
+                            }
                             textArea.setText("");
+//                        };p.submit(q);
                         }
 
 
@@ -1453,90 +1545,117 @@ public class C1comehere implements Serializable {
 
 
 
-                        else if (SDsaercDhdliaryf && !textArea.getText().trim().isEmpty()) {
+                        else if (SDsaercDhdliaryf && !textArea.getText().trim().isEmpty()) {Runnable q =() -> {
                             System.out.println("Dsaerchdliary");
-                            dhow2ForgDertlsf.searchehabins(textArea.getText().trim());
+                            dhow2ForgDertlsf.searchehabins(textArea.getText().trim());};p.submit(q);
                         }
 
-                           else if (SDislDoaldf ) {
+                           else if (SDislDoaldf ) {Runnable q =() -> {
                             System.out.println("Disloadl");
 
                             if (textArea.getText().equalsIgnoreCase("a")){
                                 dhow2ForgDertlsf.d();
                             } else {
                                 dhow2ForgDertlsf.fjlasdjfl();
-                            }
+                            }};p.submit(q);
                         }
 
-                           else if (SDldeleteCommandd_X ) {
+                           else if (SDldeleteCommandd_X ) {Runnable q =() -> {
                             System.out.println("Disloadl");
                             dhow2ForgDertlssf.fjlasdjfl();
-                        } else if (SDcodjDa_lx) {
+                        };p.submit(q);
+                        } else if (SDcodjDa_lx) {Runnable q =() -> {
                             System.out.println("Disloadl");
-                            dhow2ForgDertlssfs.load();
+                            try {
+                                dhow2ForgDertlssfs.load();
+                            } catch (UnknownHostException e1) {
+                                e1.printStackTrace();
+                            }
+                        };p.submit(q);
                         }
 
-                        else if (SDdleleteCoDmmand2f ) {
+                        else if (SDdleleteCoDmmand2f ) {Runnable q =() -> {
                             System.out.println("DdeletleCommand2");
                             dhow2ForgDertlsf.deltask();
-                            textArea.setText("");
-                        } else if (SDisHolw2ForegDertCommand_uf ) {
+                            textArea.setText("");};p.submit(q);
+                        } else if (SDisHolw2ForegDertCommand_uf ) {Runnable q =() -> {
                             System.out.println("DisHolw2ForegertCommand_u");
                             dhow2ForgDertlsf.updatetask();
                             textArea.setText("");
-                            How2Forgert.serialize();
-                        } else if (SDisHlow2ForeDgertCommandf ) {
+                            How2Forgert.serialize();};p.submit(q);
+                        } else if (SDisHlow2ForeDgertCommandf ) {Runnable q =() -> {
                             System.out.println("DisHlow2ForegertCommand");
-                            dhow2ForgDertlsf.inster(textArea.getText(), "");
-                            textArea.setText("");
-                            How2Forgert.serialize();
-                        } else if (SDisShowDColmmandf) {
-                            System.out.println("DislShowCommand");
-                            textArea.setText(takeC1toMe(textArea.getText()));
-                            frame.repaint();
-                            frame.toFront();
-                        } else if (null != DSsearclhDf ) {
-                            System.out.println("Dsearlch");
-                            search.setURI(searchTrs);
-                            Desktop.getDesktop().browse(search.getURI());
-                            logDictionary(search.searchName, search.keywords, search.getURIString());
-                            textArea.setText("");
-                        }  else if (SDisShowDColmmdandf ) {
-                            System.out.println("SDisShowDColmmdandf");
-                            System.out.println("Dsaerchdliary");
-                            dhow2ForgDertlsf.displayTask();
-                            textArea.setText("");
-                        }
-
-
-
-
-
-                        else if (b) {
-                            System.out.println("d");
-                            a.d();
-                        }
-
-
-
-                        else if (SDcodjDa_lxf) {
-                            System.out.println("asdf");
-                            j.d();
-                        }
-
-
-
-                        else {
                             try {
-                                insert();
-                            } catch (AWTException e1) {
+                                dhow2ForgDertlsf.inster(textArea.getText(), "");
+                            } catch (IOException e1) {
                                 e1.printStackTrace();
                             }
                             textArea.setText("");
+                            How2Forgert.serialize();};p.submit(q);
+                        } else if (SDisShowDColmmandf) {Runnable q =() -> {
+                            System.out.println("DislShowCommand");
+                            textArea.setText(takeC1toMe(textArea.getText()));
+                            frame.repaint();
+                            frame.toFront();};p.submit(q);
+                        } else if (null != DSsearclhDf ) {
+//                            Runnable q =() -> {
+                            System.out.println("Dsearlch");
+                            search.setURI(searchTrs);
+                            try {
+                                Desktop.getDesktop().browse(search.getURI());
+                            } catch (IOException e1) {
+                                e1.printStackTrace();
+                            }
+                            try {
+                                logDictionary(search.searchName, search.keywords, search.getURIString());
+                            } catch (IOException e1) {
+                                e1.printStackTrace();
+                            } catch (ParseException e1) {
+                                e1.printStackTrace();
+                            }
+                            textArea.setText("");
+//                        };
+// p.submit(q);
+                        }  else if (SDisShowDColmmdandf ) {Runnable q =() -> {
+                            System.out.println("SDisShowDColmmdandf");
+                            System.out.println("Dsaerchdliary");
+                            dhow2ForgDertlsf.displayTask();
+                            textArea.setText("");};p.submit(q);
                         }
-                    } catch (IOException e1) {
-                        e1.printStackTrace();
-                    } catch (ParseException e1) {
+
+
+
+
+
+                        else if (b) {Runnable q =() -> {
+                            System.out.println("d");
+                            a.d();};p.submit(q);
+                        }
+
+
+
+                        else if (SDcodjDa_lxf) {Runnable q =() -> {
+                            System.out.println("asdf");
+                            j.d();};p.submit(q);
+                        }
+
+
+
+                        else {Runnable q =() -> {
+                            try {
+                                try {
+                                    insert();
+                                } catch (IOException e1) {
+                                    e1.printStackTrace();
+                                } catch (ParseException e1) {
+                                    e1.printStackTrace();
+                                }
+                            } catch (AWTException e1) {
+                                e1.printStackTrace();
+                            }
+                            textArea.setText("");};p.submit(q);
+                        }
+                    } catch (Exception e1) {
                         e1.printStackTrace();
                     }
                 }
