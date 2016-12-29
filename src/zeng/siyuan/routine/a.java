@@ -1,6 +1,7 @@
 package zeng.siyuan.routine;
 
 import javax.swing.*;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by SiyuanZeng's on 9/14/2016.
@@ -44,6 +45,6 @@ public class a {
         inntuitive += "9. Survive";
         inntuitive += "\n";
         inntuitive += "10. Don't talk!";
-        textArea.setText(inntuitive);
+        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
     }
 }

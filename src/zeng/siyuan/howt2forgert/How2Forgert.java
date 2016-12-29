@@ -14,6 +14,7 @@ import java.io.IOException;
 import java.io.Serializable;
 import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.concurrent.TimeUnit;
 
 //Created by Real
 public class How2Forgert implements Serializable {
@@ -180,7 +181,7 @@ public class How2Forgert implements Serializable {
                                 }
                             }
                             inntuitive += System.getProperty("line.separator");
-                            textArea.setText(inntuitive);
+                            if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                         } else {
 
 
@@ -220,7 +221,7 @@ public class How2Forgert implements Serializable {
                                 }
                             }                                        inntuitive += System.getProperty("line.separator");
                             inntuitive += System.getProperty("line.separator");
-                            textArea.setText(inntuitive);
+                            if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                             Thread.sleep(10000);
                         }
                     } else if (!t.getIsDone() && t.getDate().before(new Date())) {
@@ -263,7 +264,7 @@ public class How2Forgert implements Serializable {
                                             isHow2ForegertCommand = buttonSelected.equalsIgnoreCase("ufgt") || buttonSelected.equalsIgnoreCase("deldiary");
                                         }
                                         inntuitive += System.getProperty("line.separator");
-                                        textArea.setText(inntuitive);
+                                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                                         inntuitive += System.getProperty("line.separator");
                                         while (!textArea.getText().trim().isEmpty() || !isHow2ForegertCommand) {
                                             try {
@@ -322,7 +323,7 @@ public class How2Forgert implements Serializable {
                     inntuitive +="\n";
                     inntuitive +="\n";
                     inntuitive+=e.question;
-                    textArea.setText(inntuitive);
+                    if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                     while (!textArea.getText().trim().equalsIgnoreCase("")) {
                         try {
                             Thread.sleep(10000);
@@ -368,7 +369,7 @@ public class How2Forgert implements Serializable {
                 e1.printStackTrace();
             }
         }
-        textArea.setText(inntuitive);
+        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
     }
 
     public void deltask() {

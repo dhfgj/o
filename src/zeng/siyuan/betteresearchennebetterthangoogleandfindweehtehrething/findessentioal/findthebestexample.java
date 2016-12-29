@@ -5,6 +5,7 @@ import zeng.siyuan.C1comehere.Search;
 import javax.swing.*;
 import java.awt.*;
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by SiyuanZeng's on 9/8/2016.
@@ -290,7 +291,7 @@ You can use hacker news intext:ycombinator to get results with ycombinator in th
         inntuitive += "(optional documentation)First step 1:c1cometome:this is what yourwelcome want:";
         inntuitive += "\n";
         inntuitive += "(optional everywhere)First step 1:c1cometome:this is what yourwelcome want:";
-        textArea.setText(inntuitive);
+        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
     }
     public static JTextArea textArea;
 

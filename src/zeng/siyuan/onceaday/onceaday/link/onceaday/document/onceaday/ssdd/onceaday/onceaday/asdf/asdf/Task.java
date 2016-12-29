@@ -7,7 +7,6 @@ import java.io.Serializable;
 import java.util.Comparator;
 import java.util.Date;
 import java.util.UUID;
-
 /**
  * Created by SiyuanZeng's on 8/9/2016.
  */

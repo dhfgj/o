@@ -11,6 +11,7 @@ import java.io.IOException;
 import java.io.Serializable;
 import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.concurrent.TimeUnit;
 
 import static java.awt.SystemColor.text;
 import static zeng.siyuan.reuseutil.r.openUrlInBrowser;
@@ -350,7 +351,7 @@ public class How2Forgert implements Serializable {
                                 if(asdf)break;
                             }
                         inntuitive += System.getProperty("line.separator");
-                        textArea.setText(inntuitive);
+                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                     } else if (!t.getIsDone() && t.getDate().before(new Date())) {
                         boolean found = false;
                         for (person_question e : ebbinghauses) {
@@ -404,7 +405,7 @@ public class How2Forgert implements Serializable {
                                         }
                                         inntuitive += e.text;
 
-                                        textArea.setText(inntuitive);
+                                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                                         found = true;
                                     }
                                     if (found) break;
@@ -450,7 +451,7 @@ public class How2Forgert implements Serializable {
                     inntuitive += (" found! " + count + "/" +searchtasks.size() + " " +keywords);
                     inntuitive +="\n";
                     inntuitive+=e.text;
-                    textArea.setText(inntuitive);
+                    if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                     while (!textArea.getText().trim().equalsIgnoreCase("")) {
                         try {
                             Thread.sleep(10000);

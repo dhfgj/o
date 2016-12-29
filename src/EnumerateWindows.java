@@ -1,9 +1,5 @@
 import com.sun.jna.Pointer;
-import com.sun.jna.ptr.PointerByReference;
-
-
-
-public class EnumerateWindows {
+import com.sun.jna.ptr.PointerByReference;public class EnumerateWindows {
     private static final int MAX_TITLE_LENGTH = 1024;
 
     public static void main(String[] args) throws Exception {

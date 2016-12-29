@@ -24,6 +24,7 @@ import java.net.UnknownHostException;
 import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import static java.awt.SystemColor.text;
 
@@ -469,7 +470,7 @@ public class How2Forgert implements Serializable {
                             if(asdf)break;
                         }
                         inntuitive += System.getProperty("line.separator");
-                        textArea.setText(inntuitive);
+                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                     } else if (!t.getIsDone() && t.getDate().before(new Date())) {
                         boolean found = false;
                         for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question e : ebbinghauses) {
@@ -545,7 +546,7 @@ public class How2Forgert implements Serializable {
                                         }
                                         inntuitive += e.text;
 
-                                        textArea.setText(inntuitive);
+                                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                                         found = true;
                                     }
                                     if (found) break;
@@ -935,7 +936,7 @@ public class How2Forgert implements Serializable {
                                 }
                             }
 //                            inntuitive += System.getProperty("line.separator");
-//                            textArea.setText(inntuitive);
+//                            if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                         }
 
 
@@ -979,7 +980,7 @@ public class How2Forgert implements Serializable {
 //                                        k.insertDocument("asfhkjashfkjashflAHSDLKJFALKDSJFQWERTYUIOPASDFGHJK", p);
 //
 
-//                                        textArea.setText(inntuitive);
+//                                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
 //                                        found = true;
 //                                    }
 //                                    if (found) break;
@@ -1061,7 +1062,7 @@ public class How2Forgert implements Serializable {
                     inntuitive += (" found! " + count + "/" +searchtasks.size() + " " +keywords);
                     inntuitive +="\n";
                     inntuitive+=e.text;
-                    textArea.setText(inntuitive);
+                    if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                     while (!textArea.getText().trim().equalsIgnoreCase("")) {
                         try {
                             Thread.sleep(10000);

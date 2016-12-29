@@ -23,6 +23,7 @@ import java.nio.channels.FileChannel;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.concurrent.TimeUnit;
 
 //import static zeng.siyuan.onceaday.onceaday.peoplequesiton.mapper;
 
@@ -473,7 +474,7 @@ logDictionary(
                                 }
                             }
 //                            inntuitive += System.getProperty("line.separator");
-//                            textArea.setText(inntuitive);
+//                            if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                     }
 
 
@@ -517,7 +518,7 @@ logDictionary(
 //                                        k.insertDocument("asfhkjashfkjashfl", p);
 //
 
-//                                        textArea.setText(inntuitive);
+//                                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
 //                                        found = true;
 //                                    }
 //                                    if (found) break;
@@ -597,7 +598,7 @@ logDictionary(
                     inntuitive += (" found! " + count + "/" +searchtasks.size() + " " +keywords);
                     inntuitive +="\n";
                     inntuitive+=e.text;
-                    textArea.setText(inntuitive);
+                    if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                     while (!textArea.getText().trim().equalsIgnoreCase("")) {
                         try {
                             Thread.sleep(10000);

@@ -7,6 +7,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.io.*;
 import java.util.*;
+import java.util.concurrent.TimeUnit;
 
 //Created by Real
 public class How2Forgert implements Serializable {
@@ -100,7 +101,7 @@ static int ou= 1;
                 ou=0;
                 }
 
-//                                    textArea.setText(inntuitive);
+//                                    if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
 
 // keep some mess thso that i can remember the mess i remember the mees that happen inthe application
         }
@@ -145,7 +146,7 @@ static int ou= 1;
 count --;
                                     r.open(e.getText());
 // something you have to remove i t ebeuse ti ti use lessa nd anoying the only thing ti woaserofapousedr oid t can forwk it is to wanopy you  and make things complex and instead of intuitively and directly and voivously
-//                                    textArea.setText(inntuitive);
+//                                    if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                                             break;
                                 }
                             }
@@ -173,7 +174,7 @@ count --;
 //
 //                                        Desktop.getDesktop().open(new File(e.getText()));
 //                                    }
-//                            textArea.setText(inntuitive);
+//                            if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                                             break;
                                 }
                             }
@@ -239,7 +240,7 @@ count --;
                     } catch (IOException e1) {
                         e1.printStackTrace();
                     }
-                    textArea.setText(inntuitive);
+                    if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                     while (!textArea.getText().trim().equalsIgnoreCase("")) {
                         try {
                             Thread.sleep(10000);

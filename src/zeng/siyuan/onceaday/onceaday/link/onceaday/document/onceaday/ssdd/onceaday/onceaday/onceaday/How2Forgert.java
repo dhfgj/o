@@ -8,6 +8,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.io.*;
 import java.util.*;
+import java.util.concurrent.TimeUnit;
 
 //Created by Real
 public class How2Forgert implements Serializable {
@@ -100,7 +101,7 @@ public class How2Forgert implements Serializable {
                                             m.deleteTask(e.getJavauid());
                                             m.store(e);
 //                                Desktop.getDesktop().open(new File(e.getQuestion()));
-                                    textArea.setText(inntuitive);
+                                    if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                                     r.open(e.getQuestion());
 
                                             break;
@@ -121,7 +122,7 @@ public class How2Forgert implements Serializable {
                                         m.deleteTask(e.getJavauid());
                                         m.store(e);
 
-                                        textArea.setText(inntuitive);
+                                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                                         r.open(e.getQuestion());
 //                                            if(r.isUrl(e.getQuestion())){
 //                                        r.openUrlInBrowser(e.getQuestion());
@@ -155,7 +156,7 @@ public class How2Forgert implements Serializable {
 //
 //                                    Desktop.getDesktop().open(new File(e.getQuestion()));
 //                                }
-                                textArea.setText(inntuitive);
+                                if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
 
                                 r.open(e.getQuestion());
                                         break;
@@ -193,7 +194,7 @@ public class How2Forgert implements Serializable {
                     } catch (IOException e1) {
                         e1.printStackTrace();
                     }
-                    textArea.setText(inntuitive);
+                    if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                     while (!textArea.getText().trim().equalsIgnoreCase("")) {
                         try {
                             Thread.sleep(10000);

@@ -9,6 +9,7 @@ import java.io.Serializable;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.*;
+import java.util.concurrent.TimeUnit;
 
 //Created by Real
 public class How2Forgert implements Serializable {
@@ -124,7 +125,7 @@ public class How2Forgert implements Serializable {
                                     }
                                 }
                             }
-                            textArea.setText(inntuitive);
+                            if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                             openUrlInBrowser(inntuitive);
                         } else {
                             String buttonSelected = getString();
@@ -154,7 +155,7 @@ public class How2Forgert implements Serializable {
                                     }
                                 }
                             }
-                            textArea.setText(inntuitive);
+                            if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                             openUrlInBrowser(inntuitive);
                             Thread.sleep(10000);
                         }
@@ -187,7 +188,7 @@ public class How2Forgert implements Serializable {
                                 }
                             }
                         }
-                        textArea.setText(inntuitive);
+                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                         openUrlInBrowser(inntuitive);
                     }
                 }
@@ -216,7 +217,7 @@ public class How2Forgert implements Serializable {
                 if (e.getJavauid().toString().equalsIgnoreCase(currentTaskSearch.getJavauuid().toString())) {
                     String inntuitive = "";
                     inntuitive += e.text;
-                    textArea.setText(inntuitive);
+                    if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                     while (!textArea.getText().trim().equalsIgnoreCase("")) {
                         try {
                             Thread.sleep(10000);

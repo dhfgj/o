@@ -5,6 +5,6 @@ package zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.finde
  */
 public class findtheeasiestexample {
 
-    //On this page, you’ll learn just enough to get started with NoSQL Apache Cassandra and Java, including how to install, try out some basic commands and what to do next.
+    //On this page, youï¿½ll learn just enough to get started with NoSQL Apache Cassandra and Java, including how to install, try out some basic commands and what to do next.
 
 }

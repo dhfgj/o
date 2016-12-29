@@ -6,6 +6,7 @@ import zeng.siyuan.reuseutil.r;
 import javax.swing.*;
 import java.awt.*;
 import java.net.URI;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by SiyuanZeng's on 9/8/2016.
@@ -56,7 +57,7 @@ public class findtheshortcut {
         inntuitive += "os:";
         inntuitive += "\n";
         inntuitive += "filetype:";
-        textArea.setText(inntuitive);
+        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
     }
 
     public static String predefined = "shortcut keyboard";

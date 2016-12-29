@@ -251,7 +251,7 @@ public class r {
         inntuitive +=  "(optional documentation)First step 1:c1cometome:this is what yourwelcome want";
         inntuitive +=  "\n";
         inntuitive +=  "(optional everywhere)First step 1:c1cometome:this is what yourwelcome want";
-        //  textArea.setText(inntuitive);
+        //  if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
     }
 
 

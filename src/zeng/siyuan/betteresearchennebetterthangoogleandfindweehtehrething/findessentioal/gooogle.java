@@ -5,6 +5,7 @@ import zeng.siyuan.reuseutil.r;
 import javax.swing.*;
 import java.awt.*;
 import java.net.URI;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by SiyuanZeng's on 9/14/2016.
@@ -40,7 +41,7 @@ public class gooogle {
         inntuitive += "info:"; inntuitive += "\n"; inntuitive += "Find one specific URL in the search database"; inntuitive += "\n\n";
         inntuitive += "cache:"; inntuitive += "\n"; inntuitive += "Show the cached snapshot of a page"; inntuitive += "\n\n";
         inntuitive += "stocks:"; inntuitive += "\n"; inntuitive += "Show American stockmarket information for a given ticker symbol"; inntuitive += "\n\n";
-        textArea.setText(inntuitive);
+        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
     }
     public static JTextArea textArea;
 

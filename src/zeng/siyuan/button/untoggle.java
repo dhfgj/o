@@ -4,13 +4,15 @@ package zeng.siyuan.button;
  * Created by SiyuanZeng's on 9/5/2016.
  */
 
-import  zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.findthebestexample;
+import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.findthebestexample;
 import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.findtheshortcut;
+import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.findtutroial.findtheshortcutyoutututouiral;
 import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.gooogle;
 import zeng.siyuan.routine.a;
-import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.findtutroial.findtheshortcutyoutututouiral;
+
 import javax.swing.*;
 import java.awt.*;
+import java.util.concurrent.TimeUnit;
 
 import static javax.swing.GroupLayout.Alignment.*;
 
@@ -109,7 +111,7 @@ public class untoggle {
 //        new untoggle();
     }
 
-    public untoggle(JFrame frame, JPanel panel, JTextArea jTextArea, JLabel label, Component scroll) {
+    public untoggle(JFrame frame, JPanel panel, JTextArea textArea, JLabel label, Component scroll) {
         EventQueue.invokeLater(new Runnable() {
             @Override
             public void run() {
@@ -143,7 +145,7 @@ public class untoggle {
                     inntuitive += "\n";
                     inntuitive += "sb :\n";
 
-                    jTextArea.setText(inntuitive);
+                    if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
 
 
                 });
@@ -159,7 +161,7 @@ public class untoggle {
 
                 // i need to textarea but i odn't have so i have to pass the parameter helel ot here
                 btn9.addActionListener(e -> {
-                    findthebestexample f = new findthebestexample(jTextArea);
+                    findthebestexample f = new findthebestexample(textArea);
                     f.returnshowsearchquetsry();
                 });
 
@@ -173,7 +175,7 @@ public class untoggle {
 
 // i need to textarea but i odn't have so i have to pass the parameter helel ot here
                 btnD9.addActionListener(e -> {
-                    findthebestexample f = new findthebestexample(jTextArea);
+                    findthebestexample f = new findthebestexample(textArea);
                     f.returnshowsearchquetsry();
                 });
 
@@ -195,7 +197,7 @@ public class untoggle {
 
 
                 btnD2.addActionListener(e -> {
-                    findtheshortcutyoutututouiral f = new findtheshortcutyoutututouiral(jTextArea);
+                    findtheshortcutyoutututouiral f = new findtheshortcutyoutututouiral(textArea);
                     f.returnshowsearchquetsry();
                 });
 
@@ -227,7 +229,7 @@ public class untoggle {
 
 
                 LbtnD2.addActionListener(e -> {
-                    findtheshortcut f = new findtheshortcut(jTextArea);
+                    findtheshortcut f = new findtheshortcut(textArea);
                     f.returnshowsearchquetsry();
                 });
 
@@ -255,7 +257,7 @@ public class untoggle {
 
 
                 LbDtnD2.addActionListener(e -> {
-                    gooogle f = new gooogle(jTextArea);
+                    gooogle f = new gooogle(textArea);
                     f.returnshowsearchquetsry();
                 });
 
@@ -275,7 +277,7 @@ public class untoggle {
 
 
                 LbSDtnD2.addActionListener(e -> {
-                    a f = new a(jTextArea);
+                    a f = new a(textArea);
                     f.returnshowsearchquetsry();
                 });
 
@@ -298,7 +300,7 @@ public class untoggle {
 
 
                 LbSDtnD2f.addActionListener(e -> {
-                    a f = new a(jTextArea);
+                    a f = new a(textArea);
                     f.returnshowsearchquetsry();
                 });
 
