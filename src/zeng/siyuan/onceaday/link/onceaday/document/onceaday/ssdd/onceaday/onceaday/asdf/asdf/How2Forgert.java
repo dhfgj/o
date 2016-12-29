@@ -243,7 +243,9 @@ public class How2Forgert implements Serializable {
 
 
             m.store(e);
-            sdfasd(e);
+            person_question finalE = e;
+            Runnable a = ()-> sdfasd(finalE);
+            a.run();
 //            reloadTAskandrestartPopThread();
 
 
