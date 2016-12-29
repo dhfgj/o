@@ -74,7 +74,7 @@ public class solr {
             }
         }
 
-        boolean deleteCommand = buttonSelected.contains("delete");
+        boolean deleteCommand = buttonSelected.equalsIgnoreCase("delete");
         boolean isShowCommand = buttonSelected.equalsIgnoreCase("sho");// shw
         boolean add = buttonSelected.equalsIgnoreCase("add");// shw
 
@@ -138,7 +138,7 @@ public int numItemsPerPage = 30;
             }
         }
 
-        boolean deleteCommand = buttonSelected.contains("delete");
+        boolean deleteCommand = buttonSelected.equalsIgnoreCase("delete");
         boolean isShowCommand = buttonSelected.equalsIgnoreCase("sho");// shw
         boolean add = buttonSelected.equalsIgnoreCase("add");// shw
 
@@ -198,7 +198,7 @@ public int numItemsPerPage = 30;
             }
         }
 
-        boolean deleteCommand = buttonSelected.contains("delete");
+        boolean deleteCommand = buttonSelected.equalsIgnoreCase("delete");
         boolean isShowCommand = buttonSelected.equalsIgnoreCase("sho");// shw
         boolean add = buttonSelected.equalsIgnoreCase("add");// shw
 
@@ -253,7 +253,7 @@ public int numItemsPerPage = 30;
             }
         }
 
-        boolean deleteCommand = buttonSelected.contains("delete");
+        boolean deleteCommand = buttonSelected.equalsIgnoreCase("delete");
         boolean isShowCommand = buttonSelected.equalsIgnoreCase("sho");// shw
         boolean add = buttonSelected.equalsIgnoreCase("add");// shw
 
@@ -307,7 +307,7 @@ public int numItemsPerPage = 30;
             }
         }
 
-        boolean deleteCommand = buttonSelected.contains("delete");
+        boolean deleteCommand = buttonSelected.equalsIgnoreCase("delete");
         boolean isShowCommand = buttonSelected.equalsIgnoreCase("sho");// shw
         boolean add = buttonSelected.equalsIgnoreCase("add");// shw
 
@@ -362,7 +362,7 @@ public int numItemsPerPage = 30;
             }
         }
 
-        boolean deleteCommand = buttonSelected.contains("delete");
+        boolean deleteCommand = buttonSelected.equalsIgnoreCase("delete");
         boolean isShowCommand = buttonSelected.equalsIgnoreCase("sho");// shw
         boolean add = buttonSelected.equalsIgnoreCase("add");// shw
 
@@ -416,7 +416,7 @@ public int numItemsPerPage = 30;
             }
         }
 
-        boolean deleteCommand = buttonSelected.contains("delete");
+        boolean deleteCommand = buttonSelected.equalsIgnoreCase("delete");
         boolean isShowCommand = buttonSelected.equalsIgnoreCase("sho");// shw
         boolean add = buttonSelected.equalsIgnoreCase("add");// shw
 
@@ -471,7 +471,7 @@ public int numItemsPerPage = 30;
             }
         }
 
-        boolean deleteCommand = buttonSelected.contains("delete");
+        boolean deleteCommand = buttonSelected.equalsIgnoreCase("delete");
         boolean isShowCommand = buttonSelected.equalsIgnoreCase("sho");// shw
         boolean add = buttonSelected.equalsIgnoreCase("add");// shw
 
@@ -567,7 +567,7 @@ public int numItemsPerPage = 30;
         }
         // women like to hear bad words because they sounds good
 
-        boolean deleteCommand = buttonSelected.contains("saerchdiarydallq");// source of truth it can be rwrong everythere , what if everything is wrong then how can i know
+        boolean deleteCommand = buttonSelected.equalsIgnoreCase("saerchdiarydallq");// source of truth it can be rwrong everythere , what if everything is wrong then how can i know
         boolean isShowCommand = buttonSelected.equalsIgnoreCase("sho");// shw
         boolean add = buttonSelected.equalsIgnoreCase("add");// shw
 

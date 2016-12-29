@@ -895,24 +895,25 @@ public class How2Forgert implements Serializable {
                                     // no problem
                                     // no love
 
-                                    if (inntuitive.length() > 3 && c1comehere.searchEngines.containsKey(inntuitive.substring(0, 3))) {
+//                                    if (inntuitive.length() > 3 && c1comehere.searchEngines.containsKey(inntuitive.substring(0, 3))) {
+//                                    if (inntuitive.length() > 3 && c1comehere.searchEngines.containsKey(inntuitive.substring(0, 3))) {
                                         String text = inntuitive.trim();
 
-                                        if (!text.isEmpty()) {
+                                        if (!r.isUrl(inntuitive) &&  !inntuitive.contains("c:/")) {
                                             Scanner in = new Scanner(text);
-                                            while (in.hasNext()) {
-                                                String line = in.nextLine();
-                                                if (line.length() > 4) {
-                                                    Search search = c1comehere.searchEngines.get(line.substring(0, 3));
-                                                    String searchTrs = line.substring(3);
-                                                    search.setURI(searchTrs);
+//                                            while (in.hasNext()) {
+//                                                String line = in.nextLine();
+//                                                if (line.length() > 4) {
+                                                    Search search = c1comehere.searchEngines.get("sg ");
+//                                                    String searchTrs = line.substring(3);
+                                                    search.setURI(text);
 
                                                     r.o(search.getURIString());
-                                                } else {
-                                                }
-                                            }
+//                                                } else {
+//                                                }
+//                                            }
                                         }
-                                    }
+//                                    }
 
 
                                     else if (r.isUrl(inntuitive) || inntuitive.contains("c:/")){
