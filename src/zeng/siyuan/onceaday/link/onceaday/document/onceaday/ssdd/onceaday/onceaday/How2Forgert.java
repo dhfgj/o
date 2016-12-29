@@ -124,7 +124,7 @@ static int ou= 1;
             } else {
                             int count = 5;
                 for (Task t : tasks) {
-                    if (t.getDate().after(new Date())) {
+                    if (!t.getIsDone()&& t.getDate().after(new Date())) {
                         Calendar calendar = Calendar.getInstance();
                         calendar.setTime(t.getDate());//1474356339826
                         long diff = calendar.getTimeInMillis() - Calendar.getInstance().getTimeInMillis();
@@ -137,6 +137,7 @@ static int ou= 1;
                             for (person_question e : ebbinghauses) {
                                 if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                                     inntuitive+=e.getText();
+                                    currentTask.isDone=true;
                                             m.deleteTask(e.getJavauid());
                                             e = new person_question(e.getText(),"ssdd", null);
                                             m.store(e);
@@ -161,6 +162,7 @@ count --;
                             for (person_question e : ebbinghauses) {
                                 if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                                     inntuitive+=e.getText();
+                                    currentTask.isDone=true;
                                     m.deleteTask(e.getJavauid());
                                             e = new person_question(e.getText(),"ssdd", null);
                                             m.store(e);
@@ -183,13 +185,14 @@ count --;
                             }
 //                            Thread.sleep(10000);
                         }
-                    } else if (t.getDate().before(new Date())) {
+                    } else if (!t.getIsDone()&& t.getDate().before(new Date())) {
                         frame.repaint();
                         frame.toFront();
                         currentTask = t;
                         String inntuitive = "";
                         for (person_question e : ebbinghauses) {
                             if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
+                                currentTask.isDone=true;
                                         inntuitive+=e.getText();
                                         m.deleteTask(e.getJavauid());
                                         e = new person_question(e.getText(),"ssdd", null);
