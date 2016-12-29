@@ -14,6 +14,7 @@ import java.io.IOException;
 import java.io.Serializable;
 import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.TimeUnit;
 
 //Created by Real
@@ -21,7 +22,7 @@ public class How2Forgert implements Serializable {
     public transient C1comehere c1comehere;
     public transient JTextArea textArea;
     public transient static Set<Ebbinghaus> ebbinghauses;
-    public transient ArrayList<Task> tasks = new ArrayList<Task>();
+    public transient CopyOnWriteArrayList<Task> tasks = new CopyOnWriteArrayList<Task>();
     public transient Task currentTask = new Task();
     public transient Display d;
     public transient Thread reloadandDisplayThread;
@@ -30,8 +31,8 @@ public class How2Forgert implements Serializable {
     public boolean isSearch;
     public boolean isSearchCombine;
     public int count=1;
-    private ArrayList<Ebbinghaus> searchebbinghauses;
-    private ArrayList<Task> searchtasks;
+    private CopyOnWriteArrayList<Ebbinghaus> searchebbinghauses;
+    private CopyOnWriteArrayList<Task> searchtasks;
     private Task currentTaskSearch;
     private String keywords;
 
@@ -120,7 +121,8 @@ public class How2Forgert implements Serializable {
                 System.out.println("updates");
                 isSearch=false;
                 isSearchCombine=false;
-                reloadTAskandrestartPopThread();
+                Runnable a = () -> reloadTAskandrestartPopThread();
+                a.run();
                 break;
             }
         }
@@ -281,7 +283,7 @@ public class How2Forgert implements Serializable {
                                             }
                                             isHow2ForegertCommand = buttonSelected.equalsIgnoreCase("ufgt") || buttonSelected.equalsIgnoreCase("deldiary");
                                         }
-                                        reloadTAskandrestartPopThread();
+//                                        reloadTAskandrestartPopThread();
                                     }
                                 }
                             }
@@ -443,9 +445,9 @@ public class How2Forgert implements Serializable {
                 ebbinghauses.add(s);
             }
 
-            searchebbinghauses = new ArrayList<Ebbinghaus>();
+            searchebbinghauses = new CopyOnWriteArrayList<Ebbinghaus>();
 
-            tasks = new ArrayList<Task>();
+            tasks = new CopyOnWriteArrayList<Task>();
 
                 keywords="what ? come everything nothing something ".trim();
                 String[] sts="what ? come everything nothing something ".trim().split(" ");
@@ -508,8 +510,8 @@ public class How2Forgert implements Serializable {
     public void searchehabins(String a) {
         textArea.setText("");
         ebbinghauses = m.get();
-        searchtasks = new ArrayList<Task>();
-        searchebbinghauses=new ArrayList<Ebbinghaus>();
+        searchtasks = new CopyOnWriteArrayList<Task>();
+        searchebbinghauses=new CopyOnWriteArrayList<Ebbinghaus>();
 
         keywords=a.trim();
         String[] sts=a.trim().split(" ");
@@ -544,8 +546,8 @@ public class How2Forgert implements Serializable {
     public void searchehabinsCombined(String a) {
         textArea.setText("");
         ebbinghauses = m.get();
-        searchtasks = new ArrayList<Task>();
-        searchebbinghauses=new ArrayList<Ebbinghaus>();
+        searchtasks = new CopyOnWriteArrayList<Task>();
+        searchebbinghauses=new CopyOnWriteArrayList<Ebbinghaus>();
 
         keywords=a.trim();
         String[] sts=a.trim().split(" ");
