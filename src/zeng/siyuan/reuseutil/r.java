@@ -215,7 +215,7 @@ public class r {
         } else {
             try {
                 Desktop.getDesktop().open(new File(s));
-            } catch (IOException e) {
+            } catch (Exception e) {
                 e.printStackTrace();
             }
         }
