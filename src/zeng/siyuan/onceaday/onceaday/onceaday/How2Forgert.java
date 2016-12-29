@@ -389,7 +389,7 @@ public class How2Forgert implements Serializable {
                                             ct.setIsDone(false);
 //                                                r.open(e.getText());
                                             ct.setDate(r.strifasld("60"));
-                                            textArea.setText(e.getText());
+                                            if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(e.getText());;
                                             frame.repaint();
                                             frame.toFront();
 
@@ -823,7 +823,7 @@ public class How2Forgert implements Serializable {
                                             AJKDSLJFLKJQWOIRULJDFLKJL.setIsDone(false);
 //                                                r.open(e.getText());
                                             AJKDSLJFLKJQWOIRULJDFLKJL.setDate(r.strifasld("60"));
-                                            textArea.setText(e.getText());
+                                            if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(e.getText());;
                                             frame.repaint();
                                             frame.toFront();
 
@@ -922,7 +922,7 @@ public class How2Forgert implements Serializable {
                                     }
 
                                     else {
-                                        textArea.setText(e.getText());
+                                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(e.getText());;
                                         frame.repaint();
                                         frame.toFront();
 

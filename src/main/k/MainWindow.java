@@ -235,7 +235,12 @@ public class MainWindow extends JFrame{
 				}
 			});
 		}
-		
+		// un necessary input will always cause problem slater like the tesxtarea.gsetText
+//		it is caussing heeaadache and
+		// it should be no less and no more, exact
+		// so that i have to clean it and make it mappehn  , it iwll lose my content and cuacsing junk, cand trash my real stuffs
+		// the world is me and the ad is invading me
+		// what about tothers what are they in my lifeo do i need them what is others affecting my thingking about tothers
 		return this.taskList;
 	}
 
