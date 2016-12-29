@@ -56,6 +56,8 @@ public class How2Forgert implements Serializable {
                 if (line.startsWith("C:") ||line.startsWith("http")) {
                     person_question e = new person_question(line, "Link", null);
                     m.store(e);
+                    Runnable l = ()->DAFSDF(e);
+                    l.run();
                     textArea.setText("");
                 } else {
                     textArea.setText("invalid input" + "\n" + line);
@@ -398,6 +400,24 @@ count --;
                 }
             }
         }
+        Collections.sort(tasks, new Task());
+    }
+
+    public void DAFSDF(person_question K) {
+
+//         loadfrom property
+//        ebbinghauses = (CopyOnWriteArrayList<person_question>) m.getlatest();
+//        tasks = new CopyOnWriteArrayList<Task>();
+//        for (person_question e : ebbinghauses) {
+//            if (e.text.replace("DuSDfLgt", "").trim().isEmpty()) {
+//                m.deleteTask(e.getJavauid());
+//            } else {
+                Set<Task> t = K.tasks;
+                for (Task task : t) {
+                    if (null !=task) tasks.add(task);
+                }
+//            }
+//        }
         Collections.sort(tasks, new Task());
     }
 
