@@ -7,14 +7,15 @@ import javax.swing.*;
 import java.awt.*;
 import java.io.*;
 import java.util.*;
+import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.TimeUnit;
 
 //Created by Real
 public class How2Forgert implements Serializable {
     public transient C1comehere c1comehere;
     public transient JTextArea textArea;
-    public transient static ArrayList<person_question> ebbinghauses;
-    public transient ArrayList<Task> tasks = new ArrayList<Task>();
+    public transient static CopyOnWriteArrayList<person_question> ebbinghauses;
+    public transient CopyOnWriteArrayList<Task> tasks = new CopyOnWriteArrayList<Task>();
     public transient Task currentTask = new Task();
     public transient Display d;
     public transient Thread reloadandDisplayThread;
@@ -23,8 +24,8 @@ public class How2Forgert implements Serializable {
     ;
     public boolean isSearch;
     public int count = 1;
-    private ArrayList<person_question> searchebbinghauses;
-    private ArrayList<Task> searchtasks;
+    private CopyOnWriteArrayList<person_question> searchebbinghauses;
+    private CopyOnWriteArrayList<Task> searchtasks;
     private Task currentTaskSearch;
     private String keywords;
     public static transient Properties jk;
@@ -385,8 +386,8 @@ count --;
     public void loadTask() {
 
         // loadfrom property
-        ebbinghauses = (ArrayList<person_question>) m.getlatest();
-        tasks = new ArrayList<Task>();
+        ebbinghauses = (CopyOnWriteArrayList<person_question>) m.getlatest();
+        tasks = new CopyOnWriteArrayList<Task>();
         for (person_question e : ebbinghauses) {
             if (e.text.replace("DuSDfLgt", "").trim().isEmpty()) {
                 m.deleteTask(e.getJavauid());
@@ -402,8 +403,8 @@ count --;
 
 
     public Date getdatelastday() {
-        ArrayList<person_question> ebbinghauses2 = (ArrayList<person_question>) m.getlatest();
-        ArrayList<DecendingTask> taskstemp = new ArrayList<DecendingTask>();
+        CopyOnWriteArrayList<person_question> ebbinghauses2 = (CopyOnWriteArrayList<person_question>) m.getlatest();
+        CopyOnWriteArrayList<DecendingTask> taskstemp = new CopyOnWriteArrayList<DecendingTask>();
         for (person_question e : ebbinghauses2) {
             if (e.text.replace("DuSDfLgt", "").trim().isEmpty()) {
                 m.deleteTask(e.getJavauid());
@@ -421,9 +422,9 @@ count --;
 
     public void searchehabins(String a) {
         textArea.setText("");
-        ebbinghauses = (ArrayList<person_question>) m.getlatest();
-        searchtasks = new ArrayList<Task>();
-        searchebbinghauses = new ArrayList<person_question>();
+        ebbinghauses = (CopyOnWriteArrayList<person_question>) m.getlatest();
+        searchtasks = new CopyOnWriteArrayList<Task>();
+        searchebbinghauses = new CopyOnWriteArrayList<person_question>();
 
         keywords = a.trim();
         String[] sts = a.trim().split(" ");
