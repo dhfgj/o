@@ -8,14 +8,15 @@ import javax.swing.*;
 import java.awt.*;
 import java.io.*;
 import java.util.*;
+import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.TimeUnit;
 
 //Created by Real
 public class How2Forgert implements Serializable {
     public transient C1comehere c1comehere;
     public transient JTextArea textArea;
-    public transient static ArrayList<person_question> ebbinghauses;
-    public transient ArrayList<Task> tasks = new ArrayList<Task>();
+    public transient static CopyOnWriteArrayList<person_question> ebbinghauses;
+    public transient CopyOnWriteArrayList<Task> tasks = new CopyOnWriteArrayList<Task>();
     public transient Task currentTask = new Task();
     public transient Display d;
     public transient Thread reloadandDisplayThread;
@@ -24,8 +25,8 @@ public class How2Forgert implements Serializable {
     ;
     public boolean isSearch;
     public int count = 1;
-    private ArrayList<person_question> searchebbinghauses;
-    private ArrayList<Task> searchtasks;
+    private CopyOnWriteArrayList<person_question> searchebbinghauses;
+    private CopyOnWriteArrayList<Task> searchtasks;
     private Task currentTaskSearch;
     private String keywords;
     public static transient Properties jk;
@@ -52,9 +53,11 @@ public class How2Forgert implements Serializable {
 
                     person_question e = new person_question(textArea.getText(), "Link");
                     m.store(e);
+Runnable l = ()-> DSF(e);
+l.run();
                     textArea.setText("");
         }
-        reloadTAskandrestartPopThread();
+//        reloadTAskandrestartPopThread();
     }
 
     public void fjlasdjfl(String KLAJDLFJASDFLJ) {
@@ -66,8 +69,10 @@ public class How2Forgert implements Serializable {
                     person_question e = new person_question(KLAJDLFJASDFLJ, "Link");
                     m.store(e);
 //                    textArea.setText("");
+            Runnable l = ()-> DSF(e);
+            l.run();
         }
-        reloadTAskandrestartPopThread();
+//        reloadTAskandrestartPopThread();
     }
 
     public How2Forgert(C1comehere c1comehere, JTextArea textArea, JFrame frame) {
@@ -118,11 +123,13 @@ public class How2Forgert implements Serializable {
 //                                    inntuitive+=e.getQuestion();
                                     currentTask.setIsDone(true);
                                     m.deleteTask(e.getJavauid());
-                                    m.store(e);
+                                    person_question D = new person_question(e.getQuestion(), "Link");
+
+                                    m.store(D);
 //                                Desktop.getDesktop().open(new File(e.getQuestion()));
 //                                    if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                                     r.open(e.getQuestion());
-                                    reloadTAskandrestartPopThread();
+//                                    reloadTAskandrestartPopThread();
 //duplicate
                                     break;
 
@@ -141,7 +148,9 @@ public class How2Forgert implements Serializable {
 //                                        inntuitive += e.getQuestion();
                                         currentTask.setIsDone(true);
                                         m.deleteTask(e.getJavauid());
-                                        m.store(e);
+                                        person_question D = new person_question(e.getQuestion(), "Link");
+
+                                        m.store(D);
 
 //                                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                                         r.open(e.getQuestion());
@@ -151,7 +160,7 @@ public class How2Forgert implements Serializable {
 //
 //                                        Desktop.getDesktop().open(new File(e.getQuestion()));
 //                                    }
-                                        reloadTAskandrestartPopThread();
+//                                        reloadTAskandrestartPopThread();
 
                                         break;
                                     }
@@ -171,7 +180,9 @@ public class How2Forgert implements Serializable {
                                 inntuitive += e.getQuestion();
                                 currentTask.setIsDone(true);
                                 m.deleteTask(e.getJavauid());
-                                m.store(e);
+                                person_question D = new person_question(e.getQuestion(), "Link");
+
+                                m.store(D);
 
 //                                if(r.isUrl(e.getQuestion())){
 //                                    r.openUrlInBrowser(e.getQuestion());
@@ -182,7 +193,7 @@ public class How2Forgert implements Serializable {
 //                                if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
 
                                 r.open(e.getQuestion());
-                                reloadTAskandrestartPopThread();
+//                                reloadTAskandrestartPopThread();
 
                                 break;
                             }
@@ -366,8 +377,8 @@ public class How2Forgert implements Serializable {
     public void loadTask() {
 
         // loadfrom property
-        ebbinghauses = (ArrayList<person_question>) m.getlatest();
-        tasks = new ArrayList<Task>();
+        ebbinghauses = (CopyOnWriteArrayList<person_question>) m.getlatest();
+        tasks = new CopyOnWriteArrayList<Task>();
         for (person_question e : ebbinghauses) {
             if (e.question.replace("DuSDfLgt", "").trim().isEmpty()) {
                 m.deleteTask(e.getJavauid());
@@ -382,9 +393,28 @@ public class How2Forgert implements Serializable {
     }
 
 
+    public void DSF(person_question k) {
+
+        // loadfrom property
+//        ebbinghauses = (CopyOnWriteArrayList<person_question>) m.getlatest();
+//        tasks = new CopyOnWriteArrayList<Task>();
+//        for (person_question e : ebbinghauses) {
+//            if (e.question.replace("DuSDfLgt", "").trim().isEmpty()) {
+//                m.deleteTask(e.getJavauid());
+//            } else {
+                Set<Task> t = k.tasks;
+                for (Task task : t) {
+                    if (null !=task) tasks.add(task);
+                }
+//            }
+//        }
+        Collections.sort(tasks, new Task());
+    }
+
+
     public Date getdatelastday() {
-        ArrayList<person_question> ebbinghauses2 = (ArrayList<person_question>) m.getlatest();
-        ArrayList<DecendingTask> taskstemp = new ArrayList<DecendingTask>();
+        CopyOnWriteArrayList<person_question> ebbinghauses2 = (CopyOnWriteArrayList<person_question>) m.getlatest();
+        CopyOnWriteArrayList<DecendingTask> taskstemp = new CopyOnWriteArrayList<DecendingTask>();
         for (person_question e : ebbinghauses2) {
             if (e.question.replace("DuSDfLgt", "").trim().isEmpty()) {
                 m.deleteTask(e.getJavauid());
@@ -402,9 +432,9 @@ public class How2Forgert implements Serializable {
 
     public void searchehabins(String a) {
         textArea.setText("");
-        ebbinghauses = (ArrayList<person_question>) m.getlatest();
-        searchtasks = new ArrayList<Task>();
-        searchebbinghauses = new ArrayList<person_question>();
+        ebbinghauses = (CopyOnWriteArrayList<person_question>) m.getlatest();
+        searchtasks = new CopyOnWriteArrayList<Task>();
+        searchebbinghauses = new CopyOnWriteArrayList<person_question>();
 
         keywords = a.trim();
         String[] sts = a.trim().split(" ");
