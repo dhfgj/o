@@ -1127,7 +1127,7 @@ public class How2Forgert implements Serializable {
                 } else {
                     Set<zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task> t = stasdfhalksfdjlkasdjflkaff1.getTasks();
                     for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task task : t) {
-                        tasks.add(task);
+                        if (null !=task) tasks.add(task);
                     }
                 }
             }

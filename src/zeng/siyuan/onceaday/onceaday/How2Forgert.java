@@ -663,7 +663,7 @@ logDictionary(
                 } else {
                     Set<Task> t = stasdfhalksfdjlkasdjflkaff1.tasks;
                     for (Task task : t) {
-                        tasks.add(task);
+                        if (null !=task) tasks.add(task);
                     }
                 }
             }

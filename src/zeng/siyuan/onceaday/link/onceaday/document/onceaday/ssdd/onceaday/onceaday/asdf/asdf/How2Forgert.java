@@ -243,7 +243,9 @@ public class How2Forgert implements Serializable {
 
 
             m.store(e);
-            reloadTAskandrestartPopThread();
+            sdfasd(e);
+//            reloadTAskandrestartPopThread();
+
 
         }
     }
@@ -582,10 +584,27 @@ public class How2Forgert implements Serializable {
             } else {
                 Set<Task> t = e.tasks;
                 for (Task task : t) {
-                    tasks.add(task);
+                    if (null !=task)if (null !=task) tasks.add(task);
                 }
             }
         }
+        Collections.sort(tasks, new Task());
+    }
+
+    public void sdfasd(person_question E) {
+//        ebbinghauses = (CopyOnWriteArrayList<person_question>) m.getlatest();
+//        tasks = new CopyOnWriteArrayList<Task>();
+//        for (person_question e : ebbinghauses) {
+//            if (e.text.replace("Dufgt", "").trim().isEmpty()){
+//                m.deleteTask(e.getJavauid());
+//            } else {
+                Set<Task> t = E.tasks;
+                for (Task task : t) {
+                    if (null !=task)
+                    if (null !=task) tasks.add(task);
+                }
+//            }
+//        }
         Collections.sort(tasks, new Task());
     }
 

@@ -44,7 +44,7 @@ public class loadolr extends Thread {
             } else {
                 Set<Task> t = e.tasks;
                 for (Task task : t) {
-                    tasks.add(task);
+                    if (null !=task) tasks.add(task);
                 }
             }
         }

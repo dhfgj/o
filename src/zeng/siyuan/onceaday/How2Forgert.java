@@ -264,7 +264,7 @@ public class How2Forgert implements Serializable {
             } else {
                 Set<Task> t = e.tasks;
                 for (Task task : t) {
-                    tasks.add(task);
+                    if (null !=task) tasks.add(task);
                 }
             }
         }
