@@ -122,7 +122,7 @@ public class How2Forgert implements Serializable {
 //                                    textArea.setText(inntuitive);
                                     r.open(e.getQuestion());
                                     reloadTAskandrestartPopThread();
-
+//duplicate
                                     break;
 
                                 }

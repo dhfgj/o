@@ -1,7 +1,6 @@
 package zeng.siyuan.C1comehere;
 
 import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.findthebestexample;
-import zeng.siyuan.reuseutil.r;
 
 import javax.swing.*;
 import java.net.URI;
@@ -56,9 +55,9 @@ public class Search {
             String normalizedaADFHJKALHK = keywords.replace(" ", "+");
 //            this.keywords = normalized;
 
-            r.o("http://www.thesaurus.com/browse/" + normalized +"?s=t");
-            r.o("http://www.urbandictionary.com/define.php?term=" +normalized);
-            r.o("http://www.bing.com/images/search?q=" +normalizedaADFHJKALHK );
+//            r.o("http://www.thesaurus.com/browse/" + normalized +"?s=t");
+//            r.o("http://www.urbandictionary.com/define.php?term=" +normalized);
+//            r.o("http://www.bing.com/images/search?q=" +normalizedaADFHJKALHK );
         }
 
 
