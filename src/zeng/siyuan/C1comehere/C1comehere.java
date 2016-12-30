@@ -1587,6 +1587,7 @@ b.run();
                         else if (SDcodjDa_lxf) {
                             System.out.println("asdf");
                             j.d();
+                            textArea.setText("");
                         }
 
 
