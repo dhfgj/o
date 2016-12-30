@@ -579,126 +579,191 @@ public class C1comehere implements Serializable {
         DatePicker.dateTimePicker(textArea);
 
 
-
-        if (null == how2Forgert) {
-            how2Forgert = new How2Forgert(c1comehere, textArea, frame);
-        }
-        how2Forgert.c1comehere = c1comehere;
-        how2Forgert.textArea = textArea;
-        how2Forgert.frame = frame;
-        try {
-            how2Forgert.init();
-        } catch (Exception e1) {
-            e1.printStackTrace();
-        }
-
-
-        if (null == dhow2Forgert) {
-            dhow2Forgert = new zeng.siyuan.onceaday.How2Forgert(c1comehere, textArea, frame);
-        }
-        dhow2Forgert.c1comehere = c1comehere;
-        dhow2Forgert.textArea = textArea;
-        dhow2Forgert.frame = frame;
-        dhow2Forgert.init();
+Runnable b =()-> {
+    if (null == how2Forgert) {
+        how2Forgert = new How2Forgert(c1comehere, textArea, frame);
+    }
+    how2Forgert.c1comehere = c1comehere;
+    how2Forgert.textArea = textArea;
+    how2Forgert.frame = frame;
+    try {
+        how2Forgert.init();
+    } catch (Exception e1) {
+        e1.printStackTrace();
+    }
 
 
-        if (null == dhow2Forgertl) {
-            dhow2Forgertl = new zeng.siyuan.onceaday.link.onceaday.How2Forgert(c1comehere, textArea, frame);
-        }
-        dhow2Forgertl.c1comehere = c1comehere;
-        dhow2Forgertl.textArea = textArea;
-        dhow2Forgertl.frame = frame;
-        dhow2Forgertl.init();
+    if (null == dhow2Forgert) {
+        dhow2Forgert = new zeng.siyuan.onceaday.How2Forgert(c1comehere, textArea, frame);
+    }
+    dhow2Forgert.c1comehere = c1comehere;
+    dhow2Forgert.textArea = textArea;
+    dhow2Forgert.frame = frame;
+    dhow2Forgert.init();
+
+
+    if (null == dhow2Forgertl) {
+        dhow2Forgertl = new zeng.siyuan.onceaday.link.onceaday.How2Forgert(c1comehere, textArea, frame);
+    }
+    dhow2Forgertl.c1comehere = c1comehere;
+    dhow2Forgertl.textArea = textArea;
+    dhow2Forgertl.frame = frame;
+    dhow2Forgertl.init();
+
+
+    if (null == dhow2ForgDertl) {
+        dhow2ForgDertl = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.How2Forgert(c1comehere, textArea, frame);
+    }
+    dhow2ForgDertl.c1comehere = c1comehere;
+    dhow2ForgDertl.textArea = textArea;
+    dhow2ForgDertl.frame = frame;
+    dhow2ForgDertl.init();
+
+
+    //init
+    c1s();
+    c1ds();
+
+    if (null == how2Forgert) {
+        how2Forgert = new How2Forgert(c1comehere, textArea, frame);
+    }
+    how2Forgert.c1comehere = c1comehere;
+    how2Forgert.textArea = textArea;
+    how2Forgert.frame = frame;
+    try {
+        how2Forgert.init();
+    } catch (Exception e) {
+        e.printStackTrace();
+    }
+
+
+    if (null == dhow2Forgert) {
+        dhow2Forgert = new zeng.siyuan.onceaday.How2Forgert(c1comehere, textArea, frame);
+    }
+    dhow2Forgert.c1comehere = c1comehere;
+    dhow2Forgert.textArea = textArea;
+    dhow2Forgert.frame = frame;
+    dhow2Forgert.init();
+
+
+    if (null == dhow2Forgertl) {
+        dhow2Forgertl = new zeng.siyuan.onceaday.link.onceaday.How2Forgert(c1comehere, textArea, frame);
+    }
+    dhow2Forgertl.c1comehere = c1comehere;
+    dhow2Forgertl.textArea = textArea;
+    dhow2Forgertl.frame = frame;
+    dhow2Forgertl.init();
+
+// the pateter are use to as a single entrypoint to do all the simuliar instantionation ao that i don't hwav eto rvcare mutlitpel thereat do the single thign sall toegher
+// desiagn patter are importnat
+
+
+    if (null == dhow2ForgDertl) {
+        dhow2ForgDertl= new zeng.siyuan.onceaday.link.onceaday.document.onceaday.How2Forgert(c1comehere, textArea, frame);
+    }
+    dhow2ForgDertl.c1comehere = c1comehere;
+    dhow2ForgDertl.textArea = textArea;
+    dhow2ForgDertl.frame = frame;
+    dhow2ForgDertl.init();
 
 
 
 
-        if (null == dhow2ForgDertl) {
-            dhow2ForgDertl= new zeng.siyuan.onceaday.link.onceaday.document.onceaday.How2Forgert(c1comehere, textArea, frame);
-        }
-        dhow2ForgDertl.c1comehere = c1comehere;
-        dhow2ForgDertl.textArea = textArea;
-        dhow2ForgDertl.frame = frame;
-        dhow2ForgDertl.init();
+
+
+    if (null == dhow2ForgDertls) {
+        dhow2ForgDertls= new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.How2Forgert(c1comehere, textArea, frame);
+    }
+    dhow2ForgDertls.c1comehere = c1comehere;
+    dhow2ForgDertls.textArea = textArea;
+    dhow2ForgDertls.frame = frame;
+    dhow2ForgDertls.init();
 
 
 
+    if (null == jd) {
+        jd= new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.asdf.How2Forgert(c1comehere, textArea, frame, jk);
+    }
+    jd.c1comehere = c1comehere;
+    jd.textArea = textArea;
+    jd.frame = frame;
+    jd.init();
 
 
-
-        if (null == dhow2ForgDertls) {
-            dhow2ForgDertls= new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.How2Forgert(c1comehere, textArea, frame);
-        }
-        dhow2ForgDertls.c1comehere = c1comehere;
-        dhow2ForgDertls.textArea = textArea;
-        dhow2ForgDertls.frame = frame;
-        dhow2ForgDertls.init();
-
+    if (null == dhow2ForgDertls) {
+        dhow2ForgDertls = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.How2Forgert(c1comehere, textArea, frame);
+    }
+    dhow2ForgDertls.c1comehere = c1comehere;
+    dhow2ForgDertls.textArea = textArea;
+    dhow2ForgDertls.frame = frame;
+    dhow2ForgDertls.init();
 
 
-        if (null == dhow2ForgDertlsf) {
-            dhow2ForgDertlsf= new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.How2Forgert(c1comehere, textArea, frame);
-        }
-        dhow2ForgDertlsf.c1comehere = c1comehere;
-        dhow2ForgDertlsf.textArea = textArea;
-        dhow2ForgDertlsf.frame = frame;
-        dhow2ForgDertlsf.init();
+    if (null == dhow2ForgDertlsf) {
+        dhow2ForgDertlsf = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.How2Forgert(c1comehere, textArea, frame);
+    }
+    dhow2ForgDertlsf.c1comehere = c1comehere;
+    dhow2ForgDertlsf.textArea = textArea;
+    dhow2ForgDertlsf.frame = frame;
+    dhow2ForgDertlsf.init();
 //https://www.bing.com/images/search?q=levels+of+knowledge&view=detailv2&id=92D057B6436E27DE427C557F2B3F0BC1FCF08076&selectedindex=40&ccid=2J%2FyDP%2BF&simid=608035630844741033&thid=OIP.Md89ff20cff85e64027ed1a4619ad5222o0&mode=overlay&first=1
 //https://www.bing.com/images/search?q=levels+of+knowledge&view=detailv2&id=544326E38B5C8BACF33671825C9F6FBEA2F3B261&selectedindex=37&ccid=0vSFX7zN&simid=608036378175213314&thid=OIP.Md2f4855fbccdc0a74b55d600bf40d3ebo0&mode=overlay&first=1
-        //https://www.bing.com/images/search?q=levels+of+knowledge&view=detailv2&id=AF69ED717CA25DF8D3A5A95F77A26B307F26F0A4&selectedindex=31&ccid=h3fxwKOo&simid=608002873133501346&thid=OIP.M8777f1c0a3a8408fa242f5a3f8628531o0&mode=overlay&first=1
-        //https://www.bing.com/images/search?q=levels+of+knowledge&view=detailv2&id=875D31716186C2DA9E044102B2AA99933875D54B&selectedindex=29&ccid=Kux%2FNLke&simid=608035424692078905&thid=OIP.M2aec7f34b91ef5b8a6ba0a7ee814f286H0&mode=overlay&first=1
-        //https://www.bing.com/images/search?q=levels+of+knowledge&view=detailv2&id=21685358F3EE1CE0D89090BE430EDB3FF9A3C323&selectedindex=28&ccid=BgO3zjKQ&simid=608010728633666851&thid=OIP.M0603b7ce3290a8801b1d1a701f00afdbH0&mode=overlay&first=1
-        //https://www.bing.com/images/search?q=levels+of+knowledge&view=detailv2&id=9EBC6A24B6C3E66B092D48FC3579F7D11757EFF2&selectedindex=24&ccid=yPQgbyLu&simid=608052626034133689&thid=OIP.Mc8f4206f22eea87101458bff63783d7bo0&mode=overlay&first=1
-        //https://www.bing.com/images/search?q=levels+of+knowledge&view=detailv2&id=B8227DBC3DC6E59C84DED97DC91B4268CDAA768A&selectedindex=21&ccid=Q1pzT4hW&simid=608018635667671210&thid=OIP.M435a734f88565425ece85040b216ef0eo0&mode=overlay&first=1
-        //https://www.bing.com/images/search?q=levels+of+knowledge&view=detailv2&id=B32E8FA36D743299954480DDA2213EB11F8FAD62&selectedindex=16&ccid=JvLmHwSU&simid=608050792082900271&thid=OIP.M26f2e61f0494c4335a95ccbd84da27b9o0&mode=overlay&first=1
-        //https://www.bing.com/images/search?q=levels+of+knowledge&view=detailv2&id=6703242720FAE0C35546BEB15F360DC41FD0876E&selectedindex=1&ccid=YV6m5ns3&simid=608025112469309866&thid=OIP.M615ea6e67b37c55f9dd18753ecf14b9do0&mode=overlay&first=1
-        //https://www.bing.com/images/search?q=levels+of+knowledge&view=detailv2&id=02A8AFA12A29E5CAB29173A89ABA85B53E3729E9&ccid=T8pnDMfT&simid=608033028096852866&thid=OIP.M4fca670cc7d332e9bd9db19a38860defH0&mode=overlay&first=1
+    //https://www.bing.com/images/search?q=levels+of+knowledge&view=detailv2&id=AF69ED717CA25DF8D3A5A95F77A26B307F26F0A4&selectedindex=31&ccid=h3fxwKOo&simid=608002873133501346&thid=OIP.M8777f1c0a3a8408fa242f5a3f8628531o0&mode=overlay&first=1
+    //https://www.bing.com/images/search?q=levels+of+knowledge&view=detailv2&id=875D31716186C2DA9E044102B2AA99933875D54B&selectedindex=29&ccid=Kux%2FNLke&simid=608035424692078905&thid=OIP.M2aec7f34b91ef5b8a6ba0a7ee814f286H0&mode=overlay&first=1
+    //https://www.bing.com/images/search?q=levels+of+knowledge&view=detailv2&id=21685358F3EE1CE0D89090BE430EDB3FF9A3C323&selectedindex=28&ccid=BgO3zjKQ&simid=608010728633666851&thid=OIP.M0603b7ce3290a8801b1d1a701f00afdbH0&mode=overlay&first=1
+    //https://www.bing.com/images/search?q=levels+of+knowledge&view=detailv2&id=9EBC6A24B6C3E66B092D48FC3579F7D11757EFF2&selectedindex=24&ccid=yPQgbyLu&simid=608052626034133689&thid=OIP.Mc8f4206f22eea87101458bff63783d7bo0&mode=overlay&first=1
+    //https://www.bing.com/images/search?q=levels+of+knowledge&view=detailv2&id=B8227DBC3DC6E59C84DED97DC91B4268CDAA768A&selectedindex=21&ccid=Q1pzT4hW&simid=608018635667671210&thid=OIP.M435a734f88565425ece85040b216ef0eo0&mode=overlay&first=1
+    //https://www.bing.com/images/search?q=levels+of+knowledge&view=detailv2&id=B32E8FA36D743299954480DDA2213EB11F8FAD62&selectedindex=16&ccid=JvLmHwSU&simid=608050792082900271&thid=OIP.M26f2e61f0494c4335a95ccbd84da27b9o0&mode=overlay&first=1
+    //https://www.bing.com/images/search?q=levels+of+knowledge&view=detailv2&id=6703242720FAE0C35546BEB15F360DC41FD0876E&selectedindex=1&ccid=YV6m5ns3&simid=608025112469309866&thid=OIP.M615ea6e67b37c55f9dd18753ecf14b9do0&mode=overlay&first=1
+    //https://www.bing.com/images/search?q=levels+of+knowledge&view=detailv2&id=02A8AFA12A29E5CAB29173A89ABA85B53E3729E9&ccid=T8pnDMfT&simid=608033028096852866&thid=OIP.M4fca670cc7d332e9bd9db19a38860defH0&mode=overlay&first=1
 
-        if (null == dhow2ForgDertlssf) {
-            dhow2ForgDertlssf= new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.onceaday.How2Forgert(c1comehere, textArea, frame);
-        }
-        dhow2ForgDertlssf.c1comehere = c1comehere;
-        dhow2ForgDertlssf.textArea = textArea;
-        dhow2ForgDertlssf.frame = frame;
-        dhow2ForgDertlssf.init();
-
-
-        if (null == dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG) {
-            dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG= new zeng.siyuan.onceaday.onceaday.onceaday.How2Forgert(c1comehere, textArea, frame);
-        }
-        dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.c1comehere = c1comehere;
-        dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.textArea = textArea;
-        dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.frame = frame;
-        dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.init();
-
-        if (null == dhow2ForgDertlssfs) {
-            dhow2ForgDertlssfs= new zeng.siyuan.onceaday.onceaday.How2Forgert(c1comehere, textArea, frame);
-        }
-        dhow2ForgDertlssfs.c1comehere = c1comehere;
-        dhow2ForgDertlssfs.textArea = textArea;
-        dhow2ForgDertlssfs.frame = frame;
-        dhow2ForgDertlssfs.init();
+    if (null == dhow2ForgDertlssf) {
+        dhow2ForgDertlssf = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.onceaday.How2Forgert(c1comehere, textArea, frame);
+    }
+    dhow2ForgDertlssf.c1comehere = c1comehere;
+    dhow2ForgDertlssf.textArea = textArea;
+    dhow2ForgDertlssf.frame = frame;
+    dhow2ForgDertlssf.init();
 
 
+    if (null == dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG) {
+        dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG = new zeng.siyuan.onceaday.onceaday.onceaday.How2Forgert(c1comehere, textArea, frame);
+    }
+    dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.c1comehere = c1comehere;
+    dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.textArea = textArea;
+    dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.frame = frame;
+    dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.init();
 
-        if (null == a) {
-            a= new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.How2Forgert(c1comehere, textArea, frame);
-        }
-        a.c1comehere = c1comehere;
-        a.textArea = textArea;
-        a.frame = frame;
-        a.init();
+    if (null == dhow2ForgDertlssfs) {
+        dhow2ForgDertlssfs = new zeng.siyuan.onceaday.onceaday.How2Forgert(c1comehere, textArea, frame);
+    }
+    dhow2ForgDertlssfs.c1comehere = c1comehere;
+    dhow2ForgDertlssfs.textArea = textArea;
+    dhow2ForgDertlssfs.frame = frame;
+    dhow2ForgDertlssfs.init();
 
 
-        if (null == j) {
-            j= new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.How2Forgert(c1comehere, textArea, frame);
-        }
-        j.c1comehere = c1comehere;
-        j.textArea = textArea;
-        j.frame = frame;
-        j.init();
+    if (null == a) {
+        a = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.How2Forgert(c1comehere, textArea, frame);
+    }
+    a.c1comehere = c1comehere;
+    a.textArea = textArea;
+    a.frame = frame;
+    a.init();
 
-        k();
+
+    if (null == j) {
+        j = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.How2Forgert(c1comehere, textArea, frame);
+    }
+    j.c1comehere = c1comehere;
+    j.textArea = textArea;
+    j.frame = frame;
+    j.init();
+
+
+    k();
+};
+b.run();
         k=pdrop.size();
 
 
@@ -1565,71 +1630,10 @@ public class C1comehere implements Serializable {
 
 
 //        SwingUtilities.invokeLater(() -> new buttons());
+//group domsthing toghet er can be good to organize and wrappert them together
 
-        //init
-        c1s();
-        c1ds();
-
-        if (null == how2Forgert) {
-            how2Forgert = new How2Forgert(c1comehere, textArea, frame);
-        }
-        how2Forgert.c1comehere = c1comehere;
-        how2Forgert.textArea = textArea;
-        how2Forgert.frame = frame;
-        how2Forgert.init();
-
-
-        if (null == dhow2Forgert) {
-            dhow2Forgert = new zeng.siyuan.onceaday.How2Forgert(c1comehere, textArea, frame);
-        }
-        dhow2Forgert.c1comehere = c1comehere;
-        dhow2Forgert.textArea = textArea;
-        dhow2Forgert.frame = frame;
-        dhow2Forgert.init();
-
-
-        if (null == dhow2Forgertl) {
-            dhow2Forgertl = new zeng.siyuan.onceaday.link.onceaday.How2Forgert(c1comehere, textArea, frame);
-        }
-        dhow2Forgertl.c1comehere = c1comehere;
-        dhow2Forgertl.textArea = textArea;
-        dhow2Forgertl.frame = frame;
-        dhow2Forgertl.init();
-
-
-
-
-        if (null == dhow2ForgDertl) {
-            dhow2ForgDertl= new zeng.siyuan.onceaday.link.onceaday.document.onceaday.How2Forgert(c1comehere, textArea, frame);
-        }
-        dhow2ForgDertl.c1comehere = c1comehere;
-        dhow2ForgDertl.textArea = textArea;
-        dhow2ForgDertl.frame = frame;
-        dhow2ForgDertl.init();
-
-
-
-
-
-
-        if (null == dhow2ForgDertls) {
-            dhow2ForgDertls= new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.How2Forgert(c1comehere, textArea, frame);
-        }
-        dhow2ForgDertls.c1comehere = c1comehere;
-        dhow2ForgDertls.textArea = textArea;
-        dhow2ForgDertls.frame = frame;
-        dhow2ForgDertls.init();
-
-
-
-        if (null == jd) {
-            jd= new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.asdf.How2Forgert(c1comehere, textArea, frame, jk);
-        }
-        jd.c1comehere = c1comehere;
-        jd.textArea = textArea;
-        jd.frame = frame;
-        jd.init();
-
+        // the in the realworld we also put something geother and organize the toegher i s organize the position who with whom and who wand sfhwat asdf
+        // oraganize and best perforamncae time and location matters i sjust move a butnch of code to ther runnable to turn them all toghet.
 
     }
 

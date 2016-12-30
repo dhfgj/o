@@ -7,10 +7,9 @@ import com.datastax.driver.mapping.Mapper;
 import com.datastax.driver.mapping.MappingManager;
 import com.datastax.driver.mapping.Result;
 
-import java.util.ArrayList;
 import java.util.Date;
-import java.util.List;
 import java.util.UUID;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
  * Created by SiyuanZeng's on 9/1/2016.
@@ -33,8 +32,8 @@ public class peoplequesiton {
         mapper = manager.mapper(person_question.class);
     }
 
-    public static List<person_question> getlatest() {
-        List<person_question> set = new ArrayList<person_question>();
+    public static CopyOnWriteArrayList<person_question> getlatest() {
+        CopyOnWriteArrayList<person_question> set = new CopyOnWriteArrayList<person_question>();
         person_question ps = new person_question();
         ResultSet results = session.execute("SELECT * FROM keyspace1." + PERSON_QUESTION1);
         Result<person_question> users = mapper.map(results);
