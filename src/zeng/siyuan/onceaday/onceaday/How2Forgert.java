@@ -23,6 +23,7 @@ import java.nio.channels.FileChannel;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.TimeUnit;
 
 //import static zeng.siyuan.onceaday.onceaday.peoplequesiton.mapper;
@@ -31,8 +32,8 @@ import java.util.concurrent.TimeUnit;
 public class How2Forgert implements Serializable {
     public transient C1comehere c1comehere;
     public transient JTextArea textArea;
-    public transient static ArrayList<person_question> ebbinghauses = new ArrayList<person_question>();
-    public transient ArrayList<Task> tasks = new ArrayList<Task>();
+    public transient static CopyOnWriteArrayList<person_question> ebbinghauses = new CopyOnWriteArrayList<person_question>();
+    public transient CopyOnWriteArrayList<Task> tasks = new CopyOnWriteArrayList<Task>();
     public transient Task currentTask = new Task();
     public transient Display d;
     public transient Thread reloadandDisplayThread;
@@ -40,8 +41,8 @@ public class How2Forgert implements Serializable {
 //    public peoplequesiton m = new peoplequesiton();;
     public boolean isSearch;
     public int count=1;
-    private ArrayList<person_question> searchebbinghauses;
-    private ArrayList<Task> searchtasks;
+    private CopyOnWriteArrayList<person_question> searchebbinghauses;
+    private CopyOnWriteArrayList<Task> searchtasks;
     private Task currentTaskSearch;
     private String keywords;
     ObjectMapper mapper = new ObjectMapper();
@@ -247,7 +248,7 @@ public class How2Forgert implements Serializable {
 //                        m.store(e);
                 // it is mind blowing and so much bad and thabad
                 ObjectMapper mapper = new ObjectMapper();
-
+j(e);
 //                            person_question staff = person_question();
 
                 try {
@@ -282,6 +283,9 @@ public class How2Forgert implements Serializable {
             }
 //            }
         }
+
+        Runnable a =()->Collections.sort(tasks, new Task());
+a.run();
     }
 
     public How2Forgert(C1comehere c1comehere, JTextArea textArea, JFrame frame) {
@@ -640,8 +644,8 @@ logDictionary(
             e.printStackTrace();
         }
 
-//        ebbinghauses = (ArrayList<person_question>) m.getlatest();
-        tasks = new ArrayList<Task>();
+//        ebbinghauses = (CopyOnWriteArrayList<person_question>) m.getlatest();
+        tasks = new CopyOnWriteArrayList<Task>();
         for (DBObject e : k) {
 
             String jsonInString = k.get(0).toString();
@@ -670,13 +674,50 @@ logDictionary(
         }
         Collections.sort(tasks, new Task());
     }
+    public void j(person_question s) {
+//        List<DBObject> k = null ;
+//        try {
+//            k = MongoDbHelper.getInstance().findAll("asfhkjashfkjashfl").toArray();
+//        } catch (UnknownHostException e) {
+//            e.printStackTrace();
+//        }
+//
+//        ebbinghauses = (CopyOnWriteArrayList<person_question>) m.getlatest();
+//        tasks = new CopyOnWriteArrayList<Task>();
+//        for (DBObject e : k) {
+//
+//            String jsonInString = k.get(0).toString();
+//            person_question stasdfhalksfdjlkasdjflkaff1 = null;
+//            try {
+//                mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
+//                mapper.setVisibilityChecker(VisibilityChecker.Std.defaultInstance().withFieldVisibility(JsonAutoDetect.Visibility.ANY));
+//
+//                stasdfhalksfdjlkasdjflkaff1 = mapper.readValue(e.toString(), person_question.class);
+//                ebbinghauses.add(stasdfhalksfdjlkasdjflkaff1);
+//            } catch (IOException e1) {
+//                e1.printStackTrace();
+//            }
+//
+//        }
+//            if (null != stasdfhalksfdjlkasdjflkaff1) {
+//                if (stasdfhalksfdjlkasdjflkaff1.text.replace("Dufgt", "").trim().isEmpty()) {
+//                m.deleteTask(e.getJavauid());
+//                } else {
+                    Set<Task> t = s.tasks;
+                    for (Task task : t) {
+                        if (null !=task) tasks.add(task);
+                    }
+//                }
+//            }
+//        }
+    }
 
 
     public Date getdatelastday() throws UnknownHostException {
-//        ArrayList<person_question> ebbinghauses2 = (ArrayList<person_question>) m.getlatest();
-        ArrayList<DecendingTask> taskstemp = new ArrayList<DecendingTask>();
+//        CopyOnWriteArrayList<person_question> ebbinghauses2 = (CopyOnWriteArrayList<person_question>) m.getlatest();
+        CopyOnWriteArrayList<DecendingTask> taskstemp = new CopyOnWriteArrayList<DecendingTask>();
 
-        taskstemp = new ArrayList<DecendingTask>();
+        taskstemp = new CopyOnWriteArrayList<DecendingTask>();
         List<DBObject> k = MongoDbHelper.getInstance().findAll("asfhkjashfkjashfl").toArray();
 //        List<DBObject> k = MongoDbHelper.getInstance().findAll("asfhkjashfkjashfl").sort(new BasicDBObject("date",1)).limit(1).toArray();
 
@@ -737,9 +778,9 @@ logDictionary(
 
 //    public void searchehabins(String a) {
 //        textArea.setText("");
-//        ebbinghauses = (ArrayList<person_question>) m.getlatest();
-//        searchtasks = new ArrayList<Task>();
-//        searchebbinghauses=new ArrayList<person_question>();
+//        ebbinghauses = (CopyOnWriteArrayList<person_question>) m.getlatest();
+//        searchtasks = new CopyOnWriteArrayList<Task>();
+//        searchebbinghauses=new CopyOnWriteArrayList<person_question>();
 //
 //        keywords=a.trim();
 //        String[] sts=a.trim().split(" ");

@@ -6,14 +6,15 @@ import javax.swing.*;
 import java.io.IOException;
 import java.io.Serializable;
 import java.util.*;
+import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.TimeUnit;
 
 //Created by Real
 public class How2Forgert implements Serializable {
     public transient C1comehere c1comehere;
     public transient JTextArea textArea;
-    public transient static ArrayList<person_question> ebbinghauses;
-    public transient ArrayList<Task> tasks = new ArrayList<Task>();
+    public transient static CopyOnWriteArrayList<person_question> ebbinghauses;
+    public transient CopyOnWriteArrayList<Task> tasks = new CopyOnWriteArrayList<Task>();
     public transient Task currentTask = new Task();
     public transient Display d;
     public transient Thread reloadandDisplayThread;
@@ -22,8 +23,8 @@ public class How2Forgert implements Serializable {
     ;
     public boolean isSearch;
     public int count = 1;
-    private ArrayList<person_question> searchebbinghauses;
-    private ArrayList<Task> searchtasks;
+    private CopyOnWriteArrayList<person_question> searchebbinghauses;
+    private CopyOnWriteArrayList<Task> searchtasks;
     private Task currentTaskSearch;
     private String keywords;
 
@@ -39,12 +40,15 @@ public class How2Forgert implements Serializable {
                 if (line.startsWith("C:")) {
                     person_question e = new person_question(line, "Link", getdatelastday());
                     m.store(e);
+l(e);
                     textArea.setText("");
                 } else {
                     textArea.setText("invalid input" + "\n" + str);
                 }
             }
         }
+        Runnable a = ()->Collections.sort(tasks, new Task());
+a.run();
     }
 
     public How2Forgert(C1comehere c1comehere, JTextArea textArea, JFrame frame) {
@@ -202,8 +206,8 @@ public class How2Forgert implements Serializable {
     }
 
     public void loadTask() {
-        ebbinghauses = (ArrayList<person_question>) m.getlatest();
-        tasks = new ArrayList<Task>();
+        ebbinghauses = (CopyOnWriteArrayList<person_question>) m.getlatest();
+        tasks = new CopyOnWriteArrayList<Task>();
         for (person_question e : ebbinghauses) {
             if (e.text.replace("DuDfLgt", "").trim().isEmpty()) {
                 m.deleteTask(e.getJavauid());
@@ -217,10 +221,25 @@ public class How2Forgert implements Serializable {
         Collections.sort(tasks, new Task());
     }
 
+    public void l(person_question h) {
+//        ebbinghauses = (CopyOnWriteArrayList<person_question>) m.getlatest();
+//        tasks = new CopyOnWriteArrayList<Task>();
+//        for (person_question e : ebbinghauses) {
+//            if (e.text.replace("DuDfLgt", "").trim().isEmpty()) {
+//                m.deleteTask(e.getJavauid());
+//            } else {
+                Set<Task> t = h.tasks;
+                for (Task task : t) {
+                    if (null !=task) tasks.add(task);
+                }
+//            }
+//        }
+    }
+
 
     public Date getdatelastday() {
-        ArrayList<person_question> ebbinghauses2 = (ArrayList<person_question>) m.getlatest();
-        ArrayList<DecendingTask> taskstemp = new ArrayList<DecendingTask>();
+        CopyOnWriteArrayList<person_question> ebbinghauses2 = (CopyOnWriteArrayList<person_question>) m.getlatest();
+        CopyOnWriteArrayList<DecendingTask> taskstemp = new CopyOnWriteArrayList<DecendingTask>();
         for (person_question e : ebbinghauses2) {
             if (e.text.replace("DuDfLgt", "").trim().isEmpty()) {
                 m.deleteTask(e.getJavauid());
@@ -238,9 +257,9 @@ public class How2Forgert implements Serializable {
 
     public void searchehabins(String a) {
         textArea.setText("");
-        ebbinghauses = (ArrayList<person_question>) m.getlatest();
-        searchtasks = new ArrayList<Task>();
-        searchebbinghauses = new ArrayList<person_question>();
+        ebbinghauses = (CopyOnWriteArrayList<person_question>) m.getlatest();
+        searchtasks = new CopyOnWriteArrayList<Task>();
+        searchebbinghauses = new CopyOnWriteArrayList<person_question>();
 
         keywords = a.trim();
         String[] sts = a.trim().split(" ");
