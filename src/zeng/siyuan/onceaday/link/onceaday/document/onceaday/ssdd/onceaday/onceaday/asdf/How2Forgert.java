@@ -267,6 +267,7 @@ a.run();
         ebbinghauses.add(pq);
         textArea.setText("");
     }
+    // i have to structure the application twhen i gr reachaethe r the performance limiteas na that is thwen i have to use all kind os technitques tot rweritebe bettewer perofmrance application
 
     public void loadTask() {
         ebbinghauses = (CopyOnWriteArrayList<person_question>) m.getlatest();
@@ -280,7 +281,7 @@ a.run();
                     if (null !=task) tasks.add(task);
                 }
             }
-        }
+        }// i move the all the instionation tot hte new theread and i use cocurrent copyonwriteAraylist and iw the applicaiton works mbetter
         Collections.sort(tasks, new Task());
     }
 

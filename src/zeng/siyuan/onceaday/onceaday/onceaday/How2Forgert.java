@@ -2,6 +2,7 @@ package zeng.siyuan.onceaday.onceaday.onceaday;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.core.JsonGenerationException;
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -798,7 +799,11 @@ public class How2Forgert implements Serializable {
                                 calendar.setTime(t.getDate());
 
                                 long diff = calendar.getTimeInMillis() - Calendar.getInstance().getTimeInMillis();
-                                Thread.sleep(diff);
+                                try {
+                                    Thread.sleep(diff);
+                                } catch (InterruptedException e1) {
+                                    e1.printStackTrace();
+                                }
 //                            while (!textArea.getText().trim().isEmpty()) {
 //                                Thread.sleep(10000);
 //                            }
@@ -806,9 +811,9 @@ public class How2Forgert implements Serializable {
 
                                 inntuitive += e.text;
 //                                            m.store(e);
-                                Date asdadfKJAHSLKFHASKJDHFKL= new Date();
-                                if (asdadfKJAHSLKFHASKJDHFKL.getTime() == AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime()) {
-                                    asdf = true;
+//                                Date asdadfKJAHSLKFHASKJDHFKL= new Date();
+//                                if (asdadfKJAHSLKFHASKJDHFKL.getTime() == AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime()) {
+//                                    asdf = true;
 
 /*
                                         if(e.type.equalsIgnoreCase("l")){
@@ -872,21 +877,35 @@ public class How2Forgert implements Serializable {
 //                                    }
 
 
-                                    String j = mapper.writeValueAsString(e);
-                                    System.out.println(j);
+                                String j = null;
+                                try {
+                                    j = mapper.writeValueAsString(e);
+                                } catch (JsonProcessingException e1) {
+                                    e1.printStackTrace();
+                                }
+//                                System.out.println(j);
 //                                    inntuitive = j;
 //                                    logDictionary(
 //                                            null, null, inntuitive
 //                                    );
                                     // Convert object to JSON string and pretty print
+                                try {
                                     j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
-                                    System.out.println(j);
+                                } catch (JsonProcessingException e1) {
+                                    e1.printStackTrace();
+                                }
+//                                System.out.println(j);
                                     DBObject p = (DBObject) JSON
                                             .parse(j);
 
 
-                                    MongoDbHelper k = MongoDbHelper.getInstance();
-                                    k.insertDocument("asfhkjashfkjashflAHSDLKJFALKDSJFQWERTYUIOPASDFGHJK", p);
+                                MongoDbHelper k = null;
+                                try {
+                                    k = MongoDbHelper.getInstance();
+                                } catch (UnknownHostException e1) {
+                                    e1.printStackTrace();
+                                }
+                                k.insertDocument("asfhkjashfkjashflAHSDLKJFALKDSJFQWERTYUIOPASDFGHJK", p);
 ///*
 // the bad thigs it hat you have to verfidy feveyrthing
                                     // you can't not count on the knowlwdage of existing code that is the woresdt case
@@ -938,7 +957,7 @@ public class How2Forgert implements Serializable {
 //                                        }
 //                                    }
                                 }
-                            }
+//                            }
 //                            inntuitive += System.getProperty("line.separator");
 //                            if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                         }
@@ -994,7 +1013,248 @@ public class How2Forgert implements Serializable {
 //                        }
 //                    }
                     }
-                }
+                    else if (!t.getIsDone() && t.getDate().before(new Date())) {
+//                        {
+//                        Calendar calendar = Calendar.getInstance();
+//                        calendar.setTime(t.getDate());
+
+//                        long diff = calendar.getTimeInMillis() - Calendar.getInstance().getTimeInMillis();
+//                            Thread.sleep(diff);
+//                            while (!textArea.getText().trim().isEmpty()) {
+//                                Thread.sleep(10000);
+//                            }
+
+//                            frame.repaint();
+//                            frame.toFront();
+                            AJKDSLJFLKJQWOIRULJDFLKJL = t;
+//                            String inntuitive = System.getProperty("line.separator");
+                            String inntuitive = "";
+
+                            boolean asdf = false;
+//                            inntuitive += (" Dufgt ");
+//                            inntuitive += System.getProperty("line.separator");
+                            for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question e : ebbinghauses) {
+                                if (e.getJavauid().toString().equalsIgnoreCase(AJKDSLJFLKJQWOIRULJDFLKJL.getJavauuid().toString())) {
+//                                    for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task ct : e.getTasks()) {
+//                                        if (ct.getDate().getTime() == AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime()) {
+//                                            ct.setIsDone(true);
+
+                                    Calendar calendar = Calendar.getInstance();
+                                    calendar.setTime(t.getDate());
+
+//                                    long diff = calendar.getTimeInMillis() - Calendar.getInstance().getTimeInMillis();
+//                                    Thread.sleep(diff);
+//                            while (!textArea.getText().trim().isEmpty()) {
+//                                Thread.sleep(10000);
+//                            }
+
+
+                                    inntuitive += e.text;
+//                                            m.store(e);
+//                                    Date asdadfKJAHSLKFHASKJDHFKL= new Date();
+//                                    if (asdadfKJAHSLKFHASKJDHFKL.getTime() == AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime()) {
+//                                        asdf = true;
+
+/*
+                                        if(e.type.equalsIgnoreCase("l")){
+                                            AJKDSLJFLKJQWOIRULJDFLKJL.setIsDone(false);
+//                                                r.open(e.getText());
+                                            AJKDSLJFLKJQWOIRULJDFLKJL.setDate(r.strifasld("30"));
+                                        } else
+
+                                        if(e.type.equalsIgnoreCase("ll")){
+                                            AJKDSLJFLKJQWOIRULJDFLKJL.setIsDone(false);
+//                                                r.open(e.getText());
+                                            AJKDSLJFLKJQWOIRULJDFLKJL.setDate(r.strifasld("60"));
+                                        } else
+
+                                        if(e.type.equalsIgnoreCase("c")){
+                                            AJKDSLJFLKJQWOIRULJDFLKJL.setIsDone(false);
+//                                                r.open(e.getText());
+                                            AJKDSLJFLKJQWOIRULJDFLKJL.setDate(r.strifasld("60"));
+                                            if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(e.getText());;
+                                            frame.repaint();
+                                            frame.toFront();
+
+                                            Robot r = new Robot();
+                                            int D = KeyEvent.VK_CONTROL;
+                                            int Da = KeyEvent.VK_ENTER;
+//                                                int Da = KeyEvent.VK_SHIFT;
+//                                                int Dc = KeyEvent.VK_F11;
+                                            r.keyPress(D);
+                                            r.keyPress(Da);
+//                                                r.keyPress(Dc);
+
+                                            r.keyRelease(D);
+                                            r.keyRelease(Da);
+//                                                r.keyRelease(Dc);
+
+
+
+                                        } else
+
+                                        if(e.type.equalsIgnoreCase("j")){
+                                            AJKDSLJFLKJQWOIRULJDFLKJL.setIsDone(false);
+                                            AJKDSLJFLKJQWOIRULJDFLKJL.setDate(r.h(AJKDSLJFLKJQWOIRULJDFLKJL.getDate()));
+                                        } else
+
+
+                                        if(e.type.equalsIgnoreCase("dd")){
+                                            AJKDSLJFLKJQWOIRULJDFLKJL.setIsDone(false);
+                                            AJKDSLJFLKJQWOIRULJDFLKJL.setDate(r.k(AJKDSLJFLKJQWOIRULJDFLKJL.getDate()));
+                                        } else
+
+
+                                        if(e.type.equalsIgnoreCase("d")) {
+                                            AJKDSLJFLKJQWOIRULJDFLKJL.setIsDone(false);
+                                            AJKDSLJFLKJQWOIRULJDFLKJL.setDate(r.l(AJKDSLJFLKJQWOIRULJDFLKJL.getDate()));
+                                        }
+
+
+                                        else {*/
+                                        AJKDSLJFLKJQWOIRULJDFLKJL.setIsDone(true);
+//                                        }
+//                                    }
+
+
+                                    String j = null;
+                                    try {
+                                        j = mapper.writeValueAsString(e);
+                                    } catch (JsonProcessingException e1) {
+                                        e1.printStackTrace();
+                                    }
+//                                        System.out.println(j);
+//                                    inntuitive = j;
+//                                    logDictionary(
+//                                            null, null, inntuitive
+//                                    );
+                                        // Convert object to JSON string and pretty print
+                                    try {
+                                        j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+                                    } catch (JsonProcessingException e1) {
+                                        e1.printStackTrace();
+                                    }
+//                                        System.out.println(j);
+                                        DBObject p = (DBObject) JSON
+                                                .parse(j);
+
+
+                                    MongoDbHelper k = null;
+                                    try {
+                                        k = MongoDbHelper.getInstance();
+                                    } catch (UnknownHostException e1) {
+                                        e1.printStackTrace();
+                                    }
+                                    k.insertDocument("asfhkjashfkjashflAHSDLKJFALKDSJFQWERTYUIOPASDFGHJK", p);
+///*
+// the bad thigs it hat you have to verfidy feveyrthing
+                                        // you can't not count on the knowlwdage of existing code that is the woresdt case
+
+                                        // you can count on me
+                                        // you can count on my knowledge and don't waorry about ti
+                                        // hwere is the knowlweeg
+                                        // the knowlwedge is that you knowe le ther eproblem
+                                        // the problem i shte love
+                                        // the problem is the love
+                                        // no problem
+                                        // no love
+
+//                                    if (inntuitive.length() > 3 && c1comehere.searchEngines.containsKey(inntuitive.substring(0, 3))) {
+//                                    if (inntuitive.length() > 3 && c1comehere.searchEngines.containsKey(inntuitive.substring(0, 3))) {
+                                        String text = inntuitive.trim();
+
+                                        if (!r.isUrl(inntuitive) &&  !inntuitive.contains("c:/")) {
+                                            Scanner in = new Scanner(text);
+//                                            while (in.hasNext()) {
+//                                                String line = in.nextLine();
+//                                                if (line.length() > 4) {
+                                            Search search = c1comehere.searchEngines.get("sg ");
+//                                                    String searchTrs = line.substring(3);
+                                            search.setURI(text);
+
+                                            r.o(search.getURIString());
+//                                                } else {
+//                                                }
+//                                            }
+                                        }
+//                                    }
+
+
+                                        else if (r.isUrl(inntuitive) || inntuitive.contains("c:/")){
+                                            r.open(inntuitive);
+                                        }
+
+                                        else {
+                                            if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(e.getText());;
+                                            frame.repaint();
+                                            frame.toFront();
+
+                                        }
+
+//*/
+
+
+//                                        }
+//                                    }
+                                    }
+                                }
+//                            inntuitive += System.getProperty("line.separator");
+//                            if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
+                            }
+
+
+//                    else if (!t.getIsDone() && t.getDate().before(new Date())) {
+//                        boolean found = false;
+//                        for (person_question e : ebbinghauses) {
+//                            if (e.getJavauid().toString().equalsIgnoreCase(t.getJavauuid().toString())) {
+//                                for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task ct : e.getTasks()) {
+//                                    if (!ct.isDone) {
+//
+//                                        while (!textArea.getText().trim().isEmpty()) {
+//                                            Thread.sleep(10000);
+//                                        }
+//                                        frame.repaint();
+//                                        frame.toFront();
+//                                        AJKDSLJFLKJQWOIRULJDFLKJL = t;
+//                                        String inntuitive = System.getProperty("line.separator");
+//                                        inntuitive += (" Dufgt ");
+//                                        inntuitive += System.getProperty("line.separator");
+//                                        inntuitive += System.getProperty("line.separator");
+//
+//                                        ct.setIsDone(true);
+//                                        inntuitive += e.text;
+//
+//                                        m.store(e);
+//
+//                                        String j = mapper.writeValueAsString(e);
+//                                        System.out.println(j);
+//
+//                                         Convert object to JSON string and pretty print
+//                                        j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+//                                        System.out.println(j);
+//                                        DBObject p = (DBObject) JSON
+//                                                .parse(j);
+//
+//                                        inntuitive=j;
+//                                        logDictionary(
+//                                                null, null, j
+//                                        );
+//                                        MongoDbHelper k= MongoDbHelper.getInstance();
+//                                        k.insertDocument("asfhkjashfkjashflAHSDLKJFALKDSJFQWERTYUIOPASDFGHJK", p);
+//
+
+//                                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
+//                                        found = true;
+//                                    }
+//                                    if (found) break;
+//                                }
+//                            }
+//                            if (found) break;
+//                        }
+//                    }
+                        }
+//                    }
+//                }
             }
         }catch(Exception e){
                 e.printStackTrace();
