@@ -1580,7 +1580,13 @@ b.run();
                         else if (b) {
                             System.out.println("d");
                             a.d();
-                        }
+                        }// a lot of time shte application doesn't work as i expected and i think it is because that i didn't test it and write the test for it
+
+                        // write and read formt he textarea
+                        // time schedule
+                        // database read
+                        //concurrency exmaple
+                        //
 
 
 
