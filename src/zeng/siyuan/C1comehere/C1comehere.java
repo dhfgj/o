@@ -12,7 +12,6 @@ import zeng.siyuan.button.untoggle;
 import zeng.siyuan.howt2forgert.How2Forgert;
 import zeng.siyuan.iamhere.what.dk;
 import zeng.siyuan.k.JTextAreaExample;
-import zeng.siyuan.reuseutil.r;
 import zeng.siyuan.solr.test.param.dao.SolrDataDAO;
 import zeng.siyuan.youknowwhat.YouKnowWhat;
 
@@ -1101,7 +1100,7 @@ b.run();
                                         searchTrs = line.substring(3);
                                         search.setURI(searchTrs);
 
-                                        r.o(search.getURIString());
+//                                        r.o(search.getURIString());
 
                                         if (search.searchName.equalsIgnoreCase("Dictionary")) {
                                             String normalized = searchTrs.replace(" ", "%20");
@@ -1157,6 +1156,7 @@ b.run();
                                             dhow2ForgDertlssf.fjlasdjfl("http://www.urbandictionary.com/define.php?term=" +normalized);
                                             dhow2ForgDertlssf.fjlasdjfl("http://www.bing.com/images/search?q=" +normalizedaADFHJKALHK );
                                             dhow2ForgDertlssf.fjlasdjfl("http://www.dictionary.com/browse/" +normalizedaADFHJKALHK +"?s=t");
+                              textArea.setText("");
                                         }
 
 //                                        dhow2ForgDertlssf.fjlasdjfl(search.getURIString());
