@@ -371,7 +371,7 @@ public class How2Forgert implements Serializable {
                             boolean asdf= false;
                             if (e.getJavauid().toString().equalsIgnoreCase(AJKDSLJFLKJQWOIRULJDFLKJL.getJavauuid().toString())) {
                                 for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task ct : e.getTasks()) {
-                                    if (ct.getDate().getTime() == AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime()) {
+                                    if (null != ct && ct.getDate().getTime() == AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime()) {
                                         asdf = true;
 
 
@@ -592,11 +592,11 @@ public class How2Forgert implements Serializable {
 
                     // Convert object to JSON string
                     String j = mapper.writeValueAsString(e);
-                    System.out.println(j);
+//                    System.out.println(j);
 
                     // Convert object to JSON string and pretty print
                     j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
-                    System.out.println(j);
+//                    System.out.println(j);
                     DBObject p = (DBObject) JSON
                             .parse(j);
 
@@ -606,7 +606,7 @@ public class How2Forgert implements Serializable {
                     Runnable ks = ()->LKJ(e);
                     ks.run();
 //                    reloadTAskandrestartPopThread();
-
+textArea.setText("");
 
                 } catch (JsonGenerationException p) {
                     p.printStackTrace();
@@ -767,10 +767,11 @@ public class How2Forgert implements Serializable {
             if (isSearch) {
                 displaysearchtasks();
             } else {
-                for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task t : tasks) {
-                    SimpleDateFormat fmt = new SimpleDateFormat("yyyyMMdd");
+                for (int l=0; l<tasks.size(); l++) {
+                    zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task t = tasks.get(l);
+//                    SimpleDateFormat fmt = new SimpleDateFormat("yyyyMMdd");
 //                    if (!t.getIsDone() && (new Date()).compareTo(t.getDate()) > 0) {
-                    if (!t.getIsDone() && t.getDate().after(new Date())) {
+                    if ( null != t && !t.getIsDone() && t.getDate().after(new Date())) {
 //                        Calendar calendar = Calendar.getInstance();
 //                        calendar.setTime(t.getDate());
 
@@ -786,10 +787,11 @@ public class How2Forgert implements Serializable {
 //                            String inntuitive = System.getProperty("line.separator");
                         String inntuitive = "";
 
-                        boolean asdf = false;
+//                        boolean asdf = false;
 //                            inntuitive += (" Dufgt ");
 //                            inntuitive += System.getProperty("line.separator");
-                        for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question e : ebbinghauses) {
+                        for (int d =0; d<ebbinghauses.size(); d++) {
+                            zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question e = ebbinghauses.get(d);
                             if (e.getJavauid().toString().equalsIgnoreCase(AJKDSLJFLKJQWOIRULJDFLKJL.getJavauuid().toString())) {
 //                                    for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task ct : e.getTasks()) {
 //                                        if (ct.getDate().getTime() == AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime()) {
@@ -797,7 +799,8 @@ public class How2Forgert implements Serializable {
 
                                 Calendar calendar = Calendar.getInstance();
                                 calendar.setTime(t.getDate());
-
+// databse has effictient because ther ei smapping existing and decicde whehte rot put them in the same tpalbe or oto babaract them and pmap
+                                // abstraction vs mapping
                                 long diff = calendar.getTimeInMillis() - Calendar.getInstance().getTimeInMillis();
                                 try {
                                     Thread.sleep(diff);
@@ -872,10 +875,9 @@ public class How2Forgert implements Serializable {
 
 
                                         else {*/
-                                    AJKDSLJFLKJQWOIRULJDFLKJL.setIsDone(true);
+//                                    AJKDSLJFLKJQWOIRULJDFLKJL.setIsDone(true);
 //                                        }
 //                                    }
-
 
                                 String j = null;
                                 try {
@@ -905,8 +907,11 @@ public class How2Forgert implements Serializable {
                                 } catch (UnknownHostException e1) {
                                     e1.printStackTrace();
                                 }
-                                k.insertDocument("asfhkjashfkjashflAHSDLKJFALKDSJFQWERTYUIOPASDFGHJK", p);
-///*
+//                                k.insertDocument("asfhkjashfkjashflAHSDLKJFALKDSJFQWERTYUIOPASDFGHJK", p);
+k.removeDocument("asfhkjashfkjashflAHSDLKJFALKDSJFQWERTYUIOPASDFGHJK", p);
+ebbinghauses.remove(d);
+tasks.remove(l);
+                                ///*
 // the bad thigs it hat you have to verfidy feveyrthing
                                     // you can't not count on the knowlwdage of existing code that is the woresdt case
 
@@ -1033,14 +1038,15 @@ public class How2Forgert implements Serializable {
                             boolean asdf = false;
 //                            inntuitive += (" Dufgt ");
 //                            inntuitive += System.getProperty("line.separator");
-                            for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question e : ebbinghauses) {
+                            for (int d =0 ; d< ebbinghauses.size(); d++) {
+                                zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question e = ebbinghauses.get(d);
                                 if (e.getJavauid().toString().equalsIgnoreCase(AJKDSLJFLKJQWOIRULJDFLKJL.getJavauuid().toString())) {
 //                                    for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task ct : e.getTasks()) {
 //                                        if (ct.getDate().getTime() == AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime()) {
 //                                            ct.setIsDone(true);
 
-                                    Calendar calendar = Calendar.getInstance();
-                                    calendar.setTime(t.getDate());
+//                                    Calendar calendar = Calendar.getInstance();
+//                                    calendar.setTime(t.getDate());
 
 //                                    long diff = calendar.getTimeInMillis() - Calendar.getInstance().getTimeInMillis();
 //                                    Thread.sleep(diff);
@@ -1112,8 +1118,8 @@ public class How2Forgert implements Serializable {
 
 
                                         else {*/
-                                        AJKDSLJFLKJQWOIRULJDFLKJL.setIsDone(true);
 //                                        }
+//                                        AJKDSLJFLKJQWOIRULJDFLKJL.setIsDone(true);
 //                                    }
 
 
@@ -1145,8 +1151,10 @@ public class How2Forgert implements Serializable {
                                     } catch (UnknownHostException e1) {
                                         e1.printStackTrace();
                                     }
-                                    k.insertDocument("asfhkjashfkjashflAHSDLKJFALKDSJFQWERTYUIOPASDFGHJK", p);
-///*
+//                                    k.insertDocument("asfhkjashfkjashflAHSDLKJFALKDSJFQWERTYUIOPASDFGHJK", p);
+                                    k.removeDocument("asfhkjashfkjashflAHSDLKJFALKDSJFQWERTYUIOPASDFGHJK", p);
+                                    ebbinghauses.remove(d);
+                                    tasks.remove(l);                                    ///*
 // the bad thigs it hat you have to verfidy feveyrthing
                                         // you can't not count on the knowlwdage of existing code that is the woresdt case
 

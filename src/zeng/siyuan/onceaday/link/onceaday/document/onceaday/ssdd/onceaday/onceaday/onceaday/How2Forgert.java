@@ -135,7 +135,8 @@ l.run();
 
                                 }
                             }
-                        } else {
+                        }
+                        /*else {
                             if (!t.getIsDone()) {
 //                                frame.repaint();
 //                                frame.toFront();
@@ -167,7 +168,7 @@ l.run();
                                 }
 //                                Thread.sleep(10000);
                             }
-                        }
+                        }*/
                     } else if (t.getDate().before(new Date()) && !t.getIsDone()) {
 //                        frame.repaint();
 //                        frame.toFront();
