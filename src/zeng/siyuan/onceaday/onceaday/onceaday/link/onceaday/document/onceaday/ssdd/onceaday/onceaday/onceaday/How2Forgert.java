@@ -554,7 +554,7 @@ public class How2Forgert implements Serializable {
                                 if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                                     inntuitive+=e.getQuestion();
                                     currentTask.setIsDone(true);
-                                            m.deleteTask(e.getJavauid());
+//                                            m.deleteTask(e.getJavauid());
                                             m.store(e);
 //                                Desktop.getDesktop().open(new File(e.getQuestion()));
                                     if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
@@ -575,7 +575,7 @@ public class How2Forgert implements Serializable {
                                     if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                                         inntuitive += e.getQuestion();
                                         currentTask.setIsDone(true);
-                                        m.deleteTask(e.getJavauid());
+//                                        m.deleteTask(e.getJavauid());
                                         m.store(e);
 
                                         if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
@@ -603,7 +603,7 @@ public class How2Forgert implements Serializable {
                             if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                                         inntuitive+=e.getQuestion();
                                         currentTask.setIsDone(true);
-                                        m.deleteTask(e.getJavauid());
+//                                        m.deleteTask(e.getJavauid());
                                         m.store(e);
 
 //                                if(r.isUrl(e.getQuestion())){

@@ -138,7 +138,7 @@ static int ou= 1;
                                 if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                                     inntuitive+=e.getText();
                                     currentTask.isDone=true;
-                                            m.deleteTask(e.getJavauid());
+//                                            m.deleteTask(e.getJavauid());
                                             e = new person_question(e.getText(),"ssdd", null);
                                             m.store(e);
 //                                Desktop.getDesktop().open(new File(e.getText()));
@@ -163,7 +163,7 @@ count --;
                                 if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                                     inntuitive+=e.getText();
                                     currentTask.isDone=true;
-                                    m.deleteTask(e.getJavauid());
+//                                    m.deleteTask(e.getJavauid());
                                             e = new person_question(e.getText(),"ssdd", null);
                                             m.store(e);
                                     if (count == 0 ) {
@@ -194,7 +194,7 @@ count --;
                             if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                                 currentTask.isDone=true;
                                         inntuitive+=e.getText();
-                                        m.deleteTask(e.getJavauid());
+//                                        m.deleteTask(e.getJavauid());
                                         e = new person_question(e.getText(),"ssdd", null);
                                         m.store(e);
 
