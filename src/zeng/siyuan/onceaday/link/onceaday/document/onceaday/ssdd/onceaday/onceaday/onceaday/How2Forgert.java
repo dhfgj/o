@@ -122,10 +122,10 @@ l.run();
                                 if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
 //                                    inntuitive+=e.getQuestion();
                                     currentTask.setIsDone(true);
-                                    m.deleteTask(e.getJavauid());
-                                    person_question D = new person_question(e.getQuestion(), "Link");
+//                                    m.deleteTask(e.getJavauid());
+//                                    person_question D = new person_question(e.getQuestion(), "Link");
 
-                                    m.store(D);
+                                    m.store(e);
 //                                Desktop.getDesktop().open(new File(e.getQuestion()));
 //                                    if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                                     r.open(e.getQuestion());
@@ -180,10 +180,11 @@ l.run();
                             if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                                 inntuitive += e.getQuestion();
                                 currentTask.setIsDone(true);
-                                m.deleteTask(e.getJavauid());
-                                person_question D = new person_question(e.getQuestion(), "Link");
+//                                m.deleteTask(e.getJavauid());
+//                                person_question D = new person_question(e.getQuestion(), "Link");
 
-                                m.store(D);
+//                                m.store(D);
+                                m.store(e);
 
 //                                if(r.isUrl(e.getQuestion())){
 //                                    r.openUrlInBrowser(e.getQuestion());
