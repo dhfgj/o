@@ -99,7 +99,7 @@ l.run();
     // ther eis inot souch thing all instanct nooldle
     // it i snot healdy and you wil die of nonnutrituionts
     // that i sthe it
-
+public static int c =0;
     public void displayTask() {
         try {
             if (isSearch) {
@@ -107,6 +107,13 @@ l.run();
             } else {
                 for (Task t : tasks) {
                     if (t.getDate().after(new Date()) && !t.getIsDone()) {
+                        if (c == 0 ) {
+                            Thread.sleep(5 * 60000);
+                            c= 5;
+                        }
+                        c --;
+
+
                         Calendar calendar = Calendar.getInstance();
                         calendar.setTime(t.getDate());//1474356339826
                         long diff = calendar.getTimeInMillis() - Calendar.getInstance().getTimeInMillis();
@@ -131,7 +138,7 @@ l.run();
                                     r.open(e.getQuestion());
 //                                    reloadTAskandrestartPopThread();
 //duplicate
-                                    break;
+//                                    break;
 
                                 }
                             }
@@ -172,6 +179,12 @@ l.run();
                     } else if (t.getDate().before(new Date()) && !t.getIsDone()) {
 //                        frame.repaint();
 //                        frame.toFront();
+                        if (c == 0 ) {
+                            Thread.sleep(5 * 60000);
+                            c= 5;
+                        }
+                        c --;
+
                         currentTask = t;
                         Beep.sound(2000, 150);
 
@@ -197,7 +210,7 @@ l.run();
                                 r.open(e.getQuestion());
 //                                reloadTAskandrestartPopThread();
 
-                                break;
+//                                break;
                             }
                         }
                     }

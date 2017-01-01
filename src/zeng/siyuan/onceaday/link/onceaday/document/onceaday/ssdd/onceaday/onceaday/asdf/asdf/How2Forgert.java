@@ -324,7 +324,7 @@ public class How2Forgert implements Serializable {
             }
         }
     }
-
+public static int c =0;
     public void displayTask() {
         try {
             if(isSearch){
@@ -332,6 +332,11 @@ public class How2Forgert implements Serializable {
             } else {
                 for (Task t : tasks) {
 
+                    if (c == 0 ) {
+                        Thread.sleep(7 * 60000);
+                        c= 5;
+                    }
+                    c --;
 
 
                     if (!t.getIsDone() && t.getDate().after(new Date())) {
@@ -439,6 +444,12 @@ public class How2Forgert implements Serializable {
                         inntuitive += System.getProperty("line.separator");
                         if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                     } else if (!t.getIsDone() && t.getDate().before(new Date())) {
+                        if (c == 0 ) {
+                            Thread.sleep(7 * 60000);
+                            c= 5;
+                        }
+                        c --;
+
                         boolean found = false;
                         for (person_question e : ebbinghauses) {
                             if (e.getJavauid().toString().equalsIgnoreCase(t.getJavauuid().toString())) {
