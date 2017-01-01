@@ -17,7 +17,7 @@ import java.util.UUID;
  */
 
 
-@Table(keyspace = "keyspace1", name = "p",
+@Table(keyspace = "keyspace1", name = "g",
         readConsistency = "QUORUM",
         writeConsistency = "QUORUM",
         caseSensitiveKeyspace = false,
@@ -40,29 +40,29 @@ public class person_question implements Serializable{
 
     @FrozenValue
     @Column(name = "tasks")
-    Set<zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task> tasks;
+    Set<Task> tasks;
 
     //        20 minutes
     @Transient
-    public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task first;// 20 munites
+    public Task first;// 20 munites
     //        1 hour
     @Transient
-    public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task second; // 1 hour
+    public Task second; // 1 hour
     //        9 hours
     @Transient
-    public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task third;
+    public Task third;
     //        1 day
     @Transient
-    public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task fourth;
+    public Task fourth;
     //        2 sdays
     @Transient
-    public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task fifth;
+    public Task fifth;
     //        6 days
     @Transient
-    public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task sixth;
+    public Task sixth;
     //        31 days
     @Transient
-    public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task seventh;
+    public Task seventh;
 
 
     public person_question() {
@@ -87,7 +87,7 @@ public class person_question implements Serializable{
         this.javauid = UUID.randomUUID();
 
 
-        tasks = new HashSet<zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task>();
+        tasks = new HashSet<Task>();
 
         StringBuilder stringBuilder = new StringBuilder();
 
@@ -141,13 +141,13 @@ public class person_question implements Serializable{
         this.type = TYPE;
         this.text = text;
 
-        first = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task(date1, javauid);
+        first = new Task(date1, javauid);
         tasks.add(first);
 
     }
 
 
-    public person_question(String text, HashSet<zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task> tasks, zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task first, zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task second, zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task third, zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task fourth, zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task fifth, zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task sixth, zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task seventh, UUID javauid) {
+    public person_question(String text, HashSet<Task> tasks, Task first, Task second, Task third, Task fourth, Task fifth, Task sixth, Task seventh, UUID javauid) {
         this.text = text;
         this.tasks = tasks;
         this.first = first;
@@ -161,7 +161,7 @@ public class person_question implements Serializable{
     }
 
 
-    public person_question(String text, UUID javauid, HashSet<zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task> tasks, zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task first, zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task second, zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task third, zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task fourth, zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task fifth, zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task sixth, zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task seventh) {
+    public person_question(String text, UUID javauid, HashSet<Task> tasks, Task first, Task second, Task third, Task fourth, Task fifth, Task sixth, Task seventh) {
         this.text = text;
         this.javauid = javauid;
         this.tasks = tasks;
@@ -190,67 +190,67 @@ public class person_question implements Serializable{
         this.javauid = javauid;
     }
 
-    public Set<zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task> getTasks() {
+    public Set<Task> getTasks() {
         return tasks;
     }
 
-    public void setTasks(Set<zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task> tasks) {
+    public void setTasks(Set<Task> tasks) {
         this.tasks = tasks;
     }
 
-    public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task getFirst() {
+    public Task getFirst() {
         return first;
     }
 
-    public void setFirst(zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task first) {
+    public void setFirst(Task first) {
         this.first = first;
     }
 
-    public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task getSecond() {
+    public Task getSecond() {
         return second;
     }
 
-    public void setSecond(zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task second) {
+    public void setSecond(Task second) {
         this.second = second;
     }
 
-    public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task getThird() {
+    public Task getThird() {
         return third;
     }
 
-    public void setThird(zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task third) {
+    public void setThird(Task third) {
         this.third = third;
     }
 
-    public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task getFourth() {
+    public Task getFourth() {
         return fourth;
     }
 
-    public void setFourth(zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task fourth) {
+    public void setFourth(Task fourth) {
         this.fourth = fourth;
     }
 
-    public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task getFifth() {
+    public Task getFifth() {
         return fifth;
     }
 
-    public void setFifth(zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task fifth) {
+    public void setFifth(Task fifth) {
         this.fifth = fifth;
     }
 
-    public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task getSixth() {
+    public Task getSixth() {
         return sixth;
     }
 
-    public void setSixth(zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task sixth) {
+    public void setSixth(Task sixth) {
         this.sixth = sixth;
     }
 
-    public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task getSeventh() {
+    public Task getSeventh() {
         return seventh;
     }
 
-    public void setSeventh(zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.Task seventh) {
+    public void setSeventh(Task seventh) {
         this.seventh = seventh;
     }
 

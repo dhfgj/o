@@ -512,7 +512,8 @@ public static int c =0;
                                         found = true;
                                     }
                                     if (found) break;
-                                }
+                                }// i have to search and find the thing i want everythime and it doesn't make sany sease at foirst
+
                             }
                             if (found) break;
                         }
