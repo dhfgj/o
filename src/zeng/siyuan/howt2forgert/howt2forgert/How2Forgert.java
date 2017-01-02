@@ -873,6 +873,8 @@ public class How2Forgert implements Serializable {
     }
 
 // oti smy first paplication and it mesasns so much to me and evertyhigi tiwll actually make me so sucessful that we know it will bbe great
+    // it is not like that i want to fuck every women it just like something iw is so disgutinand i wdon't want ot see them again
+    // there is no rotorrow all the other is not now is not real it is just halucination and namekt it work and understnadable
     public void init() throws Exception {
         loadTask();
         d = new Display(this);
