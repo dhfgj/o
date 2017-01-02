@@ -619,6 +619,8 @@ Runnable b =()-> {
     dhow2ForgDertl.frame = frame;
     dhow2ForgDertl.init();
 
+// uii forgteo thet i can just add something to the exisign tomode and meake it bpeeter instead of amket ehte now emoddle
+    // pveiously i hav eth link now i hav eot hte kdoc and i can dojust od the same thing the variable is that and the slateat is static astatic and viarouslb eit hst hesame tithing you should know ahob ut it hat is ti sti tis it
 
     //init
     c1s();

@@ -137,10 +137,22 @@ static int ou= 1;
                             for (person_question e : ebbinghauses) {
                                 if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                                     inntuitive+=e.getText();
+                                    currentTask.isDone=false;
+                                    inntuitive+=e.getText();
+//                                        m.deleteTask(e.getJavauid());
+
+                                    currentTask.setDate(r.l(currentTask.getDate()));
+
+//                                        m.deleteTask(e.getJavauid());
+//                                        e = new person_question(e.getText(),"ssdd", null);
+                                    m.store(e);
+
+                                    /*
                                     currentTask.isDone=true;
 //                                            m.deleteTask(e.getJavauid());
                                             e = new person_question(e.getText(),"ssdd", null);
                                             m.store(e);
+*/
 //                                Desktop.getDesktop().open(new File(e.getText()));
 
                                     if (count == 0 ) {
@@ -162,10 +174,15 @@ count --;
                             for (person_question e : ebbinghauses) {
                                 if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                                     inntuitive+=e.getText();
-                                    currentTask.isDone=true;
-//                                    m.deleteTask(e.getJavauid());
-                                            e = new person_question(e.getText(),"ssdd", null);
-                                            m.store(e);
+                                    currentTask.isDone=false;
+                                    inntuitive+=e.getText();
+//                                        m.deleteTask(e.getJavauid());
+
+                                    currentTask.setDate(r.l(currentTask.getDate()));
+
+//                                        m.deleteTask(e.getJavauid());
+//                                        e = new person_question(e.getText(),"ssdd", null);
+                                    m.store(e);
                                     if (count == 0 ) {
                                         Thread.sleep(7 * 60000);
                                         count = 5;
@@ -192,11 +209,18 @@ count --;
                         String inntuitive = "";
                         for (person_question e : ebbinghauses) {
                             if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
-                                currentTask.isDone=true;
+                                currentTask.isDone=false;
                                         inntuitive+=e.getText();
 //                                        m.deleteTask(e.getJavauid());
-                                        e = new person_question(e.getText(),"ssdd", null);
-                                        m.store(e);
+
+                                currentTask.setDate(r.l(currentTask.getDate()));
+
+//                                        m.deleteTask(e.getJavauid());
+//                                        e = new person_question(e.getText(),"ssdd", null);
+                                m.store(e);
+//
+//                                        e = new person_question(e.getText(),"ssdd", null);
+//                                        m.store(e);
 
 //                                if(r.isUrl(e.getText())){
 //                                    r.openUrlInBrowser(e.getText());
