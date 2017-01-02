@@ -577,7 +577,7 @@ public class C1comehere implements Serializable {
         textArea.setLineWrap(true);
         textArea.setFont(font);
         DatePicker.dateTimePicker(textArea);
-
+// reuse poiple line computte date path the folow is all th s
 
 Runnable b =()-> {
     if (null == how2Forgert) {

@@ -8,6 +8,7 @@ import com.fasterxml.jackson.databind.introspect.VisibilityChecker;
 import com.google.gson.ExclusionStrategy;
 import com.google.gson.FieldAttributes;
 import com.google.gson.Gson;
+import com.mongodb.BasicDBObject;
 import com.mongodb.DBObject;
 import com.mongodb.util.JSON;
 import zeng.siyuan.C1comehere.C1comehere;
@@ -417,7 +418,7 @@ textArea.setText(e.getASDFJ());
             }
         }
     }
-
+// come here i am woailing for you
     public void displayTask() {
         try {
             if(isSearch){
@@ -482,7 +483,10 @@ textArea.setText(e.getASDFJ());
 
                                             MongoDbHelper k = null;
                                             k = MongoDbHelper.getInstance();
-                                            k.insertDocument("u", p);
+                                            BasicDBObject searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
+
+
+                                            k.updateDocument("u", searchQuery, p);
 //                Runnable ks = ()->LKJ(e);
 //                ks.run();
 
@@ -540,7 +544,10 @@ textArea.setText(e.getASDFJ());
 
                                             MongoDbHelper k = null;
                                             k = MongoDbHelper.getInstance();
-                                            k.insertDocument("u", p);
+                                            BasicDBObject searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
+
+
+                                            k.updateDocument("u", searchQuery, p);
 //                Runnable ks = ()->LKJ(e);
 //                ks.run();
 
@@ -590,7 +597,10 @@ textArea.setText(e.getASDFJ());
 
                                         MongoDbHelper k = null;
                                         k = MongoDbHelper.getInstance();
-                                        k.insertDocument("u", p);
+                                        BasicDBObject searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
+
+
+                                        k.updateDocument("u", searchQuery, p);
 //                Runnable ks = ()->LKJ(e);
 //                ks.run();
 
