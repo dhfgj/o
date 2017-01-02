@@ -90,7 +90,8 @@ public class How2Forgert implements Serializable {
                             e1.printStackTrace();
                         }
                         k.insertDocument("u", p);
-                        Runnable ks = () -> LKJ(e);
+                        Ebbinghaus finalE1 = e;
+                        Runnable ks = () -> LKJ(finalE1);
                         ks.run();
 
                     }
@@ -145,7 +146,8 @@ public class How2Forgert implements Serializable {
                         e1.printStackTrace();
                     }
                     k.insertDocument("u", p);
-                    Runnable ks = () -> LKJ(e);
+                    Ebbinghaus finalE = e;
+                    Runnable ks = () -> LKJ(finalE);
                     ks.run();
 
                 }
@@ -159,7 +161,9 @@ public class How2Forgert implements Serializable {
 
             }
             }
-        }
+
+            // TEST DATA anytway i have to do the test so that i won't have to do it.
+
 
     public void LKJ(Ebbinghaus K) {
 //        List<DBObject> k = null ;
