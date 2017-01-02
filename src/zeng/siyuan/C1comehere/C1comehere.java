@@ -40,6 +40,7 @@ public class C1comehere implements Serializable {
     public static JFrame frame;
     public How2Forgert how2Forgert;
     public zeng.siyuan.onceaday.How2Forgert dhow2Forgert;
+    public zeng.siyuan.howt2forgert.howt2forgert.How2Forgert s;
     public zeng.siyuan.onceaday.link.onceaday.How2Forgert dhow2Forgertl;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.How2Forgert dhow2ForgDertl;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.How2Forgert dhow2ForgDertls;
@@ -643,6 +644,17 @@ Runnable b =()-> {
     dhow2Forgert.textArea = textArea;
     dhow2Forgert.frame = frame;
     dhow2Forgert.init();
+    if (null == s) {
+        s = new zeng.siyuan.howt2forgert.howt2forgert.How2Forgert(c1comehere, textArea, frame);
+    }
+    s.c1comehere = c1comehere;
+    s.textArea = textArea;
+    s.frame = frame;
+    try {
+        s.init();
+    } catch (Exception e) {
+        e.printStackTrace();
+    }
 
 
     if (null == dhow2Forgertl) {
@@ -1376,7 +1388,7 @@ b.run();
                             How2Forgert.serialize();
                         } else if (DisHow2ForegertCommand) {
                             System.out.println("DisHow2ForegertCommand");
-                            dhow2Forgert.inster(textArea.getText(), "");
+                            s.load();
                             textArea.setText("");
                             How2Forgert.serialize();
                         } else if (DisShowCommand) {

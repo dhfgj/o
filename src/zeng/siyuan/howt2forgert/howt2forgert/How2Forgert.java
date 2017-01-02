@@ -100,6 +100,12 @@ public class How2Forgert implements Serializable {
 // it is so painful to drow up beucase you have to pay so much tobe so confident and you know all of them in the end
 // people who want linkied in because yothey want to be securte and that s the reason why everybody is suffering
                         // our guest maybe they are good aor not tis is just so not ture
+
+                        // is didn't know whtat will happen or i will be hworking harder to make it happen
+                        // i didnt' know what that would be th case
+                        //peace tehyne verybone will be happy
+                        // it is kind of happeny you ned to knwo
+                        //
                         ks.run();
 
                     }
@@ -548,7 +554,7 @@ public class How2Forgert implements Serializable {
         }
         return buttonSelected;
     }
-
+// it is junk let organize everything together and be happy
     private void displaysearchtasks() {
 
         for (Task t : searchtasks) {
