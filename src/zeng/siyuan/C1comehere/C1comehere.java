@@ -1391,7 +1391,9 @@ b.run();
                             String[] ss =         textArea.getText().split("ufgt");
                             if(ss[0].trim().equalsIgnoreCase("u")){
 // show answer
+           // i have no choice but utne it mysel and again and againa nd again and again even thought i amlatezy to do so
                                 s.u();
+                                // where eosd it need to be chnage , if only can i can make the seperate the static and constancts all together
                             } else (textArea.getText().contains("ufgt")){
 s.updatetask();
                             }

@@ -437,7 +437,7 @@ textArea.setText(e.getASDFJ());
 
 
                             String buttonSelected = getString();
-                            boolean isHow2ForegertCommand = buttonSelected.equalsIgnoreCase("ufgt") || buttonSelected.equalsIgnoreCase("deldiary");
+                            boolean isHow2ForegertCommand = buttonSelected.equalsIgnoreCase("Dfgt") ;
 
 
                             while (!textArea.getText().trim().isEmpty() || !isHow2ForegertCommand) {
@@ -449,7 +449,7 @@ textArea.setText(e.getASDFJ());
                                         buttonSelected = button.getText();
                                     }
                                 }
-                                isHow2ForegertCommand = buttonSelected.equalsIgnoreCase("ufgt") || buttonSelected.equalsIgnoreCase("deldiary");
+                                isHow2ForegertCommand = buttonSelected.equalsIgnoreCase("Dfgt") ;
 
 
                             }
@@ -497,7 +497,7 @@ textArea.setText(e.getASDFJ());
 
 
                             String buttonSelected = getString();
-                            boolean isHow2ForegertCommand = buttonSelected.equalsIgnoreCase("ufgt") || buttonSelected.equalsIgnoreCase("deldiary");
+                            boolean isHow2ForegertCommand = buttonSelected.equalsIgnoreCase("Dfgt") ;
 
 
                             while (!textArea.getText().trim().isEmpty() || !isHow2ForegertCommand) {
@@ -510,7 +510,7 @@ textArea.setText(e.getASDFJ());
                                         buttonSelected = button.getText();
                                     }
                                 }
-                                isHow2ForegertCommand = buttonSelected.equalsIgnoreCase("ufgt") || buttonSelected.equalsIgnoreCase("deldiary");
+                                isHow2ForegertCommand = buttonSelected.equalsIgnoreCase("Dfgt") ;
 
                             }
                             frame.repaint();
@@ -556,7 +556,7 @@ textArea.setText(e.getASDFJ());
                     } else if (!t.getIsDone() && t.getDate().before(new Date())) {
 
                         String buttonSelected = getString();
-                        boolean isHow2ForegertCommand = buttonSelected.equalsIgnoreCase("ufgt") || buttonSelected.equalsIgnoreCase("deldiary");
+                        boolean isHow2ForegertCommand = buttonSelected.equalsIgnoreCase("Dfgt");
 
 
                         frame.repaint();
@@ -608,7 +608,7 @@ textArea.setText(e.getASDFJ());
                                                     buttonSelected = button.getText();
                                                 }
                                             }
-                                            isHow2ForegertCommand = buttonSelected.equalsIgnoreCase("ufgt") || buttonSelected.equalsIgnoreCase("deldiary");
+                                            isHow2ForegertCommand = buttonSelected.equalsIgnoreCase("Dfgt") ;
                                         }
                                         inntuitive += System.getProperty("line.separator");
                                         if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
@@ -626,7 +626,7 @@ textArea.setText(e.getASDFJ());
                                                     buttonSelected = button.getText();
                                                 }
                                             }
-                                            isHow2ForegertCommand = buttonSelected.equalsIgnoreCase("ufgt") || buttonSelected.equalsIgnoreCase("deldiary");
+                                            isHow2ForegertCommand = buttonSelected.equalsIgnoreCase("Dfgt") ;
                                         }
 //                                        reloadTAskandrestartPopThread();
                                     }
