@@ -855,6 +855,11 @@ public class How2Forgert implements Serializable {
         isSearch=false;
         isSearchCombine=false;
     }
+// you don't have to show to o much or they will attach to you that i sall you have to do
+// people will constant ly ask why that is the problem and you should stop doing that never do it again and that is the case you should know
+// people who don't becatalk bcuase they hav eto do something thehy don't like me becasue i force them to talk and that is not polite i guess
+
+// poeple like you people who give you love and good wordsa nd make you feel good and know somthing expenand your horizon ane d tell you the truth enlighten you and mkae you come out of darkness
 
     private void reloadTAskandrestartPopThread() {
         loadTask();
@@ -867,7 +872,7 @@ public class How2Forgert implements Serializable {
         reloadandDisplayThread.start();
     }
 
-
+// oti smy first paplication and it mesasns so much to me and evertyhigi tiwll actually make me so sucessful that we know it will bbe great
     public void init() throws Exception {
         loadTask();
         d = new Display(this);
