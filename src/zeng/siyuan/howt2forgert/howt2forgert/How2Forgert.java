@@ -149,8 +149,14 @@ public class How2Forgert implements Serializable {
         c.add(Calendar.HOUR_OF_DAY, 1);
 
         // found!
+        String[] s =         textArea.getText().split("ufgt");
+
+// thanks means that don't talke it personally it is my job to help
+        // that is why
+// you are the best prole you do the right thigns, you even fire me
+
         String textinput = System.getProperty("line.separator");
-        textinput +=         textArea.getText().replace(" ufgt ", System.getProperty("line.separator"));
+        textinput +=         s[0];
         textinput += System.getProperty("line.separator");
         Scanner in = null;
 
@@ -194,8 +200,8 @@ public class How2Forgert implements Serializable {
                 stringBuilder.append(textinput);
                 stringBuilder.append(System.getProperty("line.separator"));
                 stringBuilder.append(System.getProperty("line.separator"));
-                e.question = stringBuilder.toString();
-                Ebbinghaus e1 = new Ebbinghaus(e.question, "");
+                e.ASDFJ = stringBuilder.toString();
+//                Ebbinghaus e1 = new Ebbinghaus(e.question, "");
 //                m.deleteTask(e.getJavauid());
 //                m.store(e);
 
@@ -875,6 +881,9 @@ public class How2Forgert implements Serializable {
 // oti smy first paplication and it mesasns so much to me and evertyhigi tiwll actually make me so sucessful that we know it will bbe great
     // it is not like that i want to fuck every women it just like something iw is so disgutinand i wdon't want ot see them again
     // there is no rotorrow all the other is not now is not real it is just halucination and namekt it work and understnadable
+    // something i learn withthe price grfeat price and that isa all we knwo
+// let the bypast be bypast
+// we larn we grow we understand things
     public void init() throws Exception {
         loadTask();
         d = new Display(this);
