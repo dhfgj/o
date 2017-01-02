@@ -7,6 +7,7 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.introspect.VisibilityChecker;
+import com.mongodb.BasicDBObject;
 import com.mongodb.DBObject;
 import com.mongodb.util.JSON;
 import org.testng.annotations.Test;
@@ -449,7 +450,13 @@ public class How2Forgert implements Serializable {
 
 
                                     MongoDbHelper k= MongoDbHelper.getInstance();
-                                    k.insertDocument("JAKSHFDLKHASKJFHAKSLHFKALSJF", p);
+
+//                                    k.insertDocument("JAKSHFDLKHASKJFHAKSLHFKALSJF", p);
+
+                                    BasicDBObject searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
+
+
+                                    k.updateDocument("JAKSHFDLKHASKJFHAKSLHFKALSJF", searchQuery, p);
 
 
                                     if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
@@ -530,8 +537,14 @@ public class How2Forgert implements Serializable {
 
 
                                         MongoDbHelper k= MongoDbHelper.getInstance();
-                                        k.insertDocument("JAKSHFDLKHASKJFHAKSLHFKALSJF", p);
+//                                        k.insertDocument("JAKSHFDLKHASKJFHAKSLHFKALSJF", p);
 // asscemble things together at somet point of time and do the dediting work there tat would be better.
+
+                                        BasicDBObject searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
+
+
+                                        k.updateDocument("JAKSHFDLKHASKJFHAKSLHFKALSJF", searchQuery, p);
+
 
                                         if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
                                             try {
@@ -910,8 +923,14 @@ textArea.setText("");
                                 } catch (UnknownHostException e1) {
                                     e1.printStackTrace();
                                 }
+
+                                BasicDBObject searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
+
+
+                                k.updateDocument("JAKSHFDLKHASKJFHAKSLHFKALSJF", searchQuery, p);
+
 //                                k.insertDocument("JAKSHFDLKHASKJFHAKSLHFKALSJF", p);
-k.removeDocument("JAKSHFDLKHASKJFHAKSLHFKALSJF", p);
+//k.removeDocument("JAKSHFDLKHASKJFHAKSLHFKALSJF", p);
 ebbinghauses.remove(d);
 tasks.remove(l);
                                 ///*
@@ -1155,8 +1174,15 @@ tasks.remove(l);
                                         e1.printStackTrace();
                                     }
 //                                    k.insertDocument("JAKSHFDLKHASKJFHAKSLHFKALSJF", p);
-                                    k.removeDocument("JAKSHFDLKHASKJFHAKSLHFKALSJF", p);
+//                                    k.removeDocument("JAKSHFDLKHASKJFHAKSLHFKALSJF", p);
+
+                                    BasicDBObject searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
+
+
+                                    k.updateDocument("JAKSHFDLKHASKJFHAKSLHFKALSJF", searchQuery, p);
+
                                     ebbinghauses.remove(d);
+
                                     tasks.remove(l);                                    ///*
 // the bad thigs it hat you have to verfidy feveyrthing
                                         // you can't not count on the knowlwdage of existing code that is the woresdt case

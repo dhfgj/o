@@ -6,6 +6,7 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.introspect.VisibilityChecker;
+import com.mongodb.BasicDBObject;
 import com.mongodb.DBObject;
 import com.mongodb.util.JSON;
 import zeng.siyuan.C1comehere.C1comehere;
@@ -399,16 +400,16 @@ a.run();
             } else {
                 for (Task t : tasks) {
                     SimpleDateFormat fmt = new SimpleDateFormat("yyyyMMdd");
-                    if ( fmt.format(new Date()).equals(fmt.format(t.getDate()))) {
+                    if ( (new Date()).after(t.getDate()) && !t.isDone) {
 //                    if (!t.getIsDone() && t.getDate().after(new Date())) {
-//                        Calendar calendar = Calendar.getInstance();
-//                        calendar.setTime(t.getDate());
+                        Calendar calendar = Calendar.getInstance();
+                        calendar.setTime(t.getDate());
 //
-//                        long diff = calendar.getTimeInMillis() - Calendar.getInstance().getTimeInMillis();
-//                            Thread.sleep(diff);
-//                            while (!textArea.getText().trim().isEmpty()) {
-//                                Thread.sleep(10000);
-//                            }
+                        long diff = calendar.getTimeInMillis() - Calendar.getInstance().getTimeInMillis();
+                            Thread.sleep(diff);
+                            while (!textArea.getText().trim().isEmpty()) {
+                                Thread.sleep(10000);
+                            }
 
 //                            frame.repaint();
 //                            frame.toFront();
@@ -441,7 +442,11 @@ logDictionary(
 // the shit is everywehre and everywhere
 
                                             MongoDbHelper k= MongoDbHelper.getInstance();
-                                            k.insertDocument("asfhkjashfkjashfl", p);
+//                                            k.insertDocument("asfhkjashfkjashfl", p);
+                                    BasicDBObject searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
+
+
+                                    k.updateDocument("asfhkjashfkjashfl", searchQuery, p);
 
 /*
 

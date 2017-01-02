@@ -304,8 +304,14 @@ public class How2Forgert implements Serializable {
 
                 MongoDbHelper k = null;
                 k = MongoDbHelper.getInstance();
-                k.insertDocument("u", p);
+//                k.insertDocument("u", p);
 //                Runnable ks = ()->LKJ(e);
+
+                BasicDBObject searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
+
+
+                k.updateDocument("u", searchQuery, p);
+
 //                ks.run();
 
                 textinput = e.getASDFJ() +System.getProperty("line.separator") +System.getProperty("line.separator")+textinput;
