@@ -43,7 +43,7 @@ public class C1comehere implements Serializable {
     public zeng.siyuan.howt2forgert.howt2forgert.How2Forgert s;
     public zeng.siyuan.onceaday.link.onceaday.How2Forgert dhow2Forgertl;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.How2Forgert dhow2ForgDertl;
-    public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.How2Forgert dhow2ForgDertls;
+//    public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.How2Forgert dhow2ForgDertls;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.How2Forgert dhow2ForgDertlsf;
     public zeng.siyuan.onceaday.onceaday.How2Forgert dhow2ForgDertlssfs;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.onceaday.How2Forgert dhow2ForgDertlssf;
@@ -681,6 +681,7 @@ Runnable b =()-> {
 
 
 
+/*
 
     if (null == dhow2ForgDertls) {
         dhow2ForgDertls= new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.How2Forgert(c1comehere, textArea, frame);
@@ -690,6 +691,7 @@ Runnable b =()-> {
     dhow2ForgDertls.frame = frame;
     dhow2ForgDertls.init();
 
+*/
 
 
     if (null == jd) {
@@ -701,6 +703,7 @@ Runnable b =()-> {
     jd.init();
 
 
+/*
     if (null == dhow2ForgDertls) {
         dhow2ForgDertls = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.How2Forgert(c1comehere, textArea, frame);
     }
@@ -709,6 +712,7 @@ Runnable b =()-> {
     dhow2ForgDertls.frame = frame;
     dhow2ForgDertls.init();
 
+*/
 
     if (null == dhow2ForgDertlsf) {
         dhow2ForgDertlsf = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.How2Forgert(c1comehere, textArea, frame);
@@ -1501,7 +1505,7 @@ s.updatetask();
 
 
 
-
+/*
                         else if (SDsaercDhdliary && !textArea.getText().trim().isEmpty()) {
                             System.out.println("Dsaerchdliary");
                             dhow2ForgDertls.searchehabins(textArea.getText().trim());
@@ -1519,7 +1523,7 @@ s.updatetask();
                             dhow2ForgDertls.updatetask();
                             textArea.setText("");
                             How2Forgert.serialize();
-                        }
+                        }*/
 //                        else if (SDisHlow2ForeDgertCommand ) {
 //                            System.out.println("DisHlow2ForegertCommand");
 //                            dhow2ForgDertls.inster(textArea.getText(), "");

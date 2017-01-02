@@ -6,8 +6,6 @@ import zeng.siyuan.reuseutil.r;
 import javax.swing.*;
 import java.io.IOException;
 import java.io.Serializable;
-import java.time.LocalDateTime;
-import java.time.ZoneId;
 import java.util.*;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.TimeUnit;
@@ -113,7 +111,8 @@ a.run();
 //                                            m.deleteTask(e.getJavauid());
 //                                            e = new person_question(e.getText(),"ssdd", null);
 //                                    e.getTasks().stream().forEach(q -> q.setDate(Date.from((LocalDateTime.from(q.getDate().toInstant()).plusDays(1)).atZone(ZoneId.systemDefault()).toInstant())));
-                                    currentTask.setDate(Date.from((LocalDateTime.from(currentTask.getDate().toInstant()).plusDays(1)).atZone(ZoneId.systemDefault()).toInstant()));
+//                                    currentTask.setDate(Date.from((LocalDateTime.from(currentTask.getDate().toInstant()).plusDays(1)).atZone(ZoneId.systemDefault()).toInstant()));
+                                    currentTask.setDate(r.l(currentTask.getDate()));
 
                                             m.store(e);
                                     r.o(e.getText());
@@ -135,7 +134,10 @@ a.run();
                                     inntuitive+=e.getText();
 //                                    m.deleteTask(e.getJavauid());
 //                                            e = new person_question(e.getText(),"ssdd", null);
-                                    currentTask.setDate(Date.from((LocalDateTime.from(currentTask.getDate().toInstant()).plusDays(1)).atZone(ZoneId.systemDefault()).toInstant()));
+
+
+                                    currentTask.setDate(r.l(currentTask.getDate()));
+
 
                                     m.store(e);
 //                            if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
@@ -160,7 +162,8 @@ a.run();
 
 //                                        e.getTasks().stream().forEach(q -> q.setDate(Date.from((LocalDateTime.from(q.getDate().toInstant()).plusDays(1)).atZone(ZoneId.systemDefault()).toInstant())));
 //                                        e.getTasks().stream().forEach(q -> q.setDate(Date.from((LocalDateTime.from(q.getDate().toInstant()).plusDays(1)).atZone(ZoneId.systemDefault()).toInstant())));
-                                currentTask.setDate(Date.from((LocalDateTime.from(currentTask.getDate().toInstant()).plusDays(1)).atZone(ZoneId.systemDefault()).toInstant()));
+//                                currentTask.setDate(Date.from((LocalDateTime.from(currentTask.getDate().toInstant()).plusDays(1)).atZone(ZoneId.systemDefault()).toInstant()));
+                                currentTask.setDate(r.l(currentTask.getDate()));
 
 //                                        m.deleteTask(e.getJavauid());
 //                                        e = new person_question(e.getText(),"ssdd", null);
