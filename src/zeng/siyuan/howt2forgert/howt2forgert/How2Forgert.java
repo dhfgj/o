@@ -48,15 +48,19 @@ public class How2Forgert implements Serializable {
 
     public void load(){
         Scanner in = null;
+        Scanner i = null;
 
         if (null != textArea && !("".equalsIgnoreCase(textArea.getText()))) {
 
             in = new Scanner(textArea.getText());
-                while (in.hasNext()) {
-                    String line = in.nextLine();
-                    if (line.contains("?") && line.endsWith("?")) {
-                        Ebbinghaus e = new Ebbinghaus(line,"");
-
+            i = new Scanner(textArea.getText());
+            Ebbinghaus e=null;
+                    String line1 = "";
+            while (in.hasNext()) {
+                String line = in.nextLine();
+                if (line.contains("?") && line.endsWith("?")) {
+                    if (null != e && null != e.question && !e.question.trim().equalsIgnoreCase("")) {
+                        e.setLKJ(line1);
                         // Convert object to JSON string
                         String j = null;
                         try {
@@ -65,6 +69,8 @@ public class How2Forgert implements Serializable {
                             e1.printStackTrace();
                         }
 //                    System.out.println(j);
+// somebody want need derresire something then you will give me i want ginger
+                        // i don't remember but people keep remongd ,e tjhat
 
                         // Convert object to JSON string and pretty print
                         try {
@@ -84,13 +90,74 @@ public class How2Forgert implements Serializable {
                             e1.printStackTrace();
                         }
                         k.insertDocument("u", p);
-                        Runnable ks = ()->LKJ(e);
+                        Runnable ks = () -> LKJ(e);
                         ks.run();
-//                    reloadTAskandrestartPopThread();
-                        textArea.setText("");
-                    } else {
+
                     }
+                    e = new Ebbinghaus(line, "");
+                    line1 = "";
+//                    reloadTAskandrestartPopThread();
+                    textArea.setText("");
+                } else {// crazy i sgap is crazy is leardin g crazy is nonsense but sense crazy is there
+                    line1 += line;
+//                        if (null!=e && null !=e.LKJ && !e.LKJ.equalsIgnoreCase("")) {
+
+//                            e.setLKJ(line1);
+//                        }
+// dont take it the wrong whay what is it
+                    // the emotion
+                    // the relationpshio
+                    // react respond differentlyu so differently
+// all of sucdden you lose it all
+                    // you lose it all in a sex
+
+
                 }
+
+                if (null != e && null != e.question && !e.question.trim().equalsIgnoreCase("")) {
+                    e.setLKJ(line1);
+                    // Convert object to JSON string
+                    String j = null;
+                    try {
+                        j = mapper.writeValueAsString(e);
+                    } catch (JsonProcessingException e1) {
+                        e1.printStackTrace();
+                    }
+//                    System.out.println(j);
+// somebody want need derresire something then you will give me i want ginger
+                    // i don't remember but people keep remongd ,e tjhat
+
+                    // Convert object to JSON string and pretty print
+                    try {
+                        j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+                    } catch (JsonProcessingException e1) {
+                        e1.printStackTrace();
+                    }
+//                    System.out.println(j);
+                    DBObject p = (DBObject) JSON
+                            .parse(j);
+
+
+                    MongoDbHelper k = null;
+                    try {
+                        k = MongoDbHelper.getInstance();
+                    } catch (UnknownHostException e1) {
+                        e1.printStackTrace();
+                    }
+                    k.insertDocument("u", p);
+                    Runnable ks = () -> LKJ(e);
+                    ks.run();
+
+                }
+                e = new Ebbinghaus(line, "");
+                line1 = "";
+//                    reloadTAskandrestartPopThread();
+                textArea.setText("");
+
+            }
+
+
+            }
             }
         }
 
