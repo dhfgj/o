@@ -1173,6 +1173,8 @@ tasks.remove(l);
                                     } catch (UnknownHostException e1) {
                                         e1.printStackTrace();
                                     }
+                                    // i mess up the database againa nd agan and that is the case that will contaiminate all the datea base
+                                    // how to back up the dabatavAE SO THAT the production data won't be containminated
 //                                    k.insertDocument("JAKSHFDLKHASKJFHAKSLHFKALSJF", p);
 //                                    k.removeDocument("JAKSHFDLKHASKJFHAKSLHFKALSJF", p);
 
