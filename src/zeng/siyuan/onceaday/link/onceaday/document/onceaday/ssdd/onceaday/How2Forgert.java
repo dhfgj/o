@@ -1,10 +1,13 @@
 package zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday;
 
 import zeng.siyuan.C1comehere.C1comehere;
+import zeng.siyuan.reuseutil.r;
 
 import javax.swing.*;
 import java.io.IOException;
 import java.io.Serializable;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
 import java.util.*;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.TimeUnit;
@@ -107,10 +110,15 @@ a.run();
                             for (person_question e : ebbinghauses) {
                                 if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                                     inntuitive+=e.getText();
-                                            m.deleteTask(e.getJavauid());
-                                            e = new person_question(e.getText(),"ssdd", null);
+//                                            m.deleteTask(e.getJavauid());
+//                                            e = new person_question(e.getText(),"ssdd", null);
+//                                    e.getTasks().stream().forEach(q -> q.setDate(Date.from((LocalDateTime.from(q.getDate().toInstant()).plusDays(1)).atZone(ZoneId.systemDefault()).toInstant())));
+                                    currentTask.setDate(Date.from((LocalDateTime.from(currentTask.getDate().toInstant()).plusDays(1)).atZone(ZoneId.systemDefault()).toInstant()));
+
                                             m.store(e);
-                                    if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
+                                    r.o(e.getText());
+
+//                                    if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                                             break;
                                 }
                             }
@@ -125,10 +133,14 @@ a.run();
                             for (person_question e : ebbinghauses) {
                                 if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                                     inntuitive+=e.getText();
-                                    m.deleteTask(e.getJavauid());
-                                            e = new person_question(e.getText(),"ssdd", null);
-                                            m.store(e);
-                            if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
+//                                    m.deleteTask(e.getJavauid());
+//                                            e = new person_question(e.getText(),"ssdd", null);
+                                    currentTask.setDate(Date.from((LocalDateTime.from(currentTask.getDate().toInstant()).plusDays(1)).atZone(ZoneId.systemDefault()).toInstant()));
+
+                                    m.store(e);
+//                            if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
+                                    r.o(e.getText());
+
                                             break;
                                 }
                             }
@@ -145,10 +157,16 @@ a.run();
                         for (person_question e : ebbinghauses) {
                             if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                                         inntuitive+=e.getText();
-                                        m.deleteTask(e.getJavauid());
-                                        e = new person_question(e.getText(),"ssdd", null);
+
+//                                        e.getTasks().stream().forEach(q -> q.setDate(Date.from((LocalDateTime.from(q.getDate().toInstant()).plusDays(1)).atZone(ZoneId.systemDefault()).toInstant())));
+//                                        e.getTasks().stream().forEach(q -> q.setDate(Date.from((LocalDateTime.from(q.getDate().toInstant()).plusDays(1)).atZone(ZoneId.systemDefault()).toInstant())));
+                                currentTask.setDate(Date.from((LocalDateTime.from(currentTask.getDate().toInstant()).plusDays(1)).atZone(ZoneId.systemDefault()).toInstant()));
+
+//                                        m.deleteTask(e.getJavauid());
+//                                        e = new person_question(e.getText(),"ssdd", null);
                                         m.store(e);
-                                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
+//                                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
+r.o(e.getText());
                                         break;
                             }
                         }
