@@ -307,14 +307,113 @@ public class How2Forgert implements Serializable {
 //                Runnable ks = ()->LKJ(e);
 //                ks.run();
 
+                textinput = e.getASDFJ() +System.getProperty("line.separator") +System.getProperty("line.separator")+textinput;
+textArea.setText(textinput);
 
-
-                System.out.println("updates");
+//                System.out.println("updates");
                 isSearch=false;
                 isSearchCombine=false;
-                Runnable a = () -> reloadTAskandrestartPopThread();
-                a.run();
+//                Runnable a = () -> reloadTAskandrestartPopThread();
+//                a.run();
                 break;
+            }
+        }
+    }
+    public void u() throws JsonProcessingException, UnknownHostException {
+        StringBuilder stringBuilder = new StringBuilder();
+//        Date date = new Date();
+//        Calendar c = Calendar.getInstance();
+//        SimpleDateFormat format = new SimpleDateFormat("EEE, MMM d, yyyy 'at' hh:mm");
+//        c.add(Calendar.HOUR_OF_DAY, 1);
+//
+//         found!
+        String s =         textArea.getText();
+//        String[] s =         textArea.getText().split("ufgt");
+//
+// thanks means that don't talke it personally it is my job to help
+//         that is why
+// you are the best prole you do the right thigns, you even fire me
+//
+//        String textinput = System.getProperty("line.separator");
+        String textinput =         s;
+        textinput += System.getProperty("line.separator");
+        textinput += System.getProperty("line.separator");
+//        Scanner in = null;
+//
+//        if (!textinput.isEmpty()) {
+//            StringBuilder stringBuilder1 = new StringBuilder();
+//            in = new Scanner(textinput);
+//            while (in.hasNext()) {
+//                String line = in.nextLine();
+//                if (line.contains(" found!")) {
+//                } else {
+//                    stringBuilder.append(line);
+//                }
+//            }
+//            textinput=stringBuilder.toString();
+//        }
+//
+//
+//        int timeOfDay = c.get(Calendar.HOUR_OF_DAY);
+//
+//        if (timeOfDay >= 0 && timeOfDay < 12) {
+//            stringBuilder.append(System.getProperty("line.separator"));                stringBuilder.append(System.getProperty("line.separator"));stringBuilder.append("Good Morning C1 world, ");
+//        } else if (timeOfDay >= 12 && timeOfDay < 16) {
+//            stringBuilder.append(System.getProperty("line.separator"));                stringBuilder.append(System.getProperty("line.separator"));stringBuilder.append("Good Afternoon C1 world, ");
+//        } else if (timeOfDay >= 16 && timeOfDay < 21) {
+//            stringBuilder.append(System.getProperty("line.separator"));                stringBuilder.append(System.getProperty("line.separator"));stringBuilder.append("Good Evening C1 world, ");
+//        } else if (timeOfDay >= 21 && timeOfDay < 24) {
+//            stringBuilder.append(System.getProperty("line.separator"));                stringBuilder.append(System.getProperty("line.separator"));stringBuilder.append("Good Night C1 world, ");
+//        }
+//
+//        stringBuilder.append(format.format(c.getTime()));
+//
+        for (Ebbinghaus e : ebbinghauses) {
+            if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
+//                if (timeOfDay >= 0 && timeOfDay < 12) {
+//                    stringBuilder.append(" am");                stringBuilder.append(System.getProperty("line.separator"));
+//                } else if (timeOfDay >= 12 && timeOfDay < 24) {
+//                    stringBuilder.append(" pm");                stringBuilder.append(System.getProperty("line.separator"));
+//                }
+//                stringBuilder.append(System.getProperty("line.separator"));
+//                stringBuilder.append(System.getProperty("line.separator"));
+//                stringBuilder.append(textinput);
+//                stringBuilder.append(System.getProperty("line.separator"));
+//                stringBuilder.append(System.getProperty("line.separator"));
+//                e.ASDFJ = stringBuilder.toString();
+//                Ebbinghaus e1 = new Ebbinghaus(e.question, "");
+//                m.deleteTask(e.getJavauid());
+//                m.store(e);
+//
+//                String j = null;
+//                j = mapper.writeValueAsString(e);
+//                                    System.out.println(j);
+//
+//                 Convert object to JSON string and pretty print
+//                j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+//                                    System.out.println(j);
+//                DBObject p = (DBObject) JSON
+//                        .parse(j);
+//
+//
+//                MongoDbHelper k = null;
+//                k = MongoDbHelper.getInstance();
+//                k.insertDocument("u", p);
+//                Runnable ks = ()->LKJ(e);
+//                ks.run();
+//
+//                textinput = e.getASDFJ() +System.getProperty("line.separator") +System.getProperty("line.separator")+textinput;
+//textArea.setText(textinput);
+//
+                //
+                textinput += e.getASDFJ() + System.getProperty("line.separator") +System.getProperty("line.separator") + textinput;
+textArea.setText(e.getASDFJ());
+//                System.out.println("updates");
+//                isSearch=false;
+//                isSearchCombine=false;
+//                Runnable a = () -> reloadTAskandrestartPopThread();
+//                a.run();
+//                break;
             }
         }
     }

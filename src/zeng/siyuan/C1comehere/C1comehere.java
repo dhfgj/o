@@ -1388,6 +1388,19 @@ b.run();
                             How2Forgert.serialize();
                         } else if (DisHow2ForegertCommand) {
                             System.out.println("DisHow2ForegertCommand");
+                            String[] ss =         textArea.getText().split("ufgt");
+                            if(ss[0].trim().equalsIgnoreCase("u")){
+// show answer
+                                s.u();
+                            } else (textArea.getText().contains("ufgt")){
+s.updatetask();
+                            }
+
+                            // type and submit and get answer
+
+                            // update
+
+
                             s.load();
                             textArea.setText("");
                             How2Forgert.serialize();
