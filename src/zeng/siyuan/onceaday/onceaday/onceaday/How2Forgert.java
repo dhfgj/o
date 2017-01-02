@@ -622,7 +622,8 @@ textArea.setText("");
 
 // how to handle a lot of event s and all those shiets
 
-
+// programming iks hard you have to do it one step by one step
+    // it is just tedious and stupid that is it
 
             @Test
             public void HSLAKJFLKSJF ( ){
@@ -631,6 +632,8 @@ textArea.setText("");
 // people lie to gett everything and that is all things are requireda nd htat is all
                 // there is not knowledge and facts and no helpful
                 // it is all fuckting lies excetpt hat hose that are useful
+                // i am tierd of doing the same shit sagain and agan because i know anyway i can do it wihout a doubt, so why bother
+                // because i need it and i care about it and that i shte solution to everythings
                 // useuless information are not interesting
                 // that is whay i don't know aht to do
                 // knowledge is the only facts and that is the reliable
@@ -1555,12 +1558,15 @@ tasks.remove(l);
         displayTask();
 //        displayTaskFGADSHFJKASHFDKJLKJLKJ();
     }
-
+//http://www.mkyong.com/java8/java-8-collectors-groupingby-and-mapping-example/
+    //https://www.tutorialspoint.com/ruby-on-rails/rails-routes.htm
+    //http://www.vogella.com/tutorials/JavaCollections/article.html
     public void inster(String word, String answer) throws IOException {
 //        addWord(word, answer);
         isSearch=false;
     }
-
+// if i don't things in structure then it will be very hard to tract and it would be so hard to understand either
+    // it is full of bugs and it is wo hard to understand
     private void reloadTAskandrestartPopThread() {
         textArea.setText("");
         if (null != reloadandDisplayThread || reloadandDisplayThread.isAlive()) {
