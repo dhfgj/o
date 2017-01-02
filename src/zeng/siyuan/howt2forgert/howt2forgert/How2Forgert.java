@@ -92,6 +92,12 @@ public class How2Forgert implements Serializable {
                         k.insertDocument("u", p);
                         Ebbinghaus finalE1 = e;
                         Runnable ks = () -> LKJ(finalE1);
+                        // some time i have to stub everything out then do the right thing
+                        // but i don't want to do that i just want to code it out and test it and ficx it it would be better
+                        // i just can't hel ptp fill in all th e deteails before that i layout all the problems
+                        // i should do ethe epydsuoce designt hen doce it that woulbe maybe beteter thant that would so mcuh much
+                        // it is just like the test driver devepeplemtneth
+
                         ks.run();
 
                     }
