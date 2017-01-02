@@ -101,9 +101,19 @@ public class How2Forgert implements Serializable {
                             for (person_question e : ebbinghauses) {
                                 if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                                     inntuitive+=e.getText();
-                                            m.deleteTask(e.getJavauid());
-                                            e = new person_question(e.getText(),"ssdd", null);
-                                            m.store(e);
+//                                            m.deleteTask(e.getJavauid());
+//                                            e = new person_question(e.getText(),"ssdd", null);
+//                                            m.store(e);
+                                    currentTask.isDone=false;
+                                    inntuitive+=e.getText();
+//                                        m.deleteTask(e.getJavauid());
+
+                                    currentTask.setDate(r.l(currentTask.getDate()));
+
+//                                        m.deleteTask(e.getJavauid());
+//                                        e = new person_question(e.getText(),"ssdd", null);
+                                    m.store(e);
+
 //                                Desktop.getDesktop().open(new File(e.getText()));
                                     r.open(e.getText());
 
@@ -119,9 +129,18 @@ public class How2Forgert implements Serializable {
                             for (person_question e : ebbinghauses) {
                                 if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                                     inntuitive+=e.getText();
-                                    m.deleteTask(e.getJavauid());
-                                            e = new person_question(e.getText(),"ssdd", null);
-                                            m.store(e);
+//                                    m.deleteTask(e.getJavauid());
+//                                            e = new person_question(e.getText(),"ssdd", null);
+//                                            m.store(e);
+                                    currentTask.isDone=false;
+                                    inntuitive+=e.getText();
+//                                        m.deleteTask(e.getJavauid());
+
+                                    currentTask.setDate(r.l(currentTask.getDate()));
+
+//                                        m.deleteTask(e.getJavauid());
+//                                        e = new person_question(e.getText(),"ssdd", null);
+                                    m.store(e);
 
                                     r.open(e.getText());
 //                                            if(r.isUrl(e.getText())){
@@ -144,9 +163,18 @@ public class How2Forgert implements Serializable {
                         for (person_question e : ebbinghauses) {
                             if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                                         inntuitive+=e.getText();
-                                        m.deleteTask(e.getJavauid());
-                                        e = new person_question(e.getText(),"ssdd", null);
-                                        m.store(e);
+//                                        m.deleteTask(e.getJavauid());
+//                                        e = new person_question(e.getText(),"ssdd", null);
+//                                        m.store(e);
+                                currentTask.isDone=false;
+                                inntuitive+=e.getText();
+//                                        m.deleteTask(e.getJavauid());
+
+                                currentTask.setDate(r.l(currentTask.getDate()));
+
+//                                        m.deleteTask(e.getJavauid());
+//                                        e = new person_question(e.getText(),"ssdd", null);
+                                m.store(e);
 
 //                                if(r.isUrl(e.getText())){
 //                                    r.openUrlInBrowser(e.getText());

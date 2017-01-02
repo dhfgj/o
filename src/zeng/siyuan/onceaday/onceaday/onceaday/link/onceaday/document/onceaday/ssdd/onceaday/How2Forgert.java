@@ -1,6 +1,7 @@
 package zeng.siyuan.onceaday.onceaday.onceaday.link.onceaday.document.onceaday.ssdd.onceaday;
 
 import zeng.siyuan.C1comehere.C1comehere;
+import zeng.siyuan.reuseutil.r;
 
 import javax.swing.*;
 import java.io.IOException;
@@ -103,9 +104,19 @@ public class How2Forgert implements Serializable {
                             for (person_question e : ebbinghauses) {
                                 if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                                     inntuitive+=e.getText();
-                                            m.deleteTask(e.getJavauid());
-                                            e = new person_question(e.getText(),"ssdd", null);
-                                            m.store(e);
+//                                            m.deleteTask(e.getJavauid());
+//                                            e = new person_question(e.getText(),"ssdd", null);
+//                                            m.store(e);
+                                    currentTask.isDone=false;
+                                    inntuitive+=e.getText();
+//                                        m.deleteTask(e.getJavauid());
+
+                                    currentTask.setDate(r.l(currentTask.getDate()));
+
+//                                        m.deleteTask(e.getJavauid());
+//                                        e = new person_question(e.getText(),"ssdd", null);
+                                    m.store(e);
+
                                     if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                                             break;
                                 }
@@ -121,10 +132,20 @@ public class How2Forgert implements Serializable {
                             for (person_question e : ebbinghauses) {
                                 if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                                     inntuitive+=e.getText();
-                                    m.deleteTask(e.getJavauid());
-                                            e = new person_question(e.getText(),"ssdd", null);
-                                            m.store(e);
-                            if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
+//                                    m.deleteTask(e.getJavauid());
+//                                            e = new person_question(e.getText(),"ssdd", null);
+//                                            m.store(e);
+                                    currentTask.isDone=false;
+                                    inntuitive+=e.getText();
+//                                        m.deleteTask(e.getJavauid());
+
+                                    currentTask.setDate(r.l(currentTask.getDate()));
+
+//                                        m.deleteTask(e.getJavauid());
+//                                        e = new person_question(e.getText(),"ssdd", null);
+                                    m.store(e);
+
+                                    if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                                             break;
                                 }
                             }
@@ -141,9 +162,18 @@ public class How2Forgert implements Serializable {
                         for (person_question e : ebbinghauses) {
                             if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                                         inntuitive+=e.getText();
-                                        m.deleteTask(e.getJavauid());
-                                        e = new person_question(e.getText(),"ssdd", null);
-                                        m.store(e);
+//                                        m.deleteTask(e.getJavauid());
+//                                        e = new person_question(e.getText(),"ssdd", null);
+//                                        m.store(e);
+                                currentTask.isDone=false;
+                                inntuitive+=e.getText();
+//                                        m.deleteTask(e.getJavauid());
+
+                                currentTask.setDate(r.l(currentTask.getDate()));
+
+//                                        m.deleteTask(e.getJavauid());
+//                                        e = new person_question(e.getText(),"ssdd", null);
+                                m.store(e);
                                         if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                                         break;
                             }
