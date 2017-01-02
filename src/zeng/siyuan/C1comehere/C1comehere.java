@@ -1569,10 +1569,12 @@ s.updatetask();
                         else if (SDldeleteCommandd_X ) {
                             System.out.println("Disloadl");
                             dhow2ForgDertlssf.fjlasdjfl();
-                        } else if (SDcodjDa_lx) {
-                            System.out.println("Disloadl");
-                            dhow2ForgDertlssfs.load();
                         }
+
+//                        else if (SDcodjDa_lx) {
+//                            System.out.println("Disloadl");
+//                            dhow2ForgDertlssfs.load();
+//                        }
 
                         else if (SDdleleteCoDmmand2f ) {
                             System.out.println("DdeletleCommand2");

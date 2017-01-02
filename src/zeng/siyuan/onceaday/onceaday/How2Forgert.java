@@ -428,7 +428,7 @@ a.run();
 
 
                                             String j = mapper.writeValueAsString(e);
-                                            System.out.println(j);
+//                                            System.out.println(j);
 inntuitive=j;
 logDictionary(
         null, null, inntuitive
