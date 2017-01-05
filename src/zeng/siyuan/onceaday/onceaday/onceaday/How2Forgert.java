@@ -456,13 +456,13 @@ public class How2Forgert implements Serializable {
 
                                     MongoDbHelper k= MongoDbHelper.getInstance();
 
-//                                    k.insertDocument("q", p);
+//                                    k.insertDocument("m", p);
 
-                                    BasicDBObject searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
-
-
-                                    k.updateDocument("q", searchQuery, p);
-
+//                                    BasicDBObject searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
+//
+//
+//                                    k.updateDocument("m", searchQuery, p);
+k.removeDocument("m", p);
 
                                     if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
                                         try {
@@ -542,14 +542,14 @@ public class How2Forgert implements Serializable {
 
 
                                         MongoDbHelper k= MongoDbHelper.getInstance();
-//                                        k.insertDocument("q", p);
+//                                        k.insertDocument("m", p);
 // asscemble things together at somet point of time and do the dediting work there tat would be better.
 
                                         BasicDBObject searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
 
 
-                                        k.updateDocument("q", searchQuery, p);
-
+//                                        k.updateDocument("m", searchQuery, p);
+k.removeDocument("m", p);
 
                                         if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
                                             try {
@@ -620,7 +620,7 @@ public class How2Forgert implements Serializable {
 
 
                     MongoDbHelper k = MongoDbHelper.getInstance();
-                    k.insertDocument("q", p);
+                    k.insertDocument("m", p);
                     Runnable ks = ()->LKJ(e);
                     ks.run();
 //                    reloadTAskandrestartPopThread();
@@ -771,7 +771,7 @@ textArea.setText("");
 
 
                 MongoDbHelper k= MongoDbHelper.getInstance();
-                k.insertDocument("q", p);
+                k.insertDocument("m", p);
 
 // the dabase will be containminate i have to restorey it i s just so har d to do so
 //ihave to have hard copy that won't beet ecomplate and that is all ihave to so dos i have i hw to os dfo dfa sdfi manually that is ait lasdkflasdfj;sdfkjasljfsdfjdsjfsdlkjflasdjflksdjflksjfddsjflkdalfajslfjlsjflasjlfj
@@ -935,10 +935,10 @@ textArea.setText("");
                                 BasicDBObject searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
 
 
-                                k.updateDocument("q", searchQuery, p);
+//                                k.updateDocument("m", searchQuery, p);
 
-//                                k.insertDocument("q", p);
-//k.removeDocument("q", p);
+//                                k.insertDocument("m", p);
+k.removeDocument("m", p);
 ebbinghauses.remove(d);
 tasks.remove(l);
                                 ///*
@@ -1035,7 +1035,7 @@ tasks.remove(l);
 //                                                null, null, j
 //                                        );
 //                                        MongoDbHelper k= MongoDbHelper.getInstance();
-//                                        k.insertDocument("q", p);
+//                                        k.insertDocument("m", p);
 //
 
 //                                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
@@ -1185,14 +1185,14 @@ tasks.remove(l);
                                     }
                                     // i mess up the database againa nd agan and that is the case that will contaiminate all the datea base
                                     // how to back up the dabatavAE SO THAT the production data won't be containminated
-//                                    k.insertDocument("q", p);
-//                                    k.removeDocument("q", p);
+//                                    k.insertDocument("m", p);
+//                                    k.removeDocument("m", p);
 
                                     BasicDBObject searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
 
 
-                                    k.updateDocument("q", searchQuery, p);
-
+//                                    k.updateDocument("m", searchQuery, p);
+k.removeDocument("m", p);
                                     ebbinghauses.remove(d);
 
                                     tasks.remove(l);                                    ///*
@@ -1292,7 +1292,7 @@ tasks.remove(l);
 //                                                null, null, j
 //                                        );
 //                                        MongoDbHelper k= MongoDbHelper.getInstance();
-//                                        k.insertDocument("q", p);
+//                                        k.insertDocument("m", p);
 //
 
 //                                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
@@ -1415,7 +1415,7 @@ tasks.remove(l);
     public void loadTask() {
         List<DBObject> k = null ;
         try {
-            k = MongoDbHelper.getInstance().findAll("q").toArray();
+            k = MongoDbHelper.getInstance().findAll("m").toArray();
         } catch (UnknownHostException e) {
             e.printStackTrace();
         }
@@ -1454,7 +1454,7 @@ tasks.remove(l);
     public void LKJ(person_question K) {
 //        List<DBObject> k = null ;
 //        try {
-//            k = MongoDbHelper.getInstance().findAll("q").toArray();
+//            k = MongoDbHelper.getInstance().findAll("m").toArray();
 //        } catch (UnknownHostException e) {
 //            e.printStackTrace();
 //        }
@@ -1496,8 +1496,8 @@ tasks.remove(l);
         CopyOnWriteArrayList<DecendingTask> taskstemp = new CopyOnWriteArrayList<DecendingTask>();
 
         taskstemp = new CopyOnWriteArrayList<DecendingTask>();
-        List<DBObject> k = MongoDbHelper.getInstance().findAll("q").toArray();
-//        List<DBObject> k = MongoDbHelper.getInstance().findAll("q").sort(new BasicDBObject("date",1)).limit(1).toArray();
+        List<DBObject> k = MongoDbHelper.getInstance().findAll("m").toArray();
+//        List<DBObject> k = MongoDbHelper.getInstance().findAll("m").sort(new BasicDBObject("date",1)).limit(1).toArray();
 
 
 ///nothing means everything it is just symbole and tell you where it is and find it where is there it is just symbole and the name are the variable and buET THE others are just struxtuer
