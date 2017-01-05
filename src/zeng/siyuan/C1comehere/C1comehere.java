@@ -1631,8 +1631,20 @@ s.updatetask();
                             System.out.println("asdf");
                             j.d();
                             textArea.setText("");
-                        }
 
+                        }
+//
+                        //
+    //
+//
+//
+                        //
+                        //
+                        //
+
+                        //
+
+                        //https://www.tutorialspoint.com/design_pattern/flyweight_pattern.htm
 
 
                         else {

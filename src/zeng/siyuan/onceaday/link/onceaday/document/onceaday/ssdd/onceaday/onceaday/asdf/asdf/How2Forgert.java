@@ -234,11 +234,46 @@ public class How2Forgert implements Serializable {
 
 
             } else {
-                StringBuffer stringBuffer1 = new StringBuffer();
-                for (int i = 1; i < textStr.length; i++) {
-                    stringBuffer1.append(textStr[i]);
+
+
+                Integer ij=null;
+                try {
+                    ij = Integer.parseInt(textStr[0]);
+                } catch (Exception e12 ){
+                    e12.getMessage();
+                    ij=null;
                 }
-                e = new person_question(stringBuffer1.toString(), "p", r.strifasld(textStr[0]));
+                if (null == ij) {
+
+                    StringBuffer stringBuffer1 = new StringBuffer();
+                    stringBuffer1.append(textStr[0]);
+
+                    for (int i = 1; i < textStr.length; i++) {
+                        stringBuffer1.append(textStr[i]);
+                    }
+                    e = new person_question(stringBuffer1.toString(), "f", r.strifasld(new String (String.valueOf(6*60))));
+                }
+
+                else {
+
+                    StringBuffer stringBuffer1 = new StringBuffer();
+//                    stringBuffer1.append(textStr[0]);
+
+                    for (int i = 1; i < textStr.length; i++) {
+                        stringBuffer1.append(textStr[i]);
+                    }
+
+                    e = new person_question(stringBuffer1.toString(), ij.toString(), r.strifasld(new String (String.valueOf(ij.toString()))));
+
+                }
+
+
+
+//                StringBuffer stringBuffer1 = new StringBuffer();
+//                for (int i = 1; i < textStr.length; i++) {
+//                    stringBuffer1.append(textStr[i]);
+//                }
+//                e = new person_question(stringBuffer1.toString(), "p", r.strifasld(textStr[0]));
             }
 
 
@@ -323,6 +358,18 @@ public class How2Forgert implements Serializable {
                 break;
             }
         }
+    }
+
+    public static boolean isInteger(String s) {
+        try {
+            Integer.parseInt(s);
+        } catch(NumberFormatException e) {
+            return false;
+        } catch(NullPointerException e) {
+            return false;
+        }
+        // only got here if we didn't return false
+        return true;
     }
 public static int c =0;
     public void displayTask() {
@@ -413,8 +460,24 @@ public static int c =0;
                                             if(e.type.equalsIgnoreCase("d")) {
                                                 ct.setIsDone(false);
                                                 ct.setDate(r.l(ct.getDate()));
+                                            } else if (isInteger(e.type)) {
+                                                ct.setIsDone(false);
+                                                ct.setDate(r.strifasld(e.type));
                                             }
 
+
+                                            else
+
+
+                                            if(e.type.equalsIgnoreCase("f")) {
+                                                ct.setIsDone(false);
+                                                ct.setDate(r.strifasld(new String (String.valueOf(6*60))));
+                                            }
+
+                                            else if (isInteger(e.type)) {
+                                                ct.setIsDone(false);
+                                                ct.setDate(r.strifasld(e.type));
+                                            }
 
                                                 else {
                                                     ct.setIsDone(true);
@@ -487,7 +550,18 @@ public static int c =0;
                                             ct.setDate(r.l(ct.getDate()));
                                         }
 
+                                        else
 
+
+                                        if(e.type.equalsIgnoreCase("f")) {
+                                            ct.setIsDone(false);
+                                            ct.setDate(r.strifasld(new String (String.valueOf(6*60))));
+                                        }
+
+                                        else if (isInteger(e.type)) {
+                                            ct.setIsDone(false);
+                                            ct.setDate(r.strifasld(e.type));
+                                        }
                                         else {
                                             ct.setIsDone(true);
                                         }
