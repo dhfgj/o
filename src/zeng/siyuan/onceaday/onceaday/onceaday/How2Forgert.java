@@ -1280,7 +1280,10 @@ tasks.remove(l);
 //                                        System.out.println(j);
 //                                        DBObject p = (DBObject) JSON
 //                                                .parse(j);
-//
+// nothing makes sense what makes sense is because ther ei s dictionary or dependsen ont he things it holds it it hold a soli then it is olil thank
+                    // it is water then it is water tank , thwat ether estdoes matters
+                    // what maepter is what it hold
+                    // algorithm and datastreatuc thtat caction on the datea
 //                                        inntuitive=j;
 //                                        logDictionary(
 //                                                null, null, j

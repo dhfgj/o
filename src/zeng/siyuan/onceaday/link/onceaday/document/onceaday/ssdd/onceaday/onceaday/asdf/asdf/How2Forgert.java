@@ -334,7 +334,7 @@ public static int c =0;
 
                     if (c == 0 ) {
                         Thread.sleep(4 * 60000);
-                        c= 5;
+                        c= 3;
                     }
                     c --;
 
@@ -446,7 +446,7 @@ public static int c =0;
                     } else if (!t.getIsDone() && t.getDate().before(new Date())) {
                         if (c == 0 ) {
                             Thread.sleep(4 * 60000);
-                            c= 5;
+                            c= 3;
                         }
                         c --;
 
