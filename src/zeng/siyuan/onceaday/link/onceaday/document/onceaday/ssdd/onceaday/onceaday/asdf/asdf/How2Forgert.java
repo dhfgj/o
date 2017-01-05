@@ -275,7 +275,9 @@ public class How2Forgert implements Serializable {
 //                }
 //                e = new person_question(stringBuffer1.toString(), "p", r.strifasld(textStr[0]));
             }
-
+// ilost a lot of production data while working on the thing that it doesn even work and that is a lot of paiful
+            // the problem is tho test all the component ans taht will work
+            // that is good
 
             m.store(e);
             person_question finalE = e;
