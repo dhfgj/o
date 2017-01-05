@@ -252,7 +252,7 @@ public class How2Forgert implements Serializable {
                 else {
 
                     StringBuffer stringBuffer1 = new StringBuffer();
-                    stringBuffer1.append(textStr[0]);
+//                    stringBuffer1.append(textStr[0]);
 
                     for (int i = 1; i < textStr.length; i++) {
                         stringBuffer1.append(textStr[i]);
@@ -830,6 +830,7 @@ textArea.setText("");
                                 } catch (InterruptedException e1) {
                                     e1.printStackTrace();
                                 }
+                                AJKDSLJFLKJQWOIRULJDFLKJL.setIsDone(true);
 //                            while (!textArea.getText().trim().isEmpty()) {
 //                                Thread.sleep(10000);
 //                            }
@@ -964,7 +965,7 @@ tasks.remove(l);
 //                                                if (line.length() > 4) {
                                                     Search search = c1comehere.searchEngines.get("sg ");
 //                                                    String searchTrs = line.substring(3);
-                                                    search.setURI(text);
+                                                    search.setURI(e.getText());
 
                                                     r.o(search.getURIString());
 //                                                } else {
@@ -1070,7 +1071,9 @@ tasks.remove(l);
                             for (int d =0 ; d< ebbinghauses.size(); d++) {
                                 person_question e = ebbinghauses.get(d);
                                 if (e.getJavauid().toString().equalsIgnoreCase(AJKDSLJFLKJQWOIRULJDFLKJL.getJavauuid().toString())) {
-//                                    for (Task ct : e.getTasks()) {
+                                    AJKDSLJFLKJQWOIRULJDFLKJL.setIsDone(true);
+
+                                    //                                    for (Task ct : e.getTasks()) {
 //                                        if (ct.getDate().getTime() == AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime()) {
 //                                            ct.setIsDone(true);
 
@@ -1216,7 +1219,7 @@ tasks.remove(l);
 //                                                if (line.length() > 4) {
                                             Search search = c1comehere.searchEngines.get("sg ");
 //                                                    String searchTrs = line.substring(3);
-                                            search.setURI(text);
+                                            search.setURI(e.getText());
 
                                             r.o(search.getURIString());
 //                                                } else {
