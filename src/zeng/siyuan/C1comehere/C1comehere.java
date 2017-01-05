@@ -750,6 +750,7 @@ Runnable b =()-> {
     dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.textArea = textArea;
     dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.frame = frame;
     dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.init();
+/*
 
     if (null == dhow2ForgDertlssfs) {
         dhow2ForgDertlssfs = new zeng.siyuan.onceaday.onceaday.How2Forgert(c1comehere, textArea, frame);
@@ -758,6 +759,7 @@ Runnable b =()-> {
     dhow2ForgDertlssfs.textArea = textArea;
     dhow2ForgDertlssfs.frame = frame;
     dhow2ForgDertlssfs.init();
+*/
 
 
     if (null == a) {

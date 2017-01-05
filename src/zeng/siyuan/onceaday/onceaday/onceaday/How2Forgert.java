@@ -768,7 +768,8 @@ textArea.setText("");
                 MongoDbHelper k= MongoDbHelper.getInstance();
                 k.insertDocument("JAKSHFDLKHASKJFHAKSLHFKALSJF", p);
 
-
+// the dabase will be containminate i have to restorey it i s just so har d to do so
+//ihave to have hard copy that won't beet ecomplate and that is all ihave to so dos i have i hw to os dfo dfa sdfi manually that is ait lasdkflasdfj;sdfkjasljfsdfjdsjfsdlkjflasdjflksdjflksjfddsjflkdalfajslfjlsjflasjlfj
 
                 System.out.println("updates");
                 isSearch=false;
@@ -777,7 +778,8 @@ textArea.setText("");
         }
     }
 */
-
+// regardingc onsatnt dleement like time is same as utility and caom reuse like count wait for 5 seconds
+    //
     public void displayTask() {
         try {
             if (isSearch) {

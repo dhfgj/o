@@ -2,6 +2,7 @@ package zeng.siyuan.onceaday.onceaday;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.core.JsonGenerationException;
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -395,58 +396,58 @@ a.run();
 
     public void displayTask() {
         try {
-            if(isSearch){
+            if (isSearch) {
                 displaysearchtasks();
             } else {
                 for (Task t : tasks) {
                     SimpleDateFormat fmt = new SimpleDateFormat("yyyyMMdd");
-                    if ( (new Date()).after(t.getDate()) && !t.isDone) {
+                    if ((new Date()).before(t.getDate()) && !t.isDone) {
 //                    if (!t.getIsDone() && t.getDate().after(new Date())) {
                         Calendar calendar = Calendar.getInstance();
                         calendar.setTime(t.getDate());
 //
                         long diff = calendar.getTimeInMillis() - Calendar.getInstance().getTimeInMillis();
-                            Thread.sleep(diff);
-                            while (!textArea.getText().trim().isEmpty()) {
-                                Thread.sleep(10000);
-                            }
+                        Thread.sleep(diff);
+                        while (!textArea.getText().trim().isEmpty()) {
+                            Thread.sleep(10000);
+                        }
 
 //                            frame.repaint();
 //                            frame.toFront();
-                            currentTask = t;
+                        currentTask = t;
 //                            String inntuitive = System.getProperty("line.separator");
-                            String inntuitive = "";
+                        String inntuitive = "";
 
 //                            inntuitive += (" Dufgt ");
 //                            inntuitive += System.getProperty("line.separator");
-                            for (person_question e : ebbinghauses) {
-                                if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
+                        for (person_question e : ebbinghauses) {
+                            if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
 //                                    for (Task ct : e.getTasks()) {
 //                                        if (ct.getDate().getTime() == AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime()) {
 //                                            ct.setIsDone(true);
-                                            inntuitive += e.text;
+                                inntuitive += e.text;
 //                                            m.store(e);
 
 
-                                            String j = mapper.writeValueAsString(e);
+                                String j = mapper.writeValueAsString(e);
 //                                            System.out.println(j);
-inntuitive=j;
-logDictionary(
-        null, null, inntuitive
-);
-                                            // Convert object to JSON string and pretty print
-                                            j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
-                                            System.out.println(j);
-                                            DBObject p = (DBObject) JSON
-                                                    .parse(j);
+                                inntuitive = j;
+                                logDictionary(
+                                        null, null, inntuitive
+                                );
+                                // Convert object to JSON string and pretty print
+                                j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+                                System.out.println(j);
+                                DBObject p = (DBObject) JSON
+                                        .parse(j);
 // the shit is everywehre and everywhere
 
-                                            MongoDbHelper k= MongoDbHelper.getInstance();
+                                MongoDbHelper k = MongoDbHelper.getInstance();
 //                                            k.insertDocument("asfhkjashfkjashfl", p);
-                                    BasicDBObject searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
+                                BasicDBObject searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
 
 
-                                    k.updateDocument("asfhkjashfkjashfl", searchQuery, p);
+                                k.updateDocument("asfhkjashfkjashfl", searchQuery, p);
 
 /*
 
@@ -473,18 +474,125 @@ logDictionary(
 
 
 // of ource it is .......
-                                    // of course, i get heartbest and it geels good
-                                    // it is all bout bull shitting and
+                                // of course, i get heartbest and it geels good
+                                // it is all bout bull shitting and
 
-                                    // it is all about ufo , it is all about java 8 , it isa all about that , whtat is ahwat you want and it is all abotu you love
+                                // it is all about ufo , it is all about java 8 , it isa all about that , whtat is ahwat you want and it is all abotu you love
 
 //                                        }
 //                                    }
-                                }
                             }
+                        }
 //                            inntuitive += System.getProperty("line.separator");
 //                            if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
-                    }
+                    } else if ((new Date()).after(t.getDate()) && !t.isDone) {
+//                    if (!t.getIsDone() && t.getDate().after(new Date())) {
+                        Calendar calendar = Calendar.getInstance();
+                        calendar.setTime(t.getDate());
+//
+//                        long diff = calendar.getTimeInMillis() - Calendar.getInstance().getTimeInMillis();
+//                        Thread.sleep(diff);
+                        while (!textArea.getText().trim().isEmpty()) {
+                            try {
+                                Thread.sleep(10000);
+                            } catch (InterruptedException e) {
+                                e.printStackTrace();
+                            }
+                        }
+
+//                            frame.repaint();
+//                            frame.toFront();
+                        currentTask = t;
+//                            String inntuitive = System.getProperty("line.separator");
+                        String inntuitive = "";
+
+//                            inntuitive += (" Dufgt ");
+//                            inntuitive += System.getProperty("line.separator");
+                        for (person_question e : ebbinghauses) {
+                            if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
+//                                    for (Task ct : e.getTasks()) {
+//                                        if (ct.getDate().getTime() == AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime()) {
+//                                            ct.setIsDone(true);
+                                inntuitive += e.text;
+//                                            m.store(e);
+
+
+                                String j = null;
+                                try {
+                                    j = mapper.writeValueAsString(e);
+                                } catch (JsonProcessingException e1) {
+                                    e1.printStackTrace();
+                                }
+//                                            System.out.println(j);
+                                inntuitive = j;
+                                try {
+                                    logDictionary(
+                                            null, null, inntuitive
+                                    );
+                                } catch (IOException e1) {
+                                    e1.printStackTrace();
+                                } catch (ParseException e1) {
+                                    e1.printStackTrace();
+                                }
+                                // Convert object to JSON string and pretty print
+                                try {
+                                    j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+                                } catch (JsonProcessingException e1) {
+                                    e1.printStackTrace();
+                                }
+                                System.out.println(j);
+                                DBObject p = (DBObject) JSON
+                                        .parse(j);
+// the shit is everywehre and everywhere
+
+                                MongoDbHelper k = null;
+                                try {
+                                    k = MongoDbHelper.getInstance();
+                                } catch (UnknownHostException e1) {
+                                    e1.printStackTrace();
+                                }
+//                                            k.insertDocument("asfhkjashfkjashfl", p);
+                                BasicDBObject searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
+
+
+                                k.updateDocument("asfhkjashfkjashfl", searchQuery, p);
+
+/*
+
+                                    if (inntuitive.length()>3 && c1comehere.searchEngines.containsKey(inntuitive.substring(0, 3))) {
+                                        String text = inntuitive.trim();
+
+                                        if (!text.isEmpty()) {
+                                            Scanner in = new Scanner(text);
+                                            while (in.hasNext()) {
+                                                String line = in.nextLine();
+                                                if (line.length() > 4) {
+                                                    Search search = c1comehere.searchEngines.get(line.substring(0, 3));
+                                                    String searchTrs = inntuitive.substring(3);
+                                                    search.setURI(searchTrs);
+
+                                                    r.o(search.getURIString());
+                                                } else {
+                                                }
+                                            }
+                                        }
+                                    }
+
+*/
+
+
+// of ource it is .......
+                                // of course, i get heartbest and it geels good
+                                // it is all bout bull shitting and
+
+                                // it is all about ufo , it is all about java 8 , it isa all about that , whtat is ahwat you want and it is all abotu you love
+
+//                                        }
+//                                    }
+                            }
+                        }
+//                            inntuitive += System.getProperty("line.separator");
+//
 
 
 //                    else if (!t.getIsDone() && t.getDate().before(new Date())) {
@@ -536,10 +644,11 @@ logDictionary(
 //                            if (found) break;
 //                        }
 //                    }
+                    }
                 }
             }
-        } catch (Exception e) {
-            e.printStackTrace();
+        } catch (Exception dd){
+
         }
     }
 // it is hard to trigger the function and test it whether it works or not in terms of my assupmertion
