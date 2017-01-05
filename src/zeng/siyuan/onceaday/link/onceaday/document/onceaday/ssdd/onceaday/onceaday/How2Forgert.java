@@ -123,7 +123,7 @@ static int ou= 1;
             if (isSearch) {
                 displaysearchtasks();
             } else {
-                            int count = 5;
+                            int count = 3;
                 for (Task t : tasks) {
                     if (!t.getIsDone()&& t.getDate().after(new Date())) {
                         Calendar calendar = Calendar.getInstance();
@@ -157,8 +157,8 @@ static int ou= 1;
 //                                Desktop.getDesktop().open(new File(e.getText()));
 
                                     if (count == 0 ) {
-                                        Thread.sleep(7 * 60000);
-                                        count = 5;
+                                        Thread.sleep(4 * 60000);
+                                        count = 3;
                                     }
 count --;
                                     r.open(e.getText());
@@ -185,8 +185,8 @@ count --;
 //                                        e = new person_question(e.getText(),"ssdd", null);
                                     m.store(e);
                                     if (count == 0 ) {
-                                        Thread.sleep(7 * 60000);
-                                        count = 5;
+                                        Thread.sleep(4 * 60000);
+                                        count = 3;
                                     }
                                     count --;
 
@@ -230,8 +230,8 @@ count --;
 //                                    Desktop.getDesktop().open(new File(e.getText()));
 //                                }
                                 if (count == 0 ) {
-                                    Thread.sleep(7 * 60000);
-                                    count = 5;
+                                    Thread.sleep(4 * 60000);
+                                    count = 3;
                                 }
                                 count --;
 

@@ -333,7 +333,7 @@ public static int c =0;
                 for (Task t : tasks) {
 
                     if (c == 0 ) {
-                        Thread.sleep(7 * 60000);
+                        Thread.sleep(4 * 60000);
                         c= 5;
                     }
                     c --;
@@ -445,7 +445,7 @@ public static int c =0;
                         if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                     } else if (!t.getIsDone() && t.getDate().before(new Date())) {
                         if (c == 0 ) {
-                            Thread.sleep(7 * 60000);
+                            Thread.sleep(4 * 60000);
                             c= 5;
                         }
                         c --;
