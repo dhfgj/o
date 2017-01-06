@@ -109,7 +109,7 @@ public static int c =0;
                     if (t.getDate().after(new Date()) && !t.getIsDone()) {
                         if (c == 0 ) {
                             Thread.sleep(5 * 60000);
-                            c= 5;
+                            c= 2;
                         }
                         c --;
 
@@ -181,7 +181,7 @@ public static int c =0;
 //                        frame.toFront();
                         if (c == 0 ) {
                             Thread.sleep(5 * 60000);
-                            c= 5;
+                            c= 2;
                         }
                         c --;
 

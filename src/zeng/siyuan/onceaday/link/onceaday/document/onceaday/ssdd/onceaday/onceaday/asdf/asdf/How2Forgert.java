@@ -515,6 +515,28 @@ public static int c =0;
                         }
                         c --;
 
+
+
+                        /*
+                        * http://solr-vs-elasticsearch.com/
+                        * https://cwiki.apache.org/confluence/display/solr/Apache+Solr+Reference+Guide
+                        * http://career.guru99.com/top-25-interview-questions-on-scala/
+                        * 333 http://www.javatpoint.com/hibernate-interview-questions
+                        * 333 http://stackoverflow.com/questions/6742789/how-to-handle-memory-leaks-in-java-ee
+                        *
+                        * 1 day http://www.bing.com/images/search?q=divergent+thinking&view=detailv2&&id=9AF26BA85CBE301DDF5ECCD131B5D1AE9AD2B219&selectedIndex=1&ccid=1lHiLLst&simid=608043293109783531&thid=OIP.Md651e22cbb2de1d93316c0e9d754c5c2o0&ajaxhist=0
+                        * 1  day http://www.bing.com/images/search?q=convergent+thinking+vs+divergent+thinking&view=detailv2&&id=4AC49DEBAE7AC58FEA39ED9C128515F57C996EDB&selectedIndex=38&ccid=xL7MX%2bmR&simid=608013859697921108&thid=OIP.Mc4becc5fe9913b013d55bf6f6b974262o0&ajaxhist=0
+                        * 1 day http://www.bing.com/images/search?q=convergent+thinking+vs+divergent+thinking&view=detailv2&&id=DF89355AA42A4DC0316FEB227419B0635FFA3FF5&selectedIndex=11&ccid=%2fOO7ILHj&simid=608042751942002154&thid=OIP.Mfce3bb20b1e32f6d5f217bfd69e79cc9o0&ajaxhist=0
+                        * 1 day http://www.bing.com/images/search?q=convergent+thinking+vs+divergent+thinking&view=detailv2&&id=FA03EB3FC552C29D52C573AFA8060BF3BAD33E06&selectedIndex=35&ccid=g3gC8l8c&simid=608044018963516148&thid=OIP.M837802f25f1cf37a9b9a1a5156d0f742o0&ajaxhist=0
+                        * 1 day http://www.bing.com/images/search?q=convergent+thinking+vs+divergent+thinking&view=detailv2&&id=304DD047C631BD28293A10B9DD7686FBC782B126&selectedIndex=164&ccid=ewkDAMUt&simid=608024227746940177&thid=OIP.M7b090300c52da70a2f62af83a1d6f290o0&ajaxhist=0
+                        * 1 day http://www.bing.com/images/search?q=convergent+thinking+vs+divergent+thinking&view=detailv2&&id=C82DD4585655229A4124E13288816FB39915C71D&selectedIndex=258&ccid=6NRP8RDC&simid=608021388779326434&thid=OIP.Me8d44ff110c25b5e53a021bc47963dceo0&ajaxhist=0
+                        * 120 https://www.codeproject.com/Articles/22769/Introduction-to-Object-Oriented-Programming-Concep
+                        * 1 day http://www.lifehack.org/469096/8-signs-of-fake-nice-people-you-need-to-be-aware-of
+                        * 333 http://www.techrepublic.com/blog/10-things/10-techniques-for-gathering-requirements/
+                        *
+                        *
+                        * */
+
                         boolean found = false;
                         for (person_question e : ebbinghauses) {
                             if (e.getJavauid().toString().equalsIgnoreCase(t.getJavauuid().toString())) {
