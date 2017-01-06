@@ -123,7 +123,7 @@ static int ou= 1;
             if (isSearch) {
                 displaysearchtasks();
             } else {
-                            int count = 3;
+                            int count = 2;
                 for (Task t : tasks) {
                     if (!t.getIsDone()&& t.getDate().after(new Date())) {
                         Calendar calendar = Calendar.getInstance();
@@ -158,7 +158,7 @@ static int ou= 1;
 
                                     if (count == 0 ) {
                                         Thread.sleep(4 * 60000);
-                                        count = 3;
+                                        count = 2;
                                     }
 count --;
                                     r.open(e.getText());
@@ -186,7 +186,7 @@ count --;
                                     m.store(e);
                                     if (count == 0 ) {
                                         Thread.sleep(4 * 60000);
-                                        count = 3;
+                                        count = 2;
                                     }
                                     count --;
 
@@ -231,7 +231,7 @@ count --;
 //                                }
                                 if (count == 0 ) {
                                     Thread.sleep(4 * 60000);
-                                    count = 3;
+                                    count = 2;
                                 }
                                 count --;
 

@@ -383,7 +383,7 @@ public static int c =0;
 
                     if (c == 0 ) {
                         Thread.sleep(4 * 60000);
-                        c= 3;
+                        c= 2;
                     }
                     c --;
 
@@ -511,7 +511,7 @@ public static int c =0;
                     } else if (!t.getIsDone() && t.getDate().before(new Date())) {
                         if (c == 0 ) {
                             Thread.sleep(4 * 60000);
-                            c= 3;
+                            c= 2;
                         }
                         c --;
 
@@ -664,7 +664,7 @@ public static int c =0;
         ebbinghauses.add(pq);
         textArea.setText("");
     }
-
+//http://tutorials.jenkov.com/java-concurrency/volatile.html
     public void loadTask() {
         ebbinghauses = (CopyOnWriteArrayList<person_question>) m.getlatest();
         tasks = new CopyOnWriteArrayList<Task>();
