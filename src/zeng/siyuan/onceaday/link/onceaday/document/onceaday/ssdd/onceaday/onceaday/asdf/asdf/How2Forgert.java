@@ -13,7 +13,6 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.TimeUnit;
-import java.util.stream.Collectors;
 
 import static java.awt.SystemColor.text;
 
@@ -71,7 +70,7 @@ public class How2Forgert implements Serializable {
             // do i wan tot give away love? this is the question when i try to do domething or chose to iagnoere the things
             person_question e=null;
 
-            if (textStr[0].equalsIgnoreCase("x"){
+            if (textStr[0].equalsIgnoreCase("x")){
                 StringBuffer stringBuffer1 = new StringBuffer();
                 for (int i = 1; i < textStr.length; i++) {
                     stringBuffer1.append(textStr[i]);
