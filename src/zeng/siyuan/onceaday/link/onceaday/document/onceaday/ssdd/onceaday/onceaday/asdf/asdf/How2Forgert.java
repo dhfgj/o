@@ -13,6 +13,7 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.TimeUnit;
+import java.util.stream.Collectors;
 
 import static java.awt.SystemColor.text;
 
@@ -70,6 +71,22 @@ public class How2Forgert implements Serializable {
             // do i wan tot give away love? this is the question when i try to do domething or chose to iagnoere the things
             person_question e=null;
 
+            if (textStr[0].equalsIgnoreCase("x"){
+                StringBuffer stringBuffer1 = new StringBuffer();
+                for (int i = 1; i < textStr.length; i++) {
+                    stringBuffer1.append(textStr[i]);
+                }
+
+                e = new person_question(stringBuffer1.toString(), "i", r.j(textStr[0]));
+
+                UUID s =ebbinghauses.stream().filter(person_question -> person_question.getText().equalsIgnoreCase(stringBuffer1.toString().trim())).findFirst().get().getJavauid();
+                tasks.removeIf(task -> task.getJavauuid().toString().equalsIgnoreCase(s.toString().trim()));
+                peoplequesiton.deleteTask(s);
+
+
+
+            } else
+
 
             if (textStr[0].length()==5){
                 StringBuffer stringBuffer1 = new StringBuffer();
@@ -96,7 +113,7 @@ public class How2Forgert implements Serializable {
                 }
                 e = new person_question(stringBuffer1.toString(), "ll", r.strifasld("60"));
             } else
-
+// love heals everythig love i shte best healing
             if (textStr[0].equalsIgnoreCase("c")){
                 StringBuffer stringBuffer1 = new StringBuffer();
                 for (int i = 1; i < textStr.length; i++) {
