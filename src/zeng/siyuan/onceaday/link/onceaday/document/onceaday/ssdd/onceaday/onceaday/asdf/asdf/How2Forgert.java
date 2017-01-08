@@ -397,134 +397,118 @@ public static int c =0;
             } else {
                 for (Task t : tasks) {
 
-                    if (c == 0 ) {
+                    if (c == 0) {
                         Thread.sleep(4 * 60000);
-                        c= 2;
+                        c = 2;
                     }
-                    c --;
+                    c--;
 
 
                     if (!t.getIsDone() && t.getDate().after(new Date())) {
                         Calendar calendar = Calendar.getInstance();
                         calendar.setTime(t.getDate());
                         long diff = calendar.getTimeInMillis() - Calendar.getInstance().getTimeInMillis();
-                            Thread.sleep(diff);
-                            while (!textArea.getText().trim().isEmpty()) {
-                                Thread.sleep(10000);
-                            }
+                        Thread.sleep(diff);
+                        while (!textArea.getText().trim().isEmpty()) {
+                            Thread.sleep(10000);
+                        }
 
-                            frame.repaint();
-                            frame.toFront();
-                            currentTask = t;
-                            String inntuitive ="";
+                        frame.repaint();
+                        frame.toFront();
+                        currentTask = t;
+                        String inntuitive = "";
 
-                            for (person_question e : ebbinghauses) {
-                                boolean asdf= false;
-                                if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
-                                    for (Task ct : e.getTasks()) {
-                                        if (ct.getDate().getTime() == currentTask.getDate().getTime()) {
-                                            asdf = true;
+                        for (person_question e : ebbinghauses) {
+                            boolean asdf = false;
+                            if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
+//                                    for (Task ct : e.getTasks()) {
+//                                        if (ct.getDate().getTime() == currentTask.getDate().getTime()) {
+                                asdf = true;
 
 
-                                            if(e.type.equalsIgnoreCase("l")){
-                                                ct.setIsDone(false);
+                                if (e.type.equalsIgnoreCase("l")) {
+                                    currentTask.setIsDone(false);
 //                                                r.open(e.getText());
-                                                ct.setDate(r.strifasld("30"));
-                                            } else
-
-                                            if(e.type.equalsIgnoreCase("ll")){
-                                                ct.setIsDone(false);
+                                    currentTask.setDate(r.strifasld("30"));
+                                } else if (e.type.equalsIgnoreCase("ll")) {
+                                    currentTask.setIsDone(false);
 //                                                r.open(e.getText());
-                                                ct.setDate(r.strifasld("60"));
-                                            } else
-
-                                            if(e.type.equalsIgnoreCase("c")){
-                                                ct.setIsDone(false);
+                                    currentTask.setDate(r.strifasld("60"));
+                                } else if (e.type.equalsIgnoreCase("c")) {
+                                    currentTask.setIsDone(false);
 //                                                r.open(e.getText());
-                                                ct.setDate(r.strifasld("60"));
-                                                if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(e.getText());;
-                                                frame.repaint();
-                                                frame.toFront();
+                                    currentTask.setDate(r.strifasld("60"));
+                                    if (!textArea.getText().trim().equalsIgnoreCase("")) try {
+                                        TimeUnit.SECONDS.sleep(5);
+                                    } catch (InterruptedException e9) {
+                                        e9.printStackTrace();
+                                    }
+                                    textArea.setText(e.getText());
+                                    ;
+                                    frame.repaint();
+                                    frame.toFront();
 
-                                                Robot r = new Robot();
-                                                int D = KeyEvent.VK_CONTROL;
-                                                int Da = KeyEvent.VK_ENTER;
+                                    Robot r = new Robot();
+                                    int D = KeyEvent.VK_CONTROL;
+                                    int Da = KeyEvent.VK_ENTER;
 //                                                int Da = KeyEvent.VK_SHIFT;
 //                                                int Dc = KeyEvent.VK_F11;
-                                                r.keyPress(D);
-                                                r.keyPress(Da);
+                                    r.keyPress(D);
+                                    r.keyPress(Da);
 //                                                r.keyPress(Dc);
 
-                                                r.keyRelease(D);
-                                                r.keyRelease(Da);
+                                    r.keyRelease(D);
+                                    r.keyRelease(Da);
 //                                                r.keyRelease(Dc);
 
 
-
-                                            } else
-
-                                            if(e.type.equalsIgnoreCase("j")){
-                                                ct.setIsDone(false);
-                                                ct.setDate(r.h(ct.getDate()));
-                                            } else
-
-
-                                                if(e.type.equalsIgnoreCase("dd")){
-                                                ct.setIsDone(false);
-                                                ct.setDate(r.k(ct.getDate()));
-                                            } else
-
-
-                                            if(e.type.equalsIgnoreCase("d")) {
-                                                ct.setIsDone(false);
-                                                ct.setDate(r.l(ct.getDate()));
-                                            } else if (isInteger(e.type)) {
-                                                ct.setIsDone(false);
-                                                ct.setDate(r.strifasld(e.type));
-                                            }
-
-
-                                            else
-
-
-                                            if(e.type.equalsIgnoreCase("f")) {
-                                                ct.setIsDone(false);
-                                                ct.setDate(r.strifasld(new String (String.valueOf(6*60))));
-                                            }
-
-                                            else if (isInteger(e.type)) {
-                                                ct.setIsDone(false);
-                                                ct.setDate(r.strifasld(e.type));
-                                            }
-
-                                                else {
-                                                    ct.setIsDone(true);
-                                                }
-                                            }
-
-                                            m.store(e);
-                                        if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
-                                            try {
-                                                r.open(e.text);
-                                            } catch (Exception f) {
-                                                f.printStackTrace();
-                                            }
-                                        } else if ((e.text.contains("sd") && text.equals("sd")) || (e.text.contains("shutdown") && e.text.equals("shutdown"))) {
-                                            Runtime.getRuntime().exec("shutdown.exe -s -t 0");
-                                            // what the fuck si the else mean?
-                                        } else if (null != e.text || !e.text.trim().isEmpty()) {
-                                            r.open(e.text.trim());
-                                        } else {
-                                        }
-                                            inntuitive += e.text;
-                                        }
-                                        if(asdf)break;
-                                    }
-                                if(asdf)break;
+                                } else if (e.type.equalsIgnoreCase("j")) {
+                                    currentTask.setIsDone(false);
+                                    currentTask.setDate(r.h(currentTask.getDate()));
+                                } else if (e.type.equalsIgnoreCase("dd")) {
+                                    currentTask.setIsDone(false);
+                                    currentTask.setDate(r.k(currentTask.getDate()));
+                                } else if (e.type.equalsIgnoreCase("d")) {
+                                    currentTask.setIsDone(false);
+                                    currentTask.setDate(r.l(currentTask.getDate()));
+                                } else if (isInteger(e.type)) {
+                                    currentTask.setIsDone(false);
+                                    currentTask.setDate(r.strifasld(e.type));
+                                } else if (e.type.equalsIgnoreCase("f")) {
+                                    currentTask.setIsDone(false);
+                                    currentTask.setDate(r.strifasld(new String(String.valueOf(6 * 60))));
+                                } else if (isInteger(e.type)) {
+                                    currentTask.setIsDone(false);
+                                    currentTask.setDate(r.strifasld(e.type));
+                                } else {
+                                    currentTask.setIsDone(true);
+                                }
                             }
-                        inntuitive += System.getProperty("line.separator");
-                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
-                    } else if (!t.getIsDone() && t.getDate().before(new Date())) {
+
+                            m.store(e);
+                            if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
+                                try {
+                                    r.open(e.text);
+                                } catch (Exception f) {
+                                    f.printStackTrace();
+                                }
+                            } else if ((e.text.contains("sd") && text.equals("sd")) || (e.text.contains("shutdown") && e.text.equals("shutdown"))) {
+                                Runtime.getRuntime().exec("shutdown.exe -s -t 0");
+                                // what the fuck si the else mean?
+                            } else if (null != e.text || !e.text.trim().isEmpty()) {
+                                r.open(e.text.trim());
+                            } else {
+                            }
+//                            inntuitive += e.text;
+//                                        }
+//                                        if(asdf)break;
+                            if (asdf) break;
+                        }
+                    }
+//                        inntuitive += System.getProperty("line.separator");
+//                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
+//                }
+            else if (!t.getIsDone() && t.getDate().before(new Date())) {
                         if (c == 0 ) {
                             Thread.sleep(4 * 60000);
                             c= 2;
@@ -556,54 +540,54 @@ public static int c =0;
                         boolean found = false;
                         for (person_question e : ebbinghauses) {
                             if (e.getJavauid().toString().equalsIgnoreCase(t.getJavauuid().toString())) {
-                                for (Task ct : e.getTasks()) {
-                                    if (!ct.isDone) {
+//                                for (Task ct : e.getTasks()) {
+                                    if (!currentTask.isDone) {
 
                                         while (!textArea.getText().trim().isEmpty()) {
                                             Thread.sleep(10000);
                                         }
                                         frame.repaint();
                                         frame.toFront();
-                                        currentTask = t;
-                                        String inntuitive = "";
+//                                        currentTask = t;
+//                                        String inntuitive = "";
 
                                         if(e.type.equalsIgnoreCase("l")){
-                                            ct.setIsDone(false);
+                                            currentTask.setIsDone(false);
 //                                            r.open(e.getText());
-                                            ct.setDate(r.strifasld("30"));
+                                            currentTask.setDate(r.strifasld("30"));
                                         } else
 
                                         if(e.type.equalsIgnoreCase("j")){
-                                            ct.setIsDone(false);
-                                            ct.setDate(r.h(ct.getDate()));
+                                            currentTask.setIsDone(false);
+                                            currentTask.setDate(r.h(currentTask.getDate()));
                                         } else
 
 
                                         if(e.type.equalsIgnoreCase("dd")){
-                                            ct.setIsDone(false);
-                                            ct.setDate(r.k(ct.getDate()));
+                                            currentTask.setIsDone(false);
+                                            currentTask.setDate(r.k(currentTask.getDate()));
                                         } else
 
 
                                         if(e.type.equalsIgnoreCase("d")) {
-                                            ct.setIsDone(false);
-                                            ct.setDate(r.l(ct.getDate()));
+                                            currentTask.setIsDone(false);
+                                            currentTask.setDate(r.l(currentTask.getDate()));
                                         }
 
                                         else
 
 
                                         if(e.type.equalsIgnoreCase("f")) {
-                                            ct.setIsDone(false);
-                                            ct.setDate(r.strifasld(new String (String.valueOf(6*60))));
+                                            currentTask.setIsDone(false);
+                                            currentTask.setDate(r.strifasld(new String (String.valueOf(6*60))));
                                         }
 
                                         else if (isInteger(e.type)) {
-                                            ct.setIsDone(false);
-                                            ct.setDate(r.strifasld(e.type));
+                                            currentTask.setIsDone(false);
+                                            currentTask.setDate(r.strifasld(e.type));
                                         }
                                         else {
-                                            ct.setIsDone(true);
+                                            currentTask.setIsDone(true);
                                         }
 
                                         m.store(e);
@@ -620,16 +604,18 @@ public static int c =0;
                                             r.open(e.text.trim());
                                         } else {
                                         }
-                                        inntuitive += e.text;
+//                                        inntuitive += e.text;
 
-                                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
+//                                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                                         found = true;
                                     }
-                                    if (found) break;
-                                }// i have to search and find the thing i want everythime and it doesn't make sany sease at foirst
+//                                    if (found) break;
+//                                }// i have to search and find the thing i want everythime and it doesn't make sany sease at foirst
 
                             }
-                            if (found) break;
+                            if (found) {
+                                break;
+                            }
                         }
                     }
 
