@@ -184,7 +184,12 @@ public static int c =0;
                             c= 2;
                         }
                         c --;
+// love and hate there is  a  difference
+                        // yes and not
 
+                        // yes and no
+                        // yes some
+                        // no kills
                         currentTask = t;
                         Beep.sound(2000, 150);
 

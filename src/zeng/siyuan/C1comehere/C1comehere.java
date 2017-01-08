@@ -746,6 +746,8 @@ Runnable b =()-> {
     if (null == dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG) {
         dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG = new zeng.siyuan.onceaday.onceaday.onceaday.How2Forgert(c1comehere, textArea, frame);
     }
+
+
     dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.c1comehere = c1comehere;
     dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.textArea = textArea;
     dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.frame = frame;
