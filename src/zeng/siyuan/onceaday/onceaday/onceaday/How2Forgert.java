@@ -799,6 +799,7 @@ textArea.setText("");
                     }
 
                     Task t = tasks.get(l);
+
 //                    SimpleDateFormat fmt = new SimpleDateFormat("yyyyMMdd");
 //                    if (!t.getIsDone() && (new Date()).compareTo(t.getDate()) > 0) {
                     if ( null != t && !t.getIsDone() && t.getDate().after(new Date())) {
@@ -1045,7 +1046,7 @@ tasks.remove(l);
 //                                        MongoDbHelper k= MongoDbHelper.getInstance();
 //                                        k.insertDocument("m", p);
 //
-
+// i am fujian the enviroment can shape people te enviroment is people
 //                                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
 //                                        found = true;
 //                                    }
