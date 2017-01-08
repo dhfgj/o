@@ -81,7 +81,7 @@ public class How2Forgert implements Serializable {
                 UUID s =ebbinghauses.stream().filter(person_question -> person_question.getText().equalsIgnoreCase(stringBuffer1.toString().trim())).findFirst().get().getJavauid();
                 tasks.removeIf(task -> task.getJavauuid().toString().equalsIgnoreCase(s.toString().trim()));
                 peoplequesiton.deleteTask(s);
-
+textArea.setText("http://www.w3schools.com/jquery/");
 
 
             } else

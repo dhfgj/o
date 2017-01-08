@@ -785,16 +785,24 @@ textArea.setText("");
 */
 // regardingc onsatnt dleement like time is same as utility and caom reuse like count wait for 5 seconds
     //
+
+    public static int c= 2;
     public void displayTask() {
         try {
             if (isSearch) {
                 displaysearchtasks();
             } else {
                 for (int l=0; l<tasks.size(); l++) {
+                    if (c == 0) {
+                        Thread.sleep(4 * 60000);
+                        c = 2;
+                    }
+
                     Task t = tasks.get(l);
 //                    SimpleDateFormat fmt = new SimpleDateFormat("yyyyMMdd");
 //                    if (!t.getIsDone() && (new Date()).compareTo(t.getDate()) > 0) {
                     if ( null != t && !t.getIsDone() && t.getDate().after(new Date())) {
+                        c--;
 //                        Calendar calendar = Calendar.getInstance();
 //                        calendar.setTime(t.getDate());
 
@@ -1049,7 +1057,10 @@ tasks.remove(l);
 //                    }
                     }
                     else if (!t.getIsDone() && t.getDate().before(new Date())) {
-//                        {
+                        c--;
+//
+//
+//     {
 //                        Calendar calendar = Calendar.getInstance();
 //                        calendar.setTime(t.getDate());
 
