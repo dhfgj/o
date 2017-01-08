@@ -389,7 +389,7 @@ public class How2Forgert implements Serializable {
         // only got here if we didn't return false
         return true;
     }
-public static int c =0;
+public static int c =2;
     public void displayTask() {
         try {
             if(isSearch){
@@ -397,14 +397,15 @@ public static int c =0;
             } else {
                 for (Task t : tasks) {
 
+                    currentTask=t;
                     if (c == 0) {
                         Thread.sleep(4 * 60000);
                         c = 2;
                     }
-                    c--;
 
 
                     if (!t.getIsDone() && t.getDate().after(new Date())) {
+                    c--;
                         Calendar calendar = Calendar.getInstance();
                         calendar.setTime(t.getDate());
                         long diff = calendar.getTimeInMillis() - Calendar.getInstance().getTimeInMillis();
@@ -413,10 +414,10 @@ public static int c =0;
                             Thread.sleep(10000);
                         }
 
-                        frame.repaint();
-                        frame.toFront();
+//                        frame.repaint();
+//                        frame.toFront();
                         currentTask = t;
-                        String inntuitive = "";
+//                        String inntuitive = "";
 
                         for (person_question e : ebbinghauses) {
                             boolean asdf = false;
@@ -445,8 +446,8 @@ public static int c =0;
                                     }
                                     textArea.setText(e.getText());
                                     ;
-                                    frame.repaint();
-                                    frame.toFront();
+//                                    frame.repaint();
+//                                    frame.toFront();
 
                                     Robot r = new Robot();
                                     int D = KeyEvent.VK_CONTROL;
@@ -509,11 +510,13 @@ public static int c =0;
 //                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
 //                }
             else if (!t.getIsDone() && t.getDate().before(new Date())) {
-                        if (c == 0 ) {
-                            Thread.sleep(4 * 60000);
-                            c= 2;
-                        }
-                        c --;
+                        c--;
+
+//                        if (c == 0 ) {
+//                            Thread.sleep(4 * 60000);
+//                            c= 2;
+//                        }
+//                        c --;
 
 
 
@@ -546,8 +549,8 @@ public static int c =0;
                                         while (!textArea.getText().trim().isEmpty()) {
                                             Thread.sleep(10000);
                                         }
-                                        frame.repaint();
-                                        frame.toFront();
+//                                        frame.repaint();
+//                                        frame.toFront();
 //                                        currentTask = t;
 //                                        String inntuitive = "";
 
