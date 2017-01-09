@@ -69,6 +69,9 @@ public class How2Forgert implements Serializable {
             // ido i wan tto give love
             // do i wan tot give away love? this is the question when i try to do domething or chose to iagnoere the things
             person_question e=null;
+            //sconrn
+    // strip of
+            //
 
             if (textStr[0].equalsIgnoreCase("x")){
                 StringBuffer stringBuffer1 = new StringBuffer();
