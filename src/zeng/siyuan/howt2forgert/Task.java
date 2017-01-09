@@ -36,7 +36,7 @@ public class Task implements Comparator<Task>, Serializable {
     @Override
     public int compare(Task o1, Task o2) {
         if(null !=o1&&(null !=o2) && null !=o1.getDate()&&(null !=o2.getDate()) && o1.getDate().after(o2.getDate())){
-            return 1;
+            return 0;
         }
 
         if(null !=o1&&(null !=o2) && null !=o1.getDate()&&(null !=o2.getDate()) && o1.getDate().before(o2.getDate())){
