@@ -63,7 +63,7 @@ jh(e);
                 }
             }
         }
-        Runnable a =()->Collections.sort(tasks, new Task());
+        Runnable a =()->{if (null == tasks && tasks.size()>1)Collections.sort(tasks, new Task());};
 a.run();
     }
 
@@ -248,7 +248,7 @@ r.o(e.getText());
                 }
             }
         }
-        Collections.sort(tasks, new Task());
+        if (null == tasks && tasks.size()>1)Collections.sort(tasks, new Task());
     }public void jh(person_question d) {
 
 //        ebbinghauses = (CopyOnWriteArrayList<person_question>) m.getlatest();

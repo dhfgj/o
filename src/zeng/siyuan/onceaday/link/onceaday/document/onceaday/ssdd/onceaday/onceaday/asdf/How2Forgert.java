@@ -48,7 +48,7 @@ public class How2Forgert implements Serializable {
                     }
                 }
             }
-Runnable a=()->        Collections.sort(tasks, new Task());
+Runnable a=()->        {if (null == tasks && tasks.size()>1)Collections.sort(tasks, new Task());};
 a.run();
     }
 
@@ -282,7 +282,7 @@ a.run();
                 }
             }
         }// i move the all the instionation tot hte new theread and i use cocurrent copyonwriteAraylist and iw the applicaiton works mbetter
-        Collections.sort(tasks, new Task());
+        if (null == tasks && tasks.size()>1)Collections.sort(tasks, new Task());
     }
 
 

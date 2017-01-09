@@ -222,7 +222,7 @@ public class How2Forgert implements Serializable {
                 }
             }
         }
-        Collections.sort(tasks, new Task());
+        if (null !=tasks && tasks.size()>=2)Collections.sort(tasks, new Task());
     }
 
     public void d(person_question k) {

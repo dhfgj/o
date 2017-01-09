@@ -1460,7 +1460,7 @@ k.removeDocument("m", p);
                 }
             }
         }
-        Collections.sort(tasks, new Task());
+        if (null == tasks && tasks.size()>1)Collections.sort(tasks, new Task());
     }
 
     public void LKJ(person_question K) {
@@ -1499,7 +1499,7 @@ k.removeDocument("m", p);
 //                }
 //            }
 //        }
-        Collections.sort(tasks, new Task());
+        if (null == tasks && tasks.size()>1)Collections.sort(tasks, new Task());
     }
 
 

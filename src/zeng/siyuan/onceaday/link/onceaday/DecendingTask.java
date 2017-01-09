@@ -32,6 +32,10 @@ public class DecendingTask implements Comparator<DecendingTask>, Serializable {
 
     @Override
     public int compare(DecendingTask o1, DecendingTask o2) {
+        if (null ==o1&&(null ==o2) && null ==o1.getDate()&&(null ==o2.getDate())) {
+            return 0;
+        }
+
         if(o1.getDate().after(o2.getDate())){
             return -1;
         }

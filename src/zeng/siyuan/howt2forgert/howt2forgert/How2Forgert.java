@@ -216,7 +216,7 @@ public class How2Forgert implements Serializable {
 //                }
 //            }
 //        }
-        Collections.sort(tasks, new Task());
+        if (null == tasks && tasks.size()>1)Collections.sort(tasks, new Task());
     }
 
     public How2Forgert(C1comehere c1comehere, JTextArea textArea, JFrame frame) {
@@ -908,7 +908,7 @@ textArea.setText(e.getASDFJ());
 
 
 
-        Collections.sort(tasks, new Task());
+        if (null == tasks && tasks.size()>1)Collections.sort(tasks, new Task());
     }
 
     public void searchehabins(String a) {

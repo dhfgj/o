@@ -428,7 +428,7 @@ count --;
                 }
             }
         }
-        Collections.sort(tasks, new Task());
+        if (null == tasks && tasks.size()>1)Collections.sort(tasks, new Task());
     }
 
     public void DAFSDF(person_question K) {
@@ -446,7 +446,7 @@ count --;
                 }
 //            }
 //        }
-        Collections.sort(tasks, new Task());
+        if (null == tasks && tasks.size()>1)Collections.sort(tasks, new Task());
     }
 
 

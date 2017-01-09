@@ -716,7 +716,7 @@ public static int c =2;
                 }
             }
         }
-        Collections.sort(tasks, new Task());
+        if (null == tasks && tasks.size()>1) Collections.sort(tasks, new Task());
     }
 
     public void sdfasd(person_question E) {
@@ -733,7 +733,7 @@ public static int c =2;
                 }
 //            }
 //        }
-        Collections.sort(tasks, new Task());
+        if (null == tasks && tasks.size()>1)Collections.sort(tasks, new Task());
     }
 
 

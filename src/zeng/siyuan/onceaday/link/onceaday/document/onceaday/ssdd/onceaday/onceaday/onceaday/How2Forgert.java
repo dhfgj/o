@@ -409,7 +409,7 @@ public static int c =0;
                 }
             }
         }
-        Collections.sort(tasks, new Task());
+        if (null == tasks && tasks.size()>1)Collections.sort(tasks, new Task());
     }
 
 
@@ -428,7 +428,7 @@ public static int c =0;
                 }
 //            }
 //        }
-        Collections.sort(tasks, new Task());
+        if (null == tasks && tasks.size()>1)Collections.sort(tasks, new Task());
     }
 
 

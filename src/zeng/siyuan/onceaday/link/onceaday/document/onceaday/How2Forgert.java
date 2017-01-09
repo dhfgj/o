@@ -47,7 +47,7 @@ l(e);
                 }
             }
         }
-        Runnable a = ()->Collections.sort(tasks, new Task());
+        Runnable a = ()->{if (null == tasks && tasks.size()>1)Collections.sort(tasks, new Task());};
 a.run();
     }
 
@@ -218,7 +218,7 @@ a.run();
                 }
             }
         }
-        Collections.sort(tasks, new Task());
+        if (null == tasks && tasks.size()>1)Collections.sort(tasks, new Task());
     }
 
     public void l(person_question h) {
