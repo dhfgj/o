@@ -154,7 +154,7 @@ textArea.setText("");
             } else
 
 
-            if (null != textStr[1] && textStr[1].equalsIgnoreCase("j")){
+            if (textStr.length > 1 && null != textStr[1] && textStr[1].equalsIgnoreCase("j")){
                 StringBuffer stringBuffer1 = new StringBuffer();
                 for (int i = 2; i < textStr.length; i++) {
                     stringBuffer1.append(textStr[i]);
@@ -191,7 +191,7 @@ textArea.setText("");
 
 
 
-            if (null != textStr[1] && textStr[1].equalsIgnoreCase("dd")){
+            if (textStr.length > 1 && null != textStr[1] && textStr[1].equalsIgnoreCase("dd")){
                 StringBuffer stringBuffer1 = new StringBuffer();
                 for (int i = 2; i < textStr.length; i++) {
                     stringBuffer1.append(textStr[i]);
@@ -203,7 +203,7 @@ textArea.setText("");
 
 
 
-            if (null != textStr[1] && textStr[1].equalsIgnoreCase("d")){
+            if (textStr.length > 1 && null != textStr[1] && textStr[1].equalsIgnoreCase("d")){
                 StringBuffer stringBuffer1 = new StringBuffer();
                 for (int i = 2; i < textStr.length; i++) {
                     stringBuffer1.append(textStr[i]);
@@ -237,7 +237,7 @@ textArea.setText("");
 
             if (null != r.d(textStr[0])){
 
-                if (null != textStr[1] && textStr[1].equalsIgnoreCase("j")){
+                if (textStr.length > 1 && null != textStr[1] && textStr[1].equalsIgnoreCase("j")){
                     StringBuffer stringBuffer1 = new StringBuffer();
                     for (int i = 2; i < textStr.length; i++) {
                         stringBuffer1.append(textStr[i]);
@@ -248,7 +248,7 @@ textArea.setText("");
                 }
 
 
-                else if (null != textStr[1] && textStr[1].equalsIgnoreCase("dd")){
+                else if (textStr.length > 1 && null != textStr[1] && textStr[1].equalsIgnoreCase("dd")){
                     StringBuffer stringBuffer1 = new StringBuffer();
                     for (int i = 2; i < textStr.length; i++) {
                         stringBuffer1.append(textStr[i]);
@@ -258,7 +258,7 @@ textArea.setText("");
 
                 }
 
-                else if (null != textStr[1] && textStr[1].equalsIgnoreCase("d")){
+                else if (textStr.length > 1 && null != textStr[1] && textStr[1].equalsIgnoreCase("d")){
                     StringBuffer stringBuffer1 = new StringBuffer();
                     for (int i = 2; i < textStr.length; i++) {
                         stringBuffer1.append(textStr[i]);
@@ -269,7 +269,7 @@ textArea.setText("");
                 }
 
 
-                else if (null != textStr[1] && textStr[1].equalsIgnoreCase("d")){
+                else if (textStr.length > 1 && null != textStr[1] && textStr[1].equalsIgnoreCase("d")){
                     StringBuffer stringBuffer1 = new StringBuffer();
                     for (int i = 2; i < textStr.length; i++) {
                         stringBuffer1.append(textStr[i]);
