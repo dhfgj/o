@@ -51,10 +51,14 @@ public class How2Forgert implements Serializable {
         String str = textArea.getText();
         if (null != textArea && !("".equalsIgnoreCase(textArea.getText()))) {
 
-                    person_question e = new person_question(textArea.getText(), "Link");
-                    m.store(e);
-Runnable l = ()-> DSF(e);
-l.run();
+            String textStr[] = textArea.getText().split("\\r\\n|\\n|\\r");
+
+            for(String s: textStr) {
+                person_question e = new person_question(s, "Link");
+                m.store(e);
+            }
+//Runnable l = ()-> DSF(e);
+//l.run();
                     textArea.setText("");
         }
 //        reloadTAskandrestartPopThread();
