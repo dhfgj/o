@@ -299,9 +299,14 @@ count --;
 
 
     public void addWord(String word, String answer) {
-        person_question pq = new person_question(word, answer, null);
-        m.store(pq);
-        ebbinghauses.add(pq);
+        String textStr[] = textArea.getText().split("\\r\\n|\\n|\\r");
+
+        for(String s: textStr) {
+
+            person_question pq = new person_question(s, answer, null);
+            m.store(pq);
+            ebbinghauses.add(pq);
+        }
         textArea.setText("");
     }
 
