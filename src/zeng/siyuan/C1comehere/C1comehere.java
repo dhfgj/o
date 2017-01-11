@@ -47,6 +47,7 @@ public class C1comehere implements Serializable {
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.How2Forgert dhow2ForgDertlsf;
     public zeng.siyuan.onceaday.onceaday.How2Forgert dhow2ForgDertlssfs;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.onceaday.How2Forgert dhow2ForgDertlssf;
+    public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.onceaday.onceaday.How2Forgert aa;
     public zeng.siyuan.onceaday.onceaday.onceaday.How2Forgert dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG;
     //    public C:\Development_Base\maxcox\maxcox-master\src\zeng\siyuan\onceaday\onceaday\onceaday\How2Forgert dhow2ForgDertlssf;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.How2Forgert a;
@@ -667,6 +668,14 @@ Runnable b =()-> {
     dhow2Forgertl.frame = frame;
     dhow2Forgertl.init();
 
+    if (null == aa) {
+        aa = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.onceaday.onceaday.How2Forgert(c1comehere, textArea, frame);
+    }
+    aa.c1comehere = c1comehere;
+    aa.textArea = textArea;
+    aa.frame = frame;
+    aa.init();
+
 // the pateter are use to as a single entrypoint to do all the simuliar instantionation ao that i don't hwav eto rvcare mutlitpel thereat do the single thign sall toegher
 // desiagn patter are importnat
 
@@ -1174,10 +1183,10 @@ b.run();
                                             // i wriote my thought her eand hope that sometime later i will understand that
                                             //  i don't ha ve tother midns and it is acauselu ty ething problem
                                             // there are mushc problem in my mind i anneed to solve it somehow
-                                            dhow2ForgDertlssf.fjlasdjfl("http://www.thesaurus.com/browse/" + normalized +"?s=t");
-                                            dhow2ForgDertlssf.fjlasdjfl("http://www.urbandictionary.com/define.php?term=" +normalized);
-                                            dhow2ForgDertlssf.fjlasdjfl("http://www.bing.com/images/search?q=" +normalizedaADFHJKALHK );
-                                            dhow2ForgDertlssf.fjlasdjfl("http://www.dictionary.com/browse/" +normalizedaADFHJKALHK +"?s=t");
+                                            aa.fjlasdjfl("http://www.thesaurus.com/browse/" + normalized +"?s=t");
+                                            aa.fjlasdjfl("http://www.urbandictionary.com/define.php?term=" +normalized);
+                                            aa.fjlasdjfl("http://www.bing.com/images/search?q=" +normalizedaADFHJKALHK );
+                                            aa.fjlasdjfl("http://www.dictionary.com/browse/" +normalizedaADFHJKALHK +"?s=t");
                               textArea.setText("");
                                         }
 
