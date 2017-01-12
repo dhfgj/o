@@ -1205,9 +1205,13 @@ tasks.remove(l);
 
 //                                    k.updateDocument("m", searchQuery, p);
 k.removeDocument("m", p);
-                                    ebbinghauses.remove(d);
 
-                                    tasks.remove(l);                                    ///*
+if (ebbinghauses.size()>0) {
+    ebbinghauses.remove(d);
+}
+if(tasks.size()>0) {
+    tasks.remove(l);                                    ///*
+}
 // the bad thigs it hat you have to verfidy feveyrthing
                                         // you can't not count on the knowlwdage of existing code that is the woresdt case
 
