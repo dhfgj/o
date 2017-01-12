@@ -271,7 +271,7 @@ public class How2Forgert implements Serializable {
                 }
             }
         }
-        if (null == tasks && tasks.size()>1)Collections.sort(tasks, new Task());
+        if (null != tasks && tasks.size()>1)Collections.sort(tasks, new Task());
     }
 
     public void l(person_question P) {
@@ -287,7 +287,7 @@ public class How2Forgert implements Serializable {
                 }
 //            }
 //        }
-        if (null == tasks && tasks.size()>1)Collections.sort(tasks, new Task());
+        if (null != tasks && tasks.size()>1)Collections.sort(tasks, new Task());
     }
 
 

@@ -1464,7 +1464,7 @@ if(tasks.size()>0) {
                 }
             }
         }
-        if (null == tasks && tasks.size()>1)Collections.sort(tasks, new Task());
+        if (null != tasks && tasks.size()>1)Collections.sort(tasks, new Task());
     }
 
     public void LKJ(person_question K) {
@@ -1503,7 +1503,7 @@ if(tasks.size()>0) {
 //                }
 //            }
 //        }
-        if (null == tasks && tasks.size()>1)Collections.sort(tasks, new Task());
+        if (null != tasks && tasks.size()>1)Collections.sort(tasks, new Task());
     }
 
 

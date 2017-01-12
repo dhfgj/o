@@ -286,7 +286,7 @@ j(e);
 //            }
         }
 
-        Runnable a =()->{if (null == tasks && tasks.size()>1)Collections.sort(tasks, new Task());};
+        Runnable a =()->{if (null != tasks && tasks.size()>1)Collections.sort(tasks, new Task());};
 a.run();
     }
 
@@ -786,7 +786,7 @@ a.run();
                 }
             }
         }
-        if (null == tasks && tasks.size()>1)Collections.sort(tasks, new Task());
+        if (null != tasks && tasks.size()>1)Collections.sort(tasks, new Task());
     }
     public void j(person_question s) {
 //        List<DBObject> k = null ;

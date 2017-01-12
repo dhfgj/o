@@ -143,7 +143,8 @@ public static int c =0;
 //                                    reloadTAskandrestartPopThread();
 //duplicate
 //                                    break;
-
+// i have talk and streatch far and thin kand talk about the application from the origin and core and streatch all the things around
+                                    // but the y have to have a connenct beiwent
                                 }
                             }
                         }
@@ -413,7 +414,7 @@ public static int c =0;
                 }
             }
         }
-        if (null == tasks && tasks.size()>1)Collections.sort(tasks, new Task());
+        if (null != tasks && tasks.size()>1)Collections.sort(tasks, new Task());
     }
 
 
@@ -432,7 +433,7 @@ public static int c =0;
                 }
 //            }
 //        }
-        if (null == tasks && tasks.size()>1)Collections.sort(tasks, new Task());
+        if (null != tasks && tasks.size()>1)Collections.sort(tasks, new Task());
     }
 
 
