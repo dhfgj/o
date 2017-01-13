@@ -92,7 +92,7 @@ if(ss.getText().equalsIgnoreCase(stringBuffer1.toString().trim())){
                 UUID finalS = s;
                 tasks.removeIf(task -> task.getJavauuid().toString().equalsIgnoreCase(finalS.toString().trim()));
                 peoplequesiton.deleteTask(s);
-textArea.setText("");
+//textArea.setText("");
 
 
             } else
@@ -224,7 +224,7 @@ textArea.setText("");
                 if (null !=e){
 
                     e.setDate(r.m(new Date()));
-                    e.setText("asdfljl");
+//                    e.setText("asdfljl");
                 } else {
                     e = new person_question("asdfkj", "gh", r.m(new Date()));
                     m.store(e);
@@ -308,7 +308,7 @@ textArea.setText("");
                         StringBuffer stringBuffer1 = new StringBuffer();
 //                        stringBuffer1.append(textStr[0]);
                         stringBuffer1.append(textStr[i]);
-                        e = new person_question(stringBuffer1.toString(), "f", r.strifasld(new String (String.valueOf(60))));
+                        e = new person_question(stringBuffer1.toString(), "f", r.strifasld(new String (String.valueOf(30))));
                         m.store(e);
                     }
                 }

@@ -307,7 +307,7 @@ count --;
             m.store(pq);
             ebbinghauses.add(pq);
         }
-        textArea.setText("");
+//        textArea.setText("");
     }
 
 

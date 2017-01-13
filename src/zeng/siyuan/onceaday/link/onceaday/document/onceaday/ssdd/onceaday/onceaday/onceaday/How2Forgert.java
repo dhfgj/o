@@ -59,7 +59,7 @@ public class How2Forgert implements Serializable {
             }
 //Runnable l = ()-> DSF(e);
 //l.run();
-                    textArea.setText("");
+//                    textArea.setText("");
         }
 //        reloadTAskandrestartPopThread();
     }
