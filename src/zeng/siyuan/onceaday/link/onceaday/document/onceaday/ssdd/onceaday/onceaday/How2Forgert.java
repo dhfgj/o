@@ -157,7 +157,7 @@ static int ou= 1;
 //                                Desktop.getDesktop().open(new File(e.getText()));
 
                                     if (count == 0 ) {
-                                        Thread.sleep(4 * 60000);
+                                        Thread.sleep(6 * 60000);
                                         count = 2;
                                     }
 count --;
@@ -185,7 +185,7 @@ count --;
 //                                        e = new person_question(e.getText(),"ssdd", null);
                                     m.store(e);
                                     if (count == 0 ) {
-                                        Thread.sleep(4 * 60000);
+                                        Thread.sleep(6 * 60000);
                                         count = 2;
                                     }
                                     count --;
@@ -230,7 +230,7 @@ count --;
 //                                    Desktop.getDesktop().open(new File(e.getText()));
 //                                }
                                 if (count == 0 ) {
-                                    Thread.sleep(4 * 60000);
+                                    Thread.sleep(6 * 60000);
                                     count = 2;
                                 }
                                 count --;

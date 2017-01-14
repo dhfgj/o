@@ -444,7 +444,7 @@ public static int c =2;
 
                     currentTask=t;
                     if (c == 0) {
-                        Thread.sleep(4 * 60000);
+                        Thread.sleep(6 * 60000);
                         c = 2;
                     }
 
@@ -558,7 +558,7 @@ public static int c =2;
                         c--;
 
 //                        if (c == 0 ) {
-//                            Thread.sleep(4 * 60000);
+//                            Thread.sleep(6 * 60000);
 //                            c= 2;
 //                        }
 //                        c --;

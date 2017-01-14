@@ -794,7 +794,7 @@ textArea.setText("");
             } else {
                 for (int l=0; l<tasks.size(); l++) {
                     if (c == 0) {
-                        Thread.sleep(4 * 60000);
+                        Thread.sleep(6 * 60000);
                         c = 2;
                     }
 
