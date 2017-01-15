@@ -2,12 +2,16 @@ package zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.oncea
 
 import zeng.siyuan.C1comehere.Beep;
 import zeng.siyuan.C1comehere.C1comehere;
+import zeng.siyuan.C1comehere.ListFilesUtil;
 import zeng.siyuan.reuseutil.r;
 import zeng.siyuan.solr.test.param.dao.SolrDataDAO;
 
 import javax.swing.*;
 import java.awt.*;
 import java.io.*;
+import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
 import java.util.*;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.TimeUnit;
@@ -119,7 +123,7 @@ public class How2Forgert implements Serializable {
         }
     }
 
-    public void d(String c1, String c1Path) {
+    public static void dd(String c1, String c1Path) {
 
         OutputStream output = null;
         OutputStream output_solr = null;
@@ -480,7 +484,7 @@ public static int c =0;
         InputStream input = null;
 
         try {
-            input = new FileInputStream("C:\\Development_Base\\maxcox\\maxcox-master\\c1s.properties");
+            input = new FileInputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\zeng\\siyuan\\onceaday\\link\\onceaday\\document\\onceaday\\ssdd\\onceaday\\onceaday\\onceaday\\onceaday\\onceaday\\l.properties");
             // fjlasdjfl a properties file
             p.load(input);
 
@@ -540,12 +544,12 @@ public static int c =0;
         OutputStream output_solr = null;
         try {
 
-            output = new FileOutputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\zeng\\siyuan\\onceaday\\link\\onceaday\\document\\onceaday\\ssdd\\onceaday\\onceaday\\l.properties");
+            output = new FileOutputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\zeng\\siyuan\\onceaday\\link\\onceaday\\document\\onceaday\\ssdd\\onceaday\\onceaday\\onceaday\\onceaday\\onceaday\\l.properties");
             // set the properties value
-            jk.setProperty(c1, c1Path);
+            p.setProperty(c1, c1Path);
 
             // save properties to project root folder
-            jk.store(output, null);
+            p.store(output, null);
 
 
 /*
@@ -701,10 +705,70 @@ public static int c =0;
 
 
     public void init() {
+        Date t=r.jk("00:01");
+        Date k=r.jk("03:01");
+        Date kl=new Date(r.randInt(t.getTime(), k.getTime()));
+
+        String s = (String) p.get("1");
+        String o = (String) p.get("o");
+
+        Date dw = r.d(s);
+
+
+        // reandome time from now within 3 hours
+
+        //
+
+
+        if (dw.getDate() < new Date().getDate()) {
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
+            Random rand = new Random();
+
+            // nextInt is normally exclusive of the top value,
+            // so add 1 to make it inclusive
+            int r1= rand.nextInt(Integer.parseInt(String.valueOf((3 - 0) + 1))) + 0;
+            int f= rand.nextInt(Integer.parseInt(String.valueOf((60 - 0) + 1))) + 0;
+            int a = new Date().getHours();
+            Date hf = Date.from(LocalDateTime.now().plusHours(r1).plusMinutes(f).atZone(ZoneId.systemDefault()).toInstant());
+//            Date df= new Date().setHours(r + a);
+//        df.setMinutes();
+
+
+            ArrayList<String> c = new ArrayList<String>();
+
+            Calendar calendar = Calendar.getInstance();
+            calendar.setTime(hf);//1474356339826
+            long diff = calendar.getTimeInMillis() - Calendar.getInstance().getTimeInMillis();
+            if (diff > 0) {
+                try {
+                    Thread.sleep(diff);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+            String fs = ListFilesUtil.l("d", c, null).get(Integer.parseInt(o));
+            r.o(fs);
+            person_question e = new person_question(fs, "Link");
+            dd("1", simpleDateFormat.format(hf));
+            dd("o", o+1);
+
+
+            m.store(e);
+//                    textArea.setText("");
+            Runnable l = ()-> DSF(e);
+            l.run();
+        }
+
         loadTask();
         d = new Display(this);
         reloadandDisplayThread = new Thread(d);
         reloadandDisplayThread.start();
+
+
+
+
+
+
     }
 }
 

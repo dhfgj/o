@@ -200,7 +200,7 @@ public class ListFilesUtil {
                 d.add(file.getAbsolutePath());
 //                c1come2melater(file.getName() + "", file.getAbsolutePath());
             } else if (file.isDirectory()) {
-                asdfhfkjasdhkjfahdsfjlkasjflkajf(file.getAbsolutePath(), null, askljf);
+//                asdfhfkjasdhkjfahdsfjlkasjflkajf(file.getAbsolutePath(), null, askljf);
                 d.add(file.getAbsolutePath());
 //                p.setProperty(file.getName() + " " + askljf, file.getAbsolutePath());
 //                c1come2melater(file.getName() + " " + askljf, file.getAbsolutePath());
