@@ -753,8 +753,10 @@ public static int c =0;
                         e.printStackTrace();
                     }
                 }
-                String fs = ListFilesUtil.l("C:\\Users\\SiyuanZeng's\\Videos\\Movie\\Quotes", c, null).get(Integer.parseInt(o));
-                r.o(fs);
+                ArrayList<String> j =ListFilesUtil.l("C:\\Users\\SiyuanZeng's\\Videos\\Movie\\Quotes", c, null);
+                        Collections.sort(j);
+                String fs =j.get(Integer.parseInt(o));
+                r.open(fs);
                 person_question e = new person_question(fs, "Link");
                 dd("1", simpleDateFormat.format(hf));
                 dd("o", o + 1);
