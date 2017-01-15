@@ -1,5 +1,6 @@
 package zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.onceaday.onceaday.onceaday;
 
+import org.testng.annotations.Test;
 import zeng.siyuan.C1comehere.Beep;
 import zeng.siyuan.C1comehere.C1comehere;
 import zeng.siyuan.C1comehere.ListFilesUtil;
@@ -129,7 +130,7 @@ public class How2Forgert implements Serializable {
         OutputStream output_solr = null;
         try {
 
-            output = new FileOutputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\zeng\\siyuan\\C1comehere\\l.properties");
+            output = new FileOutputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\zeng\\siyuan\\onceaday\\link\\onceaday\\document\\onceaday\\ssdd\\onceaday\\onceaday\\onceaday\\onceaday\\onceaday\\l.properties");
             // set the properties value
             p.setProperty(c1, c1Path);
 
@@ -786,5 +787,17 @@ public static int c =0;
 
 
     }
+
+    @Test
+    public static void t() {
+        How2Forgert how2Forgert = new How2Forgert(null, null, null);
+how2Forgert.init();
+
+
+    }
+
+
 }
+
+
 
