@@ -759,7 +759,8 @@ public static int c =0;
                 r.open(fs);
                 person_question e = new person_question(fs, "Link");
                 dd("1", simpleDateFormat.format(hf));
-                dd("o", o + 1);
+                int c1Path = Integer.parseInt(o) + 1;
+                dd("o", String.valueOf(c1Path));
 
 
                 m.store(e);
