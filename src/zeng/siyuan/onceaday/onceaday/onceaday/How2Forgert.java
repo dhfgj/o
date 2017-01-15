@@ -53,7 +53,7 @@ public class How2Forgert implements Serializable {
     static ObjectMapper mapper = new ObjectMapper();
 
 
-    public static person_question d() {
+    public person_question d(String s) throws JsonProcessingException, UnknownHostException {
         Scanner in = null;
         if (null != textArea && !("".equalsIgnoreCase(textArea.getText()))) {
 
@@ -78,99 +78,267 @@ public class How2Forgert implements Serializable {
 
 
             if (textStr[0].length()==5){
-                StringBuffer stringBuffer1 = new StringBuffer();
                 for (int i = 1; i < textStr.length; i++) {
+                StringBuffer stringBuffer1 = new StringBuffer();
                     stringBuffer1.append(textStr[i]);
-                }
                 e = new person_question(stringBuffer1.toString(), "i", r.j(textStr[0]));
+                    // Convert object to JSON string
+                    String j = mapper.writeValueAsString(e);
+//                    System.out.println(j);
+
+                    // Convert object to JSON string and pretty print
+                    j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+//                    System.out.println(j);
+                    DBObject p = (DBObject) JSON
+                            .parse(j);
+
+
+                    MongoDbHelper k = MongoDbHelper.getInstance();
+                    k.insertDocument("m", p);
+                    person_question finalE1 = e;
+                    Runnable ks = () -> LKJ(finalE1);
+                    ks.run();
+
+                }
             } else
 
 
             if (textStr[0].equalsIgnoreCase("l")){
-                StringBuffer stringBuffer1 = new StringBuffer();
                 for (int i = 1; i < textStr.length; i++) {
+                StringBuffer stringBuffer1 = new StringBuffer();
                     stringBuffer1.append(textStr[i]);
-                }
                 e = new person_question(stringBuffer1.toString(), "l", r.strifasld("30"));
+                    // Convert object to JSON string
+                    String j = mapper.writeValueAsString(e);
+//                    System.out.println(j);
+
+                    // Convert object to JSON string and pretty print
+                    j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+//                    System.out.println(j);
+                    DBObject p = (DBObject) JSON
+                            .parse(j);
+
+
+                    MongoDbHelper k = MongoDbHelper.getInstance();
+                    k.insertDocument("m", p);
+                    person_question finalE1 = e;
+                    Runnable ks = () -> LKJ(finalE1);
+                    ks.run();
+
+                }
             } else
 // actions and actions action after action to pipe to the diesire destination
             // piple line to the end
 
             if (textStr[0].equalsIgnoreCase("ll")){
-                StringBuffer stringBuffer1 = new StringBuffer();
                 for (int i = 1; i < textStr.length; i++) {
+                StringBuffer stringBuffer1 = new StringBuffer();
                     stringBuffer1.append(textStr[i]);
-                }
                 e = new person_question(stringBuffer1.toString(), "ll", r.strifasld("60"));
+                    // Convert object to JSON string
+                    String j = mapper.writeValueAsString(e);
+//                    System.out.println(j);
+
+                    // Convert object to JSON string and pretty print
+                    j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+//                    System.out.println(j);
+                    DBObject p = (DBObject) JSON
+                            .parse(j);
+
+
+                    MongoDbHelper k = MongoDbHelper.getInstance();
+                    k.insertDocument("m", p);
+                    person_question finalE1 = e;
+                    Runnable ks = () -> LKJ(finalE1);
+                    ks.run();
+
+                }
             } else
 
             if (textStr[0].equalsIgnoreCase("c")){
-                StringBuffer stringBuffer1 = new StringBuffer();
                 for (int i = 1; i < textStr.length; i++) {
+                StringBuffer stringBuffer1 = new StringBuffer();
                     stringBuffer1.append(textStr[i]);
-                }
                 e = new person_question(stringBuffer1.toString(), "c", r.strifasld("60"));
+                    // Convert object to JSON string
+                    String j = mapper.writeValueAsString(e);
+//                    System.out.println(j);
+
+                    // Convert object to JSON string and pretty print
+                    j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+//                    System.out.println(j);
+                    DBObject p = (DBObject) JSON
+                            .parse(j);
+
+
+                    MongoDbHelper k = MongoDbHelper.getInstance();
+                    k.insertDocument("m", p);
+                    person_question finalE1 = e;
+                    Runnable ks = () -> LKJ(finalE1);
+                    ks.run();
+
+                }
             } else
 
 
 
 
             if (textStr[0].equalsIgnoreCase("j")){
-                StringBuffer stringBuffer1 = new StringBuffer();
                 for (int i = 1; i < textStr.length; i++) {
+                StringBuffer stringBuffer1 = new StringBuffer();
                     stringBuffer1.append(textStr[i]);
-                }
                 e = new person_question(stringBuffer1.toString(), "j", new Date());
+                    // Convert object to JSON string
+                    String j = mapper.writeValueAsString(e);
+//                    System.out.println(j);
+
+                    // Convert object to JSON string and pretty print
+                    j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+//                    System.out.println(j);
+                    DBObject p = (DBObject) JSON
+                            .parse(j);
+
+
+                    MongoDbHelper k = MongoDbHelper.getInstance();
+                    k.insertDocument("m", p);
+                    person_question finalE1 = e;
+                    Runnable ks = () -> LKJ(finalE1);
+                    ks.run();
+
+                }
             } else
 
 
             if (textStr.length>1&&textStr[1].equalsIgnoreCase("j")){
-                StringBuffer stringBuffer1 = new StringBuffer();
                 for (int i = 2; i < textStr.length; i++) {
+                StringBuffer stringBuffer1 = new StringBuffer();
                     stringBuffer1.append(textStr[i]);
-                }
                 e = new person_question(stringBuffer1.toString(), "j", r.d(textStr[0]));
+                    // Convert object to JSON string
+                    String j = mapper.writeValueAsString(e);
+//                    System.out.println(j);
+
+                    // Convert object to JSON string and pretty print
+                    j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+//                    System.out.println(j);
+                    DBObject p = (DBObject) JSON
+                            .parse(j);
+
+
+                    MongoDbHelper k = MongoDbHelper.getInstance();
+                    k.insertDocument("m", p);
+                    person_question finalE1 = e;
+                    Runnable ks = () -> LKJ(finalE1);
+                    ks.run();
+
+                }
             } else
 
 
 
             if (textStr[0].equalsIgnoreCase("dd")){
-                StringBuffer stringBuffer1 = new StringBuffer();
                 for (int i = 1; i < textStr.length; i++) {
+                StringBuffer stringBuffer1 = new StringBuffer();
                     stringBuffer1.append(textStr[i]);
-                }
                 e = new person_question(stringBuffer1.toString(), "dd", new Date());
+                    // Convert object to JSON string
+                    String j = mapper.writeValueAsString(e);
+//                    System.out.println(j);
+
+                    // Convert object to JSON string and pretty print
+                    j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+//                    System.out.println(j);
+                    DBObject p = (DBObject) JSON
+                            .parse(j);
+
+
+                    MongoDbHelper k = MongoDbHelper.getInstance();
+                    k.insertDocument("m", p);
+                    person_question finalE1 = e;
+                    Runnable ks = () -> LKJ(finalE1);
+                    ks.run();
+                }
             } else
 
 
 
             if (textStr[0].equalsIgnoreCase("d")){
-                StringBuffer stringBuffer1 = new StringBuffer();
                 for (int i = 1; i < textStr.length; i++) {
+                StringBuffer stringBuffer1 = new StringBuffer();
                     stringBuffer1.append(textStr[i]);
-                }
                 e = new person_question(stringBuffer1.toString(), "d", new Date());
+                    // Convert object to JSON string
+                    String j = mapper.writeValueAsString(e);
+//                    System.out.println(j);
+
+                    // Convert object to JSON string and pretty print
+                    j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+//                    System.out.println(j);
+                    DBObject p = (DBObject) JSON
+                            .parse(j);
+
+
+                    MongoDbHelper k = MongoDbHelper.getInstance();
+                    k.insertDocument("m", p);
+                    person_question finalE1 = e;
+                    Runnable ks = () -> LKJ(finalE1);
+                    ks.run();
+
+                }
             } else
 
 
 
 
             if (textStr.length>1&&textStr[1].equalsIgnoreCase("dd")){
-                StringBuffer stringBuffer1 = new StringBuffer();
                 for (int i = 2; i < textStr.length; i++) {
+                StringBuffer stringBuffer1 = new StringBuffer();
                     stringBuffer1.append(textStr[i]);
-                }
                 e = new person_question(stringBuffer1.toString(), "dd", r.d(textStr[0]));
+                    // Convert object to JSON string
+                    String j = mapper.writeValueAsString(e);
+//                    System.out.println(j);
+
+                    // Convert object to JSON string and pretty print
+                    j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+//                    System.out.println(j);
+                    DBObject p = (DBObject) JSON
+                            .parse(j);
+
+
+                    MongoDbHelper k = MongoDbHelper.getInstance();
+                    k.insertDocument("m", p);
+                    person_question finalE1 = e;
+                    Runnable ks = () -> LKJ(finalE1);
+                    ks.run();
+                }
             } else
 
 
 
             if (textStr.length>1&&textStr[1].equalsIgnoreCase("d")){
-                StringBuffer stringBuffer1 = new StringBuffer();
                 for (int i = 2; i < textStr.length; i++) {
+                StringBuffer stringBuffer1 = new StringBuffer();
                     stringBuffer1.append(textStr[i]);
-                }
                 e = new person_question(stringBuffer1.toString(), "d", r.d(textStr[0]));
+                    // Convert object to JSON string
+                    String j = mapper.writeValueAsString(e);
+//                    System.out.println(j);
+
+                    // Convert object to JSON string and pretty print
+                    j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+//                    System.out.println(j);
+                    DBObject p = (DBObject) JSON
+                            .parse(j);
+
+
+                    MongoDbHelper k = MongoDbHelper.getInstance();
+                    k.insertDocument("m", p);
+                    person_question finalE1 = e;
+                    Runnable ks = () -> LKJ(finalE1);
+                    ks.run();
+
+                }
             } else
 
 
@@ -186,7 +354,23 @@ public class How2Forgert implements Serializable {
                     e.setDate(r.m(new Date()));
                     e.setText("asdfljl");
                 } else {
-                    e = new person_question("asdfkj", "gh", r.m(new Date()));
+                    e = new person_question("asdfkj", "gh", r.m(new Date()));                    // Convert object to JSON string
+                    String j = mapper.writeValueAsString(e);
+//                    System.out.println(j);
+
+                    // Convert object to JSON string and pretty print
+                    j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+//                    System.out.println(j);
+                    DBObject p = (DBObject) JSON
+                            .parse(j);
+
+
+                    MongoDbHelper k = MongoDbHelper.getInstance();
+                    k.insertDocument("m", p);
+                    person_question finalE1 = e;
+                    Runnable ks = () -> LKJ(finalE1);
+                    ks.run();
+
 
                 }
             } else
@@ -197,36 +381,110 @@ public class How2Forgert implements Serializable {
             if (null != r.d(textStr[0])){
 
                 if (textStr[1].equalsIgnoreCase("j")){
-                    StringBuffer stringBuffer1 = new StringBuffer();
                     for (int i = 2; i < textStr.length; i++) {
+                    StringBuffer stringBuffer1 = new StringBuffer();
                         stringBuffer1.append(textStr[i]);
-                    }
                     e = new person_question(stringBuffer1.toString(), "j", r.d(textStr[0]));
+                        // Convert object to JSON string
+                        String j = mapper.writeValueAsString(e);
+//                    System.out.println(j);
+
+                        // Convert object to JSON string and pretty print
+                        j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+//                    System.out.println(j);
+                        DBObject p = (DBObject) JSON
+                                .parse(j);
+
+
+                        MongoDbHelper k = MongoDbHelper.getInstance();
+                        k.insertDocument("m", p);
+                        person_question finalE1 = e;
+                        Runnable ks = () -> LKJ(finalE1);
+                        ks.run();
+
+                    }
                 }
 
                 if (textStr.length>1&&textStr[1].equalsIgnoreCase("dd")){
-                    StringBuffer stringBuffer1 = new StringBuffer();
                     for (int i = 2; i < textStr.length; i++) {
+                    StringBuffer stringBuffer1 = new StringBuffer();
                         stringBuffer1.append(textStr[i]);
+                    e = new person_question(stringBuffer1.toString(), "dd", new Date());                    // Convert object to JSON string
+                        String j = mapper.writeValueAsString(e);
+//                    System.out.println(j);
+
+                        // Convert object to JSON string and pretty print
+                        j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+//                    System.out.println(j);
+                        DBObject p = (DBObject) JSON
+                                .parse(j);
+
+
+                        MongoDbHelper k = MongoDbHelper.getInstance();
+                        k.insertDocument("m", p);
+                        person_question finalE1 = e;
+                        Runnable ks = () -> LKJ(finalE1);
+                        ks.run();
+
                     }
-                    e = new person_question(stringBuffer1.toString(), "dd", new Date());
                 }
 
                 if (textStr.length>1&&textStr[1].equalsIgnoreCase("d")){
-                    StringBuffer stringBuffer1 = new StringBuffer();
                     for (int i = 2; i < textStr.length; i++) {
+                    StringBuffer stringBuffer1 = new StringBuffer();
                         stringBuffer1.append(textStr[i]);
+                    e = new person_question(stringBuffer1.toString(), "d", new Date());                    // Convert object to JSON string
+                        String j = mapper.writeValueAsString(e);
+//                    System.out.println(j);
+
+                        // Convert object to JSON string and pretty print
+                        j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+//                    System.out.println(j);
+                        DBObject p = (DBObject) JSON
+                                .parse(j);
+
+
+                        MongoDbHelper k = MongoDbHelper.getInstance();
+                        k.insertDocument("m", p);
+                        person_question finalE1 = e;
+                        Runnable ks = () -> LKJ(finalE1);
+                        ks.run();
+
                     }
-                    e = new person_question(stringBuffer1.toString(), "d", new Date());
                 }
 
                 else {
-                    StringBuffer stringBuffer1 = new StringBuffer();
                     for (int i = 1; i < textStr.length; i++) {
+                    StringBuffer stringBuffer1 = new StringBuffer();
                         stringBuffer1.append(textStr[i]);
+                    e = new person_question(stringBuffer1.toString(), "p", r.d(textStr[0]));
+//                    StringBuffer stringBuffer1 = new StringBuffer();
+//                    stringBuffer1.append(textStr[i]);
+//
+//                    e = new person_question(stringBuffer1.toString(), "p", r.strifasld(new String (String.valueOf(ij.toString()))));
+
+                        // Convert object to JSON string
+                        String j = mapper.writeValueAsString(e);
+//                    System.out.println(j);
+
+                        // Convert object to JSON string and pretty print
+                        j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+//                    System.out.println(j);
+                        DBObject p = (DBObject) JSON
+                                .parse(j);
+
+
+                        MongoDbHelper k = MongoDbHelper.getInstance();
+                        k.insertDocument("m", p);
+                        person_question finalE = e;
+                        Runnable ks = () -> LKJ(finalE);
+                        ks.run();
+//                    reloadTAskandrestartPopThread();
+                        textArea.setText("");
+
                     }
 
-                    e = new person_question(stringBuffer1.toString(), "p", r.d(textStr[0]));
+
                 }
 
 
@@ -240,25 +498,75 @@ public class How2Forgert implements Serializable {
                 }
                 if (null == ij) {
 
-                StringBuffer stringBuffer1 = new StringBuffer();
-                    stringBuffer1.append(textStr[0]);
+//                    stringBuffer1.append(textStr[0]);
 
                 for (int i = 1; i < textStr.length; i++) {
+                    StringBuffer stringBuffer1 = new StringBuffer();
+
                     stringBuffer1.append(textStr[i]);
-                }
                 e = new person_question(stringBuffer1.toString(), "p", r.strifasld(new String (String.valueOf(6*60))));
+
+//                    StringBuffer stringBuffer1 = new StringBuffer();
+//                    stringBuffer1.append(textStr[i]);
+
+//                    e = new person_question(stringBuffer1.toString(), "p", r.strifasld(new String (String.valueOf(ij.toString()))));
+
+                    // Convert object to JSON string
+                    String j = mapper.writeValueAsString(e);
+//                    System.out.println(j);
+
+                    // Convert object to JSON string and pretty print
+                    j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+//                    System.out.println(j);
+                    DBObject p = (DBObject) JSON
+                            .parse(j);
+
+
+                    MongoDbHelper k = MongoDbHelper.getInstance();
+                    k.insertDocument("m", p);
+                    person_question finalE1 = e;
+                    Runnable ks = () -> LKJ(finalE1);
+                    ks.run();
+//                    reloadTAskandrestartPopThread();
+                    textArea.setText("");
+
+
+
+                }
                 }
 
                 else {
 
-                    StringBuffer stringBuffer1 = new StringBuffer();
 //                    stringBuffer1.append(textStr[0]);
 
                     for (int i = 1; i < textStr.length; i++) {
+                    StringBuffer stringBuffer1 = new StringBuffer();
                         stringBuffer1.append(textStr[i]);
+
+                        e = new person_question(stringBuffer1.toString(), "p", r.strifasld(new String (String.valueOf(ij.toString()))));
+
+                        // Convert object to JSON string
+                        String j = mapper.writeValueAsString(e);
+//                    System.out.println(j);
+
+                        // Convert object to JSON string and pretty print
+                        j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+//                    System.out.println(j);
+                        DBObject p = (DBObject) JSON
+                                .parse(j);
+
+
+                        MongoDbHelper k = MongoDbHelper.getInstance();
+                        k.insertDocument("m", p);
+                        person_question finalE2 = e;
+                        Runnable ks = () -> LKJ(finalE2);
+                        ks.run();
+//                    reloadTAskandrestartPopThread();
+                        textArea.setText("");
+
+
                     }
 
-                    e = new person_question(stringBuffer1.toString(), "p", r.strifasld(new String (String.valueOf(ij.toString()))));
 
                 }
             }
@@ -605,27 +913,11 @@ k.removeDocument("m", p);
                 try {
                     // Convert object to JSON string and save into a file directly
 //                                mapper.writeValue(new File("D:\\staff.json"), staff);
+                    String textStr[] = textArea.getText().split("\\r\\n|\\n|\\r");
 
-                    person_question e = d();
-
-                    // Convert object to JSON string
-                    String j = mapper.writeValueAsString(e);
-//                    System.out.println(j);
-
-                    // Convert object to JSON string and pretty print
-                    j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
-//                    System.out.println(j);
-                    DBObject p = (DBObject) JSON
-                            .parse(j);
-
-
-                    MongoDbHelper k = MongoDbHelper.getInstance();
-                    k.insertDocument("m", p);
-                    Runnable ks = ()->LKJ(e);
-                    ks.run();
-//                    reloadTAskandrestartPopThread();
-textArea.setText("");
-
+                    for(String s : textStr) {
+                        person_question e = d(s);
+                    }
                 } catch (JsonGenerationException p) {
                     p.printStackTrace();
                 } catch (JsonMappingException ee) {
