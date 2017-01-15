@@ -1119,6 +1119,96 @@ b.run();
                             a.start();
                         }
 
+                        else if (textArea.getText().length()>3 && searchEngines.containsKey(textArea.getText().substring(0, 2))) {
+                            String text = textArea.getText().trim();
+
+                            if (!text.isEmpty()) {
+                                Scanner in = new Scanner(text);
+                                String s = in.nextLine();
+                                if ( s.length()== 2) {
+                                    search = searchEngines.get(s);
+
+//                                        r.o(search.getURIString());
+
+                                    if (search.searchName.equalsIgnoreCase("Dictionary")) {
+
+                                while (in.hasNext()) {
+                                    String line = in.nextLine();
+//                                    searchTrs = line.substring(3);
+                                    search.setURI(line);
+
+                                            String normalized = searchTrs.replace(" ", "%20");
+                                            String normalizedaADFHJKALHK = searchTrs.replace(" ", "+");
+//            this.keywords = normalized;
+// becausei暧昧expected安定 and i don't know ho wot make it happen because i want to manipulate thie thing
+                                            // but it is out of my control
+// it is out of my control absolutely
+                                            // black is the closeth of the nigiht
+                                            // the everything take off cloth to you and make you look you can sseee it without the cloth
+
+                                            // i thought the that i am the chosen one and
+                                            // i am hesitent to that
+                                            // and i am questioning about myself
+                                            // swhen something i sthere
+                                            // i thought that i know something
+                                            // when sombody has all the things will i be able to keep calm
+                                            // will i be jealous
+                                            // will i be just like myself
+                                            // what shoul i do
+                                            // what i shte thing that i am hesitating
+                                            // there are just so much emotion in my mind
+                                            // i want to fuck others and it is ni my mind
+                                            // i wand to fuck niu and i ti sin my mind
+                                            // something should never be told again
+                                            // it is confusing and that is all
+                                            // it is all aconfusing
+                                            // it i s so confusing
+                                            // nothing matters
+                                            // but i have to work hard to keep myself suralive
+                                            // do i have to be so blant and without any secret
+                                            // i don't know the limit
+                                            // i am a werido
+                                            // and it boethers me so much
+                                            // something should never be told and something are being told
+                                            // it i sjust like that
+                                            // i am no better ahan anything
+                                            // do i have teell everybody everything to live in this world i wan tto write a biographoy and live and put it here it is not nuust my maybe after i review what hi have i will know what is going on
+// all these kind os thoughts are just disturbing and keep me away from focus
+                                            // i am just totally fucked up
+                                            // so much nonsense
+                                            // do i have ot make myself look so wierd
+                                            // i hold back
+                                            // i hav eot
+                                            // it is make me crazy
+                                            // i try to be transparent
+                                            // i try to be just omyslef but it is just so hard and i try to get all the voices out ob my head but i can n't
+                                            // i wan tto fuck my wife's girld friends and my monm in lwas and all the beautiful and sexual women in th eroad
+                                            // that i sjust wahat i am and i feel that i am disguting
+                                            // i thought that i am able to do whatever in my mind i sath ebest thing to to to do
+                                            // i the thought come to t me for no reason whey does it come to to me there must be something i am lonely and i wna tto develoepe the same type of relationshiop with others other women like my wife with tme my wife has such special bonds to m e and i wish that i have more tha like that but do i need that many my mind desire something different and that is what is cause thing thpeoblem and my wife is the only one and only one that i have have i will never have sanother thone never have another one that is th e thing when somebody earn much more than me hos w do i feel will i be able to tkeep my self caml and balanced and still be frineds with them therea are just so good thtat i s the thing that is what hapening htaht is what hapening wthat is exact thwa is going on that and that iw it it is a test and they want to see what tiwll happen it just need to happen natureally an d balancedly balanced that is the thing that i s this godod
+                                            // i wriote my thought her eand hope that sometime later i will understand that
+                                            //  i don't ha ve tother midns and it is acauselu ty ething problem
+                                            // there are mushc problem in my mind i anneed to solve it somehow
+                                            aa.fjlasdjfl("http://www.thesaurus.com/browse/" + normalized +"?s=t");
+                                            aa.fjlasdjfl("http://www.urbandictionary.com/define.php?term=" +normalized);
+                                            aa.fjlasdjfl("http://www.bing.com/images/search?q=" +normalizedaADFHJKALHK );
+                                            aa.fjlasdjfl("http://www.learnersdictionary.com/definition/" +normalized);
+                                            aa.fjlasdjfl("http://www.dictionary.com/browse/" +normalizedaADFHJKALHK +"?s=t");
+                                        }
+                              textArea.setText("");
+
+//                                        dhow2ForgDertlssf.fjlasdjfl(search.getURIString());
+
+
+                                    } else {
+                                    }
+                                }
+                            }
+                        }
+
+
+
+
                         else if (textArea.getText().length()>3 && searchEngines.containsKey(textArea.getText().substring(0, 3))) {
                             String text = textArea.getText().trim();
 
@@ -1185,9 +1275,10 @@ b.run();
                                             // there are mushc problem in my mind i anneed to solve it somehow
                                             aa.fjlasdjfl("http://www.thesaurus.com/browse/" + normalized +"?s=t");
                                             aa.fjlasdjfl("http://www.urbandictionary.com/define.php?term=" +normalized);
+                                            aa.fjlasdjfl("http://www.learnersdictionary.com/definition/" +normalized);
                                             aa.fjlasdjfl("http://www.bing.com/images/search?q=" +normalizedaADFHJKALHK );
                                             aa.fjlasdjfl("http://www.dictionary.com/browse/" +normalizedaADFHJKALHK +"?s=t");
-                              textArea.setText("");
+                                            textArea.setText("");
                                         }
 
 //                                        dhow2ForgDertlssf.fjlasdjfl(search.getURIString());
@@ -1198,6 +1289,7 @@ b.run();
                                 }
                             }
                         }
+
 
 
 
@@ -1733,6 +1825,7 @@ s.updatetask();
     static {
         searchEngines.put("sg ", new Search("Bing", "sg ", "http://www.bing.com/search?q=%s", "+"));
         searchEngines.put("sd ", new Search("Dictionary", "sd ", "http://www.dictionary.com/browse/%s?s=t", "%20"));
+        searchEngines.put("sh", new Search("Dictionary", "sh", "http://www.dictionary.com/browse/%s?s=t", "%20"));
         searchEngines.put("su ", new Search("UrbanDictionary", "su ", "http://www.urbandictionary.com/define.php?term=%s", "%20"));
         searchEngines.put("st ", new Search("Treasure", "st ", "http://www.thesaurus.com/browse/%s?s=t", "%20"));
         searchEngines.put("sy ", new Search("Youtube", "sy ", "https://www.youtube.com/results?search_query=%s", "+"));

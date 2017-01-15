@@ -129,7 +129,13 @@ public class How2Forgert implements Serializable {
             } else
 // actions and actions action after action to pipe to the diesire destination
             // piple line to the end
-
+// i kost you forever, you connec tto me and that is it we are connectded, you find me and you have some good wrods for me that is like the blessing from the heaven or even the curse from the hell and you know that is for me you are speadking frot me to me for me only
+            // because i you need my response and i have to take it in and that is a it i can't take it in i iwll remember and that is ti si i don't forevert and that feeling and everything is cfazy
+            // all the meory will just come to me and that is crazy all the meory will coem to me
+            // amd we are not together
+            // i just wnat to be alone
+            // leave me alone
+            //
             if (textStr[0].equalsIgnoreCase("ll")){
                 for (int i = 1; i < textStr.length; i++) {
                 StringBuffer stringBuffer1 = new StringBuffer();
