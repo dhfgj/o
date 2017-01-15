@@ -715,51 +715,64 @@ public static int c =0;
         String s = (String) p.get("1");
         String o = (String) p.get("o");
 
-        Date dw = r.d(s);
+
+        if (null != s ) {
+
+            Date dw = r.d(s);
 
 
-        // reandome time from now within 3 hours
+            // reandome time from now within 3 hours
 
-        //
+            //
 
 
-        if (dw.getDate() < new Date().getDate()) {
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
-            Random rand = new Random();
+            if (dw.getDate() < new Date().getDate()) {
+                SimpleDateFormat simpleDateFormat = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
+                Random rand = new Random();
 
-            // nextInt is normally exclusive of the top value,
-            // so add 1 to make it inclusive
-            int r1= rand.nextInt(Integer.parseInt(String.valueOf((3 - 0) + 1))) + 0;
-            int f= rand.nextInt(Integer.parseInt(String.valueOf((60 - 0) + 1))) + 0;
-            int a = new Date().getHours();
-            Date hf = Date.from(LocalDateTime.now().plusHours(r1).plusMinutes(f).atZone(ZoneId.systemDefault()).toInstant());
+                // nextInt is normally exclusive of the top value,
+                // so add 1 to make it inclusive
+                int r1 = rand.nextInt(Integer.parseInt(String.valueOf((3 - 0) + 1))) + 0;
+                int f = rand.nextInt(Integer.parseInt(String.valueOf((60 - 0) + 1))) + 0;
+                int a = new Date().getHours();
+                Date hf = Date.from(LocalDateTime.now().plusHours(r1).plusMinutes(f).atZone(ZoneId.systemDefault()).toInstant());
 //            Date df= new Date().setHours(r + a);
 //        df.setMinutes();
 // you can do whaterver you want utnlitl somebody ask you out and i have no choice to protect you
 
-            ArrayList<String> c = new ArrayList<String>();
+                ArrayList<String> c = new ArrayList<String>();
 
-            Calendar calendar = Calendar.getInstance();
-            calendar.setTime(hf);//1474356339826
-            long diff = calendar.getTimeInMillis() - Calendar.getInstance().getTimeInMillis();
-            if (diff > 0) {
-                try {
-                    Thread.sleep(diff);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
+                Calendar calendar = Calendar.getInstance();
+                calendar.setTime(hf);//1474356339826
+                long diff = calendar.getTimeInMillis() - Calendar.getInstance().getTimeInMillis();
+                if (diff > 0) {
+                    try {
+                        Thread.sleep(diff);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
                 }
-            }
-            String fs = ListFilesUtil.l("C:\\Users\\SiyuanZeng's\\Videos\\Movie\\Quotes", c, null).get(Integer.parseInt(o));
-            r.o(fs);
-            person_question e = new person_question(fs, "Link");
-            dd("1", simpleDateFormat.format(hf));
-            dd("o", o+1);
+                String fs = ListFilesUtil.l("C:\\Users\\SiyuanZeng's\\Videos\\Movie\\Quotes", c, null).get(Integer.parseInt(o));
+                r.o(fs);
+                person_question e = new person_question(fs, "Link");
+                dd("1", simpleDateFormat.format(hf));
+                dd("o", o + 1);
 
 
-            m.store(e);
+                m.store(e);
 //                    textArea.setText("");
-            Runnable l = ()-> DSF(e);
-            l.run();
+                Runnable l = () -> DSF(e);
+                l.run();
+            }
+        }
+
+        else {
+            Date hf = new Date();
+            SimpleDateFormat simpleDateFormat = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
+
+            dd("1", simpleDateFormat.format(hf));
+            dd("o", "0");
+
         }
 
         loadTask();
