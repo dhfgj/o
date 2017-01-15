@@ -42,6 +42,7 @@ public class C1comehere implements Serializable {
     public zeng.siyuan.onceaday.How2Forgert dhow2Forgert;
     public zeng.siyuan.howt2forgert.howt2forgert.How2Forgert s;
     public zeng.siyuan.onceaday.link.onceaday.How2Forgert dhow2Forgertl;
+    public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.onceaday.onceaday.onceaday.How2Forgert  q;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.How2Forgert dhow2ForgDertl;
 //    public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.How2Forgert dhow2ForgDertls;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.How2Forgert dhow2ForgDertlsf;
@@ -619,6 +620,14 @@ Runnable b =()-> {
     dhow2ForgDertl.textArea = textArea;
     dhow2ForgDertl.frame = frame;
     dhow2ForgDertl.init();
+
+    if (null == q) {
+        q= new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.onceaday.onceaday.onceaday.How2Forgert (c1comehere, textArea, frame);
+    }
+    q.c1comehere = c1comehere;
+    q.textArea = textArea;
+    q.frame = frame;
+    q.init();
 
 // uii forgteo thet i can just add something to the exisign tomode and meake it bpeeter instead of amket ehte now emoddle
     // pveiously i hav eth link now i hav eot hte kdoc and i can dojust od the same thing the variable is that and the slateat is static astatic and viarouslb eit hst hesame tithing you should know ahob ut it hat is ti sti tis it

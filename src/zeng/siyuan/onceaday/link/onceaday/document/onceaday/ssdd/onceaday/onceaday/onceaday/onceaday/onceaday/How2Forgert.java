@@ -131,10 +131,10 @@ public class How2Forgert implements Serializable {
 
             output = new FileOutputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\zeng\\siyuan\\C1comehere\\l.properties");
             // set the properties value
-            jk.setProperty(c1, c1Path);
+            p.setProperty(c1, c1Path);
 
             // save properties to project root folder
-            jk.store(output, null);
+            p.store(output, null);
 
 
 /*
@@ -478,7 +478,7 @@ public static int c =0;
 
     }
 
-    public void h() {
+    public static void h() {
         p = new Properties();
         Properties temprop = new Properties();
         InputStream input = null;
@@ -705,6 +705,9 @@ public static int c =0;
 
 
     public void init() {
+        h();
+
+
         Date t=r.jk("00:01");
         Date k=r.jk("03:01");
         Date kl=new Date(r.randInt(t.getTime(), k.getTime()));
@@ -732,7 +735,7 @@ public static int c =0;
             Date hf = Date.from(LocalDateTime.now().plusHours(r1).plusMinutes(f).atZone(ZoneId.systemDefault()).toInstant());
 //            Date df= new Date().setHours(r + a);
 //        df.setMinutes();
-
+// you can do whaterver you want utnlitl somebody ask you out and i have no choice to protect you
 
             ArrayList<String> c = new ArrayList<String>();
 
@@ -746,7 +749,7 @@ public static int c =0;
                     e.printStackTrace();
                 }
             }
-            String fs = ListFilesUtil.l("d", c, null).get(Integer.parseInt(o));
+            String fs = ListFilesUtil.l("C:\\Users\\SiyuanZeng's\\Videos\\Movie\\Quotes", c, null).get(Integer.parseInt(o));
             r.o(fs);
             person_question e = new person_question(fs, "Link");
             dd("1", simpleDateFormat.format(hf));
@@ -766,7 +769,7 @@ public static int c =0;
 
 
 
-
+// do what ever you want say waht ever you want to say do the wahate rver and do it this is a game an d you have to get something from it it is a matrix and it is crazya nd you know ti
 
 
     }
