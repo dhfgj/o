@@ -63,7 +63,7 @@ public class d {
 
 
 			int count =1 + solrBaseDAO.kpp(1, null, null);
-//            for (Map.Entry<Object, Object> e : prop.entrySet()) {
+//            for (Map.Entry<Object, Object> e : p.entrySet()) {
 //                System.out.println(count);
 //                String key = ((String) e.getKey()).replace("%20", " ");
 //                String v = (String) e.getValue();
@@ -94,7 +94,7 @@ public class d {
 //			output_solr = new FileOutputStream("/Users/vn0xrjh/daniel/14_GUIcopymacosx/c1comehere/c1s.properties.solr");
 
 //			int count = 0;
-//			for (Map.Entry<Object, Object> e : prop.entrySet()) {
+//			for (Map.Entry<Object, Object> e : p.entrySet()) {
 //				String key = ((String) e.getKey()).replace("%20", " ");
 //				String v = (String) e.getValue();
 //				output_solr.write(String.valueOf(count).getBytes());
@@ -183,7 +183,7 @@ public class d {
                 count =1 + solrBaseDAO.kpp(1, null, null);
             for (Map.Entry<Object, Object> e : prop.entrySet()) {
 
-//            for (Map.Entry<Object, Object> e : prop.entrySet()) {
+//            for (Map.Entry<Object, Object> e : p.entrySet()) {
 //                System.out.println(count);
                 String key = ((String) e.getKey()).replace("%20", " ");
                 String v = (String) e.getValue();

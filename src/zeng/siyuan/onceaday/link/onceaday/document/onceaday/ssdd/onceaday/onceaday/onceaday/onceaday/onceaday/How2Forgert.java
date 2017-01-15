@@ -1,8 +1,9 @@
-package zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.onceaday;
+package zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.onceaday.onceaday.onceaday;
 
 import zeng.siyuan.C1comehere.Beep;
 import zeng.siyuan.C1comehere.C1comehere;
 import zeng.siyuan.reuseutil.r;
+import zeng.siyuan.solr.test.param.dao.SolrDataDAO;
 
 import javax.swing.*;
 import java.awt.*;
@@ -22,7 +23,7 @@ public class How2Forgert implements Serializable {
     public transient Thread reloadandDisplayThread;
     public transient JFrame frame;
     public static peoplequesiton m = new peoplequesiton();
-    ;
+//    ;
     public boolean isSearch;
     public int count = 1;
     private CopyOnWriteArrayList<person_question> searchebbinghauses;
@@ -30,6 +31,8 @@ public class How2Forgert implements Serializable {
     private Task currentTaskSearch;
     private String keywords;
     public static transient Properties jk;
+    public static Properties p;
+
     /*
 
 
@@ -38,12 +41,132 @@ public class How2Forgert implements Serializable {
     then true then next day  si should remove the true /false check
 
     then next day, where is this one
+*/
+
+
+
+    public void s(String c1, String c1Path) {
+
+        OutputStream output = null;
+        OutputStream output_solr = null;
+        try {
+
+            output = new FileOutputStream("C:\\Development_Base\\maxcox\\maxcox-master\\c1s.properties");
+            c1 = c1.replace(" ", "%20");
+            // set the properties value
+            p.setProperty(c1, c1Path);
+
+            // save properties to project root folder
+            p.store(output, null);
+
+
+            output_solr = new FileOutputStream("C:\\Development_Base\\maxcox\\maxcox-master\\c1s.properties.solr");
+
+            int count = 0;
+            for (Map.Entry<Object, Object> e : p.entrySet()) {
+                String key = ((String) e.getKey()).replace("%20", " ");
+                String v = (String) e.getValue();
+                output_solr.write(String.valueOf(count).getBytes());
+                output_solr.write(',');
+                output_solr.write(key.getBytes());
+                output_solr.write(',');
+                output_solr.write(v.getBytes());
+                output_solr.write(System.getProperty("line.separator").getBytes());
+                count++;
+            }
+
+
+
+            SolrDataDAO solrBaseDAO = null;
+            try {
+                solrBaseDAO = new SolrDataDAO();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+            count =1 + solrBaseDAO.kp(1, null, null);
+//            for (Map.Entry<Object, Object> e : p.entrySet()) {
+//                System.out.println(count);
+//                String key = ((String) e.getKey()).replace("%20", " ");
+//                String v = (String) e.getValue();
+            try {
+                solrBaseDAO.addData(count, c1,c1Path);
+            } catch (Exception e1) {
+                e1.printStackTrace();
+            }
+            count++;
+//            }
+            System.out.println("stop");
 
 
 
 
+//            c1s();
+        } catch (IOException io) {
+            io.printStackTrace();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            if (output != null) {
+                try {
+                    output.close();
+                    output_solr.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
 
-     */
+    public void d(String c1, String c1Path) {
+
+        OutputStream output = null;
+        OutputStream output_solr = null;
+        try {
+
+            output = new FileOutputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\zeng\\siyuan\\C1comehere\\l.properties");
+            // set the properties value
+            jk.setProperty(c1, c1Path);
+
+            // save properties to project root folder
+            jk.store(output, null);
+
+
+/*
+            output_solr = new FileOutputStream("/Users/vn0xrjh/daniel/14_GUIcopymacosx/c1comehere/c1s.properties.solr");
+
+            int count = 0;
+            for (Map.Entry<Object, Object> e : p.entrySet()) {
+                String key = ((String) e.getKey()).replace("%20", " ");
+                String v = (String) e.getValue();
+                output_solr.write(String.valueOf(count).getBytes());
+                output_solr.write(',');
+                output_solr.write(key.getBytes());
+                output_solr.write(',');
+                output_solr.write(v.getBytes());
+                output_solr.write(System.getProperty("line.separator").getBytes());
+                count++;
+            }
+*/
+
+//    c1ds();
+} catch (IOException io) {
+        io.printStackTrace();
+        } finally {
+        if (output != null) {
+        try {
+        output.close();
+        } catch (IOException e) {
+        e.printStackTrace();
+        }
+        }
+        }
+        }
+
+
+
+//     */
 
     public void fjlasdjfl() {
         Scanner in = null;
@@ -59,7 +182,7 @@ public class How2Forgert implements Serializable {
             }
 //Runnable l = ()-> DSF(e);
 //l.run();
-//                    textArea.setText("");
+                    textArea.setText("");
         }
 //        reloadTAskandrestartPopThread();
     }
@@ -143,8 +266,7 @@ public static int c =0;
 //                                    reloadTAskandrestartPopThread();
 //duplicate
 //                                    break;
-// i have talk and streatch far and thin kand talk about the application from the origin and core and streatch all the things around
-                                    // but the y have to have a connenct beiwent
+
                                 }
                             }
                         }
@@ -352,8 +474,67 @@ public static int c =0;
 
     }
 
+    public void h() {
+        p = new Properties();
+        Properties temprop = new Properties();
+        InputStream input = null;
 
-    public void d(String c1, String c1Path) {
+        try {
+            input = new FileInputStream("C:\\Development_Base\\maxcox\\maxcox-master\\c1s.properties");
+            // fjlasdjfl a properties file
+            p.load(input);
+
+
+//            for (Map.Entry<Object, Object> e : temprop.entrySet()) {
+//                String key = ((String) e.getKey()).replace("%20", " ");
+//                String v = (String) e.getValue();
+//                jk.put(key, v);
+//            }
+//            System.out.println("Done Propertiesy loading");
+
+/*
+            SolrDataDAO solrBaseDAO = null;
+            try {
+                solrBaseDAO = new SolrDataDAO();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+            int count =1;
+            for (Map.Entry<Object, Object> e : p.entrySet()) {
+                System.out.println(count);
+                String key = ((String) e.getKey()).replace("%20", " ");
+                String v = (String) e.getValue();
+                try {
+                    solrBaseDAO.addData(count, key,v);
+                } catch (Exception e1) {
+                    e1.printStackTrace();
+                }
+                count++;
+            }
+            System.out.println("stop");
+
+*/
+
+
+
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        } finally {
+            if (input != null) {
+                try {
+                    input.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+
+    }
+
+
+    public void q(String c1, String c1Path) {
 
         OutputStream output = null;
         OutputStream output_solr = null;

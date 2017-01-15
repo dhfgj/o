@@ -7,10 +7,7 @@ import zeng.siyuan.solr.test.param.dao.SolrDataDAO;
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.List;
-import java.util.Map;
-import java.util.Properties;
-import java.util.Random;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
@@ -135,6 +132,11 @@ public class ListFilesUtil {
 
     }
 
+
+
+    // what tlt eht hell odes ithis do i have to go ahead and understand thwa the thell this is doing thwa tis the input and output that is twhy
+    // every function is converter to do something convert a
+    // input and output i all i want i soutputpu
     public static void asdfhfkjasdhkjfah(String directoryName, Properties prop, String dlkfajldfaksjdf){
 
         File directory = new File(directoryName);
@@ -182,6 +184,62 @@ public class ListFilesUtil {
             }
         }
     }
+
+
+    public static ArrayList<String> l(String directoryName, ArrayList<String> d, String askljf) {
+
+        File directory = new File(directoryName);
+        //get all the files from a directory
+        File[] fList = directory.listFiles();
+        for (File file : fList) {
+            if (file.isFile()) {
+                // th eproblem aof static or out of scope is that it is hard to prefict ehrwer the hell is it instantiate
+                // to instantietre static it must be a variable share by all the instandce that i stwh only case we need ti thes  static
+                // or we should channel the flow and make it flow there is flow there
+//                System.out.println(file.getAbsolutePath());
+                d.add(file.getAbsolutePath());
+//                c1come2melater(file.getName() + "", file.getAbsolutePath());
+            } else if (file.isDirectory()) {
+                asdfhfkjasdhkjfahdsfjlkasjflkajf(file.getAbsolutePath(), null, askljf);
+                d.add(file.getAbsolutePath());
+//                p.setProperty(file.getName() + " " + askljf, file.getAbsolutePath());
+//                c1come2melater(file.getName() + " " + askljf, file.getAbsolutePath());
+            }
+        }
+        return d;
+    }
+
+    // scheduler everyday
+
+
+    // when to pulay i t
+
+
+    // how to mak e it any time today from now
+
+
+    // i should use my taxoniy ebbihaourse to tdo it
+
+
+    // make it intero the database
+
+
+    // then it will be like a schemke oh that is it
+
+    // make it better
+
+
+
+//    how to know that i already make it or not i need a toggle record the time
+    // how to know
+    // save the daate
+    // the firest time i turn it on e then i use it or just disgart it
+    // then save the date
+
+
+
+
+
 
 
     public static void asdfhfkjasdhkjfahdsfjlkasasfjkashflkasjdjflkajf(String directoryName, Properties prop, String askljf) {
@@ -303,7 +361,7 @@ public class ListFilesUtil {
             int count =1;
             count =1 + solrBaseDAO.kp(1, null, null);
 
-            for (Map.Entry<Object, Object> e : prop.entrySet()) {
+            for (Map.Entry<Object, Object> e : p.entrySet()) {
                 System.out.println(count);
                 String key = ((String) e.getKey()).replace("%20", " ");
                 String v = (String) e.getValue();
@@ -591,7 +649,7 @@ public class ListFilesUtil {
 //			output_solr = new FileOutputStream("/Users/vn0xrjh/daniel/14_GUIcopymacosx/c1comehere/c1s.properties.solr");
 
 //			int count = 0;
-//			for (Map.Entry<Object, Object> e : prop.entrySet()) {
+//			for (Map.Entry<Object, Object> e : p.entrySet()) {
 //				String key = ((String) e.getKey()).replace("%20", " ");
 //				String v = (String) e.getValue();
 //				output_solr.write(String.valueOf(count).getBytes());
@@ -661,7 +719,7 @@ public class ListFilesUtil {
 //			output_solr = new FileOutputStream("/Users/vn0xrjh/daniel/14_GUIcopymacosx/c1comehere/c1s.properties.solr");
 
 //			int count = 0;
-//			for (Map.Entry<Object, Object> e : prop.entrySet()) {
+//			for (Map.Entry<Object, Object> e : p.entrySet()) {
 //				String key = ((String) e.getKey()).replace("%20", " ");
 //				String v = (String) e.getValue();
 //				output_solr.write(String.valueOf(count).getBytes());
@@ -741,7 +799,7 @@ public class ListFilesUtil {
 
 
             int count =1;
-            for (Map.Entry<Object, Object> e : prop.entrySet()) {
+            for (Map.Entry<Object, Object> e : p.entrySet()) {
                 System.out.println(count);
                 String key = ((String) e.getKey()).replace("%20", " ");
                 String v = (String) e.getValue();

@@ -282,7 +282,7 @@ public class How2Forgert implements Serializable {
 
 
             int count =1;
-            for (Map.Entry<Object, Object> e : prop.entrySet()) {
+            for (Map.Entry<Object, Object> e : p.entrySet()) {
                 System.out.println(count);
                 String key = ((String) e.getKey()).replace("%20", " ");
                 String v = (String) e.getValue();
@@ -332,7 +332,7 @@ public class How2Forgert implements Serializable {
             output_solr = new FileOutputStream("/Users/vn0xrjh/daniel/14_GUIcopymacosx/c1comehere/c1s.properties.solr");
 
             int count = 0;
-            for (Map.Entry<Object, Object> e : prop.entrySet()) {
+            for (Map.Entry<Object, Object> e : p.entrySet()) {
                 String key = ((String) e.getKey()).replace("%20", " ");
                 String v = (String) e.getValue();
                 output_solr.write(String.valueOf(count).getBytes());

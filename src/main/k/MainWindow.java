@@ -206,7 +206,7 @@ public class MainWindow extends JFrame{
 
 							// Double-click detected
 //							System.out.println(list.getSelectedValue());
-//						System.out.println((String)prop.get(list.getSelectedValue()));
+//						System.out.println((String)p.get(list.getSelectedValue()));
 							r.open((String)prop.get(list.getSelectedValue()));
 					}
 				}
@@ -363,7 +363,7 @@ public class MainWindow extends JFrame{
 							} catch (Exception e1) {
 								e1.printStackTrace();
 							}
-//            for (Map.Entry<Object, Object> e : prop.entrySet()) {
+//            for (Map.Entry<Object, Object> e : p.entrySet()) {
 //                System.out.println(count);
 //                String key = ((String) e.getKey()).replace("%20", " ");
 //                String v = (String) e.getValue();
@@ -387,7 +387,7 @@ public class MainWindow extends JFrame{
 //
 //
 //							try {
-//								solrBaseDAO.addData(prop.size()+1, getNewTaskField().getText().trim().split("=")[0], getNewTaskField().getText().trim().substring(getNewTaskField().getText().trim().indexOf("=") + 1));
+//								solrBaseDAO.addData(p.size()+1, getNewTaskField().getText().trim().split("=")[0], getNewTaskField().getText().trim().substring(getNewTaskField().getText().trim().indexOf("=") + 1));
 //							} catch (Exception e1) {
 //								e1.printStackTrace();
 //							}
@@ -428,7 +428,7 @@ public class MainWindow extends JFrame{
 //			output_solr = new FileOutputStream("/Users/vn0xrjh/daniel/14_GUIcopymacosx/c1comehere/c1s.properties.solr");
 
 //			int count = 0;
-//			for (Map.Entry<Object, Object> e : prop.entrySet()) {
+//			for (Map.Entry<Object, Object> e : p.entrySet()) {
 //				String key = ((String) e.getKey()).replace("%20", " ");
 //				String v = (String) e.getValue();
 //				output_solr.write(String.valueOf(count).getBytes());
