@@ -1013,6 +1013,7 @@ b.run();
                         else if (DisHlow2ForeDgertCommand) {
                             System.out.println("Disloadl");
                             dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.load();
+                            textArea.setText("");
                         }
 
                         else if (textArea.getText().equalsIgnoreCase("history")) {
