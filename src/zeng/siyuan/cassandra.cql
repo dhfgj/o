@@ -66,7 +66,7 @@ create table keyspace1.waht (
 
 
 
-create table keyspace1.link(
+create table keyspace1.doc(
 	id uuid,
 	target_date timestamp,
 	txt text,
@@ -74,6 +74,7 @@ create table keyspace1.link(
 	tasks list<frozen<type4>>,
 	PRIMARY KEY (id)
 );
+
 
 
 create table keyspace1.word (
