@@ -75,16 +75,22 @@ public class C1comehere implements Serializable {
             {
                 System.out.println(line);
             }
+            p=Runtime.getRuntime().exec("cmd /c C:\\/apache-cassandra-2.1.14/bin cassandra");
+            p.waitFor();
+            reader=new BufferedReader(
+                    new InputStreamReader(p.getInputStream())
+            );
+
+            while((line = reader.readLine()) != null)
+            {
+                System.out.println(line);
+            }
 
         }
         catch(IOException e1) {}
         catch(InterruptedException e2) {}
-        finally {
-
-        }
 
         System.out.println("Done");
-
 
 
 
