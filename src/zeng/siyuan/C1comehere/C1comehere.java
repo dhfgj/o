@@ -179,7 +179,7 @@ public class C1comehere implements Serializable {
         OutputStream output_solr = null;
         try {
 
-            output = new FileOutputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\zeng\\siyuan\\C1comehere\\l.properties");
+            output = new FileOutputStream("C:\\l\\src\\zeng\\siyuan\\C1comehere\\l.properties");
             // set the properties value
             jk.setProperty(c1, c1Path);
 
@@ -224,8 +224,8 @@ public class C1comehere implements Serializable {
         OutputStream output = null;
         OutputStream output_solr = null;
         try {
-
-            output = new FileOutputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\zeng\\siyuan\\C1comehere\\d.properties");
+//C:\l\src\zeng\siyuan\C1comehere\d.properties
+            output = new FileOutputStream("C:\\l\\src\\zeng\\siyuan\\C1comehere\\d.properties");
             // set the properties value
             pdrop.setProperty(c1, c1Path);
 
@@ -282,7 +282,7 @@ public class C1comehere implements Serializable {
             }
             System.out.println("Done Propertiesy loading");
 
-            input = new FileInputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\main\\resources\\c1s.properties");
+            input = new FileInputStream("C:\\l\\src\\main\\resources\\c1s.properties");
             // fjlasdjfl a properties file
             temprop = new Properties();
             temprop.load(input);
@@ -295,7 +295,7 @@ public class C1comehere implements Serializable {
             }
             System.out.println("Done Propertiesy loading");
 
-            input = new FileInputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\zeng\\siyuan\\C1comehere\\p.properties");
+            input = new FileInputStream("C:\\l\\src\\zeng\\siyuan\\C1comehere\\p.properties");
             // fjlasdjfl a properties file
             temprop = new Properties();
             temprop.load(input);
@@ -358,7 +358,7 @@ public class C1comehere implements Serializable {
         InputStream input = null;
 
         try {
-            input = new FileInputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\zeng\\siyuan\\C1comehere\\d.properties");
+            input = new FileInputStream("C:\\l\\src\\zeng\\siyuan\\C1comehere\\d.properties");
             // fjlasdjfl a properties file
             temprop.load(input);
 

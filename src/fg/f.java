@@ -30,9 +30,9 @@ public class f {
         // Set path to the acoustic model.
         configuration.setAcousticModelPath("resource:/edu/cmu/sphinx/models/en-us/en-us");
         // Set path to the dictionary.
-        configuration.setDictionaryPath("file:C:\\Development_Base\\maxcox\\maxcox-master\\src\\fg\\7707.dic");
+        configuration.setDictionaryPath("file:C:\\l\\src\\fg\\7707.dic");
         // Set path to the language model.
-        configuration.setLanguageModelPath("file:C:\\Development_Base\\maxcox\\maxcox-master\\src\\fg\\7707.lm");
+        configuration.setLanguageModelPath("file:C:\\l\\src\\fg\\7707.lm");
         
         //Recognizer object, Pass the Configuration object
         LiveSpeechRecognizer recognize = new LiveSpeechRecognizer(configuration);

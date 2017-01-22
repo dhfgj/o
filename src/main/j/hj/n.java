@@ -297,7 +297,7 @@ public class n extends JFrame{
 		OutputStream output_solr = null;
 		try {
 
-			output = new FileOutputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\main\\j\\resources\\c1s.properties");
+			output = new FileOutputStream("C:\\l\\src\\main\\j\\resources\\c1s.properties");
 			c1 = c1.replace(" ", "%20");
 //			System.out.println("c1come2melater();");
 			// set the properties value

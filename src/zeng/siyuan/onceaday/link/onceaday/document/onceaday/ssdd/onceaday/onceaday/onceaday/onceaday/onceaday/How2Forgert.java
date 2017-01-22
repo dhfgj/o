@@ -130,7 +130,7 @@ public class How2Forgert implements Serializable {
         OutputStream output_solr = null;
         try {
 
-            output = new FileOutputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\zeng\\siyuan\\onceaday\\link\\onceaday\\document\\onceaday\\ssdd\\onceaday\\onceaday\\onceaday\\onceaday\\onceaday\\l.properties");
+            output = new FileOutputStream("C:\\l\\src\\zeng\\siyuan\\onceaday\\link\\onceaday\\document\\onceaday\\ssdd\\onceaday\\onceaday\\onceaday\\onceaday\\onceaday\\l.properties");
             // set the properties value
             p.setProperty(c1, c1Path);
 
@@ -426,7 +426,7 @@ public static int c =0;
         InputStream input = null;
 
         try {
-            input = new FileInputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\zeng\\siyuan\\onceaday\\link\\onceaday\\document\\onceaday\\ssdd\\onceaday\\onceaday\\l.properties");
+            input = new FileInputStream("C:\\l\\src\\zeng\\siyuan\\onceaday\\link\\onceaday\\document\\onceaday\\ssdd\\onceaday\\onceaday\\l.properties");
             // fjlasdjfl a properties file
             temprop.load(input);
 
@@ -485,7 +485,7 @@ public static int c =0;
         InputStream input = null;
 
         try {
-            input = new FileInputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\zeng\\siyuan\\onceaday\\link\\onceaday\\document\\onceaday\\ssdd\\onceaday\\onceaday\\onceaday\\onceaday\\onceaday\\l.properties");
+            input = new FileInputStream("C:\\l\\src\\zeng\\siyuan\\onceaday\\link\\onceaday\\document\\onceaday\\ssdd\\onceaday\\onceaday\\onceaday\\onceaday\\onceaday\\l.properties");
             // fjlasdjfl a properties file
             p.load(input);
 
@@ -545,7 +545,7 @@ public static int c =0;
         OutputStream output_solr = null;
         try {
 
-            output = new FileOutputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\zeng\\siyuan\\onceaday\\link\\onceaday\\document\\onceaday\\ssdd\\onceaday\\onceaday\\onceaday\\onceaday\\onceaday\\l.properties");
+            output = new FileOutputStream("C:\\l\\src\\zeng\\siyuan\\onceaday\\link\\onceaday\\document\\onceaday\\ssdd\\onceaday\\onceaday\\onceaday\\onceaday\\onceaday\\l.properties");
             // set the properties value
             p.setProperty(c1, c1Path);
 

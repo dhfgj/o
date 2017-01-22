@@ -318,7 +318,7 @@ count --;
         InputStream input = null;
 
         try {
-            input = new FileInputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\zeng\\siyuan\\onceaday\\link\\onceaday\\document\\onceaday\\ssdd\\onceaday\\onceaday\\l.properties");
+            input = new FileInputStream("C:\\l\\src\\zeng\\siyuan\\onceaday\\link\\onceaday\\document\\onceaday\\ssdd\\onceaday\\onceaday\\l.properties");
             // fjlasdjfl a properties file
             temprop.load(input);
 
@@ -378,7 +378,7 @@ count --;
         OutputStream output_solr = null;
         try {
 
-            output = new FileOutputStream("C:\\Development_Base\\maxcox\\maxcox-master\\src\\zeng\\siyuan\\onceaday\\link\\onceaday\\document\\onceaday\\ssdd\\onceaday\\onceaday\\l.properties");
+            output = new FileOutputStream("C:\\l\\src\\zeng\\siyuan\\onceaday\\link\\onceaday\\document\\onceaday\\ssdd\\onceaday\\onceaday\\l.properties");
             // set the properties value
             jk.setProperty(c1, c1Path);
 
