@@ -1,6 +1,6 @@
 package zeng.siyuan.C1comehere;
 
-import com.epam.preprod.firefox.model.KFHASDF;
+//import com.epam.preprod.firefox.model.KFHASDF;
 import fg.f;
 import loli.datepicker.DatePicker;
 import main.k.TodoApp;
@@ -1023,12 +1023,12 @@ b.run();
 
 
                         else if (textArea.getText().equalsIgnoreCase("hotmail")) {
-                            KFHASDF KFHASDF = new KFHASDF();
-                            try {
-                                KFHASDF.testOpenLogin3();
-                            } catch (InterruptedException e1) {
-                                e1.printStackTrace();
-                            }
+//                            KFHASDF KFHASDF = new KFHASDF();
+//                            try {
+//                                KFHASDF.testOpenLogin3();
+//                            } catch (InterruptedException e1) {
+//                                e1.printStackTrace();
+//                            }
 
                         }
 
@@ -1062,6 +1062,7 @@ b.run();
 
 
                         }
+/*
 
                         else if (textArea.getText().equalsIgnoreCase("abuizeng")) {
                             KFHASDF KFHASDF = new KFHASDF();
@@ -1098,6 +1099,7 @@ b.run();
                             }
 
                         }
+*/
 
                         else if (textArea.getText().startsWith("history") && textArea.getText().split(" ").length==2) {
                             String s = "";

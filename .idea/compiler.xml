@@ -12,7 +12,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="c1comehere" target="1.8" />
-      <module name="gmail" target="1.8" />
+      <module name="gmail" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
