@@ -42,7 +42,7 @@ public class C1comehere implements Serializable {
     public zeng.siyuan.onceaday.How2Forgert dhow2Forgert;
     public zeng.siyuan.howt2forgert.howt2forgert.How2Forgert s;
     public zeng.siyuan.onceaday.link.onceaday.How2Forgert dhow2Forgertl;
-    public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.onceaday.onceaday.onceaday.How2Forgert  q;
+//    public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.onceaday.onceaday.onceaday.How2Forgert  q;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.How2Forgert dhow2ForgDertl;
 //    public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.How2Forgert dhow2ForgDertls;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.How2Forgert dhow2ForgDertlsf;
@@ -75,16 +75,16 @@ public class C1comehere implements Serializable {
             {
                 System.out.println(line);
             }
-            p=Runtime.getRuntime().exec("cmd /c C:\\apache-cassandra-2.1.14/bin cassandra");
-            p.waitFor();
-            reader=new BufferedReader(
-                    new InputStreamReader(p.getInputStream())
-            );
-
-            while((line = reader.readLine()) != null)
-            {
-                System.out.println(line);
-            }
+//            p=Runtime.getRuntime().exec("cmd /c C:\\apache-cassandra-2.1.14/bin cassandra");
+//            p.waitFor();
+//            reader=new BufferedReader(
+//                    new InputStreamReader(p.getInputStream())
+//            );
+//
+//            while((line = reader.readLine()) != null)
+//            {
+//                System.out.println(line);
+//            }
 
         }
         catch(IOException e1) {}
@@ -111,7 +111,7 @@ public class C1comehere implements Serializable {
         OutputStream output_solr = null;
         try {
 
-            output = new FileOutputStream("C:\\Development_Base\\maxcox\\maxcox-master\\c1s.properties");
+            output = new FileOutputStream("C:\\l\\c1s.properties");
             c1 = c1.replace(" ", "%20");
             // set the properties value
             prop.setProperty(c1, c1Path);
@@ -120,7 +120,7 @@ public class C1comehere implements Serializable {
             prop.store(output, null);
 
 
-            output_solr = new FileOutputStream("C:\\Development_Base\\maxcox\\maxcox-master\\c1s.properties.solr");
+            output_solr = new FileOutputStream("C:\\l\\c1s.properties.solr");
 
             int count = 0;
             for (Map.Entry<Object, Object> e : prop.entrySet()) {
@@ -276,7 +276,7 @@ public class C1comehere implements Serializable {
         InputStream input = null;
 
         try {
-            input = new FileInputStream("C:\\Development_Base\\maxcox\\maxcox-master\\c1s.properties");
+            input = new FileInputStream("C:\\l\\c1s.properties");
             // fjlasdjfl a properties file
             temprop.load(input);
 
@@ -426,7 +426,7 @@ public class C1comehere implements Serializable {
         InputStream input = null;
 
         try {
-            input = new FileInputStream("C:\\Development_Base\\maxcox\\maxcox-master\\c1s.properties");
+            input = new FileInputStream("C:\\l\\c1s.properties");
             // fjlasdjfl a properties file
             temprop.load(input);
 
@@ -626,6 +626,7 @@ Runnable b =()-> {
     dhow2ForgDertl.textArea = textArea;
     dhow2ForgDertl.frame = frame;
     dhow2ForgDertl.init();
+/*
 
     if (null == q) {
         q= new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.onceaday.onceaday.onceaday.How2Forgert (c1comehere, textArea, frame);
@@ -634,6 +635,7 @@ Runnable b =()-> {
     q.textArea = textArea;
     q.frame = frame;
     q.init();
+*/
 
 // uii forgteo thet i can just add something to the exisign tomode and meake it bpeeter instead of amket ehte now emoddle
     // pveiously i hav eth link now i hav eot hte kdoc and i can dojust od the same thing the variable is that and the slateat is static astatic and viarouslb eit hst hesame tithing you should know ahob ut it hat is ti sti tis it
