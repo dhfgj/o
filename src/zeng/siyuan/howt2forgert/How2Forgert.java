@@ -404,7 +404,7 @@ public class How2Forgert implements Serializable {
         try {
             String str = gson.toJson(ebbinghauses);
 
-            FileWriter writer = new FileWriter("C:\\c1\\c1comehere\\ebbinghauses.txt");
+            FileWriter writer = new FileWriter("C:\\l\\c1comehere\\ebbinghauses.txt");
             writer.write(str);
             writer.close();
 

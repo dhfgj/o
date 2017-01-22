@@ -920,7 +920,7 @@ k.removeDocument("m", p);
                     // Convert object to JSON string and save into a file directly
 //                                mapper.writeValue(new File("D:\\staff.json"), staff);
                     String textStr[] = textArea.getText().split("\\r\\n|\\n|\\r");
-
+//angu
                     for(String s : textStr) {
                         person_question e = d(s);
                     }

@@ -29,7 +29,7 @@ public class Ebbinghaus implements Serializable{
     public UUID javauid;
 //    @Field
 @org.apache.solr.client.solrj.beans.Field
-    @Column(name = "question")
+    @Column(name = "txt")
     String question;
 //    @Field
 @org.apache.solr.client.solrj.beans.Field
