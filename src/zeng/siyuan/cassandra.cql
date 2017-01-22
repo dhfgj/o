@@ -14,6 +14,18 @@ create table keyspace1.quote (
 );
 
 
+
+create table keyspace1.p (
+	id uuid,
+	target_date timestamp,
+	txt text,
+	type text,
+	tasks list<frozen<type4>>,
+	PRIMARY KEY (id)
+);
+
+
+
 create table keyspace1.interjection (
 	id uuid,
 	target_date timestamp,
@@ -44,6 +56,17 @@ create table keyspace1.people (
 );
 
 create table keyspace1.waht (
+	id uuid,
+	target_date timestamp,
+	txt text,
+	type text,
+	tasks list<frozen<type4>>,
+	PRIMARY KEY (id)
+);
+
+
+
+create table keyspace1.link(
 	id uuid,
 	target_date timestamp,
 	txt text,
@@ -166,6 +189,16 @@ create table keyspace1.doc_test (
 );
 
 select * from keyspace1.doc;
+
+
+create table keyspace1.ebbinhance6(
+	id uuid,
+	target_date timestamp,
+	txt text,
+	type text,
+	tasks list<frozen<type4>>,
+	PRIMARY KEY (id)
+);
 
 
 create table keyspace1.doc(
