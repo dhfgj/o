@@ -72,6 +72,19 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
             <artifactId>sql2o</artifactId>
             <version>1.5.4</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/de.sciss/sphinx4-core -->
+        <dependency>
+            <groupId>de.sciss</groupId>
+            <artifactId>sphinx4-core</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/de.sciss/sphinx4-core -->
+        <dependency>
+            <groupId>de.sciss</groupId>
+            <artifactId>sphinx4-data</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
