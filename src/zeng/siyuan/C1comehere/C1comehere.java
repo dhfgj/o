@@ -63,6 +63,175 @@ public class C1comehere implements Serializable {
     public static transient Properties jk;
     public transient static Map<String, Search> searchEngines = new HashMap<String, Search>();
 
+
+Properties w;
+    public void c() {
+        w = new Properties();
+        Properties temprop = new Properties();
+        InputStream input = null;
+
+        try {
+            input = new FileInputStream("C:\\l\\w.properties");
+            // fjlasdjfl a properties file
+            temprop.load(input);
+
+
+            for (Map.Entry<Object, Object> e : temprop.entrySet()) {
+                String key = ((String) e.getKey()).replace("%20", " ");
+                String v = (String) e.getValue();
+                w.put(key, v);
+            }
+            System.out.println("Done Propertiesy loading");
+
+            input = new FileInputStream("C:\\l\\w.properties");
+            // fjlasdjfl a properties file
+            temprop = new Properties();
+            temprop.load(input);
+
+
+            for (Map.Entry<Object, Object> e : temprop.entrySet()) {
+                String key = ((String) e.getKey()).replace("%20", " ");
+                String v = (String) e.getValue();
+                w.put(key, v);
+            }
+            System.out.println("Done Propertiesy loading");
+
+            input = new FileInputStream("C:\\l\\w.properties");
+            // fjlasdjfl a properties file
+            temprop = new Properties();
+            temprop.load(input);
+
+
+            for (Map.Entry<Object, Object> e : temprop.entrySet()) {
+                String key = ((String) e.getKey()).replace("%20", " ");
+                String v = (String) e.getValue();
+                w.put(key, v);
+            }
+            System.out.println("Done Propertiesy loading");
+
+/*
+
+            Runnable r = () -> {
+
+                SolrDataDAO solrBaseDAO = null;
+                try {
+                    solrBaseDAO = new SolrDataDAO();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
+
+                int count = 1;
+                for (Map.Entry<Object, Object> e : prop.entrySet()) {
+                    System.out.println(count);
+                    String key = ((String) e.getKey()).replace("%20", " ");
+                    String v = (String) e.getValue();
+                    try {
+                        solrBaseDAO.addData(count, key, v);
+                    } catch (Exception e1) {
+                        e1.printStackTrace();
+                    }
+                    count++;
+                }
+                System.out.println("stop");
+
+            };
+
+
+            ExecutorService executor = Executors.newFixedThreadPool(1);
+
+            executor.submit(r);
+*/
+
+
+        } catch(IOException ex){
+            ex.printStackTrace();
+        } finally{
+            if (input != null) {
+                try {
+                    input.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+
+
+    }
+
+
+    public void l(String c1, String c1Path) {
+        c();
+        OutputStream output = null;
+        OutputStream output_solr = null;
+        try {
+
+            output = new FileOutputStream("C:\\l\\w.properties");
+            c1Path = c1Path.replace(" ", "%20");
+            // set the properties value
+            w.setProperty(c1Path, c1Path);
+
+            // save properties to project root folder
+            w.store(output, null);
+
+
+            output_solr = new FileOutputStream("C:\\l\\w.properties.solr");
+
+            int count = 0;
+            for (Map.Entry<Object, Object> e : w.entrySet()) {
+                String key = ((String) e.getKey()).replace("%20", " ");
+                String v = (String) e.getValue();
+                output_solr.write(String.valueOf(count).getBytes());
+                output_solr.write(',');
+                output_solr.write(key.getBytes());
+                output_solr.write(',');
+                output_solr.write(v.getBytes());
+                output_solr.write(System.getProperty("line.separator").getBytes());
+                count++;
+            }
+
+
+
+            SolrDataDAO solrBaseDAO = null;
+            try {
+                solrBaseDAO = new SolrDataDAO();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+//            count =1 + solrBaseDAO.addData(1, c1Path, c1Path);
+//            for (Map.Entry<Object, Object> e : p.entrySet()) {
+//                System.out.println(count);
+//                String key = ((String) e.getKey()).replace("%20", " ");
+//                String v = (String) e.getValue();
+            try {
+                solrBaseDAO.addData(count, c1Path,c1Path);
+            } catch (Exception e1) {
+                e1.printStackTrace();
+            }
+            count++;
+//            }
+            System.out.println("stop");
+
+//            c1s();
+        } catch (IOException io) {
+            io.printStackTrace();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            if (output != null) {
+                try {
+                    output.close();
+                    output_solr.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+
+
     public static void main(String ar[]) throws Exception {
         try
         {
@@ -1220,7 +1389,8 @@ b.run();
                                             aa.fjlasdjfl("http://www.bing.com/images/search?q=" +normalizedaADFHJKALHK );
                                             aa.fjlasdjfl("http://www.learnersdictionary.com/definition/" +normalized);
                                             aa.fjlasdjfl("http://www.dictionary.com/browse/" +normalizedaADFHJKALHK +"?s=t");
-                                        }
+                                            l(s, s);
+                                }
                               textArea.setText("");
 
 //                                        dhow2ForgDertlssf.fjlasdjfl(search.getURIString());
@@ -1304,6 +1474,7 @@ b.run();
                                             aa.fjlasdjfl("http://www.learnersdictionary.com/definition/" +normalized);
                                             aa.fjlasdjfl("http://www.bing.com/images/search?q=" +normalizedaADFHJKALHK );
                                             aa.fjlasdjfl("http://www.dictionary.com/browse/" +normalizedaADFHJKALHK +"?s=t");
+                                            l(line, line);
                                             textArea.setText("");
                                         }
 
