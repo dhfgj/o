@@ -13,20 +13,23 @@ import com.mongodb.util.JSON;
 import org.testng.annotations.Test;
 import zeng.siyuan.C1comehere.C1comehere;
 import zeng.siyuan.C1comehere.Search;
+import zeng.siyuan.howt2forgert.Ebbinghaus;
 import zeng.siyuan.onceaday.onceaday.onceaday.link.onceaday.DecendingTask;
 import zeng.siyuan.onceaday.onceaday.onceaday.link.onceaday.MongoDbHelper;
 import zeng.siyuan.reuseutil.r;
+import zeng.siyuan.solr.test.param.dao.SolrDataDAO;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
-import java.io.IOException;
-import java.io.Serializable;
+import java.io.*;
 import java.net.UnknownHostException;
 import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 import static java.awt.SystemColor.text;
@@ -900,6 +903,174 @@ k.removeDocument("m", p);
     }
 
 
+    static Properties prop;
+
+
+    public void c1s() {
+        prop = new Properties();
+        Properties temprop = new Properties();
+        InputStream input = null;
+
+        try {
+            input = new FileInputStream("C:\\l\\d.properties");
+            // fjlasdjfl a properties file
+            temprop.load(input);
+
+
+            for (Map.Entry<Object, Object> e : temprop.entrySet()) {
+                String key = ((String) e.getKey()).replace("%20", " ");
+                String v = (String) e.getValue();
+                prop.put(key, v);
+            }
+            System.out.println("Done Propertiesy loading");
+
+            input = new FileInputStream("C:\\l\\d.properties");
+            // fjlasdjfl a properties file
+            temprop = new Properties();
+            temprop.load(input);
+
+
+            for (Map.Entry<Object, Object> e : temprop.entrySet()) {
+                String key = ((String) e.getKey()).replace("%20", " ");
+                String v = (String) e.getValue();
+                prop.put(key, v);
+            }
+            System.out.println("Done Propertiesy loading");
+
+            input = new FileInputStream("C:\\l\\d.properties");
+            // fjlasdjfl a properties file
+            temprop = new Properties();
+            temprop.load(input);
+
+
+            for (Map.Entry<Object, Object> e : temprop.entrySet()) {
+                String key = ((String) e.getKey()).replace("%20", " ");
+                String v = (String) e.getValue();
+                prop.put(key, v);
+            }
+            System.out.println("Done Propertiesy loading");
+
+/*
+
+            Runnable r = () -> {
+
+                SolrDataDAO solrBaseDAO = null;
+                try {
+                    solrBaseDAO = new SolrDataDAO();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
+
+                int count = 1;
+                for (Map.Entry<Object, Object> e : prop.entrySet()) {
+                    System.out.println(count);
+                    String key = ((String) e.getKey()).replace("%20", " ");
+                    String v = (String) e.getValue();
+                    try {
+                        solrBaseDAO.addData(count, key, v);
+                    } catch (Exception e1) {
+                        e1.printStackTrace();
+                    }
+                    count++;
+                }
+                System.out.println("stop");
+
+            };
+
+
+            ExecutorService executor = Executors.newFixedThreadPool(1);
+
+            executor.submit(r);
+*/
+
+
+        } catch(IOException ex){
+            ex.printStackTrace();
+        } finally{
+            if (input != null) {
+                try {
+                    input.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+
+
+    }
+
+
+    public void c1come2melater(String c1, String c1Path) {
+        c1s();
+        OutputStream output = null;
+        OutputStream output_solr = null;
+        try {
+
+            output = new FileOutputStream("C:\\l\\d.properties");
+            c1Path = c1Path.replace(" ", "%20");
+            // set the properties value
+            prop.setProperty(c1Path, c1Path);
+
+            // save properties to project root folder
+            prop.store(output, null);
+
+
+            output_solr = new FileOutputStream("C:\\l\\d.properties.solr");
+
+            int count = 0;
+            for (Map.Entry<Object, Object> e : prop.entrySet()) {
+                String key = ((String) e.getKey()).replace("%20", " ");
+                String v = (String) e.getValue();
+                output_solr.write(String.valueOf(count).getBytes());
+                output_solr.write(',');
+                output_solr.write(key.getBytes());
+                output_solr.write(',');
+                output_solr.write(v.getBytes());
+                output_solr.write(System.getProperty("line.separator").getBytes());
+                count++;
+            }
+
+
+
+            SolrDataDAO solrBaseDAO = null;
+            try {
+                solrBaseDAO = new SolrDataDAO();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+//            count =1 + solrBaseDAO.addData(1, c1Path, c1Path);
+//            for (Map.Entry<Object, Object> e : p.entrySet()) {
+//                System.out.println(count);
+//                String key = ((String) e.getKey()).replace("%20", " ");
+//                String v = (String) e.getValue();
+            try {
+                solrBaseDAO.addData(count, c1Path,c1Path);
+            } catch (Exception e1) {
+                e1.printStackTrace();
+            }
+            count++;
+//            }
+            System.out.println("stop");
+
+//            c1s();
+        } catch (IOException io) {
+            io.printStackTrace();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            if (output != null) {
+                try {
+                    output.close();
+                    output_solr.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
 
     public void load() throws UnknownHostException {
         Scanner in = null;
@@ -1763,6 +1934,23 @@ if(tasks.size()>0) {
             }
         }
         if (null != tasks && tasks.size()>1)Collections.sort(tasks, new Task());
+        Runnable r = () -> {
+
+            for (person_question w:ebbinghauses){
+                c1come2melater(w.getText(), w.getText());
+
+            }
+
+
+        };
+
+
+        ExecutorService executor = Executors.newFixedThreadPool(1);
+
+        executor.submit(r);
+
+
+
     }
 
     public void LKJ(person_question K) {
