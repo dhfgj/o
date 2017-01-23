@@ -141,13 +141,13 @@ static Properties prop;
 
 
     public void c1come2melater(String c1, String c1Path) {
-
+c1s();
         OutputStream output = null;
         OutputStream output_solr = null;
         try {
 
             output = new FileOutputStream("C:\\l\\c.properties");
-            c1 = c1.replace(" ", "%20");
+            c1Path = c1Path.replace(" ", "%20");
             // set the properties value
             prop.setProperty(c1Path, c1Path);
 
