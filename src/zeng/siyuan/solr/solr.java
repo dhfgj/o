@@ -63,7 +63,8 @@ public class solr {
 
     public List<String> sendGet(String types, JTextArea textArea) throws Exception {
         String url1 = "http://localhost:8983/solr/jcg/select?q=name:a&wt=json";
-        String url22 = "http://localhost:8983/solr/jcg/select?q=name:%22"+types+"%22OR%20name_ngram:%22"+types+"%22&wt=json";
+//        String url22 = "http://localhost:8983/solr/jcg/select?q=name:%22"+types+"%22OR%20name_ngram:%22"+types+"%22&wt=json";
+        String url22 = "http://localhost:8983/solr/abc/select?q=name:%22"+types+"%22OR%20name_ngram:%22"+types+"%22&wt=json";
 
         String buttonSelected ="";
         for (Enumeration<AbstractButton> buttons = untoggle.bg.getElements(); buttons.hasMoreElements();) {
@@ -115,6 +116,9 @@ public class solr {
             } catch (ClientProtocolException e) {
                 e.printStackTrace();
             } catch (IOException e) {
+                e.printStackTrace();
+
+            } catch (Exception e) {
                 e.printStackTrace();
             }
         }
@@ -187,7 +191,7 @@ public int numItemsPerPage = 30;
 
     public void sendGet(String types, List<String> list) throws Exception {
         String url1 = "http://localhost:8983/solr/abc/select?q=name:a&wt=json";
-        String url22 = "http://localhost:8983/solr/abc/select?q=name:%22"+types+"%22OR%20name_ngram:%22"+types+"%22&wt=json";
+        String url22 = "http://localhost:8983/solr/jcg/select?q=name:%22"+types+"%22OR%20name_ngram:%22"+types+"%22&wt=json";
 
         String buttonSelected ="";
         for (Enumeration<AbstractButton> buttons = untoggle.bg.getElements(); buttons.hasMoreElements();) {
@@ -234,6 +238,9 @@ public int numItemsPerPage = 30;
             } catch (ClientProtocolException e) {
                 e.printStackTrace();
             } catch (IOException e) {
+                e.printStackTrace();
+
+            } catch (Exception e) {
                 e.printStackTrace();
             }
         }
@@ -344,6 +351,8 @@ public int numItemsPerPage = 30;
                 e.printStackTrace();
             } catch (IOException e) {
                 e.printStackTrace();
+            } catch (Exception e) {
+                e.printStackTrace();
             }
         }
     }
@@ -452,6 +461,9 @@ public int numItemsPerPage = 30;
             } catch (ClientProtocolException e) {
                 e.printStackTrace();
             } catch (IOException e) {
+                e.printStackTrace();
+
+            } catch (Exception e) {
                 e.printStackTrace();
             }
         }

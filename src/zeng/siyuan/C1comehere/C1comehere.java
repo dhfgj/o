@@ -31,6 +31,7 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.RunnableFuture;
 
 
 public class C1comehere implements Serializable {
@@ -314,46 +315,51 @@ public class C1comehere implements Serializable {
             }
             System.out.println("Done Propertiesy loading");
 
-/*
 
-            SolrDataDAO solrBaseDAO = null;
-            try {
-                solrBaseDAO = new SolrDataDAO();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
+            Runnable r = () -> {
 
-
-            int count =1;
-            for (Map.Entry<Object, Object> e : p.entrySet()) {
-                System.out.println(count);
-                String key = ((String) e.getKey()).replace("%20", " ");
-                String v = (String) e.getValue();
+                SolrDataDAO solrBaseDAO = null;
                 try {
-                    solrBaseDAO.addData(count, key,v);
-                } catch (Exception e1) {
-                    e1.printStackTrace();
-                }
-                count++;
-            }
-            System.out.println("stop");
-
-
-
-*/
-
-
-        } catch (IOException ex) {
-            ex.printStackTrace();
-        } finally {
-            if (input != null) {
-                try {
-                    input.close();
-                } catch (IOException e) {
+                    solrBaseDAO = new SolrDataDAO();
+                } catch (Exception e) {
                     e.printStackTrace();
                 }
+
+
+                int count = 1;
+                for (Map.Entry<Object, Object> e : prop.entrySet()) {
+                    System.out.println(count);
+                    String key = ((String) e.getKey()).replace("%20", " ");
+                    String v = (String) e.getValue();
+                    try {
+                        solrBaseDAO.addData(count, key, v);
+                    } catch (Exception e1) {
+                        e1.printStackTrace();
+                    }
+                    count++;
+                }
+                System.out.println("stop");
+
+            };
+
+
+            ExecutorService executor = Executors.newFixedThreadPool(1);
+
+            executor.submit(r);
+
+
+            } catch(IOException ex){
+                ex.printStackTrace();
+            } finally{
+                if (input != null) {
+                    try {
+                        input.close();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
             }
-        }
+
 
     }
 

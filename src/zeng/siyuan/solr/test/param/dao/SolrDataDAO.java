@@ -122,7 +122,7 @@ public class SolrDataDAO extends SolrBaseDAO {
 		server = d();
 		// Populate solr document
 		SolrInputDocument doc = new SolrInputDocument();
-		doc.addField("id", id);
+		doc.addField("id", name);
 		doc.addField("name", name);
 		doc.addField("path", path);
 		server.add(doc);
