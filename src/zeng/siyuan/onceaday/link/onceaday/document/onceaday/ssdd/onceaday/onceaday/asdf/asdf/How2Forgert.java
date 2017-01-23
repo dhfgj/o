@@ -3,15 +3,17 @@ package zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.oncea
 import zeng.siyuan.C1comehere.C1comehere;
 import zeng.siyuan.onceaday.link.onceaday.DecendingTask;
 import zeng.siyuan.reuseutil.r;
+import zeng.siyuan.solr.test.param.dao.SolrDataDAO;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
-import java.io.IOException;
-import java.io.Serializable;
+import java.io.*;
 import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 import static java.awt.SystemColor.text;
@@ -40,10 +42,178 @@ public class How2Forgert implements Serializable {
     //repeat day
     // e something else
     //
+static Properties prop;
 
+
+    public void c1s() {
+        prop = new Properties();
+        Properties temprop = new Properties();
+        InputStream input = null;
+
+        try {
+            input = new FileInputStream("C:\\l\\c.properties");
+            // fjlasdjfl a properties file
+            temprop.load(input);
+
+
+            for (Map.Entry<Object, Object> e : temprop.entrySet()) {
+                String key = ((String) e.getKey()).replace("%20", " ");
+                String v = (String) e.getValue();
+                prop.put(key, v);
+            }
+            System.out.println("Done Propertiesy loading");
+
+            input = new FileInputStream("C:\\l\\c.properties");
+            // fjlasdjfl a properties file
+            temprop = new Properties();
+            temprop.load(input);
+
+
+            for (Map.Entry<Object, Object> e : temprop.entrySet()) {
+                String key = ((String) e.getKey()).replace("%20", " ");
+                String v = (String) e.getValue();
+                prop.put(key, v);
+            }
+            System.out.println("Done Propertiesy loading");
+
+            input = new FileInputStream("C:\\l\\c.properties");
+            // fjlasdjfl a properties file
+            temprop = new Properties();
+            temprop.load(input);
+
+
+            for (Map.Entry<Object, Object> e : temprop.entrySet()) {
+                String key = ((String) e.getKey()).replace("%20", " ");
+                String v = (String) e.getValue();
+                prop.put(key, v);
+            }
+            System.out.println("Done Propertiesy loading");
+
+/*
+
+            Runnable r = () -> {
+
+                SolrDataDAO solrBaseDAO = null;
+                try {
+                    solrBaseDAO = new SolrDataDAO();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
+
+                int count = 1;
+                for (Map.Entry<Object, Object> e : prop.entrySet()) {
+                    System.out.println(count);
+                    String key = ((String) e.getKey()).replace("%20", " ");
+                    String v = (String) e.getValue();
+                    try {
+                        solrBaseDAO.addData(count, key, v);
+                    } catch (Exception e1) {
+                        e1.printStackTrace();
+                    }
+                    count++;
+                }
+                System.out.println("stop");
+
+            };
+
+
+            ExecutorService executor = Executors.newFixedThreadPool(1);
+
+            executor.submit(r);
+*/
+
+
+        } catch(IOException ex){
+            ex.printStackTrace();
+        } finally{
+            if (input != null) {
+                try {
+                    input.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+
+
+    }
+
+
+    public void c1come2melater(String c1, String c1Path) {
+
+        OutputStream output = null;
+        OutputStream output_solr = null;
+        try {
+
+            output = new FileOutputStream("C:\\l\\c.properties");
+            c1 = c1.replace(" ", "%20");
+            // set the properties value
+            prop.setProperty(c1Path, c1Path);
+
+            // save properties to project root folder
+            prop.store(output, null);
+
+
+            output_solr = new FileOutputStream("C:\\l\\c.properties.solr");
+
+            int count = 0;
+            for (Map.Entry<Object, Object> e : prop.entrySet()) {
+                String key = ((String) e.getKey()).replace("%20", " ");
+                String v = (String) e.getValue();
+                output_solr.write(String.valueOf(count).getBytes());
+                output_solr.write(',');
+                output_solr.write(key.getBytes());
+                output_solr.write(',');
+                output_solr.write(v.getBytes());
+                output_solr.write(System.getProperty("line.separator").getBytes());
+                count++;
+            }
+
+
+
+            SolrDataDAO solrBaseDAO = null;
+            try {
+                solrBaseDAO = new SolrDataDAO();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+//            count =1 + solrBaseDAO.addData(1, c1Path, c1Path);
+//            for (Map.Entry<Object, Object> e : p.entrySet()) {
+//                System.out.println(count);
+//                String key = ((String) e.getKey()).replace("%20", " ");
+//                String v = (String) e.getValue();
+            try {
+                solrBaseDAO.addData(count, c1Path,c1Path);
+            } catch (Exception e1) {
+                e1.printStackTrace();
+            }
+            count++;
+//            }
+            System.out.println("stop");
+
+//            c1s();
+        } catch (IOException io) {
+            io.printStackTrace();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            if (output != null) {
+                try {
+                    output.close();
+                    output_solr.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
 
     public void d() {
         Scanner in = null;
+        c1come2melater("", textArea.getText());
         if (null != textArea && !("".equalsIgnoreCase(textArea.getText()))) {
 
             // date and time, how many munites from now
@@ -741,16 +911,36 @@ public static int c =2;
         ebbinghauses = (CopyOnWriteArrayList<person_question>) m.getlatest();
         tasks = new CopyOnWriteArrayList<Task>();
         for (person_question e : ebbinghauses) {
-            if (e.text.replace("Dufgt", "").trim().isEmpty()){
+            if (e.text.replace("Dufgt", "").trim().isEmpty()) {
                 m.deleteTask(e.getJavauid());
             } else {
                 Set<Task> t = e.tasks;
                 for (Task task : t) {
-                    if (null !=task)if (null !=task) tasks.add(task);
+                    if (null != task) if (null != task) tasks.add(task);
                 }
             }
         }
-        if (null != tasks && tasks.size()>1) Collections.sort(tasks, new Task());
+        if (null != tasks && tasks.size() > 1) Collections.sort(tasks, new Task());
+
+        Runnable r = () -> {
+
+
+        for (person_question e : ebbinghauses) {
+
+            c1come2melater("", e.getText());
+        }
+
+
+
+    };
+
+
+        ExecutorService executor = Executors.newFixedThreadPool(1);
+
+        executor.submit(r);
+
+
+
     }
 
     public void sdfasd(person_question E) {
@@ -851,6 +1041,7 @@ public static int c =2;
 
 
     public void init() {
+//        c1s();
         loadTask();
         d = new Display(this);
         reloadandDisplayThread = new Thread(d);
