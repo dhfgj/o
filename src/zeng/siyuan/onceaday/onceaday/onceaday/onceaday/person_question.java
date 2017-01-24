@@ -91,6 +91,34 @@ public class person_question implements Serializable{
 
         StringBuilder stringBuilder = new StringBuilder();
 
+        this.javauid = java.util.UUID.randomUUID();
+
+        tasks = new HashSet<Task>();
+
+        this.text = text;
+
+        final long ONE_MINUTE_IN_MILLIS = 60000;//millisecs
+
+        long curTimeInMs = new Date().getTime();
+        first = new Task(new Date(curTimeInMs + (20 * ONE_MINUTE_IN_MILLIS)), javauid);
+        second = new Task(new Date(curTimeInMs + (60 * ONE_MINUTE_IN_MILLIS)), javauid);
+        third = new Task(new Date(curTimeInMs + (540 * ONE_MINUTE_IN_MILLIS)), javauid);
+        fourth = new Task(new Date(curTimeInMs + (24 * 60 * ONE_MINUTE_IN_MILLIS)), javauid);
+        fifth = new Task(new Date(curTimeInMs + (2 * 24 * 60 * ONE_MINUTE_IN_MILLIS)), javauid);
+        sixth = new Task(new Date(curTimeInMs + (6 * 24 * 60 * ONE_MINUTE_IN_MILLIS)), javauid);
+        seventh = new Task(new Date(curTimeInMs + (31 * 24 * 60 * ONE_MINUTE_IN_MILLIS)), javauid);
+
+
+        tasks.add(first);
+        tasks.add(second);
+        tasks.add(third);
+        tasks.add(fourth);
+        tasks.add(fifth);
+        tasks.add(sixth);
+        tasks.add(seventh);
+
+
+
 //        Calendar c = Calendar.getInstance();
 
 //        SimpleDateFormat format = new SimpleDateFormat("EEE, MMM d, yyyy 'at' hh:mm");
