@@ -1909,7 +1909,15 @@ if(tasks.size()>0) {
             k = MongoDbHelper.getInstance().findAll("mm").toArray();
         } catch (UnknownHostException e) {
             e.printStackTrace();
+
+
         }
+// i known something and it become me , like i know rest api
+        // what actionsa re avaialble
+        // everything is claling m
+        // my name i smichlea too
+        // michaeal to o because we are one it is just different perfspective and different dream but experienece everything and eayver one
+
 
 //        ebbinghauses = (CopyOnWriteArrayList<person_question>) m.getlatest();
         tasks = new CopyOnWriteArrayList<Task>();
