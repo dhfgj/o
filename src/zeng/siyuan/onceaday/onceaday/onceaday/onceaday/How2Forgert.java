@@ -1914,6 +1914,11 @@ if(tasks.size()>0) {
 //        ebbinghauses = (CopyOnWriteArrayList<person_question>) m.getlatest();
         tasks = new CopyOnWriteArrayList<Task>();
         for (DBObject e : k) {
+// to discuonnect meaning not know anyting becasue everything has been foffload to tot the intervnet
+            // to connect meansing everything
+            // everything is on line
+            // on line
+            // off line
 
             String jsonInString = k.get(0).toString();
             person_question stasdfhalksfdjlkasdjflkaff1 = null;

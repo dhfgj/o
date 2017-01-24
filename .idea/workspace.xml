@@ -13,6 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5a421b49-605d-4e6f-8d52-2915556c64cd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/How2Forgert.java" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/How2Forgert.java" />
     </list>
     <ignored path="c1comehere.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -129,10 +130,10 @@
       <file leaf-file-name="How2Forgert.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/How2Forgert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="1917" column="54" lean-forward="true" selection-start-line="1917" selection-start-column="54" selection-end-line="1917" selection-end-column="54" />
+            <state relative-caret-position="493">
+              <caret line="1921" column="12" lean-forward="false" selection-start-line="1921" selection-start-column="12" selection-end-line="1921" selection-end-column="12" />
               <folding>
-                <element signature="e#88908#88923#0" expanded="true" />
+                <element signature="e#89151#89166#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2149,14 +2150,7 @@
       <workItem from="1485123921232" duration="8745000" />
       <workItem from="1485196757842" duration="9499000" />
       <workItem from="1485280412443" duration="421000" />
-      <workItem from="1485280906480" duration="3060000" />
-    </task>
-    <task id="LOCAL-00025" summary="a">
-      <created>1480667841023</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1480667841023</updated>
+      <workItem from="1485280906480" duration="4044000" />
     </task>
     <task id="LOCAL-00026" summary="a">
       <created>1480719668796</created>
@@ -2494,7 +2488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485284161502</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="1">
+      <created>1485284454832</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1485284454832</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2530,7 +2531,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1135590000" />
+    <option name="totallyTimeSpent" value="1136574000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -3509,10 +3510,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/How2Forgert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="1917" column="54" lean-forward="true" selection-start-line="1917" selection-start-column="54" selection-end-line="1917" selection-end-column="54" />
+        <state relative-caret-position="493">
+          <caret line="1921" column="12" lean-forward="false" selection-start-line="1921" selection-start-column="12" selection-end-line="1921" selection-end-column="12" />
           <folding>
-            <element signature="e#88908#88923#0" expanded="true" />
+            <element signature="e#89151#89166#0" expanded="true" />
           </folding>
         </state>
       </provider>
