@@ -11,136 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a421b49-605d-4e6f-8d52-2915556c64cd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/DecendingTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/MongoDbHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/DecendingTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/DecendingTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/DecendingTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/asdf/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/asdf/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/asdf/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/asdf/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/asdf/c.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/asdf/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/asdf/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/asdf/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/asdf/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/c.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/c.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/l.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/DecendingTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/asdf/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/asdf/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/asdf/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/asdf/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/asdf/c.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/asdf/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/asdf/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/asdf/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/asdf/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/c.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/c.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/l.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/t.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/iamhere/what/doawarningtowritemyshortcuttoreviewthethingsijump.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java" afterPath="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/d.properties" afterPath="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/d.properties" />
     </list>
     <ignored path="c1comehere.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -182,7 +54,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="C1comehere.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="C1comehere.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -194,16 +66,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="How2Forgert.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/How2Forgert.java">
+      <file leaf-file-name="doawarningtowritemyshortcuttoreviewthethingsijump.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/iamhere/what/doawarningtowritemyshortcuttoreviewthethingsijump.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#708#714#0" expanded="false" />
-                <element signature="e#11693#11708#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -626,471 +494,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="c1comehere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="l" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="siyuan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="c1comehere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="l" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="siyuan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="c1comehere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="l" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="siyuan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="c1comehere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="l" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="siyuan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="c1comehere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="l" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="siyuan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="c1comehere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="l" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="siyuan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="c1comehere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="l" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="siyuan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="c1comehere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="l" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="siyuan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="c1comehere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="l" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="siyuan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="c1comehere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="l" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="siyuan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asdf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="c1comehere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="l" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="siyuan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onceaday" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asdf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asdf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="c1comehere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="l" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="siyuan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="howt2forgert" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="c1comehere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="l" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="siyuan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="howt2forgert" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="howt2forgert" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="c1comehere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="l" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="siyuan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="C1comehere" />
+              <option name="myItemId" value="what" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2456,14 +1860,7 @@
       <workItem from="1485123921232" duration="8745000" />
       <workItem from="1485196757842" duration="9499000" />
       <workItem from="1485280412443" duration="421000" />
-      <workItem from="1485280906480" duration="2168000" />
-    </task>
-    <task id="LOCAL-00020" summary="l">
-      <created>1480539648658</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1480539648658</updated>
+      <workItem from="1485280906480" duration="2210000" />
     </task>
     <task id="LOCAL-00021" summary="l">
       <created>1480539702340</created>
@@ -2801,7 +2198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485232442809</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="1">
+      <created>1485283553340</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1485283553340</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2837,7 +2241,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1134698000" />
+    <option name="totallyTimeSpent" value="1134740000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -3390,14 +2794,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/C1comehere/c.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/mappingmanager/mappingmanager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -3819,6 +3215,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/iamhere/what/doawarningtowritemyshortcuttoreviewthethingsijump.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
