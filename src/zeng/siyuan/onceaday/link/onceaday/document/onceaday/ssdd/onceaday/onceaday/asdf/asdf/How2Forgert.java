@@ -210,7 +210,7 @@ c1s();
             }
         }
     }
-
+public boolean f=true;
     public void d() {
         Scanner in = null;
         c1come2melater("", textArea.getText());
@@ -704,6 +704,9 @@ public static int c =2;
                             m.store(e);
                             if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
                                 try {
+                                    while (f) {
+                                        Thread.sleep(10000);
+                                    }
                                     r.open(e.text);
                                 } catch (Exception f) {
                                     f.printStackTrace();
@@ -712,6 +715,10 @@ public static int c =2;
                                 Runtime.getRuntime().exec("shutdown.exe -s -t 0");
                                 // what the fuck si the else mean?
                             } else if (null != e.text || !e.text.trim().isEmpty()) {
+                                while (f) {
+                                    Thread.sleep(10000);
+                                }
+
                                 r.open(e.text.trim());
                             } else {
                             }
@@ -811,6 +818,10 @@ public static int c =2;
                                         m.store(e);
                                         if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
                                             try {
+                                                while (f) {
+                                                    Thread.sleep(10000);
+                                                }
+
                                                 r.open(e.text);
                                             } catch (Exception f) {
                                                 f.printStackTrace();
@@ -819,6 +830,10 @@ public static int c =2;
                                             Runtime.getRuntime().exec("shutdown.exe -s -t 0");
                                             // what the fuck si the else mean?
                                         } else if (null != e.text || !e.text.trim().isEmpty()) {
+                                            while (f) {
+                                                Thread.sleep(10000);
+                                            }
+
                                             r.open(e.text.trim());
                                         } else {
                                         }

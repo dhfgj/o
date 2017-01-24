@@ -1071,7 +1071,7 @@ k.removeDocument("m", p);
             }
         }
     }
-boolean f =true;
+public boolean f =true;
     public void load() throws UnknownHostException {
         Scanner in = null;
 

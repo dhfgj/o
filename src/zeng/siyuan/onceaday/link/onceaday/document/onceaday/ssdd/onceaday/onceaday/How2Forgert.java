@@ -98,6 +98,14 @@ static int ou= 1;
                 }
 // the messy will always stand out and make it work likek charm
                 if (ou % 10 != 0 && ou<ebbinghauses.size()) {
+                    while (f) {
+                        try {
+                            Thread.sleep(10000);
+                        } catch (InterruptedException e1) {
+                            e1.printStackTrace();
+                        }
+                    }
+
                     r.open(ebbinghauses.get(ou).getText());
                 }
                 if (ou>=ebbinghauses.size()) {
@@ -161,6 +169,10 @@ static int ou= 1;
                                         count = 2;
                                     }
 count --;
+                                    while (f) {
+                                        Thread.sleep(10000);
+                                    }
+
                                     r.open(e.getText());
 // something you have to remove i t ebeuse ti ti use lessa nd anoying the only thing ti woaserofapousedr oid t can forwk it is to wanopy you  and make things complex and instead of intuitively and directly and voivously
 //                                    if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
@@ -189,6 +201,9 @@ count --;
                                         count = 2;
                                     }
                                     count --;
+                                    while (f) {
+                                        Thread.sleep(10000);
+                                    }
 
                                     r.open(e.getText());
 //                                            if(r.isUrl(e.getText())){
@@ -234,6 +249,9 @@ count --;
                                     count = 2;
                                 }
                                 count --;
+                                while (f) {
+                                    Thread.sleep(10000);
+                                }
 
                                 r.open(e.getText());
                                         break;
@@ -518,7 +536,7 @@ count --;
         }
         displayTask();
     }
-
+public boolean f=true;
     public void inster(String word, String answer) throws IOException {
         addWord(word, answer);
         isSearch = false;

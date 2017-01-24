@@ -44,7 +44,7 @@ public class How2Forgert implements Serializable {
 
 
      */
-
+public boolean f=true;
     public void fjlasdjfl() {
         Scanner in = null;
 
@@ -139,6 +139,10 @@ public static int c =0;
                                     m.store(e);
 //                                Desktop.getDesktop().open(new File(e.getQuestion()));
 //                                    if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
+                                    while (f) {
+                                        Thread.sleep(10000);
+                                    }
+
                                     r.open(e.getQuestion());
 //                                    reloadTAskandrestartPopThread();
 //duplicate
@@ -216,7 +220,9 @@ public static int c =0;
 //                                    Desktop.getDesktop().open(new File(e.getQuestion()));
 //                                }
 //                                if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
-
+while(f){
+    Thread.sleep(1000);
+}
                                 r.open(e.getQuestion());
 //                                reloadTAskandrestartPopThread();
 
