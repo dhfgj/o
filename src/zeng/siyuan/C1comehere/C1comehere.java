@@ -51,6 +51,7 @@ public class C1comehere implements Serializable {
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.onceaday.How2Forgert dhow2ForgDertlssf;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.onceaday.onceaday.How2Forgert aa;
     public zeng.siyuan.onceaday.onceaday.onceaday.How2Forgert dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG;
+    public zeng.siyuan.onceaday.onceaday.onceaday.onceaday.How2Forgert E;
     //    public C:\Development_Base\maxcox\maxcox-master\src\zeng\siyuan\onceaday\onceaday\onceaday\How2Forgert dhow2ForgDertlssf;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.How2Forgert a;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.How2Forgert j;
@@ -953,6 +954,16 @@ Runnable b =()-> {
     dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.textArea = textArea;
     dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.frame = frame;
     dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.init();
+
+    if (null == E) {
+        E = new zeng.siyuan.onceaday.onceaday.onceaday.How2Forgert(c1comehere, textArea, frame);
+    }
+
+
+    E.c1comehere = c1comehere;
+    E.textArea = textArea;
+    E.frame = frame;
+    E.init();
 /*
 
     if (null == dhow2ForgDertlssfs) {
@@ -1135,7 +1146,7 @@ b.run();
                         boolean SDsaercDhdliary = buttonSelected.equals("DsaeSrDLchdiary");
                         boolean SDisShowDColmmand = buttonSelected.equalsIgnoreCase("DshSoDL");// shw
                         Search DSsearclhD = null;
-
+//nothing make sense anymore this is so much fun
 
                         boolean SDldeleteCommandd_Xf = buttonSelected.equals("DLDdSeletef");
                         boolean b = buttonSelected.startsWith("DsLSDgf");
@@ -1191,6 +1202,16 @@ b.run();
                                 dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.f = dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.f==false?true:false;
                             else {
                                 dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.load();
+                                textArea.setText("");
+                            }
+                        }
+
+                        else if (SDislThoughtDRecorderCommand_xf) {
+                            System.out.println("Disloadl");
+                            if (textArea.getText().equalsIgnoreCase("k"))
+                                E.f = E.f==false?true:false;
+                            else {
+                                E.load();
                                 textArea.setText("");
                             }
                         }
