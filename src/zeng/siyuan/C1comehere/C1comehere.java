@@ -1505,6 +1505,8 @@ lost in the details
 
 
 
+
+
                         /* this can have one more layer of abstraction so that the function can work wfor any strings
                         one
                         group
@@ -1941,6 +1943,12 @@ s.updatetask();
                         //concurrency exmaple
                         //
 
+                        else if(SDdleleteCoDmmand2){
+                            if (textArea.getText().equalsIgnoreCase("k")) {
+
+                                aa.f = aa.f == false ? true : false;
+                            }
+                        }
 
 
                         else if (SDcodjDa_lxf) {
