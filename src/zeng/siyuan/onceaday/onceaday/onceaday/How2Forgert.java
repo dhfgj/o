@@ -1071,7 +1071,7 @@ k.removeDocument("m", p);
             }
         }
     }
-
+boolean f =true;
     public void load() throws UnknownHostException {
         Scanner in = null;
 
@@ -1715,6 +1715,11 @@ if(tasks.size()>0) {
 
 
                                         else if (r.isUrl(inntuitive) || inntuitive.contains("c:/")){
+
+                                            while (f){
+                                                Thread.sleep(10000);
+                                            }
+
                                             r.open(inntuitive);
                                         }
 

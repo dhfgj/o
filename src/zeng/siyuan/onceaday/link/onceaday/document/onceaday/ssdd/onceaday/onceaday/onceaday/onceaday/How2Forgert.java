@@ -29,6 +29,7 @@ public class How2Forgert implements Serializable {
     private CopyOnWriteArrayList<Task> searchtasks;
     private Task currentTaskSearch;
     private String keywords;
+    boolean k=true;
     public static transient Properties jk;
     /*
 
@@ -111,6 +112,10 @@ public static int c =0;
             } else {
                 for (Task t : tasks) {
                     if (t.getDate().after(new Date()) && !t.getIsDone()) {
+                        while (k) {
+                            Thread.sleep(5 * 60000);
+                        }
+
                         if (c == 0 ) {
                             Thread.sleep(5 * 60000);
                             c= 2;

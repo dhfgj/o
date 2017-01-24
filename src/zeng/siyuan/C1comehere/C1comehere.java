@@ -1187,9 +1187,24 @@ b.run();
 
                         else if (DisHlow2ForeDgertCommand) {
                             System.out.println("Disloadl");
-                            dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.load();
-                            textArea.setText("");
+                            if (textArea.getText().equalsIgnoreCase("k")){
+                                dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.k=false;
+                            } else {
+                                dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.load();
+                                textArea.setText("");
+                            }
                         }
+
+                        /*
+                        blur - not painint i t wlel
+dig too deep and not holding it
+adjective
+compoponent and mre specifices
+what is the name o fthe picture and all achieve to one
+it is a pciture and you paint it
+lost in the details
+                         */
+
 
                         else if (textArea.getText().equalsIgnoreCase("history")) {
                             String s = "";
