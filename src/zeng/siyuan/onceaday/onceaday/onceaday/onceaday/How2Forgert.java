@@ -1900,7 +1900,9 @@ if(tasks.size()>0) {
 //        ebbinghauses.add(pq);
 //        textArea.setText("");
 //    }
-
+// shortcut and question and how to find the answer taht will give theme the answer what is imporatnt
+//    find the queisotns
+    //
     public void loadTask() {
         List<DBObject> k = null ;
         try {

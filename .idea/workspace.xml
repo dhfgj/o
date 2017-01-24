@@ -13,7 +13,6 @@
     <list default="true" id="5a421b49-605d-4e6f-8d52-2915556c64cd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/How2Forgert.java" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/How2Forgert.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/person_question.java" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/person_question.java" />
     </list>
     <ignored path="c1comehere.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -130,10 +129,10 @@
       <file leaf-file-name="How2Forgert.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/How2Forgert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="1906" column="68" lean-forward="true" selection-start-line="1906" selection-start-column="68" selection-end-line="1906" selection-end-column="68" />
+            <state relative-caret-position="204">
+              <caret line="1904" column="7" lean-forward="true" selection-start-line="1904" selection-start-column="7" selection-end-line="1904" selection-end-column="7" />
               <folding>
-                <element signature="e#88775#88790#0" expanded="true" />
+                <element signature="e#88909#88924#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2150,14 +2149,7 @@
       <workItem from="1485123921232" duration="8745000" />
       <workItem from="1485196757842" duration="9499000" />
       <workItem from="1485280412443" duration="421000" />
-      <workItem from="1485280906480" duration="2721000" />
-    </task>
-    <task id="LOCAL-00023" summary="s">
-      <created>1480569656405</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1480569656405</updated>
+      <workItem from="1485280906480" duration="2771000" />
     </task>
     <task id="LOCAL-00024" summary="s">
       <created>1480665480186</created>
@@ -2495,7 +2487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485284053866</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="1">
+      <created>1485284111215</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1485284111215</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2531,7 +2530,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1135251000" />
+    <option name="totallyTimeSpent" value="1135301000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -3510,10 +3509,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/How2Forgert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="1906" column="68" lean-forward="true" selection-start-line="1906" selection-start-column="68" selection-end-line="1906" selection-end-column="68" />
+        <state relative-caret-position="204">
+          <caret line="1904" column="7" lean-forward="true" selection-start-line="1904" selection-start-column="7" selection-end-line="1904" selection-end-column="7" />
           <folding>
-            <element signature="e#88775#88790#0" expanded="true" />
+            <element signature="e#88909#88924#0" expanded="true" />
           </folding>
         </state>
       </provider>
