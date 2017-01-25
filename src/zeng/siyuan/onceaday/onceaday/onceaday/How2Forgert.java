@@ -1457,6 +1457,9 @@ tasks.remove(l);
                                                     Search search = c1comehere.searchEngines.get("sg ");
 //                                                    String searchTrs = line.substring(3);
                                                     search.setURI(e.getText());
+                                            while (f){
+                                                Thread.sleep(10000);
+                                            }
 
                                                     r.o(search.getURIString());
 //                                                } else {
@@ -1721,6 +1724,9 @@ if(tasks.size()>0) {
                                             Search search = c1comehere.searchEngines.get("sg ");
 //                                                    String searchTrs = line.substring(3);
                                             search.setURI(e.getText());
+                                            while (f){
+                                                Thread.sleep(10000);
+                                            }
 
                                             r.o(search.getURIString());
 //                                                } else {
