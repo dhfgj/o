@@ -8,51 +8,60 @@
 7,http://odetocode.com/blogs/scott/archive/2013/06/10/simple-unit-tests-with-angularjs.aspx,http://odetocode.com/blogs/scott/archive/2013/06/10/simple-unit-tests-with-angularjs.aspx
 8,alspoint.com/angularjs/angularjs_overview.htm,https://www.tutorialspoint.com/angularjs/angularjs_overview.htm
 9,https://docs.angularjs.org/guide/unit-testing,https://docs.angularjs.org/guide/unit-testing
-10,mean stack tutorial,mean%20stack%20tutorial
-11,http://jacopretorius.net/2013/07/angularjs-best-practices.html,http://jacopretorius.net/2013/07/angularjs-best-practices.html
-12,content personalization,content%20personalization
-13,utilities and architectureing,utilities%20and%20architectureing
-14,what metrics to gather,what%20metrics%20to%20gather
-15,DSL,DSL
-16,http://www.globalguideline.com/interview_questions/Questions.php?sc=SSL_Secured_Socket_Layer,http://www.globalguideline.com/interview_questions/Questions.php?sc=SSL_Secured_Socket_Layer
-17,Mean stack ,Mean%20stack%20
-18,travis-ci,travis-ci
-19,http://www.bogotobogo.com/Hadoop/ELK/ELK_ElasticSearch_Logstash.php,http://www.bogotobogo.com/Hadoop/ELK/ELK_ElasticSearch_Logstash.php
-20,http://andyshora.com/unit-testing-best-practices-angularjs.html,http://andyshora.com/unit-testing-best-practices-angularjs.html
-21,logstash codec,logstash%20codec
-22,ngularjs-best-practices-ive-been-doing-it-wrong-part-2-of-3/,
-23,what is express?,what%20is%20express?
-24,http://javarevisited.blogspot.com/2012/10/10-garbage-collection-interview-question-answer.html,http://javarevisited.blogspot.com/2012/10/10-garbage-collection-interview-question-answer.html
-25,stop ther therad,stop%20ther%20therad
-26,https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems,https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems
-27,what is ejs?,what%20is%20ejs?
-28,why is logs important,why%20is%20logs%20important
-29,http://www.w3schools.com/angular/,http://www.w3schools.com/angular/
-30,Filebeat,Filebeat
-31,break it down to granual elements,break%20it%20down%20to%20granual%20elements
-32,authentication,authentication
-33,https://www.quora.com/How-does-garbage-collection-work-in-the-JVM,https://www.quora.com/How-does-garbage-collection-work-in-the-JVM
-34,https://www.digitalocean.com/community/tutorials/how-to-use-logstash-and-kibana-to-centralize-and-visualize-logs-on-ubuntu-14-04,https://www.digitalocean.com/community/tutorials/how-to-use-logstash-and-kibana-to-centralize-and-visualize-logs-on-ubuntu-14-04
-35,http://java-questions.com/garbagecollection-interview-questions.html,http://java-questions.com/garbagecollection-interview-questions.html
-36,http://www.wikihow.com/Control-Your-Dreams,http://www.wikihow.com/Control-Your-Dreams
-37,http://mochajs.org/,http://mochajs.org/
-38,Zapier,Zapier
-39,https://www.elastic.co/guide/en/logstash/current/index.html,https://www.elastic.co/guide/en/logstash/current/index.html
-40,https://blog.angularjs.org/2014/02/an-angularjs-style-guide-and-best.html,https://blog.angularjs.org/2014/02/an-angularjs-style-guide-and-best.html
-41,http://stackoverflow.com/questions/19957280/angularjs-best-practices-for-module-declaration,http://stackoverflow.com/questions/19957280/angularjs-best-practices-for-module-declaration
-42,https://www.sitepoint.com/unit-and-e2e-testing-in-angularjs/,https://www.sitepoint.com/unit-and-e2e-testing-in-angularjs/
-43,how to rewrite a book,how%20to%20rewrite%20a%20book
-44,traffic analysis,traffic%20analysis
-45,Grunt,Grunt
-46,what is routes? ,what%20is%20routes?%20
-47,does-garbage-collection-work-in-the-JVM,https://www.quora.com/How-does-garbage-collection-work-in-the-JVM
-48,IFTTT,IFTTT
-49,https://www.airpair.com/js/javascript-framework-comparison,https://www.airpair.com/js/javascript-framework-comparison
-50,https://www.digitalocean.com/community/tutorials/how-to-use-kibana-dashboards-and-visualizations,https://www.digitalocean.com/community/tutorials/how-to-use-kibana-dashboards-and-visualizations
-51,lspoint.com/angularjs/angularjs_overview.htm,
-52,lumberjack,lumberjack
-53,http://career.guru99.com/top-25-angular-js-interview-questions/,http://career.guru99.com/top-25-angular-js-interview-questions/
-54,name time space,name%20time%20space
-55,http://joelabrahamsson.com/elasticsearch-101/,http://joelabrahamsson.com/elasticsearch-101/
-56,https://artandlogic.com/2013/05/angularjs-best-practices-ive-been-doing-it-wrong-part-2-of-3/,https://artandlogic.com/2013/05/angularjs-best-practices-ive-been-doing-it-wrong-part-2-of-3/
-57,https://www.tutorialspoint.com/angularjs/angularjs_overview.htm,https://www.tutorialspoint.com/angularjs/angularjs_overview.htm
+10,http://logz.io/blog/logstash-tutorial/,http://logz.io/blog/logstash-tutorial/
+11,mean stack tutorial,mean%20stack%20tutorial
+12,http://jacopretorius.net/2013/07/angularjs-best-practices.html,http://jacopretorius.net/2013/07/angularjs-best-practices.html
+13,content personalization,content%20personalization
+14,https://jptacek.com/2015/02/angularJS-Best-Practices/,https://jptacek.com/2015/02/angularJS-Best-Practices/
+15,what metrics to gather,what%20metrics%20to%20gather
+16,DSL,DSL
+17,as according to scientifically,as%20according%20to%20scientifically
+18,http://www.globalguideline.com/interview_questions/Questions.php?sc=SSL_Secured_Socket_Layer,http://www.globalguideline.com/interview_questions/Questions.php?sc=SSL_Secured_Socket_Layer
+19,Mean stack ,Mean%20stack%20
+20,travis-ci,travis-ci
+21,http://www.bogotobogo.com/Hadoop/ELK/ELK_ElasticSearch_Logstash.php,http://www.bogotobogo.com/Hadoop/ELK/ELK_ElasticSearch_Logstash.php
+22,http://andyshora.com/unit-testing-best-practices-angularjs.html,http://andyshora.com/unit-testing-best-practices-angularjs.html
+23,logstash codec,logstash%20codec
+24,ngularjs-best-practices-ive-been-doing-it-wrong-part-2-of-3/,
+25,what is express?,what%20is%20express?
+26,http://angulartestingquickstart.com/,http://angulartestingquickstart.com/
+27,http://javarevisited.blogspot.com/2012/10/10-garbage-collection-interview-question-answer.html,http://javarevisited.blogspot.com/2012/10/10-garbage-collection-interview-question-answer.html
+28,stop ther therad,stop%20ther%20therad
+29,https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems,https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems
+30,what is ejs?,what%20is%20ejs?
+31,why is logs important,why%20is%20logs%20important
+32,http://www.w3schools.com/angular/,http://www.w3schools.com/angular/
+33,break it down to granual elements,break%20it%20down%20to%20granual%20elements
+34,Filebeat,Filebeat
+35,authentication,authentication
+36,https://www.quora.com/How-does-garbage-collection-work-in-the-JVM,https://www.quora.com/How-does-garbage-collection-work-in-the-JVM
+37,https://skillcrush.com/2014/06/26/the-developer-mindset/,https://skillcrush.com/2014/06/26/the-developer-mindset/
+38,t-practices-ive-been-doing-it-wrong-part-2-of-3/,
+39,https://www.digitalocean.com/community/tutorials/how-to-use-logstash-and-kibana-to-centralize-and-visualize-logs-on-ubuntu-14-04,https://www.digitalocean.com/community/tutorials/how-to-use-logstash-and-kibana-to-centralize-and-visualize-logs-on-ubuntu-14-04
+40,http://java-questions.com/garbagecollection-interview-questions.html,http://java-questions.com/garbagecollection-interview-questions.html
+41,http://www.wikihow.com/Control-Your-Dreams,http://www.wikihow.com/Control-Your-Dreams
+42,http://mochajs.org/,http://mochajs.org/
+43,Zapier,Zapier
+44,https://www.elastic.co/guide/en/logstash/current/index.html,https://www.elastic.co/guide/en/logstash/current/index.html
+45,https://blog.angularjs.org/2014/02/an-angularjs-style-guide-and-best.html,https://blog.angularjs.org/2014/02/an-angularjs-style-guide-and-best.html
+46,http://stackoverflow.com/questions/19957280/angularjs-best-practices-for-module-declaration,http://stackoverflow.com/questions/19957280/angularjs-best-practices-for-module-declaration
+47,Nginx,Nginx
+48,https://artandlogic.com/2013/05/ive-been-doing-it-wrong-part-1-of-3/,https://artandlogic.com/2013/05/ive-been-doing-it-wrong-part-1-of-3/
+49,https://www.sitepoint.com/unit-and-e2e-testing-in-angularjs/,https://www.sitepoint.com/unit-and-e2e-testing-in-angularjs/
+50,scope in angular js,scope%20in%20angular%20js
+51,how to rewrite a book,how%20to%20rewrite%20a%20book
+52,traffic analysis,traffic%20analysis
+53,Grunt,Grunt
+54,what is routes? ,what%20is%20routes?%20
+55,does-garbage-collection-work-in-the-JVM,https://www.quora.com/How-does-garbage-collection-work-in-the-JVM
+56,IFTTT,IFTTT
+57,https://www.airpair.com/js/javascript-framework-comparison,https://www.airpair.com/js/javascript-framework-comparison
+58,https://www.digitalocean.com/community/tutorials/how-to-use-kibana-dashboards-and-visualizations,https://www.digitalocean.com/community/tutorials/how-to-use-kibana-dashboards-and-visualizations
+59,utilities and architectureing,utilities%20and%20architectureing
+60,lspoint.com/angularjs/angularjs_overview.htm,
+61,lumberjack,lumberjack
+62,http://career.guru99.com/top-25-angular-js-interview-questions/,http://career.guru99.com/top-25-angular-js-interview-questions/
+63,name time space,name%20time%20space
+64,http://joelabrahamsson.com/elasticsearch-101/,http://joelabrahamsson.com/elasticsearch-101/
+65,https://artandlogic.com/2013/05/angularjs-best-practices-ive-been-doing-it-wrong-part-2-of-3/,https://artandlogic.com/2013/05/angularjs-best-practices-ive-been-doing-it-wrong-part-2-of-3/
+66,https://www.tutorialspoint.com/angularjs/angularjs_overview.htm,https://www.tutorialspoint.com/angularjs/angularjs_overview.htm

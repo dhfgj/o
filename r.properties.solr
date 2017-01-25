@@ -1,0 +1,33 @@
+0,Run to cursor Alt+F9,Run%20to%20cursor%20Alt+F9
+1,Goto Type definition Ctrl+Shift+B,Goto%20Type%20definition%20Ctrl+Shift+B
+2,Tab Alt+Left/Right,Tab%20Alt+Left/Right
+3,Ctrl + Alt + H Call hierarchy ,Ctrl%20+%20Alt%20+%20H%20Call%20hierarchy%20
+4,Goto Implementation Ctrl+Alt+B,Goto%20Implementation%20Ctrl+Alt+B
+5,Go to symbol Ctrl+Shift+Alt+N,Go%20to%20symbol%20Ctrl+Shift+Alt+N
+6,Close last active/message/run/... tab 	Ctrl+Shift+F4,Close%20last%20active/message/run/...%20tab%20	Ctrl+Shift+F4
+7,Ctrl + Shift + H Method hierarchy ,Ctrl%20+%20Shift%20+%20H%20Method%20hierarchy%20
+8,previoius tool window F12,previoius%20tool%20window%20F12
+9,Expand/Collapse Ctrl++/-,Expand/Collapse%20Ctrl++/-
+10,Goto super method/class Ctrl+U,Goto%20super%20method/class%20Ctrl+U
+11,Cut the current line/ Copy the current lline,Cut%20the%20current%20line/%20Copy%20the%20current%20lline
+12,Alt + Up/Down Go to previous/next method,Alt%20+%20Up/Down%20Go%20to%20previous/next%20method
+13,Ctrl + H Type hierarchy ,Ctrl%20+%20H%20Type%20hierarchy%20
+14,Run Ctrl+F9,Run%20Ctrl+F9
+15,Surround with Ctrl+Shift+Insert,Surround%20with%20Ctrl+Shift+Insert
+16,Show usages Ctrl+Alt+F7,Show%20usages%20Ctrl+Alt+F7
+17,View breakpoint Ctrl+Shift+F8,View%20breakpoint%20Ctrl+Shift+F8
+18,Context Info Alt+Q/Alt+Ctrl+Q,Context%20Info%20Alt+Q/Alt+Ctrl+Q
+19,next edit location Ctrl+Shift+Alt+Backspace,next%20edit%20location%20Ctrl+Shift+Alt+Backspace
+20,Select tot he block Ctrl+Shift+[],Select%20tot%20he%20block%20Ctrl+Shift+[]
+21,Find usages/ Find usages in file Alt+F7 / Ctrl+F7,Find%20usages/%20Find%20usages%20in%20file%20Alt+F7%20/%20Ctrl+F7
+22,Smart line join/split Ctrl+Shift+J / Ctrl+Enter,Smart%20line%20join/split%20Ctrl+Shift+J%20/%20Ctrl+Enter
+23,Select views for current file Alt+F1,Select%20views%20for%20current%20file%20Alt+F1
+24,Hide active or last active window Shift+ESC,Hide%20active%20or%20last%20active%20window%20Shift+ESC
+25,Highlight usages in file Ctrl+Shift+F7,Highlight%20usages%20in%20file%20Ctrl+Shift+F7
+26,Expand/Collapse Ctrl+Shift++/-,Expand/Collapse%20Ctrl+Shift++/-
+27,Goto Quick definition Ctrl+Shif+I,Goto%20Quick%20definition%20Ctrl+Shif+I
+28,Ctrl + F12 File structure popup,Ctrl%20+%20F12%20File%20structure%20popup
+29,Toggle case Ctrl+Shift+U,Toggle%20case%20Ctrl+Shift+U
+30,last edit location Ctrl+Shift+Backspace/Ctrl+Alt+Backspace  ,last%20edit%20location%20Ctrl+Shift+Backspace/Ctrl+Alt+Backspace%20%20
+31,Debug Ctrl+Shift+F9,Debug%20Ctrl+Shift+F9
+32,Dd whole word Ctrl+Delete/Backspace ,Dd%20whole%20word%20Ctrl+Delete/Backspace%20
