@@ -1,65 +1,92 @@
-0,minification,minification
-1,plethora,plethora
-2,https://medium.com/google-developer-experts/angular-2-unit-testing-with-jasmine-defe20421584#.aqjoajarn,https://medium.com/google-developer-experts/angular-2-unit-testing-with-jasmine-defe20421584#.aqjoajarn
-3,lint,lint
-4,http://tutorialzine.com/2013/08/learn-angularjs-5-examples/,http://tutorialzine.com/2013/08/learn-angularjs-5-examples/
-5,content personalization,content%20personalization
-6,why log id so important,why%20log%20id%20so%20important
-7,https://www.elastic.co/guide/en/kibana/current/index.html,https://www.elastic.co/guide/en/kibana/current/index.html
-8,elk use cases,elk%20use%20cases
-9,what metrics to gather,what%20metrics%20to%20gather
-10,https://medium.com/@pereiragoncalo/logging-with-logstash-elasticsearch-kibana-and-redis-e855bc08975d#.fjn0og3sr,https://medium.com/@pereiragoncalo/logging-with-logstash-elasticsearch-kibana-and-redis-e855bc08975d#.fjn0og3sr
-11,DSL,DSL
-12,http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html,http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html
-13,$scope,$scope
-14,https://www.toptal.com/java/using-logstash-to-streamline-email-notifications,https://www.toptal.com/java/using-logstash-to-streamline-email-notifications
-15,https://www.elastic.co/guide/en/elasticsearch/guide/current/_using_code_examples.html,https://www.elastic.co/guide/en/elasticsearch/guide/current/_using_code_examples.html
-16,http://blog.trifork.com/2014/01/28/using-logstash-elasticsearch-and-kibana-to-monitor-your-video-card-a-tutorial/,http://blog.trifork.com/2014/01/28/using-logstash-elasticsearch-and-kibana-to-monitor-your-video-card-a-tutorial/
-17,http://best-lucid-dreaming-techniques.com/how-to-have-sex-in-dreams.html,http://best-lucid-dreaming-techniques.com/how-to-have-sex-in-dreams.html
-18,$rootScope,$rootScope
-19,http://www.elasticsearchtutorial.com/elasticsearch-in-5-minutes.html,http://www.elasticsearchtutorial.com/elasticsearch-in-5-minutes.html
-20,logstash codec,logstash%20codec
-21,angular restrict,angular%20restrict
-22,what is express?,what%20is%20express?
-23,http://angulartestingquickstart.com/,http://angulartestingquickstart.com/
-24,https://en.wikipedia.org/wiki/SOLID_(object-oriented_design),https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)
-25,american.com/article/how-to-control-dreams/,https://www.scientificamerican.com/article/how-to-control-dreams/
-26,why is logs important,why%20is%20logs%20important
-27,http://www.bogotobogo.com/Hadoop/ELK/ELK_ElasticSearch_Logstash_Kibana4.php,http://www.bogotobogo.com/Hadoop/ELK/ELK_ElasticSearch_Logstash_Kibana4.php
-28,https://java.libhunt.com/project/logstash/tutorials,https://java.libhunt.com/project/logstash/tutorials
-29,strip,strip
-30,https://skillcrush.com/2014/06/26/the-developer-mindset/,https://skillcrush.com/2014/06/26/the-developer-mindset/
-31,$compile(elem)(scope);,$compile(elem)(scope);
-32,angular el,angular%20el
-33,http://www.instanceofjava.com/2015/03/garbage-collections-interview-questions.html,http://www.instanceofjava.com/2015/03/garbage-collections-interview-questions.html
-34,angular done,angular%20done
-35,Zapier,Zapier
-36,frok isintax,frok%20isintax
-37,irc,irc
-38,sqs,sqs
-39,$controller,$controller
-40,https://artandlogic.com/2013/05/ive-been-doing-it-wrong-part-1-of-3/,https://artandlogic.com/2013/05/ive-been-doing-it-wrong-part-1-of-3/
-41,https://www.sitepoint.com/unit-and-e2e-testing-in-angularjs/,https://www.sitepoint.com/unit-and-e2e-testing-in-angularjs/
-42,what is scope ,what%20is%20scope%20
-43,traffic analysis,traffic%20analysis
-44,Grunt,Grunt
-45,https://www.elastic.co/guide/en/elasticsearch/reference/5.1/index.html,https://www.elastic.co/guide/en/elasticsearch/reference/5.1/index.html
-46,https://angularjs.org/,https://angularjs.org/
-47,IFTTT,IFTTT
-48,weird things syntax,weird%20things%20syntax
-49,https://answers.yahoo.com/question/index?qid=20100406192700AAw1WmO,https://answers.yahoo.com/question/index?qid=20100406192700AAw1WmO
-50,dollar sign,dollar%20sign
-51,e-defe20421584#.aqjoajarn,https://medium.com/google-developer-experts/angular-2-unit-testing-with-jasmine-defe20421584#.aqjoajarn
-52,http://solr-vs-elasticsearch.com/,http://solr-vs-elasticsearch.com/
-53,/www.elastic.co/guide/en/elasticsearch/reference/5.1/index.html,https://www.elastic.co/guide/en/elasticsearch/reference/5.1/index.html
-54,http://www.cybera.ca/news-and-events/tech-radar/introduction-to-logstash-getting-started/,http://www.cybera.ca/news-and-events/tech-radar/introduction-to-logstash-getting-started/
-55,http://linuxbsdos.com/2015/12/28/a-logstash-tutorial-how-to-get-started/,http://linuxbsdos.com/2015/12/28/a-logstash-tutorial-how-to-get-started/
-56,pagerduty,pagerduty
-57,https://scotch.io/tutorials/angularjs-best-practices-directory-structure,https://scotch.io/tutorials/angularjs-best-practices-directory-structure
-58,http://joelabrahamsson.com/elasticsearch-101/,http://joelabrahamsson.com/elasticsearch-101/
-59,ope);,$compile(elem)(scope);
-60,kstart.com/,
-61,https://artandlogic.com/2013/05/angularjs-best-practices-ive-been-doing-it-wrong-part-3-of-3/,https://artandlogic.com/2013/05/angularjs-best-practices-ive-been-doing-it-wrong-part-3-of-3/
-62,https://docs.angularjs.org/tutorial,https://docs.angularjs.org/tutorial
-63,http://qunitjs.com/,http://qunitjs.com/
-64,https://www.scientificamerican.com/article/how-to-control-dreams/,https://www.scientificamerican.com/article/how-to-control-dreams/
+0,https://en.wikipedia.org/wiki/SOLID_(object-oriented_design),https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)
+1,logstash codec,logstash%20codec
+2,https://www.toptal.com/java/using-logstash-to-streamline-email-notifications,https://www.toptal.com/java/using-logstash-to-streamline-email-notifications
+3,close the fucntion to mute everythign ,close%20the%20fucntion%20to%20mute%20everythign%20
+4,lint,lint
+5,dollar sign,dollar%20sign
+6,https://www.elastic.co/guide/en/kibana/current/index.html,https://www.elastic.co/guide/en/kibana/current/index.html
+7,https://skillcrush.com/2014/06/26/the-developer-mindset/,https://skillcrush.com/2014/06/26/the-developer-mindset/
+8,minification,minification
+9,pagerduty,pagerduty
+10,http://blog.trifork.com/2014/01/28/using-logstash-elasticsearch-and-kibana-to-monitor-your-video-card-a-tutorial/,http://blog.trifork.com/2014/01/28/using-logstash-elasticsearch-and-kibana-to-monitor-your-video-card-a-tutorial/
+11,what is scope ,what%20is%20scope%20
+12,https://angularjs.org/,https://angularjs.org/
+13,strip,strip
+14,http://qunitjs.com/,http://qunitjs.com/
+15,plethora,plethora
+16,https://java.libhunt.com/project/logstash/tutorials,https://java.libhunt.com/project/logstash/tutorials
+17,http://linuxbsdos.com/2015/12/28/a-logstash-tutorial-how-to-get-started/,http://linuxbsdos.com/2015/12/28/a-logstash-tutorial-how-to-get-started/
+18,how to rewrite a book,how%20to%20rewrite%20a%20book
+19,what is management is to make something apear when ever you want ,what%20is%20management%20is%20to%20make%20something%20apear%20when%20ever%20you%20want%20
+20,Nginx,Nginx
+21,http://joelabrahamsson.com/elasticsearch-101/,http://joelabrahamsson.com/elasticsearch-101/
+22,http://angulartestingquickstart.com/,http://angulartestingquickstart.com/
+23,oop/ELK/ELK_ElasticSearch_Logstash.php,
+24,https://jasmine.github.io/,https://jasmine.github.io/
+25,rootScope,rootScope
+26,$rootScope,$rootScope
+27,what metrics to gather,what%20metrics%20to%20gather
+28,why log id so important,why%20log%20id%20so%20important
+29,https://artandlogic.com/2013/05/angularjs-best-practices-ive-been-doing-it-wrong-part-3-of-3/,https://artandlogic.com/2013/05/angularjs-best-practices-ive-been-doing-it-wrong-part-3-of-3/
+30,break it down to granual elements,break%20it%20down%20to%20granual%20elements
+31,https://www.elastic.co/guide/index.html,https://www.elastic.co/guide/index.html
+32,stop ther therad,stop%20ther%20therad
+33,IFTTT,IFTTT
+34,https://medium.com/@pereiragoncalo/logging-with-logstash-elasticsearch-kibana-and-redis-e855bc08975d#.fjn0og3sr,https://medium.com/@pereiragoncalo/logging-with-logstash-elasticsearch-kibana-and-redis-e855bc08975d#.fjn0og3sr
+35,https://dzone.com/articles/23-useful-elasticsearch-example-queries,https://dzone.com/articles/23-useful-elasticsearch-example-queries
+36,why log id so important,why%20log%20id%20so%20important
+37,$scope,$scope
+38,Zapier,Zapier
+39,https://artandlogic.com/2013/05/ive-been-doing-it-wrong-part-1-of-3/,https://artandlogic.com/2013/05/ive-been-doing-it-wrong-part-1-of-3/
+40,http://best-lucid-dreaming-techniques.com/how-to-have-sex-in-dreams.html,http://best-lucid-dreaming-techniques.com/how-to-have-sex-in-dreams.html
+41,american.com/article/how-to-control-dreams/,https://www.scientificamerican.com/article/how-to-control-dreams/
+42,http://www.elasticsearchtutorial.com/elasticsearch-in-5-minutes.html,http://www.elasticsearchtutorial.com/elasticsearch-in-5-minutes.html
+43,http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html,http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html
+44,http://www.bogotobogo.com/Hadoop/ELK/ELK_ElasticSearch_Logstash_Kibana4.php,http://www.bogotobogo.com/Hadoop/ELK/ELK_ElasticSearch_Logstash_Kibana4.php
+45,https://jptacek.com/2015/02/angularJS-Best-Practices/,https://jptacek.com/2015/02/angularJS-Best-Practices/
+46,https://medium.com/google-developer-experts/angular-2-unit-testing-with-jasmine-defe20421584#.aqjoajarn,https://medium.com/google-developer-experts/angular-2-unit-testing-with-jasmine-defe20421584#.aqjoajarn
+47,sqs,sqs
+48,frok isintax,frok%20isintax
+49,Grunt,Grunt
+50,https://www.elastic.co/guide/en/elasticsearch/guide/current/_using_code_examples.html,https://www.elastic.co/guide/en/elasticsearch/guide/current/_using_code_examples.html
+51,https://answers.yahoo.com/question/index?qid=20100406192700AAw1WmO,https://answers.yahoo.com/question/index?qid=20100406192700AAw1WmO
+52,traffic analysis,traffic%20analysis
+53,utilities and architectureing,utilities%20and%20architectureing
+54,angular done,angular%20done
+55,/www.elastic.co/guide/en/elasticsearch/reference/5.1/index.html,https://www.elastic.co/guide/en/elasticsearch/reference/5.1/index.html
+56,$controller,$controller
+57,weird things syntax,weird%20things%20syntax
+58,testacular,testacular
+59,elk use cases,elk%20use%20cases
+60,https://www.sitepoint.com/unit-and-e2e-testing-in-angularjs/,https://www.sitepoint.com/unit-and-e2e-testing-in-angularjs/
+61,as according to scientifically,as%20according%20to%20scientifically
+62,content personalization,content%20personalization
+63,e-defe20421584#.aqjoajarn,https://medium.com/google-developer-experts/angular-2-unit-testing-with-jasmine-defe20421584#.aqjoajarn
+64,scope in angular js,scope%20in%20angular%20js
+65,$compile(elem)(scope);,$compile(elem)(scope);
+66,why is logs important,why%20is%20logs%20important
+67,what is ejs?,what%20is%20ejs?
+68,https://scotch.io/tutorials/angularjs-best-practices-directory-structure,https://scotch.io/tutorials/angularjs-best-practices-directory-structure
+69,lumberjack,lumberjack
+70,https://www.timroes.de/2015/02/07/kibana-4-tutorial-part-1-introduction/,https://www.timroes.de/2015/02/07/kibana-4-tutorial-part-1-introduction/
+71,syslogs,syslogs
+72,authentication,authentication
+73,irc,irc
+74,angular el,angular%20el
+75,https://www.elastic.co/guide/en/elasticsearch/reference/5.1/index.html,https://www.elastic.co/guide/en/elasticsearch/reference/5.1/index.html
+76,Filebeat,Filebeat
+77,what is express?,what%20is%20express?
+78,http://tutorialzine.com/2013/08/learn-angularjs-5-examples/,http://tutorialzine.com/2013/08/learn-angularjs-5-examples/
+79,travis-ci,travis-ci
+80,ope);,$compile(elem)(scope);
+81,Mean stack ,Mean%20stack%20
+82,http://www.instanceofjava.com/2015/03/garbage-collections-interview-questions.html,http://www.instanceofjava.com/2015/03/garbage-collections-interview-questions.html
+83,angular restrict,angular%20restrict
+84,https://www.scientificamerican.com/article/how-to-control-dreams/,https://www.scientificamerican.com/article/how-to-control-dreams/
+85,name time space,name%20time%20space
+86,http://www.cybera.ca/news-and-events/tech-radar/introduction-to-logstash-getting-started/,http://www.cybera.ca/news-and-events/tech-radar/introduction-to-logstash-getting-started/
+87,https://docs.angularjs.org/tutorial,https://docs.angularjs.org/tutorial
+88,http://solr-vs-elasticsearch.com/,http://solr-vs-elasticsearch.com/
+89,kstart.com/,
+90,http://www.bogotobogo.com/Hadoop/ELK/ELK_ElasticSearch_Logstash.php,http://www.bogotobogo.com/Hadoop/ELK/ELK_ElasticSearch_Logstash.php
+91,DSL,DSL

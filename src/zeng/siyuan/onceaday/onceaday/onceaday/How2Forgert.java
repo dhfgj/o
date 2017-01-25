@@ -783,6 +783,10 @@ k.removeDocument("m", p);
 
                                     if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
                                         try {
+                                            while (f){
+                                                Thread.sleep(10000);
+                                            }
+
                                             r.open(e.text);
                                         } catch (Exception f) {
                                             f.printStackTrace();
@@ -791,6 +795,9 @@ k.removeDocument("m", p);
                                         Runtime.getRuntime().exec("shutdown.exe -s -t 0");
                                         // what the fuck si the else mean?
                                     } else if (null != e.text || !e.text.trim().isEmpty()) {
+                                        while (f){
+                                            Thread.sleep(10000);
+                                        }
                                         r.open(e.text.trim());
                                     } else {
                                     }
@@ -869,7 +876,10 @@ k.removeDocument("m", p);
 k.removeDocument("m", p);
 
                                         if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
-                                            try {
+                                            try {                                            while (f){
+                                                Thread.sleep(10000);
+                                            }
+
                                                 r.open(e.text);
                                             } catch (Exception f) {
                                                 f.printStackTrace();
@@ -877,7 +887,10 @@ k.removeDocument("m", p);
                                         } else if ((e.text.contains("sd") && text.equals("sd")) || (e.text.contains("shutdown") && e.text.equals("shutdown"))) {
                                             Runtime.getRuntime().exec("shutdown.exe -s -t 0");
                                             // what the fuck si the else mean?
-                                        } else if (null != e.text || !e.text.trim().isEmpty()) {
+                                        } else if (null != e.text || !e.text.trim().isEmpty()) {                                            while (f){
+                                            Thread.sleep(10000);
+                                        }
+
                                             r.open(e.text.trim());
                                         } else {
                                         }
@@ -1453,8 +1466,11 @@ tasks.remove(l);
 //                                    }
 
 
-                                    else if (r.isUrl(inntuitive) || inntuitive.contains("c:/")){
-                                        r.open(inntuitive);
+                                    else if (r.isUrl(inntuitive) || inntuitive.contains("c:/")){                                            while (f){
+                                            Thread.sleep(10000);
+                                        }
+
+                                            r.open(inntuitive);
                                     }
 
                                     else {
