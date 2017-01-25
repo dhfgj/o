@@ -1102,7 +1102,23 @@ b.run();
                         boolean DisShowCommand = buttonSelected.equals("Dsho");// shw
                         Search Dsearch = null;
 
+/*
+*
+* what are the mkportant pitns that i have to pay attention to and save them as i go where is the editring point
+i can make a plugin to fiviste teh place again and again
+where i visite most oten the point where i visite most ofen mos tbe the place i need to go again
+but hi have to store the mpoint sometimes i just forsate to getohw e ave that and thus lost the points
+what do i want to build to become the best programminer in the worlds to learn fast to be the best progarmmers in the world to pass all the exampes and to build awesome products that can assist my thinking and studinying and to know more to be able to achieve more to help me thinking to to help me think to have somre more tcihtings that can make me happy and easy to make life easier in study work and life to make study work and life easeir to make everything like pay bills and electronics bill in life one click away to bridge the case to bmek the world lbalance and effecor ant earnigns to make everybody rich and happpy to make it easeri and connect and share and become one like human being to communicate wot thdifefernt part of bodies to connect and become one to become one
+to boeme one
 
+
+
+
+queisotns i wan tot keep thinking and again and agan until i wan tto stop it and erview ei t
+but i don't have to time to review the same thing again and again
+*
+*
+* */
                         boolean DldeleteCommand_X = buttonSelected.equals("LDdelete");
                         boolean DdleleteCommand2 = buttonSelected.equals("DdeldLiary");
                         boolean DislThoughtRecorderCommand_x = buttonSelected.equalsIgnoreCase("Drec");
