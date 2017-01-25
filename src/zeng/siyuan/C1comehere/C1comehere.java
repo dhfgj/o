@@ -84,10 +84,6 @@ Properties w;
             }
             System.out.println("Done Propertiesy loading");
 
-            input = new FileInputStream("C:\\l\\w.properties");
-            // fjlasdjfl a properties file
-            temprop = new Properties();
-            temprop.load(input);
 
 
             for (Map.Entry<Object, Object> e : temprop.entrySet()) {

@@ -782,7 +782,12 @@ k.removeDocument("mm", p);
 
                                     if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
                                         try {
-                                            r.open(e.text);
+
+//                                            r.open(inntuitive);
+                                            JOptionPane.showMessageDialog(frame, e.getText());
+                                            frame.repaint();
+                                            frame.toFront();
+
                                         } catch (Exception f) {
                                             f.printStackTrace();
                                         }
@@ -790,7 +795,11 @@ k.removeDocument("mm", p);
                                         Runtime.getRuntime().exec("shutdown.exe -s -t 0");
                                         // what the fuck si the else mean?
                                     } else if (null != e.text || !e.text.trim().isEmpty()) {
-                                        r.open(e.text.trim());
+
+//                                            r.open(inntuitive);
+                                        JOptionPane.showMessageDialog(frame, e.getText());
+                                        frame.repaint();
+                                        frame.toFront();
                                     } else {
                                     }
                                     inntuitive += e.text;
@@ -869,7 +878,11 @@ k.removeDocument("mm", p);
 
                                         if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
                                             try {
-                                                r.open(e.text);
+
+//                                            r.open(inntuitive);
+                                                JOptionPane.showMessageDialog(frame, e.getText());
+                                                frame.repaint();
+                                                frame.toFront();
                                             } catch (Exception f) {
                                                 f.printStackTrace();
                                             }
@@ -877,7 +890,12 @@ k.removeDocument("mm", p);
                                             Runtime.getRuntime().exec("shutdown.exe -s -t 0");
                                             // what the fuck si the else mean?
                                         } else if (null != e.text || !e.text.trim().isEmpty()) {
-                                            r.open(e.text.trim());
+
+//                                            r.open(inntuitive);
+                                            JOptionPane.showMessageDialog(frame, e.getText());
+                                            frame.repaint();
+                                            frame.toFront();
+
                                         } else {
                                         }
                                         inntuitive += e.text;
@@ -1442,9 +1460,11 @@ tasks.remove(l);
 //                                                if (line.length() > 4) {
                                                     Search search = c1comehere.searchEngines.get("sg ");
 //                                                    String searchTrs = line.substring(3);
-                                                    search.setURI(e.getText());
+                                            JOptionPane.showMessageDialog(frame, e.getText());
+                                            frame.repaint();
+                                            frame.toFront();
 
-                                                    r.o(search.getURIString());
+//                                                    r.o(search.getURIString());
 //                                                } else {
 //                                                }
 //                                            }
@@ -1453,11 +1473,14 @@ tasks.remove(l);
 
 
                                     else if (r.isUrl(inntuitive) || inntuitive.contains("c:/")){
-                                        r.open(inntuitive);
+                                            JOptionPane.showMessageDialog(frame, e.getText());
+                                            frame.repaint();
+                                            frame.toFront();
+
                                     }
 
                                     else {
-                                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(e.getText());;
+                                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } JOptionPane.showMessageDialog(frame, e.getText());;
                                         frame.repaint();
                                         frame.toFront();
 
@@ -1719,13 +1742,20 @@ if(tasks.size()>0) {
                                                 Thread.sleep(10000);
                                             }
 
-                                            r.open(inntuitive);
+//                                            r.open(inntuitive);
+                                            JOptionPane.showMessageDialog(frame, e.getText());
+                                            frame.repaint();
+                                            frame.toFront();
+
                                         }
 
                                         else {
-                                            if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(e.getText());;
+                                            if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); }
+//                                            r.open(inntuitive);
+                                            JOptionPane.showMessageDialog(frame, e.getText());
                                             frame.repaint();
                                             frame.toFront();
+
 
                                         }
 
