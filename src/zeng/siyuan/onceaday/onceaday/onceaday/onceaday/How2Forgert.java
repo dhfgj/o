@@ -929,7 +929,7 @@ k.removeDocument("mm", p);
         InputStream input = null;
 
         try {
-            input = new FileInputStream("C:\\l\\d.properties");
+            input = new FileInputStream("C:\\l\\r.properties");
             // fjlasdjfl a properties file
             temprop.load(input);
 
@@ -941,7 +941,7 @@ k.removeDocument("mm", p);
             }
             System.out.println("Done Propertiesy loading");
 
-            input = new FileInputStream("C:\\l\\d.properties");
+            input = new FileInputStream("C:\\l\\r.properties");
             // fjlasdjfl a properties file
             temprop = new Properties();
             temprop.load(input);
@@ -954,7 +954,7 @@ k.removeDocument("mm", p);
             }
             System.out.println("Done Propertiesy loading");
 
-            input = new FileInputStream("C:\\l\\d.properties");
+            input = new FileInputStream("C:\\l\\r.properties");
             // fjlasdjfl a properties file
             temprop = new Properties();
             temprop.load(input);
@@ -1024,7 +1024,7 @@ k.removeDocument("mm", p);
         OutputStream output_solr = null;
         try {
 
-            output = new FileOutputStream("C:\\l\\d.properties");
+            output = new FileOutputStream("C:\\l\\r.properties");
             c1Path = c1Path.replace(" ", "%20");
             // set the properties value
             prop.setProperty(c1Path, c1Path);
@@ -1033,7 +1033,7 @@ k.removeDocument("mm", p);
             prop.store(output, null);
 
 
-            output_solr = new FileOutputStream("C:\\l\\d.properties.solr");
+            output_solr = new FileOutputStream("C:\\l\\r.properties.solr");
 
             int count = 0;
             for (Map.Entry<Object, Object> e : prop.entrySet()) {
@@ -1088,6 +1088,10 @@ k.removeDocument("mm", p);
             }
         }
     }
+    
+    
+    
+    
 public boolean f =true;
     public void load() throws UnknownHostException {
         Scanner in = null;

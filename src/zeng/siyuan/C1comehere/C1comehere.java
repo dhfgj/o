@@ -952,7 +952,7 @@ Runnable b =()-> {
     dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.init();
 
     if (null == E) {
-        E = new zeng.siyuan.onceaday.onceaday.onceaday.How2Forgert(c1comehere, textArea, frame);
+        E = new zeng.siyuan.onceaday.onceaday.onceaday.onceaday.How2Forgert(c1comehere, textArea, frame);
     }
 
 
@@ -1202,7 +1202,7 @@ b.run();
                             }
                         }
 
-                        else if (SDislThoughtDRecorderCommand_xf) {
+                        else if (SDldeleteCommandd_Xf) {
                             System.out.println("Disloadl");
                             if (textArea.getText().equalsIgnoreCase("k"))
                                 E.f = E.f==false?true:false;
