@@ -782,6 +782,9 @@ k.removeDocument("mm", p);
 
                                     if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
                                         try {
+                                            while (f){
+                                                Thread.sleep(10000);
+                                            }
 
 //                                            r.open(inntuitive);
                                             JOptionPane.showMessageDialog(frame, e.getText());
@@ -795,6 +798,9 @@ k.removeDocument("mm", p);
                                         Runtime.getRuntime().exec("shutdown.exe -s -t 0");
                                         // what the fuck si the else mean?
                                     } else if (null != e.text || !e.text.trim().isEmpty()) {
+                                        while (f){
+                                            Thread.sleep(10000);
+                                        }
 
 //                                            r.open(inntuitive);
                                         JOptionPane.showMessageDialog(frame, e.getText());
@@ -878,6 +884,9 @@ k.removeDocument("mm", p);
 
                                         if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
                                             try {
+                                                while (f){
+                                                    Thread.sleep(10000);
+                                                }
 
 //                                            r.open(inntuitive);
                                                 JOptionPane.showMessageDialog(frame, e.getText());
@@ -890,6 +899,9 @@ k.removeDocument("mm", p);
                                             Runtime.getRuntime().exec("shutdown.exe -s -t 0");
                                             // what the fuck si the else mean?
                                         } else if (null != e.text || !e.text.trim().isEmpty()) {
+                                            while (f){
+                                                Thread.sleep(10000);
+                                            }
 
 //                                            r.open(inntuitive);
                                             JOptionPane.showMessageDialog(frame, e.getText());
@@ -1464,6 +1476,10 @@ tasks.remove(l);
 //                                                if (line.length() > 4) {
                                                     Search search = c1comehere.searchEngines.get("sg ");
 //                                                    String searchTrs = line.substring(3);
+                                            while (f){
+                                                Thread.sleep(10000);
+                                            }
+
                                             JOptionPane.showMessageDialog(frame, e.getText());
                                             frame.repaint();
                                             frame.toFront();
@@ -1477,6 +1493,10 @@ tasks.remove(l);
 
 
                                     else if (r.isUrl(inntuitive) || inntuitive.contains("c:/")){
+                                            while (f){
+                                                Thread.sleep(10000);
+                                            }
+
                                             JOptionPane.showMessageDialog(frame, e.getText());
                                             frame.repaint();
                                             frame.toFront();
@@ -1484,7 +1504,10 @@ tasks.remove(l);
                                     }
 
                                     else {
-                                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } JOptionPane.showMessageDialog(frame, e.getText());;
+                                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); }                                             while (f){
+                                                Thread.sleep(10000);
+                                            }
+                                            JOptionPane.showMessageDialog(frame, e.getText());;
                                         frame.repaint();
                                         frame.toFront();
 
@@ -1731,8 +1754,15 @@ if(tasks.size()>0) {
                                             Search search = c1comehere.searchEngines.get("sg ");
 //                                                    String searchTrs = line.substring(3);
                                             search.setURI(e.getText());
+                                            while (f){
+                                                Thread.sleep(10000);
+                                            }
 
-                                            r.o(search.getURIString());
+                                            JOptionPane.showMessageDialog(frame, e.getText());
+                                            frame.repaint();
+                                            frame.toFront();
+
+//                                            r.o(search.getURIString());
 //                                                } else {
 //                                                }
 //                                            }
@@ -1756,6 +1786,10 @@ if(tasks.size()>0) {
                                         else {
                                             if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); }
 //                                            r.open(inntuitive);
+                                            while (f){
+                                                Thread.sleep(10000);
+                                            }
+
                                             JOptionPane.showMessageDialog(frame, e.getText());
                                             frame.repaint();
                                             frame.toFront();
