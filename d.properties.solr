@@ -1,152 +1,84 @@
 0,what is the problem it tsolved,what%20is%20the%20problem%20it%20tsolved
-1,https://www.quora.com/How-does-garbage-collection-work-in-the-JVM,https://www.quora.com/How-does-garbage-collection-work-in-the-JVM
-2, stack? ,why%20mean%20stack?%20
-3,https://en.wikipedia.org/wiki/SOLID_(object-oriented_design),https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)
-4,https://www.toptal.com/java/using-logstash-to-streamline-email-notifications,https://www.toptal.com/java/using-logstash-to-streamline-email-notifications
-5,https://docs.docker.com/
-http://kafka.apache.org/documentation.html,https://docs.docker.com/
-http://kafka.apache.org/documentation.html
-6, mean stack? ,why%20mean%20stack?%20
-7,close the fucntion to mute everythign ,close%20the%20fucntion%20to%20mute%20everythign%20
-8,dollar sign,dollar%20sign
-9,https://www.elastic.co/guide/en/kibana/current/index.html,https://www.elastic.co/guide/en/kibana/current/index.html
-10,http://www.javatpoint.com/java-thread-pool
-http://lavasoft.blog.51cto.com/62575/217547/
-http://people.apache.org/~dirkv/pool/examples.html
-http://www.slideshare.net/psteitz/apachecon2014-pooldbcp
-http://www.programcreek.com/java-api-examples/index.php?api=com.fasterxml.jackson.annotation.JacksonInject,http://www.javatpoint.com/java-thread-pool
-http://lavasoft.blog.51cto.com/62575/217547/
-http://people.apache.org/~dirkv/pool/examples.html
-http://www.slideshare.net/psteitz/apachecon2014-pooldbcp
-http://www.programcreek.com/java-api-examples/index.php?api=com.fasterxml.jackson.annotation.JacksonInject
-11,https://skillcrush.com/2014/06/26/the-developer-mindset/,https://skillcrush.com/2014/06/26/the-developer-mindset/
-12,minification,minification
-13,pagerduty,pagerduty
-14,what are the port doing in angular js?,what%20are%20the%20port%20doing%20in%20angular%20js?
-15,http://blog.trifork.com/2014/01/28/using-logstash-elasticsearch-and-kibana-to-monitor-your-video-card-a-tutorial/,http://blog.trifork.com/2014/01/28/using-logstash-elasticsearch-and-kibana-to-monitor-your-video-card-a-tutorial/
-16,what is scope ,what%20is%20scope%20
-17,bootstrap annotations,bootstrap%20annotations
-18,http://stackoverflow.com/questions/19957280/angularjs-best-practices-for-module-declaration,http://stackoverflow.com/questions/19957280/angularjs-best-practices-for-module-declaration
-19,https://angularjs.org/,https://angularjs.org/
-20,https://www.quora.com/How-do-Angular-js-and-Backbone-js-compare,https://www.quora.com/How-do-Angular-js-and-Backbone-js-compare
-21,what can it do?,what%20can%20it%20do?
-22,strip,strip
-23,ca Burrow - Kafka Consumer Lag Checking=https://github.com/linkedin/Burrow,ca%20Burrow%20-%20Kafka%20Consumer%20Lag%20Checking=https://github.com/linkedin/Burrow
-24,http://www.javatpoint.com/java-thread-pool,http://www.javatpoint.com/java-thread-pool
-25,http://qunitjs.com/,http://qunitjs.com/
-26,https://java.libhunt.com/project/logstash/tutorials,https://java.libhunt.com/project/logstash/tutorials
-27,http://linuxbsdos.com/2015/12/28/a-logstash-tutorial-how-to-get-started/,http://linuxbsdos.com/2015/12/28/a-logstash-tutorial-how-to-get-started/
-28,how to rewrite a book,how%20to%20rewrite%20a%20book
-29,what is management is to make something apear when ever you want ,what%20is%20management%20is%20to%20make%20something%20apear%20when%20ever%20you%20want%20
-30,https://docs.angularjs.org/guide/unit-testing,https://docs.angularjs.org/guide/unit-testing
-31,Nginx,Nginx
-32,http://joelabrahamsson.com/elasticsearch-101/,http://joelabrahamsson.com/elasticsearch-101/
-33,http://angulartestingquickstart.com/,http://angulartestingquickstart.com/
-34,http://kafka.apache.org/documentation.html,http://kafka.apache.org/documentation.html
-35,replica,replica
-36,https://docs.angularjs.org/api/ngRoute/service/$route,https://docs.angularjs.org/api/ngRoute/service/$route
-37,https://jasmine.github.io/,https://jasmine.github.io/
-38,rootScope,rootScope
-39,$rootScope,$rootScope
-40,why log id so important,why%20log%20id%20so%20important
-41,http://nverma-tech-blog.blogspot.com/2015/12/apache-kafka-example-of.html,http://nverma-tech-blog.blogspot.com/2015/12/apache-kafka-example-of.html
-42,https://artandlogic.com/2013/05/angularjs-best-practices-ive-been-doing-it-wrong-part-3-of-3/,https://artandlogic.com/2013/05/angularjs-best-practices-ive-been-doing-it-wrong-part-3-of-3/
-43,comparisons between different technologies stacks,comparisons%20between%20different%20technologies%20stacks
-44,https://www.elastic.co/guide/index.html,https://www.elastic.co/guide/index.html
-45,stop ther therad,stop%20ther%20therad
-46,https://medium.com/@pereiragoncalo/logging-with-logstash-elasticsearch-kibana-and-redis-e855bc08975d#.fjn0og3sr,https://medium.com/@pereiragoncalo/logging-with-logstash-elasticsearch-kibana-and-redis-e855bc08975d#.fjn0og3sr
-47,https://dzone.com/articles/23-useful-elasticsearch-example-queries,https://dzone.com/articles/23-useful-elasticsearch-example-queries
-48,$scope,$scope
-49,http://andyshora.com/unit-testing-best-practices-angularjs.html,http://andyshora.com/unit-testing-best-practices-angularjs.html
-50,https://artandlogic.com/2013/05/ive-been-doing-it-wrong-part-1-of-3/,https://artandlogic.com/2013/05/ive-been-doing-it-wrong-part-1-of-3/
-51,rest api authentication multiple node,rest%20api%20authentication%20multiple%20node
-52,http://best-lucid-dreaming-techniques.com/how-to-have-sex-in-dreams.html,http://best-lucid-dreaming-techniques.com/how-to-have-sex-in-dreams.html
-53,p,
-54,mean stack tutorial,mean%20stack%20tutorial
-55,http://www.elasticsearchtutorial.com/elasticsearch-in-5-minutes.html,http://www.elasticsearchtutorial.com/elasticsearch-in-5-minutes.html
-56,http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html,http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html
-57,http://www.bogotobogo.com/Hadoop/ELK/ELK_ElasticSearch_Logstash_Kibana4.php,http://www.bogotobogo.com/Hadoop/ELK/ELK_ElasticSearch_Logstash_Kibana4.php
-58,http://www.globalguideline.com/interview_questions/Questions.php?sc=SSL_Secured_Socket_Layer,http://www.globalguideline.com/interview_questions/Questions.php?sc=SSL_Secured_Socket_Layer
-59,https://jptacek.com/2015/02/angularJS-Best-Practices/,https://jptacek.com/2015/02/angularJS-Best-Practices/
-60,logstash user case,logstash%20user%20case
-61,https://medium.com/google-developer-experts/angular-2-unit-testing-with-jasmine-defe20421584#.aqjoajarn,https://medium.com/google-developer-experts/angular-2-unit-testing-with-jasmine-defe20421584#.aqjoajarn
-62,sqs,sqs
-63,frok isintax,frok%20isintax
-64,http://jacopretorius.net/2013/07/angularjs-best-practices.html,http://jacopretorius.net/2013/07/angularjs-best-practices.html
-65,https://www.elastic.co/guide/en/elasticsearch/guide/current/_using_code_examples.html,https://www.elastic.co/guide/en/elasticsearch/guide/current/_using_code_examples.html
-66,https://answers.yahoo.com/question/index?qid=20100406192700AAw1WmO,https://answers.yahoo.com/question/index?qid=20100406192700AAw1WmO
-67,traffic analysis,traffic%20analysis
-68,offline pages,offline%20pages
-69,utilities and architectureing,utilities%20and%20architectureing
-70,what is routes? ,what%20is%20routes?%20
-71,mean stack vs j2ee,mean%20stack%20vs%20j2ee
-72,angular done,angular%20done
-73,$controller,$controller
-74,http://odetocode.com/blogs/scott/archive/2013/06/10/simple-unit-tests-with-angularjs.aspx,http://odetocode.com/blogs/scott/archive/2013/06/10/simple-unit-tests-with-angularjs.aspx
-75,weird things syntax,weird%20things%20syntax
-76,http://career.guru99.com/top-25-angular-js-interview-questions/,http://career.guru99.com/top-25-angular-js-interview-questions/
-77,what are the existing ubuilding components i can do ? ,what%20are%20the%20existing%20ubuilding%20components%20i%20can%20do%20?%20
-78,i don't want to conetinue becuase i hit the block and i don't kno who to proceed anymore and i have already read something and i don't want to co ntinuere there is ant a threa dand that is way,i%20don't%20want%20to%20conetinue%20becuase%20i%20hit%20the%20block%20and%20i%20don't%20kno%20who%20to%20proceed%20anymore%20and%20i%20have%20already%20read%20something%20and%20i%20don't%20want%20t
-79,http://www.w3schools.com/angular/,http://www.w3schools.com/angular/
-80,ng and i don't want to co ntinuere there is ant a threa dand that is way,
-81,https://www.sitepoint.com/unit-and-e2e-testing-in-angularjs/,https://www.sitepoint.com/unit-and-e2e-testing-in-angularjs/
-82,build ing components,build%20ing%20components
-83,as according to scientifically,as%20according%20to%20scientifically
-84,http://www.programcreek.com/java-api-examples/index.php?api=com.fasterxml.jackson.annotation.JacksonInject,http://www.programcreek.com/java-api-examples/index.php?api=com.fasterxml.jackson.annotation.JacksonInject
-85,https://www.tutorialspoint.com/angularjs/angularjs_overview.htm,https://www.tutorialspoint.com/angularjs/angularjs_overview.htm
-86,https://artandlogic.com/2013/05/angularjs-best-practices-ive-been-doing-it-wrong-part-2-of-3/,https://artandlogic.com/2013/05/angularjs-best-practices-ive-been-doing-it-wrong-part-2-of-3/
-87,http://java-questions.com/garbagecollection-interview-questions.html,http://java-questions.com/garbagecollection-interview-questions.html
-88,https://www.elastic.co/guide/en/logstash/current/index.html,https://www.elastic.co/guide/en/logstash/current/index.html
-89,scope in angular js,scope%20in%20angular%20js
-90,$compile(elem)(scope);,$compile(elem)(scope);
-91,https://www.airpair.com/js/javascript-framework-comparison,https://www.airpair.com/js/javascript-framework-comparison
-92,why is logs important,why%20is%20logs%20important
-93,what is ejs?,what%20is%20ejs?
-94,https://scotch.io/tutorials/angularjs-best-practices-directory-structure,https://scotch.io/tutorials/angularjs-best-practices-directory-structure
-95,http://lavasoft.blog.51cto.com/62575/217547/,http://lavasoft.blog.51cto.com/62575/217547/
-96,https://docs.docker.com/,https://docs.docker.com/
-97,lumberjack,lumberjack
-98,https://www.timroes.de/2015/02/07/kibana-4-tutorial-part-1-introduction/,https://www.timroes.de/2015/02/07/kibana-4-tutorial-part-1-introduction/
-99,syslogs,syslogs
-100,what are all the compmonents ? ,what%20are%20all%20the%20compmonents%20?%20
-101,authentication,authentication
-102,h_Logstash.php,
-103,text file to schedule events,text%20file%20to%20schedule%20events
-104,irc,irc
-105,angular el,angular%20el
-106,intellij actions,intellij%20actions
-107,http://people.apache.org/~dirkv/pool/examples.html,http://people.apache.org/~dirkv/pool/examples.html
-108,http://www.slideshare.net/psteitz/apachecon2014-pooldbcp,http://www.slideshare.net/psteitz/apachecon2014-pooldbcp
-109,what is the proboem,what%20is%20the%20proboem
-110,http://mochajs.org/,http://mochajs.org/
-111,https://www.digitalocean.com/community/tutorials/how-to-use-logstash-and-kibana-to-centralize-and-visualize-logs-on-ubuntu-14-04,https://www.digitalocean.com/community/tutorials/how-to-use-logstash-and-kibana-to-centralize-and-visualize-logs-on-ubuntu-14-04
-112,https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems,https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems
-113,ticSearch_Logstash.php,
-114,http://www.wikihow.com/Control-Your-Dreams,http://www.wikihow.com/Control-Your-Dreams
-115,https://www.elastic.co/guide/en/elasticsearch/reference/5.1/index.html,https://www.elastic.co/guide/en/elasticsearch/reference/5.1/index.html
-116,Filebeat,Filebeat
-117,ca download and install go=https://golang.org/doc/install,ca%20download%20and%20install%20go=https://golang.org/doc/install
-118,/2013/05/angularjs-best-practices-ive-been-doing-it-wrong-part-2-of-3/,
-119,https://blog.angularjs.org/2014/02/an-angularjs-style-guide-and-best.html,https://blog.angularjs.org/2014/02/an-angularjs-style-guide-and-best.html
-120,what is express?,what%20is%20express?
-121,http://tutorialzine.com/2013/08/learn-angularjs-5-examples/,http://tutorialzine.com/2013/08/learn-angularjs-5-examples/
-122,curl tutorial,curl%20tutorial
-123,http://javarevisited.blogspot.com/2012/10/10-garbage-collection-interview-question-answer.html,http://javarevisited.blogspot.com/2012/10/10-garbage-collection-interview-question-answer.html
-124,use this when you wan tto sovleve what problem ,use%20this%20when%20you%20wan%20tto%20sovleve%20what%20problem%20
-125,travis-ci,travis-ci
-126,mean stack basic ideads,mean%20stack%20basic%20ideads
-127,Mean stack ,Mean%20stack%20
-128,http://www.instanceofjava.com/2015/03/garbage-collections-interview-questions.html,http://www.instanceofjava.com/2015/03/garbage-collections-interview-questions.html
-129,angular restrict,angular%20restrict
-130,https://www.scientificamerican.com/article/how-to-control-dreams/,https://www.scientificamerican.com/article/how-to-control-dreams/
-131,name time space,name%20time%20space
-132,http://www.cybera.ca/news-and-events/tech-radar/introduction-to-logstash-getting-started/,http://www.cybera.ca/news-and-events/tech-radar/introduction-to-logstash-getting-started/
-133,https://docs.angularjs.org/tutorial,https://docs.angularjs.org/tutorial
-134,http://logz.io/blog/logstash-tutorial/,http://logz.io/blog/logstash-tutorial/
-135,https://www.digitalocean.com/community/tutorials/how-to-use-kibana-dashboards-and-visualizations,https://www.digitalocean.com/community/tutorials/how-to-use-kibana-dashboards-and-visualizations
-136,http://solr-vs-elasticsearch.com/,http://solr-vs-elasticsearch.com/
-137,backbone js ,backbone%20js%20
-138,shard,shard
-139,http://www.bogotobogo.com/Hadoop/ELK/ELK_ElasticSearch_Logstash.php,http://www.bogotobogo.com/Hadoop/ELK/ELK_ElasticSearch_Logstash.php
-140,LK_ElasticSearch_Logstash.php,
-141,why mean stack? ,why%20mean%20stack?%20
+1,https://www.toptal.com/java/using-logstash-to-streamline-email-notifications,https://www.toptal.com/java/using-logstash-to-streamline-email-notifications
+2,dollar sign,dollar%20sign
+3,minification,minification
+4,pagerduty,pagerduty
+5,what are the port doing in angular js?,what%20are%20the%20port%20doing%20in%20angular%20js?
+6,http://blog.trifork.com/2014/01/28/using-logstash-elasticsearch-and-kibana-to-monitor-your-video-card-a-tutorial/,http://blog.trifork.com/2014/01/28/using-logstash-elasticsearch-and-kibana-to-monitor-your-video-card-a-tutorial/
+7,what is scope ,what%20is%20scope%20
+8,bootstrap annotations,bootstrap%20annotations
+9,https://angularjs.org/,https://angularjs.org/
+10,what can it do?,what%20can%20it%20do?
+11,strip,strip
+12,ca Burrow - Kafka Consumer Lag Checking=https://github.com/linkedin/Burrow,ca%20Burrow%20-%20Kafka%20Consumer%20Lag%20Checking=https://github.com/linkedin/Burrow
+13,http://www.javatpoint.com/java-thread-pool,http://www.javatpoint.com/java-thread-pool
+14,https://java.libhunt.com/project/logstash/tutorials,https://java.libhunt.com/project/logstash/tutorials
+15,what is management is to make something apear when ever you want ,what%20is%20management%20is%20to%20make%20something%20apear%20when%20ever%20you%20want%20
+16,Nginx,Nginx
+17,http://joelabrahamsson.com/elasticsearch-101/,http://joelabrahamsson.com/elasticsearch-101/
+18,http://kafka.apache.org/documentation.html,http://kafka.apache.org/documentation.html
+19,replica,replica
+20,https://jasmine.github.io/,https://jasmine.github.io/
+21,rootScope,rootScope
+22,why log id so important,why%20log%20id%20so%20important
+23,http://nverma-tech-blog.blogspot.com/2015/12/apache-kafka-example-of.html,http://nverma-tech-blog.blogspot.com/2015/12/apache-kafka-example-of.html
+24,https://artandlogic.com/2013/05/angularjs-best-practices-ive-been-doing-it-wrong-part-3-of-3/,https://artandlogic.com/2013/05/angularjs-best-practices-ive-been-doing-it-wrong-part-3-of-3/
+25,comparisons between different technologies stacks,comparisons%20between%20different%20technologies%20stacks
+26,https://www.elastic.co/guide/index.html,https://www.elastic.co/guide/index.html
+27,https://medium.com/@pereiragoncalo/logging-with-logstash-elasticsearch-kibana-and-redis-e855bc08975d#.fjn0og3sr,https://medium.com/@pereiragoncalo/logging-with-logstash-elasticsearch-kibana-and-redis-e855bc08975d#.fjn0og3sr
+28,https://dzone.com/articles/23-useful-elasticsearch-example-queries,https://dzone.com/articles/23-useful-elasticsearch-example-queries
+29,$scope,$scope
+30,https://artandlogic.com/2013/05/ive-been-doing-it-wrong-part-1-of-3/,https://artandlogic.com/2013/05/ive-been-doing-it-wrong-part-1-of-3/
+31,rest api authentication multiple node,rest%20api%20authentication%20multiple%20node
+32,http://www.elasticsearchtutorial.com/elasticsearch-in-5-minutes.html,http://www.elasticsearchtutorial.com/elasticsearch-in-5-minutes.html
+33,http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html,http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html
+34,http://www.bogotobogo.com/Hadoop/ELK/ELK_ElasticSearch_Logstash_Kibana4.php,http://www.bogotobogo.com/Hadoop/ELK/ELK_ElasticSearch_Logstash_Kibana4.php
+35,https://jptacek.com/2015/02/angularJS-Best-Practices/,https://jptacek.com/2015/02/angularJS-Best-Practices/
+36,logstash user case,logstash%20user%20case
+37,sqs,sqs
+38,frok isintax,frok%20isintax
+39,https://answers.yahoo.com/question/index?qid=20100406192700AAw1WmO,https://answers.yahoo.com/question/index?qid=20100406192700AAw1WmO
+40,traffic analysis,traffic%20analysis
+41,offline pages,offline%20pages
+42,utilities and architectureing,utilities%20and%20architectureing
+43,mean stack vs j2ee,mean%20stack%20vs%20j2ee
+44,angular done,angular%20done
+45,$controller,$controller
+46,weird things syntax,weird%20things%20syntax
+47,what are the existing ubuilding components i can do ? ,what%20are%20the%20existing%20ubuilding%20components%20i%20can%20do%20?%20
+48,https://www.sitepoint.com/unit-and-e2e-testing-in-angularjs/,https://www.sitepoint.com/unit-and-e2e-testing-in-angularjs/
+49,build ing components,build%20ing%20components
+50,as according to scientifically,as%20according%20to%20scientifically
+51,http://www.programcreek.com/java-api-examples/index.php?api=com.fasterxml.jackson.annotation.JacksonInject,http://www.programcreek.com/java-api-examples/index.php?api=com.fasterxml.jackson.annotation.JacksonInject
+52,text file to schedule events,text%20file%20to%20schedule%20events
+53,scope in angular js,scope%20in%20angular%20js
+54,$compile(elem)(scope);,$compile(elem)(scope);
+55,why is logs important,why%20is%20logs%20important
+56,http://lavasoft.blog.51cto.com/62575/217547/,http://lavasoft.blog.51cto.com/62575/217547/
+57,lumberjack,lumberjack
+58,https://www.timroes.de/2015/02/07/kibana-4-tutorial-part-1-introduction/,https://www.timroes.de/2015/02/07/kibana-4-tutorial-part-1-introduction/
+59,syslogs,syslogs
+60,what are all the compmonents ? ,what%20are%20all%20the%20compmonents%20?%20
+61,authentication,authentication
+62,irc,irc
+63,angular el,angular%20el
+64,intellij actions,intellij%20actions
+65,http://people.apache.org/~dirkv/pool/examples.html,http://people.apache.org/~dirkv/pool/examples.html
+66,http://www.slideshare.net/psteitz/apachecon2014-pooldbcp,http://www.slideshare.net/psteitz/apachecon2014-pooldbcp
+67,what is the proboem,what%20is%20the%20proboem
+68,Filebeat,Filebeat
+69,what is express?,what%20is%20express?
+70,http://tutorialzine.com/2013/08/learn-angularjs-5-examples/,http://tutorialzine.com/2013/08/learn-angularjs-5-examples/
+71,curl tutorial,curl%20tutorial
+72,use this when you wan tto sovleve what problem ,use%20this%20when%20you%20wan%20tto%20sovleve%20what%20problem%20
+73,travis-ci,travis-ci
+74,mean stack basic ideads,mean%20stack%20basic%20ideads
+75,http://www.instanceofjava.com/2015/03/garbage-collections-interview-questions.html,http://www.instanceofjava.com/2015/03/garbage-collections-interview-questions.html
+76,angular restrict,angular%20restrict
+77,https://www.scientificamerican.com/article/how-to-control-dreams/,https://www.scientificamerican.com/article/how-to-control-dreams/
+78,name time space,name%20time%20space
+79,http://www.cybera.ca/news-and-events/tech-radar/introduction-to-logstash-getting-started/,http://www.cybera.ca/news-and-events/tech-radar/introduction-to-logstash-getting-started/
+80,backbone js ,backbone%20js%20
+81,shard,shard
+82,http://www.bogotobogo.com/Hadoop/ELK/ELK_ElasticSearch_Logstash.php,http://www.bogotobogo.com/Hadoop/ELK/ELK_ElasticSearch_Logstash.php
+83,why mean stack? ,why%20mean%20stack?%20

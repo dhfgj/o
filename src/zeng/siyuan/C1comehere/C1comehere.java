@@ -1227,7 +1227,7 @@ but i don't have to time to review the same thing again and again
                             System.out.println("Disloadl");
                             if (textArea.getText().equalsIgnoreCase("k")) {
                                 E.f = E.f == false ? true : false;
-                                textArea.setText("");
+//                                textArea.setText("");
                             }
                             else {
 
