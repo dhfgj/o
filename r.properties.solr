@@ -60,6 +60,5 @@
 59,Alt + Shift + I Inspect current file with current profile ,Alt%20+%20Shift%20+%20I%20Inspect%20current%20file%20with%20current%20profile%20
 60,Ctrl + Alt + S Open Settings dialog ,Ctrl%20+%20Alt%20+%20S%20Open%20Settings%20dialog%20
 61,Toggle case Ctrl+Shift+U,Toggle%20case%20Ctrl+Shift+U
-62,,Alt%20+%20#[0-9]%20Open%20corresponding%20tool%20window%20
-63,itli Iterate elements of java.util.List ,itli%20Iterate%20elements%20of%20java.util.List%20
-64,Alt + #[0-9] Open corresponding tool window ,Alt%20+%20#[0-9]%20Open%20corresponding%20tool%20window%20
+62,itli Iterate elements of java.util.List ,itli%20Iterate%20elements%20of%20java.util.List%20
+63,Alt + #[0-9] Open corresponding tool window ,Alt%20+%20#[0-9]%20Open%20corresponding%20tool%20window%20

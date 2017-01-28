@@ -226,7 +226,7 @@ Properties w;
             }
         }
     }
-
+//My name is I here now
 
     public static void main(String ar[]) throws Exception {
         try
@@ -241,7 +241,10 @@ Properties w;
             {
                 System.out.println(line);
             }
-//            p=Runtime.getRuntime().exec("cmd /c C:\\apache-cassandra-2.1.14/bin cassandra");
+
+//            p=Runtime.getRuntime().exec("cmd /c C:\\apache-cassandra-2.1.14\\bin\\cassandra");
+//            p.waitFor();
+//            p=Runtime.getRuntime().exec("cmd /c mongod");
 //            p.waitFor();
 //            reader=new BufferedReader(
 //                    new InputStreamReader(p.getInputStream())
@@ -251,7 +254,7 @@ Properties w;
 //            {
 //                System.out.println(line);
 //            }
-
+//ertyup
         }
         catch(IOException e1) {}
         catch(InterruptedException e2) {}
@@ -1216,12 +1219,15 @@ but i don't have to time to review the same thing again and again
                                 textArea.setText("");
                             }
                         }
-
+// he do not talk , he has too much trouble
                         else if (SDldeleteCommandd_Xf) {
                             System.out.println("Disloadl");
-                            if (textArea.getText().equalsIgnoreCase("k"))
-                                E.f = E.f==false?true:false;
+                            if (textArea.getText().equalsIgnoreCase("k")) {
+                                E.f = E.f == false ? true : false;
+                                textArea.setText("");
+                            }
                             else {
+
                                 E.load();
                                 textArea.setText("");
                             }
@@ -1978,7 +1984,7 @@ s.updatetask();
                         else if(SDdleleteCoDmmand2){
                             if (textArea.getText().equalsIgnoreCase("k")) {
 
-                                aa.f = aa.f == false ? true : false;
+                                aa.f = !aa.f ? true : false;
                             }
                         }
 
