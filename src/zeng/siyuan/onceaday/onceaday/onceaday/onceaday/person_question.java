@@ -169,8 +169,8 @@ public class person_question implements Serializable{
         this.type = TYPE;
         this.text = text;
 
-        first = new Task(date1, javauid);
-        tasks.add(first);
+//        first = new Task(date1, javauid);
+//        tasks.add(first);
 
     }
 

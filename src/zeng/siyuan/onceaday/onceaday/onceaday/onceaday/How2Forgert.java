@@ -774,11 +774,11 @@ public class How2Forgert implements Serializable {
 
 //                                    k.insertDocument("mm", p);
 
-//                                    BasicDBObject searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
+                                    BasicDBObject searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
 //
 //
-//                                    k.updateDocument("mm", searchQuery, p);
-k.removeDocument("mm", p);
+                                    k.updateDocument("mm", searchQuery, p);
+//k.removeDocument("mm", p);
 
                                     if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
                                         try {
@@ -879,8 +879,8 @@ k.removeDocument("mm", p);
                                         BasicDBObject searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
 
 
-//                                        k.updateDocument("mm", searchQuery, p);
-k.removeDocument("mm", p);
+                                        k.updateDocument("mm", searchQuery, p);
+//k.removeDocument("mm", p);
 
                                         if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
                                             try {
@@ -1446,10 +1446,10 @@ public boolean f =true;
                                 BasicDBObject searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
 
 
-//                                k.updateDocument("mm", searchQuery, p);
+                                k.updateDocument("mm", searchQuery, p);
 
 //                                k.insertDocument("mm", p);
-k.removeDocument("mm", p);
+//k.removeDocument("mm", p);
 ebbinghauses.remove(d);
 tasks.remove(l);
                                 ///*
@@ -1721,8 +1721,8 @@ tasks.remove(l);
                                     BasicDBObject searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
 
 
-//                                    k.updateDocument("mm", searchQuery, p);
-k.removeDocument("mm", p);
+                                    k.updateDocument("mm", searchQuery, p);
+//k.removeDocument("mm", p);
 
 if (ebbinghauses.size()>0) {
     ebbinghauses.remove(d);

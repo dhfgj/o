@@ -37,46 +37,39 @@
 32,mode,http://www.speech.cs.cmu.edu/tools/lmtool-new.html
 33,旅行 许巍.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\旅行 许巍.mp4
 34,sc GeMC / SC Automation framework,https://confluence.walmart.com/pages/viewpage.action?pageId=74462451&focusedCommentId=76530854#comment-76530854
-35,ca 2 machine setup laptop docker documentation,https://docs.docker.com/
-ca 2 machine setup laptop kafka documenation=http://kafka.apache.org/documentation.html
-ca 2 machine setup laptop linux how to set path variable=http://www.wikihow.com/Change-the-Path-Variable-in-Linux
-ca 2 machine setup laptop linux add github to path=https://www.howtoforge.com/tutorial/install-git-and-github-on-ubuntu-14.04/
-ca 2 machine setup laptop linux the command could not be located because sbin is not included in the path environment=http://askubuntu.com/questions/433092/the-command-could-not-be-located-because-sbin-is-not-included-in-the-path-env
-ca 2 machine setup laptop linux sudo unable to resolve host name=http://askubuntu.com/questions/59458/error-message-when-i-run-sudo-unable-to-resolve-host-none
-ca 2 machine setup laptop Shopify sarama=https://github.com/Shopify/sarama/
-ca 2 machine setup laptop pierrec xxHash=https://github.com/pierrec/xxHash
-36,stickynote,c:/windows/system32/stikynot.exe
-37,3.帕海贝尔.-.钢琴二重奏版卡农.mp3,C:\Users\SiyuanZeng's\Music\Canon\3.帕海贝尔.-.钢琴二重奏版卡农.mp3
-38,windows10,http://www.digitalcare.org/wp-content/uploads/2016/01/Windows-10-Shortcut-infographic.pdf
-39,Zookeeper Documentation,http://zookeeper.apache.org/doc/trunk/zookeeperOver.html
-40,idea shortcuts online,https://resources.jetbrains.com/assets/products/intellij-idea/IntelliJIDEA_ReferenceCard.pdf
-41,Work fld,C:\Users\SiyuanZeng's\Documents\OneNote Notebooks\Risk\Work
-42,sc1 bug 11     CDSCENT-2107
+35,stickynote,c:/windows/system32/stikynot.exe
+36,3.帕海贝尔.-.钢琴二重奏版卡农.mp3,C:\Users\SiyuanZeng's\Music\Canon\3.帕海贝尔.-.钢琴二重奏版卡农.mp3
+37,windows10,http://www.digitalcare.org/wp-content/uploads/2016/01/Windows-10-Shortcut-infographic.pdf
+38,Zookeeper Documentation,http://zookeeper.apache.org/doc/trunk/zookeeperOver.html
+39,idea shortcuts online,https://resources.jetbrains.com/assets/products/intellij-idea/IntelliJIDEA_ReferenceCard.pdf
+40,Work fld,C:\Users\SiyuanZeng's\Documents\OneNote Notebooks\Risk\Work
+41,sc1 bug 11     CDSCENT-2107
 
 [Bug] Inconsistent MSRP numeric format,https://jira.walmart.com/browse/CDSCENT-2107
-43,sc1 bug2     CDSCENT-2097 [Bug] Country of Origin - Assembly / Manufacture has different style from Country of Origin - Components / Ingredients,https://jira.walmart.com/browse/CDSCENT-2097
-44,Rush hour 2 doof,http://www.bing.com/videos/search?q=rush+hour+2&qft=+filterui%3aduration-long&view=detail&mid=E978F299242A2D9643E2E978F299242A2D9643E2&FORM=VRDGAR
-45,Stressed out,http://listenonrepeat.com/?v=pXRviuL6vMY#twenty_one_pilots%3A_Stressed_Out_%5BOFFICIAL_VIDEO%5D
-46,best song ever,ac
-47,scala tutorial,https://www.quora.com/What-would-be-best-site-book-tutorial-for-a-Scala-beginner
-48,eclipse,c:/developer/ide/eclipse-jee-luna-sr1-win32-x86_64/eclipse/eclipse.exe
-49,word,c:/program files (x86)/microsoft office/root/office16/winword.exe
-50,时光_许巍_2.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\时光_许巍_2.mp4
-51,getting started with mongodb,https://code.tutsplus.com/tutorials/getting-started-with-mongodb-part-1--net-22879
-52,Friends "A Farewell To Friends",https://www.youtube.com/watch?v=IIsqIsJR2Mk
-53,Technology fld,C:\Users\SiyuanZeng's\Documents\OneNote Notebooks\Questions\Question - Study skills\Technology
-54,Brain fld,C:\Users\SiyuanZeng's\Documents\OneNote 笔记本\Entertainment\Interest\Brain
-55,Google advanced search operators,https://supple.com.au/tools/google-advanced-search-operators/
-56,Apache Cassandra and Java,https://academy.datastax.com/resources/getting-started-apache-cassandra-and-java-part-i
-57,cmd start kafka jmx,bin/kafka-run-class.sh kafka.tools.jmxtool --jmx-url service:jmx:rmi:///jndi/rmi://127.0.0.1:9999/jmxrmi
-58,task,https://pod51077.outlook.com/owa/?realm=homeoffice.wal-mart.com&exsvurl=1&ll-cc=1033&modurl=3&path=/tasks
+42,sc1 bug2     CDSCENT-2097 [Bug] Country of Origin - Assembly / Manufacture has different style from Country of Origin - Components / Ingredients,https://jira.walmart.com/browse/CDSCENT-2097
+43,Rush hour 2 doof,http://www.bing.com/videos/search?q=rush+hour+2&qft=+filterui%3aduration-long&view=detail&mid=E978F299242A2D9643E2E978F299242A2D9643E2&FORM=VRDGAR
+44,Stressed out,http://listenonrepeat.com/?v=pXRviuL6vMY#twenty_one_pilots%3A_Stressed_Out_%5BOFFICIAL_VIDEO%5D
+45,best song ever,ac
+46,scala tutorial,https://www.quora.com/What-would-be-best-site-book-tutorial-for-a-Scala-beginner
+47,eclipse,c:/developer/ide/eclipse-jee-luna-sr1-win32-x86_64/eclipse/eclipse.exe
+48,word,c:/program files (x86)/microsoft office/root/office16/winword.exe
+49,时光_许巍_2.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\时光_许巍_2.mp4
+50,getting started with mongodb,https://code.tutsplus.com/tutorials/getting-started-with-mongodb-part-1--net-22879
+51,Friends "A Farewell To Friends",https://www.youtube.com/watch?v=IIsqIsJR2Mk
+52,Technology fld,C:\Users\SiyuanZeng's\Documents\OneNote Notebooks\Questions\Question - Study skills\Technology
+53,Brain fld,C:\Users\SiyuanZeng's\Documents\OneNote 笔记本\Entertainment\Interest\Brain
+54,Google advanced search operators,https://supple.com.au/tools/google-advanced-search-operators/
+55,Apache Cassandra and Java,https://academy.datastax.com/resources/getting-started-apache-cassandra-and-java-part-i
+56,cmd start kafka jmx,bin/kafka-run-class.sh kafka.tools.jmxtool --jmx-url service:jmx:rmi:///jndi/rmi://127.0.0.1:9999/jmxrmi
+57,task,https://pod51077.outlook.com/owa/?realm=homeoffice.wal-mart.com&exsvurl=1&ll-cc=1033&modurl=3&path=/tasks
+58,javabrains,https://www.youtube.com/user/koushks/playlists
 59,ca download and install go,https://golang.org/doc/install
-60,javabrains,https://www.youtube.com/user/koushks/playlists
-61,listenonrepeat,https://listenonrepeat.com/?v=geCQ53zHbVQ#%E5%B0%8F%E8%99%8E%E9%9A%8A_%E9%9D%92%E8%98%8B%E6%9E%9C%E6%A8%82%E5%9C%92
-62,sc2 new validation page,https://confluence.walmart.com/display/~rbalaga/V3+Validations+in+Supplier+Center
-63,许巍 留声十年 绝版青春 2005北京演唱会 高清无字幕.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\许巍 留声十年 绝版青春 2005北京演唱会 高清无字幕.mp4
-64,许巍 韩红 一江水.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\许巍 韩红 一江水.mp4
-65,in the end.mp3,C:\Users\SiyuanZeng's\Music\Music\Selection\in the end.mp3
+60,listenonrepeat,https://listenonrepeat.com/?v=geCQ53zHbVQ#%E5%B0%8F%E8%99%8E%E9%9A%8A_%E9%9D%92%E8%98%8B%E6%9E%9C%E6%A8%82%E5%9C%92
+61,sc2 new validation page,https://confluence.walmart.com/display/~rbalaga/V3+Validations+in+Supplier+Center
+62,许巍 留声十年 绝版青春 2005北京演唱会 高清无字幕.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\许巍 留声十年 绝版青春 2005北京演唱会 高清无字幕.mp4
+63,许巍 韩红 一江水.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\许巍 韩红 一江水.mp4
+64,in the end.mp3,C:\Users\SiyuanZeng's\Music\Music\Selection\in the end.mp3
+65,ca 2 machine setup Change the Path Variable in Linux,http://www.wikihow.com/Change-the-Path-Variable-in-Linux
 66,Learning strategy fld,C:\Users\SiyuanZeng's\Documents\OneNote Notebooks\Questions\Question - Study skills\Learning strategy
 67,Take me home country roda,http://listenonrepeat.com/?v=oTeUdJky9rY#John_Denver_%E2%99%A5_Take_Me_Home%2C_Country_Roads__(The_Ultimate_Collection)__with_Lyrics
 68,solr docs,C:\Developer\solr-6.2.0\example\exampledocs
@@ -386,20 +379,27 @@ ca 2 machine setup laptop pierrec xxHash=https://github.com/pierrec/xxHash
 339,database,localhost
 340,snipping,c:/windows/system32/snippingtool.exe
 341,Manipulating Microsoft Docx Files With Docx4j,http://muammeryucel.blogspot.com/2011/01/manipulating-microsoft-docx-files-with.html
-342,hotmail resume,https://onedrive.live.com/edit.aspx?cid=6a74652c5386c5a5&page=view&resid=6A74652C5386C5A5!9569&parId=6A74652C5386C5A5!114&app=Word
-343,txt,c:/windows/system32/notepad.exe
-344,Lava,http://listenonrepeat.com/?v=uh4dTLJ9q9o#Lava_(From__Lava__(Official_Lyric_Video))
-345,How do I replace text in Microsoft Word document using Apache POI,https://kodejava.org/how-do-i-replace-text-in-microsoft-word-document-using-apache-poi/
-346,英文歌曲 - 英语经典 - 《狮子王》今夜爱无限.mp3,C:\Users\SiyuanZeng's\Music\Music\Selection\英文歌曲 - 英语经典 - 《狮子王》今夜爱无限.mp3
-347,googlehangouts,https://hangouts.google.com/
-348,devcenter,C:\DevCenter\DevCenter.exe
-349,15.帕海贝尔.-.卡农与吉格舞曲.mp3,C:\Users\SiyuanZeng's\Music\Canon\15.帕海贝尔.-.卡农与吉格舞曲.mp3
-350,attraction.mp3,C:\Users\SiyuanZeng's\Music\Music\Selection\attraction.mp3
-351,Movies,C:\Users\SiyuanZeng's\Videos\Movie\Movies.kpl
-352,dropbox,c:\users\siyuanzeng's\appdata\roaming\dropbox\bin\dropbox.exe
-353,mike 2,C:\Users\SiyuanZeng's\Videos\Movie\Mike Sui on a Train- The most AMAZING imitation video ever!【Mike隋出品】老外屌丝2 - YouTube.MKV
-354,naruto,https://www.youtube.com/results?search_query=naruto+shippuden+episode+english+sub
-355,ca 2 machine setup Change the Path Variable in Linux,http://www.wikihow.com/Change-the-Path-Variable-in-Linux
+342,ca 2 machine setup laptop docker documentation,https://docs.docker.com/
+ca 2 machine setup laptop kafka documenation=http://kafka.apache.org/documentation.html
+ca 2 machine setup laptop linux how to set path variable=http://www.wikihow.com/Change-the-Path-Variable-in-Linux
+ca 2 machine setup laptop linux add github to path=https://www.howtoforge.com/tutorial/install-git-and-github-on-ubuntu-14.04/
+ca 2 machine setup laptop linux the command could not be located because sbin is not included in the path environment=http://askubuntu.com/questions/433092/the-command-could-not-be-located-because-sbin-is-not-included-in-the-path-env
+ca 2 machine setup laptop linux sudo unable to resolve host name=http://askubuntu.com/questions/59458/error-message-when-i-run-sudo-unable-to-resolve-host-none
+ca 2 machine setup laptop Shopify sarama=https://github.com/Shopify/sarama/
+ca 2 machine setup laptop pierrec xxHash=https://github.com/pierrec/xxHash
+343,hotmail resume,https://onedrive.live.com/edit.aspx?cid=6a74652c5386c5a5&page=view&resid=6A74652C5386C5A5!9569&parId=6A74652C5386C5A5!114&app=Word
+344,txt,c:/windows/system32/notepad.exe
+345,Lava,http://listenonrepeat.com/?v=uh4dTLJ9q9o#Lava_(From__Lava__(Official_Lyric_Video))
+346,How do I replace text in Microsoft Word document using Apache POI,https://kodejava.org/how-do-i-replace-text-in-microsoft-word-document-using-apache-poi/
+347,英文歌曲 - 英语经典 - 《狮子王》今夜爱无限.mp3,C:\Users\SiyuanZeng's\Music\Music\Selection\英文歌曲 - 英语经典 - 《狮子王》今夜爱无限.mp3
+348,googlehangouts,https://hangouts.google.com/
+349,devcenter,C:\DevCenter\DevCenter.exe
+350,15.帕海贝尔.-.卡农与吉格舞曲.mp3,C:\Users\SiyuanZeng's\Music\Canon\15.帕海贝尔.-.卡农与吉格舞曲.mp3
+351,attraction.mp3,C:\Users\SiyuanZeng's\Music\Music\Selection\attraction.mp3
+352,Movies,C:\Users\SiyuanZeng's\Videos\Movie\Movies.kpl
+353,dropbox,c:\users\siyuanzeng's\appdata\roaming\dropbox\bin\dropbox.exe
+354,mike 2,C:\Users\SiyuanZeng's\Videos\Movie\Mike Sui on a Train- The most AMAZING imitation video ever!【Mike隋出品】老外屌丝2 - YouTube.MKV
+355,naruto,https://www.youtube.com/results?search_query=naruto+shippuden+episode+english+sub
 356,glossary,/Users/vn0xrjh/Downloads/01-Arhitectural/Supplier Center Glossary.doc
 357,hello word,good
 358,许巍-那一年_2.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\许巍-那一年_2.mp4
@@ -469,14 +469,15 @@ ca 2 machine setup laptop pierrec xxHash=https://github.com/pierrec/xxHash
 418,ABC,ABC
 419,skype,c:/program files (x86)/skype/phone/skype.exe
 420,English fld,C:\Users\SiyuanZeng's\Documents\OneNote Notebooks\Questions\Communication\English
-421,sc1 bug1 CDSCENT-2096 [Bug] Owned Configuration failure prevents from submitting item,https://jira.walmart.com/browse/CDSCENT-2096
-422,许巍【曾经的你】LIVE.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\许巍【曾经的你】LIVE.mp4
-423,All of Vine,http://listenonrepeat.com/?v=XdSUE_vx2NM#Funny_Cartoon_Voice_Overs_Vines_Compilation_(Part_1)_%7C_The_Best_Bad_Lip_Reading_Vines_*Explicit*
-424,The Script - Hall of Fame ft. will.i.am.mp3,C:\Users\SiyuanZeng's\Music\Music\The Script - Hall of Fame ft. will.i.am.mp3
-425,sc automation,GeMC / SC Automation framework
-426,gui unix pah,C:/Development_Base/17_GUI
-427,Answering questions fld,C:\Users\SiyuanZeng's\Documents\OneNote Notebooks\Questions\Communication\English\Answering questions
-428,solr start,C:\Developer\solr-6.2.0\bin
+421,How to properly stop the Thread in Java?,http://stackoverflow.com/questions/10961714/how-to-properly-stop-the-thread-in-java
+422,sc1 bug1 CDSCENT-2096 [Bug] Owned Configuration failure prevents from submitting item,https://jira.walmart.com/browse/CDSCENT-2096
+423,许巍【曾经的你】LIVE.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\许巍【曾经的你】LIVE.mp4
+424,All of Vine,http://listenonrepeat.com/?v=XdSUE_vx2NM#Funny_Cartoon_Voice_Overs_Vines_Compilation_(Part_1)_%7C_The_Best_Bad_Lip_Reading_Vines_*Explicit*
+425,The Script - Hall of Fame ft. will.i.am.mp3,C:\Users\SiyuanZeng's\Music\Music\The Script - Hall of Fame ft. will.i.am.mp3
+426,sc automation,GeMC / SC Automation framework
+427,gui unix pah,C:/Development_Base/17_GUI
+428,Answering questions fld,C:\Users\SiyuanZeng's\Documents\OneNote Notebooks\Questions\Communication\English\Answering questions
+429,solr start,C:\Developer\solr-6.2.0\bin
 
 
 
@@ -508,91 +509,91 @@ http://localhost:8080/solrautocomplete/search.html
 
 csv
 C:\Developer\solr-6.2.0\example\exampledocs
-429,时光_许巍.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\时光_许巍.mp4
-430,12.帕海贝尔.-.“甜蜜家庭”.新世界民谣风卡农.mp3,C:\Users\SiyuanZeng's\Music\Canon\12.帕海贝尔.-.“甜蜜家庭”.新世界民谣风卡农.mp3
-431,8.帕海贝尔.-.F大调古乐器版卡农.mp3,C:\Users\SiyuanZeng's\Music\Canon\8.帕海贝尔.-.F大调古乐器版卡农.mp3
-432,sc3 ge,https://gecgithub01.walmart.com/GeMC/platform
-433,excel,c:/program files (x86)/microsoft office/root/office16/excel.exe
-434,bestsongevermegan,https://listenonrepeat.com/?v=Uhj0ymhgK9E#Best_Song_Ever_-_Megan_Nicole_(cover)_One_Direction
-435,南無觀世音菩薩 . 許巍.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\南無觀世音菩薩 . 許巍.mp4
-436,best song ever megan,https://listenonrepeat.com/?v=Uhj0ymhgK9E#Best_Song_Ever_-_Megan_Nicole_(cover)_One_Direction
-437,Lovers on the sun,http://listenonrepeat.com/?v=BPiW0tkWfeg#David_Guetta_-_Lovers_On_The_Sun_(Official_Video)_ft_Sam_Martin
-438,m,https://mail.google.com/mail/u/0/#inbox
-439,Memory Text fld,C:\Users\SiyuanZeng's\Documents\OneNote Notebooks\Questions\Question - Study skills\Memory\Mememory tasks\Memory Text
-440,sc2 val to,https://confluence.walmart.com/display/CDCD/Validation+rules+to+implement
-441,Mac OS X keyboard shorcuts makeuseof,http://cheat-sheets.s3.amazonaws.com/for-mobile/osx-shortcuts-new.pdf
-442,Intellij tooltips popup windows tool window,C:\Users\SiyuanZeng's\Documents\Note_Backup_June_4th\Intellij_May_28\Intellij\Tool Window.one
-443,psy,https://listenonrepeat.com/?v=9bZkp7q19f0#PSY_-_GANGNAM_STYLE(%EA%B0%95%EB%82%A8%EC%8A%A4%ED%83%80%EC%9D%BC)_M%2FV
-444,f,c:/program files (x86)/mozilla firefox/firefox.exe
-445,10.帕海贝尔.-.超技吉他独奏版卡农.mp3,C:\Users\SiyuanZeng's\Music\Canon\10.帕海贝尔.-.超技吉他独奏版卡农.mp3
-446,design pattern,http://www.tutorialspoint.com/design_pattern/data_access_object_pattern.htm
-447,Communication fld,C:\Users\SiyuanZeng's\Documents\OneNote Notebooks\Questions\Communication
-448,solr admin,http://localhost:8983/solr/#/jcp/query
-449,The Zing Song Extended,https://listenonrepeat.com/?v=z_hXbiAB1lc#The_Zing_Song_Extended
-450,c,c:/
-451,许巍—《温暖》.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\许巍—《温暖》.mp4
-452,never say goodbye.wma,C:\Users\SiyuanZeng's\Music\Music\Selection\never say goodbye.wma
-453,gitbash,c:/developer/git/bin/sh.exe
-454,Interest fld,C:\Users\SiyuanZeng's\Documents\OneNote 笔记本\Entertainment\Interest
-455,sc1 blocker     CDSCENT-2104
+430,时光_许巍.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\时光_许巍.mp4
+431,12.帕海贝尔.-.“甜蜜家庭”.新世界民谣风卡农.mp3,C:\Users\SiyuanZeng's\Music\Canon\12.帕海贝尔.-.“甜蜜家庭”.新世界民谣风卡农.mp3
+432,8.帕海贝尔.-.F大调古乐器版卡农.mp3,C:\Users\SiyuanZeng's\Music\Canon\8.帕海贝尔.-.F大调古乐器版卡农.mp3
+433,sc3 ge,https://gecgithub01.walmart.com/GeMC/platform
+434,excel,c:/program files (x86)/microsoft office/root/office16/excel.exe
+435,bestsongevermegan,https://listenonrepeat.com/?v=Uhj0ymhgK9E#Best_Song_Ever_-_Megan_Nicole_(cover)_One_Direction
+436,南無觀世音菩薩 . 許巍.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\南無觀世音菩薩 . 許巍.mp4
+437,best song ever megan,https://listenonrepeat.com/?v=Uhj0ymhgK9E#Best_Song_Ever_-_Megan_Nicole_(cover)_One_Direction
+438,Lovers on the sun,http://listenonrepeat.com/?v=BPiW0tkWfeg#David_Guetta_-_Lovers_On_The_Sun_(Official_Video)_ft_Sam_Martin
+439,m,https://mail.google.com/mail/u/0/#inbox
+440,Memory Text fld,C:\Users\SiyuanZeng's\Documents\OneNote Notebooks\Questions\Question - Study skills\Memory\Mememory tasks\Memory Text
+441,sc2 val to,https://confluence.walmart.com/display/CDCD/Validation+rules+to+implement
+442,Mac OS X keyboard shorcuts makeuseof,http://cheat-sheets.s3.amazonaws.com/for-mobile/osx-shortcuts-new.pdf
+443,Intellij tooltips popup windows tool window,C:\Users\SiyuanZeng's\Documents\Note_Backup_June_4th\Intellij_May_28\Intellij\Tool Window.one
+444,psy,https://listenonrepeat.com/?v=9bZkp7q19f0#PSY_-_GANGNAM_STYLE(%EA%B0%95%EB%82%A8%EC%8A%A4%ED%83%80%EC%9D%BC)_M%2FV
+445,f,c:/program files (x86)/mozilla firefox/firefox.exe
+446,10.帕海贝尔.-.超技吉他独奏版卡农.mp3,C:\Users\SiyuanZeng's\Music\Canon\10.帕海贝尔.-.超技吉他独奏版卡农.mp3
+447,design pattern,http://www.tutorialspoint.com/design_pattern/data_access_object_pattern.htm
+448,Communication fld,C:\Users\SiyuanZeng's\Documents\OneNote Notebooks\Questions\Communication
+449,solr admin,http://localhost:8983/solr/#/jcp/query
+450,The Zing Song Extended,https://listenonrepeat.com/?v=z_hXbiAB1lc#The_Zing_Song_Extended
+451,c,c:/
+452,许巍—《温暖》.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\许巍—《温暖》.mp4
+453,never say goodbye.wma,C:\Users\SiyuanZeng's\Music\Music\Selection\never say goodbye.wma
+454,gitbash,c:/developer/git/bin/sh.exe
+455,Interest fld,C:\Users\SiyuanZeng's\Documents\OneNote 笔记本\Entertainment\Interest
+456,sc1 blocker     CDSCENT-2104
 
 [Bug] [Blocker] I CAN NOT resubmit manage item,https://jira.walmart.com/browse/CDSCENT-2104
-456,solr documents,C:\Developer\solr-6.2.0\example\exampledocs
-457,zhen de ai ni,https://listenonrepeat.com/?v=tjCHafQIhFk#Beyond_%E7%9C%9F%E7%9A%84%E7%88%B1%E4%BD%A0
-458,爱,https://listenonrepeat.com/?v=ApzSXGcYw6U#%E5%B0%8F%E8%99%8E%E9%98%9F_-_%5B%E7%88%B1%5D_MV
-459,git bash,C:\Developer\Git\bin\sh.exe
-460,idea.exe,c:/developer/jetbrains/intellij idea 14.1.6/bin/idea.exe
-461,Xu Wei - Home (许巍-故乡).mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\Xu Wei - Home (许巍-故乡).mp4
-462,cal,https://calendar.google.com/calendar/render?tab=mc&pli=1#main_7
-463,movie,C:\Users\SiyuanZeng's\Videos\Movie
-464,mandy .mp3,C:\Users\SiyuanZeng's\Music\Music\Selection\mandy .mp3
-465,baidu,http://www.baidu.com/
-466,quote,C:\Users\SiyuanZeng's\Videos\Movie\Quotes.kpl
-467,Google search techniques,http://www.johntedesco.net/blog/2012/06/21/how-to-solve-impossible-problems-daniel-russells-awesome-google-search-techniques/
-468,Time in a bottle,http://listenonrepeat.com/?v=dO1rMeYnOmM#Jim_Croce_-_Time_in_a_bottle_-_1973
-469,all my stuffs,https://github.com/SiyuanZeng/allmystuffs
-470,gangnam style,https://listenonrepeat.com/?v=9bZkp7q19f0#PSY_-_GANGNAM_STYLE(%EA%B0%95%EB%82%A8%EC%8A%A4%ED%83%80%EC%9D%BC)_M%2FV
-471,java world,http://www.javaworld.com/
-472,Big data messaging with Kafka, Part 1,http://www.javaworld.com/article/3060078/big-data/big-data-messaging-with-kafka-part-1.html
-473,group display family share locker news locker,http://www.newslocker.com/en-uk/profession/fruit_vegetables/walmart-hires-brandbank-to-improve-website-images/
-474,How to install JAVA 8 in linux,http://tecadmin.net/install-oracle-java-8-jdk-8-ubuntu-via-ppa/
-475,Kafka demo beginner,https://www.youtube.com/watch?v=ArUHr3Czx-8
-476,res,https://onedrive.live.com/edit.aspx?cid=6a74652c5386c5a5&id=documents&resid=6A74652C5386C5A5!9569&app=Word&&wdPid=1ab04f9b
-477,c1,https://github.com/chocotan/datepicker4j
-478,qttabbar,C:\Program Files\QTTabBar\Tools\ExplorerSafeMode.exe
-479,红豆,http://listenonrepeat.com/?v=5wmfXve11rM#%E7%8E%8B%E8%8F%B2_-_%E7%B4%85%E8%B1%86
-480,sc2 nwe story,https://jira.walmart.com/browse/CDSCENT-1821
-481,dbpassword,password
-482,gitgui,c:/developer/git/bin/wish.exe
-483,restful basic tutorial,https://www.youtube.com/playlist?list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn
-484,ice age,http://123movies.is/film/ice-age-2023/
-485,OneNote_RecycleBin fld,C:\Users\SiyuanZeng's\Documents\OneNote Notebooks\Risk\OneNote_RecycleBin
-486,gui hui sui yue,https://listenonrepeat.com/?v
-487,15,https://www.vidio.com/watch/149925-friends-season-5-episode-1
-488,tcpview,C:\Developer\TCPView\Tcpview.exe
-489,Cassandra Solr Spark Love Triangle Using DataStax Enterprise,http://www.slideshare.net/patrickmcfadin/a-cassandra-solr-spark-love-triangle-using-datastax-enterprise-50051760
-490,rec,c:/users/siyuanzeng's/desktop/application/thoughtrecorder.v2.jar
-491,mike2,C:\Users\SiyuanZeng's\Videos\Movie\Mike Sui on a Train- The most AMAZING imitation video ever!【Mike隋出品】老外屌丝2 - YouTube.MKV
-492,许巍-空谷幽兰 Xu Wei Kong Gu You Lan.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\许巍-空谷幽兰 Xu Wei Kong Gu You Lan.mp4
-493,mike1,C:\Users\SiyuanZeng's\Videos\Movie\Mike Sui at the bar (w_ English Subtitles) - YouTube.MP4
-494,许巍-那一年.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\许巍-那一年.mp4
-495,git remote,https://help.github.com/articles/changing-a-remote-s-url/
-496,Journey - Don't Stop Believin' (Live in Houston).mp4,C:\Users\SiyuanZeng's\Music\Music\Journey - Don't Stop Believin' (Live in Houston).mp4
-497,许巍 - 我的秋天.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\许巍 - 我的秋天.mp4
-498,deadpool,http://www.ismdy.com/zaixianbofang/850/0-1.html
-499,Xu Wei - Home (许巍-故乡)_2.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\Xu Wei - Home (许巍-故乡)_2.mp4
-500,ZBox,C:\Users\SiyuanZeng's\Downloads\ZBox
-501,sc1 jira  bug,https://jira.walmart.com/browse/CDSCENT-2081
-502,rest advanced,https://www.youtube.com/playlist?list=PLqq-6Pq4lTTY40IcG584ynNqibMc1heIa
-503,mongodb tutorial,http://www.hongkiat.com/blog/webdev-with-mongodb-part1/
-504,許巍-2012 全新歌曲《此時此刻》.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\許巍-2012 全新歌曲《此時此刻》.mp4
-505,multitabs,c:/developer/conemu/conemu64.exe
-506,sc2 val Co Internal ,https://confluence.walmart.com/display/~vn0xrjh/Copy+of+Internal+Spec+LIMO
-507,iq_threading,c:/users/siyuanzeng's/desktop/application/job hunting/interview/interviewquestions/threading.docx
-508,Scala,C:/Users/SiyuanZeng's/Downloads/ZBox/a - Copy.html
-509,许巍 我思念的城市.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\许巍 我思念的城市.mp4
-510,sc1 bug3     CDSCENT-2098
+457,solr documents,C:\Developer\solr-6.2.0\example\exampledocs
+458,zhen de ai ni,https://listenonrepeat.com/?v=tjCHafQIhFk#Beyond_%E7%9C%9F%E7%9A%84%E7%88%B1%E4%BD%A0
+459,爱,https://listenonrepeat.com/?v=ApzSXGcYw6U#%E5%B0%8F%E8%99%8E%E9%98%9F_-_%5B%E7%88%B1%5D_MV
+460,git bash,C:\Developer\Git\bin\sh.exe
+461,idea.exe,c:/developer/jetbrains/intellij idea 14.1.6/bin/idea.exe
+462,Xu Wei - Home (许巍-故乡).mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\Xu Wei - Home (许巍-故乡).mp4
+463,cal,https://calendar.google.com/calendar/render?tab=mc&pli=1#main_7
+464,movie,C:\Users\SiyuanZeng's\Videos\Movie
+465,mandy .mp3,C:\Users\SiyuanZeng's\Music\Music\Selection\mandy .mp3
+466,baidu,http://www.baidu.com/
+467,quote,C:\Users\SiyuanZeng's\Videos\Movie\Quotes.kpl
+468,Google search techniques,http://www.johntedesco.net/blog/2012/06/21/how-to-solve-impossible-problems-daniel-russells-awesome-google-search-techniques/
+469,Time in a bottle,http://listenonrepeat.com/?v=dO1rMeYnOmM#Jim_Croce_-_Time_in_a_bottle_-_1973
+470,all my stuffs,https://github.com/SiyuanZeng/allmystuffs
+471,gangnam style,https://listenonrepeat.com/?v=9bZkp7q19f0#PSY_-_GANGNAM_STYLE(%EA%B0%95%EB%82%A8%EC%8A%A4%ED%83%80%EC%9D%BC)_M%2FV
+472,java world,http://www.javaworld.com/
+473,Big data messaging with Kafka, Part 1,http://www.javaworld.com/article/3060078/big-data/big-data-messaging-with-kafka-part-1.html
+474,group display family share locker news locker,http://www.newslocker.com/en-uk/profession/fruit_vegetables/walmart-hires-brandbank-to-improve-website-images/
+475,How to install JAVA 8 in linux,http://tecadmin.net/install-oracle-java-8-jdk-8-ubuntu-via-ppa/
+476,Kafka demo beginner,https://www.youtube.com/watch?v=ArUHr3Czx-8
+477,res,https://onedrive.live.com/edit.aspx?cid=6a74652c5386c5a5&id=documents&resid=6A74652C5386C5A5!9569&app=Word&&wdPid=1ab04f9b
+478,c1,https://github.com/chocotan/datepicker4j
+479,qttabbar,C:\Program Files\QTTabBar\Tools\ExplorerSafeMode.exe
+480,红豆,http://listenonrepeat.com/?v=5wmfXve11rM#%E7%8E%8B%E8%8F%B2_-_%E7%B4%85%E8%B1%86
+481,sc2 nwe story,https://jira.walmart.com/browse/CDSCENT-1821
+482,dbpassword,password
+483,gitgui,c:/developer/git/bin/wish.exe
+484,restful basic tutorial,https://www.youtube.com/playlist?list=PLqq-6Pq4lTTZh5U8RbdXq0WaYvZBz2rbn
+485,ice age,http://123movies.is/film/ice-age-2023/
+486,OneNote_RecycleBin fld,C:\Users\SiyuanZeng's\Documents\OneNote Notebooks\Risk\OneNote_RecycleBin
+487,gui hui sui yue,https://listenonrepeat.com/?v
+488,15,https://www.vidio.com/watch/149925-friends-season-5-episode-1
+489,tcpview,C:\Developer\TCPView\Tcpview.exe
+490,Cassandra Solr Spark Love Triangle Using DataStax Enterprise,http://www.slideshare.net/patrickmcfadin/a-cassandra-solr-spark-love-triangle-using-datastax-enterprise-50051760
+491,rec,c:/users/siyuanzeng's/desktop/application/thoughtrecorder.v2.jar
+492,mike2,C:\Users\SiyuanZeng's\Videos\Movie\Mike Sui on a Train- The most AMAZING imitation video ever!【Mike隋出品】老外屌丝2 - YouTube.MKV
+493,许巍-空谷幽兰 Xu Wei Kong Gu You Lan.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\许巍-空谷幽兰 Xu Wei Kong Gu You Lan.mp4
+494,mike1,C:\Users\SiyuanZeng's\Videos\Movie\Mike Sui at the bar (w_ English Subtitles) - YouTube.MP4
+495,许巍-那一年.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\许巍-那一年.mp4
+496,git remote,https://help.github.com/articles/changing-a-remote-s-url/
+497,Journey - Don't Stop Believin' (Live in Houston).mp4,C:\Users\SiyuanZeng's\Music\Music\Journey - Don't Stop Believin' (Live in Houston).mp4
+498,许巍 - 我的秋天.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\许巍 - 我的秋天.mp4
+499,deadpool,http://www.ismdy.com/zaixianbofang/850/0-1.html
+500,Xu Wei - Home (许巍-故乡)_2.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\Xu Wei - Home (许巍-故乡)_2.mp4
+501,ZBox,C:\Users\SiyuanZeng's\Downloads\ZBox
+502,sc1 jira  bug,https://jira.walmart.com/browse/CDSCENT-2081
+503,rest advanced,https://www.youtube.com/playlist?list=PLqq-6Pq4lTTY40IcG584ynNqibMc1heIa
+504,mongodb tutorial,http://www.hongkiat.com/blog/webdev-with-mongodb-part1/
+505,許巍-2012 全新歌曲《此時此刻》.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\許巍-2012 全新歌曲《此時此刻》.mp4
+506,multitabs,c:/developer/conemu/conemu64.exe
+507,sc2 val Co Internal ,https://confluence.walmart.com/display/~vn0xrjh/Copy+of+Internal+Spec+LIMO
+508,iq_threading,c:/users/siyuanzeng's/desktop/application/job hunting/interview/interviewquestions/threading.docx
+509,Scala,C:/Users/SiyuanZeng's/Downloads/ZBox/a - Copy.html
+510,许巍 我思念的城市.mp4,C:\Users\SiyuanZeng's\Videos\Movie\Xu Wei\许巍 我思念的城市.mp4
+511,sc1 bug3     CDSCENT-2098
 
 [Bug] Input disappearing,https://jira.walmart.com/browse/CDSCENT-2098
-511,quora,https://www.quora.com/What-exactly-is-Apache-Spark-and-how-does-it-work
-512,ppt,c:/program files (x86)/microsoft office/root/office16/powerpnt.exe
+512,quora,https://www.quora.com/What-exactly-is-Apache-Spark-and-how-does-it-work
+513,ppt,c:/program files (x86)/microsoft office/root/office16/powerpnt.exe
