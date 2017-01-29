@@ -244,6 +244,8 @@ Properties w;
             {
                 System.out.println(line);
             }
+// mssaster of time
+            // master of time
 
 //            p=Runtime.getRuntime().exec("cmd /c C:\\apache-cassandra-2.1.14\\bin\\cassandra");
 //            p.waitFor();
