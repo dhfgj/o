@@ -1212,7 +1212,7 @@ but i don't have to time to review the same thing again and again
                             );
                             a.start();
                         }
-
+//what are the existing ubuilding components i can do ?
                         else if (DisHlow2ForeDgertCommand) {
                             System.out.println("Disloadl");
                             if (textArea.getText().equalsIgnoreCase("k"))
