@@ -280,8 +280,8 @@ class VistaSearchDialog extends JComponent  {
             button.setContentAreaFilled(false);
             button.setBorderPainted(false);
             button.setFocusPainted(false);
-            button.setIcon(new ImageIcon(getClass().getResource("close-title-bar.png")));
-            button.setRolloverIcon(new ImageIcon(getClass().getResource("close-title-bar-rollover.png")));
+            button.setIcon(new ImageIcon("C:\\l\\src\\zeng\\siyuan\\C1comehere\\dd\\close-title-bar.png"));
+            button.setRolloverIcon(new ImageIcon("C:\\l\\src\\zeng\\siyuan\\C1comehere\\dd\\close-title-bar-rollover.png"));
             button.setOpaque(false);
             button.setName("vistaCloseButton");
             add(Box.createVerticalStrut(24),
