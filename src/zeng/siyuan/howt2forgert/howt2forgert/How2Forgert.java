@@ -231,7 +231,7 @@ public class How2Forgert implements Serializable {
         StringBuilder stringBuilder = new StringBuilder();
         Date date = new Date();
         Calendar c = Calendar.getInstance();
-        SimpleDateFormat format = new SimpleDateFormat("EEE, MMM d, yyyy 'at' hh:mm");
+        SimpleDateFormat format = new SimpleDateFormat("EEE, MMM dd, yyyy 'at' hh:mm");
         c.add(Calendar.HOUR_OF_DAY, 1);
 
         // found!
@@ -330,7 +330,7 @@ textArea.setText(textinput);
         StringBuilder stringBuilder = new StringBuilder();
 //        Date date = new Date();
 //        Calendar c = Calendar.getInstance();
-//        SimpleDateFormat format = new SimpleDateFormat("EEE, MMM d, yyyy 'at' hh:mm");
+//        SimpleDateFormat format = new SimpleDateFormat("EEE, MMM dd, yyyy 'at' hh:mm");
 //        c.add(Calendar.HOUR_OF_DAY, 1);
 //
 //         found!
@@ -1065,7 +1065,7 @@ textArea.setText(e.getASDFJ());
 // people will constant ly ask why that is the problem and you should stop doing that never do it again and that is the case you should know
 // people who don't becatalk bcuase they hav eto do something thehy don't like me becasue i force them to talk and that is not polite i guess
 
-// poeple like you people who give you love and good wordsa nd make you feel good and know somthing expenand your horizon ane d tell you the truth enlighten you and mkae you come out of darkness
+// poeple like you people who give you love and good wordsa nd make you feel good and know somthing expenand your horizon ane dd tell you the truth enlighten you and mkae you come out of darkness
 
     private void reloadTAskandrestartPopThread() {
         loadTask();

@@ -31,7 +31,7 @@ public class How2Forgert implements Serializable {
     public static transient Properties jk;
 
 
-//    public void d() {
+//    public void dd() {
 //        Scanner in = null;
 //        if (null != textArea && !("".equalsIgnoreCase(textArea.getText()))) {
 
@@ -104,7 +104,7 @@ public class How2Forgert implements Serializable {
                 for (int i = 2; i < textStr.length; i++) {
                     stringBuffer1.append(textStr[i]);
                 }
-                e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "j", r.d(textStr[0]));
+                e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "j", r.dd(textStr[0]));
             } else
 
 
@@ -119,12 +119,12 @@ public class How2Forgert implements Serializable {
 
 
 
-            if (textStr[0].equalsIgnoreCase("d")){
+            if (textStr[0].equalsIgnoreCase("dd")){
                 StringBuffer stringBuffer1 = new StringBuffer();
                 for (int i = 1; i < textStr.length; i++) {
                     stringBuffer1.append(textStr[i]);
                 }
-                e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "d", new Date());
+                e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "dd", new Date());
             } else
 
 
@@ -135,17 +135,17 @@ public class How2Forgert implements Serializable {
                 for (int i = 2; i < textStr.length; i++) {
                     stringBuffer1.append(textStr[i]);
                 }
-                e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "dd", r.d(textStr[0]));
+                e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "dd", r.dd(textStr[0]));
             } else
 
 
 
-            if (textStr[1].equalsIgnoreCase("d")){
+            if (textStr[1].equalsIgnoreCase("dd")){
                 StringBuffer stringBuffer1 = new StringBuffer();
                 for (int i = 2; i < textStr.length; i++) {
                     stringBuffer1.append(textStr[i]);
                 }
-                e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "d", r.d(textStr[0]));
+                e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "dd", r.dd(textStr[0]));
             } else
 
 
@@ -169,14 +169,14 @@ public class How2Forgert implements Serializable {
 
 
 
-            if (null != r.d(textStr[0])){
+            if (null != r.dd(textStr[0])){
 
                 if (textStr[1].equalsIgnoreCase("j")){
                     StringBuffer stringBuffer1 = new StringBuffer();
                     for (int i = 2; i < textStr.length; i++) {
                         stringBuffer1.append(textStr[i]);
                     }
-                    e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "j", r.d(textStr[0]));
+                    e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "j", r.dd(textStr[0]));
                 }
 
                 if (textStr[1].equalsIgnoreCase("dd")){
@@ -187,12 +187,12 @@ public class How2Forgert implements Serializable {
                     e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "dd", new Date());
                 }
 
-                if (textStr[1].equalsIgnoreCase("d")){
+                if (textStr[1].equalsIgnoreCase("dd")){
                     StringBuffer stringBuffer1 = new StringBuffer();
                     for (int i = 2; i < textStr.length; i++) {
                         stringBuffer1.append(textStr[i]);
                     }
-                    e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "d", new Date());
+                    e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "dd", new Date());
                 }
 
                 else {
@@ -201,7 +201,7 @@ public class How2Forgert implements Serializable {
                         stringBuffer1.append(textStr[i]);
                     }
 
-                    e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "p", r.d(textStr[0]));
+                    e = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question(stringBuffer1.toString(), "p", r.dd(textStr[0]));
                 }
 
 
@@ -232,7 +232,7 @@ public class How2Forgert implements Serializable {
 
         Calendar c = Calendar.getInstance();
 
-        SimpleDateFormat format = new SimpleDateFormat("EEE, MMM d, yyyy 'at' hh:mm");
+        SimpleDateFormat format = new SimpleDateFormat("EEE, MMM dd, yyyy 'at' hh:mm");
 
         System.out.println(format.format(c.getTime()));
 
@@ -373,7 +373,7 @@ public class How2Forgert implements Serializable {
                                         } else
 
 
-                                        if(e.type.equalsIgnoreCase("d")) {
+                                        if(e.type.equalsIgnoreCase("dd")) {
                                             ct.setIsDone(false);
                                             ct.setDate(r.l(ct.getDate()));
                                         }
@@ -439,7 +439,7 @@ public class How2Forgert implements Serializable {
                                         } else
 
 
-                                        if(e.type.equalsIgnoreCase("d")) {
+                                        if(e.type.equalsIgnoreCase("dd")) {
                                             ct.setIsDone(false);
                                             ct.setDate(r.l(ct.getDate()));
                                         }
@@ -818,8 +818,8 @@ public class How2Forgert implements Serializable {
             if (e.question.replace("DuSDfLgt", "").trim().isEmpty()) {
                 m.deleteTask(e.getJavauid());
             } else {
-//                DecendingTask d = new DecendingTask(e.getFirst());
-//                taskstemp.add(d);
+//                DecendingTask dd = new DecendingTask(e.getFirst());
+//                taskstemp.add(dd);
             }
         }
         Collections.sort(taskstemp, new DecendingTask());

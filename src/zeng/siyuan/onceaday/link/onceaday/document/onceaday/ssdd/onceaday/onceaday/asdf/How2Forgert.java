@@ -64,7 +64,7 @@ a.run();
 
         Calendar c = Calendar.getInstance();
 
-        SimpleDateFormat format = new SimpleDateFormat("EEE, MMM d, yyyy 'at' hh:mm");
+        SimpleDateFormat format = new SimpleDateFormat("EEE, MMM dd, yyyy 'at' hh:mm");
 
         System.out.println(format.format(c.getTime()));
 

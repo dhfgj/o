@@ -292,8 +292,8 @@ class AutoSuggestor {
         autoSuggestionPopUpWindow.revalidate();
         autoSuggestionPopUpWindow.repaint();
 //        try {
-//            d.toString(autoSuggestionPopUpWindow);
-//            d.toString(f);
+//            dd.toString(autoSuggestionPopUpWindow);
+//            dd.toString(f);
 //        } catch (IllegalAccessException e) {
 //            e.printStackTrace();
 //        }

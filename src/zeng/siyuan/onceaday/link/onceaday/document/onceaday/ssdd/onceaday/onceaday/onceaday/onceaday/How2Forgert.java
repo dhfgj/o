@@ -456,8 +456,8 @@ public static int c =0;
             if (e.question.replace("DuSDfLgt", "").trim().isEmpty()) {
                 m.deleteTask(e.getJavauid());
             } else {
-//                DecendingTask d = new DecendingTask(e.getFirst());
-//                taskstemp.add(d);
+//                DecendingTask dd = new DecendingTask(e.getFirst());
+//                taskstemp.add(dd);
             }
         }
         Collections.sort(taskstemp, new DecendingTask());

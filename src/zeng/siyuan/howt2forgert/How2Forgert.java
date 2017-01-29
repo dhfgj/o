@@ -65,7 +65,7 @@ public class How2Forgert implements Serializable {
         StringBuilder stringBuilder = new StringBuilder();
         Date date = new Date();
         Calendar c = Calendar.getInstance();
-        SimpleDateFormat format = new SimpleDateFormat("EEE, MMM d, yyyy 'at' hh:mm");
+        SimpleDateFormat format = new SimpleDateFormat("EEE, MMM dd, yyyy 'at' hh:mm");
         c.add(Calendar.HOUR_OF_DAY, 1);
 
         // found!

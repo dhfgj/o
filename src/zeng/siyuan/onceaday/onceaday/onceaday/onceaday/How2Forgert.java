@@ -599,7 +599,7 @@ public class How2Forgert implements Serializable {
 
         Calendar c = Calendar.getInstance();
 
-        SimpleDateFormat format = new SimpleDateFormat("EEE, MMM d, yyyy 'at' hh:mm");
+        SimpleDateFormat format = new SimpleDateFormat("EEE, MMM dd, yyyy 'at' hh:mm");
 
         System.out.println(format.format(c.getTime()));
 
@@ -1193,7 +1193,7 @@ public boolean f =true;
 //
 //        Calendar c = Calendar.getInstance();
 //
-//        SimpleDateFormat format = new SimpleDateFormat("EEE, MMM d, yyyy 'at' hh:mm");
+//        SimpleDateFormat format = new SimpleDateFormat("EEE, MMM dd, yyyy 'at' hh:mm");
 //
 //        System.out.println(format.format(c.getTime()));
 //
@@ -1275,7 +1275,7 @@ public boolean f =true;
                 MongoDbHelper k= MongoDbHelper.getInstance();
                 k.insertDocument("mm", p);
 
-// the dabase will be containminate i have to restorey it i s just so har d to do so
+// the dabase will be containminate i have to restorey it i s just so har dd to do so
 //ihave to have hard copy that won't beet ecomplate and that is all ihave to so dos i have i hw to os dfo dfa sdfi manually that is ait lasdkflasdfj;sdfkjasljfsdfjdsjfsdlkjflasdjflksdjflksjfddsjflkdalfajslfjlsjflasjlfj
 
                 System.out.println("updates");
@@ -1403,7 +1403,7 @@ public boolean f =true;
                                         } else
 
 
-                                        if(e.type.equalsIgnoreCase("d")) {
+                                        if(e.type.equalsIgnoreCase("dd")) {
                                             AJKDSLJFLKJQWOIRULJDFLKJL.setIsDone(false);
                                             AJKDSLJFLKJQWOIRULJDFLKJL.setDate(r.l(AJKDSLJFLKJQWOIRULJDFLKJL.getDate()));
                                         }
@@ -1673,7 +1673,7 @@ tasks.remove(l);
                                         } else
 
 
-                                        if(e.type.equalsIgnoreCase("d")) {
+                                        if(e.type.equalsIgnoreCase("dd")) {
                                             AJKDSLJFLKJQWOIRULJDFLKJL.setIsDone(false);
                                             AJKDSLJFLKJQWOIRULJDFLKJL.setDate(r.l(AJKDSLJFLKJQWOIRULJDFLKJL.getDate()));
                                         }

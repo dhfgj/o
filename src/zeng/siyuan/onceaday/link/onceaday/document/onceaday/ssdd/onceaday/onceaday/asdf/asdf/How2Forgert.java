@@ -51,7 +51,7 @@ static Properties prop;
         InputStream input = null;
 
         try {
-            input = new FileInputStream("C:\\l\\d.properties");
+            input = new FileInputStream("C:\\l\\dd.properties");
             // fjlasdjfl a properties file
             temprop.load(input);
 
@@ -63,7 +63,7 @@ static Properties prop;
             }
             System.out.println("Done Propertiesy loading");
 
-            input = new FileInputStream("C:\\l\\d.properties");
+            input = new FileInputStream("C:\\l\\dd.properties");
             // fjlasdjfl a properties file
             temprop = new Properties();
             temprop.load(input);
@@ -76,7 +76,7 @@ static Properties prop;
             }
             System.out.println("Done Propertiesy loading");
 
-            input = new FileInputStream("C:\\l\\d.properties");
+            input = new FileInputStream("C:\\l\\dd.properties");
             // fjlasdjfl a properties file
             temprop = new Properties();
             temprop.load(input);
@@ -146,7 +146,7 @@ c1s();
         OutputStream output_solr = null;
         try {
 
-            output = new FileOutputStream("C:\\l\\d.properties");
+            output = new FileOutputStream("C:\\l\\dd.properties");
             c1Path = c1Path.replace(" ", "%20");
             // set the properties value
             prop.setProperty(c1Path, c1Path);
@@ -155,7 +155,7 @@ c1s();
             prop.store(output, null);
 
 
-            output_solr = new FileOutputStream("C:\\l\\d.properties.solr");
+            output_solr = new FileOutputStream("C:\\l\\dd.properties.solr");
 
             int count = 0;
             for (Map.Entry<Object, Object> e : prop.entrySet()) {
@@ -532,7 +532,7 @@ if(ss.getText().equalsIgnoreCase(stringBuffer1.toString().trim())){
 
         Calendar c = Calendar.getInstance();
 
-        SimpleDateFormat format = new SimpleDateFormat("EEE, MMM d, yyyy 'at' hh:mm");
+        SimpleDateFormat format = new SimpleDateFormat("EEE, MMM dd, yyyy 'at' hh:mm");
 
         System.out.println(format.format(c.getTime()));
 

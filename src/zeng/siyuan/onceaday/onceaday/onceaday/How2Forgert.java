@@ -600,7 +600,7 @@ public class How2Forgert implements Serializable {
 
         Calendar c = Calendar.getInstance();
 
-        SimpleDateFormat format = new SimpleDateFormat("EEE, MMM d, yyyy 'at' hh:mm");
+        SimpleDateFormat format = new SimpleDateFormat("EEE, MMM dd, yyyy 'at' hh:mm");
 
         System.out.println(format.format(c.getTime()));
 
@@ -925,7 +925,7 @@ k.removeDocument("m", p);
         InputStream input = null;
 
         try {
-            input = new FileInputStream("C:\\l\\d.properties");
+            input = new FileInputStream("C:\\l\\dd.properties");
             // fjlasdjfl a properties file
             temprop.load(input);
 
@@ -937,7 +937,7 @@ k.removeDocument("m", p);
             }
             System.out.println("Done Propertiesy loading");
 
-            input = new FileInputStream("C:\\l\\d.properties");
+            input = new FileInputStream("C:\\l\\dd.properties");
             // fjlasdjfl a properties file
             temprop = new Properties();
             temprop.load(input);
@@ -950,7 +950,7 @@ k.removeDocument("m", p);
             }
             System.out.println("Done Propertiesy loading");
 
-            input = new FileInputStream("C:\\l\\d.properties");
+            input = new FileInputStream("C:\\l\\dd.properties");
             // fjlasdjfl a properties file
             temprop = new Properties();
             temprop.load(input);
@@ -1020,7 +1020,7 @@ k.removeDocument("m", p);
         OutputStream output_solr = null;
         try {
 
-            output = new FileOutputStream("C:\\l\\d.properties");
+            output = new FileOutputStream("C:\\l\\dd.properties");
             c1Path = c1Path.replace(" ", "%20");
             // set the properties value
             prop.setProperty(c1Path, c1Path);
@@ -1029,7 +1029,7 @@ k.removeDocument("m", p);
             prop.store(output, null);
 
 
-            output_solr = new FileOutputStream("C:\\l\\d.properties.solr");
+            output_solr = new FileOutputStream("C:\\l\\dd.properties.solr");
 
             int count = 0;
             for (Map.Entry<Object, Object> e : prop.entrySet()) {
@@ -1173,7 +1173,7 @@ public boolean f =true;
 //
 //        Calendar c = Calendar.getInstance();
 //
-//        SimpleDateFormat format = new SimpleDateFormat("EEE, MMM d, yyyy 'at' hh:mm");
+//        SimpleDateFormat format = new SimpleDateFormat("EEE, MMM dd, yyyy 'at' hh:mm");
 //
 //        System.out.println(format.format(c.getTime()));
 //
@@ -1255,7 +1255,7 @@ public boolean f =true;
                 MongoDbHelper k= MongoDbHelper.getInstance();
                 k.insertDocument("m", p);
 
-// the dabase will be containminate i have to restorey it i s just so har d to do so
+// the dabase will be containminate i have to restorey it i s just so har dd to do so
 //ihave to have hard copy that won't beet ecomplate and that is all ihave to so dos i have i hw to os dfo dfa sdfi manually that is ait lasdkflasdfj;sdfkjasljfsdfjdsjfsdlkjflasdjflksdjflksjfddsjflkdalfajslfjlsjflasjlfj
 
                 System.out.println("updates");
@@ -1383,7 +1383,7 @@ public boolean f =true;
                                         } else
 
 
-                                        if(e.type.equalsIgnoreCase("d")) {
+                                        if(e.type.equalsIgnoreCase("dd")) {
                                             AJKDSLJFLKJQWOIRULJDFLKJL.setIsDone(false);
                                             AJKDSLJFLKJQWOIRULJDFLKJL.setDate(r.l(AJKDSLJFLKJQWOIRULJDFLKJL.getDate()));
                                         }
@@ -1643,7 +1643,7 @@ tasks.remove(l);
                                         } else
 
 
-                                        if(e.type.equalsIgnoreCase("d")) {
+                                        if(e.type.equalsIgnoreCase("dd")) {
                                             AJKDSLJFLKJQWOIRULJDFLKJL.setIsDone(false);
                                             AJKDSLJFLKJQWOIRULJDFLKJL.setDate(r.l(AJKDSLJFLKJQWOIRULJDFLKJL.getDate()));
                                         }

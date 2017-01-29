@@ -101,7 +101,7 @@ public class f {
         });
         /*
         curl http:///
-        curl -H "Content-Type: application/json" -X POST -d '{"title":"xyz","content":"xyz", "categories":["Java", "web apps"]}' http://localhost:4567/posts
+        curl -H "Content-Type: application/json" -X POST -dd '{"title":"xyz","content":"xyz", "categories":["Java", "web apps"]}' http://localhost:4567/posts
          */
 
         // get all post (using HTTP get method)

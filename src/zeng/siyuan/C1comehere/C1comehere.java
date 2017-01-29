@@ -402,8 +402,8 @@ Properties w;
         OutputStream output = null;
         OutputStream output_solr = null;
         try {
-//C:\l\src\zeng\siyuan\C1comehere\d.properties
-            output = new FileOutputStream("C:\\l\\src\\zeng\\siyuan\\C1comehere\\d.properties");
+//C:\l\src\zeng\siyuan\C1comehere\dd.properties
+            output = new FileOutputStream("C:\\l\\src\\zeng\\siyuan\\C1comehere\\dd.properties");
             // set the properties value
             pdrop.setProperty(c1, c1Path);
 
@@ -541,7 +541,7 @@ Properties w;
         InputStream input = null;
 
         try {
-            input = new FileInputStream("C:\\l\\src\\zeng\\siyuan\\C1comehere\\d.properties");
+            input = new FileInputStream("C:\\l\\src\\zeng\\siyuan\\C1comehere\\dd.properties");
             // fjlasdjfl a properties file
             temprop.load(input);
 
@@ -1317,7 +1317,7 @@ lost in the details
                         else if (textArea.getText().equalsIgnoreCase("siyuanzeng")) {
                             KFHASDF KFHASDF = new KFHASDF();
 //                            try {
-                            KFHASDF.d();
+                            KFHASDF.dd();
 //                            } catch (InterruptedException e1) {
 //                                e1.printStackTrace();
 //                            }
@@ -1436,7 +1436,7 @@ lost in the details
                                             // i wan tto fuck my wife's girld friends and my monm in lwas and all the beautiful and sexual women in th eroad
                                             // that i sjust wahat i am and i feel that i am disguting
                                             // i thought that i am able to do whatever in my mind i sath ebest thing to to to do
-                                            // i the thought come to t me for no reason whey does it come to to me there must be something i am lonely and i wna tto develoepe the same type of relationshiop with others other women like my wife with tme my wife has such special bonds to m e and i wish that i have more tha like that but do i need that many my mind desire something different and that is what is cause thing thpeoblem and my wife is the only one and only one that i have have i will never have sanother thone never have another one that is th e thing when somebody earn much more than me hos w do i feel will i be able to tkeep my self caml and balanced and still be frineds with them therea are just so good thtat i s the thing that is what hapening htaht is what hapening wthat is exact thwa is going on that and that iw it it is a test and they want to see what tiwll happen it just need to happen natureally an d balancedly balanced that is the thing that i s this godod
+                                            // i the thought come to t me for no reason whey does it come to to me there must be something i am lonely and i wna tto develoepe the same type of relationshiop with others other women like my wife with tme my wife has such special bonds to m e and i wish that i have more tha like that but do i need that many my mind desire something different and that is what is cause thing thpeoblem and my wife is the only one and only one that i have have i will never have sanother thone never have another one that is th e thing when somebody earn much more than me hos w do i feel will i be able to tkeep my self caml and balanced and still be frineds with them therea are just so good thtat i s the thing that is what hapening htaht is what hapening wthat is exact thwa is going on that and that iw it it is a test and they want to see what tiwll happen it just need to happen natureally an dd balancedly balanced that is the thing that i s this godod
                                             // i wriote my thought her eand hope that sometime later i will understand that
                                             //  i don't ha ve tother midns and it is acauselu ty ething problem
                                             // there are mushc problem in my mind i anneed to solve it somehow
@@ -1521,7 +1521,7 @@ lost in the details
                                             // i wan tto fuck my wife's girld friends and my monm in lwas and all the beautiful and sexual women in th eroad
                                             // that i sjust wahat i am and i feel that i am disguting
                                             // i thought that i am able to do whatever in my mind i sath ebest thing to to to do
-                                            // i the thought come to t me for no reason whey does it come to to me there must be something i am lonely and i wna tto develoepe the same type of relationshiop with others other women like my wife with tme my wife has such special bonds to m e and i wish that i have more tha like that but do i need that many my mind desire something different and that is what is cause thing thpeoblem and my wife is the only one and only one that i have have i will never have sanother thone never have another one that is th e thing when somebody earn much more than me hos w do i feel will i be able to tkeep my self caml and balanced and still be frineds with them therea are just so good thtat i s the thing that is what hapening htaht is what hapening wthat is exact thwa is going on that and that iw it it is a test and they want to see what tiwll happen it just need to happen natureally an d balancedly balanced that is the thing that i s this godod
+                                            // i the thought come to t me for no reason whey does it come to to me there must be something i am lonely and i wna tto develoepe the same type of relationshiop with others other women like my wife with tme my wife has such special bonds to m e and i wish that i have more tha like that but do i need that many my mind desire something different and that is what is cause thing thpeoblem and my wife is the only one and only one that i have have i will never have sanother thone never have another one that is th e thing when somebody earn much more than me hos w do i feel will i be able to tkeep my self caml and balanced and still be frineds with them therea are just so good thtat i s the thing that is what hapening htaht is what hapening wthat is exact thwa is going on that and that iw it it is a test and they want to see what tiwll happen it just need to happen natureally an dd balancedly balanced that is the thing that i s this godod
                                             // i wriote my thought her eand hope that sometime later i will understand that
                                             //  i don't ha ve tother midns and it is acauselu ty ething problem
                                             // there are mushc problem in my mind i anneed to solve it somehow

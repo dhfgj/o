@@ -121,16 +121,16 @@ public class person_question implements Serializable{
 
 //        Calendar c = Calendar.getInstance();
 
-//        SimpleDateFormat format = new SimpleDateFormat("EEE, MMM d, yyyy 'at' hh:mm");
+//        SimpleDateFormat format = new SimpleDateFormat("EEE, MMM dd, yyyy 'at' hh:mm");
 //
 //        System.out.println(format.format(c.getTime()));
 //
 //        c.add(Calendar.HOUR_OF_DAY, 1);
 //
-//        Calendar d = Calendar.getInstance();
-//        d.setTime(date1);
-//        d.add(Calendar.DATE, 1);
-//        date= new Date(d.getTimeInMillis());
+//        Calendar dd = Calendar.getInstance();
+//        dd.setTime(date1);
+//        dd.add(Calendar.DATE, 1);
+//        date= new Date(dd.getTimeInMillis());
 //
 //        System.out.println(format.format(c.getTime()));
 //
