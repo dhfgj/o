@@ -716,7 +716,7 @@ public class How2Forgert implements Serializable {
                                             if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(e.getText());;
                                             frame.repaint();
                                             frame.toFront();
-
+                                            Thread.sleep(1000*5);
                                             Robot r = new Robot();
                                             int D = KeyEvent.VK_CONTROL;
                                             int Da = KeyEvent.VK_ENTER;
@@ -790,7 +790,7 @@ public class How2Forgert implements Serializable {
                                             textArea.setText(e.getText());
                                             frame.repaint();
                                             frame.toFront();
-
+Thread.sleep(1000*5);
                                         } catch (Exception f) {
                                             f.printStackTrace();
                                         }
@@ -806,7 +806,7 @@ public class How2Forgert implements Serializable {
                                         textArea.setText(e.getText());
                                         frame.repaint();
                                         frame.toFront();
-
+                                        Thread.sleep(1000*5);
                                         j = null;
                                         try {
                                             j = mapper.writeValueAsString(e);
@@ -939,7 +939,7 @@ public class How2Forgert implements Serializable {
                                                 textArea.setText(e.getText());
                                                 frame.repaint();
                                                 frame.toFront();
-
+                                                Thread.sleep(1000*5);
                                                 j = null;
                                                 try {
                                                     j = mapper.writeValueAsString(e);
@@ -1001,7 +1001,7 @@ public class How2Forgert implements Serializable {
                                             textArea.setText(e.getText());
                                             frame.repaint();
                                             frame.toFront();
-
+                                            Thread.sleep(1000*5);
                                         } else {
                                         }
                                         inntuitive += e.text;
@@ -1577,7 +1577,7 @@ tasks.remove(l);
                                             textArea.setText(e.getText());
                                             frame.repaint();
                                             frame.toFront();
-
+                                            Thread.sleep(1000*5);
                                             j = null;
                                             try {
                                                 j = mapper.writeValueAsString(e);
@@ -1640,7 +1640,7 @@ tasks.remove(l);
                                             textArea.setText(e.getText());
                                             frame.repaint();
                                             frame.toFront();
-
+                                            Thread.sleep(1000*5);
                                             j = null;
                                             try {
                                                 j = mapper.writeValueAsString(e);
@@ -1696,7 +1696,7 @@ tasks.remove(l);
                                             textArea.setText(e.getText());;
                                         frame.repaint();
                                         frame.toFront();
-
+                                            Thread.sleep(1000*5);
                                             j = null;
                                             try {
                                                 j = mapper.writeValueAsString(e);
@@ -1993,7 +1993,7 @@ if(tasks.size()>0) {
                                             textArea.setText(e.getText());
                                             frame.repaint();
                                             frame.toFront();
-
+                                            Thread.sleep(1000*5);
                                             j = null;
                                             try {
                                                 j = mapper.writeValueAsString(e);
@@ -2058,7 +2058,7 @@ if(tasks.size()>0) {
                                             textArea.setText(e.getText());
                                             frame.repaint();
                                             frame.toFront();
-
+                                            Thread.sleep(1000*5);
                                             j = null;
                                             try {
                                                 j = mapper.writeValueAsString(e);
@@ -2117,7 +2117,7 @@ if(tasks.size()>0) {
                                             textArea.setText(e.getText());
                                             frame.repaint();
                                             frame.toFront();
-
+                                            Thread.sleep(1000*5);
 
                                             j = null;
                                             try {

@@ -13,7 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5a421b49-605d-4e6f-8d52-2915556c64cd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/r.properties" afterPath="$PROJECT_DIR$/r.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/How2Forgert.java" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/How2Forgert.java" />
     </list>
     <ignored path="c1comehere.iws" />
@@ -69,10 +68,10 @@
       <file leaf-file-name="How2Forgert.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/How2Forgert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="2564" column="30" lean-forward="false" selection-start-line="2564" selection-start-column="30" selection-end-line="2564" selection-end-column="30" />
+            <state relative-caret-position="255">
+              <caret line="687" column="39" lean-forward="false" selection-start-line="687" selection-start-column="34" selection-end-line="687" selection-end-column="39" />
               <folding>
-                <element signature="e#114588#114603#0" expanded="true" />
+                <element signature="e#115259#115274#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -169,7 +168,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>SDisHlow2ForeDgertCommandf</find>
       <find>zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.onceaday.</find>
       <find>text</find>
       <find>&quot;m&quot;</find>
@@ -199,6 +197,7 @@
       <find>main</find>
       <find>JOptionPane.showMessageDialog(frame, e.getText());</find>
       <find>e.getText</find>
+      <find>front</find>
     </findStrings>
     <replaceStrings>
       <replace>https://outlook.live.com/owa/</replace>
@@ -2147,14 +2146,7 @@
       <workItem from="1485551104900" duration="1399000" />
       <workItem from="1485554176459" duration="3192000" />
       <workItem from="1485564350669" duration="5467000" />
-      <workItem from="1485581293963" duration="9955000" />
-    </task>
-    <task id="LOCAL-00046" summary="1">
-      <created>1485056037958</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1485056037958</updated>
+      <workItem from="1485581293963" duration="10142000" />
     </task>
     <task id="LOCAL-00047" summary="1">
       <created>1485056237154</created>
@@ -2492,7 +2484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485721685796</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="1">
+      <created>1485722174830</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1485722174830</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2528,7 +2527,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1204248000" />
+    <option name="totallyTimeSpent" value="1204435000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -3587,10 +3586,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/How2Forgert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="2564" column="30" lean-forward="false" selection-start-line="2564" selection-start-column="30" selection-end-line="2564" selection-end-column="30" />
+        <state relative-caret-position="255">
+          <caret line="687" column="39" lean-forward="false" selection-start-line="687" selection-start-column="34" selection-end-line="687" selection-end-column="39" />
           <folding>
-            <element signature="e#114588#114603#0" expanded="true" />
+            <element signature="e#115259#115274#0" expanded="true" />
           </folding>
         </state>
       </provider>
