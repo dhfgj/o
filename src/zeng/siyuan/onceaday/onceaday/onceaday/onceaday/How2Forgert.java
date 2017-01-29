@@ -787,7 +787,7 @@ public class How2Forgert implements Serializable {
                                             }
 
 //                                            r.open(inntuitive);
-                                            JOptionPane.showMessageDialog(frame, e.getText());
+                                            textArea.setText(e.getText());
                                             frame.repaint();
                                             frame.toFront();
 
@@ -803,7 +803,7 @@ public class How2Forgert implements Serializable {
                                         }
 
 //                                            r.open(inntuitive);
-                                        JOptionPane.showMessageDialog(frame, e.getText());
+                                        textArea.setText(e.getText());
                                         frame.repaint();
                                         frame.toFront();
                                     } else {
@@ -889,7 +889,7 @@ public class How2Forgert implements Serializable {
                                                 }
 
 //                                            r.open(inntuitive);
-                                                JOptionPane.showMessageDialog(frame, e.getText());
+                                                textArea.setText(e.getText());
                                                 frame.repaint();
                                                 frame.toFront();
                                             } catch (Exception f) {
@@ -904,7 +904,7 @@ public class How2Forgert implements Serializable {
                                             }
 
 //                                            r.open(inntuitive);
-                                            JOptionPane.showMessageDialog(frame, e.getText());
+                                            textArea.setText(e.getText());
                                             frame.repaint();
                                             frame.toFront();
 
@@ -1480,7 +1480,7 @@ tasks.remove(l);
                                                 Thread.sleep(10000);
                                             }
 
-                                            JOptionPane.showMessageDialog(frame, e.getText());
+                                            textArea.setText(e.getText());
                                             frame.repaint();
                                             frame.toFront();
 
@@ -1497,7 +1497,7 @@ tasks.remove(l);
                                                 Thread.sleep(10000);
                                             }
 
-                                            JOptionPane.showMessageDialog(frame, e.getText());
+                                            textArea.setText(e.getText());
                                             frame.repaint();
                                             frame.toFront();
 
@@ -1507,7 +1507,7 @@ tasks.remove(l);
                                         if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); }                                             while (f){
                                                 Thread.sleep(10000);
                                             }
-                                            JOptionPane.showMessageDialog(frame, e.getText());;
+                                            textArea.setText(e.getText());;
                                         frame.repaint();
                                         frame.toFront();
 
@@ -1758,7 +1758,7 @@ if(tasks.size()>0) {
                                                 Thread.sleep(10000);
                                             }
 
-                                            JOptionPane.showMessageDialog(frame, e.getText());
+                                            textArea.setText(e.getText());
                                             frame.repaint();
                                             frame.toFront();
 
@@ -1777,7 +1777,7 @@ if(tasks.size()>0) {
                                             }
 
 //                                            r.open(inntuitive);
-                                            JOptionPane.showMessageDialog(frame, e.getText());
+                                            textArea.setText(e.getText());
                                             frame.repaint();
                                             frame.toFront();
 
@@ -1790,7 +1790,7 @@ if(tasks.size()>0) {
                                                 Thread.sleep(10000);
                                             }
 
-                                            JOptionPane.showMessageDialog(frame, e.getText());
+                                            textArea.setText(e.getText());
                                             frame.repaint();
                                             frame.toFront();
 
