@@ -684,8 +684,8 @@ public class How2Forgert implements Serializable {
                             Thread.sleep(10000);
                         }
 
-                        frame.repaint();
-                        frame.toFront();
+//                        frame.repaint();
+//                        frame.toFront();
                         AJKDSLJFLKJQWOIRULJDFLKJL = t;
                         String inntuitive ="";
 
@@ -806,6 +806,53 @@ public class How2Forgert implements Serializable {
                                         textArea.setText(e.getText());
                                         frame.repaint();
                                         frame.toFront();
+
+                                        j = null;
+                                        try {
+                                            j = mapper.writeValueAsString(e);
+                                        } catch (JsonProcessingException e1) {
+                                            e1.printStackTrace();
+                                        }
+//                                        System.out.println(j);
+//                                    inntuitive = j;
+//                                    logDictionary(
+//                                            null, null, inntuitive
+//                                    );
+                                        // Convert object to JSON string and pretty print
+                                        try {
+                                            j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+                                        } catch (JsonProcessingException e1) {
+                                            e1.printStackTrace();
+                                        }
+//                                        System.out.println(j);
+                                        p = (DBObject) JSON
+                                                .parse(j);
+
+
+                                        k = null;
+                                        try {
+                                            k = MongoDbHelper.getInstance();
+                                        } catch (UnknownHostException e1) {
+                                            e1.printStackTrace();
+                                        }
+                                        // i mess up the database againa nd agan and that is the case that will contaiminate all the datea base
+                                        // how to back up the dabatavAE SO THAT the production data won't be containminated
+//                                    k.insertDocument("mm", p);
+//                                    k.removeDocument("mm", p);
+
+                                        searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
+
+
+                                        k.updateDocument("mm", searchQuery, p);
+//k.removeDocument("mm", p);
+
+                                        if (ebbinghauses.size()>0) {
+                                            ebbinghauses.remove(d);
+                                        }
+                                        if(tasks.size()>0) {
+//                                            tasks.remove(l);                                    ///*
+                                        }
+
                                     } else {
                                     }
                                     inntuitive += e.text;
@@ -826,8 +873,8 @@ public class How2Forgert implements Serializable {
                                         while (!textArea.getText().trim().isEmpty()) {
                                             Thread.sleep(10000);
                                         }
-                                        frame.repaint();
-                                        frame.toFront();
+//                                        frame.repaint();
+//                                        frame.toFront();
                                         AJKDSLJFLKJQWOIRULJDFLKJL = t;
                                         String inntuitive = "";
 
@@ -892,6 +939,53 @@ public class How2Forgert implements Serializable {
                                                 textArea.setText(e.getText());
                                                 frame.repaint();
                                                 frame.toFront();
+
+                                                j = null;
+                                                try {
+                                                    j = mapper.writeValueAsString(e);
+                                                } catch (JsonProcessingException e1) {
+                                                    e1.printStackTrace();
+                                                }
+//                                        System.out.println(j);
+//                                    inntuitive = j;
+//                                    logDictionary(
+//                                            null, null, inntuitive
+//                                    );
+                                                // Convert object to JSON string and pretty print
+                                                try {
+                                                    j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+                                                } catch (JsonProcessingException e1) {
+                                                    e1.printStackTrace();
+                                                }
+//                                        System.out.println(j);
+                                                p = (DBObject) JSON
+                                                        .parse(j);
+
+
+                                                k = null;
+                                                try {
+                                                    k = MongoDbHelper.getInstance();
+                                                } catch (UnknownHostException e1) {
+                                                    e1.printStackTrace();
+                                                }
+                                                // i mess up the database againa nd agan and that is the case that will contaiminate all the datea base
+                                                // how to back up the dabatavAE SO THAT the production data won't be containminated
+//                                    k.insertDocument("mm", p);
+//                                    k.removeDocument("mm", p);
+
+                                                searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
+
+
+                                                k.updateDocument("mm", searchQuery, p);
+//k.removeDocument("mm", p);
+
+                                                if (ebbinghauses.size()>0) {
+                                                    ebbinghauses.remove(d);
+                                                }
+                                                if(tasks.size()>0) {
+//                                                    tasks.remove(l);                                    ///*
+                                                }
+
                                             } catch (Exception f) {
                                                 f.printStackTrace();
                                             }
@@ -1484,6 +1578,52 @@ tasks.remove(l);
                                             frame.repaint();
                                             frame.toFront();
 
+                                            j = null;
+                                            try {
+                                                j = mapper.writeValueAsString(e);
+                                            } catch (JsonProcessingException e1) {
+                                                e1.printStackTrace();
+                                            }
+//                                        System.out.println(j);
+//                                    inntuitive = j;
+//                                    logDictionary(
+//                                            null, null, inntuitive
+//                                    );
+                                            // Convert object to JSON string and pretty print
+                                            try {
+                                                j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+                                            } catch (JsonProcessingException e1) {
+                                                e1.printStackTrace();
+                                            }
+//                                        System.out.println(j);
+                                            p = (DBObject) JSON
+                                                    .parse(j);
+
+
+                                            k = null;
+                                            try {
+                                                k = MongoDbHelper.getInstance();
+                                            } catch (UnknownHostException e1) {
+                                                e1.printStackTrace();
+                                            }
+                                            // i mess up the database againa nd agan and that is the case that will contaiminate all the datea base
+                                            // how to back up the dabatavAE SO THAT the production data won't be containminated
+//                                    k.insertDocument("mm", p);
+//                                    k.removeDocument("mm", p);
+
+                                            searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
+
+
+                                            k.updateDocument("mm", searchQuery, p);
+//k.removeDocument("mm", p);
+
+                                            if (ebbinghauses.size()>0) {
+                                                ebbinghauses.remove(d);
+                                            }
+                                            if(tasks.size()>0) {
+                                                tasks.remove(l);                                    ///*
+                                            }
+
 //                                                    r.o(search.getURIString());
 //                                                } else {
 //                                                }
@@ -1501,6 +1641,52 @@ tasks.remove(l);
                                             frame.repaint();
                                             frame.toFront();
 
+                                            j = null;
+                                            try {
+                                                j = mapper.writeValueAsString(e);
+                                            } catch (JsonProcessingException e1) {
+                                                e1.printStackTrace();
+                                            }
+//                                        System.out.println(j);
+//                                    inntuitive = j;
+//                                    logDictionary(
+//                                            null, null, inntuitive
+//                                    );
+                                            // Convert object to JSON string and pretty print
+                                            try {
+                                                j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+                                            } catch (JsonProcessingException e1) {
+                                                e1.printStackTrace();
+                                            }
+//                                        System.out.println(j);
+                                            p = (DBObject) JSON
+                                                    .parse(j);
+
+
+                                            k = null;
+                                            try {
+                                                k = MongoDbHelper.getInstance();
+                                            } catch (UnknownHostException e1) {
+                                                e1.printStackTrace();
+                                            }
+                                            // i mess up the database againa nd agan and that is the case that will contaiminate all the datea base
+                                            // how to back up the dabatavAE SO THAT the production data won't be containminated
+//                                    k.insertDocument("mm", p);
+//                                    k.removeDocument("mm", p);
+
+                                            searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
+
+
+                                            k.updateDocument("mm", searchQuery, p);
+//k.removeDocument("mm", p);
+
+                                            if (ebbinghauses.size()>0) {
+                                                ebbinghauses.remove(d);
+                                            }
+                                            if(tasks.size()>0) {
+                                                tasks.remove(l);                                    ///*
+                                            }
+
                                     }
 
                                     else {
@@ -1510,6 +1696,52 @@ tasks.remove(l);
                                             textArea.setText(e.getText());;
                                         frame.repaint();
                                         frame.toFront();
+
+                                            j = null;
+                                            try {
+                                                j = mapper.writeValueAsString(e);
+                                            } catch (JsonProcessingException e1) {
+                                                e1.printStackTrace();
+                                            }
+//                                        System.out.println(j);
+//                                    inntuitive = j;
+//                                    logDictionary(
+//                                            null, null, inntuitive
+//                                    );
+                                            // Convert object to JSON string and pretty print
+                                            try {
+                                                j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+                                            } catch (JsonProcessingException e1) {
+                                                e1.printStackTrace();
+                                            }
+//                                        System.out.println(j);
+                                            p = (DBObject) JSON
+                                                    .parse(j);
+
+
+                                            k = null;
+                                            try {
+                                                k = MongoDbHelper.getInstance();
+                                            } catch (UnknownHostException e1) {
+                                                e1.printStackTrace();
+                                            }
+                                            // i mess up the database againa nd agan and that is the case that will contaiminate all the datea base
+                                            // how to back up the dabatavAE SO THAT the production data won't be containminated
+//                                    k.insertDocument("mm", p);
+//                                    k.removeDocument("mm", p);
+
+                                            searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
+
+
+                                            k.updateDocument("mm", searchQuery, p);
+//k.removeDocument("mm", p);
+
+                                            if (ebbinghauses.size()>0) {
+                                                ebbinghauses.remove(d);
+                                            }
+                                            if(tasks.size()>0) {
+                                                tasks.remove(l);                                    ///*
+                                            }
 
                                     }
 
@@ -1762,6 +1994,52 @@ if(tasks.size()>0) {
                                             frame.repaint();
                                             frame.toFront();
 
+                                            j = null;
+                                            try {
+                                                j = mapper.writeValueAsString(e);
+                                            } catch (JsonProcessingException e1) {
+                                                e1.printStackTrace();
+                                            }
+//                                        System.out.println(j);
+//                                    inntuitive = j;
+//                                    logDictionary(
+//                                            null, null, inntuitive
+//                                    );
+                                            // Convert object to JSON string and pretty print
+                                            try {
+                                                j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+                                            } catch (JsonProcessingException e1) {
+                                                e1.printStackTrace();
+                                            }
+//                                        System.out.println(j);
+                                            p = (DBObject) JSON
+                                                    .parse(j);
+
+
+                                            k = null;
+                                            try {
+                                                k = MongoDbHelper.getInstance();
+                                            } catch (UnknownHostException e1) {
+                                                e1.printStackTrace();
+                                            }
+                                            // i mess up the database againa nd agan and that is the case that will contaiminate all the datea base
+                                            // how to back up the dabatavAE SO THAT the production data won't be containminated
+//                                    k.insertDocument("mm", p);
+//                                    k.removeDocument("mm", p);
+
+                                            searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
+
+
+                                            k.updateDocument("mm", searchQuery, p);
+//k.removeDocument("mm", p);
+
+                                            if (ebbinghauses.size()>0) {
+                                                ebbinghauses.remove(d);
+                                            }
+                                            if(tasks.size()>0) {
+                                                tasks.remove(l);                                    ///*
+                                            }
+
 //                                            r.o(search.getURIString());
 //                                                } else {
 //                                                }
@@ -1781,6 +2059,52 @@ if(tasks.size()>0) {
                                             frame.repaint();
                                             frame.toFront();
 
+                                            j = null;
+                                            try {
+                                                j = mapper.writeValueAsString(e);
+                                            } catch (JsonProcessingException e1) {
+                                                e1.printStackTrace();
+                                            }
+//                                        System.out.println(j);
+//                                    inntuitive = j;
+//                                    logDictionary(
+//                                            null, null, inntuitive
+//                                    );
+                                            // Convert object to JSON string and pretty print
+                                            try {
+                                                j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+                                            } catch (JsonProcessingException e1) {
+                                                e1.printStackTrace();
+                                            }
+//                                        System.out.println(j);
+                                            p = (DBObject) JSON
+                                                    .parse(j);
+
+
+                                            k = null;
+                                            try {
+                                                k = MongoDbHelper.getInstance();
+                                            } catch (UnknownHostException e1) {
+                                                e1.printStackTrace();
+                                            }
+                                            // i mess up the database againa nd agan and that is the case that will contaiminate all the datea base
+                                            // how to back up the dabatavAE SO THAT the production data won't be containminated
+//                                    k.insertDocument("mm", p);
+//                                    k.removeDocument("mm", p);
+
+                                            searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
+
+
+                                            k.updateDocument("mm", searchQuery, p);
+//k.removeDocument("mm", p);
+
+                                            if (ebbinghauses.size()>0) {
+                                                ebbinghauses.remove(d);
+                                            }
+                                            if(tasks.size()>0) {
+                                                tasks.remove(l);                                    ///*
+                                            }
+
                                         }
 
                                         else {
@@ -1794,6 +2118,52 @@ if(tasks.size()>0) {
                                             frame.repaint();
                                             frame.toFront();
 
+
+                                            j = null;
+                                            try {
+                                                j = mapper.writeValueAsString(e);
+                                            } catch (JsonProcessingException e1) {
+                                                e1.printStackTrace();
+                                            }
+//                                        System.out.println(j);
+//                                    inntuitive = j;
+//                                    logDictionary(
+//                                            null, null, inntuitive
+//                                    );
+                                            // Convert object to JSON string and pretty print
+                                            try {
+                                                j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+                                            } catch (JsonProcessingException e1) {
+                                                e1.printStackTrace();
+                                            }
+//                                        System.out.println(j);
+                                            p = (DBObject) JSON
+                                                    .parse(j);
+
+
+                                            k = null;
+                                            try {
+                                                k = MongoDbHelper.getInstance();
+                                            } catch (UnknownHostException e1) {
+                                                e1.printStackTrace();
+                                            }
+                                            // i mess up the database againa nd agan and that is the case that will contaiminate all the datea base
+                                            // how to back up the dabatavAE SO THAT the production data won't be containminated
+//                                    k.insertDocument("mm", p);
+//                                    k.removeDocument("mm", p);
+
+                                            searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
+
+
+                                            k.updateDocument("mm", searchQuery, p);
+//k.removeDocument("mm", p);
+
+                                            if (ebbinghauses.size()>0) {
+                                                ebbinghauses.remove(d);
+                                            }
+                                            if(tasks.size()>0) {
+                                                tasks.remove(l);                                    ///*
+                                            }
 
                                         }
 

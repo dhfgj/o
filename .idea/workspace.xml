@@ -8,11 +8,12 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java" line="0" mnemonic="1" />
     <bookmark url="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/How2Forgert.java" line="1087" mnemonic="2" />
-    <bookmark url="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/How2Forgert.java" line="1938" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/How2Forgert.java" line="2308" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a421b49-605d-4e6f-8d52-2915556c64cd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/r.properties" afterPath="$PROJECT_DIR$/r.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/How2Forgert.java" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/How2Forgert.java" />
     </list>
     <ignored path="c1comehere.iws" />
@@ -68,9 +69,11 @@
       <file leaf-file-name="How2Forgert.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/How2Forgert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="1481" column="0" lean-forward="true" selection-start-line="1481" selection-start-column="0" selection-end-line="1481" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="236">
+              <caret line="2564" column="30" lean-forward="false" selection-start-line="2564" selection-start-column="30" selection-end-line="2564" selection-end-column="30" />
+              <folding>
+                <element signature="e#114588#114603#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,7 +152,7 @@
         <entry file="file://$PROJECT_DIR$/r.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="701">
-              <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -2144,14 +2147,7 @@
       <workItem from="1485551104900" duration="1399000" />
       <workItem from="1485554176459" duration="3192000" />
       <workItem from="1485564350669" duration="5467000" />
-      <workItem from="1485581293963" duration="9466000" />
-    </task>
-    <task id="LOCAL-00045" summary="1">
-      <created>1480838624620</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1480838624620</updated>
+      <workItem from="1485581293963" duration="9955000" />
     </task>
     <task id="LOCAL-00046" summary="1">
       <created>1485056037958</created>
@@ -2489,7 +2485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485715901850</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="1">
+      <created>1485721685795</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1485721685796</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2525,7 +2528,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1203759000" />
+    <option name="totallyTimeSpent" value="1204248000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -3029,25 +3032,25 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/How2Forgert.java</url>
-          <line>1445</line>
+          <line>1539</line>
           <properties />
           <option name="timeStamp" value="373" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/How2Forgert.java</url>
-          <line>1440</line>
+          <line>1534</line>
           <properties />
           <option name="timeStamp" value="374" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/How2Forgert.java</url>
-          <line>1438</line>
+          <line>1532</line>
           <properties />
           <option name="timeStamp" value="375" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/How2Forgert.java</url>
-          <line>1416</line>
+          <line>1510</line>
           <properties />
           <option name="timeStamp" value="376" />
         </line-breakpoint>
@@ -3398,8 +3401,8 @@
         <state relative-caret-position="245">
           <caret line="184" column="11" lean-forward="false" selection-start-line="184" selection-start-column="11" selection-end-line="184" selection-end-column="11" />
           <folding>
-            <element signature="e#5677#5678#0" expanded="true" />
-            <element signature="e#5717#5718#0" expanded="true" />
+            <element signature="e#5677#5678#0" expanded="false" />
+            <element signature="e#5717#5718#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3569,7 +3572,7 @@
     <entry file="file://$PROJECT_DIR$/r.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="701">
-          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -3584,9 +3587,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/How2Forgert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="1481" column="0" lean-forward="true" selection-start-line="1481" selection-start-column="0" selection-end-line="1481" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="236">
+          <caret line="2564" column="30" lean-forward="false" selection-start-line="2564" selection-start-column="30" selection-end-line="2564" selection-end-column="30" />
+          <folding>
+            <element signature="e#114588#114603#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
