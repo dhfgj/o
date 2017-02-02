@@ -46,6 +46,7 @@ alias cdp="cd ~/projects/gesc-services"
 # copy adn fuplica thte bashrc file to my c1comehere project
 
 cp ~/.bashrc /Users/vn0xrjh/daniel/14_GUIcopymacosx/c1comehere/bashrc
+cp ~/.bashrc /Users/lujinglin/l/bashr2017
 cp -r  /Users/vn0xrjh/app/utils/dsc-cassandra-2.1.14/data/data /Users/vn0xrjh/daniel/14_GUIcopymacosx/c1comehere/backupcanssandra/data
 cp -r /Users/vn0xrjh/app/utils/solr-6.2.1/server/solr /Users/vn0xrjh/daniel/14_GUIcopymacosx/c1comehere/solrbkpbackup
 
