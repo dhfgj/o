@@ -97,7 +97,7 @@ Properties w;
             }
             System.out.println("Done Propertiesy loading");
 
-            input = new FileInputStream(new File("w.properties").getAbsolutePath();
+            input = new FileInputStream(new File("w.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop = new Properties();
             temprop.load(input);
