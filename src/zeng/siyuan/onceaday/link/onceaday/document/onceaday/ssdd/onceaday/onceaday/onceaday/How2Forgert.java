@@ -305,7 +305,7 @@ while(f){
         InputStream input = null;
 
         try {
-            input = new FileInputStream("C:\\l\\src\\zeng\\siyuan\\onceaday\\link\\onceaday\\document\\onceaday\\ssdd\\onceaday\\onceaday\\l.properties");
+            input = new FileInputStream(new File("src\\zeng\\siyuan\\onceaday\\link\\onceaday\\document\\onceaday\\ssdd\\onceaday\\onceaday\\l.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop.load(input);
 
@@ -365,7 +365,7 @@ while(f){
         OutputStream output_solr = null;
         try {
 
-            output = new FileOutputStream("C:\\l\\src\\zeng\\siyuan\\onceaday\\link\\onceaday\\document\\onceaday\\ssdd\\onceaday\\onceaday\\l.properties");
+            output = new FileOutputStream(new File("src\\zeng\\siyuan\\onceaday\\link\\onceaday\\document\\onceaday\\ssdd\\onceaday\\onceaday\\l.properties").getAbsolutePath());
             // set the properties value
             jk.setProperty(c1, c1Path);
 

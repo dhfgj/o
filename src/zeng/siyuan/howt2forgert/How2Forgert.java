@@ -9,6 +9,7 @@ import zeng.siyuan.reuseutil.r;
 import zeng.siyuan.solr.solr;
 
 import javax.swing.*;
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Serializable;
@@ -404,7 +405,7 @@ public class How2Forgert implements Serializable {
         try {
             String str = gson.toJson(ebbinghauses);
 
-            FileWriter writer = new FileWriter("C:\\l\\c1comehere\\ebbinghauses.txt");
+            FileWriter writer = new FileWriter(new File("c1comehere\\ebbinghauses.txt").getAbsolutePath());
             writer.write(str);
             writer.close();
 

@@ -11,6 +11,7 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
@@ -297,7 +298,7 @@ public class n extends JFrame{
 		OutputStream output_solr = null;
 		try {
 
-			output = new FileOutputStream("C:\\l\\src\\main\\j\\resources\\c1s.properties");
+			output = new FileOutputStream(new File("src\\main\\j\\resources\\c1s.properties").getAbsolutePath());
 			c1 = c1.replace(" ", "%20");
 //			System.out.println("c1come2melater();");
 			// set the properties value

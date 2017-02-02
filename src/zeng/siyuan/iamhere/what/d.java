@@ -309,7 +309,7 @@ public class d {
         OutputStream output_solr = null;
         try {
 
-            output = new FileOutputStream("C:\\l\\src\\zeng\\siyuan\\C1comehere\\p.properties");
+            output = new FileOutputStream(new File("src\\zeng\\siyuan\\C1comehere\\p.properties").getAbsolutePath());
 //            c1 = c1.replace(" ", "%20");
 //             set the properties value
 //            p.setProperty(c1, c1Path);
@@ -318,7 +318,7 @@ public class d {
             p.store(output, null);
 
 
-            output_solr = new FileOutputStream("C:\\l\\src\\zeng\\siyuan\\C1comehere\\psolr.properties");
+            output_solr = new FileOutputStream(new File("src\\zeng\\siyuan\\C1comehere\\psolr.properties").getAbsolutePath());
             p.store(output_solr, null);
 //            int count = 0;
 //            for (Map.Entry<Object, Object> e : p.entrySet()) {

@@ -941,7 +941,7 @@ public class How2Forgert implements Serializable {
         InputStream input = null;
 
         try {
-            input = new FileInputStream("C:\\l\\r.properties");
+            input = new FileInputStream(new File("r.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop.load(input);
 
@@ -953,7 +953,7 @@ public class How2Forgert implements Serializable {
             }
             System.out.println("Done Propertiesy loading");
 
-            input = new FileInputStream("C:\\l\\r.properties");
+            input = new FileInputStream(new File("r.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop = new Properties();
             temprop.load(input);
@@ -966,7 +966,7 @@ public class How2Forgert implements Serializable {
             }
             System.out.println("Done Propertiesy loading");
 
-            input = new FileInputStream("C:\\l\\r.properties");
+            input = new FileInputStream(new File("r.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop = new Properties();
             temprop.load(input);
@@ -1036,7 +1036,7 @@ public class How2Forgert implements Serializable {
         OutputStream output_solr = null;
         try {
 
-            output = new FileOutputStream("C:\\l\\r.properties");
+            output = new FileOutputStream(new File("r.properties").getAbsolutePath());
             c1Path = c1Path.replace(" ", "%20");
             // set the properties value
             prop.setProperty(c1Path, c1Path);
@@ -1045,7 +1045,7 @@ public class How2Forgert implements Serializable {
             prop.store(output, null);
 
 
-            output_solr = new FileOutputStream("C:\\l\\r.properties.solr");
+            output_solr = new FileOutputStream(new File("r.properties.solr").getAbsolutePath());
 
             int count = 0;
             for (Map.Entry<Object, Object> e : prop.entrySet()) {
