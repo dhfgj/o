@@ -1035,7 +1035,7 @@ Thread.sleep(1000*5);
         InputStream input = null;
 
         try {
-            input = new FileInputStream("C:\\l\\r.properties");
+            input = new FileInputStream(new File("r.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop.load(input);
 
@@ -1047,7 +1047,7 @@ Thread.sleep(1000*5);
             }
             System.out.println("Done Propertiesy loading");
 
-            input = new FileInputStream("C:\\l\\r.properties");
+            input = new FileInputStream(new File("r.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop = new Properties();
             temprop.load(input);
@@ -1060,7 +1060,7 @@ Thread.sleep(1000*5);
             }
             System.out.println("Done Propertiesy loading");
 
-            input = new FileInputStream("C:\\l\\r.properties");
+            input = new FileInputStream(new File("r.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop = new Properties();
             temprop.load(input);
@@ -1130,7 +1130,7 @@ Thread.sleep(1000*5);
         OutputStream output_solr = null;
         try {
 
-            output = new FileOutputStream("C:\\l\\r.properties");
+            output = new FileOutputStream(new File("r.properties").getAbsolutePath());
             c1Path = c1Path.replace(" ", "%20");
             // set the properties value
             prop.setProperty(c1Path, c1Path);
@@ -1139,7 +1139,7 @@ Thread.sleep(1000*5);
             prop.store(output, null);
 
 
-            output_solr = new FileOutputStream("C:\\l\\r.properties.solr");
+            output_solr = new FileOutputStream(new File("r.properties.solr").getAbsolutePath());
 
             int count = 0;
             for (Map.Entry<Object, Object> e : prop.entrySet()) {

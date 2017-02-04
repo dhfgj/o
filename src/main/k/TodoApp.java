@@ -23,7 +23,7 @@ public class TodoApp {
 		OutputStream output = null;
 		OutputStream output_solr = null;
 		try {
-			output = new FileOutputStream("C:\\l\\src\\main\\resources\\c1s.properties");
+			output = new FileOutputStream(new File("src\\main\\resources\\c1s.properties").getAbsolutePath());
 
 //				File directory = new File("C:\\Users\\SiyuanZeng's\\Videos\\Movie\\Xu Wei");
 			//get all the files from a directory
@@ -163,7 +163,7 @@ public class TodoApp {
 		InputStream input = null;
 
 		try {
-			input = new FileInputStream("C:\\l\\src\\main\\resources\\c1s.properties");
+			input = new FileInputStream(new File("src\\main\\resources\\c1s.properties").getAbsolutePath());
 			// fjlasdjfl a properties file
 			temprop.load(input);
 

@@ -925,7 +925,7 @@ k.removeDocument("m", p);
         InputStream input = null;
 
         try {
-            input = new FileInputStream("C:\\l\\dd.properties");
+            input = new FileInputStream(new File("d.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop.load(input);
 
@@ -937,7 +937,7 @@ k.removeDocument("m", p);
             }
             System.out.println("Done Propertiesy loading");
 
-            input = new FileInputStream("C:\\l\\dd.properties");
+            input = new FileInputStream(new File("d.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop = new Properties();
             temprop.load(input);
@@ -950,7 +950,7 @@ k.removeDocument("m", p);
             }
             System.out.println("Done Propertiesy loading");
 
-            input = new FileInputStream("C:\\l\\dd.properties");
+            input = new FileInputStream(new File("d.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop = new Properties();
             temprop.load(input);
@@ -1020,7 +1020,7 @@ k.removeDocument("m", p);
         OutputStream output_solr = null;
         try {
 
-            output = new FileOutputStream("C:\\l\\dd.properties");
+            output = new FileOutputStream(new File("d.properties").getAbsolutePath());
             c1Path = c1Path.replace(" ", "%20");
             // set the properties value
             prop.setProperty(c1Path, c1Path);
@@ -1029,7 +1029,7 @@ k.removeDocument("m", p);
             prop.store(output, null);
 
 
-            output_solr = new FileOutputStream("C:\\l\\dd.properties.solr");
+            output_solr = new FileOutputStream(new File("d.properties").getAbsolutePath());
 
             int count = 0;
             for (Map.Entry<Object, Object> e : prop.entrySet()) {

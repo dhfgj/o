@@ -4,6 +4,7 @@ package zeng.siyuan.C1comehere;
 import fg.f;
 import loli.datepicker.DatePicker;
 import main.k.TodoApp;
+import org.testng.annotations.Test;
 import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.findthebestexample;
 import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.findtheshortcut;
 import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.findtutroial.findtheshortcutyoutututouiral;
@@ -74,7 +75,8 @@ Properties w;
         InputStream input = null;
 
         try {
-            input = new FileInputStream("C:\\l\\w.properties");
+            new File("w.properties").getAbsolutePath();
+            input = new FileInputStream(new File("w.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop.load(input);
 
@@ -95,7 +97,7 @@ Properties w;
             }
             System.out.println("Done Propertiesy loading");
 
-            input = new FileInputStream("C:\\l\\w.properties");
+            input = new FileInputStream(new File("w.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop = new Properties();
             temprop.load(input);
@@ -165,7 +167,7 @@ Properties w;
         OutputStream output_solr = null;
         try {
 
-            output = new FileOutputStream("C:\\l\\w.properties");
+            output = new FileOutputStream(new File("w.properties").getAbsolutePath());
             c1Path = c1Path.replace(" ", "%20");
             // set the properties value
             w.setProperty(c1Path, c1Path);
@@ -174,7 +176,7 @@ Properties w;
             w.store(output, null);
 
 
-            output_solr = new FileOutputStream("C:\\l\\w.properties.solr");
+            output_solr = new FileOutputStream(new File("w.properties.solr").getAbsolutePath());
 
             int count = 0;
             for (Map.Entry<Object, Object> e : w.entrySet()) {
@@ -285,7 +287,7 @@ Properties w;
         OutputStream output_solr = null;
         try {
 
-            output = new FileOutputStream("C:\\l\\c1s.properties");
+            output = new FileOutputStream(new File("cls.properties").getAbsolutePath());
             c1 = c1.replace(" ", "%20");
             // set the properties value
             prop.setProperty(c1, c1Path);
@@ -294,7 +296,7 @@ Properties w;
             prop.store(output, null);
 
 
-            output_solr = new FileOutputStream("C:\\l\\c1s.properties.solr");
+            output_solr = new FileOutputStream(new File("cls.properties.solr").getAbsolutePath());
 
             int count = 0;
             for (Map.Entry<Object, Object> e : prop.entrySet()) {
@@ -359,7 +361,7 @@ Properties w;
         OutputStream output_solr = null;
         try {
 
-            output = new FileOutputStream("C:\\l\\src\\zeng\\siyuan\\C1comehere\\l.properties");
+            output = new FileOutputStream(new File("src\\zeng\\siyuan\\C1comehere\\l.properties").getAbsolutePath());
             // set the properties value
             jk.setProperty(c1, c1Path);
 
@@ -405,7 +407,9 @@ Properties w;
         OutputStream output_solr = null;
         try {
 //C:\l\src\zeng\siyuan\C1comehere\dd.properties
-            output = new FileOutputStream("C:\\l\\src\\zeng\\siyuan\\C1comehere\\dd.properties");
+//            output = new FileOutputStream("C:\\l\\src\\zeng\\siyuan\\C1comehere\\dd.properties");
+//C:\l\src\zeng\siyuan\C1comehere\d.properties
+            output = new FileOutputStream(new File("src\\zeng\\siyuan\\C1comehere\\d.properties").getAbsolutePath());
             // set the properties value
             pdrop.setProperty(c1, c1Path);
 
@@ -450,7 +454,7 @@ Properties w;
         InputStream input = null;
 
         try {
-            input = new FileInputStream("C:\\l\\c1s.properties");
+            input = new FileInputStream(new File("c1s.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop.load(input);
 
@@ -462,7 +466,7 @@ Properties w;
             }
             System.out.println("Done Propertiesy loading");
 
-            input = new FileInputStream("C:\\l\\src\\main\\resources\\c1s.properties");
+            input = new FileInputStream(new File("src\\main\\resources\\c1s.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop = new Properties();
             temprop.load(input);
@@ -475,7 +479,7 @@ Properties w;
             }
             System.out.println("Done Propertiesy loading");
 
-            input = new FileInputStream("C:\\l\\src\\zeng\\siyuan\\C1comehere\\p.properties");
+            input = new FileInputStream(new File("src\\zeng\\siyuan\\C1comehere\\p.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop = new Properties();
             temprop.load(input);
@@ -543,7 +547,8 @@ Properties w;
         InputStream input = null;
 
         try {
-            input = new FileInputStream("C:\\l\\src\\zeng\\siyuan\\C1comehere\\dd.properties");
+//            input = new FileInputStream("C:\\l\\src\\zeng\\siyuan\\C1comehere\\dd.properties");
+            input = new FileInputStream(new File("src\\zeng\\siyuan\\C1comehere\\d.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop.load(input);
 
@@ -599,13 +604,30 @@ Properties w;
 
     public static int k=0;
 
-    public void c1ds() {
+
+    @Test
+
+    public void c1dsasdf() {
+        String path = new File("src/zeng/siyuan/C1comehere/C1comehere.java").getAbsolutePath();
+
+        System.out.println(path);
+
+    }
+
+        public void c1ds() {
         jk = new Properties();
         Properties temprop = new Properties();
         InputStream input = null;
 
         try {
-            input = new FileInputStream("C:\\l\\c1s.properties");
+//            "/Users/lujinglin/l/src/zeng/siyuan/C1comehere/C1comehere.java"
+
+
+            String path = new File("src/zeng/siyuan/C1comehere/C1comehere.java")
+                    .getAbsolutePath();
+            System.out.println(path);
+
+            input = new FileInputStream(new File("src/zeng/siyuan/C1comehere/C1comehere.java").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop.load(input);
 

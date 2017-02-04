@@ -280,7 +280,7 @@ public class ListFilesUtil {
         OutputStream output_solr = null;
         try {
 
-            output = new FileOutputStream("C:\\l\\src\\zeng\\siyuan\\C1comehere\\p.properties");
+            output = new FileOutputStream(new File("src\\zeng\\siyuan\\C1comehere\\p.properties").getAbsolutePath());
 //            c1 = c1.replace(" ", "%20");
 //             set the properties value
 //            p.setProperty(c1, c1Path);
@@ -289,7 +289,7 @@ public class ListFilesUtil {
             p.store(output, null);
 
 
-            output_solr = new FileOutputStream("C:\\l\\src\\zeng\\siyuan\\C1comehere\\psolr.properties");
+            output_solr = new FileOutputStream(new File("src\\zeng\\siyuan\\C1comehere\\psolr.properties").getAbsolutePath());
             p.store(output_solr, null);
 //            int count = 0;
 //            for (Map.Entry<Object, Object> e : p.entrySet()) {
@@ -325,7 +325,7 @@ public class ListFilesUtil {
         InputStream input = null;
 
         try {
-            input = new FileInputStream("C:\\l\\src\\zeng\\siyuan\\C1comehere\\p.properties");
+            input = new FileInputStream(new File("src\\zeng\\siyuan\\C1comehere\\p.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop.load(input);
 
@@ -337,7 +337,7 @@ public class ListFilesUtil {
             }
             System.out.println("Done Propertiesy loading");
 
-//            input = new FileInputStream("C:\\l\\src\\main\\resources\\c1s.properties");
+//            input = new FileInputStream(new File("d.properties").getAbsolutePath()"src\\main\\resources\\c1s.properties");
             // fjlasdjfl a properties file
 //            temprop = new Properties();
 //            temprop.load(input);
@@ -637,7 +637,7 @@ public class ListFilesUtil {
         OutputStream output_solr = null;
         try {
 
-            output = new FileOutputStream("C:\\l\\src\\zeng\\siyuan\\C1comehere\\s.properties");
+            output = new FileOutputStream(new File("src\\zeng\\siyuan\\C1comehere\\s.properties").getAbsolutePath());
             c1 = c1.replace(" ", "%20");
             System.out.println("c1come2melater();");
             // set the properties value
@@ -707,7 +707,7 @@ public class ListFilesUtil {
         OutputStream output_solr = null;
         try {
 
-            output = new FileOutputStream("C:\\l\\src\\zeng\\siyuan\\C1comehere\\s.properties");
+            output = new FileOutputStream(new File("src\\zeng\\siyuan\\C1comehere\\s.properties").getAbsolutePath());
             c1 = c1.replace(" ", "%20");
             System.out.println("c1come2melater();");
             // set the properties value
@@ -777,7 +777,7 @@ public class ListFilesUtil {
         InputStream input = null;
 
         try {
-            input = new FileInputStream("C:\\l\\src\\zeng\\siyuan\\C1comehere\\s.properties");
+            input = new FileInputStream(new File("src\\zeng\\siyuan\\C1comehere\\s.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop.load(input);
 

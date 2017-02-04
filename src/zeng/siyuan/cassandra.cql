@@ -106,6 +106,14 @@ create table keyspace1.color(
 	PRIMARY KEY (id)
 );
 
+create table keyspace1.plany(
+	id uuid,
+	target_date timestamp,
+	txt text,
+	type text,
+	tasks list<frozen<type4>>,
+	PRIMARY KEY (id)
+);
 
 create table keyspace1.review(
 	id uuid,
