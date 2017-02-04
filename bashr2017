@@ -1,4 +1,24 @@
 
+   function kafkap() {
+      kafkapd &&  bin/kafka-console-producer.sh --broker-list localhost:9092 --topic test
+}
+
+export -f kafkap
+
+alias kafkapd='cd /usr/local/Cellar/kafka/0.10.1.1/libexec'
+
+
+   function kafkac() {
+      kafkapd && bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test --from-beginning
+}
+
+export -f kafkac
+
+alias kafkapd='cd /usr/local/Cellar/kafka/0.10.1.1/libexec'
+
+
+alias v='vim ~/.bashrc'
+export KAFKA=/usr/local/Cellar/kafka/0.10.1.1/libexec/bin
 cp ~/.bashrc /Users/lujinglin/l/bashr2017
 export GOPATH=/Users/lujinglin/go
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home
@@ -6,7 +26,7 @@ export MONGOD=/usr/local/Cellar/mongodb/3.4.1
 alias kafkaso='cd /Users/lujinglin/kafka && ls && pwd'
 alias burrow='cd /Users/lujinglin/go/src/github.com/linkedin/Burrow && ls &&  pwd'
 alias kafka='cd /usr/local/Cellar/kafka/0.10.1.1/libexec/bin && pwd'
-alias kafkas='cd /usr/local/Cellar/kafka/0.10.1.1/libexec/bin && ./kafka-server-start.sh ./../config/server.properties && ls &&  pwd'
+alias kafkass='cd /usr/local/Cellar/kafka/0.10.1.1/libexec/bin && ./kafka-server-start.sh ./../config/server.properties && ls &&  pwd'
 alias zks='zkServer start'
 alias burrow='cd $GOPATH/src/github.com/linkedin/Burrow && ls &&  pwd'
 alias burrows='$GOPATH/bin/Burrow --config /Users/lujinglin/go/src/github.com/linkedin/Burrow/config/burrow.cfg'
@@ -17,6 +37,7 @@ alias burrower='cd /Users/lujinglin/burrower && ls && pwd'
 alias burrowers='burrower && java -cp target/scala-2.11/burrower-0.2-SNAPSHOT.jar:conf/ com.github.splee.burrower.OffsetMonitor'
 #brew installs binary in separate directories inside /usr/local dir. Then makes symlink inside /usr/local/bin. To get real path to binary type for example this (for tree command):
 alias whereins='ls -l /usr/local/bin/ | grep $1'
+alias p='pwd'
 alias mkdir='mkdir -p $1'
 export App=/usr/local
 #mongod
@@ -165,7 +186,7 @@ alias killwhwatever='lsof -ti:$1 | xargs kill -9'
 
 # ..............................................................................................Walmart Deve......................................................................................
 # port
-alias po='ps -ef|grep catalina'
+alias pocat='ps -ef|grep catalina'
 
 
 
@@ -241,11 +262,15 @@ alias f='sudo find . -print | grep -i $1'
 alias find='sudo find . -print | grep -i $1'
 
 
+#List all IP addresses connected to your Server
+alias ncp='netstat -tn 2>/dev/null | grep :$1 | awk '{print $5}' | cut -d: -f1 | sort | uniq -c | sort -nr | head'
+
+
 #We can find files in our current directory easily by setting this alias:
 
 alias fh="find . -name $1"
-
-alias search="ps aux | grep $1"
+#what applicaiton is running on which pot
+alias po="ps aux | grep $1"
 alias ..="cd .."
 
 
@@ -262,9 +287,15 @@ alias ls='ls -lh'
 # ..............................................................................................Internet......................................................................................
 
 
+   function kafkas() {
+      zks && kafkass
+}
+
+export -f kafkas
+
+
    function start() {
-      mongod
-      cassandra -f
+      mongod && cassandra -f && solr start
 }
 
 export -f start
@@ -430,3 +461,5 @@ alias solr='cd /usr/local/Cellar/solr/6.3.0/'
 #brew install gradle
 
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
+
+
