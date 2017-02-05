@@ -1,3 +1,4 @@
+/*
 package zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.a.asdf.asdf.asdf.asdf;
 
 import zeng.siyuan.C1comehere.C1comehere;
@@ -129,7 +130,7 @@ public class How2Forgert implements Serializable {
                 stringBuilder.append(textinput);
                 stringBuilder.append(System.getProperty("line.separator"));
 
-                e.text = stringBuilder.toString();
+                e.setText(stringBuilder.toString());
 
                 m.store(e);
                 System.out.println("updates");
@@ -291,3 +292,4 @@ public class How2Forgert implements Serializable {
     }
 }
 
+*/

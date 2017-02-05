@@ -30,7 +30,7 @@ public class person_question implements Serializable{
     public UUID javauid;
 
     @Column(name = "txt")
-    String text;
+    public String text;
 
     @Column(name = "type")
     String type;
@@ -40,7 +40,7 @@ public class person_question implements Serializable{
 
     @FrozenValue
     @Column(name = "tasks")
-    Set<Task> tasks;
+    public Set<Task> tasks;
 
     //        20 minutes
     @Transient
