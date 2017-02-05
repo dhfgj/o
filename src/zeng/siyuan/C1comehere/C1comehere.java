@@ -2020,7 +2020,7 @@ s.updatetask();
                         }
 
 
-                        else if (SDcodjDa_lxf) {
+                        else if (SDislDoald) {
                             System.out.println("asdf");
                             if (textArea.getText().equalsIgnoreCase("k")) {
                                 ja.f=ja.f==false?true:false;
