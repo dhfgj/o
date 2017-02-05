@@ -269,6 +269,8 @@ create table keyspace1.j(
 
 select * from keyspace1.k ;
 
+select * from keyspace1.kk;
+
 truncate keyspace1.k ;
 
 create table keyspace1.k(
