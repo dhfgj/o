@@ -859,6 +859,18 @@ Runnable b =()-> {
         e.printStackTrace();
     }
 
+    if (null == ja) {
+        ja= new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.a.asdf.How2Forgert(c1comehere, textArea, frame);
+    }
+    ja.c1comehere = c1comehere;
+    ja.textArea = textArea;
+    ja.frame = frame;
+    try {
+        ja.init();
+    } catch (Exception e) {
+        e.printStackTrace();
+    }
+
 
     if (null == dhow2Forgert) {
         dhow2Forgert = new zeng.siyuan.onceaday.How2Forgert(c1comehere, textArea, frame);

@@ -1,3 +1,4 @@
+/*
 package zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.asdf.asdf.asdf;
 
 import zeng.siyuan.C1comehere.C1comehere;
@@ -291,3 +292,4 @@ public class How2Forgert implements Serializable {
     }
 }
 
+*/
