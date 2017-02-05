@@ -1340,16 +1340,17 @@ lost in the details
                             KFHASDF.testOpenLogin2JLAKSDJFLASDJFLKJM();
 
                         }
+*/
                         else if (textArea.getText().equalsIgnoreCase("siyuanzeng")) {
-                            KFHASDF KFHASDF = new KFHASDF();
+                            sq KFHASDF = new sq();
 //                            try {
-                            KFHASDF.dd();
+                            KFHASDF.testNewMessagew();
 //                            } catch (InterruptedException e1) {
 //                                e1.printStackTrace();
 //                            }
 
                         }
-
+/*
                         else if (textArea.getText().equalsIgnoreCase("zengb45")) {
                             KFHASDF KFHASDF = new KFHASDF();
                             KFHASDF.testOpenLogin();
