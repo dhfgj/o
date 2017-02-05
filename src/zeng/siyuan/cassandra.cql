@@ -282,6 +282,17 @@ create table keyspace1.k(
 	);
 
 
+create table keyspace1.kk(
+	id uuid,
+	target_date timestamp,
+	txt text,
+	type text,
+	tasks list<frozen<type4>>,
+	PRIMARY KEY (id)
+
+	);
+
+
 
 create table keyspace1.person_question_produ (
 	id uuid,

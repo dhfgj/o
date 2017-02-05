@@ -60,6 +60,7 @@ public class C1comehere implements Serializable {
     //    public C:\Development_Base\maxcox\maxcox-master\src\zeng\siyuan\onceaday\onceaday\onceaday\How2Forgert dhow2ForgDertlssf;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.How2Forgert a;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.How2Forgert j;
+    public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.a.asdf.How2Forgert ja;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.asdf.How2Forgert jd;
     public static C1comehere c1comehere;
     public static Font font = new Font("Serif", Font.PLAIN, c.SIZE);
@@ -2022,12 +2023,13 @@ s.updatetask();
                         else if (SDcodjDa_lxf) {
                             System.out.println("asdf");
                             if (textArea.getText().equalsIgnoreCase("k")) {
-                                j.f=j.f==false?true:false;
-                                dhow2ForgDertlsf.f=dhow2ForgDertlsf.f==false?true:false;
-                                dhow2ForgDertlssf.f=dhow2ForgDertlssf.f==false?true:false;
+                                ja.f=ja.f==false?true:false;
+//                                dhow2ForgDertlsf.f=dhow2ForgDertlsf.f==false?true:false;
+//                                dhow2ForgDertlssf.f=dhow2ForgDertlssf.f==false?true:false;
                             } else {
-
-                                j.d();
+// they are so funny that they will......
+                                // i can not do it
+                                ja.d();
 
                                 String textStr[] = textArea.getText().split("\\r\\n|\\n|\\r");
 
@@ -2043,19 +2045,19 @@ s.updatetask();
                                 //sconrn
                                 // strip of
                                 //
-                                for (int i1 = 0; i1 < textStr.length; i1++) {
-
-                                    StringBuffer stringBuffer1 = new StringBuffer();
+//                                for (int i1 = 0; i1 < textStr.length; i1++) {
+//
+//                                    StringBuffer stringBuffer1 = new StringBuffer();
 //                        stringBuffer1.append(textStr[0]);
-                                    stringBuffer1.append(textStr[i1]);
+//                                    stringBuffer1.append(textStr[i1]);
 
-                                    dhow2ForgDertlsf.inster(textStr[i1], "");
+//                                    dhow2ForgDertlsf.inster(textStr[i1], "");
                                 }
 
-                                dhow2ForgDertlssf.fjlasdjfl();
+//                                dhow2ForgDertlssf.fjlasdjfl();
                                 textArea.setText("");
                             }
-                        }
+//                        }
 //
 
                         else if (SDcodjDa_lxf) {
