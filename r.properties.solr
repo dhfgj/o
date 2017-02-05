@@ -34,8 +34,8 @@
 33,Ctrl + F11 Toggle bookmark with mnemonic ,Ctrl%20+%20F11%20Toggle%20bookmark%20with%20mnemonic%20
 34,Expand/Collapse Ctrl++/-,Expand/Collapse%20Ctrl++/-
 35,thr throw new ,thr%20throw%20new%20
-36,View breakpoint Ctrl+Shift+F8,View%20breakpoint%20Ctrl+Shift+F8
-37,next edit location Ctrl+Shift+Alt+Backspace,next%20edit%20location%20Ctrl+Shift+Alt+Backspace
+36,next edit location Ctrl+Shift+Alt+Backspace,next%20edit%20location%20Ctrl+Shift+Alt+Backspace
+37,View breakpoint Ctrl+Shift+F8,View%20breakpoint%20Ctrl+Shift+F8
 38,Ctrl + Tab Switch between tabs and tool window,Ctrl%20+%20Tab%20Switch%20between%20tabs%20and%20tool%20window
 39,Select tot he block Ctrl+Shift+[],Select%20tot%20he%20block%20Ctrl+Shift+[]
 40,Alt + Shift + C View recent changes ,Alt%20+%20Shift%20+%20C%20View%20recent%20changes%20
@@ -49,14 +49,14 @@
 48,F4 / Ctrl + Enter Edit source / View source ,F4%20/%20Ctrl%20+%20Enter%20Edit%20source%20/%20View%20source%20
 49,Alt + Home Show navigation bar ,Alt%20+%20Home%20Show%20navigation%20bar%20
 50,Alt + Shift + F Add to Favorites ,Alt%20+%20Shift%20+%20F%20Add%20to%20Favorites%20
-51,Debug Ctrl+Shift+F9,Debug%20Ctrl+Shift+F9
-52,Goto Type definition Ctrl+Shift+B,Goto%20Type%20definition%20Ctrl+Shift+B
-53,last edit location Ctrl+Shift+Backspace/Ctrl+Alt+Backspace  ,last%20edit%20location%20Ctrl+Shift+Backspace/Ctrl+Alt+Backspace%20%20
-54,Ctrl + Alt + Y Synchronize ,Ctrl%20+%20Alt%20+%20Y%20Synchronize%20
-55,Surround with Ctrl+Shift+Insert,Surround%20with%20Ctrl+Shift+Insert
-56,w ,
-57,inst Check object type with instanceof and downcast it itco Iterate elements of java.util.Collection ,inst%20Check object type%20with%20instanceof%20and%20downcast%20it%20itco%20Iterate%20elements%20of%20java.util.Collection%20
-58,Goto Quick definition Ctrl+Shif+I,Goto%20Quick%20definition%20Ctrl+Shif+I
+51,Goto Type definition Ctrl+Shift+B,Goto%20Type%20definition%20Ctrl+Shift+B
+52,Debug Ctrl+Shift+F9,Debug%20Ctrl+Shift+F9
+53,Highlight usages in file Ctrl+Shift+F7,Highlight%20usages%20in%20file%20Ctrl+Shift+F7
+54,last edit location Ctrl+Shift+Backspace/Ctrl+Alt+Backspace  ,last%20edit%20location%20Ctrl+Shift+Backspace/Ctrl+Alt+Backspace%20%20
+55,Ctrl + Alt + Y Synchronize ,Ctrl%20+%20Alt%20+%20Y%20Synchronize%20
+56,Surround with Ctrl+Shift+Insert,Surround%20with%20Ctrl+Shift+Insert
+57,w ,
+58,inst Check object type with instanceof and downcast it itco Iterate elements of java.util.Collection ,inst%20Check object type%20with%20instanceof%20and%20downcast%20it%20itco%20Iterate%20elements%20of%20java.util.Collection%20
 59,Alt + BackQuote (`) ‘VCS’ quick popup,Alt%20+%20BackQuote%20(`)%20‘VCS’%20quick%20popup
 60,Dd whole word Ctrl+Delete/Backspace ,Dd%20whole%20word%20Ctrl+Delete/Backspace%20
 61,Alt + Shift + I Inspect current file with current profile ,Alt%20+%20Shift%20+%20I%20Inspect%20current%20file%20with%20current%20profile%20
