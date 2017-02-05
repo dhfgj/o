@@ -1357,6 +1357,15 @@ lost in the details
                         else if (textArea.getText().equalsIgnoreCase("siyuanzeng")) {
                             sq KFHASDF = new sq();
 //                            try {
+                            KFHASDF.atestNewMessagew();
+//                            } catch (InterruptedException e1) {
+//                                e1.printStackTrace();
+//                            }
+
+                        }
+                        else if (textArea.getText().equalsIgnoreCase("siyuanzengd")) {
+                            sq KFHASDF = new sq();
+//                            try {
                             KFHASDF.testNewMessagew();
 //                            } catch (InterruptedException e1) {
 //                                e1.printStackTrace();
