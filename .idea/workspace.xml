@@ -12,265 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a421b49-605d-4e6f-8d52-2915556c64cd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/DecendingTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/MongoDbHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/DecendingTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/DecendingTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/DecendingTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/asdf/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/asdf/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/asdf/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/asdf/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/asdf/c.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/asdf/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/asdf/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/asdf/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/asdf/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/c.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/c.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/l.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/DecendingTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/asdf/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/asdf/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/asdf/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/asdf/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/asdf/c.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/asdf/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/asdf/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/asdf/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/asdf/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/c.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/c.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/l.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/DecendingTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/MongoDbHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/DecendingTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/DecendingTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/DecendingTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/asdf/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/asdf/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/asdf/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/asdf/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/asdf/c.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/asdf/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/asdf/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/asdf/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/asdf/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/c.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/c.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/l.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/DecendingTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/asdf/BeepingButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/asdf/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/asdf/How2Forgert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/asdf/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/asdf/c.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/asdf/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/asdf/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/asdf/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/asdf/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/c.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/c.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/deletediary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/design.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/l.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/t.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/peoplequesiton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/person_question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/t.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d.properties.solr" afterPath="$PROJECT_DIR$/d.properties.solr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d.properties" afterPath="$PROJECT_DIR$/d.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/d.properties" afterPath="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/d.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zeng/siyuan/cassandra.cql" afterPath="$PROJECT_DIR$/src/zeng/siyuan/cassandra.cql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java" afterPath="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/How2Forgert.java" afterPath="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/How2Forgert.java" />
     </list>
     <ignored path="c1comehere.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -312,42 +57,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BeepingButton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/BeepingButton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BeepingButton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/asdf/BeepingButton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Task.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/Task.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Task.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/onceaday/asdf/asdf/Task.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1268#1269#0" expanded="false" />
+                <element signature="e#1295#1296#0" expanded="false" />
+                <element signature="e#1333#1334#0" expanded="false" />
+                <element signature="e#1365#1366#0" expanded="false" />
+                <element signature="e#1399#1400#0" expanded="false" />
+                <element signature="e#1428#1429#0" expanded="false" />
+                <element signature="e#1473#1474#0" expanded="false" />
+                <element signature="e#1509#1510#0" expanded="false" />
+                <element signature="e#1542#1543#0" expanded="false" />
+                <element signature="e#1573#1574#0" expanded="false" />
+                <element signature="e#1619#1620#0" expanded="false" />
+                <element signature="e#1654#1655#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -357,7 +86,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1139#1156#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -367,7 +99,20 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#342#343#0" expanded="false" />
+                <element signature="e#372#373#0" expanded="false" />
+                <element signature="e#419#420#0" expanded="false" />
+                <element signature="e#457#458#0" expanded="false" />
+                <element signature="e#490#491#0" expanded="false" />
+                <element signature="e#514#515#0" expanded="false" />
+                <element signature="e#553#554#0" expanded="false" />
+                <element signature="e#579#580#0" expanded="false" />
+                <element signature="e#615#616#0" expanded="false" />
+                <element signature="e#641#642#0" expanded="false" />
+                <element signature="e#673#674#0" expanded="false" />
+                <element signature="e#704#705#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -387,7 +132,21 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1226#1227#0" expanded="false" />
+                <element signature="e#1253#1254#0" expanded="false" />
+                <element signature="e#1291#1292#0" expanded="false" />
+                <element signature="e#1323#1324#0" expanded="false" />
+                <element signature="e#1357#1358#0" expanded="false" />
+                <element signature="e#1386#1387#0" expanded="false" />
+                <element signature="e#1431#1432#0" expanded="false" />
+                <element signature="e#1467#1468#0" expanded="false" />
+                <element signature="e#1500#1501#0" expanded="false" />
+                <element signature="e#1531#1532#0" expanded="false" />
+                <element signature="e#1577#1578#0" expanded="false" />
+                <element signature="e#1612#1613#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -402,12 +161,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deletediary.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="deletediary.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/deletediary.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="C1comehere.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="562">
+              <caret line="1005" column="6" lean-forward="false" selection-start-line="1005" selection-start-column="6" selection-end-line="1005" selection-end-column="6" />
+              <folding>
+                <element signature="e#54069#54077#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deletediary.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/deletediary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="How2Forgert.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/How2Forgert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+              <folding>
+                <element signature="e#90018#90033#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -423,9 +216,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Thread</find>
-      <find>while (f)</find>
-      <find>JOptionPane.showMessageDialog</find>
       <find>c1comehere</find>
       <find>E.</find>
       <find>Runtime</find>
@@ -453,6 +243,9 @@
       <find>j.d</find>
       <find>fa</find>
       <find>DisHlow2ForeDgertCommand</find>
+      <find>&quot;m&quot;</find>
+      <find>&quot;p&quot;</find>
+      <find>dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG</find>
     </findStrings>
     <replaceStrings>
       <replace>https://outlook.live.com/owa/</replace>
@@ -473,6 +266,7 @@
       <replace>&quot;mm&quot;</replace>
       <replace>r.properties</replace>
       <replace>textArea.setText(e.getText());</replace>
+      <replace>&quot;p&quot;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\l\src\zeng\siyuan</dir>
@@ -499,7 +293,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/j/hj/MainWindow.java" />
         <option value="$PROJECT_DIR$/src/main/j/hj/h.java" />
         <option value="$PROJECT_DIR$/src/main/j/hj/TodoListModel.java" />
         <option value="$PROJECT_DIR$/src/main/j/hj/vg.java" />
@@ -548,8 +341,9 @@
         <option value="$PROJECT_DIR$/src/zeng/siyuan/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/a/asdf/asdf/asdf/asdf/How2Forgert.java" />
         <option value="$PROJECT_DIR$/src/zeng/siyuan/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/asdf/asdf/asdf/How2Forgert.java" />
         <option value="C:/email/src/main/java/com/epam/preprod/firefox/model/sq.java" />
-        <option value="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java" />
         <option value="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/design.java" />
+        <option value="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/How2Forgert.java" />
+        <option value="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java" />
       </list>
     </option>
   </component>
@@ -974,6 +768,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="siyuan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onceaday" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onceaday" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onceaday" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="c1comehere" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="l" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="siyuan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onceaday" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -3221,14 +3049,7 @@
       <workItem from="1486238942426" duration="1752000" />
       <workItem from="1486252826650" duration="64000" />
       <workItem from="1486253191494" duration="11000" />
-      <workItem from="1486254361779" duration="14584000" />
-    </task>
-    <task id="LOCAL-00073" summary="1">
-      <created>1485284161502</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1485284161502</updated>
+      <workItem from="1486254361779" duration="15051000" />
     </task>
     <task id="LOCAL-00074" summary="1">
       <created>1485284454832</created>
@@ -3566,7 +3387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1486273450169</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="l">
+      <created>1486310931199</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1486310931199</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -3602,7 +3430,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1225201000" />
+    <option name="totallyTimeSpent" value="1225668000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -3615,7 +3443,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1928" height="1056" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32756758" sideWeight="0.49811116" order="6" side_tool="false" content_ui="tabs" />
@@ -3632,7 +3460,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33615223" sideWeight="0.49379385" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22228034" sideWeight="0.5339426" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22228034" sideWeight="0.5339426" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986537" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30866808" sideWeight="0.4526814" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16370293" sideWeight="0.4600262" order="13" side_tool="true" content_ui="tabs" x="719" y="170" width="478" height="586" />
@@ -3995,7 +3823,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java</url>
-          <line>1464</line>
+          <line>1484</line>
           <properties />
           <option name="timeStamp" value="323" />
         </line-breakpoint>
@@ -4055,7 +3883,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java</url>
-          <line>984</line>
+          <line>985</line>
           <properties />
           <option name="timeStamp" value="358" />
         </line-breakpoint>
@@ -4191,22 +4019,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/email/src/main/java/com/epam/preprod/firefox/pages/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdfa/asdf/asdf/asdf/How2Forgert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdfa/asdf/asdf/Task.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -4436,10 +4248,10 @@
         <state relative-caret-position="357">
           <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
           <folding>
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="false" />
+            <element signature="e#346#347#0" expanded="false" />
+            <element signature="e#589#590#0" expanded="false" />
+            <element signature="e#615#616#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4511,16 +4323,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="1258" column="90" lean-forward="true" selection-start-line="1258" selection-start-column="90" selection-end-line="1258" selection-end-column="90" />
-          <folding>
-            <element signature="e#53263#53271#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/How2Forgert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -4541,7 +4343,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -4549,7 +4353,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -4557,7 +4363,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1259#1260#0" expanded="false" />
+            <element signature="e#1286#1287#0" expanded="false" />
+            <element signature="e#1324#1325#0" expanded="false" />
+            <element signature="e#1356#1357#0" expanded="false" />
+            <element signature="e#1390#1391#0" expanded="false" />
+            <element signature="e#1419#1420#0" expanded="false" />
+            <element signature="e#1464#1465#0" expanded="false" />
+            <element signature="e#1500#1501#0" expanded="false" />
+            <element signature="e#1533#1534#0" expanded="false" />
+            <element signature="e#1564#1565#0" expanded="false" />
+            <element signature="e#1610#1611#0" expanded="false" />
+            <element signature="e#1645#1646#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -4565,7 +4385,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1268#1269#0" expanded="false" />
+            <element signature="e#1295#1296#0" expanded="false" />
+            <element signature="e#1333#1334#0" expanded="false" />
+            <element signature="e#1365#1366#0" expanded="false" />
+            <element signature="e#1399#1400#0" expanded="false" />
+            <element signature="e#1428#1429#0" expanded="false" />
+            <element signature="e#1473#1474#0" expanded="false" />
+            <element signature="e#1509#1510#0" expanded="false" />
+            <element signature="e#1542#1543#0" expanded="false" />
+            <element signature="e#1573#1574#0" expanded="false" />
+            <element signature="e#1619#1620#0" expanded="false" />
+            <element signature="e#1654#1655#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -4573,7 +4407,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1139#1156#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -4581,7 +4418,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#342#343#0" expanded="false" />
+            <element signature="e#372#373#0" expanded="false" />
+            <element signature="e#419#420#0" expanded="false" />
+            <element signature="e#457#458#0" expanded="false" />
+            <element signature="e#490#491#0" expanded="false" />
+            <element signature="e#514#515#0" expanded="false" />
+            <element signature="e#553#554#0" expanded="false" />
+            <element signature="e#579#580#0" expanded="false" />
+            <element signature="e#615#616#0" expanded="false" />
+            <element signature="e#641#642#0" expanded="false" />
+            <element signature="e#673#674#0" expanded="false" />
+            <element signature="e#704#705#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -4597,7 +4447,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1226#1227#0" expanded="false" />
+            <element signature="e#1253#1254#0" expanded="false" />
+            <element signature="e#1291#1292#0" expanded="false" />
+            <element signature="e#1323#1324#0" expanded="false" />
+            <element signature="e#1357#1358#0" expanded="false" />
+            <element signature="e#1386#1387#0" expanded="false" />
+            <element signature="e#1431#1432#0" expanded="false" />
+            <element signature="e#1467#1468#0" expanded="false" />
+            <element signature="e#1500#1501#0" expanded="false" />
+            <element signature="e#1531#1532#0" expanded="false" />
+            <element signature="e#1577#1578#0" expanded="false" />
+            <element signature="e#1612#1613#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -4614,6 +4478,34 @@
         <state relative-caret-position="85">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/deletediary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/a/onceaday/How2Forgert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding>
+            <element signature="e#90018#90033#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="1005" column="6" lean-forward="false" selection-start-line="1005" selection-start-column="6" selection-end-line="1005" selection-end-column="6" />
+          <folding>
+            <element signature="e#54069#54077#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

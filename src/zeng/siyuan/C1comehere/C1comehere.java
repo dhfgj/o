@@ -56,6 +56,7 @@ public class C1comehere implements Serializable {
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.onceaday.How2Forgert dhow2ForgDertlssf;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.onceaday.onceaday.How2Forgert aa;
     public zeng.siyuan.onceaday.onceaday.onceaday.How2Forgert dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG;
+    public zeng.siyuan.onceaday.onceaday.onceaday.a.onceaday.How2Forgert ad;
     public zeng.siyuan.onceaday.onceaday.onceaday.onceaday.How2Forgert E;
     //    public C:\Development_Base\maxcox\maxcox-master\src\zeng\siyuan\onceaday\onceaday\onceaday\How2Forgert dhow2ForgDertlssf;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.How2Forgert a;
@@ -994,6 +995,16 @@ Runnable b =()-> {
     dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.frame = frame;
     dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.init();
 
+    if (null == ad) {
+        ad= new zeng.siyuan.onceaday.onceaday.onceaday.a.onceaday.How2Forgert(c1comehere, textArea, frame);
+    }
+
+
+    ad.c1comehere = c1comehere;
+    ad.textArea = textArea;
+    ad.frame = frame;
+    ad.init();
+
     if (null == E) {
         E = new zeng.siyuan.onceaday.onceaday.onceaday.onceaday.How2Forgert(c1comehere, textArea, frame);
     }
@@ -1257,6 +1268,15 @@ but i don't have to time to review the same thing again and again
                                 dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.f = dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.f==false?true:false;
                             else {
                                 dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.load();
+                                textArea.setText("");
+                            }
+                        }
+                        else if (DldeleteCommandd_X ) {
+                            System.out.println("Disloadl");
+                            if (textArea.getText().equalsIgnoreCase("k"))
+                                ad.f = dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.f==false?true:false;
+                            else {
+                                ad.load();
                                 textArea.setText("");
                             }
                         }

@@ -96,7 +96,7 @@ public class How2Forgert implements Serializable {
 
 
                     MongoDbHelper k = MongoDbHelper.getInstance();
-                    k.insertDocument("m", p);
+                    k.insertDocument("p", p);
                     person_question finalE1 = e;
                     Runnable ks = () -> LKJ(finalE1);
                     ks.run();
@@ -122,7 +122,7 @@ public class How2Forgert implements Serializable {
 
 
                     MongoDbHelper k = MongoDbHelper.getInstance();
-                    k.insertDocument("m", p);
+                    k.insertDocument("p", p);
                     person_question finalE1 = e;
                     Runnable ks = () -> LKJ(finalE1);
                     ks.run();
@@ -155,7 +155,7 @@ public class How2Forgert implements Serializable {
 
 
                     MongoDbHelper k = MongoDbHelper.getInstance();
-                    k.insertDocument("m", p);
+                    k.insertDocument("p", p);
                     person_question finalE1 = e;
                     Runnable ks = () -> LKJ(finalE1);
                     ks.run();
@@ -180,7 +180,7 @@ public class How2Forgert implements Serializable {
 
 
                     MongoDbHelper k = MongoDbHelper.getInstance();
-                    k.insertDocument("m", p);
+                    k.insertDocument("p", p);
                     person_question finalE1 = e;
                     Runnable ks = () -> LKJ(finalE1);
                     ks.run();
@@ -208,7 +208,7 @@ public class How2Forgert implements Serializable {
 
 
                     MongoDbHelper k = MongoDbHelper.getInstance();
-                    k.insertDocument("m", p);
+                    k.insertDocument("p", p);
                     person_question finalE1 = e;
                     Runnable ks = () -> LKJ(finalE1);
                     ks.run();
@@ -234,7 +234,7 @@ public class How2Forgert implements Serializable {
 
 
                     MongoDbHelper k = MongoDbHelper.getInstance();
-                    k.insertDocument("m", p);
+                    k.insertDocument("p", p);
                     person_question finalE1 = e;
                     Runnable ks = () -> LKJ(finalE1);
                     ks.run();
@@ -261,7 +261,7 @@ public class How2Forgert implements Serializable {
 
 
                     MongoDbHelper k = MongoDbHelper.getInstance();
-                    k.insertDocument("m", p);
+                    k.insertDocument("p", p);
                     person_question finalE1 = e;
                     Runnable ks = () -> LKJ(finalE1);
                     ks.run();
@@ -287,7 +287,7 @@ public class How2Forgert implements Serializable {
 
 
                     MongoDbHelper k = MongoDbHelper.getInstance();
-                    k.insertDocument("m", p);
+                    k.insertDocument("p", p);
                     person_question finalE1 = e;
                     Runnable ks = () -> LKJ(finalE1);
                     ks.run();
@@ -315,7 +315,7 @@ public class How2Forgert implements Serializable {
 
 
                     MongoDbHelper k = MongoDbHelper.getInstance();
-                    k.insertDocument("m", p);
+                    k.insertDocument("p", p);
                     person_question finalE1 = e;
                     Runnable ks = () -> LKJ(finalE1);
                     ks.run();
@@ -341,7 +341,7 @@ public class How2Forgert implements Serializable {
 
 
                     MongoDbHelper k = MongoDbHelper.getInstance();
-                    k.insertDocument("m", p);
+                    k.insertDocument("p", p);
                     person_question finalE1 = e;
                     Runnable ks = () -> LKJ(finalE1);
                     ks.run();
@@ -374,7 +374,7 @@ public class How2Forgert implements Serializable {
 
 
                     MongoDbHelper k = MongoDbHelper.getInstance();
-                    k.insertDocument("m", p);
+                    k.insertDocument("p", p);
                     person_question finalE1 = e;
                     Runnable ks = () -> LKJ(finalE1);
                     ks.run();
@@ -405,7 +405,7 @@ public class How2Forgert implements Serializable {
 
 
                         MongoDbHelper k = MongoDbHelper.getInstance();
-                        k.insertDocument("m", p);
+                        k.insertDocument("p", p);
                         person_question finalE1 = e;
                         Runnable ks = () -> LKJ(finalE1);
                         ks.run();
@@ -429,7 +429,7 @@ public class How2Forgert implements Serializable {
 
 
                         MongoDbHelper k = MongoDbHelper.getInstance();
-                        k.insertDocument("m", p);
+                        k.insertDocument("p", p);
                         person_question finalE1 = e;
                         Runnable ks = () -> LKJ(finalE1);
                         ks.run();
@@ -453,7 +453,7 @@ public class How2Forgert implements Serializable {
 
 
                         MongoDbHelper k = MongoDbHelper.getInstance();
-                        k.insertDocument("m", p);
+                        k.insertDocument("p", p);
                         person_question finalE1 = e;
                         Runnable ks = () -> LKJ(finalE1);
                         ks.run();
@@ -483,7 +483,7 @@ public class How2Forgert implements Serializable {
 
 
                         MongoDbHelper k = MongoDbHelper.getInstance();
-                        k.insertDocument("m", p);
+                        k.insertDocument("p", p);
                         person_question finalE = e;
                         Runnable ks = () -> LKJ(finalE);
                         ks.run();
@@ -531,7 +531,7 @@ public class How2Forgert implements Serializable {
 
 
                     MongoDbHelper k = MongoDbHelper.getInstance();
-                    k.insertDocument("m", p);
+                    k.insertDocument("p", p);
                     person_question finalE1 = e;
                     Runnable ks = () -> LKJ(finalE1);
                     ks.run();
@@ -565,7 +565,7 @@ public class How2Forgert implements Serializable {
 
 
                         MongoDbHelper k = MongoDbHelper.getInstance();
-                        k.insertDocument("m", p);
+                        k.insertDocument("p", p);
                         person_question finalE2 = e;
                         Runnable ks = () -> LKJ(finalE2);
                         ks.run();
@@ -772,13 +772,13 @@ public class How2Forgert implements Serializable {
 
                                     MongoDbHelper k= MongoDbHelper.getInstance();
 
-//                                    k.insertDocument("m", p);
+//                                    k.insertDocument("p", p);
 
 //                                    BasicDBObject searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
 //
 //
-//                                    k.updateDocument("m", searchQuery, p);
-k.removeDocument("m", p);
+//                                    k.updateDocument("p", searchQuery, p);
+k.removeDocument("p", p);
 
                                     if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
                                         try {
@@ -865,14 +865,14 @@ k.removeDocument("m", p);
 
 
                                         MongoDbHelper k= MongoDbHelper.getInstance();
-//                                        k.insertDocument("m", p);
+//                                        k.insertDocument("p", p);
 // asscemble things together at somet point of time and do the dediting work there tat would be better.
 
                                         BasicDBObject searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
 
 
-//                                        k.updateDocument("m", searchQuery, p);
-k.removeDocument("m", p);
+//                                        k.updateDocument("p", searchQuery, p);
+k.removeDocument("p", p);
 
                                         if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
                                             try {                                            while (f){
@@ -1252,7 +1252,7 @@ public boolean f =true;
 
 
                 MongoDbHelper k= MongoDbHelper.getInstance();
-                k.insertDocument("m", p);
+                k.insertDocument("p", p);
 
 // the dabase will be containminate i have to restorey it i s just so har dd to do so
 //ihave to have hard copy that won't beet ecomplate and that is all ihave to so dos i have i hw to os dfo dfa sdfi manually that is ait lasdkflasdfj;sdfkjasljfsdfjdsjfsdlkjflasdjflksdjflksjfddsjflkdalfajslfjlsjflasjlfj
@@ -1425,10 +1425,10 @@ public boolean f =true;
                                 BasicDBObject searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
 
 
-//                                k.updateDocument("m", searchQuery, p);
+//                                k.updateDocument("p", searchQuery, p);
 
-//                                k.insertDocument("m", p);
-k.removeDocument("m", p);
+//                                k.insertDocument("p", p);
+k.removeDocument("p", p);
 ebbinghauses.remove(d);
 tasks.remove(l);
                                 ///*
@@ -1531,7 +1531,7 @@ tasks.remove(l);
 //                                                null, null, j
 //                                        );
 //                                        MongoDbHelper k= MongoDbHelper.getInstance();
-//                                        k.insertDocument("m", p);
+//                                        k.insertDocument("p", p);
 //
 // i am fujian the enviroment can shape people te enviroment is people
 //                                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
@@ -1684,14 +1684,14 @@ tasks.remove(l);
                                     }
                                     // i mess up the database againa nd agan and that is the case that will contaiminate all the datea base
                                     // how to back up the dabatavAE SO THAT the production data won't be containminated
-//                                    k.insertDocument("m", p);
-//                                    k.removeDocument("m", p);
+//                                    k.insertDocument("p", p);
+//                                    k.removeDocument("p", p);
 
                                     BasicDBObject searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
 
 
-//                                    k.updateDocument("m", searchQuery, p);
-k.removeDocument("m", p);
+//                                    k.updateDocument("p", searchQuery, p);
+k.removeDocument("p", p);
 
 if (ebbinghauses.size()>0) {
     ebbinghauses.remove(d);
@@ -1803,7 +1803,7 @@ if(tasks.size()>0) {
 //                                                null, null, j
 //                                        );
 //                                        MongoDbHelper k= MongoDbHelper.getInstance();
-//                                        k.insertDocument("m", p);
+//                                        k.insertDocument("p", p);
 //
 
 //                                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
@@ -1926,7 +1926,7 @@ if(tasks.size()>0) {
     public void loadTask() {
         List<DBObject> k = null ;
         try {
-            k = MongoDbHelper.getInstance().findAll("m").toArray();
+            k = MongoDbHelper.getInstance().findAll("p").toArray();
         } catch (UnknownHostException e) {
             e.printStackTrace();
         }
@@ -1982,7 +1982,7 @@ if(tasks.size()>0) {
     public void LKJ(person_question K) {
 //        List<DBObject> k = null ;
 //        try {
-//            k = MongoDbHelper.getInstance().findAll("m").toArray();
+//            k = MongoDbHelper.getInstance().findAll("p").toArray();
 //        } catch (UnknownHostException e) {
 //            e.printStackTrace();
 //        }
@@ -2024,8 +2024,8 @@ if(tasks.size()>0) {
         CopyOnWriteArrayList<DecendingTask> taskstemp = new CopyOnWriteArrayList<DecendingTask>();
 
         taskstemp = new CopyOnWriteArrayList<DecendingTask>();
-        List<DBObject> k = MongoDbHelper.getInstance().findAll("m").toArray();
-//        List<DBObject> k = MongoDbHelper.getInstance().findAll("m").sort(new BasicDBObject("date",1)).limit(1).toArray();
+        List<DBObject> k = MongoDbHelper.getInstance().findAll("p").toArray();
+//        List<DBObject> k = MongoDbHelper.getInstance().findAll("p").sort(new BasicDBObject("date",1)).limit(1).toArray();
 
 
 ///nothing means everything it is just symbole and tell you where it is and find it where is there it is just symbole and the name are the variable and buET THE others are just struxtuer
