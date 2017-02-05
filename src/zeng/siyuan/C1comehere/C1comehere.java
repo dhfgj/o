@@ -547,7 +547,6 @@ Properties w;
         InputStream input = null;
 
         try {
-//            input = new FileInputStream("C:\\l\\src\\zeng\\siyuan\\C1comehere\\dd.properties");
             input = new FileInputStream(new File("src\\zeng\\siyuan\\C1comehere\\d.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop.load(input);
