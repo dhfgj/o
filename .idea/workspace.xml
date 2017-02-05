@@ -14,7 +14,11 @@
     <list default="true" id="5a421b49-605d-4e6f-8d52-2915556c64cd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="C:/email/src/main/java/com/epam/preprod/firefox/model/sq.java" afterPath="C:/email/src/main/java/com/epam/preprod/firefox/model/sq.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java" afterPath="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d.properties" afterPath="$PROJECT_DIR$/d.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d.properties.solr" afterPath="$PROJECT_DIR$/d.properties.solr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/r.properties" afterPath="$PROJECT_DIR$/r.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/r.properties.solr" afterPath="$PROJECT_DIR$/r.properties.solr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/d.properties" afterPath="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/d.properties" />
     </list>
     <ignored path="c1comehere.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="C1comehere.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="C1comehere.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
-              <caret line="1346" column="50" lean-forward="true" selection-start-line="1346" selection-start-column="50" selection-end-line="1346" selection-end-column="50" />
+              <caret line="1346" column="49" lean-forward="true" selection-start-line="1346" selection-start-column="49" selection-end-line="1346" selection-end-column="49" />
               <folding>
                 <element signature="e#52378#52386#0" expanded="true" />
               </folding>
@@ -98,15 +102,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sq.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sq.java" pinned="false" current-in-tab="true">
         <entry file="file://C:/email/src/main/java/com/epam/preprod/firefox/model/sq.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="29" column="56" lean-forward="false" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
+            <state relative-caret-position="270">
+              <caret line="32" column="43" lean-forward="true" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2510#2511#0" expanded="true" />
-                <element signature="e#2549#2550#0" expanded="true" />
+                <element signature="e#2564#2565#0" expanded="true" />
+                <element signature="e#2603#2604#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -232,7 +236,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="C:/email" />
     <option name="RESET_MODE" value="SOFT" />
     <option name="PUSH_TAGS">
       <GitPushTagMode>
@@ -298,8 +302,8 @@
         <option value="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/dd/TextHighlightingDemo.java" />
         <option value="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/onceaday/onceaday/How2Forgert.java" />
         <option value="$PROJECT_DIR$/src/zeng/siyuan/onceaday/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/peoplequesiton.java" />
-        <option value="C:/email/src/main/java/com/epam/preprod/firefox/model/sq.java" />
         <option value="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java" />
+        <option value="C:/email/src/main/java/com/epam/preprod/firefox/model/sq.java" />
       </list>
     </option>
   </component>
@@ -2203,14 +2207,7 @@
       <workItem from="1486238942426" duration="1752000" />
       <workItem from="1486252826650" duration="64000" />
       <workItem from="1486253191494" duration="11000" />
-      <workItem from="1486254361779" duration="3390000" />
-    </task>
-    <task id="LOCAL-00055" summary="1">
-      <created>1485127816227</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1485127816228</updated>
+      <workItem from="1486254361779" duration="3512000" />
     </task>
     <task id="LOCAL-00056" summary="1">
       <created>1485129609356</created>
@@ -2548,7 +2545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1486258036696</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="l">
+      <created>1486258406273</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1486258406274</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2584,7 +2588,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1214007000" />
+    <option name="totallyTimeSpent" value="1214129000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -3097,7 +3101,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://C:/email/src/main/java/com/epam/preprod/firefox/model/sq.java</url>
-          <line>102</line>
+          <line>103</line>
           <properties />
           <option name="timeStamp" value="379" />
         </line-breakpoint>
@@ -3536,24 +3540,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/email/src/main/java/com/epam/preprod/firefox/model/sq.java">
+    <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="29" column="56" lean-forward="false" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
+        <state relative-caret-position="425">
+          <caret line="1346" column="49" lean-forward="true" selection-start-line="1346" selection-start-column="49" selection-end-line="1346" selection-end-column="49" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2510#2511#0" expanded="true" />
-            <element signature="e#2549#2550#0" expanded="true" />
+            <element signature="e#52378#52386#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java">
+    <entry file="file://C:/email/src/main/java/com/epam/preprod/firefox/model/sq.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="1346" column="50" lean-forward="true" selection-start-line="1346" selection-start-column="50" selection-end-line="1346" selection-end-column="50" />
+        <state relative-caret-position="270">
+          <caret line="32" column="43" lean-forward="true" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
           <folding>
-            <element signature="e#52378#52386#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2564#2565#0" expanded="true" />
+            <element signature="e#2603#2604#0" expanded="true" />
           </folding>
         </state>
       </provider>
