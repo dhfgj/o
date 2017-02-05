@@ -1482,7 +1482,7 @@ lost in the details
                             }
                         }
 
-
+// he sayds what i intent
 
 
                         else if (textArea.getText().length()>3 && searchEngines.containsKey(textArea.getText().substring(0, 3))) {
