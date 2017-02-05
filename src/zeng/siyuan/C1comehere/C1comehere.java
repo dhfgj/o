@@ -1,6 +1,8 @@
 package zeng.siyuan.C1comehere;
 
 //import com.epam.preprod.firefox.model.KFHASDF;
+
+import com.epam.preprod.firefox.model.sq;
 import fg.f;
 import loli.datepicker.DatePicker;
 import main.k.TodoApp;
@@ -1325,14 +1327,15 @@ lost in the details
 
 
                         }
-/*
+
 
                         else if (textArea.getText().equalsIgnoreCase("abuizeng")) {
-                            KFHASDF KFHASDF = new KFHASDF();
-                            KFHASDF.testOpenLogin2();
+                            sq KFHASDF = new sq();
+                            KFHASDF.testOpenLogin();
 
                         }
-                        else if (textArea.getText().equalsIgnoreCase("linda")) {
+
+/*                        else if (textArea.getText().equalsIgnoreCase("linda")) {
                             KFHASDF KFHASDF = new KFHASDF();
                             KFHASDF.testOpenLogin2JLAKSDJFLASDJFLKJM();
 

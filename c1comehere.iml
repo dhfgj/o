@@ -235,6 +235,7 @@
     <orderEntry type="library" name="Maven: javax.servlet:javax.servlet-api:3.1.0" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:htmlunit-driver:2.23" level="project" />
     <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.15" level="project" />
+    <orderEntry type="library" name="Maven: com.epam.preprod:gmail:1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: net.java.dev.jna:jna-platform:4.0.0" level="project" />
     <orderEntry type="library" name="Maven: net.java.dev.jna:jna:4.0.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.4" level="project" />
@@ -261,7 +262,7 @@
     <orderEntry type="library" name="Maven: org.apache.commons:commons-math3:3.6" level="project" />
     <orderEntry type="library" name="Maven: de.sciss:sphinx4-data:1.0.0" level="project" />
     <orderEntry type="library" name="Maven: org.postgresql:postgresql:9.4-1201-jdbc41" level="project" />
-    <orderEntry type="library" name="Maven: com.epam.preprod:gmail:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="gmail" />
     <orderEntry type="library" name="Maven: org.mongodb:mongo-java-driver:3.4.0" level="project" />
     <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-all:1.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:3.8.1" level="project" />
