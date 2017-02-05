@@ -512,7 +512,7 @@ public class How2Forgert implements Serializable {
                     StringBuffer stringBuffer1 = new StringBuffer();
 
                     stringBuffer1.append(textStr[i]);
-                e = new person_question(stringBuffer1.toString(), "p", r.strifasld(new String (String.valueOf(6*60))));
+                e = new person_question(stringBuffer1.toString(), "p", r.strifasld(new String (String.valueOf(10))));
 
 //                    StringBuffer stringBuffer1 = new StringBuffer();
 //                    stringBuffer1.append(textStr[i]);
