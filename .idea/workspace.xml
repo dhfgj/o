@@ -12,14 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a421b49-605d-4e6f-8d52-2915556c64cd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d.properties.solr" afterPath="$PROJECT_DIR$/d.properties.solr" />
-      <change type="MODIFICATION" beforePath="C:/email/src/main/java/com/epam/preprod/firefox/model/sq.java" afterPath="C:/email/src/main/java/com/epam/preprod/firefox/model/sq.java" />
       <change type="MODIFICATION" beforePath="C:/email/src/main/java/com/epam/preprod/firefox/pages/LoginPage.java" afterPath="C:/email/src/main/java/com/epam/preprod/firefox/pages/LoginPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d.properties" afterPath="$PROJECT_DIR$/d.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/r.properties" afterPath="$PROJECT_DIR$/r.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/r.properties.solr" afterPath="$PROJECT_DIR$/r.properties.solr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/d.properties" afterPath="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/d.properties" />
     </list>
     <ignored path="c1comehere.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,16 +56,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bashrc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bashrc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="maxcassandra" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/maxcassandra">
           <provider selected="true" editor-type-id="text-editor">
@@ -130,8 +115,18 @@
       <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="true">
         <entry file="file://C:/email/src/main/java/com/epam/preprod/firefox/pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+            <state relative-caret-position="539">
+              <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InboxPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://C:/email/src/main/java/com/epam/preprod/firefox/pages/InboxPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -2208,14 +2203,7 @@
       <workItem from="1486238942426" duration="1752000" />
       <workItem from="1486252826650" duration="64000" />
       <workItem from="1486253191494" duration="11000" />
-      <workItem from="1486254361779" duration="4377000" />
-    </task>
-    <task id="LOCAL-00057" summary="1">
-      <created>1485130937785</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1485130937785</updated>
+      <workItem from="1486254361779" duration="4535000" />
     </task>
     <task id="LOCAL-00058" summary="1">
       <created>1485131173689</created>
@@ -2553,7 +2541,14 @@
       <option name="project" value="LOCAL" />
       <updated>1486258525280</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="l">
+      <created>1486259403792</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1486259403792</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2589,7 +2584,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1214994000" />
+    <option name="totallyTimeSpent" value="1215152000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -3172,13 +3167,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/C1comehere/l.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/C1comehere/Search.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -3555,10 +3543,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/email/src/main/java/com/epam/preprod/firefox/pages/InboxPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://C:/email/src/main/java/com/epam/preprod/firefox/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        <state relative-caret-position="539">
+          <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
           <folding />
         </state>
       </provider>
