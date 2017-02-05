@@ -1,23 +1,41 @@
-0,http://packetpushers.net/logging-important-example/,http://packetpushers.net/logging-important-example/
-1,https://artandlogic.com/2013/05/angularjs-best-practices-ive-been-doing-it-wrong-part-2-of-3/,https://artandlogic.com/2013/05/angularjs-best-practices-ive-been-doing-it-wrong-part-2-of-3/
-2,https://docs.angularjs.org/guide/controller,https://docs.angularjs.org/guide/controller
-3,http://java-questions.com/garbagecollection-interview-questions.html,http://java-questions.com/garbagecollection-interview-questions.html
-4,http://backbonejs.org/,http://backbonejs.org/
-5,http://career.guru99.com/top-25-angular-js-interview-questions/,http://career.guru99.com/top-25-angular-js-interview-questions/
-6,https://www.digitalocean.com/community/tutorials/how-to-use-logstash-and-kibana-to-centralize-and-visualize-logs-on-ubuntu-14-04,https://www.digitalocean.com/community/tutorials/how-to-use-logstash-and-kibana-to-centralize-and-visualize-logs-on-ubuntu-14-04
-7,2,0,text,file,to schedule events,text%20file%20to%20schedule%20events
-8,ca download and install go=https://golang.org/doc/install,ca%20download%20and%20install%20go=https://golang.org/doc/install
-9,https://docs.docker.com/,https://docs.docker.com/
-10,https://docs.angularjs.org/guide/unit-testing,https://docs.angularjs.org/guide/unit-testing
-11,http://jacopretorius.net/2013/07/angularjs-best-practices.html,http://jacopretorius.net/2013/07/angularjs-best-practices.html
-12,https://www.pluralsight.com/authors/john-papa,https://www.pluralsight.com/authors/john-papa
-13,http://people.apache.org/~dirkv/pool/examples.html,http://people.apache.org/~dirkv/pool/examples.html
-14,i don't want to conetinue becuase i hit the block and i don't kno who to proceed anymore and i have already read something and i don't want to co ntinuere there is ant a threa dand that is way,i%20don't%20want%20to%20conetinue%20becuase%20i%20hit%20the%20block%20and%20i%20don't%20kno%20who%20to%20proceed%20anymore%20and%20i%20have%20already%20read%20something%20and%20i%20don't%20want%20to%20co%20ntinuere%20there%20is%20ant%20a%20threa%20dand%20that%20is%20way
-15,https://www.quora.com/What-are-the-things-that-cant-be-done-in-angularjs-and-can-be-done-in-jquery,https://www.quora.com/What-are-the-things-that-cant-be-done-in-angularjs-and-can-be-done-in-jquery
-16,0,https,//www.quora.com/What-are-the-things-that-cant-be-done-in-angularjs-and-can-be-done-in-jquery,https://www.quora.com/What-are-the-things-that-cant-be-done-in-angularjs-and-can-be-done-in-jquery
-17,https://www.quora.com/How-do-Angular-js-and-Backbone-js-compare,https://www.quora.com/How-do-Angular-js-and-Backbone-js-compare
-18,http://stackoverflow.com/questions/19957280/angularjs-best-practices-for-module-declaration,http://stackoverflow.com/questions/19957280/angularjs-best-practices-for-module-declaration
-19,https://www.sitepoint.com/unit-and-e2e-testing-in-angularjs/,https://www.sitepoint.com/unit-and-e2e-testing-in-angularjs/
-20,1,text,file to schedule events,text%20file%20to%20schedule%20events
-21,https://blog.angularjs.org/2014/02/an-angularjs-style-guide-and-best.html,https://blog.angularjs.org/2014/02/an-angularjs-style-guide-and-best.html
-22,https://toddmotto.com/all-about-angulars-emit-broadcast-on-publish-subscribing/,https://toddmotto.com/all-about-angulars-emit-broadcast-on-publish-subscribing/
+0,i don't want to conetinue becuase i hit the block and i don't kno who to proceed anymore and i have already read something and i don't want to co ntinuere there is ant a threa dand that is way,i%20don't%20want%20to%20conetinue%20becuase%20i%20hit%20the%20block%20and%20i%20don't%20kno%20who%20to%20proceed%20anymore%20and%20i%20have%20already%20read%20something%20and%20i%20don't%20want%20to%20co%20ntinuere%20there%20is%20ant%20a%20threa%20dand%20that%20is%20way
+1,https://www.pluralsight.com/authors/john-papa,https://www.pluralsight.com/authors/john-papa
+2,http://tutorialzine.com/2013/08/learn-angularjs-5-examples/,http://tutorialzine.com/2013/08/learn-angularjs-5-examples/
+3,https://docs.angularjs.org/guide/unit-testing,https://docs.angularjs.org/guide/unit-testing
+4,ca download and install go=https://golang.org/doc/install,ca%20download%20and%20install%20go=https://golang.org/doc/install
+5,http://jacopretorius.net/2013/07/angularjs-best-practices.html,http://jacopretorius.net/2013/07/angularjs-best-practices.html
+6,https://www.quora.com/What-are-the-things-that-cant-be-done-in-angularjs-and-can-be-done-in-jquery,https://www.quora.com/What-are-the-things-that-cant-be-done-in-angularjs-and-can-be-done-in-jquery
+7,http://kafka.apache.org/documentation.html,http://kafka.apache.org/documentation.html
+8,http://www.bogotobogo.com/Hadoop/ELK/ELK_ElasticSearch_Logstash.php,http://www.bogotobogo.com/Hadoop/ELK/ELK_ElasticSearch_Logstash.php
+9,http://andyshora.com/unit-testing-best-practices-angularjs.html,http://andyshora.com/unit-testing-best-practices-angularjs.html
+10,https://toddmotto.com/all-about-angulars-emit-broadcast-on-publish-subscribing/,https://toddmotto.com/all-about-angulars-emit-broadcast-on-publish-subscribing/
+11,http://javarevisited.blogspot.com/2012/10/10-garbage-collection-interview-question-answer.html,http://javarevisited.blogspot.com/2012/10/10-garbage-collection-interview-question-answer.html
+12,https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems,https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems
+13,http://www.w3schools.com/angular/,http://www.w3schools.com/angular/
+14,https://www.quora.com/How-does-garbage-collection-work-in-the-JVM,https://www.quora.com/How-does-garbage-collection-work-in-the-JVM
+15,https://www.digitalocean.com/community/tutorials/how-to-use-logstash-and-kibana-to-centralize-and-visualize-logs-on-ubuntu-14-04,https://www.digitalocean.com/community/tutorials/how-to-use-logstash-and-kibana-to-centralize-and-visualize-logs-on-ubuntu-14-04
+16,https://docs.docker.com/,https://docs.docker.com/
+17,http://java-questions.com/garbagecollection-interview-questions.html,http://java-questions.com/garbagecollection-interview-questions.html
+18,http://www.wikihow.com/Control-Your-Dreams,http://www.wikihow.com/Control-Your-Dreams
+19,http://mochajs.org/,http://mochajs.org/
+20,http://backbonejs.org/,http://backbonejs.org/
+21,http://expressjs.com/,http://expressjs.com/
+22,https://blog.angularjs.org/2014/02/an-angularjs-style-guide-and-best.html,https://blog.angularjs.org/2014/02/an-angularjs-style-guide-and-best.html
+23,http://stackoverflow.com/questions/19957280/angularjs-best-practices-for-module-declaration,http://stackoverflow.com/questions/19957280/angularjs-best-practices-for-module-declaration
+24,https://www.sitepoint.com/unit-and-e2e-testing-in-angularjs/,https://www.sitepoint.com/unit-and-e2e-testing-in-angularjs/
+25,http://www.cio.com.au/article/401353/how_define_scope_project/,http://www.cio.com.au/article/401353/how_define_scope_project/
+26,2,0,text,file,to schedule events,text%20file%20to%20schedule%20events
+27,https://www.airpair.com/js/javascript-framework-comparison,https://www.airpair.com/js/javascript-framework-comparison
+28,1,text,file to schedule events,text%20file%20to%20schedule%20events
+29,0,https,//www.quora.com/What-are-the-things-that-cant-be-done-in-angularjs-and-can-be-done-in-jquery,https://www.quora.com/What-are-the-things-that-cant-be-done-in-angularjs-and-can-be-done-in-jquery
+30,http://nverma-tech-blog.blogspot.com/2015/12/apache-kafka-example-of.html,http://nverma-tech-blog.blogspot.com/2015/12/apache-kafka-example-of.html
+31,https://www.digitalocean.com/community/tutorials/how-to-use-kibana-dashboards-and-visualizations,https://www.digitalocean.com/community/tutorials/how-to-use-kibana-dashboards-and-visualizations
+32,https://www.quora.com/How-do-Angular-js-and-Backbone-js-compare,https://www.quora.com/How-do-Angular-js-and-Backbone-js-compare
+33,http://career.guru99.com/top-25-angular-js-interview-questions/,http://career.guru99.com/top-25-angular-js-interview-questions/
+34,http://joelabrahamsson.com/elasticsearch-101/,http://joelabrahamsson.com/elasticsearch-101/
+35,http://people.apache.org/~dirkv/pool/examples.html,http://people.apache.org/~dirkv/pool/examples.html
+36,https://docs.angularjs.org/guide/controller,https://docs.angularjs.org/guide/controller
+37,https://artandlogic.com/2013/05/angularjs-best-practices-ive-been-doing-it-wrong-part-2-of-3/,https://artandlogic.com/2013/05/angularjs-best-practices-ive-been-doing-it-wrong-part-2-of-3/
+38,http://packetpushers.net/logging-important-example/,http://packetpushers.net/logging-important-example/
+39,https://www.tutorialspoint.com/angularjs/angularjs_overview.htm,https://www.tutorialspoint.com/angularjs/angularjs_overview.htm
+40,http://www.javatpoint.com/java-thread-pool,http://www.javatpoint.com/java-thread-pool

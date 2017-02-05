@@ -12,9 +12,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a421b49-605d-4e6f-8d52-2915556c64cd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="C:/email/src/main/java/com/epam/preprod/firefox/model/sq.java" afterPath="C:/email/src/main/java/com/epam/preprod/firefox/model/sq.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d.properties.solr" afterPath="$PROJECT_DIR$/d.properties.solr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d.properties" afterPath="$PROJECT_DIR$/d.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/r.properties" afterPath="$PROJECT_DIR$/r.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/r.properties.solr" afterPath="$PROJECT_DIR$/r.properties.solr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/d.properties" afterPath="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/d.properties" />
     </list>
     <ignored path="c1comehere.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,7 +84,7 @@
       <file leaf-file-name="sq.java" pinned="false" current-in-tab="true">
         <entry file="file://C:/email/src/main/java/com/epam/preprod/firefox/model/sq.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state relative-caret-position="314">
               <caret line="129" column="64" lean-forward="true" selection-start-line="129" selection-start-column="64" selection-end-line="129" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -2205,14 +2208,7 @@
       <workItem from="1486238942426" duration="1752000" />
       <workItem from="1486252826650" duration="64000" />
       <workItem from="1486253191494" duration="11000" />
-      <workItem from="1486254361779" duration="7991000" />
-    </task>
-    <task id="LOCAL-00061" summary="1">
-      <created>1485133563281</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1485133563281</updated>
+      <workItem from="1486254361779" duration="8157000" />
     </task>
     <task id="LOCAL-00062" summary="1">
       <created>1485135991489</created>
@@ -2550,7 +2546,14 @@
       <option name="project" value="LOCAL" />
       <updated>1486262913201</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="l">
+      <created>1486263083104</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1486263083104</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2586,7 +2589,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1218608000" />
+    <option name="totallyTimeSpent" value="1218774000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -3559,7 +3562,7 @@
     </entry>
     <entry file="file://C:/email/src/main/java/com/epam/preprod/firefox/model/sq.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="314">
           <caret line="129" column="64" lean-forward="true" selection-start-line="129" selection-start-column="64" selection-end-line="129" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
