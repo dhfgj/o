@@ -1067,7 +1067,7 @@ b.run();
 //                System.out.println(e.getKeyChar());
 //                System.out.println("contrl");
 //                System.out.println(e.getModifiers() == KeyEvent.CTRL_MASK);
-                if ((e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyChar() == KeyEvent.VK_0) || (e.getModifiers() == 2 && e.getKeyChar() == 13) ) {
+                if ((e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyChar() == KeyEvent.VK_0)) {
 //                    System.out.println("voice commander");
                     e.consume();
                     Beep.sound(2000, 150);
@@ -1083,7 +1083,7 @@ b.run();
 
                 }
 
-                if (e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyCode()==38) {
+                if ((e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyCode()==38)) {
 //                    System.out.println("voice commander");
                     k = k-1;
                     if (k>=0) {
@@ -1109,7 +1109,7 @@ b.run();
 
                 //                if (e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyChar() == KeyEvent.VK_ENTER) {
                 //change maxc os mattping to ctrl and enter button
-                if (e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyChar() == KeyEvent.VK_ENTER) {
+                if ((e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyChar() == KeyEvent.VK_ENTER )  || (e.getModifiers() == 2 && e.getKeyChar() == 13) ) {
                     e.consume();
                     Beep.sound(2000, 150);
 
