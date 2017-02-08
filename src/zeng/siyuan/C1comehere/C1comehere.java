@@ -470,7 +470,7 @@ Properties w;
             }
             System.out.println("Done Propertiesy loading");
 
-            input = new FileInputStream(new File("src\\main\\resources\\c1s.properties").getAbsolutePath());
+            input = new FileInputStream(new File("src/main/resources/c1s.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop = new Properties();
             temprop.load(input);
@@ -483,7 +483,7 @@ Properties w;
             }
             System.out.println("Done Propertiesy loading");
 
-            input = new FileInputStream(new File("src\\zeng\\siyuan\\C1comehere\\p.properties").getAbsolutePath());
+            input = new FileInputStream(new File("src/zeng/siyuan/C1comehere/p.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop = new Properties();
             temprop.load(input);
@@ -551,7 +551,7 @@ Properties w;
         InputStream input = null;
 
         try {
-            input = new FileInputStream(new File("src\\zeng\\siyuan\\C1comehere\\d.properties").getAbsolutePath());
+            input = new FileInputStream(new File("src/zeng/siyuan/C1comehere/d.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop.load(input);
 
@@ -1067,7 +1067,7 @@ b.run();
 //                System.out.println(e.getKeyChar());
 //                System.out.println("contrl");
 //                System.out.println(e.getModifiers() == KeyEvent.CTRL_MASK);
-                if (e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyChar() == KeyEvent.VK_0) {
+                if ((e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyChar() == KeyEvent.VK_0) || (e.getModifiers() == 2 && e.getKeyChar() == 13) ) {
 //                    System.out.println("voice commander");
                     e.consume();
                     Beep.sound(2000, 150);

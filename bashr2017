@@ -1,5 +1,4 @@
-
-   function kafkap() {
+function kafkap() {
       kafkapd &&  bin/kafka-console-producer.sh --broker-list localhost:9092 --topic test
 }
 
@@ -8,7 +7,7 @@ export -f kafkap
 alias kafkapd='cd /usr/local/Cellar/kafka/0.10.1.1/libexec'
 
 
-   function kafkac() {
+function kafkac() {
       kafkapd && bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test --from-beginning
 }
 
@@ -287,14 +286,14 @@ alias ls='ls -lh'
 # ..............................................................................................Internet......................................................................................
 
 
-   function kafkas() {
+function kafkas() {
       zks && kafkass
 }
 
 export -f kafkas
 
 
-   function start() {
+function start() {
       mongod && cassandra -f && solr start
 }
 
@@ -302,7 +301,7 @@ export -f start
 
 
 
-   function g() {
+function g() {
 
 /usr/bin/open -a "/Applications/Google Chrome.app" "https://www.google.com/search?q=${*}"
 
@@ -327,7 +326,7 @@ export -f iaf
 
 
 
-   function fm() {
+function fm() {
 
 /usr/bin/open -a "/Applications/Google Chrome.app" "https://www.google.com/search?q=maven%20repository%20${*}"
 
@@ -336,7 +335,7 @@ export -f iaf
 export -f fm
 
 
-   function gg() {
+function gg() {
 
 /usr/bin/open -a "/Applications/Google Chrome.app" "https://gecgithub01.walmart.com/search?q=${*}&type=Code&utf8=✓"
 
