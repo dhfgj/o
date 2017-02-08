@@ -1,8 +1,9 @@
-0,sd inadvertent,sd%20inadvertent
-1,sd percolator,sd%20percolator
-2,sd passivate,sd%20passivate
-3,sd amiss,sd%20amiss
+0,sd percolator,sd%20percolator
+1,sd amiss,sd%20amiss
+2,sd inadvertent,sd%20inadvertent
+3,sd pragmatic,sd%20pragmatic
 4,sd oncall,sd%20oncall
 5,sd growl,sd%20growl
-6,sd pragmatic,sd%20pragmatic
+6,sd canonical,sd%20canonical
 7,sd sematic,sd%20sematic
+8,sd passivate,sd%20passivate
