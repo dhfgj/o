@@ -4,6 +4,9 @@ import com.datastax.driver.mapping.annotations.Column;
 import com.datastax.driver.mapping.annotations.FrozenValue;
 import com.datastax.driver.mapping.annotations.Table;
 import com.datastax.driver.mapping.annotations.Transient;
+import com.fasterxml.uuid.EthernetAddress;
+import com.fasterxml.uuid.Generators;
+import com.fasterxml.uuid.impl.TimeBasedGenerator;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -91,7 +94,7 @@ public class person_question implements Serializable{
 
         StringBuilder stringBuilder = new StringBuilder();
 
-        this.javauid = java.util.UUID.randomUUID();
+                EthernetAddress addr = EthernetAddress.fromInterface();         TimeBasedGenerator uuidGenerator = Generators.timeBasedGenerator(addr);         UUID uuid = uuidGenerator.generate();         this.javauid=uuid;;
 
         tasks = new HashSet<Task>();
 
