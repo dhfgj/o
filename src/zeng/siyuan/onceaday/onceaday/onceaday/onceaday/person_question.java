@@ -73,7 +73,7 @@ public class person_question implements Serializable{
 
     public void setUUID() {
         if (null == javauid) {
-            this.javauid = UUID.randomUUID();
+                    EthernetAddress addr = EthernetAddress.fromInterface();         TimeBasedGenerator uuidGenerator = Generators.timeBasedGenerator(addr);         UUID uuid = uuidGenerator.generate();         this.javauid=uuid;
             first.Javauuid = javauid;
             second.Javauuid = javauid;
             third.Javauuid = javauid;
@@ -87,14 +87,13 @@ public class person_question implements Serializable{
     public person_question(String text, String TYPE, Date date1) {
         this.type=TYPE;
 
-        this.javauid = UUID.randomUUID();
+                EthernetAddress addr = EthernetAddress.fromInterface();         TimeBasedGenerator uuidGenerator = Generators.timeBasedGenerator(addr);         UUID uuid = uuidGenerator.generate();         this.javauid=uuid;
 
 
         tasks = new HashSet<Task>();
 
         StringBuilder stringBuilder = new StringBuilder();
 
-                EthernetAddress addr = EthernetAddress.fromInterface();         TimeBasedGenerator uuidGenerator = Generators.timeBasedGenerator(addr);         UUID uuid = uuidGenerator.generate();         this.javauid=uuid;;
 
         tasks = new HashSet<Task>();
 
