@@ -1409,6 +1409,9 @@ lost in the details
 
                         }
 */
+// it is always there you can't get ride of it and it is always there
+                        // how can i forget it and not rememberitng
+                        // they are always there they are outisde my midn and they are always there
 
                         else if (textArea.getText().startsWith("history") && textArea.getText().split(" ").length==2) {
                             String s = "";
