@@ -161,6 +161,7 @@ Properties w;
             }
         }
     }
+// i feel like so stupid and i can ask quesitons
 
 
     public void l(String c1, String c1Path) {
