@@ -13,8 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5a421b49-605d-4e6f-8d52-2915556c64cd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d.properties" afterPath="$PROJECT_DIR$/d.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/d.properties.solr" afterPath="$PROJECT_DIR$/d.properties.solr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java" afterPath="$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java" />
     </list>
     <ignored path="c1comehere.iws" />
@@ -61,8 +59,8 @@
       <file leaf-file-name="C1comehere.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="1616" column="0" lean-forward="true" selection-start-line="1616" selection-start-column="0" selection-end-line="1616" selection-end-column="0" />
+            <state relative-caret-position="22200">
+              <caret line="1511" column="0" lean-forward="false" selection-start-line="1511" selection-start-column="0" selection-end-line="1511" selection-end-column="0" />
               <folding>
                 <element signature="e#4392#4408#0" expanded="true" />
                 <element signature="e#25128#25846#0" expanded="true" />
@@ -2098,14 +2096,7 @@
       <workItem from="1487462334447" duration="370000" />
       <workItem from="1487462942162" duration="8184000" />
       <workItem from="1487482677728" duration="7637000" />
-      <workItem from="1487544102420" duration="826000" />
-    </task>
-    <task id="LOCAL-00098" summary="Merge branch 'master' of https://github.com/SiyuanZeng/l&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/zeng/siyuan/C1comehere/C1comehere.java&#10;#&#9;src/zeng/siyuan/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/How2Forgert.java&#10;#&#9;src/zeng/siyuan/onceaday/onceaday/onceaday/How2Forgert.java&#10;">
-      <created>1486235622810</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1486235622810</updated>
+      <workItem from="1487544102420" duration="911000" />
     </task>
     <task id="LOCAL-00099" summary="l">
       <created>1486255617160</created>
@@ -2443,7 +2434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1487538695821</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="l">
+      <created>1487544934678</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1487544934680</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2479,7 +2477,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1282451000" />
+    <option name="totallyTimeSpent" value="1282536000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -2871,12 +2869,6 @@
           <option name="timeStamp" value="321" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java</url>
-          <line>1534</line>
-          <properties />
-          <option name="timeStamp" value="323" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/How2Forgert.java</url>
           <line>214</line>
           <properties />
@@ -3004,7 +2996,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java</url>
-          <line>2341</line>
+          <line>2203</line>
           <properties />
           <option name="timeStamp" value="383" />
         </line-breakpoint>
@@ -3016,13 +3008,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java</url>
-          <line>1627</line>
+          <line>1590</line>
           <properties />
           <option name="timeStamp" value="388" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java</url>
-          <line>1719</line>
+          <line>1627</line>
           <properties />
           <option name="timeStamp" value="389" />
         </line-breakpoint>
@@ -3040,13 +3032,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java</url>
-          <line>1564</line>
+          <line>1527</line>
           <properties />
           <option name="timeStamp" value="392" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java</url>
-          <line>1563</line>
+          <line>1526</line>
           <properties />
           <option name="timeStamp" value="393" />
         </line-breakpoint>
@@ -3516,8 +3508,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="1616" column="0" lean-forward="true" selection-start-line="1616" selection-start-column="0" selection-end-line="1616" selection-end-column="0" />
+        <state relative-caret-position="22200">
+          <caret line="1511" column="0" lean-forward="false" selection-start-line="1511" selection-start-column="0" selection-end-line="1511" selection-end-column="0" />
           <folding>
             <element signature="e#4392#4408#0" expanded="true" />
             <element signature="e#25128#25846#0" expanded="true" />
