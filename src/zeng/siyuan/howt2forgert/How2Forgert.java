@@ -39,6 +39,7 @@ public class How2Forgert implements Serializable {
 
     public void load(){
         Scanner in = null;
+        // somethign doesn't make sense then ti tsi the tpeorblem and people won'et able to understandint i tna dmake it going aways
 
         if (null != textArea && !("".equalsIgnoreCase(textArea.getText()))) {
 

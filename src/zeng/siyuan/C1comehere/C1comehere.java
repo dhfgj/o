@@ -2398,6 +2398,19 @@ s.updatetask();
                                 aa.f = !aa.f ? true : false;
                             }
                         }
+// every move is imporatnt help you to sucessful in the real y life and real world
+                        else if(SDisHlow2ForeDgertCommand){
+                            if (textArea.getText().equalsIgnoreCase("k")) {
+                                dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.f = dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.f==false?true:false;
+                                E.f = E.f == false ? true : false;
+                                ad.f = ad.f==false?true:false;
+                                aa.f = !aa.f ? true : false;
+                                ja.f=ja.f==false?true:false;
+                                j.f=j.f==false?true:false;
+                                dhow2ForgDertlsf.f=dhow2ForgDertlsf.f==false?true:false;
+                                dhow2ForgDertlssf.f=dhow2ForgDertlssf.f==false?true:false;
+                            }
+                        }
 
 
                         else if (SDislDoald) {
