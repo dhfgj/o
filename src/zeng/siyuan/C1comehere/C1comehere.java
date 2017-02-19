@@ -1234,11 +1234,12 @@ but i don't have to time to review the same thing again and again
 
                         boolean      SDldeleteCommandd_X = buttonSelected.equals("DLDdSelete");
                         boolean DsLSDg = buttonSelected.equals("DsLSDg");
-                        boolean SDdleleteCoDmmand2 = buttonSelected.equals("DdeldSLDiary");
+                        boolean SDdleleteCoDmmand2 = buttonSelected.equals("DdeldSLDiary");// ther eare something that make sens enand that i can build ton potp of this
                         boolean SDislThoughtDRecorderCommand_x = buttonSelected.equalsIgnoreCase("Drec");
                         boolean SDisHlow2ForeDgertCommand = buttonSelected.equalsIgnoreCase("DDLSfgt");
                         boolean SDisHolw2ForegDertCommand_u = textArea.getText().contains("DuSDfLgt");
-                        boolean SDislDoald = buttonSelected.equals("DlaoSdLD");
+                        boolean SDislDoald = buttonSelected.equals("DlaoSdLD"); //  nothing make sence seepsecial somther are something in the word that makes tsne sen theyta ti st his good s so that you it is so bojevious
+                        // how to doesla wit hsomtehign that you never knwo na dyou should just note nadti and do ti and smake it better
                         boolean SDcodjDa_lx = buttonSelected.equals("DcodeLSDja");
                         boolean SDsaercDhdliary = buttonSelected.equals("DsaeSrDLchdiary");
                         boolean SDisShowDColmmand = buttonSelected.equalsIgnoreCase("DshSoDL");// shw
@@ -1290,7 +1291,8 @@ but i don't have to time to review the same thing again and again
 
                             }
                             );
-                            a.start();
+                            a.start();// evertything is write out of experiencda n het the expeienice is ilvoe and you yoknwo it
+
                         }
 //what are the existing ubuilding components i can do ?
                         else if (DisHlow2ForeDgertCommand) {
@@ -1592,8 +1594,8 @@ lost in the details
                                             // there are just so much emotion in my mind
                                             // i want to fuck others and it is ni my mind
                                             // i wand to fuck niu and i ti sin my mind
-                                            // something should never be told again
-                                            // it is confusing and that is all
+                                            // something should never be told againthere are just rediculair and teveythign is ajust rediuclaoru
+                                            // it is confusing and that is alltherea re jsut chaorics and noething make shiens ing toghet erh tey are just togetherx`x`
                                             // it is all aconfusing
                                             // it i s so confusing
                                             // nothing matters
@@ -2378,7 +2380,7 @@ s.updatetask();
                         }
 
 
-
+//  you want to talk to me but you are talking to others instead
 
 
                         else if (b) {
@@ -2411,7 +2413,36 @@ s.updatetask();
                                 dhow2ForgDertlssf.f=dhow2ForgDertlssf.f==false?true:false;
                             }
                         }
+// one and many
+                        // different place
+                        // different time
+                        // different people
+                        // different things
+                        // combinations
+                        // i hope taht you can hear my voide and know that i miss you
+                        // can you hear me
+                        // i hear you
+                        // i hear you
+                        // can you hear me
+                        // can you see me
+                        // can you hear me
+                        // i can hear you
+                        // li love you
+                        // can you hear me
+                        // i have to give away everything before at the end of the day
+                        // i have to give away everything at the end of the day
+                        // i have to give away everything at the end of the day
+                        // i have to gtive away everything ath teh endo fthe tday so that i can follow assleep so that i can follow aslecopt
+                        // i love you
+                        // i love you
+                        // you love me
 
+                        // you could've be my wife you could mbe my wife youdlcode mbye y brther
+                        // ci just wnat to have somethione who can be there for me
+                        // i just want to be wieth you
+                        // i just want to be there with you
+
+                        //s remember the place then it is heveyrthing place hodler and trmeember the plcea then that it is the palcena ndns tiemgt eatha ti thait si
 
                         else if (SDislDoald) {
                             System.out.println("asdf");
