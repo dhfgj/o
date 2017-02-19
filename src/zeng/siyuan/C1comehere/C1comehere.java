@@ -70,7 +70,11 @@ public class C1comehere implements Serializable {
     public static transient Properties pdrop;
     public static transient Properties jk;
     public transient static Map<String, Search> searchEngines = new HashMap<String, Search>();
-
+// it has been a long time and i have been loast the onctent and purpose and everything that matters
+    // it is all gone and
+    // i wused to want to make the world happlier
+    // i used to want to make the very boby happy
+    // i used to want to make the everybody happy
 
 Properties w;
     public void c() {
@@ -1183,6 +1187,13 @@ but i don't have to time to review the same thing again and again
                         boolean DisShowColmmand = buttonSelected.equalsIgnoreCase("DshoL");// shw
                         Search Dsearclh = null;
 
+// do i have to make sense it has because there is a command in my mind and it needs to make sense or i have to communciate ant transverse this to another dimiention
+
+                        // that is thright
+                        // i don't have any thing
+
+
+
 
 
 
@@ -1196,7 +1207,15 @@ but i don't have to time to review the same thing again and again
                         boolean DsaercDhdliary = buttonSelected.equals("DsaerDLchdiary");
                         boolean DisShowDColmmand = buttonSelected.equalsIgnoreCase("DshoDL");// shw
                         Search DsearclhD = null;
-
+// it has to bemake some sense some day
+                        // why do i have remember the sence sebecause it is the building block of the understandning na memory
+                        // why do i have ot know becaus eyou already know
+                        // di on't i am not already know
+                        // already
+                        // you know what you need
+                        // that is something
+                        // tthat is  right
+                        //
 
 
 
@@ -1242,7 +1261,7 @@ but i don't have to time to review the same thing again and again
 
                         boolean findtheshotcutviode = buttonSelected.equalsIgnoreCase("Dsg");// shw
 
-
+// i never clean my code and that is thi
                         String searchTrs = "";
 
                         System.out.println(textArea.getText());
@@ -1268,7 +1287,7 @@ but i don't have to time to review the same thing again and again
                             else {
                                 dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.load();
                                 textArea.setText("");
-                            }
+                            } // sorry, // please
                         }
                         else if (DldeleteCommandd_X ) {
                             System.out.println("Disloadl");
@@ -1278,6 +1297,11 @@ but i don't have to time to review the same thing again and again
                                 ad.load();
                                 textArea.setText("");
                             }
+                            // thwat is the thing
+                            // it hte everything an
+                            // and you know it
+
+                            // and you know it
                         }
 // he do not talk , he has too much trouble
                         else if (SDldeleteCommandd_Xf) {
@@ -1391,6 +1415,8 @@ lost in the details
 //                            }
 
                         }
+                        // iam confused because there are in the different level
+                        // if li i live in a higher demision i should discard all i have then i can goes to the next level
 /*
                         else if (textArea.getText().equalsIgnoreCase("zengb45")) {
                             KFHASDF KFHASDF = new KFHASDF();
