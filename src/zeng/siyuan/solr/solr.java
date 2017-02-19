@@ -74,6 +74,7 @@ public class solr {
                 buttonSelected=button.getText();
             }
         }
+        // everywehre can i hav to changet i t
 
         boolean deleteCommand = buttonSelected.equalsIgnoreCase("delete");
         boolean isShowCommand = buttonSelected.equalsIgnoreCase("sho");// shw

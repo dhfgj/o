@@ -2497,7 +2497,9 @@ s.updatetask();
         // oraganize and best perforamncae time and location matters i sjust move a butnch of code to ther runnable to turn them all toghet.
 
     }
+// all the information come to me it is sa blessed
 
+    //
 
     static {
         searchEngines.put("sg ", new Search("Bing", "sg ", "http://www.bing.com/search?q=%s", "+"));

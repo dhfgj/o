@@ -330,7 +330,7 @@ class AutoSuggestor {
         if (tW < label.getPreferredSize().width) {
             tW = label.getPreferredSize().width;
         }
-        tH += 5*2;
+        tH += 10*2;// change the gap, without the hein tnad description
     }
 
     private void showPopUpWindow() {
