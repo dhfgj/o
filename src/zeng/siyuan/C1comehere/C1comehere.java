@@ -81,6 +81,8 @@ Properties w;
         w = new Properties();
         Properties temprop = new Properties();
         InputStream input = null;
+        //i can ony change what i have owened and that is it
+        //
 
         try {
             new File("w.properties").getAbsolutePath();
@@ -239,13 +241,15 @@ Properties w;
         }
     }
 //My name is I here now
-
+// it is for me what odes it mean
+    // what does it mean everytign what does it
+    // how to resolve terveyrhign thow to get everything //
     public static void main(String ar[]) throws Exception {
-        try
+        try// i forgot the most of the command s because the whold ting kdoesn't matke snese there must be one love and seperate love theier myust be lobe lbolkockers and blockers
         {
             Process p=Runtime.getRuntime().exec("cmd /c C:\\solr-6.2.0\\bin\\solr start");
             p.waitFor();
-            BufferedReader reader=new BufferedReader(
+            BufferedReader reader=new BufferedReader(// all chainsese people are joulous mof me all the people are thankingme all the what does it mean it means everything everything to you
                     new InputStreamReader(p.getInputStream())
             );
             String line;
@@ -255,6 +259,15 @@ Properties w;
             }
 // mssaster of time
             // master of time
+// how to remember mealingless things
+            // i have to refer to it everythign becasue the whole thing doesn't make sense
+
+
+            // it is redicuclous and very rediculoust
+// whta it the realtionsihp bettwen you and me
+            // you and i
+            // hahhhahahahha
+
 
 //            p=Runtime.getRuntime().exec("cmd /c C:\\apache-cassandra-2.1.14\\bin\\cassandra");
 //            p.waitFor();
