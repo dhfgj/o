@@ -214,7 +214,7 @@ public class How2Forgert implements Serializable {
             }
 
 
-            m.store(e);
+            m.deleteTask(e.getJavauid());m.store(e);
             reloadTAskandrestartPopThread();
 
         }
@@ -285,7 +285,7 @@ public class How2Forgert implements Serializable {
 
                 e.text = stringBuilder.toString();
 
-                m.store(e);
+                m.deleteTask(e.getJavauid());m.store(e);
                 System.out.println("updates");
                 isSearch=false;
                 break;
@@ -384,7 +384,7 @@ public class How2Forgert implements Serializable {
                                         }
                                     }
 
-                                    m.store(e);
+                                    m.deleteTask(e.getJavauid());m.store(e);
                                     if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
                                         try {
                                             r.open(e.text);
@@ -449,7 +449,7 @@ public class How2Forgert implements Serializable {
                                             ct.setIsDone(true);
                                         }
 
-                                        m.store(e);
+                                        m.deleteTask(e.getJavauid());m.store(e);
                                         if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
                                             try {
                                                 r.open(e.text);
@@ -507,7 +507,7 @@ public class How2Forgert implements Serializable {
         if (null != textArea && !("".equalsIgnoreCase(textArea.getText()))) {
 
                     person_question e = new person_question(textArea.getText(), "Link");
-                    m.store(e);
+                    m.deleteTask(e.getJavauid());m.store(e);
                     textArea.setText("");
         }
         reloadTAskandrestartPopThread();
@@ -524,7 +524,7 @@ public class How2Forgert implements Serializable {
         for (person_question e : ebbinghauses) {
             if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
 //                e.setText(textinput);
-                m.store(e);
+                m.deleteTask(e.getJavauid());m.store(e);
                 System.out.println("updates");
                 isSearch = false;
                 break;
@@ -555,7 +555,7 @@ public class How2Forgert implements Serializable {
                                     inntuitive+=e.getQuestion();
                                     currentTask.setIsDone(true);
 //                                            m.deleteTask(e.getJavauid());
-                                            m.store(e);
+                                            m.deleteTask(e.getJavauid());m.store(e);
 //                                Desktop.getDesktop().open(new File(e.getQuestion()));
                                     if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                                     r.open(e.getQuestion());
@@ -576,7 +576,7 @@ public class How2Forgert implements Serializable {
                                         inntuitive += e.getQuestion();
                                         currentTask.setIsDone(true);
 //                                        m.deleteTask(e.getJavauid());
-                                        m.store(e);
+                                        m.deleteTask(e.getJavauid());m.store(e);
 
                                         if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                                         r.open(e.getQuestion());
@@ -604,7 +604,7 @@ public class How2Forgert implements Serializable {
                                         inntuitive+=e.getQuestion();
                                         currentTask.setIsDone(true);
 //                                        m.deleteTask(e.getJavauid());
-                                        m.store(e);
+                                        m.deleteTask(e.getJavauid());m.store(e);
 
 //                                if(r.isUrl(e.getQuestion())){
 //                                    r.openUrlInBrowser(e.getQuestion());

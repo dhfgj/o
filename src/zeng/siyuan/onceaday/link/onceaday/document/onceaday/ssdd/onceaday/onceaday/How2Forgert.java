@@ -55,7 +55,7 @@ public class How2Forgert implements Serializable {
                 String line = in.nextLine();
                 if (line.startsWith("C:") ||line.startsWith("http")) {
                     person_question e = new person_question(line, "Link", null);
-                    m.store(e);
+                    m.deleteTask(e.getJavauid());m.store(e);
                     Runnable l = ()->DAFSDF(e);
                     l.run();
                     textArea.setText("");
@@ -77,7 +77,7 @@ public class How2Forgert implements Serializable {
         for (person_question e : ebbinghauses) {
             if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                 e.setText(textinput);
-                m.store(e);
+                m.deleteTask(e.getJavauid());m.store(e);
                 System.out.println("updates");
                 isSearch = false;
                 break;
@@ -152,15 +152,15 @@ static int ou= 1;
 
                                     currentTask.setDate(r.l(currentTask.getDate()));
 
-//                                        m.deleteTask(e.getJavauid());
+                                        m.deleteTask(e.getJavauid());
 //                                        e = new person_question(e.getText(),"ssdd", null);
-                                    m.store(e);
+                                    m.deleteTask(e.getJavauid());m.store(e);
 
                                     /*
                                     currentTask.isDone=true;
 //                                            m.deleteTask(e.getJavauid());
                                             e = new person_question(e.getText(),"ssdd", null);
-                                            m.store(e);
+                                            m.deleteTask(e.getJavauid());m.store(e);
 */
 //                                Desktop.getDesktop().open(new File(e.getText()));
 
@@ -193,9 +193,9 @@ count --;
 
                                     currentTask.setDate(r.l(currentTask.getDate()));
 
-//                                        m.deleteTask(e.getJavauid());
+                                        m.deleteTask(e.getJavauid());
 //                                        e = new person_question(e.getText(),"ssdd", null);
-                                    m.store(e);
+                                    m.deleteTask(e.getJavauid());m.store(e);
                                     if (count == 0 ) {
                                         Thread.sleep(6 * 60000);
                                         count = 2;
@@ -231,12 +231,12 @@ count --;
 
                                 currentTask.setDate(r.l(currentTask.getDate()));
 
-//                                        m.deleteTask(e.getJavauid());
+                                        m.deleteTask(e.getJavauid());
 //                                        e = new person_question(e.getText(),"ssdd", null);
-                                m.store(e);
+                                m.deleteTask(e.getJavauid());m.store(e);
 //
 //                                        e = new person_question(e.getText(),"ssdd", null);
-//                                        m.store(e);
+//                                        m.deleteTask(e.getJavauid());m.store(e);
 
 //                                if(r.isUrl(e.getText())){
 //                                    r.openUrlInBrowser(e.getText());

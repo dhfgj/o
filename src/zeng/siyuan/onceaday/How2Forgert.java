@@ -39,7 +39,7 @@ public class How2Forgert implements Serializable {
                     String line = in.nextLine();
                     if (line.contains("?") && line.endsWith("?")) {
                         person_question e = new person_question(line,"p", getdatelastday());
-                        m.store(e);
+                        m.deleteTask(e.getJavauid());m.store(e);
                         Runnable a = () -> l(e);
                         a.run();
                     } else {
@@ -117,7 +117,7 @@ public class How2Forgert implements Serializable {
 
                 e.text = stringBuilder.toString();
 
-                m.store(e);
+                m.deleteTask(e.getJavauid());m.store(e);
                 System.out.println("updates");
                 isSearch=false;
                 break;
@@ -153,7 +153,7 @@ public class How2Forgert implements Serializable {
                                         if (ct.getDate().getTime() == currentTask.getDate().getTime()) {
                                             ct.setIsDone(true);
                                             inntuitive += e.text;
-                                            m.store(e);
+                                            m.deleteTask(e.getJavauid());m.store(e);
                                         }
                                     }
                                 }
@@ -180,7 +180,7 @@ public class How2Forgert implements Serializable {
 
                                         ct.setIsDone(true);
                                         inntuitive += e.text;
-                                        m.store(e);
+                                        m.deleteTask(e.getJavauid());m.store(e);
                                         if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                                         found = true;
                                     }

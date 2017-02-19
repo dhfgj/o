@@ -47,7 +47,7 @@ public class How2Forgert implements Serializable {
                     String line = in.nextLine();
                     if (line.contains("?") && line.endsWith("?")) {
                         Ebbinghaus e = new Ebbinghaus(line,"");
-                        m.store(e);
+                        m.deleteTask(e.getJavauid());m.store(e);
                     } else {
                     }
                 }
@@ -118,7 +118,7 @@ public class How2Forgert implements Serializable {
                 e.question = stringBuilder.toString();
                 Ebbinghaus e1 = new Ebbinghaus(e.question, "");
 //                m.deleteTask(e.getJavauid());
-                m.store(e);
+                m.deleteTask(e.getJavauid());m.store(e);
                 System.out.println("updates");
                 isSearch=false;
                 isSearchCombine=false;
@@ -178,7 +178,7 @@ public class How2Forgert implements Serializable {
                                             ct.setIsDone(true);
                                             inntuitive += e.question;
 //                                            m.deleteTask(e.getJavauid());
-                                            m.store(e);
+                                            m.deleteTask(e.getJavauid());m.store(e);
                                         }
                                     }
                                 }
@@ -218,7 +218,7 @@ public class How2Forgert implements Serializable {
                                             ct.setIsDone(true);
                                             inntuitive += e.question;
 //                                            m.deleteTask(e.getJavauid());
-                                            m.store(e);
+                                            m.deleteTask(e.getJavauid());m.store(e);
                                         }
                                     }
                                 }
@@ -249,7 +249,7 @@ public class How2Forgert implements Serializable {
                                         inntuitive += System.getProperty("line.separator");
                                         inntuitive += e.question;                                        inntuitive += System.getProperty("line.separator");                                        inntuitive += System.getProperty("line.separator");
 //                                        m.deleteTask(e.getJavauid());
-                                        m.store(e);
+                                        m.deleteTask(e.getJavauid());m.store(e);
 
                                         while (!textArea.getText().trim().isEmpty() || !isHow2ForegertCommand) {
                                             try {

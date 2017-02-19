@@ -54,7 +54,7 @@ public class How2Forgert implements Serializable {
                 String line = in.nextLine();
                 if (line.startsWith("C:") ||line.startsWith("http")) {
                     person_question e = new person_question(line, "Link", null);
-                    m.store(e);
+                    m.deleteTask(e.getJavauid());m.store(e);
                     textArea.setText("");
                 } else {
                     textArea.setText("invalid input" + "\n" + line);
@@ -74,7 +74,7 @@ public class How2Forgert implements Serializable {
         for (person_question e : ebbinghauses) {
             if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                 e.setText(textinput);
-                m.store(e);
+                m.deleteTask(e.getJavauid());m.store(e);
                 System.out.println("updates");
                 isSearch = false;
                 break;
@@ -106,7 +106,7 @@ public class How2Forgert implements Serializable {
                                     inntuitive+=e.getText();
 //                                            m.deleteTask(e.getJavauid());
 //                                            e = new person_question(e.getText(),"ssdd", null);
-//                                            m.store(e);
+//                                            m.deleteTask(e.getJavauid());m.store(e);
                                     currentTask.isDone=false;
                                     inntuitive+=e.getText();
 //                                        m.deleteTask(e.getJavauid());
@@ -115,7 +115,7 @@ public class How2Forgert implements Serializable {
 
 //                                        m.deleteTask(e.getJavauid());
 //                                        e = new person_question(e.getText(),"ssdd", null);
-                                    m.store(e);
+                                    m.deleteTask(e.getJavauid());m.store(e);
 
                                     if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                                             break;
@@ -140,7 +140,7 @@ public class How2Forgert implements Serializable {
 
 //                                        m.deleteTask(e.getJavauid());
 //                                        e = new person_question(e.getText(),"ssdd", null);
-                                    m.store(e);
+                                    m.deleteTask(e.getJavauid());m.store(e);
                                     if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                                             break;
                                 }
@@ -160,7 +160,7 @@ public class How2Forgert implements Serializable {
                                         inntuitive+=e.getText();
 //                                        m.deleteTask(e.getJavauid());
 //                                        e = new person_question(e.getText(),"ssdd", null);
-//                                        m.store(e);
+//                                        m.deleteTask(e.getJavauid());m.store(e);
                                 currentTask.isDone=false;
                                 inntuitive+=e.getText();
 //                                        m.deleteTask(e.getJavauid());
@@ -169,7 +169,7 @@ public class How2Forgert implements Serializable {
 
 //                                        m.deleteTask(e.getJavauid());
 //                                        e = new person_question(e.getText(),"ssdd", null);
-                                m.store(e);
+                                m.deleteTask(e.getJavauid());m.store(e);
                                 if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                                         break;
                             }

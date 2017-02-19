@@ -274,7 +274,7 @@ if(ss.getText().equalsIgnoreCase(stringBuffer1.toString().trim())){
                     stringBuffer1.append(textStr[i]);
                 }
                 e = new person_question(stringBuffer1.toString(), "i", r.j(textStr[0]));
-                m.store(e);
+                m.deleteTask(e.getJavauid());m.store(e);
 
             } else
 
@@ -285,7 +285,7 @@ if(ss.getText().equalsIgnoreCase(stringBuffer1.toString().trim())){
                     stringBuffer1.append(textStr[i]);
                 }
                 e = new person_question(stringBuffer1.toString(), "l", r.strifasld("30"));
-                m.store(e);
+                m.deleteTask(e.getJavauid());m.store(e);
 
             } else
 
@@ -296,7 +296,7 @@ if(ss.getText().equalsIgnoreCase(stringBuffer1.toString().trim())){
                     stringBuffer1.append(textStr[i]);
                 }
                 e = new person_question(stringBuffer1.toString(), "ll", r.strifasld("60"));
-                m.store(e);
+                m.deleteTask(e.getJavauid());m.store(e);
 
             } else
 // love heals everythig love i shte best healing
@@ -306,7 +306,7 @@ if(ss.getText().equalsIgnoreCase(stringBuffer1.toString().trim())){
                     stringBuffer1.append(textStr[i]);
                 }
                 e = new person_question(stringBuffer1.toString(), "c", r.strifasld("60"));
-                m.store(e);
+                m.deleteTask(e.getJavauid());m.store(e);
 
             } else
 
@@ -319,7 +319,7 @@ if(ss.getText().equalsIgnoreCase(stringBuffer1.toString().trim())){
                     stringBuffer1.append(textStr[i]);
                 }
                 e = new person_question(stringBuffer1.toString(), "j", new Date());
-                m.store(e);
+                m.deleteTask(e.getJavauid());m.store(e);
 
             } else
 
@@ -330,7 +330,7 @@ if(ss.getText().equalsIgnoreCase(stringBuffer1.toString().trim())){
                     stringBuffer1.append(textStr[i]);
                 }
                 e = new person_question(stringBuffer1.toString(), "j", r.d(textStr[0]));
-                m.store(e);
+                m.deleteTask(e.getJavauid());m.store(e);
 
             } else
 
@@ -342,7 +342,7 @@ if(ss.getText().equalsIgnoreCase(stringBuffer1.toString().trim())){
                     stringBuffer1.append(textStr[i]);
                 }
                 e = new person_question(stringBuffer1.toString(), "dd", new Date());
-                m.store(e);
+                m.deleteTask(e.getJavauid());m.store(e);
 
             } else
 
@@ -354,7 +354,7 @@ if(ss.getText().equalsIgnoreCase(stringBuffer1.toString().trim())){
                     stringBuffer1.append(textStr[i]);
                 }
                 e = new person_question(stringBuffer1.toString(), "d", new Date());
-                m.store(e);
+                m.deleteTask(e.getJavauid());m.store(e);
 
             } else
 
@@ -367,7 +367,7 @@ if(ss.getText().equalsIgnoreCase(stringBuffer1.toString().trim())){
                     stringBuffer1.append(textStr[i]);
                 }
                 e = new person_question(stringBuffer1.toString(), "dd", r.d(textStr[0]));
-                m.store(e);
+                m.deleteTask(e.getJavauid());m.store(e);
 
             } else
 
@@ -379,7 +379,7 @@ if(ss.getText().equalsIgnoreCase(stringBuffer1.toString().trim())){
                     stringBuffer1.append(textStr[i]);
                 }
                 e = new person_question(stringBuffer1.toString(), "d", r.d(textStr[0]));
-                m.store(e);
+                m.deleteTask(e.getJavauid());m.store(e);
 
             } else
 
@@ -397,7 +397,7 @@ if(ss.getText().equalsIgnoreCase(stringBuffer1.toString().trim())){
 //                    e.setText("asdfljl");
                 } else {
                     e = new person_question("asdfkj", "gh", r.m(new Date()));
-                    m.store(e);
+                    m.deleteTask(e.getJavauid());m.store(e);
 
                 }
             } else
@@ -413,7 +413,7 @@ if(ss.getText().equalsIgnoreCase(stringBuffer1.toString().trim())){
                         stringBuffer1.append(textStr[i]);
                     }
                     e = new person_question(stringBuffer1.toString(), "j", r.d(textStr[0]));
-                    m.store(e);
+                    m.deleteTask(e.getJavauid());m.store(e);
 
                 }
 
@@ -424,7 +424,7 @@ if(ss.getText().equalsIgnoreCase(stringBuffer1.toString().trim())){
                         stringBuffer1.append(textStr[i]);
                     }
                     e = new person_question(stringBuffer1.toString(), "dd", new Date());
-                    m.store(e);
+                    m.deleteTask(e.getJavauid());m.store(e);
 
                 }
 
@@ -434,7 +434,7 @@ if(ss.getText().equalsIgnoreCase(stringBuffer1.toString().trim())){
                         stringBuffer1.append(textStr[i]);
                     }
                     e = new person_question(stringBuffer1.toString(), "d", new Date());
-                    m.store(e);
+                    m.deleteTask(e.getJavauid());m.store(e);
 
                 }
 
@@ -445,7 +445,7 @@ if(ss.getText().equalsIgnoreCase(stringBuffer1.toString().trim())){
                         stringBuffer1.append(textStr[i]);
                     }
                     e = new person_question(stringBuffer1.toString(), "d", new Date());
-                    m.store(e);
+                    m.deleteTask(e.getJavauid());m.store(e);
 
                 }
 
@@ -456,7 +456,7 @@ if(ss.getText().equalsIgnoreCase(stringBuffer1.toString().trim())){
                     }
 
                     e = new person_question(stringBuffer1.toString(), "p", r.d(textStr[0]));
-                    m.store(e);
+                    m.deleteTask(e.getJavauid());m.store(e);
                 }
 
 
@@ -479,7 +479,7 @@ if(ss.getText().equalsIgnoreCase(stringBuffer1.toString().trim())){
 //                        stringBuffer1.append(textStr[0]);
                         stringBuffer1.append(textStr[i]);
                         e = new person_question(stringBuffer1.toString(), "f", r.strifasld(new String (String.valueOf(30))));
-                        m.store(e);
+                        m.deleteTask(e.getJavauid());m.store(e);
                     }
                 }
 
@@ -493,7 +493,7 @@ if(ss.getText().equalsIgnoreCase(stringBuffer1.toString().trim())){
                         stringBuffer1.append(textStr[i]);
 
                         e = new person_question(stringBuffer1.toString(), ij.toString(), r.strifasld(new String (String.valueOf(ij.toString()))));
-                        m.store(e);
+                        m.deleteTask(e.getJavauid());m.store(e);
 //                        person_question finalE = e;
 //                        Runnable a = ()-> sdfasd(finalE);
 //                        a.run();
@@ -585,7 +585,7 @@ if(ss.getText().equalsIgnoreCase(stringBuffer1.toString().trim())){
 
                 e.text = stringBuilder.toString();
 
-                m.store(e);
+                m.deleteTask(e.getJavauid());m.store(e);
                 System.out.println("updates");
                 isSearch=false;
                 break;
@@ -701,7 +701,7 @@ public static int c =2;
                                 }
                             }
 
-                            m.store(e);
+                            m.deleteTask(e.getJavauid());m.store(e);
                             if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
                                 try {
                                     while (f) {
@@ -815,7 +815,7 @@ public static int c =2;
                                             currentTask.setIsDone(true);
                                         }
 
-                                        m.store(e);
+                                        m.deleteTask(e.getJavauid());m.store(e);
                                         if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
                                             try {
                                                 while (f) {

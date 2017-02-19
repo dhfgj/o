@@ -652,7 +652,7 @@ public class How2Forgert implements Serializable {
 
                 e.text = stringBuilder.toString();
 
-//                m.store(e);
+//                m.deleteTask(e.getJavauid());m.store(e);
                 System.out.println("updates");
                 isSearch=false;
                 break;
@@ -1094,7 +1094,7 @@ public boolean f =true;
 //                String line = in.nextLine();
 //                    if (line.contains("?") && line.endsWith("?")) {
 //                person_question e = new person_question(line, "p", getdatelastday());
-//                        m.store(e);
+//                        m.deleteTask(e.getJavauid());m.store(e);
 //                ObjectMapper mapper = new ObjectMapper();
 
 //                            person_question staff = person_question();
@@ -1229,7 +1229,7 @@ public boolean f =true;
 //
 //                e.text = stringBuilder.toString();
 //
-//                m.store(e);
+//                m.deleteTask(e.getJavauid());m.store(e);
 //
 //                String j = null;
 //                try {
@@ -1327,7 +1327,7 @@ public boolean f =true;
 
 
                                 inntuitive += e.text;
-//                                            m.store(e);
+//                                            m.deleteTask(e.getJavauid());m.store(e);
 //                                Date asdadfKJAHSLKFHASKJDHFKL= new Date();
 //                                if (asdadfKJAHSLKFHASKJDHFKL.getTime() == AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime()) {
 //                                    asdf = true;
@@ -1515,7 +1515,7 @@ tasks.remove(l);
 //                                        ct.setIsDone(true);
 //                                        inntuitive += e.text;
 //
-//                                        m.store(e);
+//                                        m.deleteTask(e.getJavauid());m.store(e);
 //
 //                                        String j = mapper.writeValueAsString(e);
 //                                        System.out.println(j);
@@ -1587,7 +1587,7 @@ tasks.remove(l);
 
 
                                     inntuitive += e.text;
-//                                            m.store(e);
+//                                            m.deleteTask(e.getJavauid());m.store(e);
 //                                    Date asdadfKJAHSLKFHASKJDHFKL= new Date();
 //                                    if (asdadfKJAHSLKFHASKJDHFKL.getTime() == AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime()) {
 //                                        asdf = true;
@@ -1784,7 +1784,7 @@ if(tasks.size()>0) {
 //                                        ct.setIsDone(true);
 //                                        inntuitive += e.text;
 //
-//                                        m.store(e);
+//                                        m.deleteTask(e.getJavauid());m.store(e);
 //
 //                                        String j = mapper.writeValueAsString(e);
 //                                        System.out.println(j);
