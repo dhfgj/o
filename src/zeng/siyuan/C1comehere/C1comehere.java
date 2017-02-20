@@ -486,7 +486,7 @@ Properties w;
 //C:\l\src\zeng\siyuan\C1comehere\dd.properties
 //            output = new FileOutputStream("C:\\l\\src\\zeng\\siyuan\\C1comehere\\dd.properties");
 //C:\l\src\zeng\siyuan\C1comehere\d.properties
-            output = new FileOutputStream(new File("src/zeng/siyuan/C1comehere/md.properties").getAbsolutePath());
+            output = new FileOutputStream(new File("md.properties").getAbsolutePath());
 // /Users/zenal01/l/src/zeng/siyuan/C1comehere/md.properties
             // set the properties value
             pdrmop.setProperty(c1, c1Path);
@@ -690,7 +690,7 @@ no appreciation */
         InputStream input = null;
 
         try {
-            input = new FileInputStream(new File("src/zeng/siyuan/C1comehere/md.properties").getAbsolutePath());
+            input = new FileInputStream(new File("md.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             pdrmop.load(input);
 
