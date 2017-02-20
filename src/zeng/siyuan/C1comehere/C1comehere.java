@@ -487,6 +487,7 @@ Properties w;
 //            output = new FileOutputStream("C:\\l\\src\\zeng\\siyuan\\C1comehere\\dd.properties");
 //C:\l\src\zeng\siyuan\C1comehere\d.properties
             output = new FileOutputStream(new File("src\\zeng\\siyuan\\C1comehere\\md.properties").getAbsolutePath());
+// /Users/zenal01/l/src/zeng/siyuan/C1comehere/md.properties
             // set the properties value
             pdrmop.setProperty(c1, c1Path);
 
@@ -697,7 +698,7 @@ no appreciation */
             for (Map.Entry<Object, Object> e : temprop.entrySet()) {
                 String key = ((String) e.getKey()).replace("%20", " ");
                 String v = (String) e.getValue();
-                pdrop.put(key, v);
+                pdrmop.put(key, v);
             }
             System.out.println("Done Propertiesy loading");
 
