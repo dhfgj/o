@@ -4,6 +4,7 @@ package zeng.siyuan.button;
  * Created by SiyuanZeng's on 9/5/2016.
  */
 
+import zeng.siyuan.C1comehere.C1comehere;
 import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.findthebestexample;
 import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.findtheshortcut;
 import zeng.siyuan.betteresearchennebetterthangoogleandfindweehtehrething.findessentioal.findtutroial.findtheshortcutyoutututouiral;
@@ -89,6 +90,8 @@ public class untoggle {
     public static JToggleButton bDLtSnD8 = new JToggleButton("DlaoSdLD");
     public static JToggleButton bLDtSnD9 = new JToggleButton("DcodeLSDja");
     public static JToggleButton bLtSDnD10 = new JToggleButton("DsaeSrDLchdiary");
+
+
     public static JToggleButton btn1011111 = new JToggleButton("saerchdiaryall");
     public static JToggleButton btn1011d111 = new JToggleButton("saerchddiaryall");
 
@@ -289,6 +292,19 @@ public class untoggle {
                 bg.add(bDLtSnD8);
                 bg.add(bLDtSnD9);
                 bg.add(bLtSDnD10);
+
+                bLtSDnD10.addActionListener(e->{
+
+                    textArea.setText(C1comehere.dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.j());
+
+
+
+
+                        }
+
+
+
+                );
 
 
 
