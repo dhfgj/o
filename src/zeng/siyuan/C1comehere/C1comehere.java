@@ -52,6 +52,8 @@ public class C1comehere implements Serializable {
     public static transient JTextArea textArea;
     public static JFrame frame;
     public How2Forgert how2Forgert;
+    // how ot handle so many categories
+    // to handle i t i will hav eot
     public zeng.siyuan.onceaday.How2Forgert dhow2Forgert;
     public zeng.siyuan.howt2forgert.howt2forgert.How2Forgert s;
     public zeng.siyuan.onceaday.link.onceaday.How2Forgert dhow2Forgertl;
@@ -89,7 +91,7 @@ Properties w;
         Properties temprop = new Properties();
         InputStream input = null;
         //i can ony change what i have owened and that is it
-        //
+        //it i sthe tendency of mind ot simplify thing san nd that is all
 
         try {
             new File("w.properties").getAbsolutePath();
@@ -563,7 +565,12 @@ Properties w;
                     }
                 }
             }
+/*
+*
+gp.ca.com
 
+
+no appreciation */
 
     }
 
@@ -1238,7 +1245,10 @@ but i don't have to time to review the same thing again and again
                         //
 
 
-
+//SURRENDER
+                        // SURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDER
+                        // SURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDER
+                        //SURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDER
                         boolean      SDldeleteCommandd_X = buttonSelected.equals("DLDdSelete");
                         boolean DsLSDg = buttonSelected.equals("DsLSDg");
                         boolean SDdleleteCoDmmand2 = buttonSelected.equals("DdeldSLDiary");// ther eare something that make sens enand that i can build ton potp of this
@@ -1252,7 +1262,11 @@ but i don't have to time to review the same thing again and again
                         boolean SDisShowDColmmand = buttonSelected.equalsIgnoreCase("DshSoDL");// shw
                         Search DSsearclhD = null;
 //nothing make sense anymore this is so much fun
+// IT WANTs me to surrender but i am not
 
+                        // surrender to death
+                        // surrender to edeath
+                        // surrender
                         boolean SDldeleteCommandd_Xf = buttonSelected.equals("DLDdSeletef");
                         boolean b = buttonSelected.startsWith("DsLSDgf");
                         boolean SDdleleteCoDmmand2f = buttonSelected.equals("DdeldSLDiaryf");
