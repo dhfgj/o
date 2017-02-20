@@ -477,6 +477,54 @@ Properties w;
         }
     }
 
+    public void dmd(String c1, String c1Path) {
+        km();
+
+        OutputStream output = null;
+        OutputStream output_solr = null;
+        try {
+//C:\l\src\zeng\siyuan\C1comehere\dd.properties
+//            output = new FileOutputStream("C:\\l\\src\\zeng\\siyuan\\C1comehere\\dd.properties");
+//C:\l\src\zeng\siyuan\C1comehere\d.properties
+            output = new FileOutputStream(new File("src\\zeng\\siyuan\\C1comehere\\md.properties").getAbsolutePath());
+            // set the properties value
+            pdrmop.setProperty(c1, c1Path);
+
+            // save properties to project root folder
+            pdrmop.store(output, null);
+
+
+/*
+            output_solr = new FileOutputStream("/Users/vn0xrjh/daniel/14_GUIcopymacosx/c1comehere/c1s.properties.solr");
+
+            int count = 0;
+            for (Map.Entry<Object, Object> e : p.entrySet()) {
+                String key = ((String) e.getKey()).replace("%20", " ");
+                String v = (String) e.getValue();
+                output_solr.write(String.valueOf(count).getBytes());
+                output_solr.write(',');
+                output_solr.write(key.getBytes());
+                output_solr.write(',');
+                output_solr.write(v.getBytes());
+                output_solr.write(System.getProperty("line.separator").getBytes());
+                count++;
+            }
+*/
+
+//            km();
+        } catch (IOException io) {
+            io.printStackTrace();
+        } finally {
+            if (output != null) {
+                try {
+                    output.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+
     public void c1s() {
         prop = new Properties();
         Properties temprop = new Properties();
@@ -582,6 +630,66 @@ no appreciation */
 
         try {
             input = new FileInputStream(new File("src/zeng/siyuan/C1comehere/d.properties").getAbsolutePath());
+            // fjlasdjfl a properties file
+            temprop.load(input);
+
+
+            for (Map.Entry<Object, Object> e : temprop.entrySet()) {
+                String key = ((String) e.getKey()).replace("%20", " ");
+                String v = (String) e.getValue();
+                pdrop.put(key, v);
+            }
+            System.out.println("Done Propertiesy loading");
+
+/*
+            SolrDataDAO solrBaseDAO = null;
+            try {
+                solrBaseDAO = new SolrDataDAO();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+            int count =1;
+            for (Map.Entry<Object, Object> e : p.entrySet()) {
+                System.out.println(count);
+                String key = ((String) e.getKey()).replace("%20", " ");
+                String v = (String) e.getValue();
+                try {
+                    solrBaseDAO.addData(count, key,v);
+                } catch (Exception e1) {
+                    e1.printStackTrace();
+                }
+                count++;
+            }
+            System.out.println("stop");
+
+*/
+
+
+
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        } finally {
+            if (input != null) {
+                try {
+                    input.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+
+    }
+
+    public Properties pdrmop;
+    public void km() {
+        pdrmop = new Properties();
+        Properties temprop = new Properties();
+        InputStream input = null;
+
+        try {
+            input = new FileInputStream(new File("src/zeng/siyuan/C1comehere/md.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop.load(input);
 
@@ -1318,6 +1426,7 @@ but i don't have to time to review the same thing again and again
 
 
                         else if (SDsaercDhdliary) {
+                            dmd(textArea.getText(), textArea.getText());
                             C1comehere.dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.sdfdfdf(textArea.getText());
                             textArea.setText("");
 

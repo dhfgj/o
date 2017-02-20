@@ -594,8 +594,9 @@ public DBObject t = new BasicDBObject();
         // Convert object to JSON string and pretty print
 //        j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(s);
 //                    System.out.println(j);
-        DBObject p = (DBObject) JSON
-                .parse(j);
+//        DBObject p = new BasicDBObject();
+// convert JSON to DBObject directly
+        DBObject s = (DBObject) JSON.parse("{'name':'mkyong', 'age':30, 'f':'"+j +"'}");
 
 
         MongoDbHelper k = null;
@@ -604,8 +605,8 @@ public DBObject t = new BasicDBObject();
         } catch (UnknownHostException e) {
             e.printStackTrace();
         }
-        k.removeDocument("md", t);
-        k.insertDocument("md", p);
+        if (null !=t) k.removeDocument("md", t);
+        if (null !=s)k.insertDocument("md", s);
 
         return "";
     }
@@ -618,8 +619,8 @@ public DBObject t = new BasicDBObject();
             e.printStackTrace();
         }
 
-            String jx = t.toString();
-return jx;
+        if (null !=t)     return t.get("f").toString();
+return "";
     }
 
 //    public How2Forgert(C1comehere c1comehere, JTextArea textArea, JFrame frame) {
