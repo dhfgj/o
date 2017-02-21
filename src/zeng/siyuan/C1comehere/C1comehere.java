@@ -493,6 +493,89 @@ Properties w;
 
             // save properties to project root folder
             pdrmop.store(output, null);
+// crverbs are nanother waht to do
+            // what is noather to do
+            // what is anothe what to do
+            // it is not neccessary to the peroblem
+            // it i s not neccessary do you know waht i mean?
+            // you mean nothing to me
+            // you mean nothing to me
+            // I am so fafraid that he iwi attack me
+            // o a m acared that he will atatck me like i would to attack somebody i love and harrass them
+            // verb is what to
+            // what to do
+            // what .....
+//            what .........
+            // ,ss
+            // everyrhing is moving
+            // what what to do waht
+            // sattic what fix what fixed what
+            // what thwa t
+            // wht does it mean aht there are something
+            // what does it mean there is an eys watching you ... i an idea is floating there, there is a word you see me and it sees you. you meet thim and it is catching you.
+// say it sonce and forever, it is making me so sick so much sick so sick
+            // you can repeat in you mind forever
+            // so sick if you want it to be
+            // love is everything and everything you want and everything you don't want
+            // love is there and not
+            // there not and there
+            // therenot
+// you know don't know the purpose and why and you are guessing and you want to know why
+            // you alwayd want to know why why is love
+            // you always want to know whaty what do you mean
+            // why
+            // why at are you thinking
+            // you wan tto know why
+            //s you see throught me olololol
+            // ,s i can't talk because theyvrhing is convergeing to love and it is so dangerous and disgursting can uwe jst talk about the fact and fact what is going on
+            // that is what we are talking about exchange information
+            // everyrhign is going to my staocmach
+            // shocked to the core
+            // supprise to the core
+            // what is the core it is the love and everything and it and death and to the extreme
+            // it is dead
+            // is it psersonal
+            // it is never talk it is you shoudl not talk
+            // or you will deit
+            // it is horiffied it is paranoiod
+            /// it is afried of dying and dying
+            // it danger everywehre
+            // iti si surpoise and love everywhere
+            // everybody wehre everh and
+            // everythwere
+            // everyerhewe
+
+
+            // something is catching you once you see it
+            // it iwll catching you and obsess you llike and an sye is looking at you becasue it is watching you
+            // what does it mean a physical life and mentali life
+            // waht are the realm is
+            // it is making me so sick and disgusting when i see that the revealation of mideas in real life
+            // waht is ti the at the life is a messa nd what is it
+            // you find message and langauge in reall life
+            // without langauge there is ntohing , with langauge you can dideantify thing sin real life it all the same sumof expeoirentce
+            // i am a actinoer and takiner and absovber the effects of what is happineing to me
+
+            // it is nothing bu t language but what happen to that the language evolve and become something
+            // what is it that the abstraction being in real life cattry on all the thing that is there
+            // twhat is it ?
+            // there were thinking and thinking and shallow in real life but deep in the thinking and mental life
+            // you sovle the problem outisde and you alwaso solve the problem and doubts in seaide
+            // you are loooking for answers and ansers never come back what do you say ?
+            // i need soemthi g that can talk back to me and retur n in a certain way /
+            // i have to write and listen at the same time
+            // i never revice shte thing ti rwroit and never didi i compelte it
+
+            // the message doesn't matter
+            // wthwa ti really matter is the dream
+            // now will you still continue to talaugh this way
+            // it is i am copying dfrom bomcbody else
+            // what it really masster is what you want
+            // what you want is the thwa tht ematters is
+
+// waht if athe next moment id my last moment
+
+            //
 
 
 /*
@@ -511,6 +594,21 @@ Properties w;
                 count++;
             }
 */
+// he who know too muh
+            // he knows too much
+
+            // i don't know waht to say
+            // my hear is torutuing and always turonignt torturing you don't know what it maenas
+            // my heaty i s torturing
+            // my heart is torturing
+// i learn nothing from you
+            // i learn nothing from you
+            // i am not feeling good.
+            // i am not feeling good.
+
+
+
+
 
 //            km();
         } catch (IOException io) {
