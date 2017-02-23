@@ -3,3 +3,134 @@ design pattern
 youtube search query
 
 regurlar expression
+
+Person
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Error:(95, 36) value transferMetrics is not a member of object com.ca.kafka.metrics.common.MetricMakerUtility
+        list::= MetricMakerUtility.transferMetrics("kafka.consumer:" + group + ":" +topic + ":" +partition + ":CURRENTOFFSET%Value", offsetOpt.getOrElse("").toString(), host)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+I am just a messenger and who love everything
+
+
+what do you see
+what do you know
+what are you reading
+what do you want
+what do you want
+
+
+it is all about you baby
+
+
+
+god is to see it to see all to see it !
+
+
+
+
+all sum up
+
+to the world
+
+to everybody
+
+to everything
+
+everyday
+
+overnight
+
+
+everyday
+
+
+
+ask question
+
+what do you mean
+
+i know what you mean
+
+
+it is all
+
+you are everything
+
+you are my whole universe
+
+
+
+you are my who le universe
+
+
+
+after all
+
+
+everything you said is love you are give me love why are you sharing me your knowledge you wan tot know me
+
+
+
+Todo
+
+
+how to send a command to another build folder
+
+
+[host=cxck01.ca.com, port=9092, jmxPort=9010]
