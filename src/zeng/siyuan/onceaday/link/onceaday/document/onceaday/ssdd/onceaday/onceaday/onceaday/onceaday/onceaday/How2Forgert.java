@@ -183,7 +183,7 @@ public class How2Forgert implements Serializable {
 
             for(String s: textStr) {
                 person_question e = new person_question(s, "Link");
-                m.store(e);
+                m.deleteTask(e.getJavauid());m.store(e);
             }
 //Runnable l = ()-> DSF(e);
 //l.run();
@@ -199,7 +199,7 @@ public class How2Forgert implements Serializable {
         if (null != KLAJDLFJASDFLJ && !("".equalsIgnoreCase(KLAJDLFJASDFLJ))) {
 
                     person_question e = new person_question(KLAJDLFJASDFLJ, "Link");
-                    m.store(e);
+                    m.deleteTask(e.getJavauid());m.store(e);
 //                    textArea.setText("");
             Runnable l = ()-> DSF(e);
             l.run();
@@ -218,7 +218,7 @@ public class How2Forgert implements Serializable {
         for (person_question e : ebbinghauses) {
             if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
 //                e.setText(textinput);
-                m.store(e);
+                m.deleteTask(e.getJavauid());m.store(e);
                 System.out.println("updates");
                 isSearch = false;
                 break;
@@ -264,7 +264,7 @@ public static int c =0;
 //                                    m.deleteTask(e.getJavauid());
 //                                    person_question D = new person_question(e.getQuestion(), "Link");
 
-                                    m.store(e);
+                                    m.deleteTask(e.getJavauid());m.store(e);
 //                                Desktop.getDesktop().open(new File(e.getQuestion()));
 //                                    if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                                     r.open(e.getQuestion());
@@ -334,7 +334,7 @@ public static int c =0;
 //                                person_question D = new person_question(e.getQuestion(), "Link");
 
 //                                m.store(D);
-                                m.store(e);
+                                m.deleteTask(e.getJavauid());m.store(e);
 
 //                                if(r.isUrl(e.getQuestion())){
 //                                    r.openUrlInBrowser(e.getQuestion());
@@ -763,7 +763,7 @@ public static int c =0;
                 dd("o", String.valueOf(c1Path));
 
 
-                m.store(e);
+                m.deleteTask(e.getJavauid());m.store(e);
 //                    textArea.setText("");
                 Runnable l = () -> DSF(e);
                 l.run();

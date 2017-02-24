@@ -1,6 +1,9 @@
 package zeng.siyuan.howt2forgert;
 
  import  com.datastax.driver.mapping.annotations.*;
+ import com.fasterxml.uuid.EthernetAddress;
+ import com.fasterxml.uuid.Generators;
+ import com.fasterxml.uuid.impl.TimeBasedGenerator;
 
  import java.io.Serializable;
 import java.text.SimpleDateFormat;
@@ -66,7 +69,7 @@ public class Ebbinghaus implements Serializable{
 
     public void setUUID() {
         if (null == javauid) {
-            this.javauid = java.util.UUID.randomUUID();
+                    EthernetAddress addr = EthernetAddress.fromInterface();         TimeBasedGenerator uuidGenerator = Generators.timeBasedGenerator(addr);         UUID uuid = uuidGenerator.generate();         this.javauid=uuid;;
             first.Javauuid = javauid;
             second.Javauuid = javauid;
             third.Javauuid = javauid;
@@ -78,7 +81,12 @@ public class Ebbinghaus implements Serializable{
     }
 
     public Ebbinghaus(String question, String answer) {
-        this.javauid = java.util.UUID.randomUUID();
+//        this.javauid = java.util.UUID.randomUUID();
+
+        EthernetAddress addr = EthernetAddress.fromInterface();
+        TimeBasedGenerator uuidGenerator = Generators.timeBasedGenerator(addr);
+        UUID uuid = uuidGenerator.generate();
+        this.javauid=uuid;
 
         tasks = new HashSet<Task>();
 

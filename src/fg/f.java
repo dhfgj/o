@@ -15,6 +15,7 @@ import zeng.siyuan.C1comehere.ListFilesUtil;
 import zeng.siyuan.reuseutil.r;
 
 import javax.swing.*;
+import java.io.File;
 import java.io.IOException;
 
 
@@ -30,9 +31,13 @@ public class f {
         // Set path to the acoustic model.
         configuration.setAcousticModelPath("resource:/edu/cmu/sphinx/models/en-us/en-us");
         // Set path to the dictionary.
-        configuration.setDictionaryPath("file:C:\\l\\src\\fg\\7707.dic");
+        String path = new File("src/fg/7707.dic")
+                .getAbsolutePath();
+        String path2 = new File("src/fg/7707.lm")
+                .getAbsolutePath();
+        configuration.setDictionaryPath("file:" + path);
         // Set path to the language model.
-        configuration.setLanguageModelPath("file:C:\\l\\src\\fg\\7707.lm");
+        configuration.setLanguageModelPath("file:" + path2);
         
         //Recognizer object, Pass the Configuration object
         LiveSpeechRecognizer recognize = new LiveSpeechRecognizer(configuration);

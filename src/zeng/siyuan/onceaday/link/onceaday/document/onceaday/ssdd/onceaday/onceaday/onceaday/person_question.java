@@ -1,6 +1,9 @@
 package zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.onceaday;
 
 import com.datastax.driver.mapping.annotations.*;
+import com.fasterxml.uuid.EthernetAddress;
+import com.fasterxml.uuid.Generators;
+import com.fasterxml.uuid.impl.TimeBasedGenerator;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -68,7 +71,7 @@ public class person_question implements Serializable{
 
     public void setUUID() {
         if (null == javauid) {
-            this.javauid = java.util.UUID.randomUUID();
+                    EthernetAddress addr = EthernetAddress.fromInterface();         TimeBasedGenerator uuidGenerator = Generators.timeBasedGenerator(addr);         UUID uuid = uuidGenerator.generate();         this.javauid=uuid;;
             first.Javauuid = javauid;
             second.Javauuid = javauid;
             third.Javauuid = javauid;
@@ -80,8 +83,11 @@ public class person_question implements Serializable{
     }
 
     public person_question(String question, String answer) {
-        this.javauid = java.util.UUID.randomUUID();
-
+//        this.javauid = java.util.UUID.randomUUID();
+        EthernetAddress addr = EthernetAddress.fromInterface();
+        TimeBasedGenerator uuidGenerator = Generators.timeBasedGenerator(addr);
+        UUID uuid = uuidGenerator.generate();
+        this.javauid=uuid;
         tasks = new HashSet<Task>();
 
         this.question = question;

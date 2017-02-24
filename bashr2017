@@ -1,32 +1,82 @@
+#ln -s /path/to/original/ /path/to/link
+#search file for a text
+#sudo grep -r "epplugin-1.0-SNAPSHOT-jar-with-dependencies" /Introscope99.99.0.sys
 
-   function kafkap() {
+
+#chmod 700 ~/.ssh
+
+#alias will show the commands
+
+#which rm
+#may be the most useful. Normally, it just shows the full path of executable as found in your $PATH. If there are multiple executables of that name, it shows the first one found (the one that would be executed). If there is an alias, it shows the alias in addition to the path.
+
+#whereis rm
+#can also help figure out things like this. While which shows the first instance found in $PATH, whereis shows them all.
+
+#You can use gitk [filename] to see the changes log
+
+#git diff file_2.rb
+
+alias cxcl='ssh root@cxcl01'
+
+function kafkap() {
       kafkapd &&  bin/kafka-console-producer.sh --broker-list localhost:9092 --topic test
 }
+
+#cassandra
+#http://archive.apache.org/dist/cassandra/2.1.14/
+#unzip Classes.jar
+#find -name '*.class' | xargs javap -p > classes.txt
+#javap -c *.class check the jaa class
+
 
 export -f kafkap
 
 alias kafkapd='cd /usr/local/Cellar/kafka/0.10.1.1/libexec'
+alias scps='scp /Users/zenal01/epaAgentExtentionExample/target/KafkaPlugin-jar-with-dependencies.jar  root@cxcl01:/Introscope99.99.0.sys/KafkaPlugin'
+alias scps1='scp /Users/zenal01/epaAgentExtentionExample/target/KafkaPlugin-bin.tar.gz root@cxcl01:/Introscope99.99.0.sys'
+alias scps2='scp /Users/zenal01/kafka-scala-admin-tool/target/scala-2.11/sbt-0.13/KafkaConsumerDetailsPlugin.jar  root@cxcl01:/Introscope99.99.0.sys/KafkaPlugin'
+alias scps3='scp /Users/zenal01/kafka-scala-admin-tool/out/artifacts/KafkaConsumerDetailsPlugin_jar/KafkaConsumerDetailsPlugin.jar  root@cxcl01:/Introscope99.99.0.sys/KafkaPlugin'
+alias scpss='scp /Users/zenal01/APMKafkaPlugin/target/APMKafkaPlugin-1.0-SNAPSHOT.jar  root@cxcl01:/Introscope99.99.0.sys/KafkaPlugin/KafkaConsumerDetailsPlugin.jar'
+alias scpss1='scp /Users/zenal01/APMKafkaPlugin/target/KafkaPlugin-jar-with-dependencies.jar  root@cxcl01:/Introscope99.99.0.sys/KafkaPlugin/KafkaConsumerDetailsPlugin.jar'
+
+alias move='cp /Users/zenal01/epaAgentExtentionExample/target/KafkaPlugin-jar-with-dependencies.jar /Users/zenal01/kafka-scala-admin-tool/lib'
 
 
-   function kafkac() {
+
+
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+        . /etc/bashrc
+fi
+
+#root@cxcl01
+
+function kafkac() {
       kafkapd && bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test --from-beginning
 }
 
 export -f kafkac
-
+#alias
 alias kafkapd='cd /usr/local/Cellar/kafka/0.10.1.1/libexec'
+export PATH=$PATH:/usr/local/Cellar/apache-cassandra-2.1.14/bin:/usr/local/Cellar/kafka/0.10.1.1/libexec/bin:/Users/zenal01/Library/Caches/Homebrew/Cask/Devcenter:/usr/local/Cellar/mercurial/4.1/bin
+#do you have five dollars
+export SOLR=/usr/local/Cellar/solr/6.3.0/bin
 
 
 alias v='vim ~/.bashrc'
 export KAFKA=/usr/local/Cellar/kafka/0.10.1.1/libexec/bin
+export CASSANDRA=/usr/local/Cellar/apache-cassandra-2.1.14/bin
 cp ~/.bashrc /Users/lujinglin/l/bashr2017
 export GOPATH=/Users/lujinglin/go
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home
-export MONGOD=/usr/local/Cellar/mongodb/3.4.1
+export MONGOD=/usr/local/Cellar/mongodb/3.4.2
+alias cassandra='cd /usr/local/Cellar/apache-cassandra-2.1.14/bin'
 alias kafkaso='cd /Users/lujinglin/kafka && ls && pwd'
 alias burrow='cd /Users/lujinglin/go/src/github.com/linkedin/Burrow && ls &&  pwd'
 alias kafka='cd /usr/local/Cellar/kafka/0.10.1.1/libexec/bin && pwd'
-alias kafkass='cd /usr/local/Cellar/kafka/0.10.1.1/libexec/bin && ./kafka-server-start.sh ./../config/server.properties && ls &&  pwd'
+alias kafkass='cd /usr/local/Cellar/kafka/0.10.1.1/libexec/bin && ./kafka-server-start.sh ./../config/server.properties && ls && pwd'
 alias zks='zkServer start'
 alias burrow='cd $GOPATH/src/github.com/linkedin/Burrow && ls &&  pwd'
 alias burrows='$GOPATH/bin/Burrow --config /Users/lujinglin/go/src/github.com/linkedin/Burrow/config/burrow.cfg'
@@ -187,7 +237,7 @@ alias killwhwatever='lsof -ti:$1 | xargs kill -9'
 # ..............................................................................................Walmart Deve......................................................................................
 # port
 alias pocat='ps -ef|grep catalina'
-
+alias pro='ps -ef|grep $1'
 
 
 
@@ -287,22 +337,22 @@ alias ls='ls -lh'
 # ..............................................................................................Internet......................................................................................
 
 
-   function kafkas() {
+function kafkas() {
       zks && kafkass
 }
 
 export -f kafkas
 
 
-   function start() {
-      mongod && cassandra -f && solr start
+function start() {
+      mongod && sudo cassandra -f && solr start
 }
 
 export -f start
 
 
 
-   function g() {
+function g() {
 
 /usr/bin/open -a "/Applications/Google Chrome.app" "https://www.google.com/search?q=${*}"
 
@@ -371,8 +421,8 @@ function ida() {
 
 str=
 
-while read -r line; 
-do 
+while read -r line;
+do
 
 #str=printf "%s\n%s\n" "$str" "$line"
 
@@ -384,8 +434,8 @@ str=$(printf "${str}\n\n${line}" $str)
 # str="${str}"$'\n'$'\n'$'\n'$'\n'"${line}"
 done
 
-   # for i in "$@"; do 
-    
+   # for i in "$@"; do
+
 #    str="$str $i"
  #   done
 
@@ -408,7 +458,7 @@ dp () {
   return;
 }
 
-#Use it as dp N, where N is 1, 2 or 3. 
+#Use it as dp N, where N is 1, 2 or 3.
 
 
 #Opens current directory in Ubuntu's Disk Usage Analyzer GUI with super user privileges in the background
@@ -429,7 +479,7 @@ alias al='echo "------------Your aliases------------";alias'
 alias sa='source ~/.bash_aliases;echo "Bash aliases sourced."'
 #Edit Aliases
 alias via='gksudo gedit ~/.bash_aliases &'
-alias solr='cd /usr/local/Cellar/solr/6.3.0/'
+alias solr='cd /usr/local/Cellar/solr/6.3.0/bin'
 
 # ..............................................................................................C1 setup......................................................................................
 
@@ -441,7 +491,11 @@ alias solr='cd /usr/local/Cellar/solr/6.3.0/'
 
 
 # ..............................................................................................Automatic run......................................................................................
-#brew install sublime
+
+
+#install brew
+#/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+#brew install Caskroom/cask/sublime-text
 #brew install solr
 #brew install kafka
 #brew install zookeeper
@@ -450,6 +504,7 @@ alias solr='cd /usr/local/Cellar/solr/6.3.0/'
 #brew install Caskroom/cask/devcenter
 #brew install homebrew/dupes/lsof
 #brew install mongodb
+#brew install wget
 #sshconfigfs: OsxfuseRequirement unsatisfied!
 
 #brew cask install osxfuse
@@ -459,7 +514,11 @@ alias solr='cd /usr/local/Cellar/solr/6.3.0/'
 #brew install sbt
 #brew install scala
 #brew install gradle
-
+#brew install maven
+#brew install mercurial
+#brew install TortoiseHg
+#brew install firefox
+#brew install devcenter
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
 
 

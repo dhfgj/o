@@ -15,7 +15,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
  * Created by SiyuanZeng's on 9/1/2016.
  */
 public class peoplequesiton {
-    public static final String PERSON_QUESTION1 = "plany";
+    public static final String PERSON_QUESTION1 = "planyy";
     Cluster cluster;
     static Session session;
     MappingManager manager;

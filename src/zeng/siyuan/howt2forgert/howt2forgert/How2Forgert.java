@@ -289,7 +289,7 @@ public class How2Forgert implements Serializable {
                 e.ASDFJ = stringBuilder.toString();
 //                Ebbinghaus e1 = new Ebbinghaus(e.question, "");
 //                m.deleteTask(e.getJavauid());
-//                m.store(e);
+//                m.deleteTask(e.getJavauid());m.store(e);
 
                 String j = null;
                 j = mapper.writeValueAsString(e);
@@ -390,7 +390,7 @@ textArea.setText(textinput);
 //                e.ASDFJ = stringBuilder.toString();
 //                Ebbinghaus e1 = new Ebbinghaus(e.question, "");
 //                m.deleteTask(e.getJavauid());
-//                m.store(e);
+//                m.deleteTask(e.getJavauid());m.store(e);
 //
 //                String j = null;
 //                j = mapper.writeValueAsString(e);
@@ -474,7 +474,7 @@ textArea.setText(e.getASDFJ());
                                             ct.setIsDone(true);
                                             inntuitive += e.question;
 //                                            m.deleteTask(e.getJavauid());
-//                                            m.store(e);
+//                                            m.deleteTask(e.getJavauid());m.store(e);
 
                                             String j = null;
                                             j = mapper.writeValueAsString(e);
@@ -536,7 +536,7 @@ textArea.setText(e.getASDFJ());
                                             ct.setIsDone(true);
                                             inntuitive += e.question;
 //                                            m.deleteTask(e.getJavauid());
-//                                            m.store(e);
+//                                            m.deleteTask(e.getJavauid());m.store(e);
                                             String j = null;
                                             j = mapper.writeValueAsString(e);
                                             //                    System.out.println(j);
@@ -588,7 +588,7 @@ textArea.setText(e.getASDFJ());
                                         inntuitive += System.getProperty("line.separator");
                                         inntuitive += e.question;                                        inntuitive += System.getProperty("line.separator");                                        inntuitive += System.getProperty("line.separator");
 //                                        m.deleteTask(e.getJavauid());
-//                                        m.store(e);
+//                                        m.deleteTask(e.getJavauid());m.store(e);
 
                                         String j = null;
                                         j = mapper.writeValueAsString(e);

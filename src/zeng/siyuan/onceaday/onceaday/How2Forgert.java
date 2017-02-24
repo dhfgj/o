@@ -247,7 +247,7 @@ public class How2Forgert implements Serializable {
                 String line = in.nextLine();
 //                    if (line.contains("?") && line.endsWith("?")) {
                 person_question e = new person_question(line, "p", getdatelastday());
-//                        m.store(e);
+//                        m.deleteTask(e.getJavauid());m.store(e);
                 // it is mind blowing and so much bad and thabad
                 ObjectMapper mapper = new ObjectMapper();
 j(e);
@@ -359,7 +359,7 @@ a.run();
 //
 //                e.text = stringBuilder.toString();
 //
-//                m.store(e);
+//                m.deleteTask(e.getJavauid());m.store(e);
 //
 //                String j = null;
 //                try {
@@ -426,7 +426,7 @@ a.run();
 //                                        if (ct.getDate().getTime() == AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime()) {
 //                                            ct.setIsDone(true);
                                 inntuitive += e.text;
-//                                            m.store(e);
+//                                            m.deleteTask(e.getJavauid());m.store(e);
 
 
                                 String j = mapper.writeValueAsString(e);
@@ -514,7 +514,7 @@ a.run();
 //                                        if (ct.getDate().getTime() == AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime()) {
 //                                            ct.setIsDone(true);
                                 inntuitive += e.text;
-//                                            m.store(e);
+//                                            m.deleteTask(e.getJavauid());m.store(e);
 
 
                                 String j = null;
@@ -616,7 +616,7 @@ a.run();
 //                                        ct.setIsDone(true);
 //                                        inntuitive += e.text;
 //
-//                                        m.store(e);
+//                                        m.deleteTask(e.getJavauid());m.store(e);
 //
 //                                        String j = mapper.writeValueAsString(e);
 //                                        System.out.println(j);

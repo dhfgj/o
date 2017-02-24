@@ -4,9 +4,15 @@ import com.datastax.driver.mapping.annotations.Column;
 import com.datastax.driver.mapping.annotations.FrozenValue;
 import com.datastax.driver.mapping.annotations.Table;
 import com.datastax.driver.mapping.annotations.Transient;
+import com.fasterxml.uuid.EthernetAddress;
+import com.fasterxml.uuid.Generators;
+import com.fasterxml.uuid.impl.TimeBasedGenerator;
 
 import java.io.Serializable;
-import java.util.*;
+import java.util.Date;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.UUID;
 
 
 /**
@@ -67,7 +73,7 @@ public class person_question implements Serializable{
 
     public void setUUID() {
         if (null == javauid) {
-            this.javauid = UUID.randomUUID();
+                    EthernetAddress addr = EthernetAddress.fromInterface();         TimeBasedGenerator uuidGenerator = Generators.timeBasedGenerator(addr);         UUID uuid = uuidGenerator.generate();         this.javauid=uuid;
             first.Javauuid = javauid;
             second.Javauuid = javauid;
             third.Javauuid = javauid;
@@ -81,7 +87,7 @@ public class person_question implements Serializable{
     public person_question(String text, String TYPE, Date date1) {
         this.type=TYPE;
 
-        this.javauid = UUID.randomUUID();
+                EthernetAddress addr = EthernetAddress.fromInterface();         TimeBasedGenerator uuidGenerator = Generators.timeBasedGenerator(addr);         UUID uuid = uuidGenerator.generate();         this.javauid=uuid;
 
 
         tasks = new HashSet<Task>();

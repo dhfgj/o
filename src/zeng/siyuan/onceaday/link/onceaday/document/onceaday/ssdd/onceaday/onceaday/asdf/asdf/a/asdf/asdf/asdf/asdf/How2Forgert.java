@@ -132,7 +132,7 @@ public class How2Forgert implements Serializable {
 
                 e.setText(stringBuilder.toString());
 
-                m.store(e);
+                m.deleteTask(e.getJavauid());m.store(e);
                 System.out.println("updates");
                 isSearch=false;
                 break;

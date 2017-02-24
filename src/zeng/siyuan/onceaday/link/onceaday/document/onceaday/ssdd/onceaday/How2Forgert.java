@@ -55,7 +55,7 @@ public class How2Forgert implements Serializable {
                 String line = in.nextLine();
                 if (line.startsWith("C:") ||line.startsWith("http")) {
                     person_question e = new person_question(line, "Link", null);
-                    m.store(e);
+                    m.deleteTask(e.getJavauid());m.store(e);
                     textArea.setText("");
 jh(e);
                 } else {
@@ -78,7 +78,7 @@ a.run();
         for (person_question e : ebbinghauses) {
             if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                 e.setText(textinput);
-                m.store(e);
+                m.deleteTask(e.getJavauid());m.store(e);
                 System.out.println("updates");
                 isSearch = false;
                 break;
@@ -114,7 +114,7 @@ a.run();
 //                                    currentTask.setDate(Date.from((LocalDateTime.from(currentTask.getDate().toInstant()).plusDays(1)).atZone(ZoneId.systemDefault()).toInstant()));
                                     currentTask.setDate(r.l(currentTask.getDate()));
 
-                                            m.store(e);
+                                            m.deleteTask(e.getJavauid());m.store(e);
                                     r.o(e.getText());
 
 //                                    if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
@@ -139,7 +139,7 @@ a.run();
                                     currentTask.setDate(r.l(currentTask.getDate()));
 
 
-                                    m.store(e);
+                                    m.deleteTask(e.getJavauid());m.store(e);
 //                            if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
                                     r.o(e.getText());
 
@@ -167,7 +167,7 @@ a.run();
 
 //                                        m.deleteTask(e.getJavauid());
 //                                        e = new person_question(e.getText(),"ssdd", null);
-                                        m.store(e);
+                                        m.deleteTask(e.getJavauid());m.store(e);
 //                                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
 r.o(e.getText());
                                         break;

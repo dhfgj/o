@@ -38,13 +38,22 @@ import java.util.concurrent.Executors;
 // if you are not here it is a problem
 // if you are not here now it is a problem
 // if it is not you are here now then it i sa problem
-
+// it doesn't makse sent it doesn't have a name once you name it then yo it is you rbacy
+// once you know heis thname then it is yours
+// there is no name
+// there is no method and ther ei sno public and private
+// it is verythin g
+// it i ths the order that we are try ting to matain
+// we are trying to make the world order and simepler not what it is
+// it is mkple and easier
 public class C1comehere implements Serializable {
     public transient JFrame lastFrame = null;
     public static JPanel controlPanel;
     public static transient JTextArea textArea;
     public static JFrame frame;
     public How2Forgert how2Forgert;
+    // how ot handle so many categories
+    // to handle i t i will hav eot
     public zeng.siyuan.onceaday.How2Forgert dhow2Forgert;
     public zeng.siyuan.howt2forgert.howt2forgert.How2Forgert s;
     public zeng.siyuan.onceaday.link.onceaday.How2Forgert dhow2Forgertl;
@@ -55,7 +64,7 @@ public class C1comehere implements Serializable {
     public zeng.siyuan.onceaday.onceaday.How2Forgert dhow2ForgDertlssfs;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.onceaday.How2Forgert dhow2ForgDertlssf;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.onceaday.onceaday.How2Forgert aa;
-    public zeng.siyuan.onceaday.onceaday.onceaday.How2Forgert dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG;
+    public static zeng.siyuan.onceaday.onceaday.onceaday.How2Forgert dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG;
     public zeng.siyuan.onceaday.onceaday.onceaday.a.onceaday.How2Forgert ad;
     public zeng.siyuan.onceaday.onceaday.onceaday.onceaday.How2Forgert E;
     //    public C:\Development_Base\maxcox\maxcox-master\src\zeng\siyuan\onceaday\onceaday\onceaday\How2Forgert dhow2ForgDertlssf;
@@ -70,13 +79,19 @@ public class C1comehere implements Serializable {
     public static transient Properties pdrop;
     public static transient Properties jk;
     public transient static Map<String, Search> searchEngines = new HashMap<String, Search>();
-
+// it has been a long time and i have been loast the onctent and purpose and everything that matters
+    // it is all gone and
+    // i wused to want to make the world happlier
+    // i used to want to make the very boby happy
+    // i used to want to make the everybody happy
 
 Properties w;
     public void c() {
         w = new Properties();
         Properties temprop = new Properties();
         InputStream input = null;
+        //i can ony change what i have owened and that is it
+        //it i sthe tendency of mind ot simplify thing san nd that is all
 
         try {
             new File("w.properties").getAbsolutePath();
@@ -160,9 +175,8 @@ Properties w;
                 }
             }
         }
-
-
     }
+// i feel like so stupid and i can ask quesitons
 
 
     public void l(String c1, String c1Path) {
@@ -236,13 +250,15 @@ Properties w;
         }
     }
 //My name is I here now
-
+// it is for me what odes it mean
+    // what does it mean everytign what does it
+    // how to resolve terveyrhign thow to get everything //
     public static void main(String ar[]) throws Exception {
-        try
+        try// i forgot the most of the command s because the whold ting kdoesn't matke snese there must be one love and seperate love theier myust be lobe lbolkockers and blockers
         {
             Process p=Runtime.getRuntime().exec("cmd /c C:\\solr-6.2.0\\bin\\solr start");
             p.waitFor();
-            BufferedReader reader=new BufferedReader(
+            BufferedReader reader=new BufferedReader(// all chainsese people are joulous mof me all the people are thankingme all the what does it mean it means everything everything to you
                     new InputStreamReader(p.getInputStream())
             );
             String line;
@@ -252,6 +268,15 @@ Properties w;
             }
 // mssaster of time
             // master of time
+// how to remember mealingless things
+            // i have to refer to it everythign becasue the whole thing doesn't make sense
+
+
+            // it is redicuclous and very rediculoust
+// whta it the realtionsihp bettwen you and me
+            // you and i
+            // hahhhahahahha
+
 
 //            p=Runtime.getRuntime().exec("cmd /c C:\\apache-cassandra-2.1.14\\bin\\cassandra");
 //            p.waitFor();
@@ -452,6 +477,153 @@ Properties w;
         }
     }
 
+    public void dmd(String c1, String c1Path) {
+        km();
+
+        OutputStream output = null;
+        OutputStream output_solr = null;
+        try {
+//C:\l\src\zeng\siyuan\C1comehere\dd.properties
+//            output = new FileOutputStream("C:\\l\\src\\zeng\\siyuan\\C1comehere\\dd.properties");
+//C:\l\src\zeng\siyuan\C1comehere\d.properties
+            output = new FileOutputStream(new File("md.properties").getAbsolutePath());
+// /Users/zenal01/l/src/zeng/siyuan/C1comehere/md.properties
+            // set the properties value
+            pdrmop.setProperty(c1, c1Path);
+
+            // save properties to project root folder
+            pdrmop.store(output, null);
+// crverbs are nanother waht to do
+            // what is noather to do
+            // what is anothe what to do
+            // it is not neccessary to the peroblem
+            // it i s not neccessary do you know waht i mean?
+            // you mean nothing to me
+            // you mean nothing to me
+            // I am so fafraid that he iwi attack me
+            // o a m acared that he will atatck me like i would to attack somebody i love and harrass them
+            // verb is what to
+            // what to do
+            // what .....
+//            what .........
+            // ,ss
+            // everyrhing is moving
+            // what what to do waht
+            // sattic what fix what fixed what
+            // what thwa t
+            // wht does it mean aht there are something
+            // what does it mean there is an eys watching you ... i an idea is floating there, there is a word you see me and it sees you. you meet thim and it is catching you.
+// say it sonce and forever, it is making me so sick so much sick so sick
+            // you can repeat in you mind forever
+            // so sick if you want it to be
+            // love is everything and everything you want and everything you don't want
+            // love is there and not
+            // there not and there
+            // therenot
+// you know don't know the purpose and why and you are guessing and you want to know why
+            // you alwayd want to know why why is love
+            // you always want to know whaty what do you mean
+            // why
+            // why at are you thinking
+            // you wan tto know why
+            //s you see throught me olololol
+            // ,s i can't talk because theyvrhing is convergeing to love and it is so dangerous and disgursting can uwe jst talk about the fact and fact what is going on
+            // that is what we are talking about exchange information
+            // everyrhign is going to my staocmach
+            // shocked to the core
+            // supprise to the core
+            // what is the core it is the love and everything and it and death and to the extreme
+            // it is dead
+            // is it psersonal
+            // it is never talk it is you shoudl not talk
+            // or you will deit
+            // it is horiffied it is paranoiod
+            /// it is afried of dying and dying
+            // it danger everywehre
+            // iti si surpoise and love everywhere
+            // everybody wehre everh and
+            // everythwere
+            // everyerhewe
+
+
+            // something is catching you once you see it
+            // it iwll catching you and obsess you llike and an sye is looking at you becasue it is watching you
+            // what does it mean a physical life and mentali life
+            // waht are the realm is
+            // it is making me so sick and disgusting when i see that the revealation of mideas in real life
+            // waht is ti the at the life is a messa nd what is it
+            // you find message and langauge in reall life
+            // without langauge there is ntohing , with langauge you can dideantify thing sin real life it all the same sumof expeoirentce
+            // i am a actinoer and takiner and absovber the effects of what is happineing to me
+
+            // it is nothing bu t language but what happen to that the language evolve and become something
+            // what is it that the abstraction being in real life cattry on all the thing that is there
+            // twhat is it ?
+            // there were thinking and thinking and shallow in real life but deep in the thinking and mental life
+            // you sovle the problem outisde and you alwaso solve the problem and doubts in seaide
+            // you are loooking for answers and ansers never come back what do you say ?
+            // i need soemthi g that can talk back to me and retur n in a certain way /
+            // i have to write and listen at the same time
+            // i never revice shte thing ti rwroit and never didi i compelte it
+
+            // the message doesn't matter
+            // wthwa ti really matter is the dream
+            // now will you still continue to talaugh this way
+            // it is i am copying dfrom bomcbody else
+            // what it really masster is what you want
+            // what you want is the thwa tht ematters is
+
+// waht if athe next moment id my last moment
+
+            //
+
+
+/*
+            output_solr = new FileOutputStream("/Users/vn0xrjh/daniel/14_GUIcopymacosx/c1comehere/c1s.properties.solr");
+
+            int count = 0;
+            for (Map.Entry<Object, Object> e : p.entrySet()) {
+                String key = ((String) e.getKey()).replace("%20", " ");
+                String v = (String) e.getValue();
+                output_solr.write(String.valueOf(count).getBytes());
+                output_solr.write(',');
+                output_solr.write(key.getBytes());
+                output_solr.write(',');
+                output_solr.write(v.getBytes());
+                output_solr.write(System.getProperty("line.separator").getBytes());
+                count++;
+            }
+*/
+// he who know too muh
+            // he knows too much
+
+            // i don't know waht to say
+            // my hear is torutuing and always turonignt torturing you don't know what it maenas
+            // my heaty i s torturing
+            // my heart is torturing
+// i learn nothing from you
+            // i learn nothing from you
+            // i am not feeling good.
+            // i am not feeling good.
+
+
+
+
+
+//            km();
+        } catch (IOException io) {
+            io.printStackTrace();
+        } finally {
+            if (output != null) {
+                try {
+                    output.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+
     public void c1s() {
         prop = new Properties();
         Properties temprop = new Properties();
@@ -470,7 +642,7 @@ Properties w;
             }
             System.out.println("Done Propertiesy loading");
 
-            input = new FileInputStream(new File("src\\main\\resources\\c1s.properties").getAbsolutePath());
+            input = new FileInputStream(new File("src/main/resources/c1s.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop = new Properties();
             temprop.load(input);
@@ -483,7 +655,7 @@ Properties w;
             }
             System.out.println("Done Propertiesy loading");
 
-            input = new FileInputStream(new File("src\\zeng\\siyuan\\C1comehere\\p.properties").getAbsolutePath());
+            input = new FileInputStream(new File("src/zeng/siyuan/C1comehere/p.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop = new Properties();
             temprop.load(input);
@@ -540,7 +712,12 @@ Properties w;
                     }
                 }
             }
+/*
+*
+gp.ca.com
 
+
+no appreciation */
 
     }
 
@@ -551,7 +728,7 @@ Properties w;
         InputStream input = null;
 
         try {
-            input = new FileInputStream(new File("src\\zeng\\siyuan\\C1comehere\\d.properties").getAbsolutePath());
+            input = new FileInputStream(new File("src/zeng/siyuan/C1comehere/d.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop.load(input);
 
@@ -560,6 +737,66 @@ Properties w;
                 String key = ((String) e.getKey()).replace("%20", " ");
                 String v = (String) e.getValue();
                 pdrop.put(key, v);
+            }
+            System.out.println("Done Propertiesy loading");
+
+/*
+            SolrDataDAO solrBaseDAO = null;
+            try {
+                solrBaseDAO = new SolrDataDAO();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+            int count =1;
+            for (Map.Entry<Object, Object> e : p.entrySet()) {
+                System.out.println(count);
+                String key = ((String) e.getKey()).replace("%20", " ");
+                String v = (String) e.getValue();
+                try {
+                    solrBaseDAO.addData(count, key,v);
+                } catch (Exception e1) {
+                    e1.printStackTrace();
+                }
+                count++;
+            }
+            System.out.println("stop");
+
+*/
+
+
+
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        } finally {
+            if (input != null) {
+                try {
+                    input.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+
+    }
+
+    public Properties pdrmop;
+    public void km() {
+        pdrmop = new Properties();
+        Properties temprop = new Properties();
+        InputStream input = null;
+
+        try {
+            input = new FileInputStream(new File("md.properties").getAbsolutePath());
+            // fjlasdjfl a properties file
+            pdrmop.load(input);
+
+
+            for (Map.Entry<Object, Object> e : temprop.entrySet()) {
+                String key = ((String) e.getKey()).replace("%20", " ");
+                String v = (String) e.getValue();
+                pdrmop.put(key, v);
             }
             System.out.println("Done Propertiesy loading");
 
@@ -1067,7 +1304,7 @@ b.run();
 //                System.out.println(e.getKeyChar());
 //                System.out.println("contrl");
 //                System.out.println(e.getModifiers() == KeyEvent.CTRL_MASK);
-                if (e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyChar() == KeyEvent.VK_0) {
+                if ((e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyChar() == KeyEvent.VK_0)) {
 //                    System.out.println("voice commander");
                     e.consume();
                     Beep.sound(2000, 150);
@@ -1083,7 +1320,7 @@ b.run();
 
                 }
 
-                if (e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyCode()==38) {
+                if ((e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyCode()==38)) {
 //                    System.out.println("voice commander");
                     k = k-1;
                     if (k>=0) {
@@ -1109,7 +1346,7 @@ b.run();
 
                 //                if (e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyChar() == KeyEvent.VK_ENTER) {
                 //change maxc os mattping to ctrl and enter button
-                if (e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyChar() == KeyEvent.VK_ENTER) {
+                if ((e.getModifiers() == KeyEvent.CTRL_MASK && e.getKeyChar() == KeyEvent.VK_ENTER )  || (e.getModifiers() == 2 && e.getKeyChar() == 13) ) {
                     e.consume();
                     Beep.sound(2000, 150);
 
@@ -1184,6 +1421,13 @@ but i don't have to time to review the same thing again and again
                         boolean DisShowColmmand = buttonSelected.equalsIgnoreCase("DshoL");// shw
                         Search Dsearclh = null;
 
+// do i have to make sense it has because there is a command in my mind and it needs to make sense or i have to communciate ant transverse this to another dimiention
+
+                        // that is thright
+                        // i don't have any thing
+
+
+
 
 
 
@@ -1197,23 +1441,39 @@ but i don't have to time to review the same thing again and again
                         boolean DsaercDhdliary = buttonSelected.equals("DsaerDLchdiary");
                         boolean DisShowDColmmand = buttonSelected.equalsIgnoreCase("DshoDL");// shw
                         Search DsearclhD = null;
+// it has to bemake some sense some day
+                        // why do i have remember the sence sebecause it is the building block of the understandning na memory
+                        // why do i have ot know becaus eyou already know
+                        // di on't i am not already know
+                        // already
+                        // you know what you need
+                        // that is something
+                        // tthat is  right
+                        //
 
 
-
-
+//SURRENDER
+                        // SURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDER
+                        // SURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDER
+                        //SURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDERSURRENDER
                         boolean      SDldeleteCommandd_X = buttonSelected.equals("DLDdSelete");
                         boolean DsLSDg = buttonSelected.equals("DsLSDg");
-                        boolean SDdleleteCoDmmand2 = buttonSelected.equals("DdeldSLDiary");
+                        boolean SDdleleteCoDmmand2 = buttonSelected.equals("DdeldSLDiary");// ther eare something that make sens enand that i can build ton potp of this
                         boolean SDislThoughtDRecorderCommand_x = buttonSelected.equalsIgnoreCase("Drec");
                         boolean SDisHlow2ForeDgertCommand = buttonSelected.equalsIgnoreCase("DDLSfgt");
                         boolean SDisHolw2ForegDertCommand_u = textArea.getText().contains("DuSDfLgt");
-                        boolean SDislDoald = buttonSelected.equals("DlaoSdLD");
+                        boolean SDislDoald = buttonSelected.equals("DlaoSdLD"); //  nothing make sence seepsecial somther are something in the word that makes tsne sen theyta ti st his good s so that you it is so bojevious
+                        // how to doesla wit hsomtehign that you never knwo na dyou should just note nadti and do ti and smake it better
                         boolean SDcodjDa_lx = buttonSelected.equals("DcodeLSDja");
                         boolean SDsaercDhdliary = buttonSelected.equals("DsaeSrDLchdiary");
                         boolean SDisShowDColmmand = buttonSelected.equalsIgnoreCase("DshSoDL");// shw
                         Search DSsearclhD = null;
 //nothing make sense anymore this is so much fun
+// IT WANTs me to surrender but i am not
 
+                        // surrender to death
+                        // surrender to edeath
+                        // surrender
                         boolean SDldeleteCommandd_Xf = buttonSelected.equals("DLDdSeletef");
                         boolean b = buttonSelected.startsWith("DsLSDgf");
                         boolean SDdleleteCoDmmand2f = buttonSelected.equals("DdeldSLDiaryf");
@@ -1243,7 +1503,7 @@ but i don't have to time to review the same thing again and again
 
                         boolean findtheshotcutviode = buttonSelected.equalsIgnoreCase("Dsg");// shw
 
-
+// i never clean my code and that is thi
                         String searchTrs = "";
 
                         System.out.println(textArea.getText());
@@ -1259,8 +1519,21 @@ but i don't have to time to review the same thing again and again
 
                             }
                             );
-                            a.start();
+                            a.start();// evertything is write out of experiencda n het the expeienice is ilvoe and you yoknwo it
+
                         }
+
+
+                        else if (SDsaercDhdliary) {
+                            dmd(textArea.getText(), textArea.getText());
+                            C1comehere.dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.sdfdfdf(textArea.getText());
+                            textArea.setText("");
+
+
+
+                        }
+
+
 //what are the existing ubuilding components i can do ?
                         else if (DisHlow2ForeDgertCommand) {
                             System.out.println("Disloadl");
@@ -1269,7 +1542,7 @@ but i don't have to time to review the same thing again and again
                             else {
                                 dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.load();
                                 textArea.setText("");
-                            }
+                            } // sorry, // please
                         }
                         else if (DldeleteCommandd_X ) {
                             System.out.println("Disloadl");
@@ -1279,6 +1552,11 @@ but i don't have to time to review the same thing again and again
                                 ad.load();
                                 textArea.setText("");
                             }
+                            // thwat is the thing
+                            // it hte everything an
+                            // and you know it
+
+                            // and you know it
                         }
 // he do not talk , he has too much trouble
                         else if (SDldeleteCommandd_Xf) {
@@ -1392,6 +1670,8 @@ lost in the details
 //                            }
 
                         }
+                        // iam confused because there are in the different level
+                        // if li i live in a higher demision i should discard all i have then i can goes to the next level
 /*
                         else if (textArea.getText().equalsIgnoreCase("zengb45")) {
                             KFHASDF KFHASDF = new KFHASDF();
@@ -1409,6 +1689,9 @@ lost in the details
 
                         }
 */
+// it is always there you can't get ride of it and it is always there
+                        // how can i forget it and not rememberitng
+                        // they are always there they are outisde my midn and they are always there
 
                         else if (textArea.getText().startsWith("history") && textArea.getText().split(" ").length==2) {
                             String s = "";
@@ -1451,6 +1734,104 @@ lost in the details
 //                                        r.o(search.getURIString());
 
                                     if (search.searchName.equalsIgnoreCase("Dictionary")) {
+// id on't know where it shte start and where is the end
+                                while (in.hasNext()) {
+                                    String line = in.nextLine();
+//                                    searchTrs = line.substring(3);
+                                    search.setURI(line);
+
+                                            String normalized = searchTrs.replace(" ", "%20");
+                                            String normalizedaADFHJKALHK = searchTrs.replace(" ", "+");
+                                            aa.fjlasdjfl("http://www.thesaurus.com/browse/" + normalized +"?s=t");
+                                            aa.fjlasdjfl("http://www.urbandictionary.com/define.php?term=" +normalized);
+                                            aa.fjlasdjfl("http://www.bing.com/images/search?q=" +normalizedaADFHJKALHK );
+                                            aa.fjlasdjfl("http://www.learnersdictionary.com/definition/" +normalized);
+                                            aa.fjlasdjfl("http://www.dictionary.com/browse/" +normalizedaADFHJKALHK +"?s=t");
+                                            l(s, s);
+                                }
+                              textArea.setText("");
+
+//                                        dhow2ForgDertlssf.fjlasdjfl(search.getURIString());
+
+
+                                    } else
+                                    if (search.searchName.equalsIgnoreCase("CA")) {
+
+                                        while (in.hasNext()) {
+                                            String line = in.nextLine();
+                                            search.setURI(line);
+
+                                            String normalized = searchTrs.replace(" ", "%20");
+                                            String normalizedaADFHJKALHK = searchTrs.replace(" ", "+");
+
+                                            aa.fjlasdjfl("https://cawiki.ca.com/dosearchsite.action?searchQuery.queryString=" +normalized +"&searchQuery.spaceKey=APM");
+                                            l(s, s);
+                                        }
+                                        textArea.setText("");
+
+                                    }
+                                }
+                            }
+                        }
+
+// he sayds what i intent
+
+
+                        else if (textArea.getText().length()>3 && searchEngines.containsKey(textArea.getText().substring(0, 3))) {
+                            String text = textArea.getText().trim();
+
+                            if (!text.isEmpty()) {
+                                Scanner in = new Scanner(text);
+                                while (in.hasNext()) {
+                                    String line = in.nextLine();
+                                    if (line.length() > 4) {
+                                        search = searchEngines.get(line.substring(0, 3));
+                                        searchTrs = line.substring(3);
+                                        search.setURI(searchTrs);
+
+//                                        r.o(search.getURIString());
+
+                                        if (search.searchName.equalsIgnoreCase("Dictionary")) {
+                                            String normalized = searchTrs.replace(" ", "%20");
+                                            String normalizedaADFHJKALHK = searchTrs.replace(" ", "+");
+                                            aa.fjlasdjfl("http://www.thesaurus.com/browse/" + normalized +"?s=t");
+                                            aa.fjlasdjfl("http://www.urbandictionary.com/define.php?term=" +normalized);
+                                            aa.fjlasdjfl("http://www.learnersdictionary.com/definition/" +normalized);
+                                            aa.fjlasdjfl("http://www.bing.com/images/search?q=" +normalizedaADFHJKALHK );
+                                            aa.fjlasdjfl("http://www.dictionary.com/browse/" +normalizedaADFHJKALHK +"?s=t");
+                                            l(line, line);
+                                            textArea.setText("");
+                                        } else if (search.searchName.equalsIgnoreCase("SC")) {
+                                            String normalized = searchTrs.replace(" ", "%20");
+                                            String normalizedaADFHJKALHK = searchTrs.replace(" ", "+");
+                                            aa.fjlasdjfl("https://cawiki.ca.com/dosearchsite.action?searchQuery.queryString=" +normalized +"&searchQuery.spaceKey=APM");
+                                            l(line, line);
+                                            textArea.setText("");
+                                        }
+
+//                                        dhow2ForgDertlssf.fjlasdjfl(search.getURIString());
+
+
+                                    } else {
+                                    }
+                                }
+                            }
+                        }
+
+
+/*
+                        else if (textArea.getText().length()>3 && searchEngines.containsKey(textArea.getText().substring(0, 2))) {
+                            String text = textArea.getText().trim();
+
+                            if (!text.isEmpty()) {
+                                Scanner in = new Scanner(text);
+                                String s = in.nextLine();
+                                if ( s.length()== 2) {
+                                    search = searchEngines.get(s);
+
+//                                        r.o(search.getURIString());
+
+                                    if (search.searchName.equalsIgnoreCase("CA")) {
 
                                 while (in.hasNext()) {
                                     String line = in.nextLine();
@@ -1461,60 +1842,6 @@ lost in the details
                                             String normalizedaADFHJKALHK = searchTrs.replace(" ", "+");
 //            this.keywords = normalized;
 // becausei暧昧expected安定 and i don't know ho wot make it happen because i want to manipulate thie thing
-                                            // but it is out of my control
-// it is out of my control absolutely
-                                            // black is the closeth of the nigiht
-                                            // the everything take off cloth to you and make you look you can sseee it without the cloth
-
-                                            // i thought the that i am the chosen one and
-                                            // i am hesitent to that
-                                            // and i am questioning about myself
-                                            // swhen something i sthere
-                                            // i thought that i know something
-                                            // when sombody has all the things will i be able to keep calm
-                                            // will i be jealous
-                                            // will i be just like myself
-                                            // what shoul i do
-                                            // what i shte thing that i am hesitating
-                                            // there are just so much emotion in my mind
-                                            // i want to fuck others and it is ni my mind
-                                            // i wand to fuck niu and i ti sin my mind
-                                            // something should never be told again
-                                            // it is confusing and that is all
-                                            // it is all aconfusing
-                                            // it i s so confusing
-                                            // nothing matters
-                                            // but i have to work hard to keep myself suralive
-                                            // do i have to be so blant and without any secret
-                                            // i don't know the limit
-                                            // i am a werido
-                                            // and it boethers me so much
-                                            // something should never be told and something are being told
-                                            // it i sjust like that
-                                            // i am no better ahan anything
-                                            // do i have teell everybody everything to live in this world i wan tto write a biographoy and live and put it here it is not nuust my maybe after i review what hi have i will know what is going on
-// all these kind os thoughts are just disturbing and keep me away from focus
-                                            // i am just totally fucked up
-                                            // so much nonsense
-                                            // do i have ot make myself look so wierd
-                                            // i hold back
-                                            // i hav eot
-                                            // it is make me crazy
-                                            // i try to be transparent
-                                            // i try to be just omyslef but it is just so hard and i try to get all the voices out ob my head but i can n't
-                                            // i wan tto fuck my wife's girld friends and my monm in lwas and all the beautiful and sexual women in th eroad
-                                            // that i sjust wahat i am and i feel that i am disguting
-                                            // i thought that i am able to do whatever in my mind i sath ebest thing to to to do
-                                            // i the thought come to t me for no reason whey does it come to to me there must be something i am lonely and i wna tto develoepe the same type of relationshiop with others other women like my wife with tme my wife has such special bonds to m e and i wish that i have more tha like that but do i need that many my mind desire something different and that is what is cause thing thpeoblem and my wife is the only one and only one that i have have i will never have sanother thone never have another one that is th e thing when somebody earn much more than me hos w do i feel will i be able to tkeep my self caml and balanced and still be frineds with them therea are just so good thtat i s the thing that is what hapening htaht is what hapening wthat is exact thwa is going on that and that iw it it is a test and they want to see what tiwll happen it just need to happen natureally an dd balancedly balanced that is the thing that i s this godod
-                                            // i wriote my thought her eand hope that sometime later i will understand that
-                                            //  i don't ha ve tother midns and it is acauselu ty ething problem
-                                            // there are mushc problem in my mind i anneed to solve it somehow
-                                            aa.fjlasdjfl("http://www.thesaurus.com/browse/" + normalized +"?s=t");
-                                            aa.fjlasdjfl("http://www.urbandictionary.com/define.php?term=" +normalized);
-                                            aa.fjlasdjfl("http://www.bing.com/images/search?q=" +normalizedaADFHJKALHK );
-                                            aa.fjlasdjfl("http://www.learnersdictionary.com/definition/" +normalized);
-                                            aa.fjlasdjfl("http://www.dictionary.com/browse/" +normalizedaADFHJKALHK +"?s=t");
-                                            l(s, s);
                                 }
                               textArea.setText("");
 
@@ -1544,61 +1871,11 @@ lost in the details
 
 //                                        r.o(search.getURIString());
 
-                                        if (search.searchName.equalsIgnoreCase("Dictionary")) {
+                                        if (search.searchName.equalsIgnoreCase("SC")) {
                                             String normalized = searchTrs.replace(" ", "%20");
                                             String normalizedaADFHJKALHK = searchTrs.replace(" ", "+");
 //            this.keywords = normalized;
 // becausei暧昧expected安定 and i don't know ho wot make it happen because i want to manipulate thie thing
-                                            // but it is out of my control
-// it is out of my control absolutely
-                                            // i thought the that i am the chosen one and
-                                            // i am hesitent to that
-                                            // and i am questioning about myself
-                                            // swhen something i sthere
-                                            // i thought that i know something
-                                            // when sombody has all the things will i be able to keep calm
-                                            // will i be jealous
-                                            // will i be just like myself
-                                            // what shoul i do
-                                            // what i shte thing that i am hesitating
-                                            // there are just so much emotion in my mind
-                                            // i want to fuck others and it is ni my mind
-                                            // i wand to fuck niu and i ti sin my mind
-                                            // something should never be told again
-                                            // it is confusing and that is all
-                                            // it is all aconfusing
-                                            // it i s so confusing
-                                            // nothing matters
-                                            // but i have to work hard to keep myself suralive
-                                            // do i have to be so blant and without any secret
-                                            // i don't know the limit
-                                            // i am a werido
-                                            // and it boethers me so much
-                                            // something should never be told and something are being told
-                                            // it i sjust like that
-                                            // i am no better ahan anything
-                                            // do i have teell everybody everything to live in this world i wan tto write a biographoy and live and put it here it is not nuust my maybe after i review what hi have i will know what is going on
-// all these kind os thoughts are just disturbing and keep me away from focus
-                                            // i am just totally fucked up
-                                            // so much nonsense
-                                            // do i have ot make myself look so wierd
-                                            // i hold back
-                                            // i hav eot
-                                            // it is make me crazy
-                                            // i try to be transparent
-                                            // i try to be just omyslef but it is just so hard and i try to get all the voices out ob my head but i can n't
-                                            // i wan tto fuck my wife's girld friends and my monm in lwas and all the beautiful and sexual women in th eroad
-                                            // that i sjust wahat i am and i feel that i am disguting
-                                            // i thought that i am able to do whatever in my mind i sath ebest thing to to to do
-                                            // i the thought come to t me for no reason whey does it come to to me there must be something i am lonely and i wna tto develoepe the same type of relationshiop with others other women like my wife with tme my wife has such special bonds to m e and i wish that i have more tha like that but do i need that many my mind desire something different and that is what is cause thing thpeoblem and my wife is the only one and only one that i have have i will never have sanother thone never have another one that is th e thing when somebody earn much more than me hos w do i feel will i be able to tkeep my self caml and balanced and still be frineds with them therea are just so good thtat i s the thing that is what hapening htaht is what hapening wthat is exact thwa is going on that and that iw it it is a test and they want to see what tiwll happen it just need to happen natureally an dd balancedly balanced that is the thing that i s this godod
-                                            // i wriote my thought her eand hope that sometime later i will understand that
-                                            //  i don't ha ve tother midns and it is acauselu ty ething problem
-                                            // there are mushc problem in my mind i anneed to solve it somehow
-                                            aa.fjlasdjfl("http://www.thesaurus.com/browse/" + normalized +"?s=t");
-                                            aa.fjlasdjfl("http://www.urbandictionary.com/define.php?term=" +normalized);
-                                            aa.fjlasdjfl("http://www.learnersdictionary.com/definition/" +normalized);
-                                            aa.fjlasdjfl("http://www.bing.com/images/search?q=" +normalizedaADFHJKALHK );
-                                            aa.fjlasdjfl("http://www.dictionary.com/browse/" +normalizedaADFHJKALHK +"?s=t");
                                             l(line, line);
                                             textArea.setText("");
                                         }
@@ -1611,13 +1888,13 @@ lost in the details
                                 }
                             }
                         }
+*/
 
 
 
 
 
-
-                        /* this can have one more layer of abstraction so that the function can work wfor any strings
+/* this can have one more layer of abstraction so that the function can work wfor any strings
                         one
                         group
                         any
@@ -1654,6 +1931,7 @@ lost in the details
     }
 
                          */
+
 
                         else if (textArea.getText().equalsIgnoreCase("music")) {
 
@@ -2039,7 +2317,7 @@ s.updatetask();
                         }
 
 
-
+//  you want to talk to me but you are talking to others instead
 
 
                         else if (b) {
@@ -2059,7 +2337,54 @@ s.updatetask();
                                 aa.f = !aa.f ? true : false;
                             }
                         }
+// every move is imporatnt help you to sucessful in the real y life and real world
+                        else if(SDisHlow2ForeDgertCommand){
+                            if (textArea.getText().equalsIgnoreCase("k")) {
+                                dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.f = dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.f==false?true:false;
+                                E.f = E.f == false ? true : false;
+                                ad.f = ad.f==false?true:false;
+                                aa.f = !aa.f ? true : false;
+                                ja.f=ja.f==false?true:false;
+                                j.f=j.f==false?true:false;
+                                dhow2ForgDertlsf.f=dhow2ForgDertlsf.f==false?true:false;
+                                dhow2ForgDertlssf.f=dhow2ForgDertlssf.f==false?true:false;
+                            }
+                        }
+// one and many
+                        // different place
+                        // different time
+                        // different people
+                        // different things
+                        // combinations
+                        // i hope taht you can hear my voide and know that i miss you
+                        // can you hear me
+                        // i hear you
+                        // there is no world it is just ther ethere is no people they are just htere and you know that
+                        // ti is just what it is //you don't know what pphaeppn but it is ither e you should know
+                        // i don't want o shrea this papplicaiton with anybody but i shoudl at the nae and that is thqat makes me the best applicaiton in the world
+                        // somethinem si waofr tahwt i am foring but it si okay i jsut want ot do thwa ti need to do
+                        // teell me everything you know there if there is nothing then it is alase love what you are expecting is love you are expecting something right
+                        // i hear you
+                        // can you hear me
+                        // can you see me
+                        // can you hear me
+                        // i can hear you
+                        // li love you
+                        // can you hear me
+                        // i have to give away everything before at the end of the day
+                        // i have to give away everything at the end of the day
+                        // i have to give away everything at the end of the day
+                        // i have to gtive away everything ath teh endo fthe tday so that i can follow assleep so that i can follow aslecopt
+                        // i love you
+                        // i love you
+                        // you love me
 
+                        // you could've be my wife you could mbe my wife youdlcode mbye y brther
+                        // ci just wnat to have somethione who can be there for me
+                        // i just want to be wieth you
+                        // i just want to be there with you
+
+                        //s remember the place then it is heveyrthing place hodler and trmeember the plcea then that it is the palcena ndns tiemgt eatha ti thait si
 
                         else if (SDislDoald) {
                             System.out.println("asdf");
@@ -2197,7 +2522,9 @@ s.updatetask();
         // oraganize and best perforamncae time and location matters i sjust move a butnch of code to ther runnable to turn them all toghet.
 
     }
+// all the information come to me it is sa blessed
 
+    //
 
     static {
         searchEngines.put("sg ", new Search("Bing", "sg ", "http://www.bing.com/search?q=%s", "+"));
@@ -2208,7 +2535,9 @@ s.updatetask();
         searchEngines.put("sy ", new Search("Youtube", "sy ", "https://www.youtube.com/results?search_query=%s", "+"));
         searchEngines.put("sm ", new Search("Gmail", "sm ", "https://mail.google.com/mail/u/0/#search/%s", "+"));
         searchEngines.put("si ", new Search("Image", "si ", "http://www.bing.com/images/search?q=%s", "+"));
-        searchEngines.put("sl ", new Search("I'm Feeling Lucky", "sl ", "http://www.google.com/search?btnI=I%27m+Feeling+Lucky&ie=UTF-8&oe=UTF-8&q=", "+"));
+        searchEngines.put("sl ", new Search("I'm Feeling Lucky", "sl ", "http://www.BINGS.com/search?btnI=I%27m+Feeling+Lucky&ie=UTF-8&oe=UTF-8&q=", "+"));
+        searchEngines.put("ss ", new Search("CA", "ca ", "https://cawiki.ca.com/dosearchsite.action?searchQuery.queryString=%s&searchQuery.spaceKey=APM", "+"));
+        searchEngines.put("sc ", new Search("SC", "sc ", "https://cawiki.ca.com/dosearchsite.action?searchQuery.queryString=%s&searchQuery.spaceKey=APM", "+"));
         searchEngines.put("mv ", new Search("I'm Feeling Lucky", "mv ", "http://www.google.com/search?btnI=I%27m+Feeling+Lucky&ie=UTF-8&oe=UTF-8&q=maven+repository+", "+"));
         searchEngines.put("sb ", new Search("Baidu", "sb ", "https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=0&rsv_idx=1&tn=baidu&wd=%s", "%20"));
         searchEngines.put("gi ", new Search("Baidu", "gi ", "https://github.com/search?utf8=%E2%9C%93&q=%s", "+"));

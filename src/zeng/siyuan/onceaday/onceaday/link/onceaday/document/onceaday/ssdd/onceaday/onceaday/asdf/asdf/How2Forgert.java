@@ -205,7 +205,7 @@ public class How2Forgert implements Serializable {
             }
 
 
-            m.store(e);
+            m.deleteTask(e.getJavauid());m.store(e);
             reloadTAskandrestartPopThread();
 
         }
@@ -276,7 +276,7 @@ public class How2Forgert implements Serializable {
 
                 e.text = stringBuilder.toString();
 
-                m.store(e);
+                m.deleteTask(e.getJavauid());m.store(e);
                 System.out.println("updates");
                 isSearch=false;
                 break;
@@ -344,7 +344,7 @@ public class How2Forgert implements Serializable {
                                                 }
                                             }
 
-                                            m.store(e);
+                                            m.deleteTask(e.getJavauid());m.store(e);
                                         if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
                                             try {
                                                 r.open(e.text);
@@ -409,7 +409,7 @@ public class How2Forgert implements Serializable {
                                             ct.setIsDone(true);
                                         }
 
-                                        m.store(e);
+                                        m.deleteTask(e.getJavauid());m.store(e);
                                         if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
                                             try {
                                                 r.open(e.text);

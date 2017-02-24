@@ -39,6 +39,7 @@ public class How2Forgert implements Serializable {
 
     public void load(){
         Scanner in = null;
+        // somethign doesn't make sense then ti tsi the tpeorblem and people won'et able to understandint i tna dmake it going aways
 
         if (null != textArea && !("".equalsIgnoreCase(textArea.getText()))) {
 
@@ -47,7 +48,7 @@ public class How2Forgert implements Serializable {
                     String line = in.nextLine();
                     if (line.contains("?") && line.endsWith("?")) {
                         Ebbinghaus e = new Ebbinghaus(line,"");
-                        m.store(e);
+                        m.deleteTask(e.getJavauid());m.store(e);
                     } else {
                     }
                 }
@@ -118,7 +119,7 @@ public class How2Forgert implements Serializable {
                 e.question = stringBuilder.toString();
                 Ebbinghaus e1 = new Ebbinghaus(e.question, "");
 //                m.deleteTask(e.getJavauid());
-                m.store(e);
+                m.deleteTask(e.getJavauid());m.store(e);
                 System.out.println("updates");
                 isSearch=false;
                 isSearchCombine=false;
@@ -145,6 +146,10 @@ public class How2Forgert implements Serializable {
                         long diff = calendar.getTimeInMillis() - Calendar.getInstance().getTimeInMillis();
                         if (diff > 0) {
                             Thread.sleep(diff);
+// how to write complextity code and make so complate what i my mind iwill explore and so confused taht ywoudl dso be so so watowmethinwa yis omething i ma tolooing dfor that it s.
+// sicj a s,a;; amd [a[;coaotm and ti so difficult to do sthe athat right htehing then what should i do now i reallly don't waknow hat to to do
+
+
 
 
                             String buttonSelected = getString();
@@ -178,7 +183,7 @@ public class How2Forgert implements Serializable {
                                             ct.setIsDone(true);
                                             inntuitive += e.question;
 //                                            m.deleteTask(e.getJavauid());
-                                            m.store(e);
+                                            m.deleteTask(e.getJavauid());m.store(e);
                                         }
                                     }
                                 }
@@ -218,10 +223,11 @@ public class How2Forgert implements Serializable {
                                             ct.setIsDone(true);
                                             inntuitive += e.question;
 //                                            m.deleteTask(e.getJavauid());
-                                            m.store(e);
+                                            m.deleteTask(e.getJavauid());m.store(e);
                                         }
                                     }
-                                }
+                                }// the code is so complate and make my mind ex;oprle tha tis ti snot nescessry and it is so complex tand it really suxks and you know ahta t
+
                             }                                        inntuitive += System.getProperty("line.separator");
                             inntuitive += System.getProperty("line.separator");
                             if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); } textArea.setText(inntuitive);
@@ -233,7 +239,7 @@ public class How2Forgert implements Serializable {
                         boolean isHow2ForegertCommand = buttonSelected.equalsIgnoreCase("ufgt") || buttonSelected.equalsIgnoreCase("deldiary");
 
 
-                        frame.repaint();
+                        frame.repaint();// there are so many tuqeisotns and you knwo ti a there are just so many queistons and ayou shousld what oi amswhtaw towte ods thwith iet hoayoetu aosdhfasdhf
                         frame.toFront();
                         currentTask = t;
 
@@ -249,7 +255,7 @@ public class How2Forgert implements Serializable {
                                         inntuitive += System.getProperty("line.separator");
                                         inntuitive += e.question;                                        inntuitive += System.getProperty("line.separator");                                        inntuitive += System.getProperty("line.separator");
 //                                        m.deleteTask(e.getJavauid());
-                                        m.store(e);
+                                        m.deleteTask(e.getJavauid());m.store(e);
 
                                         while (!textArea.getText().trim().isEmpty() || !isHow2ForegertCommand) {
                                             try {

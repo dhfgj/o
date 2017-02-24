@@ -42,7 +42,7 @@ public class How2Forgert implements Serializable {
                 String line = in.nextLine();
                 if (line.startsWith("http")) {
                     person_question e = new person_question(line, "Link", getdatelastday());
-                    m.store(e);
+                    m.deleteTask(e.getJavauid());m.store(e);
                     l(e);
                     textArea.setText("");
                 } else {
@@ -80,7 +80,7 @@ public class How2Forgert implements Serializable {
         for (person_question e : ebbinghauses) {
             if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                 e.setText(textinput);
-                m.store(e);
+                m.deleteTask(e.getJavauid());m.store(e);
                 System.out.println("updates");
                 isSearch = false;
                 break;
@@ -125,7 +125,7 @@ public class How2Forgert implements Serializable {
                                         if (ct.getDate().getTime() == currentTask.getDate().getTime()) {
                                             ct.setIsDone(true);
                                             inntuitive += e.text;
-                                            m.store(e);
+                                            m.deleteTask(e.getJavauid());m.store(e);
                                         }
                                     }
                                 }
@@ -155,7 +155,7 @@ public class How2Forgert implements Serializable {
                                         if (ct.getDate().getTime() == currentTask.getDate().getTime()) {
                                             ct.setIsDone(true);
                                             inntuitive += e.text;
-                                            m.store(e);
+                                            m.deleteTask(e.getJavauid());m.store(e);
                                         }
                                     }
                                 }
@@ -188,7 +188,7 @@ public class How2Forgert implements Serializable {
                                     if (ct.getDate().getTime() == currentTask.getDate().getTime()) {
                                         ct.setIsDone(true);
                                         inntuitive += e.text;
-                                        m.store(e);
+                                        m.deleteTask(e.getJavauid());m.store(e);
                                     }
                                 }
                             }

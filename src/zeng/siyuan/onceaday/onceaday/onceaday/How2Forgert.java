@@ -13,7 +13,6 @@ import com.mongodb.util.JSON;
 import org.testng.annotations.Test;
 import zeng.siyuan.C1comehere.C1comehere;
 import zeng.siyuan.C1comehere.Search;
-import zeng.siyuan.howt2forgert.Ebbinghaus;
 import zeng.siyuan.onceaday.onceaday.onceaday.link.onceaday.DecendingTask;
 import zeng.siyuan.onceaday.onceaday.onceaday.link.onceaday.MongoDbHelper;
 import zeng.siyuan.reuseutil.r;
@@ -587,6 +586,43 @@ public class How2Forgert implements Serializable {
         return null;
     }
 
+public DBObject t = new BasicDBObject();
+    public String sdfdfdf(String sdfjdfjaldsf) {
+
+        String j = sdfjdfjaldsf;
+
+        // Convert object to JSON string and pretty print
+//        j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(s);
+//                    System.out.println(j);
+//        DBObject p = new BasicDBObject();
+// convert JSON to DBObject directly
+        DBObject s = (DBObject) JSON.parse("{'name':'mkyong', 'age':30, 'f':'"+j +"'}");
+
+
+        MongoDbHelper k = null;
+        try {
+            k = MongoDbHelper.getInstance();
+        } catch (UnknownHostException e) {
+            e.printStackTrace();
+        }
+        if (null !=t) k.removeDocument("md", t);
+        if (null !=s)k.insertDocument("md", s);
+
+        return "";
+    }
+
+
+    public String j() {
+        try {
+            t = MongoDbHelper.getInstance().findOne("md");
+        } catch (UnknownHostException e) {
+            e.printStackTrace();
+        }
+
+        if (null !=t)     return t.get("f").toString();
+return "";
+    }
+
 //    public How2Forgert(C1comehere c1comehere, JTextArea textArea, JFrame frame) {
 //        this.c1comehere = c1comehere;
 //        this.textArea = textArea;
@@ -653,7 +689,7 @@ public class How2Forgert implements Serializable {
 
                 e.text = stringBuilder.toString();
 
-//                m.store(e);
+//                m.deleteTask(e.getJavauid());m.store(e);
                 System.out.println("updates");
                 isSearch=false;
                 break;
@@ -775,11 +811,11 @@ public class How2Forgert implements Serializable {
 
 //                                    k.insertDocument("m", p);
 
-//                                    BasicDBObject searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
+                                    BasicDBObject searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
 //
 //
-//                                    k.updateDocument("m", searchQuery, p);
-k.removeDocument("m", p);
+                                    k.updateDocument("m", searchQuery, p);
+//k.removeDocument("m", p);
 
                                     if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
                                         try {
@@ -872,8 +908,8 @@ k.removeDocument("m", p);
                                         BasicDBObject searchQuery = new BasicDBObject().append("javauid", e.getJavauid());
 
 
-//                                        k.updateDocument("m", searchQuery, p);
-k.removeDocument("m", p);
+                                        k.updateDocument("m", searchQuery, p);
+//k.removeDocument("m", p);
 
                                         if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
                                             try {                                            while (f){
@@ -1095,7 +1131,7 @@ public boolean f =true;
 //                String line = in.nextLine();
 //                    if (line.contains("?") && line.endsWith("?")) {
 //                person_question e = new person_question(line, "p", getdatelastday());
-//                        m.store(e);
+//                        m.deleteTask(e.getJavauid());m.store(e);
 //                ObjectMapper mapper = new ObjectMapper();
 
 //                            person_question staff = person_question();
@@ -1230,7 +1266,7 @@ public boolean f =true;
 //
 //                e.text = stringBuilder.toString();
 //
-//                m.store(e);
+//                m.deleteTask(e.getJavauid());m.store(e);
 //
 //                String j = null;
 //                try {
@@ -1328,7 +1364,7 @@ public boolean f =true;
 
 
                                 inntuitive += e.text;
-//                                            m.store(e);
+//                                            m.deleteTask(e.getJavauid());m.store(e);
 //                                Date asdadfKJAHSLKFHASKJDHFKL= new Date();
 //                                if (asdadfKJAHSLKFHASKJDHFKL.getTime() == AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime()) {
 //                                    asdf = true;
@@ -1516,7 +1552,7 @@ tasks.remove(l);
 //                                        ct.setIsDone(true);
 //                                        inntuitive += e.text;
 //
-//                                        m.store(e);
+//                                        m.deleteTask(e.getJavauid());m.store(e);
 //
 //                                        String j = mapper.writeValueAsString(e);
 //                                        System.out.println(j);
@@ -1588,7 +1624,7 @@ tasks.remove(l);
 
 
                                     inntuitive += e.text;
-//                                            m.store(e);
+//                                            m.deleteTask(e.getJavauid());m.store(e);
 //                                    Date asdadfKJAHSLKFHASKJDHFKL= new Date();
 //                                    if (asdadfKJAHSLKFHASKJDHFKL.getTime() == AJKDSLJFLKJQWOIRULJDFLKJL.getDate().getTime()) {
 //                                        asdf = true;
@@ -1785,7 +1821,7 @@ if(tasks.size()>0) {
 //                                        ct.setIsDone(true);
 //                                        inntuitive += e.text;
 //
-//                                        m.store(e);
+//                                        m.deleteTask(e.getJavauid());m.store(e);
 //
 //                                        String j = mapper.writeValueAsString(e);
 //                                        System.out.println(j);
@@ -1979,6 +2015,7 @@ if(tasks.size()>0) {
 
 
     }
+
 
     public void LKJ(person_question K) {
 //        List<DBObject> k = null ;
