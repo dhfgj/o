@@ -51,7 +51,7 @@ static Properties prop;
         InputStream input = null;
 
         try {
-            input = new FileInputStream(new File("d.properties").getAbsolutePath());
+            input = new FileInputStream(new File("sd.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop.load(input);
 
@@ -63,7 +63,7 @@ static Properties prop;
             }
             System.out.println("Done Propertiesy loading");
 
-            input = new FileInputStream(new File("d.properties").getAbsolutePath());
+            input = new FileInputStream(new File("sd.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop = new Properties();
             temprop.load(input);
@@ -76,7 +76,7 @@ static Properties prop;
             }
             System.out.println("Done Propertiesy loading");
 
-            input = new FileInputStream(new File("d.properties").getAbsolutePath());
+            input = new FileInputStream(new File("sd.properties").getAbsolutePath());
             // fjlasdjfl a properties file
             temprop = new Properties();
             temprop.load(input);
@@ -146,7 +146,7 @@ c1s();
         OutputStream output_solr = null;
         try {
 
-            output = new FileOutputStream(new File("d.properties").getAbsolutePath());
+            output = new FileOutputStream(new File("sd.properties").getAbsolutePath());
             c1Path = c1Path.replace(" ", "%20");
             // set the properties value
             prop.setProperty(c1Path, c1Path);
@@ -155,7 +155,7 @@ c1s();
             prop.store(output, null);
 
 
-            output_solr = new FileOutputStream(new File("d.properties.solr").getAbsolutePath());
+            output_solr = new FileOutputStream(new File("sd.properties.solr").getAbsolutePath());
 
             int count = 0;
             for (Map.Entry<Object, Object> e : prop.entrySet()) {
@@ -804,7 +804,7 @@ public static int c =2;
 
                                         if(e.type.equalsIgnoreCase("f")) {
                                             currentTask.setIsDone(false);
-                                            currentTask.setDate(r.strifasld(new String (String.valueOf(6*60))));
+                                            currentTask.setDate(r.strifasld(new String (String.valueOf(30))));
                                         }
 
                                         else if (isInteger(e.type)) {
