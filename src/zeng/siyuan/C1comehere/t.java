@@ -26,8 +26,9 @@ public class t {
 
 
             List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(1);
-            nameValuePairs.add(new BasicNameValuePair("number", "3522136176"));
-            nameValuePairs.add(new BasicNameValuePair("message", "I lve you"));
+            nameValuePairs.add(new BasicNameValuePair("number", "3522786256"));
+            nameValuePairs.add(new BasicNameValuePair("message", "I lve you, baby come to get me bebe? I am still in whole food wating for you!!!!Kiss1!!"));
+            nameValuePairs.add(new BasicNameValuePair("key", "89ae7bddf9a773b4c724537498bf1fff9385bd78NLsTRBQEWStGPJmZ9W3Svnp67"));
             post.setEntity(new UrlEncodedFormEntity(nameValuePairs));
             
 

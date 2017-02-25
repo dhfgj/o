@@ -2472,11 +2472,29 @@ s.updatetask();
                                     // no matter waht
                                     // ho can you mess the code no matter how you mess you code
 
+// i don't have money to eat, all i have to it is eat
+                                    // all i have is food
+                                    // all i want is food
+                                    // jpe yp make this applicaiton  getter and easier to use
+                                    // ther ei s no amchine ther ei no mpersonal cut touch there is not
 
 
                                 }
                             }
+// new message and something hit me
+                            // something hit me hit me
+                            // they rush tome which is crazy don't give me idea and it is pull me everythign
 
+                            // everything is pulling my attention
+// there are so muhc ocmmand and that they are not very useful
+                            // i have know somthign to build somethign useful and uqnituqe and gbetter use
+                            // i don't want to bmove betcause ther eare y pepole everywhere
+                            // thery are people
+
+                            // thre are so much confusion tover thew and there
+                            // it s no easy to do do so
+                            // there are so much eopel i wil  see them
+                            // i don't want to move away from my desk becafuse i will seee so much thin gand they will kill em
 
 
                             else {
