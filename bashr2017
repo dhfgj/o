@@ -492,8 +492,12 @@ alias solr='cd /usr/local/Cellar/solr/6.3.0/bin'
 
 # ..............................................................................................Automatic run......................................................................................
 
+#output to bash_profile
+#echo export PATH="/usr/local/bin:$PATH" >> ~/.bash_profile
 
 #install brew
+
+#sudo apt-get install ruby-full
 #/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 #brew install Caskroom/cask/sublime-text
 #brew install solr

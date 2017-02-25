@@ -1,0 +1,77 @@
+1. install cassandra
+https://dzone.com/articles/installing-apache-cassandra
+1a. add gedit
+    http://www.omgubuntu.co.uk/2016/06/install-gedit-3-10-ubuntu-16-04-lts
+
+
+    gpg --keyserver hkp://keys.gnupg.net --recv-keys 94558F59
+
+
+
+
+http://www.thetechnicalstuff.com/install-apache-cassandra-on-ubuntu-linux/
+
+
+
+install lation folder
+/home/ubuntu/apache-cassandra-2.1.14-src/bin
+
+
+/usr/bin/mongod
+
+
+Where is MongoDB?
+
+MongoDB is installed and started.
+
+$ ps -ef | grep mongo
+mongodb   5262     1  0 15:27 ?        00:00:14 /usr/bin/mongod --config /etc/mongodb.conf
+mkyong    5578  3994  0 16:29 pts/0    00:00:00 grep --color=auto mongo
+
+$ mongo -version
+MongoDB shell version: 2.2.3
+
+
+
+install mongodb
+http://www.mkyong.com/mongodb/how-to-install-mongodb-on-ubuntu/
+
+
+
+
+
+All MongoDB executable files are stored at /usr/bin/
+
+$ ls -ls /usr/bin | grep mongo
+
+
+ The “mongodb control script” is generated at /etc/init.d/mongodb
+
+ $ ls -ls /etc/init.d | grep mongo
+  0 lrwxrwxrwx 1 root root   21 Feb  2 08:11 mongodb -> /lib/init/upstart-job
+
+
+
+ which mongo
+ locate mongo
+
+
+#install ruby
+https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-on-ubuntu-12-04-lts-precise-pangolin-with-rvm
+
+
+
+#ubuntu brew (add last one first)
+https://github.com/Linuxbrew/brew
+
+
+
+
+
+
+
+#sudo apt-get install openjdk-8-jre
+
+java install directory
+
+/usr/lib/jvm/java-1.8.0-openjdk-amd64
