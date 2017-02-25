@@ -34,7 +34,8 @@ public class person_question implements Serializable{
 
     @Column(name = "txt")
     public String text;
-
+// wheren therir notohing to do , programming is just listke palying game and i found that i ma quite good at ti and play piano.
+    // the guy besidges me please sond' look at me.
     @Column(name = "type")
     public String type;
 
@@ -44,6 +45,11 @@ public class person_question implements Serializable{
     @FrozenValue
     @Column(name = "tasks")
     Set<Task> tasks;
+
+
+    @FrozenValue
+    @Column(name = "d")
+    Set<String> i;
 
     //        20 minutes
     @Transient
@@ -95,6 +101,8 @@ public class person_question implements Serializable{
 
 
         tasks = new HashSet<Task>();
+        i = new HashSet<String>();
+
 
         first = new Task(date1, javauid);
 
@@ -104,6 +112,13 @@ public class person_question implements Serializable{
 
     }
 
+    public Set<String> getI() {
+        return i;
+    }
+
+    public void setI(Set<String> i) {
+        this.i = i;
+    }
 
     public person_question(String text, HashSet<Task> tasks, Task first, Task second, Task third, Task fourth, Task fifth, Task sixth, Task seventh, UUID javauid) {
         this.text = text;

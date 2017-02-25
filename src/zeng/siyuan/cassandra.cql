@@ -159,6 +159,10 @@ delete from keyspace1.ssdd where id=78589280-9b8f-41f2-8f4d-59964470d18e;
 select * from keyspace1.person_question_produ;
 
 select * from keyspace1.plany;
+select count(*) from keyspace1.plany
+
+
+ALTER TABLE table name ADD  new column datatype;
 
 
 create table keyspace1.plany(

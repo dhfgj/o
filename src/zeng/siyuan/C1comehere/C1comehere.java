@@ -1528,10 +1528,36 @@ but i don't have to time to review the same thing again and again
                             dmd(textArea.getText(), textArea.getText());
                             C1comehere.dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.sdfdfdf(textArea.getText());
                             textArea.setText("");
+                            // solr key words and
+                            // how man y table do i wan tto use use the most intuitive stupid version then expadns
+
+
+// what are the requied and what a re optional felads? how to enforce this to prive a value to the thing ?
+                             // use ng validation and everyting to know
+                            // whaht is the whole story and fomr the begining
+                            //
+// List<of things> I have a model it and add another keys words part to the things and synchronize with the apachee solr
+// I want to tag it as long as i want to it , i should make it sho win the column, if there any column i can use know now?
+// I want to have wahtever category that i cawant but theren thwill bue a lot of categories and it just going on and on how to resolve this and modeling it in a easy way
+// Subjects
+// Functionality (Question, dictionary, documentation)
+
+// Category (Music, joke, cavocabory)
+// 1day
+// Ehaubins
+// Repeatively
+   // Three is no readon to repeat everythday and solve all the pppproblem at the sam time it is the when ever you have a problem then you can do i tright
+//
+//
+//
+//
+//
+//
+//
 
 
 
-                        }
+                                                }
 
 
 //what are the existing ubuilding components i can do ?

@@ -45,6 +45,7 @@ public class person_question implements Serializable{
     @Column(name = "tasks")
     Set<Task> tasks;
 
+    // i have nothing to do this is just the way to kill time and make myself happy and fulfilling
     //        20 minutes
     @Transient
     public Task first;// 20 munites
