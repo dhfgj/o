@@ -2458,7 +2458,28 @@ s.updatetask();
                                 j.f=j.f==false?true:false;
                                 dhow2ForgDertlsf.f=dhow2ForgDertlsf.f==false?true:false;
                                 dhow2ForgDertlssf.f=dhow2ForgDertlssf.f==false?true:false;
-                            } else {
+                            }
+
+                            else if(textArea.getText().split("\\r\\n|\\n|\\r")[0].equalsIgnoreCase("asf")) {
+                                for (int js = 1; js <= textArea.getText().split("\\r\\n|\\n|\\r").length-2; js++) {
+                                    // i kind of realize that what i t means to be fun when programming becaues ti tis fun and i really enjoy it .
+                                    // i have nothing to do thi si what the fucking peole describes focus because ti is there is nothing in the life that can distract me from programming
+// how to get the current thigs that associate iwth the this thing if i use the elastic search then i think it would be easier becaus ether ei s be better scripting experience now i have to write the code to track it which is anooying
+                                    j.dh(textArea.getText().split("\\r\\n|\\n|\\r")[js]);
+// no mater what htere is always a high level overiveoiw
+
+
+                                    // no matter waht
+                                    // ho can you mess the code no matter how you mess you code
+
+
+
+                                }
+                            }
+
+
+
+                            else {
 
                                 j.d();
 

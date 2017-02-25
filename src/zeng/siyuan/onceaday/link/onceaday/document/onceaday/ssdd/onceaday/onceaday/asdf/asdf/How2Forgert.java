@@ -25,6 +25,7 @@ public class How2Forgert implements Serializable {
     public transient static CopyOnWriteArrayList<person_question> ebbinghauses;
     public transient CopyOnWriteArrayList<Task> tasks = new CopyOnWriteArrayList<Task>();
     public transient Task currentTask = new Task();
+    public transient person_question dj= new person_question();
     public transient Display d;
     public transient Thread reloadandDisplayThread;
     public transient JFrame frame;
@@ -211,6 +212,26 @@ c1s();
         }
     }
 public boolean f=true;
+    public void dh(String dk) {
+// you coame and go and nobody notice you nobody acare about you what does it mean i don't even realize what you feeling is ho do you feel
+        // i aleways try to feel soemthing
+        // i alreaus to ry to synpathyzie other s
+        // i lways try to do something
+        // people sit naext to me and then they lef t with out anything
+        // a lot of people siting menset to me and means nothing to me what do you think
+        // pepople are thating my food and i hafe nothing to eat
+        // i have nothing but only have the food to get me over and won't die
+        // i am jsut surviving that i sall i ahve tagoto
+dj.getI().add(dk);
+
+
+// then there a re a serious of code and i don't abstract ti then have i have to fighting with the details and try to know what i sthe rit here
+
+
+
+
+
+    }
     public void d() {
         Scanner in = null;
         c1come2melater("", textArea.getText());
@@ -635,6 +656,7 @@ public static int c =2;
 //                        String inntuitive = "";
 
                         for (person_question e : ebbinghauses) {
+                            dj = e;
                             boolean asdf = false;
                             if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
 //                                    for (Task ct : e.getTasks()) {
@@ -699,7 +721,7 @@ public static int c =2;
                                 } else {
                                     currentTask.setIsDone(true);
                                 }
-                            }
+                            }// all kind so fnoise and everything jstu so distracting me and make me feel uncomfiratable
 
                             m.deleteTask(e.getJavauid());m.store(e);
                             if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
@@ -707,7 +729,14 @@ public static int c =2;
                                     while (f) {
                                         Thread.sleep(10000);
                                     }
+
+                                            while (null != e.text && !e.text.isEmpty()) {
+                                                Thread.sleep(10000);
+                                            }
+                                            textArea.setText(e.text);
+
                                     r.open(e.text);
+
                                 } catch (Exception f) {
                                     f.printStackTrace();
                                 }
@@ -718,6 +747,10 @@ public static int c =2;
                                 while (f) {
                                     Thread.sleep(10000);
                                 }
+                                while (null != e.text && !e.text.isEmpty()) {
+                                    Thread.sleep(10000);
+                                }
+                                textArea.setText(e.text);
 
                                 r.open(e.text.trim());
                             } else {
@@ -821,6 +854,10 @@ public static int c =2;
                                                 while (f) {
                                                     Thread.sleep(10000);
                                                 }
+                                                while (null != e.text && !e.text.isEmpty()) {
+                                                    Thread.sleep(10000);
+                                                }
+                                                textArea.setText(e.text);
 
                                                 r.open(e.text);
                                             } catch (Exception f) {
@@ -833,6 +870,10 @@ public static int c =2;
                                             while (f) {
                                                 Thread.sleep(10000);
                                             }
+                                            while (null != e.text && !e.text.isEmpty()) {
+                                                Thread.sleep(10000);
+                                            }
+                                            textArea.setText(e.text);
 
                                             r.open(e.text.trim());
                                         } else {
