@@ -228,6 +228,8 @@ public boolean f=true;
 //            boolean asdf = false;
             if (e.getText().equalsIgnoreCase(s)) {
                 e.getI().add(dk);
+                m.store(e);
+                System.out.println("hello");
             }
         }
 

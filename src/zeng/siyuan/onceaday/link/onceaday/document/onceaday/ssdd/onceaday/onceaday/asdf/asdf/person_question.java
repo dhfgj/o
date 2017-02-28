@@ -113,6 +113,7 @@ public class person_question implements Serializable{
     }
 
     public Set<String> getI() {
+        if (null == i ) return i=new HashSet<String>();
         return i;
     }
 
