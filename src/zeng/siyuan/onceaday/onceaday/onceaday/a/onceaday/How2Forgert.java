@@ -55,7 +55,7 @@ public class How2Forgert implements Serializable {
     static ObjectMapper mapper = new ObjectMapper();
 
 
-    public person_question d(String s) throws JsonProcessingException, UnknownHostException {
+    public person_question d(String s) throws JsonProcessingException, UnknownHostException {dl =false;
         Scanner in = null;
         if (null != textArea && !("".equalsIgnoreCase(textArea.getText()))) {
 
@@ -593,7 +593,7 @@ public class How2Forgert implements Serializable {
 //    }
 
 //    /*
-    public void updatetask() {
+    public void updatetask() {dl =false;
         StringBuilder stringBuilder = new StringBuilder();
         Date date = new Date();
 
@@ -1188,7 +1188,7 @@ k.removeDocument("p", p);
 
     public boolean f =true;
     public boolean dl =false;
-    public void load() throws UnknownHostException {
+    public void load() throws UnknownHostException {dl =false;
         Scanner in = null;
 
 //        if (null != textArea && !("".equalsIgnoreCase(textArea.getText()))) {
@@ -1264,7 +1264,7 @@ k.removeDocument("p", p);
 
     }
 
-    public How2Forgert(C1comehere c1comehere, JTextArea textArea, JFrame frame) {
+    public How2Forgert(C1comehere c1comehere, JTextArea textArea, JFrame frame) {dl =false;
         this.c1comehere = c1comehere;
         this.textArea = textArea;
         this.frame = frame;
@@ -2027,7 +2027,7 @@ if(tasks.size()>0) {
 //        textArea.setText("");
 //    }
 
-    public void loadTask() {
+    public void loadTask() {dl =false;
         List<DBObject> k = null ;
         try {
             k = MongoDbHelper.getInstance().findAll("p").toArray();
@@ -2123,7 +2123,7 @@ if(tasks.size()>0) {
     }
 
 
-    public Date getdatelastday() throws UnknownHostException {
+    public Date getdatelastday() throws UnknownHostException {dl =false;
 //        CopyOnWriteArrayList<person_question> ebbinghauses2 = (CopyOnWriteArrayList<person_question>) m.getlatest();
         CopyOnWriteArrayList<DecendingTask> taskstemp = new CopyOnWriteArrayList<DecendingTask>();
 
@@ -2219,15 +2219,15 @@ if(tasks.size()>0) {
 //            reloadandDiskplaypopup(isSearch);
 //        }
 //    }
-    public void reloadandDiskplaypopup(boolean is) {
+    public void reloadandDiskplaypopup(boolean is) {dl =false;
         textArea.setText("");
         reloadTAskandrestartPopThread();
     }
 
     public void reloadandDiskplaypopup() {
-//        if(!isSearch){
+        if(!dl){
             loadTask();
-//        }
+        }
         displayTask();
 //        displayTaskFGADSHFJKASHFDKJLKJLKJ();
     }
