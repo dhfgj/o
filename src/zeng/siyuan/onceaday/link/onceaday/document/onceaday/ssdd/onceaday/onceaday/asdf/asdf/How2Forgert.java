@@ -211,6 +211,29 @@ c1s();
             }
         }
     }
+
+
+    // for a funactinality it may seems so easy but very hat d to impomeentated what kind is that
+    // what have you been implementated to search
+    // ihave to index the feelinadn and do it again to index the things
+    // it maybe beetter to use the solr ato impmentat the search but not all of thme
+    // for the search i beter use elastic search becaseut it bis beter to use
+
+
+    // i need to fliter the all the tihings
+
+    // hwo to filter them but still keep the same thing
+    // i can fillter at any p;lacee ce ther
+    // everything park has the filtering functionarlity and but other s don't
+
+    // you don't know / you know they are all the same
+    // they are all the same
+
+    //
+
+
+
+
 public boolean f=true;
     public void dh(String dk, String s) {
 // you coame and go and nobody notice you nobody acare about you what does it mean i don't even realize what you feeling is ho do you feel
@@ -237,6 +260,7 @@ public boolean f=true;
         }
 
         // wherey is everything so important and wny something are not ? what is the improantce of order and place and other things and exctce
+// reveiw in time
 
 
         // what is the imporant tos syntaxt?
@@ -1123,5 +1147,95 @@ public static int c =2;
         reloadandDisplayThread = new Thread(d);
         reloadandDisplayThread.start();
     }
-}
+
+    public void j() {
+
+            ebbinghauses = (CopyOnWriteArrayList<person_question>) m.getlatest();
+
+        for (int js = 1; js <= textArea.getText().split("\\r\\n|\\n|\\r").length-2; js++) {
+            // i kind of realize that what i t means to be fun when programming becaues ti tis fun and i really enjoy it .
+            // i have nothing to do thi si what the fucking peole describes focus because ti is there is nothing in the life that can distract me from programming
+// how to get the current thigs that associate iwth the this thing if i use the elastic search then i think it would be easier becaus ether ei s be better scripting experience now i have to write the code to track it which is anooying
+//            j.dh(textArea.getText().split("\\r\\n|\\n|\\r")[js], textArea.getText().split("\\r\\n|\\n|\\r")[textArea.getText().split("\\r\\n|\\n|\\r").length-1]);
+// no mater what htere is always a high level overiveoiw
+
+
+            for (person_question e : ebbinghauses) {
+                dj = e;
+                boolean asdf = false;
+                Set<String> set = e.getI();
+                boolean foudn = false;
+                for (int jss = 1; jss <= textArea.getText().split("\\r\\n|\\n|\\r").length - 2; jss++) {
+                    if (set.contains(textArea.getText().split("\\r\\n|\\n|\\r")[jss])) {
+                        foudn = true;
+                    }
+
+                }
+
+
+                if (!foudn) {
+                    ebbinghauses.remove(e);
+                }
+            }
+
+
+            tasks = new CopyOnWriteArrayList<Task>();
+            for (person_question e : ebbinghauses) {
+                if (e.text.replace("Dufgt", "").trim().isEmpty()) {
+                    m.deleteTask(e.getJavauid());
+                } else {
+                    Set<Task> t = e.tasks;
+                    for (Task task : t) {
+                        if (null != task) if (null != task) tasks.add(task);
+                    }
+                }
+            }
+            if (null != tasks && tasks.size() > 1) Collections.sort(tasks, new Task());
+
+            Runnable r = () -> {
+
+
+                for (person_question e : ebbinghauses) {
+
+                    c1come2melater("", e.getText());
+                }
+
+
+
+            };
+
+
+            ExecutorService executor = Executors.newFixedThreadPool(1);
+
+            executor.submit(r);
+
+
+            d = new Display(this);
+            reloadandDisplayThread = new Thread(d);
+            reloadandDisplayThread.start();
+
+
+
+
+
+
+
+
+
+
+        }
+
+
+            // no matter waht
+            // ho can you mess the code no matter how you mess you code
+
+// i don't have money to eat, all i have to it is eat
+            // all i have is food
+            // all i want is food
+            // jpe yp make this applicaiton  getter and easier to use
+            // ther ei s no amchine ther ei no mpersonal cut touch there is not
+
+
+        }
+    }
 

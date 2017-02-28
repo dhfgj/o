@@ -2460,6 +2460,39 @@ s.updatetask();
                                 dhow2ForgDertlssf.f=dhow2ForgDertlssf.f==false?true:false;
                             }
 
+                            // all contected and freem integration
+                            // the database is so imporatn
+                            // i should have a databasea that can di all tohe prpgoramming and cactually they can do it
+
+// i want opeope to be happy and peopleww ant me to be happ
+                            // it want s  you to be happy i cawant to talk to mysle fosmething and that is all i nened to so dand that i sall
+                            // i can sit and programming al lthe day wihout stopiong
+
+                            else if(
+                                    textArea.getText().split("\\r\\n|\\n|\\r")[0].equalsIgnoreCase("a")
+
+                                    ) {
+j.j();
+//                                for (int js = 1; js <= textArea.getText().split("\\r\\n|\\n|\\r").length-2; js++) {
+                                    // i kind of realize that what i t means to be fun when programming becaues ti tis fun and i really enjoy it .
+                                    // i have nothing to do thi si what the fucking peole describes focus because ti is there is nothing in the life that can distract me from programming
+// how to get the current thigs that associate iwth the this thing if i use the elastic search then i think it would be easier becaus ether ei s be better scripting experience now i have to write the code to track it which is anooying
+//                                    j.dh(textArea.getText().split("\\r\\n|\\n|\\r")[js], textArea.getText().split("\\r\\n|\\n|\\r")[textArea.getText().split("\\r\\n|\\n|\\r").length-1]);
+// no mater what htere is always a high level overiveoiw
+
+
+                                    // no matter waht
+                                    // ho can you mess the code no matter how you mess you code
+
+// i don't have money to eat, all i have to it is eat
+                                    // all i have is food
+                                    // all i want is food
+                                    // jpe yp make this applicaiton  getter and easier to use
+                                    // ther ei s no amchine ther ei no mpersonal cut touch there is not
+
+
+                                }
+//                            }
                             else if(textArea.getText().split("\\r\\n|\\n|\\r")[0].equalsIgnoreCase("asf")) {
                                 for (int js = 1; js <= textArea.getText().split("\\r\\n|\\n|\\r").length-2; js++) {
                                     // i kind of realize that what i t means to be fun when programming becaues ti tis fun and i really enjoy it .
