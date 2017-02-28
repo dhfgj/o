@@ -47,7 +47,7 @@ public class person_question implements Serializable{
     Set<Task> tasks;
 
 
-    @FrozenValue
+//    @FrozenValue
     @Column(name = "d")
     Set<String> i;
 

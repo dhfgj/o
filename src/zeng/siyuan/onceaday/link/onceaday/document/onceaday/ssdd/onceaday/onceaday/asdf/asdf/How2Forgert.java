@@ -212,7 +212,7 @@ c1s();
         }
     }
 public boolean f=true;
-    public void dh(String dk) {
+    public void dh(String dk, String s) {
 // you coame and go and nobody notice you nobody acare about you what does it mean i don't even realize what you feeling is ho do you feel
         // i aleways try to feel soemthing
         // i alreaus to ry to synpathyzie other s
@@ -222,7 +222,14 @@ public boolean f=true;
         // pepople are thating my food and i hafe nothing to eat
         // i have nothing but only have the food to get me over and won't die
         // i am jsut surviving that i sall i ahve tagoto
-dj.getI().add(dk);
+
+        for (person_question e : ebbinghauses) {
+//            dj = e;
+//            boolean asdf = false;
+            if (e.getText().equalsIgnoreCase(s)) {
+                e.getI().add(dk);
+            }
+        }
 
 
 // then there a re a serious of code and i don't abstract ti then have i have to fighting with the details and try to know what i sthe rit here
