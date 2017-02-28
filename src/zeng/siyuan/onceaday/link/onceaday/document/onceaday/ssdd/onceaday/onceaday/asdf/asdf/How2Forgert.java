@@ -223,6 +223,9 @@ public boolean f=true;
         // i have nothing but only have the food to get me over and won't die
         // i am jsut surviving that i sall i ahve tagoto
 
+
+        // i can seave it but i alwao want o to indext it , how can do ca n i do the same at the samt itme ?
+
         for (person_question e : ebbinghauses) {
 //            dj = e;
 //            boolean asdf = false;
@@ -232,6 +235,14 @@ public boolean f=true;
                 System.out.println("hello");
             }
         }
+
+        // wherey is everything so important and wny something are not ? what is the improantce of order and place and other things and exctce
+
+
+        // what is the imporant tos syntaxt?
+
+
+
 
 
 // then there a re a serious of code and i don't abstract ti then have i have to fighting with the details and try to know what i sthe rit here
