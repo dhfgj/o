@@ -60,11 +60,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="C1comehere.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="C1comehere.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="2492" column="33" lean-forward="true" selection-start-line="2492" selection-start-column="33" selection-end-line="2492" selection-end-column="33" />
+            <state relative-caret-position="204">
+              <caret line="2434" column="58" lean-forward="true" selection-start-line="2434" selection-start-column="58" selection-end-line="2434" selection-end-column="58" />
               <folding>
                 <element signature="e#4475#4491#0" expanded="true" />
               </folding>
@@ -92,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="How2Forgert.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="How2Forgert.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/How2Forgert.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="299">
-              <caret line="684" column="0" lean-forward="false" selection-start-line="684" selection-start-column="0" selection-end-line="684" selection-end-column="0" />
+              <caret line="684" column="30" lean-forward="true" selection-start-line="684" selection-start-column="30" selection-end-line="684" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -2432,14 +2432,7 @@
       <workItem from="1487969168763" duration="14979000" />
       <workItem from="1487995600182" duration="3320000" />
       <workItem from="1488308224537" duration="2895000" />
-      <workItem from="1488314204876" duration="5798000" />
-    </task>
-    <task id="LOCAL-00087" summary="1">
-      <created>1485568890109</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1485568890109</updated>
+      <workItem from="1488314204876" duration="6262000" />
     </task>
     <task id="LOCAL-00088" summary="1">
       <created>1485575646831</created>
@@ -2777,7 +2770,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488319445406</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="&#10;d">
+      <created>1488320019337</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1488320019338</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2813,7 +2813,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1259324000" />
+    <option name="totallyTimeSpent" value="1259788000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -3799,21 +3799,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/How2Forgert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="684" column="0" lean-forward="false" selection-start-line="684" selection-start-column="0" selection-end-line="684" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/C1comehere/C1comehere.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="2492" column="33" lean-forward="true" selection-start-line="2492" selection-start-column="33" selection-end-line="2492" selection-end-column="33" />
+        <state relative-caret-position="204">
+          <caret line="2434" column="58" lean-forward="true" selection-start-line="2434" selection-start-column="58" selection-end-line="2434" selection-end-column="58" />
           <folding>
             <element signature="e#4475#4491#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/How2Forgert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="684" column="30" lean-forward="true" selection-start-line="684" selection-start-column="30" selection-end-line="684" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -2236,7 +2236,8 @@ s.updatetask();
                             logDictionary(search.searchName, search.keywords, search.getURIString());
                             textArea.setText("");
                         }
-
+// not hitng gmakes sensen there i snonly logisc pure logic and nothing makes sense
+                        //
 
 
 
@@ -2451,8 +2452,8 @@ s.updatetask();
                             }
 //                        }
 //
-
-                        else if (DsLSDg) {
+// there is no pattern there is no pattern at all i just want to msess things up and that is a allal
+                        else if (DldeleteCommand_X) {
 
 
                             if(
