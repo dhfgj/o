@@ -1083,7 +1083,111 @@ k.removeDocument("p", p);
             }
         }
     }
-public boolean f =true;
+    public void j() {
+        List<DBObject> k = null ;
+        try {
+            k = MongoDbHelper.getInstance().findAll("p").toArray();
+        } catch (UnknownHostException e) {
+            e.printStackTrace();
+        }
+
+//        ebbinghauses = (CopyOnWriteArrayList<person_question>) m.getlatest();
+        tasks = new CopyOnWriteArrayList<Task>();
+        for (DBObject e : k) {
+
+            String jsonInString = k.get(0).toString();
+            person_question stasdfhalksfdjlkasdjflkaff1 = null;
+            try {
+                mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
+                mapper.setVisibilityChecker(VisibilityChecker.Std.defaultInstance().withFieldVisibility(JsonAutoDetect.Visibility.ANY));
+
+                stasdfhalksfdjlkasdjflkaff1 = mapper.readValue(e.toString(), person_question.class);
+                ebbinghauses.add(stasdfhalksfdjlkasdjflkaff1);
+            } catch (IOException e1) {
+                e1.printStackTrace();
+            }
+
+        }
+
+//        for (int js = 1; js <= textArea.getText().split("\\r\\n|\\n|\\r").length-1; js++) {
+        // i kind of realize that what i t means to be fun when programming becaues ti tis fun and i really enjoy it .
+        // i have nothing to do thi si what the fucking peole describes focus because ti is there is nothing in the life that can distract me from programming
+// how to get the current thigs that associate iwth the this thing if i use the elastic search then i think it would be easier becaus ether ei s be better scripting experience now i have to write the code to track it which is anooying
+//            j.dh(textArea.getText().split("\\r\\n|\\n|\\r")[js], textArea.getText().split("\\r\\n|\\n|\\r")[textArea.getText().split("\\r\\n|\\n|\\r").length-1]);
+// no mater what htere is always a high level overiveoiw
+
+
+        for (person_question e : ebbinghauses) {
+//            dj = e;
+            boolean asdf = false;
+            Set<String> set = e.getS();
+            boolean foudn = false;
+            if (set.size() !=0) {
+                for (int jss = 1; jss <= textArea.getText().split("\\r\\n|\\n|\\r").length - 1; jss++) {
+                    if (set.contains(textArea.getText().split("\\r\\n|\\n|\\r")[jss])) {
+                        foudn = true;
+                    }
+
+                }
+            }
+
+
+            if (!foudn) {
+                ebbinghauses.remove(e);
+            }
+        }
+
+
+        tasks = new CopyOnWriteArrayList<Task>();
+        for (person_question e : ebbinghauses) {
+            if (e.text.replace("Dufgt", "").trim().isEmpty()) {
+//                m.deleteTask(e.getJavauid());
+            } else {
+                Set<Task> t = e.tasks;
+                for (Task task : t) {
+                    if (null != task) if (null != task) tasks.add(task);
+                }
+            }
+        }
+        if (null != tasks && tasks.size() > 1) Collections.sort(tasks, new Task());
+
+        Runnable r = () -> {
+
+
+            for (person_question e : ebbinghauses) {
+
+                c1come2melater("", e.getText());
+            }
+
+
+
+        };
+
+        dl=true;
+        ExecutorService executor = Executors.newFixedThreadPool(1);
+
+        executor.submit(r);
+
+// it is all mess the file will be loast everything teverytime you use
+        // there is con consisitentce and there is no heirstoyr
+        // it is sjust choaos.
+        d = new Display(this);
+        reloadandDisplayThread = new Thread(d);
+        reloadandDisplayThread.start();
+
+
+
+
+
+
+
+
+
+
+    }
+
+    public boolean f =true;
+    public boolean dl =false;
     public void load() throws UnknownHostException {
         Scanner in = null;
 

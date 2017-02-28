@@ -677,13 +677,19 @@ public static int c =2;
             if(isSearch){
                 displaysearchtasks();
             } else {
-                for (Task t : tasks) {
+                for (Task t : tasks) {// when things increase and go unmanageable
+                    // love untold
 
+                    // love is connected
+                    // connection i sthe thing
+//                    we are onnect
+//we are connecteda nd you know 
                     currentTask=t;
                     if (c == 0) {
                         Thread.sleep(6 * 60000);
                         c = 2;
                     }
+// ther eis no body and there is always somebody and you should know about ti t
 
 
                     if (!t.getIsDone() && t.getDate().after(new Date())) {

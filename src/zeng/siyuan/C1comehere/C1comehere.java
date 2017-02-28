@@ -1554,11 +1554,25 @@ but i don't have to time to review the same thing again and again
 //
 //
 //
+// multip eand how to mangethe them at the same time like there is a hurman rallsource manageter
+
+// what is so funny , or nothing
+                            // what are you laughing for
+                            // what are you laugghing at
+
+
+//                            //
+
+
+
+
 
 
 
                                                 }
-
+// pattern is used to manage a collective of things tjhat are similuar
+                        // distinction are silo
+                        // multiple loe
 
 //what are the existing ubuilding components i can do ?
                         else if (DisHlow2ForeDgertCommand) {
@@ -1581,7 +1595,12 @@ but i don't have to time to review the same thing again and again
                             // thwat is the thing
                             // it hte everything an
                             // and you know it
+// hoe yo managet everything together ?
+                            // how to do that ?
+// i am split anding and ovncerge
+                            // i need abstraction
 
+                            // how to do that?
                             // and you know it
                         }
 // he do not talk , he has too much trouble
@@ -2360,7 +2379,6 @@ s.updatetask();
 
                         else if(SDdleleteCoDmmand2){
                             if (textArea.getText().equalsIgnoreCase("k")) {
-
                                 aa.f = !aa.f ? true : false;
                             }
                         }
@@ -2437,7 +2455,7 @@ s.updatetask();
 //                            person_question e=null;
                                 //sconrn
                                 // strip of
-                                //
+                                //how to comine all the the ks.
 //                                for (int i1 = 0; i1 < textStr.length; i1++) {
 //
 //                                    StringBuffer stringBuffer1 = new StringBuffer();
