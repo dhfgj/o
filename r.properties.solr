@@ -11,56 +11,38 @@
 10,Close last active/message/run/... tab 	Ctrl+Shift+F4,Close%20last%20active/message/run/...%20tab%20	Ctrl+Shift+F4
 11,Ctrl + K Commit project to VCS ,Ctrl%20+%20K%20Commit%20project%20to%20VCS%20
 12,Ctrl + Shift + H Method hierarchy ,Ctrl%20+%20Shift%20+%20H%20Method%20hierarchy%20
-13,Ctrl + BackQuote (`) Quick switch current scheme ,Ctrl%20+%20BackQuote%20(`)%20Quick%20switch%20current%20scheme%20
-14,Ctrl + Alt + Shift + S Open Project Structure dialog ,Ctrl%20+%20Alt%20+%20Shift%20+%20S%20Open%20Project%20Structure%20dialog%20
-15,previoius tool window F12,previoius%20tool%20window%20F12
-16,Highlight usages in file Ctrl+Shift+F7,Highlight%20usages%20in%20file%20Ctrl+Shift+F7
-17,Ctrl + Shift + F12 Toggle maximizing editor ,Ctrl%20+%20Shift%20+%20F12%20Toggle%20maximizing%20editor%20
-18,Run Ctrl+F9,Run%20Ctrl+F9
-19,itit Iterate elements of java.util.Iterator ,itit%20Iterate%20elements%20of%20java.util.Iterator%20
-20,Ctrl + F12 File structure popup,Ctrl%20+%20F12%20File%20structure%20popup
-21,Select tot he block Ctrl+Shift+[],Select%20tot%20he%20block%20Ctrl+Shift+[]
-22,Alt + Up/Down Go to previous/next method,Alt%20+%20Up/Down%20Go%20to%20previous/next%20method
-23,Tab Alt+Left/Right,Tab%20Alt+Left/Right
-24,Ctrl + Shift + A Find Action ,Ctrl%20+%20Shift%20+%20A%20Find%20Action%20
-25,Ctrl + Alt + J Surround with Live Template ,Ctrl%20+%20Alt%20+%20J%20Surround%20with%20Live%20Template%20
-26,Ctrl + S Save all ,Ctrl%20+%20S%20Save%20all%20
-27,Select views for current file Alt+F1,Select%20views%20for%20current%20file%20Alt+F1
-28,Ctrl + H Type hierarchy ,Ctrl%20+%20H%20Type%20hierarchy%20
-29,F2 / Shift + F2 Next/previous highlighted error ,F2%20/%20Shift%20+%20F2%20Next/previous%20highlighted%20error%20
-30,Ctrl + #[0-9] Go to numbered bookmark ,Ctrl%20+%20#[0-9]%20Go%20to%20numbered%20bookmark%20
-31,psf public static final ,psf%20public%20static%20final%20
-32,Ctrl + T Update project from VCS ,Ctrl%20+%20T%20Update%20project%20from%20VCS%20
-33,Ctrl + F11 Toggle bookmark with mnemonic ,Ctrl%20+%20F11%20Toggle%20bookmark%20with%20mnemonic%20
-34,Expand/Collapse Ctrl++/-,Expand/Collapse%20Ctrl++/-
-35,thr throw new ,thr%20throw%20new%20
-36,next edit location Ctrl+Shift+Alt+Backspace,next%20edit%20location%20Ctrl+Shift+Alt+Backspace
-37,View breakpoint Ctrl+Shift+F8,View%20breakpoint%20Ctrl+Shift+F8
-38,Ctrl + Tab Switch between tabs and tool window,Ctrl%20+%20Tab%20Switch%20between%20tabs%20and%20tool%20window
-39,Select tot he block Ctrl+Shift+[],Select%20tot%20he%20block%20Ctrl+Shift+[]
-40,Alt + Shift + C View recent changes ,Alt%20+%20Shift%20+%20C%20View%20recent%20changes%20
-41,F11 Toggle bookmark ,F11%20Toggle%20bookmark%20
-42,Go to symbol Ctrl+Shift+Alt+N,Go%20to%20symbol%20Ctrl+Shift+Alt+N
-43,Find usages/ Find usages in file Alt+F7 / Ctrl+F7,Find%20usages/%20Find%20usages%20in%20file%20Alt+F7%20/%20Ctrl+F7
-44,Cut the current line/ Copy the current lline,Cut%20the%20current%20line/%20Copy%20the%20current%20lline
-45,iter Iteration according to Java SDK 1.5 style ,iter%20Iteration%20according%20to%20Java%20SDK%201.5%20style%20
-46,Goto Implementation Ctrl+Alt+B,Goto%20Implementation%20Ctrl+Alt+B
-47,Hide active or last active window Shift+ESC,Hide%20active%20or%20last%20active%20window%20Shift+ESC
-48,F4 / Ctrl + Enter Edit source / View source ,F4%20/%20Ctrl%20+%20Enter%20Edit%20source%20/%20View%20source%20
-49,Alt + Home Show navigation bar ,Alt%20+%20Home%20Show%20navigation%20bar%20
-50,Alt + Shift + F Add to Favorites ,Alt%20+%20Shift%20+%20F%20Add%20to%20Favorites%20
-51,nding tool window ,
-52,Debug Ctrl+Shift+F9,Debug%20Ctrl+Shift+F9
-53,Goto Type definition Ctrl+Shift+B,Goto%20Type%20definition%20Ctrl+Shift+B
-54,last edit location Ctrl+Shift+Backspace/Ctrl+Alt+Backspace  ,last%20edit%20location%20Ctrl+Shift+Backspace/Ctrl+Alt+Backspace%20%20
-55,Ctrl + Alt + Y Synchronize ,Ctrl%20+%20Alt%20+%20Y%20Synchronize%20
-56,Surround with Ctrl+Shift+Insert,Surround%20with%20Ctrl+Shift+Insert
-57,inst Check object type with instanceof and downcast it itco Iterate elements of java.util.Collection ,inst%20Check object type%20with%20instanceof%20and%20downcast%20it%20itco%20Iterate%20elements%20of%20java.util.Collection%20
-58,Alt + BackQuote (`) ‘VCS’ quick popup,Alt%20+%20BackQuote%20(`)%20‘VCS’%20quick%20popup
-59,Dd whole word Ctrl+Delete/Backspace ,Dd%20whole%20word%20Ctrl+Delete/Backspace%20
-60,Alt + Shift + I Inspect current file with current profile ,Alt%20+%20Shift%20+%20I%20Inspect%20current%20file%20with%20current%20profile%20
-61,Ctrl + Alt + S Open Settings dialog ,Ctrl%20+%20Alt%20+%20S%20Open%20Settings%20dialog%20
-62,Toggle case Ctrl+Shift+U,Toggle%20case%20Ctrl+Shift+U
-63,ow ,Alt%20+%20#[0-9]%20Open%20corresponding%20tool%20window%20
-64,itli Iterate elements of java.util.List ,itli%20Iterate%20elements%20of%20java.util.List%20
-65,Alt + #[0-9] Open corresponding tool window ,Alt%20+%20#[0-9]%20Open%20corresponding%20tool%20window%20
+13,previoius tool window F12,previoius%20tool%20window%20F12
+14,Highlight usages in file Ctrl+Shift+F7,Highlight%20usages%20in%20file%20Ctrl+Shift+F7
+15,Run Ctrl+F9,Run%20Ctrl+F9
+16,Ctrl + F12 File structure popup,Ctrl%20+%20F12%20File%20structure%20popup
+17,Alt + Up/Down Go to previous/next method,Alt%20+%20Up/Down%20Go%20to%20previous/next%20method
+18,Tab Alt+Left/Right,Tab%20Alt+Left/Right
+19,Ctrl + Alt + J Surround with Live Template ,Ctrl%20+%20Alt%20+%20J%20Surround%20with%20Live%20Template%20
+20,Select views for current file Alt+F1,Select%20views%20for%20current%20file%20Alt+F1
+21,Ctrl + H Type hierarchy ,Ctrl%20+%20H%20Type%20hierarchy%20
+22,F2 / Shift + F2 Next/previous highlighted error ,F2%20/%20Shift%20+%20F2%20Next/previous%20highlighted%20error%20
+23,Ctrl + #[0-9] Go to numbered bookmark ,Ctrl%20+%20#[0-9]%20Go%20to%20numbered%20bookmark%20
+24,Ctrl + T Update project from VCS ,Ctrl%20+%20T%20Update%20project%20from%20VCS%20
+25,inst Check object type with instanceof and downcast it itco Iterate elements of java.util.Collection ,inst%20Check object type%20with%20instanceof%20and%20downcast%20it%20itco%20Iterate%20elements%20of%20java.util.Collection%20
+26,Ctrl + F11 Toggle bookmark with mnemonic ,Ctrl%20+%20F11%20Toggle%20bookmark%20with%20mnemonic%20
+27,Expand/Collapse Ctrl++/-,Expand/Collapse%20Ctrl++/-
+28,next edit location Ctrl+Shift+Alt+Backspace,next%20edit%20location%20Ctrl+Shift+Alt+Backspace
+29,View breakpoint Ctrl+Shift+F8,View%20breakpoint%20Ctrl+Shift+F8
+30,Select tot he block Ctrl+Shift+[],Select%20tot%20he%20block%20Ctrl+Shift+[]
+31,Alt + Shift + C View recent changes ,Alt%20+%20Shift%20+%20C%20View%20recent%20changes%20
+32,F11 Toggle bookmark ,F11%20Toggle%20bookmark%20
+33,Go to symbol Ctrl+Shift+Alt+N,Go%20to%20symbol%20Ctrl+Shift+Alt+N
+34,Find usages/ Find usages in file Alt+F7 / Ctrl+F7,Find%20usages/%20Find%20usages%20in%20file%20Alt+F7%20/%20Ctrl+F7
+35,Cut the current line/ Copy the current lline,Cut%20the%20current%20line/%20Copy%20the%20current%20lline
+36,iter Iteration according to Java SDK 1.5 style ,iter%20Iteration%20according%20to%20Java%20SDK%201.5%20style%20
+37,Goto Implementation Ctrl+Alt+B,Goto%20Implementation%20Ctrl+Alt+B
+38,Hide active or last active window Shift+ESC,Hide%20active%20or%20last%20active%20window%20Shift+ESC
+39,F4 / Ctrl + Enter Edit source / View source ,F4%20/%20Ctrl%20+%20Enter%20Edit%20source%20/%20View%20source%20
+40,Alt + Home Show navigation bar ,Alt%20+%20Home%20Show%20navigation%20bar%20
+41,Debug Ctrl+Shift+F9,Debug%20Ctrl+Shift+F9
+42,Goto Type definition Ctrl+Shift+B,Goto%20Type%20definition%20Ctrl+Shift+B
+43,last edit location Ctrl+Shift+Backspace/Ctrl+Alt+Backspace  ,last%20edit%20location%20Ctrl+Shift+Backspace/Ctrl+Alt+Backspace%20%20
+44,Surround with Ctrl+Shift+Insert,Surround%20with%20Ctrl+Shift+Insert
+45,Dd whole word Ctrl+Delete/Backspace ,Dd%20whole%20word%20Ctrl+Delete/Backspace%20
+46,Alt + BackQuote (`) ‘VCS’ quick popup,Alt%20+%20BackQuote%20(`)%20‘VCS’%20quick%20popup
+47,Toggle case Ctrl+Shift+U,Toggle%20case%20Ctrl+Shift+U

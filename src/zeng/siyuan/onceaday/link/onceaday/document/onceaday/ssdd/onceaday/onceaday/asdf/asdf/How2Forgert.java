@@ -236,6 +236,7 @@ c1s();
 
 public boolean f=true;
     public void dh(String dk, String s) {
+        dl=false;
 // you coame and go and nobody notice you nobody acare about you what does it mean i don't even realize what you feeling is ho do you feel
         // i aleways try to feel soemthing
         // i alreaus to ry to synpathyzie other s
@@ -277,6 +278,7 @@ public boolean f=true;
 
     }
     public void d() {
+        dl=false;
         Scanner in = null;
         c1come2melater("", textArea.getText());
         if (null != textArea && !("".equalsIgnoreCase(textArea.getText()))) {
@@ -1080,6 +1082,7 @@ public static int c =2;
     }
 
     public void searchehabins(String a) {
+        dl=false;
         textArea.setText("");
         ebbinghauses = (CopyOnWriteArrayList<person_question>) m.getlatest();
         searchtasks = new CopyOnWriteArrayList<Task>();
@@ -1117,8 +1120,9 @@ public static int c =2;
         reloadTAskandrestartPopThread();
     }
 
+    public boolean dl= false;
     public void reloadandDiskplaypopup() {
-        if(!isSearch){
+        if(!isSearch && !dl ){
             loadTask();
         }
         displayTask();
@@ -1142,6 +1146,7 @@ public static int c =2;
 
     public void init() {
 //        c1s();
+        dl=false;
         loadTask();
         d = new Display(this);
         reloadandDisplayThread = new Thread(d);
@@ -1152,7 +1157,7 @@ public static int c =2;
 
             ebbinghauses = (CopyOnWriteArrayList<person_question>) m.getlatest();
 
-        for (int js = 1; js <= textArea.getText().split("\\r\\n|\\n|\\r").length-2; js++) {
+//        for (int js = 1; js <= textArea.getText().split("\\r\\n|\\n|\\r").length-1; js++) {
             // i kind of realize that what i t means to be fun when programming becaues ti tis fun and i really enjoy it .
             // i have nothing to do thi si what the fucking peole describes focus because ti is there is nothing in the life that can distract me from programming
 // how to get the current thigs that associate iwth the this thing if i use the elastic search then i think it would be easier becaus ether ei s be better scripting experience now i have to write the code to track it which is anooying
@@ -1165,11 +1170,13 @@ public static int c =2;
                 boolean asdf = false;
                 Set<String> set = e.getI();
                 boolean foudn = false;
-                for (int jss = 1; jss <= textArea.getText().split("\\r\\n|\\n|\\r").length - 2; jss++) {
-                    if (set.contains(textArea.getText().split("\\r\\n|\\n|\\r")[jss])) {
-                        foudn = true;
-                    }
+                if (set.size() !=0) {
+                    for (int jss = 1; jss <= textArea.getText().split("\\r\\n|\\n|\\r").length - 1; jss++) {
+                        if (set.contains(textArea.getText().split("\\r\\n|\\n|\\r")[jss])) {
+                            foudn = true;
+                        }
 
+                    }
                 }
 
 
@@ -1204,7 +1211,7 @@ public static int c =2;
 
             };
 
-
+dl=true;
             ExecutorService executor = Executors.newFixedThreadPool(1);
 
             executor.submit(r);
@@ -1237,5 +1244,5 @@ public static int c =2;
 
 
         }
-    }
+//    }
 
