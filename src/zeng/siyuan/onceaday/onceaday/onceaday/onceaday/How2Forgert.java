@@ -42,6 +42,65 @@ public class How2Forgert implements Serializable {
     public transient static CopyOnWriteArrayList<person_question> ebbinghauses = new CopyOnWriteArrayList<person_question> ();
     public transient CopyOnWriteArrayList<Task> tasks = new CopyOnWriteArrayList<Task>();
     public transient Task AJKDSLJFLKJQWOIRULJDFLKJL = new Task();
+
+    public void dh(String dk, String s) {
+        dl=false;
+// you coame and go and nobody notice you nobody acare about you what does it mean i don't even realize what you feeling is ho do you feel
+        // i aleways try to feel soemthing
+        // i alreaus to ry to synpathyzie other s
+        // i lways try to do something
+        // people sit naext to me and then they lef t with out anything
+        // a lot of people siting menset to me and means nothing to me what do you think
+        // pepople are thating my food and i hafe nothing to eat
+        // i have nothing but only have the food to get me over and won't die
+        // i am jsut surviving that i sall i ahve tagoto
+
+
+        // i can seave it but i alwao want o to indext it , how can do ca n i do the same at the samt itme ?
+        try {
+            for (person_question e : ebbinghauses) {
+//            dj = e;
+//            boolean asdf = false;
+                if (e.getText().equalsIgnoreCase(s)) {
+                    e.getS().add(dk);
+                    String j = mapper.writeValueAsString(e);
+//                    System.out.println(j);
+
+                    // Convert object to JSON string and pretty print
+                    j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+//                    System.out.println(j);
+                    DBObject p = (DBObject) JSON
+                            .parse(j);
+
+
+                    MongoDbHelper k = MongoDbHelper.getInstance();
+                    k.insertDocument("p", p);
+                    System.out.println("hello");
+                }
+            }
+        } catch(Exception e ) {
+
+        }
+
+        // wherey is everything so important and wny something are not ? what is the improantce of order and place and other things and exctce
+// reveiw in time
+
+
+        // what is the imporant tos syntaxt?
+
+
+
+
+
+// then there a re a serious of code and i don't abstract ti then have i have to fighting with the details and try to know what i sthe rit here
+
+
+
+
+
+    }
+
+
     public transient Display d;
     public transient Thread reloadandDisplayThread;
     public transient JFrame frame;
@@ -56,6 +115,8 @@ public class How2Forgert implements Serializable {
 
 
     public person_question d(String s) throws JsonProcessingException, UnknownHostException {
+        dl=false;
+
         Scanner in = null;
         if (null != textArea && !("".equalsIgnoreCase(textArea.getText()))) {
 
@@ -593,7 +654,8 @@ public class How2Forgert implements Serializable {
 //    }
 
 //    /*
-    public void updatetask() {
+    public void updatetask() {        dl=false;
+
         StringBuilder stringBuilder = new StringBuilder();
         Date date = new Date();
 
@@ -1029,7 +1091,8 @@ Thread.sleep(1000*5);
     static Properties prop;
 
 
-    public void c1s() {
+    public void c1s() {        dl=false;
+
         prop = new Properties();
         Properties temprop = new Properties();
         InputStream input = null;
@@ -1125,7 +1188,8 @@ Thread.sleep(1000*5);
 
 
     public void c1come2melater(String c1, String c1Path) {
-        c1s();
+        c1s();        dl=false;
+
         OutputStream output = null;
         OutputStream output_solr = null;
         try {
@@ -1194,13 +1258,116 @@ Thread.sleep(1000*5);
             }
         }
     }
-    
-    
-    
-    
+
+
+
+    public void j() {
+
+        List<DBObject> k = null ;
+        try {
+            k = MongoDbHelper.getInstance().findAll("mm").toArray();
+        } catch (UnknownHostException e) {
+            e.printStackTrace();
+        }
+
+//        ebbinghauses = (CopyOnWriteArrayList<person_question>) m.getlatest();
+        tasks = new CopyOnWriteArrayList<Task>();
+        for (DBObject e : k) {
+
+            String jsonInString = k.get(0).toString();
+            person_question stasdfhalksfdjlkasdjflkaff1 = null;
+            try {
+                mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
+                mapper.setVisibilityChecker(VisibilityChecker.Std.defaultInstance().withFieldVisibility(JsonAutoDetect.Visibility.ANY));
+
+                stasdfhalksfdjlkasdjflkaff1 = mapper.readValue(e.toString(), person_question.class);
+                ebbinghauses.add(stasdfhalksfdjlkasdjflkaff1);
+            } catch (IOException e1) {
+                e1.printStackTrace();
+            }
+
+        }
+
+//        for (int js = 1; js <= textArea.getText().split("\\r\\n|\\n|\\r").length-1; js++) {
+        // i kind of realize that what i t means to be fun when programming becaues ti tis fun and i really enjoy it .
+        // i have nothing to do thi si what the fucking peole describes focus because ti is there is nothing in the life that can distract me from programming
+// how to get the current thigs that associate iwth the this thing if i use the elastic search then i think it would be easier becaus ether ei s be better scripting experience now i have to write the code to track it which is anooying
+//            j.dh(textArea.getText().split("\\r\\n|\\n|\\r")[js], textArea.getText().split("\\r\\n|\\n|\\r")[textArea.getText().split("\\r\\n|\\n|\\r").length-1]);
+// no mater what htere is always a high level overiveoiw
+
+
+        for (person_question e : ebbinghauses) {
+//            dj = e;
+            boolean asdf = false;
+            Set<String> set = e.getS();
+            boolean foudn = false;
+            if (set.size() !=0) {
+                for (int jss = 1; jss <= textArea.getText().split("\\r\\n|\\n|\\r").length - 1; jss++) {
+                    if (set.contains(textArea.getText().split("\\r\\n|\\n|\\r")[jss])) {
+                        foudn = true;
+                    }
+
+                }
+            }
+
+
+            if (!foudn) {
+                ebbinghauses.remove(e);
+            }
+        }
+
+
+        tasks = new CopyOnWriteArrayList<Task>();
+        for (person_question e : ebbinghauses) {
+            if (e.text.replace("Dufgt", "").trim().isEmpty()) {
+//                m.deleteTask(e.getJavauid());
+            } else {
+                Set<Task> t = e.tasks;
+                for (Task task : t) {
+                    if (null != task) if (null != task) tasks.add(task);
+                }
+            }
+        }
+        if (null != tasks && tasks.size() > 1) Collections.sort(tasks, new Task());
+
+        Runnable r = () -> {
+
+
+            for (person_question e : ebbinghauses) {
+
+                c1come2melater("", e.getText());
+            }
+
+
+
+        };
+
+        dl=true;
+        ExecutorService executor = Executors.newFixedThreadPool(1);
+
+        executor.submit(r);
+
+
+        d = new Display(this);
+        reloadandDisplayThread = new Thread(d);
+        reloadandDisplayThread.start();
+
+
+
+
+
+
+
+
+
+
+    }
+
+    public boolean dl = false;
 public boolean f =true;
     public void load() throws UnknownHostException {
         Scanner in = null;
+        dl=false;
 
 //        if (null != textArea && !("".equalsIgnoreCase(textArea.getText()))) {
 //
@@ -2291,6 +2458,7 @@ if(tasks.size()>0) {
     }
 
     private void displaysearchtasks() {
+        dl=false;
 
         for (Task t : searchtasks) {
             currentTaskSearch=t;
@@ -2342,6 +2510,8 @@ if(tasks.size()>0) {
 //    find the queisotns
     //
     public void loadTask() {
+        dl=false;
+
         List<DBObject> k = null ;
         try {
             k = MongoDbHelper.getInstance().findAll("mm").toArray();
@@ -2451,7 +2621,8 @@ if(tasks.size()>0) {
     }
 
 
-    public Date getdatelastday() throws UnknownHostException {
+    public Date getdatelastday() throws UnknownHostException {        dl=false;
+
 //        CopyOnWriteArrayList<person_question> ebbinghauses2 = (CopyOnWriteArrayList<person_question>) m.getlatest();
         CopyOnWriteArrayList<DecendingTask> taskstemp = new CopyOnWriteArrayList<DecendingTask>();
 
@@ -2553,9 +2724,9 @@ if(tasks.size()>0) {
     }
 
     public void reloadandDiskplaypopup() {
-//        if(!isSearch){
+        if(!dl){
             loadTask();
-//        }
+        }
         displayTask();
 //        displayTaskFGADSHFJKASHFDKJLKJLKJ();
     }
