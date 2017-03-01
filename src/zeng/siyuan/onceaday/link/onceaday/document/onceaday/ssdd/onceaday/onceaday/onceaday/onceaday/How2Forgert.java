@@ -9,6 +9,8 @@ import java.awt.*;
 import java.io.*;
 import java.util.*;
 import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 //Created by Real
@@ -104,6 +106,128 @@ public class How2Forgert implements Serializable {
     // ther eis inot souch thing all instanct nooldle
     // it i snot healdy and you wil die of nonnutrituionts
     // that i sthe it
+
+    public void j() {
+
+        ebbinghauses = (CopyOnWriteArrayList<person_question>) m.getlatest();
+
+//        for (int js = 1; js <= textArea.getText().split("\\r\\n|\\n|\\r").length-1; js++) {
+        // i kind of realize that what i t means to be fun when programming becaues ti tis fun and i really enjoy it .
+        // i have nothing to do thi si what the fucking peole describes focus because ti is there is nothing in the life that can distract me from programming
+// how to get the current thigs that associate iwth the this thing if i use the elastic search then i think it would be easier becaus ether ei s be better scripting experience now i have to write the code to track it which is anooying
+//            j.dh(textArea.getText().split("\\r\\n|\\n|\\r")[js], textArea.getText().split("\\r\\n|\\n|\\r")[textArea.getText().split("\\r\\n|\\n|\\r").length-1]);
+// no mater what htere is always a high level overiveoiw
+
+
+        for (person_question e : ebbinghauses) {
+//            dj = e;
+            boolean asdf = false;
+            Set<String> set = e.getD();
+            boolean foudn = false;
+            if (set.size() !=0) {
+                for (int jss = 1; jss <= textArea.getText().split("\\r\\n|\\n|\\r").length - 1; jss++) {
+                    if (set.contains(textArea.getText().split("\\r\\n|\\n|\\r")[jss])) {
+                        foudn = true;
+                    }
+
+                }
+            }
+
+
+            if (!foudn) {
+                ebbinghauses.remove(e);
+            }
+        }
+
+
+        tasks = new CopyOnWriteArrayList<Task>();
+        for (person_question e : ebbinghauses) {
+            if (e.getQuestion().replace("Dufgt", "").trim().isEmpty()) {
+                m.deleteTask(e.getJavauid());
+            } else {
+                Set<Task> t = e.tasks;
+                for (Task task : t) {
+                    if (null != task) if (null != task) tasks.add(task);
+                }
+            }
+        }
+        if (null != tasks && tasks.size() > 1) Collections.sort(tasks, new Task());
+
+        Runnable r = () -> {
+
+
+//            for (zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.person_question e : ebbinghauses) {
+//
+//                c1come2melater("", e.getText());
+//            }
+
+
+
+        };
+
+        dl=true;
+        ExecutorService executor = Executors.newFixedThreadPool(1);
+
+        executor.submit(r);
+
+
+        d = new Display(this);
+        reloadandDisplayThread = new Thread(d);
+        reloadandDisplayThread.start();
+
+
+
+
+
+
+
+
+
+
+    }
+public boolean dl=false;
+    public void dh(String dk, String s) {
+        dl=false;
+// you coame and go and nobody notice you nobody acare about you what does it mean i don't even realize what you feeling is ho do you feel
+        // i aleways try to feel soemthing
+        // i alreaus to ry to synpathyzie other s
+        // i lways try to do something
+        // people sit naext to me and then they lef t with out anything
+        // a lot of people siting menset to me and means nothing to me what do you think
+        // pepople are thating my food and i hafe nothing to eat
+        // i have nothing but only have the food to get me over and won't die
+        // i am jsut surviving that i sall i ahve tagoto
+
+
+        // i can seave it but i alwao want o to indext it , how can do ca n i do the same at the samt itme ?
+
+        for (person_question e : ebbinghauses) {
+//            dj = e;
+//            boolean asdf = false;
+            if (e.getQuestion().equalsIgnoreCase(s)) {
+                e.getD().add(dk);
+                m.store(e);
+                System.out.println("hello");
+            }
+        }
+
+        // wherey is everything so important and wny something are not ? what is the improantce of order and place and other things and exctce
+// reveiw in time
+
+
+        // what is the imporant tos syntaxt?
+
+
+
+
+
+// then there a re a serious of code and i don't abstract ti then have i have to fighting with the details and try to know what i sthe rit here
+
+
+
+
+
+    }
 
 
     public boolean f = true;
