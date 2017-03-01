@@ -45,6 +45,18 @@ public class person_question implements Serializable{
     @Column(name = "tasks")
     Set<Task> tasks;
 
+    @Column(name = "d")
+    Set<String> d;
+
+    public Set<String> getD() {
+        if (null ==d ) return d  = new HashSet<String>();
+        return d;
+    }
+
+    public void setD(Set<String> d) {
+        this.d = d;
+    }
+
     //        20 minutes
     @Transient
     public Task first;// 20 munites
