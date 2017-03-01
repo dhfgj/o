@@ -74,7 +74,7 @@ public class How2Forgert implements Serializable {
 
 
                     MongoDbHelper k = MongoDbHelper.getInstance();
-                    k.insertDocument("p", p);
+                    k.insertDocument("mm", p);
                     System.out.println("hello");
                 }
             }
