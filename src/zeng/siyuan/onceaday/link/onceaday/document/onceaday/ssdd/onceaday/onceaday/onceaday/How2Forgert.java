@@ -32,7 +32,41 @@ public class How2Forgert implements Serializable {
     private Task currentTaskSearch;
     private String keywords;
     public static transient Properties jk;
+// how to make sthings esasy it is abstraction and abstraction//
+    // whenever i need to add a new features i have to add a new abstraction in tot and then i can managet it at a single point of tabpalcea
+    //
 
+    // i have to return i teverything back to the thing i can 't retiurne everything back
+
+    // i can't rerut n everyting back never
+// i play ed everybody laught lo
+
+    // i laught into therir mind and make them laught too
+    // i just want to laught myself eiwhtout antyingintg lese
+    // i ma no tlaughting at anything i muajst make ing afake laught and pemake people think what theth ehiehlel this guy is doing
+
+    // there i s hi questions
+
+    // they will have questiona nd so confusined and on't know antything about it and i knoe ti only i know whey
+    // i tdoesn't matter
+
+    // oshahahahahahhahaha
+
+    // jsut od it and it willbe the same and real
+
+
+    // just laugth and you will get it
+
+
+    // just do it //
+    // just laught
+
+    // just laugth
+
+
+    // design pattern is the key to write a goo dppalciation so that the thing can be cuase and better reproducted by everything
+
+    // teh design pattern is the key
 
 
 //    public boolean f=true;

@@ -95,6 +95,26 @@ Properties w;
         InputStream input = null;
         //i can ony change what i have owened and that is it
         //it i sthe tendency of mind ot simplify thing san nd that is all
+// they will be just what the hell that guy is talaughing
+        // i am just laughing
+        // that i sit you don't have to know
+        // i know
+        // i know
+
+
+        // i laugh i mean , may i have you attention please lol
+        // may i have you attention pelease
+        //
+        // when i astart to laught i get all of you
+
+        // lol
+        //l ol
+        //lol
+        // i get it
+        // itget all of you
+        // iget all ofr you
+        // iget al of you
+
 
         try {
             new File("w.properties").getAbsolutePath();
