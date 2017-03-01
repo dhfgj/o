@@ -1588,10 +1588,123 @@ but i don't have to time to review the same thing again and again
                             System.out.println("Disloadl");
                             if (textArea.getText().equalsIgnoreCase("k"))
                                 ad.f = dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG.f==false?true:false;
-                            else {
+
+                                // all contected and freem integration
+                                // the database is so imporatn
+                                // i should have a databasea that can di all tohe prpgoramming and cactually they can do it
+
+// i want opeope to be happy and peopleww ant me to be happ
+                                // it want s  you to be happy i cawant to talk to mysle fosmething and that is all i nened to so dand that i sall
+                                // i can sit and programming al lthe day wihout stopiong
+
+//                            }
+                                else if(textArea.getText().split("\\r\\n|\\n|\\r")[0].equalsIgnoreCase("asf")) {
+                                    for (int js = 1; js <= textArea.getText().split("\\r\\n|\\n|\\r").length-2; js++) {
+                                        // i kind of realize that what i t means to be fun when programming becaues ti tis fun and i really enjoy it .
+                                        // i have nothing to do thi si what the fucking peole describes focus because ti is there is nothing in the life that can distract me from programming
+// how to get the current thigs that associate iwth the this thing if i use the elastic search then i think it would be easier becaus ether ei s be better scripting experience now i have to write the code to track it which is anooying
+                                        ad.dh(textArea.getText().split("\\r\\n|\\n|\\r")[js], textArea.getText().split("\\r\\n|\\n|\\r")[textArea.getText().split("\\r\\n|\\n|\\r").length-1]);
+// no mater what htere is always a high level overiveoiw
+
+// iot sia waste ot itme and you never knwo waht thte hehtelli sshappeiong
+                                        // no matter waht
+                                        // ho can you mess the code no matter how you mess you code
+
+// i don't have money to eat, all i have to it is eat
+                                        // all i have is food
+                                        // all i want is food
+                                        // jpe yp make this applicaiton  getter and easier to use
+                                        // ther ei s no amchine ther ei no mpersonal cut touch there is not
+
+
+                                    }
+                                }
+
+
+                            else if(
+                                    textArea.getText().split("\\r\\n|\\n|\\r")[0].equalsIgnoreCase("a")
+
+                                    ) { // it is not silo there multiple lo // it is paraless // there isno abstraction there is no single entry point
+                                ad.j();
+
+
+// new message and something hit me
+                                // something hit me hit me
+                                // they rush tome which is crazy don't give me idea and it is pull me everythign
+
+                                // everything is pulling my attention
+// there are so muhc ocmmand and that they are not very useful
+                                // i have know somthign to build somethign useful and uqnituqe and gbetter use
+                                // i don't want to bmove betcause ther eare y pepole everywhere
+                                // thery are people
+
+                                // thre are so much confusion tover thew and there
+                                // it s no easy to do do so
+                                // there are so much eopel i wil  see them
+                                // i don't want to move away from my desk becafuse i will seee so much thin gand they will kill em
+
+
+// wrong actiona dn will lead to stupditing thingd
+                                // i was always fadfraid that i will broke things
+                            }
+                                else {
                                 ad.load();
                                 textArea.setText("");
                             }
+
+
+
+
+                            //
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                             // thwat is the thing
                             // it hte everything an
                             // and you know it
@@ -2525,7 +2638,7 @@ s.updatetask();
                                     j.dh(textArea.getText().split("\\r\\n|\\n|\\r")[js], textArea.getText().split("\\r\\n|\\n|\\r")[textArea.getText().split("\\r\\n|\\n|\\r").length-1]);
 // no mater what htere is always a high level overiveoiw
 
-
+// iot sia waste ot itme and you never knwo waht thte hehtelli sshappeiong
                                     // no matter waht
                                     // ho can you mess the code no matter how you mess you code
 

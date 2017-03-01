@@ -37,6 +37,66 @@ import static java.awt.SystemColor.text;
 
 //Created by Real
 public class How2Forgert implements Serializable {
+
+
+
+    public void dh(String dk, String s) {
+        dl=false;
+// you coame and go and nobody notice you nobody acare about you what does it mean i don't even realize what you feeling is ho do you feel
+        // i aleways try to feel soemthing
+        // i alreaus to ry to synpathyzie other s
+        // i lways try to do something
+        // people sit naext to me and then they lef t with out anything
+        // a lot of people siting menset to me and means nothing to me what do you think
+        // pepople are thating my food and i hafe nothing to eat
+        // i have nothing but only have the food to get me over and won't die
+        // i am jsut surviving that i sall i ahve tagoto
+
+
+        // i can seave it but i alwao want o to indext it , how can do ca n i do the same at the samt itme ?
+try {
+    for (person_question e : ebbinghauses) {
+//            dj = e;
+//            boolean asdf = false;
+        if (e.getText().equalsIgnoreCase(s)) {
+            e.getS().add(dk);
+            String j = mapper.writeValueAsString(e);
+//                    System.out.println(j);
+
+            // Convert object to JSON string and pretty print
+            j = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(e);
+//                    System.out.println(j);
+            DBObject p = (DBObject) JSON
+                    .parse(j);
+
+
+            MongoDbHelper k = MongoDbHelper.getInstance();
+            k.insertDocument("p", p);
+            System.out.println("hello");
+        }
+    }
+} catch(Exception e ) {
+
+}
+
+        // wherey is everything so important and wny something are not ? what is the improantce of order and place and other things and exctce
+// reveiw in time
+
+
+        // what is the imporant tos syntaxt?
+
+
+
+
+
+// then there a re a serious of code and i don't abstract ti then have i have to fighting with the details and try to know what i sthe rit here
+
+
+
+
+
+    }
+
     public transient C1comehere c1comehere;
     public static transient JTextArea textArea;
     public transient static CopyOnWriteArrayList<person_question> ebbinghauses = new CopyOnWriteArrayList<person_question> ();
@@ -1083,6 +1143,7 @@ k.removeDocument("p", p);
             }
         }
     }
+
     public void j() {
         List<DBObject> k = null ;
         try {
@@ -1115,7 +1176,7 @@ k.removeDocument("p", p);
 // how to get the current thigs that associate iwth the this thing if i use the elastic search then i think it would be easier becaus ether ei s be better scripting experience now i have to write the code to track it which is anooying
 //            j.dh(textArea.getText().split("\\r\\n|\\n|\\r")[js], textArea.getText().split("\\r\\n|\\n|\\r")[textArea.getText().split("\\r\\n|\\n|\\r").length-1]);
 // no mater what htere is always a high level overiveoiw
-
+// all the folder tare there there is no distinction the only way to navigatote itis to know the path and you will know
 
         for (person_question e : ebbinghauses) {
 //            dj = e;
