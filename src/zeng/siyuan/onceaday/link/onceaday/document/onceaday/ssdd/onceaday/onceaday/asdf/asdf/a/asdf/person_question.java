@@ -44,6 +44,17 @@ public class person_question implements Serializable{
     @FrozenValue
     @Column(name = "tasks")
     Set<Task> tasks;
+    @Column(name = "s")
+    Set<String> s;
+
+    public Set<String> getS() {
+        if (null == s) return s=new HashSet<String>();
+        return s;
+    }
+
+    public void setS(Set<String> s) {
+        this.s = s;
+    }
 
     //        20 minutes
     @Transient

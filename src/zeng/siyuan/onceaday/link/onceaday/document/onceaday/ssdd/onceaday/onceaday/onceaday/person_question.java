@@ -42,6 +42,20 @@ public class person_question implements Serializable{
     @Column(name = "tasks")
     Set<Task> tasks;
 
+    @Column(name = "o")
+    Set<String> o;
+// i have create so much thing fs for you should be happy~~~~~
+
+    // i have prepare everything for you so that you can survice and happy
+    public Set<String> getO() {
+        if(null ==o)return o=new HashSet<String>();
+        return o;
+    }
+
+    public void setO(Set<String> o) {
+        this.o = o;
+    }
+
     //        20 minutes
     @Transient
     public Task first;// 20 munites

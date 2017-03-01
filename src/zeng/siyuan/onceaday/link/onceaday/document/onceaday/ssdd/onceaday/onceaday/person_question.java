@@ -45,6 +45,18 @@ public class person_question implements Serializable{
     @Column(name = "tasks")
     Set<Task> tasks;
 
+    @Column(name = "l")
+    Set<String> l;
+
+    public Set<String> getL() {
+        if (null ==l ) return l=new HashSet<String>();
+        return l;
+    }
+
+    public void setL(Set<String> l) {
+        this.l = l;
+    }
+
     // i have nothing to do this is just the way to kill time and make myself happy and fulfilling
     //        20 minutes
     @Transient

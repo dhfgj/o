@@ -45,7 +45,137 @@ public class How2Forgert implements Serializable {
 static Properties prop;
 
 
+//    public boolean f=true;
+    public void dh(String dk, String s) {
+        dl=false;
+// you coame and go and nobody notice you nobody acare about you what does it mean i don't even realize what you feeling is ho do you feel
+        // i aleways try to feel soemthing
+        // i alreaus to ry to synpathyzie other s
+        // i lways try to do something
+        // people sit naext to me and then they lef t with out anything
+        // a lot of people siting menset to me and means nothing to me what do you think
+        // pepople are thating my food and i hafe nothing to eat
+        // i have nothing but only have the food to get me over and won't die
+        // i am jsut surviving that i sall i ahve tagoto
+
+
+        // i can seave it but i alwao want o to indext it , how can do ca n i do the same at the samt itme ?
+
+        for (person_question e : ebbinghauses) {
+//            dj = e;
+//            boolean asdf = false;
+            if (e.getText().equalsIgnoreCase(s)) {
+                e.getS().add(dk);
+                m.store(e);
+                System.out.println("hello");
+            }
+        }
+
+        // wherey is everything so important and wny something are not ? what is the improantce of order and place and other things and exctce
+// reveiw in time
+
+
+        // what is the imporant tos syntaxt?
+
+
+
+
+
+// then there a re a serious of code and i don't abstract ti then have i have to fighting with the details and try to know what i sthe rit here
+
+
+
+
+
+    }
+
+    public void j() {
+
+        ebbinghauses = (CopyOnWriteArrayList<person_question>) m.getlatest();
+
+//        for (int js = 1; js <= textArea.getText().split("\\r\\n|\\n|\\r").length-1; js++) {
+        // i kind of realize that what i t means to be fun when programming becaues ti tis fun and i really enjoy it .
+        // i have nothing to do thi si what the fucking peole describes focus because ti is there is nothing in the life that can distract me from programming
+// how to get the current thigs that associate iwth the this thing if i use the elastic search then i think it would be easier becaus ether ei s be better scripting experience now i have to write the code to track it which is anooying
+//            j.dh(textArea.getText().split("\\r\\n|\\n|\\r")[js], textArea.getText().split("\\r\\n|\\n|\\r")[textArea.getText().split("\\r\\n|\\n|\\r").length-1]);
+// no mater what htere is always a high level overiveoiw
+
+
+        for (person_question e : ebbinghauses) {
+//            dj = e;
+            boolean asdf = false;
+            Set<String> set = e.getS();
+            boolean foudn = false;
+            if (set.size() !=0) {
+                for (int jss = 1; jss <= textArea.getText().split("\\r\\n|\\n|\\r").length - 1; jss++) {
+                    if (set.contains(textArea.getText().split("\\r\\n|\\n|\\r")[jss])) {
+                        foudn = true;
+                    }
+                }
+            }
+
+
+            if (!foudn) {
+                ebbinghauses.remove(e);
+            }
+        }
+// play songs is like sing with soul it is from me and so long time
+        // time is the what it matters
+
+        tasks = new CopyOnWriteArrayList<Task>();
+        for (person_question e : ebbinghauses) {
+            if (e.text.replace("Dufgt", "").trim().isEmpty()) {
+                m.deleteTask(e.getJavauid());
+            } else {
+                Set<Task> t = e.tasks;
+                for (Task task : t) {
+                    if (null != task) if (null != task) tasks.add(task);
+                }
+            }
+        }
+        if (null != tasks && tasks.size() > 1) Collections.sort(tasks, new Task());
+
+        Runnable r = () -> {
+
+
+            for (person_question e : ebbinghauses) {
+
+                c1come2melater("", e.getText());
+            }
+
+
+
+        };
+
+        dl=true;
+        ExecutorService executor = Executors.newFixedThreadPool(1);
+
+        executor.submit(r);
+
+
+        d = new Display(this);
+        reloadandDisplayThread = new Thread(d);
+        reloadandDisplayThread.start();
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+public boolean dl = false;
+
+
+
+
     public void c1s() {
+        dl = false;
         prop = new Properties();
         Properties temprop = new Properties();
         InputStream input = null;
@@ -141,7 +271,7 @@ static Properties prop;
 
 
     public void c1come2melater(String c1, String c1Path) {
-c1s();
+c1s();dl = false;
         OutputStream output = null;
         OutputStream output_solr = null;
         try {
@@ -211,7 +341,7 @@ c1s();
         }
     }
 public boolean f=true;
-    public void d() {
+    public void d() {dl = false;
         Scanner in = null;
         c1come2melater("", textArea.getText());
         if (null != textArea && !("".equalsIgnoreCase(textArea.getText()))) {
@@ -526,7 +656,7 @@ if(ss.getText().equalsIgnoreCase(stringBuffer1.toString().trim())){
         this.frame = frame;
     }
 
-    public void updatetask() {
+    public void updatetask() {dl = false;
         StringBuilder stringBuilder = new StringBuilder();
         Date date = new Date();
 
@@ -874,7 +1004,7 @@ public static int c =2;
     }
 
     private void displaysearchtasks() {
-
+        dl = false;
         for (Task t : searchtasks) {
             currentTaskSearch=t;
 
@@ -903,7 +1033,7 @@ public static int c =2;
         }
     }
 
-    public void deltask() {
+    public void deltask() {dl = false;
         for (person_question e : ebbinghauses) {
             if (e.getJavauid().toString().equalsIgnoreCase(currentTask.getJavauuid().toString())) {
                 m.deleteTask(e.getJavauid());
@@ -915,7 +1045,7 @@ public static int c =2;
     }
 
 
-    public void addWord(String word, String answer) {
+    public void addWord(String word, String answer) {dl = false;
         person_question pq = new person_question(word, answer,getdatelastday());
         m.store(pq);
         ebbinghauses.add(pq);
@@ -923,6 +1053,7 @@ public static int c =2;
     }
 //http://tutorials.jenkov.com/java-concurrency/volatile.html
     public void loadTask() {
+        dl = false;
         ebbinghauses = (CopyOnWriteArrayList<person_question>) m.getlatest();
         tasks = new CopyOnWriteArrayList<Task>();
         for (person_question e : ebbinghauses) {
@@ -977,6 +1108,7 @@ public static int c =2;
 
 
     public Date getdatelastday() {
+        dl = false;
         CopyOnWriteArrayList<person_question> ebbinghauses2 = (CopyOnWriteArrayList<person_question>) m.getlatest();
         CopyOnWriteArrayList<DecendingTask> taskstemp = new CopyOnWriteArrayList<DecendingTask>();
         for (person_question e : ebbinghauses2) {
@@ -995,6 +1127,7 @@ public static int c =2;
     }
 
     public void searchehabins(String a) {
+        dl = false;
         textArea.setText("");
         ebbinghauses = (CopyOnWriteArrayList<person_question>) m.getlatest();
         searchtasks = new CopyOnWriteArrayList<Task>();
@@ -1033,19 +1166,19 @@ public static int c =2;
     }
 
     public void reloadandDiskplaypopup() {
-        if(!isSearch){
+        if(!isSearch && !dl){
             loadTask();
         }
         displayTask();
     }
 
     public void inster(String word, String answer) throws IOException {
-        addWord(word, answer);
+        addWord(word, answer);dl = false;
         isSearch=false;
     }
 
     private void reloadTAskandrestartPopThread() {
-        textArea.setText("");
+        textArea.setText("");dl = false;
         if (null != reloadandDisplayThread || reloadandDisplayThread.isAlive()) {
             reloadandDisplayThread.interrupt();
         }
@@ -1055,7 +1188,7 @@ public static int c =2;
     }
 
 
-    public void init() {
+    public void init() {dl = false;
 //        c1s();
         loadTask();
         d = new Display(this);
