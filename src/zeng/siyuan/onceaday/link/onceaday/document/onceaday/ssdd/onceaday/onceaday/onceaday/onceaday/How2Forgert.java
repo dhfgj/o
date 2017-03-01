@@ -160,6 +160,11 @@ public class How2Forgert implements Serializable {
 //
 //                c1come2melater("", e.getText());
 //            }
+// what i need to do is to just laught
+
+            //it doesn't matter and people will still apprecaite it
+/// people will still enjoy it
+
 
 
 
