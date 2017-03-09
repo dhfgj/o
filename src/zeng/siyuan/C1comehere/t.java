@@ -1,12 +1,16 @@
 package zeng.siyuan.C1comehere;
 
+import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicNameValuePair;
+import org.apache.http.util.EntityUtils;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -21,6 +25,23 @@ public class t {
     public static void main(String[] args) throws IOException {
         HttpClient client = new DefaultHttpClient();
         HttpPost post = new HttpPost("http://textbelt.com/text");
+        HttpGet get = new HttpGet("http://localhost:9200/movies/movie/1");
+
+//        System.out.println("executing request" + httpget.getRequestLine());
+        CloseableHttpResponse response1 = (CloseableHttpResponse) client.execute(get);
+        try {
+            HttpEntity entity = response1.getEntity();
+            System.out.println("----------------------------------------");
+            System.out.println(response1.getStatusLine());
+            if (entity != null) {
+                System.out.println("Response content length: " + entity.getContentLength());
+                System.out.println(EntityUtils.toString(entity));
+                EntityUtils.consume(entity);
+            }
+        } finally {
+            response1.close();
+        }
+
         try
         {
 
