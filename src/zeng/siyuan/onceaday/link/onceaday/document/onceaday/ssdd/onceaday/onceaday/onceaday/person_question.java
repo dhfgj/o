@@ -1,4 +1,4 @@
-package zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.onceaday;
+    package zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.onceaday;
 
 import com.datastax.driver.mapping.annotations.*;
 import com.fasterxml.uuid.EthernetAddress;
@@ -22,10 +22,43 @@ import java.util.UUID;
         writeConsistency = "QUORUM",
         caseSensitiveKeyspace = false,
         caseSensitiveTable = false)
-
+// we don't know anything but we know waht it it is right
+// what i si right you don't wahink about it you know what the hell it is
+// i know wsomething and i know wha tit i s you are fucking fwroeng and rwroin g
+// i know something and then i hav esto know everything and tell you everything ahsda ti sel fis kind lab labor and you kwno wti t
+// black and whit ei sthe basidca nda never wroingabecause it thi you and others
+// /we are kthat it is that black and whit eand laways rightnad and correnct and never wrong and teyfringi si just jti its is
+// we don't remember everything nothing anyehting , we leanr and we foutog tabut we know wheter ato and the path to difnd t he caryz and gdstudsff
+//
 public class person_question implements Serializable{
     // column name does not match field name
 //    @Column(name = "question")
+// love is working
+    // love is working
+    // it is so unfortunating that it is working
+    // i don't have think about some prplbem bes and because there are ethere already
+    // you knwo athqt it is
+    // it is fun to doi it because it if so so mfunny and you kwno athat it shoulbe that
+    // there are so much funcing thing tos o
+    // love i s reliefing and think that fually everything is owrking and it doesn't have to make sneythign to tod oit do it
+    // love is smothing and working and not working
+    // love forfer me everything and all i need and want to and requriement
+    // it needs something
+    // the internet need i neeed to wo download the elastric search
+    // i5Y
+    // PEOPEL ARE trying everythin gguard all the thing they and have so that they don't have to make things that will be possible you konw
+    // we took everyitni gfo rgrandtyed and now we thingk wa need omsething else but se we don't need that that i sa a problem and you know what aot
+    // i used to think that eveyrthing usas has tsaepaidsiclay the interernatcpaeced is comman dand everytheing but wehne i come back ohome now i underatndthat everything is the smae se s the thing sat ahta tw e have in theweuse  and tub thte espededa is oso sleoww oso hi vhae thing k ithating oaub ti ti a
+    // there is no color an i klike thiit htis way abd thinthig tha tyou know and unsderand will be sdundereand and you knwo about it
+
+    // am i dead
+    // i am not dead
+    // deam i am
+    // dead am i
+    // an't i dead
+    // how ocan i tell that i am not dead?
+
+
 
     //    @Field
     @org.apache.solr.client.solrj.beans.Field

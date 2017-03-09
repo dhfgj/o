@@ -43,7 +43,7 @@ import java.util.concurrent.Executors;
 // there is no name
 // there is no method and ther ei sno public and private
 // it is verythin g
-// it i ths the order that we are try ting to matain
+// it i ths the order that we are try ting to matainff
 // we are trying to make the world order and simepler not what it is
 // it is mkple and easier
 public class C1comehere implements Serializable {
@@ -115,7 +115,7 @@ Properties w;
         // iget all ofr you
         // iget al of you
 
-
+// the vocabulary is ...
         try {
             new File("w.properties").getAbsolutePath();
             input = new FileInputStream(new File("w.properties").getAbsolutePath());
@@ -196,10 +196,14 @@ Properties w;
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-            }
-        }
-    }
+            }// different architecture stylel and how to choose new document and tha ti shd tehpboelcm and i have some soumcuh thing san dthen i have to abract it so that it soemwon causing peoplea hten i try to extent iand it have i can still use the tsmae code
+
+        }// i tmakes me sicke when something makes sense and you know
+    }// test everything then i will know which one is which one
 // i feel like so stupid and i can ask quesitons
+// i don't want to know
+    // there i snothing
+
 
 
     public void l(String c1, String c1Path) {
@@ -231,7 +235,7 @@ Properties w;
                 output_solr.write(System.getProperty("line.separator").getBytes());
                 count++;
             }
-
+// the software i wrote i s easier to use because it is better and  better and nobody know what happen to it and i can use it as my own and i have to use it to do it you know
 
 
             SolrDataDAO solrBaseDAO = null;
@@ -278,7 +282,9 @@ Properties w;
     // how to resolve terveyrhign thow to get everything //
     public static void main(String ar[]) throws Exception {
         try// i forgot the most of the command s because the whold ting kdoesn't matke snese there must be one love and seperate love theier myust be lobe lbolkockers and blockers
-        {
+        {// we don't know where to
+            //  we don't know waht
+            // we don't what
             Process p=Runtime.getRuntime().exec("cmd /c C:\\solr-6.2.0\\bin\\solr start");
             p.waitFor();
             BufferedReader reader=new BufferedReader(// all chainsese people are joulous mof me all the people are thankingme all the what does it mean it means everything everything to you
@@ -1553,6 +1559,7 @@ but i don't have to time to review the same thing again and again
                             textArea.setText("");
                             // solr key words and
                             // how man y table do i wan tto use use the most intuitive stupid version then expadns
+//  i don't know thewer to find i really dont' know aht th ehtierhelel it it is
 
 
 // what are the requied and what a re optional felads? how to enforce this to prive a value to the thing ?
@@ -1660,6 +1667,7 @@ but i don't have to time to review the same thing again and again
                                         // jpe yp make this applicaiton  getter and easier to use
                                         // ther ei s no amchine ther ei no mpersonal cut touch there is not
 
+// ti s s i jsut naturally and the subsequent thing s ahphen and you know wha tht het elll it i slk syou know
 
                                     }
                                 }
@@ -1860,7 +1868,8 @@ lost in the details
 //                            }
 
                         }
-
+// no where to find
+                        // no
                         else if (textArea.getText().equalsIgnoreCase("gitbash")) {
 //                            runCommand("cd c:/temp && start C:/Progra~1/Git/bin/sh.exe --login -i"); //$NON-NLS-1$
 //                            Runtime.getRuntime().exec(new String[]{"start \"C:\\Developer\\Git\\bin\\sh.exe\" --login -i"});
@@ -2182,7 +2191,7 @@ lost in the details
 
         return String.format("http://www.google.com/#tbs=li:1&q=%s", stringBuilder.toString());
     }
-
+// you think tha tyou iwllk need i tiand the furutor ebut you never agonnae use it i s ia a a mthith
                          */
 
 
@@ -2690,7 +2699,10 @@ s.updatetask();
 
 
                             }
+// meesy i don'tt know which ison ei which one
 
+                            // i don't know wha tis what there i s mn maptathinh in may code
+                            // you dont' kwnoa that hte heell it it is
 
 
                             else if(textArea.getText().split("\\r\\n|\\n|\\r")[0].equalsIgnoreCase("asf")) {
@@ -2840,7 +2852,17 @@ s.updatetask();
                         else if (DldeleteCommand_X) {
 
 
-                            if(
+// a then thin kbot theh theings that i remembe in the futue ran it is gwhat i sthwhat right
+                            // i know what it i s
+                            // there are a lot of such things in my mind
+                            // i shold nknow aobut it  t
+                            // who ever is ewthi them then i have to do i t then you shoul dknow hat it i s
+                            //
+
+
+
+
+                           if(
                                     textArea.getText().split("\\r\\n|\\n|\\r")[0].equalsIgnoreCase("a")
 
                                     ) { // it is not silo there multiple lo // it is paraless // there isno abstraction there is no single entry point
@@ -2986,7 +3008,7 @@ s.updatetask();
 
             }
         });
-
+// associateiv eand just oflowo tith efmiond then i iwll knwo then i thsoudl be wha twi si ti sirhgnt an dyou should knwo athat it ti si si s right  nor wrong
 
         SwingUtilities.invokeLater(new Runnable() {
             @Override

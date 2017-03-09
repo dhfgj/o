@@ -150,6 +150,16 @@ select * from keyspace1.ebbinhance6;
 
 
 select * from keyspace1.ssdd;
+select * from keyspace1.doc;
+select * from keyspace1.h1;
+select * from keyspace1.h11;
+select * from keyspace1.j;
+select * from keyspace1.k;
+select * from keyspace1.kk;
+select * from keyspace1.link;
+select * from keyspace1.p;
+select * from keyspace1.plany;
+
 
 
 delete from keyspace1.ssdd where id=78589280-9b8f-41f2-8f4d-59964470d18e;

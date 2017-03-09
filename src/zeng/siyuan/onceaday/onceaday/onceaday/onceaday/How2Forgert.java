@@ -844,7 +844,7 @@ public class How2Forgert implements Serializable {
 
                                     if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
                                         try {
-                                            while (f){
+                                            while (f || !textArea.getText().isEmpty()){
                                                 Thread.sleep(10000);
                                             }
 
@@ -860,7 +860,7 @@ Thread.sleep(1000*5);
                                         Runtime.getRuntime().exec("shutdown.exe -s -t 0");
                                         // what the fuck si the else mean?
                                     } else if (null != e.text || !e.text.trim().isEmpty()) {
-                                        while (f){
+                                                               while (f || !textArea.getText().isEmpty()){
                                             Thread.sleep(10000);
                                         }
 
@@ -993,7 +993,7 @@ Thread.sleep(1000*5);
 
                                         if ((null != e.text && !e.text.isEmpty()) && (e.text.contains("http://") || e.text.contains("https://"))) {
                                             try {
-                                                while (f){
+                                                                       while (f || !textArea.getText().isEmpty()){
                                                     Thread.sleep(10000);
                                                 }
 
@@ -1055,7 +1055,7 @@ Thread.sleep(1000*5);
                                             Runtime.getRuntime().exec("shutdown.exe -s -t 0");
                                             // what the fuck si the else mean?
                                         } else if (null != e.text || !e.text.trim().isEmpty()) {
-                                            while (f){
+                                                                   while (f || !textArea.getText().isEmpty()){
                                                 Thread.sleep(10000);
                                             }
 
@@ -1737,7 +1737,7 @@ tasks.remove(l);
 //                                                if (line.length() > 4) {
                                                     Search search = c1comehere.searchEngines.get("sg ");
 //                                                    String searchTrs = line.substring(3);
-                                            while (f){
+                                            while (f || !textArea.getText().isEmpty()){
                                                 Thread.sleep(10000);
                                             }
 
@@ -1800,7 +1800,7 @@ tasks.remove(l);
 
 
                                     else if (r.isUrl(inntuitive) || inntuitive.contains("c:/")){
-                                            while (f){
+                                            while (f || !textArea.getText().isEmpty()){
                                                 Thread.sleep(10000);
                                             }
 
@@ -1857,7 +1857,7 @@ tasks.remove(l);
                                     }
 
                                     else {
-                                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); }                                             while (f){
+                                        if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); }                                             while (f || !textArea.getText().isEmpty()){
                                                 Thread.sleep(10000);
                                             }
                                             textArea.setText(e.getText());;
@@ -2153,7 +2153,7 @@ if(tasks.size()>0) {
                                             Search search = c1comehere.searchEngines.get("sg ");
 //                                                    String searchTrs = line.substring(3);
                                             search.setURI(e.getText());
-                                            while (f){
+                                            while (f || !textArea.getText().isEmpty()){
                                                 Thread.sleep(10000);
                                             }
 
@@ -2217,7 +2217,7 @@ if(tasks.size()>0) {
 
                                         else if (r.isUrl(inntuitive) || inntuitive.contains("c:/")){
 
-                                            while (f){
+                                            while (f || !textArea.getText().isEmpty()){
                                                 Thread.sleep(10000);
                                             }
 
@@ -2277,7 +2277,7 @@ if(tasks.size()>0) {
                                         else {
                                             if(!textArea.getText().trim().equalsIgnoreCase("")) try { TimeUnit.SECONDS.sleep(5); } catch (InterruptedException e9) { e9.printStackTrace(); }
 //                                            r.open(inntuitive);
-                                            while (f){
+                                            while (f || !textArea.getText().isEmpty()){
                                                 Thread.sleep(10000);
                                             }
 
