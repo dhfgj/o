@@ -31,6 +31,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/r.properties.solr" afterPath="$PROJECT_DIR$/r.properties.solr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/r.properties" afterPath="$PROJECT_DIR$/r.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zeng/siyuan/cassandra.cql" afterPath="$PROJECT_DIR$/src/zeng/siyuan/cassandra.cql" />
     </list>
     <ignored path="c1comehere.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -100,8 +101,8 @@
       <file leaf-file-name="How2Forgert.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/ad/How2Forgert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="686" column="34" lean-forward="true" selection-start-line="686" selection-start-column="34" selection-end-line="686" selection-end-column="34" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -2491,21 +2492,7 @@
       <workItem from="1488706238084" duration="1229000" />
       <workItem from="1488707806697" duration="38287000" />
       <workItem from="1489035709744" duration="5767000" />
-      <workItem from="1489046126813" duration="24192000" />
-    </task>
-    <task id="LOCAL-00109" summary="l">
-      <created>1486262913201</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1486262913201</updated>
-    </task>
-    <task id="LOCAL-00110" summary="l">
-      <created>1486263083104</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1486263083104</updated>
+      <workItem from="1489046126813" duration="24381000" />
     </task>
     <task id="LOCAL-00111" summary="l">
       <created>1486263248967</created>
@@ -2836,7 +2823,21 @@
       <option name="project" value="LOCAL" />
       <updated>1489116227425</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="&#10;d">
+      <created>1489116238548</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1489116238549</updated>
+    </task>
+    <task id="LOCAL-00159" summary="&#10;d">
+      <created>1489116252652</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1489116252652</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2872,7 +2873,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1347910000" />
+    <option name="totallyTimeSpent" value="1348099000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -4022,8 +4023,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/zeng/siyuan/onceaday/link/onceaday/document/onceaday/ssdd/onceaday/onceaday/asdf/asdf/ad/How2Forgert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="686" column="34" lean-forward="true" selection-start-line="686" selection-start-column="34" selection-end-line="686" selection-end-column="34" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

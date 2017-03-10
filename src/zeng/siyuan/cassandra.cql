@@ -182,7 +182,19 @@ create table keyspace1.plany(
 	txt text,
 	type text,
 	tasks list<frozen<type4>>,
-	PRIMARY KEY (id)
+	PRIMARY KEY (id),
+	d list<text>
+);
+
+
+create table keyspace1.u(
+	id uuid,
+	target_date timestamp,
+	txt text,
+	type text,
+	tasks list<frozen<type4>>,
+	PRIMARY KEY (id),
+	d list<text>
 );
 
 
