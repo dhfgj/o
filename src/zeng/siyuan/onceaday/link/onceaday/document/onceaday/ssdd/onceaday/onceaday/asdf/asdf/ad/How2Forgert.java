@@ -906,7 +906,7 @@ public static int c =2;
                                                 while (f) {
                                                     Thread.sleep(10000);
                                                 }
-                                                while (null != e.text && !e.text.isEmpty()) {
+                                                while (null != e.text && !textArea.getText().isEmpty()) {
                                                     Thread.sleep(10000);
                                                 }
                                                 textArea.setText(e.text);
