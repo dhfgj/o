@@ -2708,6 +2708,7 @@ s.updatetask();
                                 aa.f = !aa.f ? true : false;
                                 ja.f=ja.f==false?true:false;
                                 j.f=j.f==false?true:false;
+                                ju.f=ju.f==false?true:false;
                                 dhow2ForgDertlsf.f=dhow2ForgDertlsf.f==false?true:false;
                                 dhow2ForgDertlssf.f=dhow2ForgDertlssf.f==false?true:false;
                             }

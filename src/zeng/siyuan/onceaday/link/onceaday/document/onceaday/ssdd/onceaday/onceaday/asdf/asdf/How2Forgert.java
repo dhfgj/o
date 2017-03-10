@@ -782,9 +782,6 @@ public static int c =2;
                                         Thread.sleep(10000);
                                     }
 
-                                            while (null != e.text && !e.text.isEmpty()) {
-                                                Thread.sleep(10000);
-                                            }
                                             textArea.setText(e.text);
 
                                     r.open(e.text);
@@ -797,9 +794,6 @@ public static int c =2;
                                 // what the fuck si the else mean?
                             } else if (null != e.text || !e.text.trim().isEmpty()) {
                                 while (f) {
-                                    Thread.sleep(10000);
-                                }
-                                while (null != e.text && !e.text.isEmpty()) {
                                     Thread.sleep(10000);
                                 }
                                 textArea.setText(e.text);
@@ -906,9 +900,6 @@ public static int c =2;
                                                 while (f) {
                                                     Thread.sleep(10000);
                                                 }
-                                                while (null != e.text && !e.text.isEmpty()) {
-                                                    Thread.sleep(10000);
-                                                }
                                                 textArea.setText(e.text);
 
                                                 r.open(e.text);
@@ -920,9 +911,6 @@ public static int c =2;
                                             // what the fuck si the else mean?
                                         } else if (null != e.text || !e.text.trim().isEmpty()) {
                                             while (f) {
-                                                Thread.sleep(10000);
-                                            }
-                                            while (null != e.text && !e.text.isEmpty()) {
                                                 Thread.sleep(10000);
                                             }
                                             textArea.setText(e.text);
