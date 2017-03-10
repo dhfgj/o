@@ -74,6 +74,7 @@ public class C1comehere implements Serializable {
     //    public C:\Development_Base\maxcox\maxcox-master\src\zeng\siyuan\onceaday\onceaday\onceaday\How2Forgert dhow2ForgDertlssf;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.How2Forgert a;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.How2Forgert j;
+    public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.ad.How2Forgert ju;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.a.asdf.How2Forgert ja;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.asdf.How2Forgert jd;
     public static C1comehere c1comehere;
@@ -1320,6 +1321,15 @@ Runnable b =()-> {
     j.textArea = textArea;
     j.frame = frame;
     j.init();
+
+
+    if (null == ju) {
+        ju = new zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.ad.How2Forgert(c1comehere, textArea, frame);
+    }
+    ju.c1comehere = c1comehere;
+    ju.textArea = textArea;
+    ju.frame = frame;
+    ju.init();
 
 
     k();
@@ -2927,6 +2937,128 @@ s.updatetask();
 
                             }
                         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        else if (SDcodjDa_lx) {
+                            System.out.println("asdf");
+                            if (textArea.getText().equalsIgnoreCase("k")) {
+                                ju.f=ju.f==false?true:false;
+                            }
+
+                            // all contected and freem integration
+                            // the database is so imporatn
+                            // i should have a databasea that can di all tohe prpgoramming and cactually they can do it
+
+// i want opeope to be happy and peopleww ant me to be happ
+                            // it want s  you to be happy i cawant to talk to mysle fosmething and that is all i nened to so dand that i sall
+                            // i can sit and programming al lthe day wihout stopiong
+
+//                            }
+                            else if(textArea.getText().split("\\r\\n|\\n|\\r")[0].equalsIgnoreCase("asf")) {
+                                for (int js = 1; js <= textArea.getText().split("\\r\\n|\\n|\\r").length-2; js++) {
+                                    // i kind of realize that what i t means to be fun when programming becaues ti tis fun and i really enjoy it .
+                                    // i have nothing to do thi si what the fucking peole describes focus because ti is there is nothing in the life that can distract me from programming
+// how to get the current thigs that associate iwth the this thing if i use the elastic search then i think it would be easier becaus ether ei s be better scripting experience now i have to write the code to track it which is anooying
+                                    ju.dh(textArea.getText().split("\\r\\n|\\n|\\r")[js], textArea.getText().split("\\r\\n|\\n|\\r")[textArea.getText().split("\\r\\n|\\n|\\r").length-1]);
+// no mater what htere is always a high level overiveoiw
+
+// iot sia waste ot itme and you never knwo waht thte hehtelli sshappeiong
+                                    // no matter waht
+                                    // ho can you mess the code no matter how you mess you code
+
+// i don't have money to eat, all i have to it is eat
+                                    // all i have is food
+                                    // all i want is food
+                                    // jpe yp make this applicaiton  getter and easier to use
+                                    // ther ei s no amchine ther ei no mpersonal cut touch there is not
+
+
+                                }
+                            }
+// new message and something hit me
+                            // something hit me hit me
+                            // they rush tome which is crazy don't give me idea and it is pull me everythign
+
+                            // everything is pulling my attention
+// there are so muhc ocmmand and that they are not very useful
+                            // i have know somthign to build somethign useful and uqnituqe and gbetter use
+                            // i don't want to bmove betcause ther eare y pepole everywhere
+                            // thery are people
+
+                            // thre are so much confusion tover thew and there
+                            // it s no easy to do do so
+                            // there are so much eopel i wil  see them
+                            // i don't want to move away from my desk becafuse i will seee so much thin gand they will kill em
+
+
+                            else {
+
+                                ju.d();
+
+                                String textStr[] = textArea.getText().split("\\r\\n|\\n|\\r");
+
+// code the function carelessly and then i will spend the about same abmoutn of time to debugging the code and that i sthe problem
+                                //i don't know twheth ethe pflow works as properly and whether it does work or not or it just deisappeart tand i never get what i get
+                                // i have to understand the results of the thing sna never come back again and that it hs the thoing
+                                // whey did i get mad, i can just let it go and identify it and let it go i don't have to huminilate others and make them come back to me
+                                // unless i want to die sna i wnat the love again do i want to the love
+                                // doi i give away love do i have to get the love again
+                                // ido i wan tto give love
+                                // do i wan tot give away love? this is the question when i try to do domething or chose to iagnoere the things
+//                            person_question e=null;
+                                //sconrn
+                                // strip of
+                                //
+                                for (int i1 = 0; i1 < textStr.length; i1++) {
+
+                                    StringBuffer stringBuffer1 = new StringBuffer();
+//                        stringBuffer1.append(textStr[0]);
+                                    stringBuffer1.append(textStr[i1]);
+
+                                    dhow2ForgDertlsf.inster(textStr[i1], "");
+                                }
+
+                                dhow2ForgDertlssf.fjlasdjfl();
+                                textArea.setText("");
+                            }
+                        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                         else if (SDcodjDa_lxf) {
                             System.out.println("asdf");
