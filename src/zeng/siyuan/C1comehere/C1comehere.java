@@ -70,7 +70,7 @@ public class C1comehere implements Serializable {
     public static zeng.siyuan.onceaday.onceaday.onceaday.How2Forgert dhow2ForgDertlssfasdfMJALKASDHJFGASJGFJKADGFJHASDGKJFG;
     public zeng.siyuan.onceaday.onceaday.onceaday.a.onceaday.How2Forgert ad;
     public zeng.siyuan.onceaday.onceaday.onceaday.onceaday.How2Forgert E;
-    public zeng.siyuan.onceaday.onceaday.onceaday.onceaday.onceaday.How2Forgert t;
+    public zeng.siyuan.onceaday.onceaday.onceaday.onceaday.onceaday.How2Forgert tt;
     //    public C:\Development_Base\maxcox\maxcox-master\src\zeng\siyuan\onceaday\onceaday\onceaday\How2Forgert dhow2ForgDertlssf;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.How2Forgert a;
     public zeng.siyuan.onceaday.link.onceaday.document.onceaday.ssdd.onceaday.onceaday.asdf.asdf.How2Forgert j;
@@ -101,6 +101,7 @@ Properties w;
         // that i sit you don't have to know
         // i know
         // i know
+
 
 
         // i laugh i mean , may i have you attention please lol
@@ -1282,15 +1283,15 @@ Runnable b =()-> {
     E.frame = frame;
     E.init();
 
-    if (null == t) {
-        t = new zeng.siyuan.onceaday.onceaday.onceaday.onceaday.onceaday.How2Forgert(c1comehere, textArea, frame);
+    if (null == tt) {
+        tt = new zeng.siyuan.onceaday.onceaday.onceaday.onceaday.onceaday.How2Forgert(c1comehere, textArea, frame);
     }
 
 
-    t.c1comehere = c1comehere;
-    t.textArea = textArea;
-    t.frame = frame;
-    t.init();
+    tt.c1comehere = c1comehere;
+    tt.textArea = textArea;
+    tt.frame = frame;
+    tt.init();
 /*
 
     if (null == dhow2ForgDertlssfs) {
@@ -1784,7 +1785,7 @@ but i don't have to time to review the same thing again and again
                             System.out.println("Disloadl");
                             if (textArea.getText().equalsIgnoreCase("k")) {
                                 E.f = E.f == false ? true : false;
-                                t.f = t.f == false ? true : false;
+                                tt.f = tt.f == false ? true : false;
 //                                textArea.setText("");
                             }
 
@@ -2080,7 +2081,7 @@ lost in the details
 
 
 
-                                            t.load();
+                                            tt.load();
 
 
 
