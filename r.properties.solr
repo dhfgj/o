@@ -1,15 +1,38 @@
-0,Ctrl + Alt + Shift + S Open Project Structure dialog ,Ctrl%20+%20Alt%20+%20Shift%20+%20S%20Open%20Project%20Structure%20dialog%20
-1,Ctrl + Shift + F12 Toggle maximizing editor ,Ctrl%20+%20Shift%20+%20F12%20Toggle%20maximizing%20editor%20
-2,Ctrl + Shift + A Find Action ,Ctrl%20+%20Shift%20+%20A%20Find%20Action%20
+0,Show usages Ctrl+Alt+F7,Show%20usages%20Ctrl+Alt+F7
+1,Expand/Collapse Ctrl+Shift++/-,Expand/Collapse%20Ctrl+Shift++/-
+2,Run to cursor Alt+F9,Run%20to%20cursor%20Alt+F9
 3,Context Info Alt+Q/Alt+Ctrl+Q,Context%20Info%20Alt+Q/Alt+Ctrl+Q
-4,Alt + Shift + I Inspect current file with current profile ,Alt%20+%20Shift%20+%20I%20Inspect%20current%20file%20with%20current%20profile%20
-5,Toggle case Ctrl+Shift+U,Toggle%20case%20Ctrl+Shift+U
-6,Ctrl + BackQuote (`) Quick switch current scheme ,Ctrl%20+%20BackQuote%20(`)%20Quick%20switch%20current%20scheme%20
-7,Dd whole word Ctrl+Delete/Backspace ,Dd%20whole%20word%20Ctrl+Delete/Backspace%20
-8,Alt + Shift + F Add to Favorites ,Alt%20+%20Shift%20+%20F%20Add%20to%20Favorites%20
-9,Cut the current line/ Copy the current lline,Cut%20the%20current%20line/%20Copy%20the%20current%20lline
-10,Select tot he block Ctrl+Shift+[],Select%20tot%20he%20block%20Ctrl+Shift+[]
-11,Surround with Ctrl+Shift+Insert,Surround%20with%20Ctrl+Shift+Insert
-12,Smart line join/split Ctrl+Shift+J / Ctrl+Enter,Smart%20line%20join/split%20Ctrl+Shift+J%20/%20Ctrl+Enter
-13,Ctrl + Alt + S Open Settings dialog ,Ctrl%20+%20Alt%20+%20S%20Open%20Settings%20dialog%20
-14,Ctrl + Tab Switch between tabs and tool window,Ctrl%20+%20Tab%20Switch%20between%20tabs%20and%20tool%20window
+4,Goto super method/class Ctrl+U,Goto%20super%20method/class%20Ctrl+U
+5,Goto Quick definition Ctrl+Shif+I,Goto%20Quick%20definition%20Ctrl+Shif+I
+6,Smart line join/split Ctrl+Shift+J / Ctrl+Enter,Smart%20line%20join/split%20Ctrl+Shift+J%20/%20Ctrl+Enter
+7,Close last active/message/run/... tab 	Ctrl+Shift+F4,Close%20last%20active/message/run/...%20tab%20	Ctrl+Shift+F4
+8,Ctrl + BackQuote (`) Quick switch current scheme ,Ctrl%20+%20BackQuote%20(`)%20Quick%20switch%20current%20scheme%20
+9,Ctrl + Alt + Shift + S Open Project Structure dialog ,Ctrl%20+%20Alt%20+%20Shift%20+%20S%20Open%20Project%20Structure%20dialog%20
+10,previoius tool window F12,previoius%20tool%20window%20F12
+11,Highlight usages in file Ctrl+Shift+F7,Highlight%20usages%20in%20file%20Ctrl+Shift+F7
+12,Ctrl + Shift + F12 Toggle maximizing editor ,Ctrl%20+%20Shift%20+%20F12%20Toggle%20maximizing%20editor%20
+13,Run Ctrl+F9,Run%20Ctrl+F9
+14,Alt + Up/Down Go to previous/next method,Alt%20+%20Up/Down%20Go%20to%20previous/next%20method
+15,Tab Alt+Left/Right,Tab%20Alt+Left/Right
+16,Ctrl + Shift + A Find Action ,Ctrl%20+%20Shift%20+%20A%20Find%20Action%20
+17,Select views for current file Alt+F1,Select%20views%20for%20current%20file%20Alt+F1
+18,Ctrl + F12 File structure popup,Ctrl%20+%20F12%20File%20structure%20popup
+19,Expand/Collapse Ctrl++/-,Expand/Collapse%20Ctrl++/-
+20,next edit location Ctrl+Shift+Alt+Backspace,next%20edit%20location%20Ctrl+Shift+Alt+Backspace
+21,View breakpoint Ctrl+Shift+F8,View%20breakpoint%20Ctrl+Shift+F8
+22,Ctrl + Tab Switch between tabs and tool window,Ctrl%20+%20Tab%20Switch%20between%20tabs%20and%20tool%20window
+23,Select tot he block Ctrl+Shift+[],Select%20tot%20he%20block%20Ctrl+Shift+[]
+24,Go to symbol Ctrl+Shift+Alt+N,Go%20to%20symbol%20Ctrl+Shift+Alt+N
+25,Find usages/ Find usages in file Alt+F7 / Ctrl+F7,Find%20usages/%20Find%20usages%20in%20file%20Alt+F7%20/%20Ctrl+F7
+26,Cut the current line/ Copy the current lline,Cut%20the%20current%20line/%20Copy%20the%20current%20lline
+27,Goto Implementation Ctrl+Alt+B,Goto%20Implementation%20Ctrl+Alt+B
+28,Hide active or last active window Shift+ESC,Hide%20active%20or%20last%20active%20window%20Shift+ESC
+29,Alt + Shift + F Add to Favorites ,Alt%20+%20Shift%20+%20F%20Add%20to%20Favorites%20
+30,Debug Ctrl+Shift+F9,Debug%20Ctrl+Shift+F9
+31,Goto Type definition Ctrl+Shift+B,Goto%20Type%20definition%20Ctrl+Shift+B
+32,last edit location Ctrl+Shift+Backspace/Ctrl+Alt+Backspace  ,last%20edit%20location%20Ctrl+Shift+Backspace/Ctrl+Alt+Backspace%20%20
+33,Surround with Ctrl+Shift+Insert,Surround%20with%20Ctrl+Shift+Insert
+34,Dd whole word Ctrl+Delete/Backspace ,Dd%20whole%20word%20Ctrl+Delete/Backspace%20
+35,Alt + Shift + I Inspect current file with current profile ,Alt%20+%20Shift%20+%20I%20Inspect%20current%20file%20with%20current%20profile%20
+36,Ctrl + Alt + S Open Settings dialog ,Ctrl%20+%20Alt%20+%20S%20Open%20Settings%20dialog%20
+37,Toggle case Ctrl+Shift+U,Toggle%20case%20Ctrl+Shift+U
